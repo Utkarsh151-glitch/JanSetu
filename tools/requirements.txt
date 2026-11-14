@@ -1,0 +1,6 @@
+# Versions already installed and used for the recorded local verification.
+beautifulsoup4==4.12.3
+cryptography==46.0.5
+pypdf==6.7.4
+# Optional: existing browser inspection, extension smoke and UX screening tools.
+playwright==1.55.0

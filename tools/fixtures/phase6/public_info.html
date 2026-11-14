@@ -1,0 +1,50 @@
+<!doctype html>
+<!-- Static fixture for Phase 6A tests. Models a reviewed public-information page
+     with the elements a JanSetu intervention must never hide or move: navigation,
+     the site's own text-size control, a security notice, a consent banner, an
+     error message, a labelled field and Submit/Cancel. Not a copy of any site. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fixture: public information page</title>
+<style>
+  body { margin: 0; font: 14px/1.3 Arial, sans-serif; color: #222; }
+  header { display: flex; gap: 8px; align-items: center; padding: 8px; background: #0b3d91; color: #fff; }
+  header a { color: #fff; }
+  main { padding: 12px; }
+  p, li { font-size: 13px; line-height: 1.25; }
+  .notice { border: 2px solid #b00020; padding: 8px; color: #7a0014; }
+  .error { color: #b00020; font-weight: bold; }
+  .consent { position: fixed; left: 0; right: 0; bottom: 0; background: #fff; border-top: 1px solid #999; padding: 8px; display: flex; gap: 8px; }
+  form { display: grid; gap: 6px; margin-bottom: 120px; }
+</style>
+</head>
+<body>
+<header>
+  <a href="#main" data-critical="skip-link">Skip to content</a>
+  <a href="#services" data-critical="nav-services">Services</a>
+  <button type="button" data-critical="site-text-size">A+</button>
+</header>
+<main id="main">
+  <h1>How to apply for a certificate</h1>
+  <p class="notice" data-critical="security-notice">Never share your OTP or password with anyone. Officials will not ask for it.</p>
+  <p>Read these instructions before you start. Applications are processed by the department in the order received, and you can check progress with your registration number.</p>
+  <ol id="services">
+    <li>Keep a scanned copy of your proof of address ready before you begin the application.</li>
+    <li>The fee is payable online at the final step; keep the receipt for your records.</li>
+  </ol>
+  <p class="error" role="alert" data-critical="error-message">The service is unavailable between 11 pm and 6 am for maintenance.</p>
+  <form>
+    <label for="ack" data-critical="label">I have read the instructions</label>
+    <input id="ack" type="checkbox" data-critical="checkbox">
+    <div><button type="submit" data-critical="submit">Submit</button> <button type="button" data-critical="cancel">Cancel</button></div>
+  </form>
+</main>
+<div class="consent" data-critical="consent">
+  <span>This site uses cookies.</span>
+  <button type="button" data-critical="consent-accept">Accept</button>
+  <button type="button" data-critical="consent-decline">Decline</button>
+</div>
+</body>
+</html>

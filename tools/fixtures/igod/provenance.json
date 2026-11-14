@@ -1,0 +1,25 @@
+[
+  {
+    "file": "ministries.html",
+    "sourceUrl": "https://igod.gov.in/ug/E002/organizations",
+    "originalSha256": "3d289b9c29cdcd052e95d38f5602033494167a26a3b791b0aad9a82a7df30a67",
+    "method": "Recorded real grid-content and public pagination script"
+  },
+  {
+    "file": "state.html",
+    "sourceUrl": "https://igod.gov.in/sg/MP/categories",
+    "originalSha256": "8d8a0bf879991be456ec4bf26f79b5e267d8a6fbb13e64e0a42e5ea0e730ab01",
+    "method": "Recorded real grid-content and public pagination script"
+  },
+  {
+    "file": "pagination.html",
+    "sourceUrl": "https://igod.gov.in/ug/E005/organizations_list_more/25/5?keyword=",
+    "method": "Public AJAX response recorded from live request"
+  },
+  {
+    "file": "districts-fragment.html",
+    "sourceUrl": "https://igod.gov.in/districts/list_more/84/24",
+    "retrievedAt": "2026-10-13T22:05:41+00:00",
+    "method": "Recorded real fragment including unlinked district"
+  }
+]

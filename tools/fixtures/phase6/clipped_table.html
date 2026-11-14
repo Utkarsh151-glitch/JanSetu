@@ -1,0 +1,31 @@
+<!doctype html>
+<!-- Static fixture for Phase 6A tests. Models a service table wider than a phone
+     inside a container with overflow-x:hidden, with body and html also hidden,
+     as measured on a live list page on 2026-10-17. Not a copy of any site. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fixture: clipped service table</title>
+<style>
+  html, body { overflow-x: hidden; margin: 0; font: 15px/1.4 Arial, sans-serif; }
+  .smooth-overflow { overflow-x: hidden; padding: 20px; }
+  table { width: 843px; border-collapse: collapse; }
+  th, td { border: 1px solid #000; padding: 4px; vertical-align: middle; }
+  th { background: #007a00; color: #fff; }
+  a { color: #3c8dbc; }
+</style>
+</head>
+<body>
+<div class="smooth-overflow">
+  <table>
+    <tr><th>S.No</th><th>Department</th><th>Service name</th><th>User manual</th><th>Stipulated Timeline</th>
+        <th data-critical="fee-header">Fee</th><th data-critical="documents-header">List of Document Required</th><th data-critical="apply-header">link to apply</th></tr>
+    <tr><td>1</td><td>Revenue Department</td><td>Income Certificate</td><td><a href="#manual">Operator</a></td><td>15 days</td>
+        <td>Rs. 60</td><td>Proof of income; proof of address</td><td><a href="#apply" data-critical="apply-link">Apply through e-Sevai centre</a></td></tr>
+    <tr><td>2</td><td>Revenue Department</td><td>Community Certificate</td><td><a href="#manual">Operator</a></td><td>30 days</td>
+        <td>Rs. 60</td><td>Parent's community certificate</td><td><a href="#apply">Apply through e-Sevai centre</a></td></tr>
+  </table>
+</div>
+</body>
+</html>

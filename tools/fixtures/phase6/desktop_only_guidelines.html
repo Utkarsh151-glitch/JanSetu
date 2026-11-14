@@ -1,0 +1,25 @@
+<!doctype html>
+<!-- Static fixture for Phase 6A tests. Models a guidelines page with no viewport
+     meta and a fixed 960px container, followed by an acknowledgement gate, as
+     measured on a live page on 2026-10-17. Not a copy of any site. -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fixture: desktop-only guidelines</title>
+<style>
+  body { margin: 0; font: 15.33px/1.75 Arial, sans-serif; }
+  .wrap { width: 960px; margin: 0 auto; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <ol>
+    <li>Applicants below the poverty line attach their certificate and pay no fee.</li>
+    <li>Do not upload identity cards as supporting documents.</li>
+    <li>If no registration number appears after payment, wait 24 to 48 hours before trying again.</li>
+  </ol>
+  <label><input type="checkbox" data-critical="ack"> I have read and understood the above guidelines.</label>
+  <input type="submit" value="Submit" data-critical="submit"> <input type="button" value="Cancel" data-critical="cancel">
+</div>
+</body>
+</html>
