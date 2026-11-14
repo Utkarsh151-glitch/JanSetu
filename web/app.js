@@ -5,8 +5,8 @@ let currentCategory = 'all';
 let currentLevel = 'all';
 let searchQuery = '';
 let activeModalService = null;
-let checkedDocuments = new Set();
-let universalDocs = new Set(['Aadhaar Card', 'PAN Card']);
+let checkedDocIndices = new Set();
+let universalDocs = new Set(['Aadhaar Card (UIDAI)', 'Permanent Account Number (PAN Card)']);
 
 // Common Indian documents for Universal Vault
 const COMMON_DOCS = [
@@ -27,7 +27,33 @@ document.addEventListener('DOMContentLoaded', () => {
   renderCategoryRibbon();
   renderContent();
   renderCommonDocs();
-  lucide.createIcons();
+
+  // Close modals when clicking on background backdrop
+  const sModal = document.getElementById('serviceModal');
+  if (sModal) {
+    sModal.addEventListener('click', (e) => {
+      if (e.target.id === 'serviceModal') closeModal();
+    });
+  }
+
+  const rModal = document.getElementById('readinessModal');
+  if (rModal) {
+    rModal.addEventListener('click', (e) => {
+      if (e.target.id === 'readinessModal') closeReadinessModal();
+    });
+  }
+
+  // Close modals on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeModal();
+      closeReadinessModal();
+    }
+  });
+
+  if (window.lucide) {
+    window.lucide.createIcons();
+  }
 });
 
 // Render Category Ribbon
@@ -38,13 +64,13 @@ function renderCategoryRibbon() {
   let html = `
     <button onclick="selectCategory('all')" class="flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-semibold transition ${currentCategory === 'all' ? 'bg-brand-600 text-white shadow-sm' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
       <span>${currentLang === 'hi' ? 'सभी श्रेणियां' : 'All Categories'}</span>
-      <span class="ml-1.5 px-1.5 py-0.2 rounded-full text-[10px] ${currentCategory === 'all' ? 'bg-brand-700' : 'bg-slate-200'}">${window.JANSETU_SERVICES.length}</span>
+      <span class="ml-1.5 px-1.5 py-0.2 rounded-full text-[10px] ${currentCategory === 'all' ? 'bg-brand-700' : 'bg-slate-200'}">${window.JANSETU_SERVICES ? window.JANSETU_SERVICES.length : 0}</span>
     </button>
   `;
 
   window.JANSETU_CATEGORIES.forEach(cat => {
     const isSelected = currentCategory === cat.id;
-    const count = window.JANSETU_SERVICES.filter(s => s.categories && s.categories.includes(cat.id)).length;
+    const count = (window.JANSETU_SERVICES || []).filter(s => s.categories && s.categories.includes(cat.id)).length;
     const title = currentLang === 'hi' && cat.titleHi ? cat.titleHi : cat.title;
 
     html += `
@@ -68,7 +94,7 @@ function selectCategory(catId) {
 
 // Handle Search
 function handleSearch(val) {
-  searchQuery = val.trim().toLowerCase();
+  searchQuery = (val || '').trim().toLowerCase();
   const clearBtn = document.getElementById('clearSearchBtn');
   if (clearBtn) {
     if (searchQuery.length > 0) clearBtn.classList.remove('hidden');
@@ -98,12 +124,14 @@ function switchTab(tab) {
   const sBtn = document.getElementById('tabServicesBtn');
   const pBtn = document.getElementById('tabPortalsBtn');
 
-  if (tab === 'services') {
-    sBtn.className = 'px-4 py-2 rounded-lg text-xs font-semibold bg-white text-slate-900 shadow-sm transition';
-    pBtn.className = 'px-4 py-2 rounded-lg text-xs font-semibold text-slate-600 hover:text-slate-900 transition';
-  } else {
-    pBtn.className = 'px-4 py-2 rounded-lg text-xs font-semibold bg-white text-slate-900 shadow-sm transition';
-    sBtn.className = 'px-4 py-2 rounded-lg text-xs font-semibold text-slate-600 hover:text-slate-900 transition';
+  if (sBtn && pBtn) {
+    if (tab === 'services') {
+      sBtn.className = 'px-4 py-2 rounded-lg text-xs font-semibold bg-white text-slate-900 shadow-sm transition';
+      pBtn.className = 'px-4 py-2 rounded-lg text-xs font-semibold text-slate-600 hover:text-slate-900 transition';
+    } else {
+      pBtn.className = 'px-4 py-2 rounded-lg text-xs font-semibold bg-white text-slate-900 shadow-sm transition';
+      sBtn.className = 'px-4 py-2 rounded-lg text-xs font-semibold text-slate-600 hover:text-slate-900 transition';
+    }
   }
 
   renderContent();
@@ -131,9 +159,9 @@ function getFilteredServices() {
       const descMatch = (service.description || '').toLowerCase().includes(q);
       const deptMatch = (service.department || '').toLowerCase().includes(q);
       const stateMatch = (service.state || '').toLowerCase().includes(q);
-      const intentsMatch = (service.citizenIntents || []).some(i => i.toLowerCase().includes(q));
-      const synonymsMatch = (service.synonyms || []).some(s => s.toLowerCase().includes(q));
-      const docsMatch = (service.documents || []).some(d => d.toLowerCase().includes(q));
+      const intentsMatch = (service.citizenIntents || []).some(i => (i || '').toLowerCase().includes(q));
+      const synonymsMatch = (service.synonyms || []).some(s => (s || '').toLowerCase().includes(q));
+      const docsMatch = (service.documents || []).some(d => (d || '').toLowerCase().includes(q));
 
       if (!titleMatch && !descMatch && !deptMatch && !stateMatch && !intentsMatch && !synonymsMatch && !docsMatch) {
         return false;
@@ -178,18 +206,19 @@ function renderContent() {
   const container = document.getElementById('servicesContainer');
   const emptyState = document.getElementById('emptyState');
   const countBadge = document.getElementById('resultCountBadge');
+  if (!container) return;
 
   if (currentTab === 'services') {
     const list = getFilteredServices();
-    countBadge.innerText = `Showing ${list.length} source-reviewed services`;
+    if (countBadge) countBadge.innerText = `Showing ${list.length} source-reviewed services`;
 
     if (list.length === 0) {
       container.innerHTML = '';
-      emptyState.classList.remove('hidden');
+      if (emptyState) emptyState.classList.remove('hidden');
       return;
     }
 
-    emptyState.classList.add('hidden');
+    if (emptyState) emptyState.classList.add('hidden');
     let html = '';
 
     list.forEach(item => {
@@ -214,7 +243,7 @@ function renderContent() {
             </div>
 
             <!-- Title & Department -->
-            <h3 class="font-bold text-slate-900 text-lg group-hover:text-brand-600 transition leading-snug">
+            <h3 onclick="openServiceModal('${item.id}')" class="cursor-pointer font-bold text-slate-900 text-lg group-hover:text-brand-600 transition leading-snug">
               ${item.title}
             </h3>
             <p class="text-xs font-medium text-slate-500 mt-1 line-clamp-1">
@@ -241,7 +270,7 @@ function renderContent() {
 
           <!-- Card Actions -->
           <div class="bg-slate-50 px-6 py-3 border-t border-slate-100 flex items-center justify-between">
-            <button onclick='openServiceModal(${JSON.stringify(item.id)})' class="text-xs font-semibold text-brand-600 hover:text-brand-800 flex items-center space-x-1">
+            <button onclick="openServiceModal('${item.id}')" class="text-xs font-semibold text-brand-600 hover:text-brand-800 flex items-center space-x-1 cursor-pointer">
               <span>View Checklist &amp; Guide</span>
               <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
             </button>
@@ -257,15 +286,15 @@ function renderContent() {
   } else {
     // Portals directory tab
     const list = getFilteredPortals();
-    countBadge.innerText = `Showing ${list.length} official government portals`;
+    if (countBadge) countBadge.innerText = `Showing ${list.length} official government portals`;
 
     if (list.length === 0) {
       container.innerHTML = '';
-      emptyState.classList.remove('hidden');
+      if (emptyState) emptyState.classList.remove('hidden');
       return;
     }
 
-    emptyState.classList.add('hidden');
+    if (emptyState) emptyState.classList.add('hidden');
     let html = '';
 
     list.forEach(p => {
@@ -308,80 +337,100 @@ function renderContent() {
     container.innerHTML = html;
   }
 
-  lucide.createIcons();
+  if (window.lucide) {
+    window.lucide.createIcons();
+  }
 }
 
 // Open Service Modal
 function openServiceModal(serviceId) {
-  const service = window.JANSETU_SERVICES.find(s => s.id === serviceId);
-  if (!service) return;
+  const service = (window.JANSETU_SERVICES || []).find(s => s.id === serviceId);
+  if (!service) {
+    console.warn("Service not found for id:", serviceId);
+    return;
+  }
 
   activeModalService = service;
-  checkedDocuments.clear();
+  checkedDocIndices.clear();
 
   const modal = document.getElementById('serviceModal');
+  if (!modal) return;
+
   const catObj = window.JANSETU_CATEGORIES?.find(c => service.categories && service.categories.includes(c.id));
 
-  document.getElementById('modalTitle').innerText = service.title;
-  document.getElementById('modalDepartment').innerText = service.department || 'Government of India';
-  document.getElementById('modalDescription').innerText = service.description || '';
-  document.getElementById('modalCategoryBadge').innerText = catObj?.title || 'Public Service';
-  document.getElementById('modalLevelBadge').innerText = `${service.level || 'Central'} ${service.state ? `• ${service.state}` : ''}`;
-  document.getElementById('modalProcessing').innerText = service.processing || 'Standard department timeframe';
-  document.getElementById('modalFees').innerText = service.fees || 'Free / Nil';
+  const setElText = (id, text) => {
+    const el = document.getElementById(id);
+    if (el) el.innerText = text;
+  };
 
-  const appUrl = service.applicationUrl || service.informationUrl || service.sourceUrl || '#';
-  document.getElementById('modalActionBtn').href = appUrl;
+  setElText('modalTitle', service.title || '');
+  setElText('modalDepartment', service.department || 'Government of India');
+  setElText('modalDescription', service.description || '');
+  setElText('modalCategoryBadge', catObj?.title || 'Public Service');
+  setElText('modalLevelBadge', `${service.level || 'Central'} ${service.state ? `• ${service.state}` : ''}`);
+  setElText('modalProcessing', service.processing || 'Standard department timeframe');
+  setElText('modalFees', service.fees || 'Free / Nil');
+
+  const actionBtn = document.getElementById('modalActionBtn');
+  if (actionBtn) {
+    actionBtn.href = service.applicationUrl || service.informationUrl || service.sourceUrl || '#';
+  }
 
   // Eligibility
   const eligList = document.getElementById('modalEligibilityList');
-  eligList.innerHTML = '';
-  if (service.eligibility && service.eligibility.length > 0) {
-    service.eligibility.forEach(e => {
-      eligList.innerHTML += `
-        <li class="flex items-start space-x-2">
-          <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"></i>
-          <span>${e}</span>
-        </li>
-      `;
-    });
-  } else {
-    eligList.innerHTML = '<li class="text-xs text-slate-400">Open to eligible citizens meeting statutory criteria.</li>';
+  if (eligList) {
+    eligList.innerHTML = '';
+    if (service.eligibility && service.eligibility.length > 0) {
+      service.eligibility.forEach(e => {
+        eligList.innerHTML += `
+          <li class="flex items-start space-x-2">
+            <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"></i>
+            <span>${e}</span>
+          </li>
+        `;
+      });
+    } else {
+      eligList.innerHTML = '<li class="text-xs text-slate-400">Open to eligible citizens meeting statutory criteria.</li>';
+    }
   }
 
   // Documents Checklist
   renderModalDocuments();
 
-  modal.classList.remove('hidden');
+  // Show modal using display flex
+  modal.style.display = 'flex';
   document.body.classList.add('overflow-hidden');
-  lucide.createIcons();
+
+  if (window.lucide) {
+    window.lucide.createIcons();
+  }
 }
 
-// Render Modal Document Checklist
+// Render Modal Document Checklist using numeric indices
 function renderModalDocuments() {
   const docContainer = document.getElementById('modalDocumentsList');
   const scoreBadge = document.getElementById('checklistScore');
   const progressBar = document.getElementById('checklistProgressBar');
 
-  if (!activeModalService) return;
+  if (!activeModalService || !docContainer) return;
 
   const docs = activeModalService.documents || [];
   const total = docs.length;
-  const readyCount = checkedDocuments.size;
+  const readyCount = checkedDocIndices.size;
 
-  scoreBadge.innerText = `${readyCount} of ${total} Ready`;
+  if (scoreBadge) scoreBadge.innerText = `${readyCount} of ${total} Ready`;
   const pct = total > 0 ? (readyCount / total) * 100 : 0;
-  progressBar.style.width = `${pct}%`;
+  if (progressBar) progressBar.style.width = `${pct}%`;
 
   let html = '';
   if (docs.length === 0) {
     html = '<p class="text-xs text-slate-400">No mandatory pre-requisite documents declared.</p>';
   } else {
     docs.forEach((doc, idx) => {
-      const isChecked = checkedDocuments.has(doc);
+      const isChecked = checkedDocIndices.has(idx);
       html += `
         <label class="flex items-start space-x-2.5 p-2 rounded-xl border transition cursor-pointer ${isChecked ? 'bg-emerald-50/70 border-emerald-300 text-emerald-950 font-medium' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'}">
-          <input type="checkbox" ${isChecked ? 'checked' : ''} onchange="toggleDocumentCheck('${doc.replace(/'/g, "\'")}')" class="mt-0.5 w-4 h-4 rounded text-emerald-600 focus:ring-emerald-500 border-slate-300" />
+          <input type="checkbox" ${isChecked ? 'checked' : ''} onchange="toggleDocumentCheckByIndex(${idx})" class="mt-0.5 w-4 h-4 rounded text-emerald-600 focus:ring-emerald-500 border-slate-300" />
           <span class="text-xs leading-relaxed flex-grow">${doc}</span>
         </label>
       `;
@@ -391,32 +440,37 @@ function renderModalDocuments() {
   docContainer.innerHTML = html;
 }
 
-// Toggle Document Check
-function toggleDocumentCheck(docName) {
-  if (checkedDocuments.has(docName)) {
-    checkedDocuments.delete(docName);
+// Toggle Document Check by numeric index
+function toggleDocumentCheckByIndex(idx) {
+  if (checkedDocIndices.has(idx)) {
+    checkedDocIndices.delete(idx);
   } else {
-    checkedDocuments.add(docName);
+    checkedDocIndices.add(idx);
   }
   renderModalDocuments();
 }
 
 // Close Modal
 function closeModal() {
-  document.getElementById('serviceModal').classList.add('hidden');
+  const modal = document.getElementById('serviceModal');
+  if (modal) modal.style.display = 'none';
   document.body.classList.remove('overflow-hidden');
   activeModalService = null;
 }
 
 // Open Readiness Modal
 function openReadinessModal() {
-  document.getElementById('readinessModal').classList.remove('hidden');
+  const rModal = document.getElementById('readinessModal');
+  if (rModal) rModal.style.display = 'flex';
   document.body.classList.add('overflow-hidden');
-  lucide.createIcons();
+  if (window.lucide) {
+    window.lucide.createIcons();
+  }
 }
 
 function closeReadinessModal() {
-  document.getElementById('readinessModal').classList.add('hidden');
+  const rModal = document.getElementById('readinessModal');
+  if (rModal) rModal.style.display = 'none';
   document.body.classList.remove('overflow-hidden');
 }
 
@@ -430,7 +484,7 @@ function renderCommonDocs() {
     const isChecked = universalDocs.has(doc.name);
     html += `
       <label class="flex items-center space-x-3 p-3 rounded-xl border transition cursor-pointer ${isChecked ? 'bg-emerald-50 border-emerald-300' : 'bg-white border-slate-200 hover:bg-slate-50'}">
-        <input type="checkbox" ${isChecked ? 'checked' : ''} onchange="toggleUniversalDoc('${doc.name}')" class="w-4 h-4 rounded text-emerald-600 focus:ring-emerald-500 border-slate-300" />
+        <input type="checkbox" ${isChecked ? 'checked' : ''} onchange="toggleUniversalDoc('${doc.id}')" class="w-4 h-4 rounded text-emerald-600 focus:ring-emerald-500 border-slate-300" />
         <div class="flex-grow">
           <div class="text-xs font-bold text-slate-800">${doc.name}</div>
           <div class="text-[11px] text-slate-500">${doc.desc}</div>
@@ -442,29 +496,38 @@ function renderCommonDocs() {
   container.innerHTML = html;
 }
 
-function toggleUniversalDoc(name) {
-  if (universalDocs.has(name)) universalDocs.delete(name);
-  else universalDocs.add(name);
+function toggleUniversalDoc(docId) {
+  const doc = COMMON_DOCS.find(d => d.id === docId);
+  if (!doc) return;
+  if (universalDocs.has(doc.name)) universalDocs.delete(doc.name);
+  else universalDocs.add(doc.name);
   renderCommonDocs();
 }
 
 // Language Switch
 function toggleLanguage() {
   currentLang = currentLang === 'en' ? 'hi' : 'en';
-  document.getElementById('langLabel').innerText = currentLang === 'en' ? 'हिंदी' : 'English';
+  const langLabel = document.getElementById('langLabel');
+  if (langLabel) langLabel.innerText = currentLang === 'en' ? 'हिंदी' : 'English';
+
+  const titleEl = document.getElementById('heroTitle');
+  const subtitleEl = document.getElementById('heroSubtitle');
+  const searchInput = document.getElementById('searchInput');
+  const sLabel = document.getElementById('tabServicesLabel');
+  const pLabel = document.getElementById('tabPortalsLabel');
 
   if (currentLang === 'hi') {
-    document.getElementById('heroTitle').innerHTML = 'नागरिक सेवाओं तक पहुँचें <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 via-brand-600 to-ashoka-600">सहजता और स्पष्टता से</span>';
-    document.getElementById('heroSubtitle').innerText = 'अपनी आवश्यकता के अनुसार आधिकारिक सरकारी सेवाएँ खोजें। सरल सारांश, सत्यापित चेकलिस्ट, आवश्यक दस्तावेज़ और आधिकारिक पोर्टलों का सुरक्षित मार्ग।';
-    document.getElementById('searchInput').placeholder = 'सेवा खोजें, जैसे "छात्रवृत्ति", "पैन कार्ड", "आरटीआई", "पासपोर्ट", "वोटर आईडी"...';
-    document.getElementById('tabServicesLabel').innerText = 'नागरिक सेवाएँ (52)';
-    document.getElementById('tabPortalsLabel').innerText = 'आधिकारिक पोर्टल निर्देशिका';
+    if (titleEl) titleEl.innerHTML = 'नागरिक सेवाओं तक पहुँचें <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 via-brand-600 to-ashoka-600">सहजता और स्पष्टता से</span>';
+    if (subtitleEl) subtitleEl.innerText = 'अपनी आवश्यकता के अनुसार आधिकारिक सरकारी सेवाएँ खोजें। सरल सारांश, सत्यापित चेकलिस्ट, आवश्यक दस्तावेज़ और आधिकारिक पोर्टलों का सुरक्षित मार्ग।';
+    if (searchInput) searchInput.placeholder = 'सेवा खोजें, जैसे "छात्रवृत्ति", "पैन कार्ड", "आरटीआई", "पासपोर्ट", "वोटर आईडी"...';
+    if (sLabel) sLabel.innerText = 'नागरिक सेवाएँ (52)';
+    if (pLabel) pLabel.innerText = 'आधिकारिक पोर्टल निर्देशिका';
   } else {
-    document.getElementById('heroTitle').innerHTML = 'Access Indian Public Services with <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 via-brand-600 to-ashoka-600">Clarity &amp; Ease</span>';
-    document.getElementById('heroSubtitle').innerText = 'Find official government portals by what you need to do. Plain-language summaries, verified checklists, required documents, and direct safe routes to government portals.';
-    document.getElementById('searchInput').placeholder = "Search service, e.g. 'Scholarship', 'PAN card', 'RTI', 'Passport', 'Voter ID'...";
-    document.getElementById('tabServicesLabel').innerText = 'Citizen Services (52)';
-    document.getElementById('tabPortalsLabel').innerText = 'Official Portals Directory';
+    if (titleEl) titleEl.innerHTML = 'Access Indian Public Services with <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 via-brand-600 to-ashoka-600">Clarity &amp; Ease</span>';
+    if (subtitleEl) subtitleEl.innerText = 'Find official government portals by what you need to do. Plain-language summaries, verified checklists, required documents, and direct safe routes to government portals.';
+    if (searchInput) searchInput.placeholder = "Search service, e.g. 'Scholarship', 'PAN card', 'RTI', 'Passport', 'Voter ID'...";
+    if (sLabel) sLabel.innerText = 'Citizen Services (52)';
+    if (pLabel) pLabel.innerText = 'Official Portals Directory';
   }
 
   renderCategoryRibbon();
@@ -484,3 +547,18 @@ function resetFilters() {
   renderCategoryRibbon();
   renderContent();
 }
+
+// Explicit window bindings
+window.openServiceModal = openServiceModal;
+window.closeModal = closeModal;
+window.openReadinessModal = openReadinessModal;
+window.closeReadinessModal = closeReadinessModal;
+window.toggleDocumentCheckByIndex = toggleDocumentCheckByIndex;
+window.toggleUniversalDoc = toggleUniversalDoc;
+window.toggleLanguage = toggleLanguage;
+window.resetFilters = resetFilters;
+window.switchTab = switchTab;
+window.selectCategory = selectCategory;
+window.handleSearch = handleSearch;
+window.clearSearch = clearSearch;
+window.handleLevelChange = handleLevelChange;
