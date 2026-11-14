@@ -1,0 +1,66 @@
+# ==============================================================================
+# JanSetu Repository Ignore Rules
+# ==============================================================================
+
+# Android & Gradle build outputs
+.gradle/
+build/
+**/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# IDE & Editor caches
+.idea/
+.kotlin/
+*.iml
+*.iws
+*.ipr
+out/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration & environment workarounds
+local.properties
+powershell.cmd
+*.log
+emulator-launch*.log
+
+# Keystores & Private cryptographic keys
+*.jks
+*.keystore
+.local/
+*.pem
+*.key
+
+# Built distribution artifacts
+artifacts/
+
+# Python runtime & Node dependencies
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+node_modules/
+
+# Raw crawler caches and quarantined scrapings
+data/collection/**/snapshots/
+data/collection/**/destination_snapshots/
+data/collection/**/manifest.json
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives
+*.zip
+*.tar.gz
+*.7z
+*.rar
