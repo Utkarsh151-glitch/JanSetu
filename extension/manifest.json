@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "JanSetu Companion",
+  "version": "0.3.0",
+  "description": "A local companion panel for finding and checking selected official Indian government portals.",
+  "permissions": [
+    "sidePanel",
+    "activeTab"
+  ],
+  "action": {
+    "default_title": "Open JanSetu Companion"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "panel.html"
+  }
+}
