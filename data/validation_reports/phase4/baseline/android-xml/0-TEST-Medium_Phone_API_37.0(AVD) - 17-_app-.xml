@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="in.jansetu.app.DetailGuideTest" tests="28" failures="0" errors="0" skipped="0" time="400.828" timestamp="2026-10-16T17:44:08" hostname="localhost">
+  <properties>
+    <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="sourceBackedGuideAndMissingGuideRender" classname="in.jansetu.app.DetailGuideTest" time="22.449" />
+  <testcase name="signedUpdatePersistsOfflineRejectsDamageAndRestoresBundle" classname="in.jansetu.app.LocalWorkflowsTest" time="76.292" />
+  <testcase name="hindiGuideAndAccessibleNavigationUseRuntimeTranslations" classname="in.jansetu.app.LocalWorkflowsTest" time="8.411" />
+  <testcase name="favoriteRecentSearchAndHistoryWorkThroughTheApp" classname="in.jansetu.app.LocalWorkflowsTest" time="26.506" />
+  <testcase name="organizationGroupingAndCategoryHierarchyAreNavigable" classname="in.jansetu.app.LocalWorkflowsTest" time="11.016" />
+  <testcase name="onboardingAndTopLevelNavigationWork" classname="in.jansetu.app.MainFlowTest" time="24.035" />
+  <testcase name="actualRegionalRecordCanBeFoundThroughStateAndDistrictControls" classname="in.jansetu.app.RegionalCatalogTest" time="26.782" />
+  <testcase name="categorySearchShowsPublishedPortalAndHonestEmptyState" classname="in.jansetu.app.SearchScreenTest" time="15.999" />
+  <testcase name="searchDisplaysVerifiedPortal" classname="in.jansetu.app.SearchScreenTest" time="15.511" />
+  <testcase name="newInformationOnlyServiceShowsUnknownsSourcesAndNoApply" classname="in.jansetu.app.ServiceFlowTest" time="7.94" />
+  <testcase name="citizenSearchOpensARealServiceThroughAppNavigation" classname="in.jansetu.app.ServiceFlowTest" time="19.472" />
+  <testcase name="newConfirmedServiceOpensReviewedLoginEntryAndOffersLocalTracking" classname="in.jansetu.app.ServiceFlowTest" time="8.713" />
+  <testcase name="serviceOfficialLinksUseExactEvidenceAndApplicationUrls" classname="in.jansetu.app.ServiceFlowTest" time="9.209" />
+  <testcase name="actualSignedInstallAndBundleRestoreDoNotModifySavedApplicationHistory" classname="in.jansetu.app.TrackerCatalogBoundaryTest" time="26.595" />
+  <testcase name="manualCreateEditHistoryMaskingValidationAndConfirmedDeleteWork" classname="in.jansetu.app.TrackerFlowTest" time="36.178" />
+  <testcase name="editorDraftSurvivesSavedStateRestorationWithoutPersisting" classname="in.jansetu.app.TrackerFlowTest" time="6.459" />
+  <testcase name="informationAndAssistedServicePagesNeverOfferApplyOrTrackerShortcut" classname="in.jansetu.app.TrackerFlowTest" time="9.034" />
+  <testcase name="serviceSearchPrefillsOnlyConfirmedFactsAndDoesNotInferSubmission" classname="in.jansetu.app.TrackerFlowTest" time="24.219" />
+  <testcase name="removeAllRequiresConfirmationAndDoesNotChangePreferences" classname="in.jansetu.app.TrackerFlowTest" time="12.671" />
+  <testcase name="actualAlarmIdentityReplacementCancellationAndPrivateNotificationPosting" classname="in.jansetu.app.TrackerReminderTest" time="2.096" />
+  <testcase name="reminderDeliveryGuardSurvivesReopenAndRechecksDeletedOrChangedDates" classname="in.jansetu.app.TrackerRepositoryTest" time="0.905" />
+  <testcase name="progressDatesUseCurrentTimezoneAcrossMidnightWithoutRecreatingRepository" classname="in.jansetu.app.TrackerRepositoryTest" time="0.409" />
+  <testcase name="authenticatedEncryptionRejectsPayloadSwapsAndContainsNoPlaintext" classname="in.jansetu.app.TrackerRepositoryTest" time="0.248" />
+  <testcase name="crudReopenAndEditsPreserveHistoryAndUnrelatedRecords" classname="in.jansetu.app.TrackerRepositoryTest" time="0.851" />
+  <testcase name="multipleApplicationsForOneServiceAndManualEntriesAreIndependent" classname="in.jansetu.app.TrackerRepositoryTest" time="4.662" />
+  <testcase name="corruptAndInvalidPayloadsArePreservedAndDoNotOverwriteGoodData" classname="in.jansetu.app.TrackerRepositoryTest" time="1.098" />
+  <testcase name="wholeDatabaseCorruptionDoesNotTriggerDestructiveRecovery" classname="in.jansetu.app.TrackerRepositoryTest" time="0.883" />
+  <testcase name="additiveVersionOneMigrationKeepsEncryptedRecordAndHistory" classname="in.jansetu.app.TrackerRepositoryTest" time="0.582" />
+</testsuite>

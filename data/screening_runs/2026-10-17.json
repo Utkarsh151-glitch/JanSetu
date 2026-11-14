@@ -1,0 +1,840 @@
+{
+  "method": "Phase 6A: one read-only headless Chrome load per page; metrics at 390px, then the same document resized to 320px and 195px (about 200% zoom on a 390px phone). No interaction, sign-in or form use.",
+  "browser": "Chrome 155.0.8059.41 (headless)",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "tls": "Normal certificate validation (ignore_https_errors=False)",
+  "pages": [
+    {
+      "id": "scholarship-home",
+      "portalId": "national-scholarship-portal",
+      "url": "https://scholarships.gov.in/home",
+      "reason": "Existing Chrome readability pilot (re-evaluation)",
+      "checkedAt": "2026-10-17T10:10:36+00:00",
+      "elapsedMsSingleRun": 2156,
+      "httpStatus": 200,
+      "finalUrl": "https://scholarships.gov.in/home",
+      "screenshot390": "docs/screenshots/phase6/scholarship-home-390.png",
+      "metrics": {
+        "390": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 402,
+          "horizontalOverflow": true,
+          "documentHeight": 2547,
+          "title": "NSP : National Scholarship Portal",
+          "lang": "en",
+          "viewportMeta": "width=device-width, initial-scale=1",
+          "h1": 0,
+          "headings": 20,
+          "textBlocks": 18,
+          "medianFontPx": 16,
+          "minFontPx": 16,
+          "blocksUnder16px": 0,
+          "blocksUnder13px": 0,
+          "medianLineHeightRatio": 1.69,
+          "contrastMeasuredBlocks": 18,
+          "blocksContrastUnder4_5": 4,
+          "minContrast": 2.13,
+          "visibleControls": 25,
+          "controlsUnder24px": 4,
+          "controlsBeyondRightEdge": 0,
+          "fixedOrStickyViewportShare": 0.05,
+          "nativeTextSizeControls": false,
+          "skipLink": false,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 8,
+          "captchaSignal": false,
+          "paymentSignal": false,
+          "sameDocumentHashLinks": 0
+        },
+        "320": {
+          "viewport": {
+            "width": 320,
+            "height": 693
+          },
+          "documentWidth": 332,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 0,
+          "medianFontPx": 16,
+          "fixedOrStickyViewportShare": 0.08
+        },
+        "195": {
+          "viewport": {
+            "width": 195,
+            "height": 422
+          },
+          "documentWidth": 347,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 1,
+          "medianFontPx": 16,
+          "fixedOrStickyViewportShare": 0.21
+        }
+      },
+      "screenshotZoom200": "docs/screenshots/phase6/scholarship-home-zoom200.png",
+      "pilot": {
+        "note": "Local headless comparison only; author-origin approximation of the extension's user-origin stylesheet.",
+        "before": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 402,
+          "horizontalOverflow": true,
+          "documentHeight": 2547,
+          "title": "NSP : National Scholarship Portal",
+          "lang": "en",
+          "viewportMeta": "width=device-width, initial-scale=1",
+          "h1": 0,
+          "headings": 20,
+          "textBlocks": 18,
+          "medianFontPx": 16,
+          "minFontPx": 16,
+          "blocksUnder16px": 0,
+          "blocksUnder13px": 0,
+          "medianLineHeightRatio": 1.69,
+          "contrastMeasuredBlocks": 18,
+          "blocksContrastUnder4_5": 4,
+          "minContrast": 2.13,
+          "visibleControls": 25,
+          "controlsUnder24px": 4,
+          "controlsBeyondRightEdge": 0,
+          "fixedOrStickyViewportShare": 0.05,
+          "nativeTextSizeControls": false,
+          "skipLink": false,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 8,
+          "captchaSignal": false,
+          "paymentSignal": false,
+          "sameDocumentHashLinks": 0
+        },
+        "after": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 402,
+          "horizontalOverflow": true,
+          "documentHeight": 2554,
+          "title": "NSP : National Scholarship Portal",
+          "lang": "en",
+          "viewportMeta": "width=device-width, initial-scale=1",
+          "h1": 0,
+          "headings": 20,
+          "textBlocks": 18,
+          "medianFontPx": 16.8,
+          "minFontPx": 16,
+          "blocksUnder16px": 0,
+          "blocksUnder13px": 0,
+          "medianLineHeightRatio": 1.65,
+          "contrastMeasuredBlocks": 18,
+          "blocksContrastUnder4_5": 4,
+          "minContrast": 2.13,
+          "visibleControls": 25,
+          "controlsUnder24px": 4,
+          "controlsBeyondRightEdge": 0,
+          "fixedOrStickyViewportShare": 0.05,
+          "nativeTextSizeControls": false,
+          "skipLink": false,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 8,
+          "captchaSignal": false,
+          "paymentSignal": false,
+          "sameDocumentHashLinks": 0
+        },
+        "screenshotAfter390": "docs/screenshots/phase6/scholarship-home-readable-390.png",
+        "controls": {
+          "before": 25,
+          "after": 25,
+          "coveredBefore": 1,
+          "coveredAfter": 1,
+          "beyondRightBefore": 0,
+          "beyondRightAfter": 0,
+          "newlyCovered": [
+            "Public"
+          ]
+        },
+        "after1280": {
+          "documentWidth": 1280,
+          "horizontalOverflow": false,
+          "medianFontPx": 16.8,
+          "medianLineHeightRatio": 1.65
+        },
+        "screenshotAfter1280": "docs/screenshots/phase6/scholarship-home-readable-1280.png",
+        "original1280": {
+          "documentWidth": 1280,
+          "horizontalOverflow": false,
+          "medianFontPx": 16,
+          "medianLineHeightRatio": 1.69
+        },
+        "screenshotOriginal1280": "docs/screenshots/phase6/scholarship-home-original-1280.png",
+        "restoredStylesIdentical": true
+      }
+    },
+    {
+      "id": "india-portal-home",
+      "portalId": "india-portal",
+      "url": "https://www.india.gov.in/",
+      "reason": "Existing Android in-app browser with A+/A (Chrome check; Android checked separately)",
+      "checkedAt": "2026-10-17T10:10:53+00:00",
+      "elapsedMsSingleRun": 1437,
+      "httpStatus": 403,
+      "finalUrl": "https://www.india.gov.in/",
+      "result": "access_or_server_response; no UI conclusion"
+    },
+    {
+      "id": "digilocker-home",
+      "portalId": "digilocker",
+      "url": "https://www.digilocker.gov.in/",
+      "reason": "Earlier B (text scaling) prospect",
+      "checkedAt": "2026-10-17T10:10:57+00:00",
+      "elapsedMsSingleRun": 375,
+      "httpStatus": 200,
+      "finalUrl": "https://www.digilocker.gov.in/",
+      "screenshot390": "docs/screenshots/phase6/digilocker-home-390.png",
+      "metrics": {
+        "390": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 390,
+          "horizontalOverflow": false,
+          "documentHeight": 2846,
+          "title": "DigiLocker | Access, Share & Verify Digital Documents",
+          "lang": "en",
+          "viewportMeta": "width=device-width, initial-scale=1, minimum-scale=1",
+          "h1": 0,
+          "headings": 57,
+          "textBlocks": 22,
+          "medianFontPx": 14,
+          "minFontPx": 12,
+          "blocksUnder16px": 20,
+          "blocksUnder13px": 10,
+          "medianLineHeightRatio": 1.2,
+          "contrastMeasuredBlocks": 6,
+          "blocksContrastUnder4_5": 0,
+          "minContrast": 13.12,
+          "visibleControls": 91,
+          "controlsUnder24px": 24,
+          "controlsBeyondRightEdge": 29,
+          "fixedOrStickyViewportShare": 0.11,
+          "nativeTextSizeControls": true,
+          "skipLink": true,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 1,
+          "captchaSignal": false,
+          "paymentSignal": false,
+          "sameDocumentHashLinks": 1
+        },
+        "320": {
+          "viewport": {
+            "width": 320,
+            "height": 693
+          },
+          "documentWidth": 320,
+          "horizontalOverflow": false,
+          "controlsBeyondRightEdge": 30,
+          "medianFontPx": 14,
+          "fixedOrStickyViewportShare": 0.13
+        },
+        "195": {
+          "viewport": {
+            "width": 195,
+            "height": 422
+          },
+          "documentWidth": 317,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 29,
+          "medianFontPx": 14,
+          "fixedOrStickyViewportShare": 0.37
+        }
+      },
+      "screenshotZoom200": "docs/screenshots/phase6/digilocker-home-zoom200.png"
+    },
+    {
+      "id": "rti-home",
+      "portalId": "rti-online",
+      "url": "https://rtionline.gov.in/",
+      "reason": "Earlier D; recheck structural reflow",
+      "checkedAt": "2026-10-17T10:11:08+00:00",
+      "elapsedMsSingleRun": 922,
+      "httpStatus": 200,
+      "finalUrl": "https://rtionline.gov.in/",
+      "screenshot390": "docs/screenshots/phase6/rti-home-390.png",
+      "metrics": {
+        "390": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 980,
+          "horizontalOverflow": true,
+          "documentHeight": 925,
+          "title": "RTI Online :: Home | Submit RTI Request | Submit RTI First Appeal | View RTI Status | RTI FAQ",
+          "lang": null,
+          "viewportMeta": null,
+          "h1": 1,
+          "headings": 1,
+          "textBlocks": 8,
+          "medianFontPx": 15.3333,
+          "minFontPx": 13,
+          "blocksUnder16px": 8,
+          "blocksUnder13px": 0,
+          "medianLineHeightRatio": 1.75,
+          "contrastMeasuredBlocks": 5,
+          "blocksContrastUnder4_5": 1,
+          "minContrast": 4,
+          "visibleControls": 19,
+          "controlsUnder24px": 18,
+          "controlsBeyondRightEdge": 11,
+          "fixedOrStickyViewportShare": 0,
+          "nativeTextSizeControls": true,
+          "skipLink": false,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 1,
+          "captchaSignal": false,
+          "paymentSignal": true,
+          "sameDocumentHashLinks": 0
+        },
+        "320": {
+          "viewport": {
+            "width": 320,
+            "height": 693
+          },
+          "documentWidth": 980,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 11,
+          "medianFontPx": 15.3333,
+          "fixedOrStickyViewportShare": 0
+        },
+        "195": {
+          "viewport": {
+            "width": 195,
+            "height": 422
+          },
+          "documentWidth": 980,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 14,
+          "medianFontPx": 15.3333,
+          "fixedOrStickyViewportShare": 0
+        }
+      },
+      "screenshotZoom200": "docs/screenshots/phase6/rti-home-zoom200.png"
+    },
+    {
+      "id": "kerala-edistrict-faq",
+      "portalId": "igod-50b73c3937b8d29b",
+      "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "reason": "Official information page for 8 JanSetu services",
+      "checkedAt": "2026-10-17T10:11:19+00:00",
+      "elapsedMsSingleRun": 1765,
+      "httpStatus": 200,
+      "finalUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "screenshot390": "docs/screenshots/phase6/kerala-edistrict-faq-390.png",
+      "metrics": {
+        "390": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 390,
+          "horizontalOverflow": false,
+          "documentHeight": 3220,
+          "title": "e D i s t r i c t Kerala",
+          "lang": "en",
+          "viewportMeta": "width=device-width, initial-scale=1.0",
+          "h1": 0,
+          "headings": 16,
+          "textBlocks": 26,
+          "medianFontPx": 16,
+          "minFontPx": 13.6,
+          "blocksUnder16px": 3,
+          "blocksUnder13px": 0,
+          "medianLineHeightRatio": 1.5,
+          "contrastMeasuredBlocks": 26,
+          "blocksContrastUnder4_5": 0,
+          "minContrast": 12.29,
+          "visibleControls": 15,
+          "controlsUnder24px": 11,
+          "controlsBeyondRightEdge": 1,
+          "fixedOrStickyViewportShare": 0,
+          "nativeTextSizeControls": false,
+          "skipLink": false,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 0,
+          "captchaSignal": false,
+          "paymentSignal": false,
+          "sameDocumentHashLinks": 0
+        },
+        "320": {
+          "viewport": {
+            "width": 320,
+            "height": 693
+          },
+          "documentWidth": 357,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 1,
+          "medianFontPx": 16,
+          "fixedOrStickyViewportShare": 0
+        },
+        "195": {
+          "viewport": {
+            "width": 195,
+            "height": 422
+          },
+          "documentWidth": 357,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 1,
+          "medianFontPx": 16,
+          "fixedOrStickyViewportShare": 0
+        }
+      },
+      "screenshotZoom200": "docs/screenshots/phase6/kerala-edistrict-faq-zoom200.png"
+    },
+    {
+      "id": "odisha-edistrict-home",
+      "portalId": "igod-5e885f0e333d5206",
+      "url": "https://edistrict.odisha.gov.in/",
+      "reason": "Official information page for 8 JanSetu services",
+      "checkedAt": "2026-10-17T10:11:31+00:00",
+      "elapsedMsSingleRun": 3766,
+      "httpStatus": 200,
+      "finalUrl": "https://edistrict.odisha.gov.in/",
+      "screenshot390": "docs/screenshots/phase6/odisha-edistrict-home-390.png",
+      "metrics": {
+        "390": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 390,
+          "horizontalOverflow": false,
+          "documentHeight": 6307,
+          "title": "eDistrict Odisha",
+          "lang": "en",
+          "viewportMeta": "width=device-width, initial-scale=1.0",
+          "h1": 0,
+          "headings": 230,
+          "textBlocks": 21,
+          "medianFontPx": 20,
+          "minFontPx": 13,
+          "blocksUnder16px": 4,
+          "blocksUnder13px": 0,
+          "medianLineHeightRatio": 1.2,
+          "contrastMeasuredBlocks": 19,
+          "blocksContrastUnder4_5": 4,
+          "minContrast": 2.11,
+          "visibleControls": 30,
+          "controlsUnder24px": 5,
+          "controlsBeyondRightEdge": 0,
+          "fixedOrStickyViewportShare": 0.1,
+          "nativeTextSizeControls": false,
+          "skipLink": false,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 2,
+          "captchaSignal": false,
+          "paymentSignal": false,
+          "sameDocumentHashLinks": 15
+        },
+        "320": {
+          "viewport": {
+            "width": 320,
+            "height": 693
+          },
+          "documentWidth": 320,
+          "horizontalOverflow": false,
+          "controlsBeyondRightEdge": 0,
+          "medianFontPx": 20,
+          "fixedOrStickyViewportShare": 0.12
+        },
+        "195": {
+          "viewport": {
+            "width": 195,
+            "height": 422
+          },
+          "documentWidth": 195,
+          "horizontalOverflow": false,
+          "controlsBeyondRightEdge": 0,
+          "medianFontPx": 20,
+          "fixedOrStickyViewportShare": 0.21
+        }
+      },
+      "screenshotZoom200": "docs/screenshots/phase6/odisha-edistrict-home-zoom200.png"
+    },
+    {
+      "id": "tn-esevai-service-list",
+      "portalId": "igod-2715637a8f399700",
+      "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "reason": "Official information page for 7 JanSetu services",
+      "checkedAt": "2026-10-17T10:11:45+00:00",
+      "elapsedMsSingleRun": 4719,
+      "httpStatus": 200,
+      "finalUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "screenshot390": "docs/screenshots/phase6/tn-esevai-service-list-390.png",
+      "metrics": {
+        "390": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 390,
+          "horizontalOverflow": false,
+          "documentHeight": 844,
+          "title": "TNeGA",
+          "lang": null,
+          "viewportMeta": "width=device-width, initial-scale=1",
+          "h1": 0,
+          "headings": 2,
+          "textBlocks": 615,
+          "medianFontPx": 15,
+          "minFontPx": 13,
+          "blocksUnder16px": 615,
+          "blocksUnder13px": 0,
+          "medianLineHeightRatio": 1.43,
+          "contrastMeasuredBlocks": 615,
+          "blocksContrastUnder4_5": 235,
+          "minContrast": 3.66,
+          "visibleControls": 405,
+          "controlsUnder24px": 246,
+          "controlsBeyondRightEdge": 235,
+          "fixedOrStickyViewportShare": 0,
+          "nativeTextSizeControls": true,
+          "skipLink": false,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 0,
+          "captchaSignal": false,
+          "paymentSignal": false,
+          "sameDocumentHashLinks": 0
+        },
+        "320": {
+          "viewport": {
+            "width": 320,
+            "height": 693
+          },
+          "documentWidth": 320,
+          "horizontalOverflow": false,
+          "controlsBeyondRightEdge": 235,
+          "medianFontPx": 15,
+          "fixedOrStickyViewportShare": 0
+        },
+        "195": {
+          "viewport": {
+            "width": 195,
+            "height": 422
+          },
+          "documentWidth": 195,
+          "horizontalOverflow": false,
+          "controlsBeyondRightEdge": 393,
+          "medianFontPx": 15,
+          "fixedOrStickyViewportShare": 0
+        }
+      },
+      "screenshotZoom200": "docs/screenshots/phase6/tn-esevai-service-list-zoom200.png"
+    },
+    {
+      "id": "uidai-my-aadhaar",
+      "portalId": "uidai",
+      "url": "https://www.uidai.gov.in/en/my-aadhaar",
+      "reason": "Official information page for 4 JanSetu services",
+      "checkedAt": "2026-10-17T10:12:00+00:00",
+      "elapsedMsSingleRun": 969,
+      "httpStatus": 500,
+      "finalUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+      "result": "access_or_server_response; no UI conclusion"
+    },
+    {
+      "id": "cpgrams-faq",
+      "portalId": "cpgrams",
+      "url": "https://pgportal.gov.in/Home/Faq",
+      "reason": "Official information page for 2 JanSetu services",
+      "checkedAt": "2026-10-17T10:12:04+00:00",
+      "elapsedMsSingleRun": 1938,
+      "httpStatus": 200,
+      "finalUrl": "https://pgportal.gov.in/Home/Faq",
+      "screenshot390": "docs/screenshots/phase6/cpgrams-faq-390.png",
+      "metrics": {
+        "390": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 390,
+          "horizontalOverflow": false,
+          "documentHeight": 2409,
+          "title": "FAQ",
+          "lang": "en",
+          "viewportMeta": "width=device-width, initial-scale=1",
+          "h1": 1,
+          "headings": 3,
+          "textBlocks": 23,
+          "medianFontPx": 16,
+          "minFontPx": 11,
+          "blocksUnder16px": 4,
+          "blocksUnder13px": 2,
+          "medianLineHeightRatio": 1.5,
+          "contrastMeasuredBlocks": 23,
+          "blocksContrastUnder4_5": 0,
+          "minContrast": 7.15,
+          "visibleControls": 40,
+          "controlsUnder24px": 9,
+          "controlsBeyondRightEdge": 0,
+          "fixedOrStickyViewportShare": 0,
+          "nativeTextSizeControls": false,
+          "skipLink": false,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 0,
+          "captchaSignal": false,
+          "paymentSignal": false,
+          "sameDocumentHashLinks": 18
+        },
+        "320": {
+          "viewport": {
+            "width": 320,
+            "height": 693
+          },
+          "documentWidth": 351,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 0,
+          "medianFontPx": 16,
+          "fixedOrStickyViewportShare": 0
+        },
+        "195": {
+          "viewport": {
+            "width": 195,
+            "height": 422
+          },
+          "documentWidth": 210,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 0,
+          "medianFontPx": 16,
+          "fixedOrStickyViewportShare": 0
+        }
+      },
+      "screenshotZoom200": "docs/screenshots/phase6/cpgrams-faq-zoom200.png"
+    },
+    {
+      "id": "rti-guidelines",
+      "portalId": "rti-online",
+      "url": "https://rtionline.gov.in/guidelines.php?request",
+      "reason": "Official information page for 2 JanSetu services",
+      "checkedAt": "2026-10-17T10:12:17+00:00",
+      "elapsedMsSingleRun": 782,
+      "httpStatus": 200,
+      "finalUrl": "https://rtionline.gov.in/guidelines.php?request",
+      "screenshot390": "docs/screenshots/phase6/rti-guidelines-390.png",
+      "metrics": {
+        "390": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 982,
+          "horizontalOverflow": true,
+          "documentHeight": 1403,
+          "title": "RTI Online :: Guidelines for use of RTI Online Portal",
+          "lang": null,
+          "viewportMeta": null,
+          "h1": 0,
+          "headings": 0,
+          "textBlocks": 23,
+          "medianFontPx": 15.3333,
+          "minFontPx": 15.3333,
+          "blocksUnder16px": 23,
+          "blocksUnder13px": 0,
+          "medianLineHeightRatio": 1.75,
+          "contrastMeasuredBlocks": 23,
+          "blocksContrastUnder4_5": 0,
+          "minContrast": 5.89,
+          "visibleControls": 3,
+          "controlsUnder24px": 3,
+          "controlsBeyondRightEdge": 0,
+          "fixedOrStickyViewportShare": 0,
+          "nativeTextSizeControls": false,
+          "skipLink": false,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 3,
+          "captchaSignal": false,
+          "paymentSignal": true,
+          "sameDocumentHashLinks": 0
+        },
+        "320": {
+          "viewport": {
+            "width": 320,
+            "height": 693
+          },
+          "documentWidth": 982,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 0,
+          "medianFontPx": 15.3333,
+          "fixedOrStickyViewportShare": 0
+        },
+        "195": {
+          "viewport": {
+            "width": 195,
+            "height": 422
+          },
+          "documentWidth": 982,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 0,
+          "medianFontPx": 15.3333,
+          "fixedOrStickyViewportShare": 0
+        }
+      },
+      "screenshotZoom200": "docs/screenshots/phase6/rti-guidelines-zoom200.png"
+    },
+    {
+      "id": "ncs-faq",
+      "portalId": "national-career-service",
+      "url": "https://ncs.gov.in/faq",
+      "reason": "Official information page for 2 JanSetu services",
+      "checkedAt": "2026-10-17T10:12:27+00:00",
+      "elapsedMsSingleRun": 2984,
+      "httpStatus": 200,
+      "finalUrl": "https://ncs.gov.in/faq",
+      "screenshot390": "docs/screenshots/phase6/ncs-faq-390.png",
+      "metrics": {
+        "390": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 390,
+          "horizontalOverflow": false,
+          "documentHeight": 2144,
+          "title": "NcsNewWebsite",
+          "lang": "en",
+          "viewportMeta": "width=device-width, initial-scale=1",
+          "h1": 3,
+          "headings": 9,
+          "textBlocks": 6,
+          "medianFontPx": 16,
+          "minFontPx": 13,
+          "blocksUnder16px": 3,
+          "blocksUnder13px": 0,
+          "medianLineHeightRatio": 1.54,
+          "contrastMeasuredBlocks": 5,
+          "blocksContrastUnder4_5": 0,
+          "minContrast": 7.11,
+          "visibleControls": 35,
+          "controlsUnder24px": 17,
+          "controlsBeyondRightEdge": 0,
+          "fixedOrStickyViewportShare": 0.07,
+          "nativeTextSizeControls": false,
+          "skipLink": false,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 3,
+          "captchaSignal": false,
+          "paymentSignal": false,
+          "sameDocumentHashLinks": 0
+        },
+        "320": {
+          "viewport": {
+            "width": 320,
+            "height": 693
+          },
+          "documentWidth": 320,
+          "horizontalOverflow": false,
+          "controlsBeyondRightEdge": 0,
+          "medianFontPx": 16,
+          "fixedOrStickyViewportShare": 0.09
+        },
+        "195": {
+          "viewport": {
+            "width": 195,
+            "height": 422
+          },
+          "documentWidth": 310,
+          "horizontalOverflow": true,
+          "controlsBeyondRightEdge": 0,
+          "medianFontPx": 16,
+          "fixedOrStickyViewportShare": 0.15
+        }
+      },
+      "screenshotZoom200": "docs/screenshots/phase6/ncs-faq-zoom200.png"
+    },
+    {
+      "id": "incometax-epan-help",
+      "portalId": "income-tax-efiling",
+      "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM",
+      "reason": "Official help page for 2 JanSetu services",
+      "checkedAt": "2026-10-17T10:12:40+00:00",
+      "elapsedMsSingleRun": 3063,
+      "httpStatus": 200,
+      "finalUrl": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM",
+      "screenshot390": "docs/screenshots/phase6/incometax-epan-help-390.png",
+      "metrics": {
+        "390": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "documentWidth": 390,
+          "horizontalOverflow": false,
+          "documentHeight": 12433,
+          "title": "Instant E-PAN User Manual | Income Tax Department",
+          "lang": "en",
+          "viewportMeta": "width=device-width, initial-scale=1.0",
+          "h1": 2,
+          "headings": 15,
+          "textBlocks": 46,
+          "medianFontPx": 14,
+          "minFontPx": 12,
+          "blocksUnder16px": 43,
+          "blocksUnder13px": 3,
+          "medianLineHeightRatio": 1.5,
+          "contrastMeasuredBlocks": 43,
+          "blocksContrastUnder4_5": 0,
+          "minContrast": 5.23,
+          "visibleControls": 13,
+          "controlsUnder24px": 4,
+          "controlsBeyondRightEdge": 0,
+          "fixedOrStickyViewportShare": 0.07,
+          "nativeTextSizeControls": true,
+          "skipLink": true,
+          "passwordFields": 0,
+          "fileInputs": 0,
+          "formControls": 4,
+          "captchaSignal": true,
+          "paymentSignal": false,
+          "sameDocumentHashLinks": 64
+        },
+        "320": {
+          "viewport": {
+            "width": 320,
+            "height": 693
+          },
+          "documentWidth": 320,
+          "horizontalOverflow": false,
+          "controlsBeyondRightEdge": 0,
+          "medianFontPx": 14,
+          "fixedOrStickyViewportShare": 0.09
+        },
+        "195": {
+          "viewport": {
+            "width": 195,
+            "height": 422
+          },
+          "documentWidth": 195,
+          "horizontalOverflow": false,
+          "controlsBeyondRightEdge": 0,
+          "medianFontPx": 14,
+          "fixedOrStickyViewportShare": 0.15
+        }
+      },
+      "screenshotZoom200": "docs/screenshots/phase6/incometax-epan-help-zoom200.png"
+    }
+  ]
+}

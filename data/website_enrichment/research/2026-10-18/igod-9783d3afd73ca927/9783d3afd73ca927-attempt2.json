@@ -1,0 +1,12 @@
+{
+ "websiteId": "igod-9783d3afd73ca927",
+ "url": "https://www.doppw.gov.in/",
+ "checkedAt": "2026-10-17T19:27:41+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response).",
+ "httpStatus": 403,
+ "finalUrl": "https://www.doppw.gov.in/",
+ "result": "access_or_server_response; not a content observation",
+ "attempt": 2
+}

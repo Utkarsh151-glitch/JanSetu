@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 13 Oct 2026 23:28:08 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com https://www.mea.gov.in https://mea.gov.in; connect-src 'self' https://www.google-analytics.com; object-src 'none'; frame-src 'none'; form-action 'self'; frame-ancestors 'none';
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: camera=(), microphone=()
+Referrer-Policy: strict-origin-when-cross-origin
+Cache-Control: private, must-revalidate
+pragma: no-cache
+expires: -1
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: img-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://www.mea.gov.in https://mea.gov.in
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: camera=(), microphone=()
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding
+

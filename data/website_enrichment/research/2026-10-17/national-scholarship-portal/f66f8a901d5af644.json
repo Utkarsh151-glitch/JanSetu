@@ -1,0 +1,148 @@
+{
+ "websiteId": "national-scholarship-portal",
+ "url": "https://scholarships.gov.in/",
+ "checkedAt": "2026-10-17T10:50:36+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "httpStatus": 200,
+ "finalUrl": "https://scholarships.gov.in/",
+ "title": "NSP : National Scholarship Portal",
+ "lang": "en",
+ "metaDescription": null,
+ "text": "Government of India\nMinistry of Electronics & Information Technology\nAcademic Year 2026-27\nFAQs\nAnnouncements\nHelpdesk\nPrevious\nNext\nStudents\nInstitutions\nOfficers\nPublic\nFellowship\nAnnouncements\n\n\nAll disabled students must first login in the UDID portal and provide consent to share their UDID details and then submit application in NSP. Otherwise, they will not be able to submit their application.\n\n\nRenewal applications for the \"PM-USP – Central Sector Scheme Of Scholarship For College And University Students (CSSS) (Merit Based Scheme)\" and \"PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit Based Scheme)\" is currently open in NSP. Closing dates for student application is 31-10-2026 and closing date for institute verification is : 15-11-2026 and closing date for L2 verification is : 30/11/2026\n\n\nThe Portal is open for Academic year 2026-27 from 1'st June 2026 onwards.\n\n\nStudents may apply for one merit-based scholarship scheme and one or more welfare-based scholarship schemes from AY 2026–27, as per scheme eligibility criteria.\n\n\nNPCI has launched Bharat Aadhaar Seeding Enabler (BASE) platform to facilitate Aadhaar Seeding and De-seeding activities in self-service mode for Direct Benefit Transfer(DBT) by enabling the citizens to carry out certain activities in digital mode. For more details click here\n\n\nNSP services are now available at Common Service Centres (CSCs). Students can avail the scholarship related services by visiting the nearby CSCs. The total charges for the entire activity per candidate (including generation of Reference number, biometric -authentication, generation of One-Time Registration (OTR) number, and filing of complete application form of the candidate) is fixed at Rs 30.00 (inclusive of all applicable taxes, etc.) To locate the nearest CSC please visit the link:https://locator.csccloud.in/\n\n\nDear Student , if you are getting error 904 while doing face authentication, kindly update UIDAI AadhaarFACERD App from PlayStore.\n\n\nIt has been observed in some cases that student’s / parent’s / legal guardian’s face authentication for generation of OTR is getting failed as they (Aadhaar Holder) have locked the biometrics for authentication in their Aadhaar. In such cases students / parents / legal guardians are advised to check their Biometric Lock / Unlock status by using mAadhaar mobile app or My Aadhaar web portal. Before proceeding for face authentication through NSP OTR app, kindly ensure that the Biometric Lock / Unlock status should be as “Unlocked” for authentication in Aadhaar. To lock or unlock the Biometric in Aadhaar, please click on the “Lock/Unlock Aadhaar” option on myAdhaar web portal(please refer to the link: https://uidai.gov.in/en/contact-support/have-any-question/1012-english-uk/faqs/aadhaar-online-services/aadhaar-lock-unlock.html). For assistance, please watch the video.\n\n\nThe Portal is open for One Time Registration(OTR) for students.Apply now\n\n\nOne Time Registration (OTR) is a unique number allotted to the student and is applicable for entire academic career on National Scholarship Portal.\n\n\nOTR is required to apply for the scholarships on National Scholarship Portal from AY 2024-25.\n\n\nOTR can be generated using Aadhaar/Aadhaar Enrollment number(EID)\n\n\nNSP OTR App is available on Google Play Store. \n\nView more\n\nGet your OTR\n\nOne Time Registration (OTR) is a unique 14-digit number issued based on the Aadhaar/Aadhaar Enrolment ID (EID) and is applicable for the entire academic career of the student.\n\nOTR simplifies the scholarship application process, thereby eliminating the need of registration in each academic year.\n\nOTR is required to apply for scholarship on National Scholarship Portal.\n\nApply now!\n\nCopyright Policy\nPrivacy Policy\nTerms and Conditions\nDisclaimer\nHyperlink\nSite Map\nLast update on June 2026\nThe original text is in English. Translation into other languages is powered by the Bhashini service.",
+ "textSha256": "bfc151280c7f8a2463c38b91ac9f628f85b651211a1b41d8bfccbcc53ae810ec",
+ "links": [
+  {
+   "text": "Visit Bhashini website",
+   "href": "https://bhashini.gov.in/"
+  },
+  {
+   "text": "Student",
+   "href": "https://scholarships.gov.in/home"
+  },
+  {
+   "text": "Institute",
+   "href": "https://nsp.gov.in/"
+  },
+  {
+   "text": "Officer",
+   "href": "https://nsp.gov.in/NSPADMIN/loginPage"
+  },
+  {
+   "text": "FAQs",
+   "href": "https://scholarships.gov.in/#"
+  },
+  {
+   "text": "Student",
+   "href": "https://scholarships.gov.in/studentFAQs"
+  },
+  {
+   "text": "Institute",
+   "href": "https://scholarships.gov.in/InstituteFAQs"
+  },
+  {
+   "text": "Officer",
+   "href": "https://scholarships.gov.in/public/FAQ/DNO_SNO_FAQs_21122023_updated.pdf"
+  },
+  {
+   "text": "Announcements",
+   "href": "https://scholarships.gov.in/#"
+  },
+  {
+   "text": "Student",
+   "href": "https://scholarships.gov.in/student-announcements"
+  },
+  {
+   "text": "Institute",
+   "href": "https://scholarships.gov.in/institute-announcements"
+  },
+  {
+   "text": "Officer",
+   "href": "https://scholarships.gov.in/officer-announcements"
+  },
+  {
+   "text": "Helpdesk",
+   "href": "https://scholarships.gov.in/#"
+  },
+  {
+   "text": "NSP Helpdesk.",
+   "href": "https://scholarships.gov.in/nsphelpdesk"
+  },
+  {
+   "text": "PFMS Helpdesk",
+   "href": "https://scholarships.gov.in/pfmshelpdesk"
+  },
+  {
+   "text": "Students",
+   "href": "https://scholarships.gov.in/Students"
+  },
+  {
+   "text": "Institutions",
+   "href": "https://scholarships.gov.in/Institute"
+  },
+  {
+   "text": "Officers",
+   "href": "https://scholarships.gov.in/Officers"
+  },
+  {
+   "text": "Public",
+   "href": "https://scholarships.gov.in/Public"
+  },
+  {
+   "text": "Fellowship",
+   "href": "https://scholarships.gov.in/Fellowship"
+  },
+  {
+   "text": "click here",
+   "href": "https://scholarships.gov.in/public/schemeGuidelines/npci_base.pdf"
+  },
+  {
+   "text": "https://locator.csccloud.in/",
+   "href": "https://locator.csccloud.in/"
+  },
+  {
+   "text": "https://uidai.gov.in/en/contact-support/have-any-question/1012-english-uk/faqs/aadhaar-online-services/aadhaar-lock-unlo",
+   "href": "https://uidai.gov.in/en/contact-support/have-any-question/1012-english-uk/faqs/aadhaar-online-services/aadhaar-lock-unlock.html"
+  },
+  {
+   "text": "please watch the video",
+   "href": "https://www.youtube.com/watch?v=HmrbM76RJIo%5d"
+  },
+  {
+   "text": "Apply now",
+   "href": "https://scholarships.gov.in/otrapplication/#/login-page"
+  },
+  {
+   "text": "View more",
+   "href": "https://scholarships.gov.in/ViewMoreAnnouncement"
+  },
+  {
+   "text": "Apply now!",
+   "href": "https://scholarships.gov.in/otrapplication/#/login-page"
+  },
+  {
+   "text": "Copyright Policy",
+   "href": "https://scholarships.gov.in/copyright-policy"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://scholarships.gov.in/privacy-policy"
+  },
+  {
+   "text": "Terms and Conditions",
+   "href": "https://scholarships.gov.in/terms-conditions"
+  },
+  {
+   "text": "Disclaimer",
+   "href": "https://scholarships.gov.in/disclaimer_New"
+  },
+  {
+   "text": "Hyperlink",
+   "href": "https://scholarships.gov.in/hyperlinkPolicy_New"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://scholarships.gov.in/siteMap"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "app/src/main/assets/catalog.json": "af25cfc31eed917c3d44dadf3d6c2db781e406bba54fb8aa549bc43bab93cd1a",
+  "data/review_queue.json": "5f5a69526379ca3d26f077b1c4ffe2d1f64b1bffc1d8668bd57ec5f489972c60",
+  "data/services/catalog.json": "634aeed4070707a254fa80c7f6e7f3a6d54c1ce092bc37088eb50f828ef21311",
+  "data/services/review_queue.json": "42a6d233fa31207e838233999a74f142825617b6be23a6f173849f4a96320b1f",
+  "counts": {
+    "websites": 7347,
+    "services": 25,
+    "pendingWebsites": 3823
+  }
+}

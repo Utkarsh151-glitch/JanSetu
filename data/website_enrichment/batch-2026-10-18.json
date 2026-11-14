@@ -1,0 +1,302 @@
+{
+ "batchId": "2026-10-18",
+ "selectionRule": "Phase 6C second batch: the next 20 rows of data/website_enrichment/queue.json (nextBatch) after the Phase 6B batch, using the published priority rule unchanged (published-service link 100, pending-service link 60, state/UT portal 40, citizen-service portal 30, state with services 10, district site 10, citizen sector 10). Only not-yet-checked, official, RESPONDING websites are eligible.",
+ "priorityRule": {
+  "published_service_link": 100,
+  "pending_service_link": 60,
+  "state_ut_portal": 40,
+  "citizen_service_portal": 30,
+  "state_with_services": 10,
+  "district_site": 10,
+  "citizen_sector": 10
+ },
+ "websites": [
+  {
+   "websiteId": "igod-ffa4189a2ac66991",
+   "start": "https://himachal.gov.in/",
+   "priority": 100,
+   "why": [
+    "pending_service_link",
+    "state_ut_portal"
+   ]
+  },
+  {
+   "websiteId": "igod-0eda9ab58f816d6f",
+   "start": "https://pension.hrmsodisha.gov.in/",
+   "priority": 50,
+   "why": [
+    "citizen_service_portal",
+    "state_with_services",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-6e1f53ab402e424c",
+   "start": "https://welfarepension.lsgkerala.gov.in/",
+   "priority": 50,
+   "why": [
+    "citizen_service_portal",
+    "state_with_services",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-ddb798b880079969",
+   "start": "https://dbt.lsgkerala.gov.in/",
+   "priority": 50,
+   "why": [
+    "citizen_service_portal",
+    "state_with_services",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-781379c678ce1e21",
+   "start": "https://scholarship.odisha.gov.in/",
+   "priority": 50,
+   "why": [
+    "citizen_service_portal",
+    "state_with_services",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-c01d8df9282d87de",
+   "start": "https://bhavishya.nic.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-7bb47a1cab5183f2",
+   "start": "https://new.broadcastseva.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-421dca3648f50c0b",
+   "start": "https://cpao.nic.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-e300869e279b9cd4",
+   "start": "https://scholarshipsdhte.jharkhand.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-dc063c5a252aabe5",
+   "start": "https://scholarship.nagaland.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-18649bde195e5a01",
+   "start": "https://cpwdsewa.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-5891bfd68a83ed15",
+   "start": "https://janasunani.odisha.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "state_with_services"
+   ]
+  },
+  {
+   "websiteId": "igod-9783d3afd73ca927",
+   "start": "https://www.doppw.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-44b4a596b1818cab",
+   "start": "https://dppf.gujarat.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-45553a3bd372fff9",
+   "start": "https://www.pension.mp.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-ef54536511a6523b",
+   "start": "https://ekosh.uk.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-c33cb8549415ad34",
+   "start": "https://ekalyan.cgg.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-af6bdd4b418c67a8",
+   "start": "https://odishamsme.nic.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "state_with_services"
+   ]
+  },
+  {
+   "websiteId": "igod-b3a364f734caa1f1",
+   "start": "https://hpepass.cgg.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  },
+  {
+   "websiteId": "igod-2bdd905020581df7",
+   "start": "https://telanganaepass.cgg.gov.in/",
+   "priority": 40,
+   "why": [
+    "citizen_service_portal",
+    "citizen_sector"
+   ]
+  }
+ ],
+ "targetedPages": [
+  {
+   "websiteId": "igod-781379c678ce1e21",
+   "url": "https://scholarship.odisha.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-c01d8df9282d87de",
+   "url": "https://bhavishya.nic.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-7bb47a1cab5183f2",
+   "url": "https://new.broadcastseva.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-421dca3648f50c0b",
+   "url": "https://cpao.nic.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-e300869e279b9cd4",
+   "url": "https://scholarshipsdhte.jharkhand.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-dc063c5a252aabe5",
+   "url": "https://scholarship.nagaland.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-18649bde195e5a01",
+   "url": "https://cpwdsewa.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-5891bfd68a83ed15",
+   "url": "https://janasunani.odisha.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-9783d3afd73ca927",
+   "url": "https://www.doppw.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-44b4a596b1818cab",
+   "url": "https://dppf.gujarat.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-45553a3bd372fff9",
+   "url": "https://www.pension.mp.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-ef54536511a6523b",
+   "url": "https://ekosh.uk.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-c33cb8549415ad34",
+   "url": "https://ekalyan.cgg.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-af6bdd4b418c67a8",
+   "url": "https://odishamsme.nic.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-b3a364f734caa1f1",
+   "url": "https://hpepass.cgg.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-2bdd905020581df7",
+   "url": "https://telanganaepass.cgg.gov.in/",
+   "follow": true,
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  },
+  {
+   "websiteId": "igod-ddb798b880079969",
+   "url": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx",
+   "reason": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+  }
+ ]
+}

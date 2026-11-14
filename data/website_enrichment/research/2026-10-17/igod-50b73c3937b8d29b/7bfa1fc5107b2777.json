@@ -1,0 +1,86 @@
+{
+ "websiteId": "igod-50b73c3937b8d29b",
+ "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+ "checkedAt": "2026-10-17T11:01:13+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "The home-page FAQ link carries a session token; checking whether the address without the token serves the FAQ",
+ "httpStatus": 200,
+ "finalUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+ "title": "e D i s t r i c t Kerala",
+ "lang": "en",
+ "metaDescription": null,
+ "text": "Govt Orders\nRevenue Court Case \nTrack Application\nCertificate verification\nCreate Account\nSign In മലയാളം \nAccessibility Menu\n\nNIC Kerala\n\nClose\n\nKeyboard Nav\n\t\n\nCursor\n\n\n\nContrast +\n\t\n\nBigger Text\n\n\n\nDesaturate\n\t\n\nHighlight Links\n\n\n\nLegible Fonts\n\t\n\nRead Page\nFrequently Asked Questions\nBack to Home.\n\n\nGeneral Questions\nHow to create a portal user account in eDistrict?\nMy aadhaar verification is failing while trying to create user account?\nI was able to successfully validate my Aadhaar number and received OTP. But while submitting OTP, user creation fails with message error in entered data.\nI submitted OTP received on my mobile number in the fields for Mobile OTP and e-Mail OTP verification and while clicking submit button it fails..\nMy user creation failed and message shows “Given Aadhaar already exist”\nI forgot my username and password\nI want to delete my account in eDistrict. What should I do?\nCan I change my login name?\nI have a user account. How can I apply for a certificate\nI have a user account. Can I apply for a certificate on behalf of someone else.\nWhile clicking “Check Duplicate” button in “One Time Registration” I am getting a message “Registration with given details exist. What should I should you\nI have changed my mobile number used to register in eDistrict . Now the OTP for password reset/ login name recovery is going to the old mobile number which is no longer possessed by me. What should I do?\nWhen I try to apply for a certificate, the system shows “You have one pending application” but I am unable to proceed further. What should I do?\nWhile applying for a Possession certificate for joint property, there is provision to add the name of only one possessor in the “One Time Registration” page.\nI have a title-deed of multiple pages. But e-District application is showing an upload limit of 100KB.\nI have a relevant document which is not listed in the list of supporting document. Is there any option to upload it.\nI have accidentally uploaded a document. How can I delete it?\nOBC category not displayed while applying for community certificate\nSC/ST category not displayed while applying for caste certificate\nUpload button for Ration card is disabled\nAfter making payment, my page went blank. How to check status of my application.\nWhat is the validity of different Revenue certificates issued through e-District\nWhat are the supporting documents required for different Revenue certificates issued through e-District\nWhat is the time limit for issuing different Revenue Certificates\nGovernment Websites\n     \nWebSite Policies\nTerms and Conditions\nPrivacy Policy\nCancellation and Refund-Policy\nQuick Links\nGovernment Orders\n\n\nImplemented & Managed by Kerala State IT Mission.\nContent / Data Managed by KSITM / Respective Departments.\nDesigned and Developed by National Informatics Centre, Kerala\nContact Us\nEmail: edistrict.ksitm@kerala.gov.in\nPhone: 0471 2525444\nVrindavan Gardens,\nSaankethika, near EPF Office,\nPattom P.O, Thiruvananthapuram,\nKerala 695004",
+ "textSha256": "e85bfd9058201d65fbaec7da0d5daa2470472f4cb20a2181dd7765b706285299",
+ "links": [
+  {
+   "text": "Sign In ലോഗിന്‍",
+   "href": "https://edistrict.kerala.gov.in/edportalsignin.jsp"
+  },
+  {
+   "text": "Govt Orders",
+   "href": "https://edistrict.kerala.gov.in/governmentOrders.jsp?lang=en"
+  },
+  {
+   "text": "Revenue Court Case",
+   "href": "https://edistrict.kerala.gov.in/generalService.htm?event=faq#"
+  },
+  {
+   "text": "Cause Listകോസ് ലിസ്റ്റ്",
+   "href": "https://edistrict.kerala.gov.in/CivilCaseEvents.do?lang=en"
+  },
+  {
+   "text": "Download SoPഡൌണ്‍ലോഡ് എസ് ഒ പി",
+   "href": "https://edistrict.kerala.gov.in/rccsop.pdf?lang=en"
+  },
+  {
+   "text": "Track Application",
+   "href": "https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch&lang=en"
+  },
+  {
+   "text": "Certificate verification",
+   "href": "https://edistrict.kerala.gov.in/qrVerify.do?qr=qrVerify&lang=en"
+  },
+  {
+   "text": "Create Account",
+   "href": "https://edistrict.kerala.gov.in/registerPortalUser.do?lang=en"
+  },
+  {
+   "text": "Sign In",
+   "href": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en"
+  },
+  {
+   "text": "Read Page",
+   "href": "https://edistrict.kerala.gov.in/generalService.htm?event=faq#"
+  },
+  {
+   "text": "Back to Home.",
+   "href": "https://edistrict.kerala.gov.in/"
+  },
+  {
+   "text": "Create Account",
+   "href": "https://edistrict.kerala.gov.in/registerPortalUser.do"
+  },
+  {
+   "text": "“Forgot Login Name?”",
+   "href": "https://edistrict.kerala.gov.in/findportalLoginname.do?token=17922348742785489142762414076038"
+  },
+  {
+   "text": "Forgot loginame?",
+   "href": "https://edistrict.kerala.gov.in/findportalLoginname.do?token=17922348742785489142762414076038"
+  },
+  {
+   "text": "Forgot Password ?",
+   "href": "https://edistrict.kerala.gov.in/portalPasswordReset.do?token=17922348742785489142762414076038"
+  },
+  {
+   "text": "\"Forgot Loginname?\"",
+   "href": "https://edistrict.kerala.gov.in/findportalLoginname.do?token=17922348742785489142762414076038"
+  },
+  {
+   "text": "Government Orders",
+   "href": "https://edistrict.kerala.gov.in/generalService.htm?event=governmentOrders&token=17922348742785489142762414076038"
+  }
+ ],
+ "attempt": 1
+}

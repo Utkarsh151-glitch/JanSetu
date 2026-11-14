@@ -1,0 +1,12 @@
+{
+  "url": "https://edistrict.py.gov.in/",
+  "retrievedAt": "2026-10-15T23:07:10.015706+00:00",
+  "httpStatus": 0,
+  "finalUrl": "https://edistrict.py.gov.in/",
+  "redirects": 0,
+  "success": false,
+  "tlsVerified": false,
+  "curlExit": 35,
+  "error": "curl: (35) schannel: next InitializeSecurityContext failed: SEC_E_CERT_EXPIRED (0x80090328) - The received certificate has expired.\r\n",
+  "review": "Failed normal retrieval; not evidence of service retirement or a confirmed route"
+}

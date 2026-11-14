@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.catalog.CatalogUpdatesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-17T19:59:29.283Z" hostname="LAPTOP-FAIP099K" time="2.23">
+  <properties/>
+  <testcase name="trustedPackageValidatesAndRollbackOrWrongKeyCannotReplaceIt" classname="in.jansetu.app.catalog.CatalogUpdatesTest" time="0.309"/>
+  <testcase name="compactRuntimePreservesRecordsSearchAndAddsLocalizedHierarchy" classname="in.jansetu.app.catalog.CatalogUpdatesTest" time="1.664"/>
+  <testcase name="modifiedPayloadOversizedInputAndNewBrowserPermissionsAreRejected" classname="in.jansetu.app.catalog.CatalogUpdatesTest" time="0.257"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

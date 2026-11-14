@@ -1,0 +1,1936 @@
+{
+ "schemaVersion": 1,
+ "note": "Pins each evidence quote to the saved snapshot that contains it. Internal review data: contains page text excerpts.",
+ "pins": {
+  "cpgrams/cp-contact": {
+   "url": "https://pgportal.gov.in/Home/AboutUs",
+   "quoteSha256": "98b67063cf8e584d75e53b88472ee85473e01e0ea16f29ece9cc98f4a2710494",
+   "snapshot": "data/website_enrichment/research/2026-10-17/cpgrams/aec5e7c7f007d6b7.json",
+   "textSha256": "95175d43b7e2d51324f31649a116e98ba62b690eff0d2785f2489f2c6e787c11",
+   "capturedAt": "2026-10-17T10:51:53+00:00",
+   "match": "page text",
+   "offset": 126,
+   "context": "भारत सरकार Government of India कार्मिक, लोक शिकायत और पेंशन मंत्रालय Ministry of Personnel, Public Grievances & Pensions Home ⟦Contact Us⟧ About Us FAQs/Help Site Map CPGRAMS Centralized Public Grievance Redress And Monitoring System View Status Nodal PG Officers Redress Proces"
+  },
+  "cpgrams/cp-content": {
+   "url": "https://pgportal.gov.in/Home/ContactUs",
+   "quoteSha256": "b6474010af02e49becd887642826f8d33b9cbc72b6cb9cdb8a5674ffba6acb4c",
+   "snapshot": "data/website_enrichment/research/2026-10-17/cpgrams/b219e0ffe066955c.json",
+   "textSha256": "b7746d2da1dc0466e6bba8d9dc224b5b32643781790f08374b2c0ca24f6923ea",
+   "capturedAt": "2026-10-17T10:51:44+00:00",
+   "match": "page text",
+   "offset": 1277,
+   "context": "]in This site is designed, developed & hosted by National Informatics Centre, Ministry of Electronics & IT (MeitY), Government of India and ⟦Content owned by Department of Administrative Reforms & Public Grievances.⟧ Portal is Compatible with all major Browsers like Google Chrome, Mozilla Firefox, Microsoft Edge, Safari etc. Best Viewed in 1440 x 900 res"
+  },
+  "cpgrams/cp-email": {
+   "url": "https://pgportal.gov.in/",
+   "quoteSha256": "3e81cd53463e03ae475f55971da5a8b5cb58f901e8a4e9a2d9dc8e349bbdbfb0",
+   "snapshot": "data/website_enrichment/research/2026-10-17/cpgrams/fbb01083d1bbc851.json",
+   "textSha256": "bffb36f1764b5b67c2ba0a1e524eca6a31a9e3519c10c47d501d77c3259f9f97",
+   "capturedAt": "2026-10-17T10:51:35+00:00",
+   "match": "page text",
+   "offset": 377,
+   "context": "Status Nodal PG Officers Redress Process Grievance Nodal Authority for Appeal (current) Mobile App Language : English Sign In Previous Next ⟦Any Grievance sent by email will not be attended to / entertained.⟧ Please lodge your grievance on this portal. ABOUT CPGRAMS Centralised Public Grievance Redress and Monitoring System (CPGRAMS) is an online"
+  },
+  "cpgrams/cp-english": {
+   "url": "https://pgportal.gov.in/Home/AboutUs",
+   "quoteSha256": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
+   "snapshot": "data/website_enrichment/research/2026-10-17/cpgrams/aec5e7c7f007d6b7.json",
+   "textSha256": "95175d43b7e2d51324f31649a116e98ba62b690eff0d2785f2489f2c6e787c11",
+   "capturedAt": "2026-10-17T10:51:53+00:00",
+   "match": "page text",
+   "offset": 347,
+   "context": "ss And Monitoring System View Status Nodal PG Officers Redress Process Grievance Nodal Authority for Appeal (current) Mobile App Language : ⟦English⟧ Sign In About Us Director of Public Grievances, The Department of Administrative Reforms and Public Grievances. is the nodal agency to form"
+  },
+  "cpgrams/cp-faq": {
+   "url": "https://pgportal.gov.in/Home/AboutUs",
+   "quoteSha256": "c5c101c3ef9000a3bb418f6dc2d93b0687cb8c65a14d3377ea1a14ff8aa1f700",
+   "snapshot": "data/website_enrichment/research/2026-10-17/cpgrams/aec5e7c7f007d6b7.json",
+   "textSha256": "95175d43b7e2d51324f31649a116e98ba62b690eff0d2785f2489f2c6e787c11",
+   "capturedAt": "2026-10-17T10:51:53+00:00",
+   "match": "page text",
+   "offset": 146,
+   "context": "रकार Government of India कार्मिक, लोक शिकायत और पेंशन मंत्रालय Ministry of Personnel, Public Grievances & Pensions Home Contact Us About Us ⟦FAQs/Help⟧ Site Map CPGRAMS Centralized Public Grievance Redress And Monitoring System View Status Nodal PG Officers Redress Process Grievance Nodal A"
+  },
+  "cpgrams/cp-hindi": {
+   "url": "https://pgportal.gov.in/Home/AboutUs",
+   "quoteSha256": "a04eead041325698f95ae96a7dd776b356802e3e0d654edc7f9eef6563f462a6",
+   "snapshot": "data/website_enrichment/research/2026-10-17/cpgrams/aec5e7c7f007d6b7.json",
+   "textSha256": "95175d43b7e2d51324f31649a116e98ba62b690eff0d2785f2489f2c6e787c11",
+   "capturedAt": "2026-10-17T10:51:53+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “हिंदी (Hindi)” → https://pgportal.gov.in/Culture/Index/hi"
+  },
+  "cpgrams/cp-ministry": {
+   "url": "https://pgportal.gov.in/Home/ContactUs",
+   "quoteSha256": "7d3709ca824ead32205886a6a92c75cc9133256abfda23f9083d3488ecad4c24",
+   "snapshot": "data/website_enrichment/research/2026-10-17/cpgrams/b219e0ffe066955c.json",
+   "textSha256": "b7746d2da1dc0466e6bba8d9dc224b5b32643781790f08374b2c0ca24f6923ea",
+   "capturedAt": "2026-10-17T10:51:44+00:00",
+   "match": "page text",
+   "offset": 69,
+   "context": "भारत सरकार Government of India कार्मिक, लोक शिकायत और पेंशन मंत्रालय ⟦Ministry of Personnel, Public Grievances & Pensions⟧ Home Contact Us About Us FAQs/Help Site Map CPGRAMS Centralized Public Grievance Redress And Monitoring System View Status Nodal PG Officer"
+  },
+  "cpgrams/cp-purpose": {
+   "url": "https://pgportal.gov.in/",
+   "quoteSha256": "46c39245a90b2b7008d1430ceded33d02fbf75b57d0aaa1f1bc89eb28f2f5d86",
+   "snapshot": "data/website_enrichment/research/2026-10-17/cpgrams/fbb01083d1bbc851.json",
+   "textSha256": "bffb36f1764b5b67c2ba0a1e524eca6a31a9e3519c10c47d501d77c3259f9f97",
+   "capturedAt": "2026-10-17T10:51:35+00:00",
+   "match": "page text",
+   "offset": 571,
+   "context": "entertained. Please lodge your grievance on this portal. ABOUT CPGRAMS Centralised Public Grievance Redress and Monitoring System (CPGRAMS) ⟦is an online platform available to the citizens 24x7 to lodge their grievances to the public authorities on any subject related to service delivery.⟧ It is a single portal connected to all the Ministries/Departments of Government of India and States. Every Ministry and States have role-ba"
+  },
+  "cpgrams/cp-scope": {
+   "url": "https://pgportal.gov.in/",
+   "quoteSha256": "8a665051b04509d995f97a1d5d1afe7339ed96c77bcdb91999d68886e8922d29",
+   "snapshot": "data/website_enrichment/research/2026-10-17/cpgrams/fbb01083d1bbc851.json",
+   "textSha256": "bffb36f1764b5b67c2ba0a1e524eca6a31a9e3519c10c47d501d77c3259f9f97",
+   "capturedAt": "2026-10-17T10:51:35+00:00",
+   "match": "page text",
+   "offset": 720,
+   "context": "ine platform available to the citizens 24x7 to lodge their grievances to the public authorities on any subject related to service delivery. ⟦It is a single portal connected to all the Ministries/Departments of Government of India and States.⟧ Every Ministry and States have role-based access to this system. CPGRAMS is also accessible to the citizens through standalone mobile appli"
+  },
+  "cpgrams/cp-status": {
+   "url": "https://pgportal.gov.in/Home/AboutUs",
+   "quoteSha256": "17dbeaa65837025beb8e191474537970e77fa6644e8175e1815164d1ed63852d",
+   "snapshot": "data/website_enrichment/research/2026-10-17/cpgrams/aec5e7c7f007d6b7.json",
+   "textSha256": "95175d43b7e2d51324f31649a116e98ba62b690eff0d2785f2489f2c6e787c11",
+   "capturedAt": "2026-10-17T10:51:53+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “Grievance Status” → https://pgportal.gov.in/Status"
+  },
+  "cpgrams/cp-tamil": {
+   "url": "https://pgportal.gov.in/Home/AboutUs",
+   "quoteSha256": "1bea4173588ec4da4a9da467060a20ae9ade2345395023189984644b8d94695a",
+   "snapshot": "data/website_enrichment/research/2026-10-17/cpgrams/aec5e7c7f007d6b7.json",
+   "textSha256": "95175d43b7e2d51324f31649a116e98ba62b690eff0d2785f2489f2c6e787c11",
+   "capturedAt": "2026-10-17T10:51:53+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “தமிழ் (Tamil)” → https://pgportal.gov.in/Culture/Index/ta"
+  },
+  "digilocker/dg-contact": {
+   "url": "https://www.digilocker.gov.in/",
+   "quoteSha256": "98b67063cf8e584d75e53b88472ee85473e01e0ea16f29ece9cc98f4a2710494",
+   "snapshot": "data/website_enrichment/research/2026-10-17/digilocker/9996b907489fbc67.json",
+   "textSha256": "085096ad9b86a8ccec00a3f121d78ec30eadfed7d10f16b63621093c352d3cac",
+   "capturedAt": "2026-10-17T10:53:37+00:00",
+   "match": "page text",
+   "offset": 3359,
+   "context": "ia DOWNLOAD APP Last Updated: Oct 12, 2026 Copyright© 2026, Website maintained by National e-Governance Division (NeGD)  DigiLocker Policy ⟦Contact Us⟧"
+  },
+  "digilocker/dg-faq": {
+   "url": "https://www.digilocker.gov.in/web/about/faq",
+   "quoteSha256": "bdb9f2de538b3e1f67fc2504ef6438adb0be4a241a5b06995ecc67a6d8d7c517",
+   "snapshot": "data/website_enrichment/research/2026-10-17/digilocker/8776af7ac670fe3a.json",
+   "textSha256": "438288b5c6e74cff709fcac63496b673d4b1c6572e769d9689af3c79bba35fb2",
+   "capturedAt": "2026-10-17T10:53:51+00:00",
+   "match": "page text",
+   "offset": 102,
+   "context": "Government of India Skip to main content A+ A A- Explore DigiLocker Become a Partner Login / Register ⟦Frequently Asked Questions About DigiLocker⟧ What URLs can be used to access DigiLocker? DigiLocker can be accessed at https://digilocker[dot]gov[dot]in What are the key components of "
+  },
+  "digilocker/dg-initiative": {
+   "url": "https://www.digilocker.gov.in/web/about/about-digilocker",
+   "quoteSha256": "fdf16406e030d82ff7bf66a5917f5b7721aa7bf3355ba53cfd7822d62a85366b",
+   "snapshot": "data/website_enrichment/research/2026-10-17/digilocker/9d8f0e4f3e9a70c2.json",
+   "textSha256": "89885c05883c555a5913e81efd1559ff75119296c681e601210ec244cb590ccf",
+   "capturedAt": "2026-10-17T10:53:44+00:00",
+   "match": "page text",
+   "offset": 371,
+   "context": "nd services through trusted, paperless journeys Discover DigiLocker ABOUT DIGILOCKER One trusted document layer for a billion possibilities ⟦DigiLocker is a flagship initiative of the Ministry of Electronics and Information Technology under the Digital India programme.⟧ Operated by the National e-Governance Division, it lets citizens access authentic documents made available by registered government departm"
+  },
+  "digilocker/dg-operator": {
+   "url": "https://www.digilocker.gov.in/web/about/about-digilocker",
+   "quoteSha256": "248c57036b723ca06b175c0f67fa96ed5deacbd0fe3a4a4cb1c645f9bd921ce0",
+   "snapshot": "data/website_enrichment/research/2026-10-17/digilocker/9d8f0e4f3e9a70c2.json",
+   "textSha256": "89885c05883c555a5913e81efd1559ff75119296c681e601210ec244cb590ccf",
+   "capturedAt": "2026-10-17T10:53:44+00:00",
+   "match": "page text",
+   "offset": 500,
+   "context": "sibilities DigiLocker is a flagship initiative of the Ministry of Electronics and Information Technology under the Digital India programme. ⟦Operated by the National e-Governance Division, it lets citizens access authentic documents made available by registered government departments, educational institutions and other authorised organisations⟧ Recognised at par with originals Issued documents available through DigiLocker are deemed at par with corresponding physical originals unde"
+  },
+  "digilocker/dg-partner": {
+   "url": "https://www.digilocker.gov.in/",
+   "quoteSha256": "dd4be29d50b8e01ea0bc0b5752727516a442582e1f663348a57ed058abe0d097",
+   "snapshot": "data/website_enrichment/research/2026-10-17/digilocker/9996b907489fbc67.json",
+   "textSha256": "085096ad9b86a8ccec00a3f121d78ec30eadfed7d10f16b63621093c352d3cac",
+   "capturedAt": "2026-10-17T10:53:37+00:00",
+   "match": "page text",
+   "offset": 82,
+   "context": "Government of India  Skip to main content | A+ A A- | English Explore DigiLocker ⟦Become a Partner⟧ Login / Register New in DigiLocker Registered Deed Deputy Commissioner South Andaman Available Now GPF Annual Statement, Salary Slip Princi"
+  },
+  "igod-0eda9ab58f816d6f/pg-logins": {
+   "url": "https://pension.hrmsodisha.gov.in/",
+   "quoteSha256": "0cbbd27ac953c8388b1ce0a2fd8363559343ab8da24abb5fb1c9a22cd0f56835",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-0eda9ab58f816d6f/0eda9ab58f816d6f.json",
+   "textSha256": "ddcf0fe5c6fb419a5d8265288115fe548427dc680d4327e6445f8452b4516126",
+   "capturedAt": "2026-10-17T19:15:50+00:00",
+   "match": "page text",
+   "offset": 39,
+   "context": "Pension Grievance Government of Odisha ⟦Department/PSA Login CLICK HERE to Login DDO Login CLICK HERE to Login⟧ Copyright © CMGI - All Rights Reserved - General Administration & Public Grievance Department, Government of Odisha"
+  },
+  "igod-0eda9ab58f816d6f/pg-owner": {
+   "url": "https://pension.hrmsodisha.gov.in/",
+   "quoteSha256": "97f1210e71bbf9a44094c6d254f2d6904af0ef1a95a2b262d137110056ad5472",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-0eda9ab58f816d6f/0eda9ab58f816d6f.json",
+   "textSha256": "ddcf0fe5c6fb419a5d8265288115fe548427dc680d4327e6445f8452b4516126",
+   "capturedAt": "2026-10-17T19:15:50+00:00",
+   "match": "page text",
+   "offset": 151,
+   "context": "evance Government of Odisha Department/PSA Login CLICK HERE to Login DDO Login CLICK HERE to Login Copyright © CMGI - All Rights Reserved - ⟦General Administration & Public Grievance Department, Government of Odisha⟧"
+  },
+  "igod-0eda9ab58f816d6f/pg-title": {
+   "url": "https://pension.hrmsodisha.gov.in/",
+   "quoteSha256": "e281d52a59a82753e5b7eb464b36224dc44ca75a1d1563bec52d5955dad38975",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-0eda9ab58f816d6f/0eda9ab58f816d6f.json",
+   "textSha256": "ddcf0fe5c6fb419a5d8265288115fe548427dc680d4327e6445f8452b4516126",
+   "capturedAt": "2026-10-17T19:15:50+00:00",
+   "match": "page text",
+   "offset": 0,
+   "context": "⟦Pension Grievance⟧ Government of Odisha Department/PSA Login CLICK HERE to Login DDO Login CLICK HERE to Login Copyright © CMGI - All Rights Reserved - Genera"
+  },
+  "igod-18649bde195e5a01/cw-complaints": {
+   "url": "https://cpwdsewa.gov.in/",
+   "quoteSha256": "42c6fad41d37e2f73a6db56a6c39023af3cba8bca50807295156038f3723de37",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-18649bde195e5a01/18649bde195e5a01-attempt2.json",
+   "textSha256": "33551b8e90201be732b19679f132ebaf3c3c124ab86908b0dc74b0f97bc5b06f",
+   "capturedAt": "2026-10-17T19:27:17+00:00",
+   "match": "page text",
+   "offset": 170,
+   "context": "DEPARTMENT CPWDSewa Ministry of Housing and Urban Affairs Home Cities 84 Residential Service Centres 735 Non Residential Service Centre 439 ⟦Complaints Lodged Today⟧* 1 Contact Us *as on 18/10/2026 12:00 AM Residents Service Centre Management Call Centre Directorate of Estates Mobile App for Android / Ap"
+  },
+  "igod-18649bde195e5a01/cw-header": {
+   "url": "https://cpwdsewa.gov.in/",
+   "quoteSha256": "51c101a1a2000f0acdcdcd5e606ec91b949fab75e53e5c4f1532615149f5b043",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-18649bde195e5a01/18649bde195e5a01-attempt2.json",
+   "textSha256": "33551b8e90201be732b19679f132ebaf3c3c124ab86908b0dc74b0f97bc5b06f",
+   "capturedAt": "2026-10-17T19:27:17+00:00",
+   "match": "page text",
+   "offset": 9,
+   "context": "CPWDSewa ⟦CENTRAL PUBLIC WORKS DEPARTMENT CPWDSewa Ministry of Housing and Urban Affairs⟧ Home Cities 84 Residential Service Centres 735 Non Residential Service Centre 439 Complaints Lodged Today* 1 Contact Us *as on 18/10/2026 1"
+  },
+  "igod-18649bde195e5a01/cw-labels": {
+   "url": "https://cpwdsewa.gov.in/",
+   "quoteSha256": "a2b610585736d86f68198dcd1c4f8cf3e4bfba1098c26fe6c3c6408cf344503b",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-18649bde195e5a01/18649bde195e5a01-attempt2.json",
+   "textSha256": "33551b8e90201be732b19679f132ebaf3c3c124ab86908b0dc74b0f97bc5b06f",
+   "capturedAt": "2026-10-17T19:27:17+00:00",
+   "match": "page text",
+   "offset": 103,
+   "context": "CPWDSewa CENTRAL PUBLIC WORKS DEPARTMENT CPWDSewa Ministry of Housing and Urban Affairs Home Cities 84 ⟦Residential Service Centres⟧ 735 Non Residential Service Centre 439 Complaints Lodged Today* 1 Contact Us *as on 18/10/2026 12:00 AM Residents Service Centre Management"
+  },
+  "igod-18649bde195e5a01/cw-status": {
+   "url": "https://cpwdsewa.gov.in/",
+   "quoteSha256": "194466ae6718b872290c25cb475beba30c5253ba864c97341bf2ebea70f98379",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-18649bde195e5a01/18649bde195e5a01-attempt2.json",
+   "textSha256": "33551b8e90201be732b19679f132ebaf3c3c124ab86908b0dc74b0f97bc5b06f",
+   "capturedAt": "2026-10-17T19:27:17+00:00",
+   "match": "page text",
+   "offset": 601,
+   "context": " Web Information Manager Maintenance Charter Periodic/ Upgradation Work Pruning of Trees Survey Report Mobile App SMS Complaints Statistics ⟦Complaint Status⟧ Status of House Complaints Type Designed and Developed by National Informatics Centre हिन्दी"
+  },
+  "igod-2715637a8f399700/tn-about": {
+   "url": "https://www.tnesevai.tn.gov.in/Pages/AboutUs.aspx",
+   "quoteSha256": "ef6053988c17789b2e34e39abd1c2289276d6fab00fc745ed55b4d2baa3e3703",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-2715637a8f399700/7d4f723594c2d915.json",
+   "textSha256": "4ce38d463710571fb35a9a9fd472aa3ed35d33fe46367bfcfa1d73ef1ba03144",
+   "capturedAt": "2026-10-17T11:00:37+00:00",
+   "match": "page text",
+   "offset": 461,
+   "context": "ered Contact US Help Sitemap e-adangal Extract Application Tracking Dashboard e-Sevai Training AboutUs TNeGA Tamil Nadu e-Governance Agency ⟦Tamil Nadu e-Governance Agency (TNeGA), as a State Nodal Agency has been formed to support and drive all e-Governance initiatives of the Government of Tamil Nadu.⟧ TNeGA is implementing various e-Governance projects with the objective of making all Government services, wherever feasible & accessible to"
+  },
+  "igod-2715637a8f399700/tn-contact": {
+   "url": "https://www.tnesevai.tn.gov.in/Pages/ContactUs.aspx",
+   "quoteSha256": "11ea177177732ccfde8bc2474c26aa03fad7078596bc5382a8ad9df6d114fcf1",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-2715637a8f399700/67ee667616b62cd1.json",
+   "textSha256": "6c35b02876b547df19f802c546da0ac07d1e41a3a6b6aea9f7a8607e610e3271",
+   "capturedAt": "2026-10-17T11:00:55+00:00",
+   "match": "page text",
+   "offset": 416,
+   "context": " இணைய சேவை Home About Us e-Sevai Services Offered Contact US Help Sitemap e-adangal Extract Application Tracking Dashboard e-Sevai Training ⟦Contacts Director/ Chief Executive Officer Directorate of e-Governance / Tamil Nadu e-Governance Agency⟧ 2nd & 7th Floor, P.T.LEE Chengalvaraya Naicker Building, Anna Salai, Chennai - 600 002.Opt. LIC Building Fax No: +91-44-28521112 Tel No : +"
+  },
+  "igod-2715637a8f399700/tn-faq": {
+   "url": "https://www.tnesevai.tn.gov.in/Pages/FAQ.aspx",
+   "quoteSha256": "a40c144817122c490d81c47d3e99b7a103fe2a4bd66398d791b6d08781e228ff",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-2715637a8f399700/2bb3bd1203b3e67a.json",
+   "textSha256": "df158878a457002593017a928640b01e7bb61d45ecf3ad59cdaae1c806fad10c",
+   "capturedAt": "2026-10-17T11:01:05+00:00",
+   "match": "page text",
+   "offset": 416,
+   "context": " இணைய சேவை Home About Us e-Sevai Services Offered Contact US Help Sitemap e-adangal Extract Application Tracking Dashboard e-Sevai Training ⟦Frequently Asked Questions (FAQs)⟧ 1. What is CAN ? 2. Why I Need CAN ? 3. If I already have a CAN can I use it? 4. What should I do if I lost my CAN? 5. What is the validity"
+  },
+  "igod-2715637a8f399700/tn-header": {
+   "url": "https://www.tnesevai.tn.gov.in/Pages/AboutUs.aspx",
+   "quoteSha256": "d46652529bf0357c05c1d7efabd144d45b992af1b62e819bcb351650c5b76ae6",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-2715637a8f399700/7d4f723594c2d915.json",
+   "textSha256": "4ce38d463710571fb35a9a9fd472aa3ed35d33fe46367bfcfa1d73ef1ba03144",
+   "capturedAt": "2026-10-17T11:00:37+00:00",
+   "match": "page text",
+   "offset": 120,
+   "context": "Email: tnesevaihelpdesk@tn.gov.in | Toll Free Number :18004256000 Screen Reader Access A- A A+ Last Updated: 10/04/2023 ⟦Directorate of e-Governance Tamil Nadu e-Governance Agency Information Technology and Digital Services Department Government of Tamil Nadu⟧ e-Sevai இனிய சேவை இணைய சேவை Home About Us e-Sevai Services Offered Contact US Help Sitemap e-adangal Extract Application Tracking Dashboard"
+  },
+  "igod-2715637a8f399700/tn-home-services": {
+   "url": "https://www.tnesevai.tn.gov.in/",
+   "quoteSha256": "0c67996745f9d6e0a613a14ba54956ef82c42c4d9103afa1a9d701c440a5fb26",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-2715637a8f399700/2715637a8f399700.json",
+   "textSha256": "9e7009ed61fe804a32df8174459d7fd6182749885612714696e5314ce42eb7c5",
+   "capturedAt": "2026-10-17T10:49:21+00:00",
+   "match": "page text",
+   "offset": 1494,
+   "context": "ேவை மையத்திற்குசெல்லவும் நீங்கள் விரும்பும் அரசு சேவையை எங்களிடம் கூறுங்கள் நீங்கள் விரும்பும் அரசு சேவையை ஆபரேட்டரிடம்கூறுங்கள், எங்களிடம் ⟦சான்றிதழ்கள் மற்றும் உரிமம் உட்பட 119 சேவைகள் உள்ளன⟧... விண்ணப்பத் சமர்ப்பிக்கவும் விண்ணப்பத் பதிவு செய்யஇ-சேவை மையத்தில் இருக்கும்ஆபரேட்டரிடம்உங்கள் தகவல்களை பகிரவும், விண்ணப்பம் பதிவு செய்தத"
+  },
+  "igod-2715637a8f399700/tn-service-list": {
+   "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+   "quoteSha256": "2f4d911660b6077c85f28c820da6a12c85b3afd4bc76e8651fad499ca4769a3d",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-2715637a8f399700/6f5ff8590c975b19.json",
+   "textSha256": "26a31fe83cd2fcba00da11b3773707fee30c05f25d0e84e871e0a53492aa113e",
+   "capturedAt": "2026-10-17T11:00:45+00:00",
+   "match": "page text",
+   "offset": 416,
+   "context": " இணைய சேவை Home About Us e-Sevai Services Offered Contact US Help Sitemap e-adangal Extract Application Tracking Dashboard e-Sevai Training ⟦S.No Department Service name User manual Stipulated Timeline Fee List of Document Required link to apply⟧ Application Fee Service Charge 1 Animal Husbandry, Dairying and Fisheries National Fishermen Savings cum Relief Scheme Operator - 0 10 1.Aa"
+  },
+  "igod-2715637a8f399700/tn-tracking": {
+   "url": "https://www.tnesevai.tn.gov.in/Pages/FAQ.aspx",
+   "quoteSha256": "c8e0b23e41625b12b3ac432afea5f576773792a361601705b6eaf608a32fa113",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-2715637a8f399700/2bb3bd1203b3e67a.json",
+   "textSha256": "df158878a457002593017a928640b01e7bb61d45ecf3ad59cdaae1c806fad10c",
+   "capturedAt": "2026-10-17T11:01:05+00:00",
+   "match": "page text",
+   "offset": 368,
+   "context": "tment Government of Tamil Nadu e-Sevai இனிய சேவை இணைய சேவை Home About Us e-Sevai Services Offered Contact US Help Sitemap e-adangal Extract ⟦Application Tracking⟧ Dashboard e-Sevai Training Frequently Asked Questions (FAQs) 1. What is CAN ? 2. Why I Need CAN ? 3. If I already have a CAN can I use it? "
+  },
+  "igod-2bdd905020581df7/te-grievance": {
+   "url": "https://telanganaepass.cgg.gov.in/",
+   "quoteSha256": "bcccf48a1fdd114e80674ef472aa9c97ba4a73ecbcfdc32faf88ebdae121b996",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-2bdd905020581df7/2bdd905020581df7-attempt2.json",
+   "textSha256": "5322c2cdc9ce2661ab8bce2ec4da87c361581f1f2bd0da4b007410bc5d2e6de1",
+   "capturedAt": "2026-10-17T19:29:12+00:00",
+   "match": "page text",
+   "offset": 512,
+   "context": "ere for Procedure Flash News For Bio-Metric Aadhar Authentication Please visit your nearest Mee Seva Centre Along With Your Application Id. ⟦For BC and EBC Students, Register Your Grievances Online.⟧ India Postal payment bank account number is accepted along with Nationalized bank in scholarships application. Reports Know Your Applicatio"
+  },
+  "igod-2bdd905020581df7/te-overseas": {
+   "url": "https://telanganaepass.cgg.gov.in/",
+   "quoteSha256": "bc28a23566113aaf2a4eb04df1296d6954fc7dc240cc98536e4ac1b1a7950d42",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-2bdd905020581df7/2bdd905020581df7-attempt2.json",
+   "textSha256": "5322c2cdc9ce2661ab8bce2ec4da87c361581f1f2bd0da4b007410bc5d2e6de1",
+   "capturedAt": "2026-10-17T19:29:12+00:00",
+   "match": "page text",
+   "offset": 884,
+   "context": "arship Trans ID Details Grievances Redressal Feedback Post Matric Scholarship Services Pre Matric Scholarship Services Corporate Admissions ⟦Overseas Scholarship Services⟧ Skill Upgradation (GRE,GMAT,TOEFL,IELTS) Kalyana Lakshmi Shaadi Mubarak Marriage Incentive Awards Advocates Stipend Contact Us For Postmatr"
+  },
+  "igod-2bdd905020581df7/te-post": {
+   "url": "https://telanganaepass.cgg.gov.in/",
+   "quoteSha256": "08b921a2a5cbe1d4ae3ff1e91ba232fcc25025449d1bb805dbd962099111ae34",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-2bdd905020581df7/2bdd905020581df7-attempt2.json",
+   "textSha256": "5322c2cdc9ce2661ab8bce2ec4da87c361581f1f2bd0da4b007410bc5d2e6de1",
+   "capturedAt": "2026-10-17T19:29:12+00:00",
+   "match": "page text",
+   "offset": 798,
+   "context": "olarships application. Reports Know Your Application No. Bank Remittance Details Scholarship Trans ID Details Grievances Redressal Feedback ⟦Post Matric Scholarship Services⟧ Pre Matric Scholarship Services Corporate Admissions Overseas Scholarship Services Skill Upgradation (GRE,GMAT,TOEFL,IELTS) Kalyana Lakshmi"
+  },
+  "igod-2bdd905020581df7/te-pre": {
+   "url": "https://telanganaepass.cgg.gov.in/",
+   "quoteSha256": "1bbd89e33b5b1c66da1d64ba5d87eaa692877d063bd613a2342d809b30f528f1",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-2bdd905020581df7/2bdd905020581df7-attempt2.json",
+   "textSha256": "5322c2cdc9ce2661ab8bce2ec4da87c361581f1f2bd0da4b007410bc5d2e6de1",
+   "capturedAt": "2026-10-17T19:29:12+00:00",
+   "match": "page text",
+   "offset": 831,
+   "context": "ow Your Application No. Bank Remittance Details Scholarship Trans ID Details Grievances Redressal Feedback Post Matric Scholarship Services ⟦Pre Matric Scholarship Services⟧ Corporate Admissions Overseas Scholarship Services Skill Upgradation (GRE,GMAT,TOEFL,IELTS) Kalyana Lakshmi Shaadi Mubarak Marriage Incenti"
+  },
+  "igod-421dca3648f50c0b/ca-contact": {
+   "url": "https://cpao.nic.in/Contact-Us.php",
+   "quoteSha256": "96f947e83c3bc74fd67e9743e52dc051f7a33f9f57fff10267fb66d92e9b5f60",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-421dca3648f50c0b/1e49de62245a7033.json",
+   "textSha256": "a4e40a4952d832b9c9e42aa23cc58083881678d7e59b9ad535b0ca59f1e6f0c4",
+   "capturedAt": "2026-10-17T19:26:25+00:00",
+   "match": "page text",
+   "offset": 415,
+   "context": "S:1800-11-77-88 Toll Free Telephone Number For NPS-AR :1800-11-77-89 FAX: 2616 7326 E-mail : cccpao[at]nic[dot]in WEB SITE- www.cpao.nic.in ⟦WHOM TO CONTACT IN CPAO FOR AUTHORIZATION QUERY BASED ON TYPE OF PENSIONERS⟧ Central Pension Accounting Office As on 19 Aug 2026 Sl. No. Name Designation Section Telephone E-mail IDs 1 Smt. Deepika Jain Chief Control"
+  },
+  "igod-421dca3648f50c0b/ca-faq": {
+   "url": "https://cpao.nic.in/Publications/FAQ.php",
+   "quoteSha256": "02a1bae9a00725b2ca24d996873c9d5f5c1270b99dd8632c0fd9d477e63cebed",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-421dca3648f50c0b/9a1dd82a6bfc868c.json",
+   "textSha256": "9e4263190620028e2bd078b47f3be04eae6d9380f0480091bb0dcaca4e917970",
+   "capturedAt": "2026-10-17T19:26:18+00:00",
+   "match": "page text",
+   "offset": 101,
+   "context": "Toll Free Number: 1800-11-77-88 हिन्दी HOME ABOUT US WHO'S WHO RTI PUBLICATIONS CONTACT US LOGIN FAQ ⟦FAQ on Pension Processing⟧ FAQ for the Beneficiaries of NPS-AR FAQ for 7th CPC 1. What are various categories of Central Civil Pensioners and Pension Rules applicable"
+  },
+  "igod-421dca3648f50c0b/ca-fraud": {
+   "url": "https://cpao.nic.in/",
+   "quoteSha256": "1ed06dfc8daaea2f7b94c0b1f9363891c9ae7afefae8e9cdce490934abd23311",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-421dca3648f50c0b/421dca3648f50c0b-attempt2.json",
+   "textSha256": "803b9a03bf077b7de09d285747a25897a2474e25f30315f8b65c47cc03149a57",
+   "capturedAt": "2026-10-17T19:26:10+00:00",
+   "match": "page text",
+   "offset": 772,
+   "context": "the victim's pension account and transfer all available funds to fake accounts making it difficult for the victims to retrieve their money. ⟦Please Note that CPAO, Banks or any other Govt. Agency does not call for submission of Annual Life Certificate⟧ or ask for sharing any personal information including OTP, so do not share any personal information including your PPO No. with anyone. Par"
+  },
+  "igod-421dca3648f50c0b/ca-header": {
+   "url": "https://cpao.nic.in/Contact-Us.php",
+   "quoteSha256": "86b940cb5e964db3f9b2d7c6d98b4f733fb37549cd77c9a7ae0e34ebfb3f6ad2",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-421dca3648f50c0b/1e49de62245a7033.json",
+   "textSha256": "a4e40a4952d832b9c9e42aa23cc58083881678d7e59b9ad535b0ca59f1e6f0c4",
+   "capturedAt": "2026-10-17T19:26:25+00:00",
+   "match": "page text",
+   "offset": 108,
+   "context": "Toll Free Number: 1800-11-77-88 हिन्दी HOME ABOUT US WHO'S WHO RTI PUBLICATIONS CONTACT US LOGIN Contact Us ⟦CENTRAL PENSION ACCOUNTING OFFICE Ministry of Finance:Department of Expenditure⟧ Trikoot-II, Bhikaji Cama Place, New Delhi - 110 066 . Toll Free Telephone Number For OPS:1800-11-77-88 Toll Free Telephone Number For NPS-A"
+  },
+  "igod-421dca3648f50c0b/ca-hindi": {
+   "url": "https://cpao.nic.in/",
+   "quoteSha256": "9ddb12af8457d635ec15773f905ca8587772ef64d5ecbe24d9aa4eab27a2e79b",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-421dca3648f50c0b/421dca3648f50c0b-attempt2.json",
+   "textSha256": "803b9a03bf077b7de09d285747a25897a2474e25f30315f8b65c47cc03149a57",
+   "capturedAt": "2026-10-17T19:26:10+00:00",
+   "match": "page text",
+   "offset": 32,
+   "context": "Toll Free Number: 1800-11-77-88 ⟦हिन्दी⟧ HOME ABOUT US WHO'S WHO RTI PUBLICATIONS CONTACT US LOGIN ATTENTION PENSIONERS:! It has come to our notice that cyber fraudsters are callin"
+  },
+  "igod-421dca3648f50c0b/ca-pensioners": {
+   "url": "https://cpao.nic.in/",
+   "quoteSha256": "bea1ac3c661e06f4a0ae1f43d0b9432e234b6b07bdd980745ca25dcdf7c78b8d",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-421dca3648f50c0b/421dca3648f50c0b-attempt2.json",
+   "textSha256": "803b9a03bf077b7de09d285747a25897a2474e25f30315f8b65c47cc03149a57",
+   "capturedAt": "2026-10-17T19:26:10+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “For Pensioners” → https://cpao.nic.in/form-pensioners.php"
+  },
+  "igod-45553a3bd372fff9/mp-header": {
+   "url": "https://www.pension.mp.gov.in/",
+   "quoteSha256": "742addc08df1df0c2b4befd766fb2ce674650497ae0770d51b5234bdde8d89d3",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-45553a3bd372fff9/45553a3bd372fff9-attempt2.json",
+   "textSha256": "0cd0f00602d24b94ffdf10b81d8a8340c6da79231df3a79aa6f4b29699ff7dea",
+   "capturedAt": "2026-10-17T19:27:55+00:00",
+   "match": "page text",
+   "offset": 75,
+   "context": "Screen Reader Skip to Nav Content Skip to Main Content हिंदी A- A A+ LOGIN ⟦Directorate of Pension Provident Fund and Insurance(DoPPFI) Department of Finance, Government of Madhya Pradesh⟧ HOME ABOUT US Organizational Structure Departmental Chart Organizational Hierarchy Who’s Who PENSION(OPS) Pension Component Retiral Benefit"
+  },
+  "igod-45553a3bd372fff9/mp-hindi": {
+   "url": "https://www.pension.mp.gov.in/",
+   "quoteSha256": "38218e565fe6557738385cb98b882b8a78e61988d1724411269de7de621f1951",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-45553a3bd372fff9/45553a3bd372fff9-attempt2.json",
+   "textSha256": "0cd0f00602d24b94ffdf10b81d8a8340c6da79231df3a79aa6f4b29699ff7dea",
+   "capturedAt": "2026-10-17T19:27:55+00:00",
+   "match": "page text",
+   "offset": 55,
+   "context": "Screen Reader Skip to Nav Content Skip to Main Content ⟦हिंदी⟧ A- A A+ LOGIN Directorate of Pension Provident Fund and Insurance(DoPPFI) Department of Finance, Government of Madhya Pradesh HOME ABOUT US"
+  },
+  "igod-45553a3bd372fff9/mp-menu": {
+   "url": "https://www.pension.mp.gov.in/",
+   "quoteSha256": "fa4a5e766dab5d5267271fc1b6f164abed0a41b03c4d12bb382c797f0d7bfecf",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-45553a3bd372fff9/45553a3bd372fff9-attempt2.json",
+   "textSha256": "0cd0f00602d24b94ffdf10b81d8a8340c6da79231df3a79aa6f4b29699ff7dea",
+   "capturedAt": "2026-10-17T19:27:55+00:00",
+   "match": "page text",
+   "offset": 280,
+   "context": "tment of Finance, Government of Madhya Pradesh HOME ABOUT US Organizational Structure Departmental Chart Organizational Hierarchy Who’s Who ⟦PENSION(OPS)⟧ Pension Component Retiral Benefits Classification Eligibility Qualifying Service Pension Calculation DCRG Commutation Family Pension Travel"
+  },
+  "igod-45553a3bd372fff9/mp-nps": {
+   "url": "https://www.pension.mp.gov.in/",
+   "quoteSha256": "e3ffeb5c9bba466b4e3b1ad568d11614ec71846de7cfe71af83a868929fbc170",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-45553a3bd372fff9/45553a3bd372fff9-attempt2.json",
+   "textSha256": "0cd0f00602d24b94ffdf10b81d8a8340c6da79231df3a79aa6f4b29699ff7dea",
+   "capturedAt": "2026-10-17T19:27:55+00:00",
+   "match": "page text",
+   "offset": 587,
+   "context": " Requirement for Pension Cases General Deficiency Pension Forms Pension/GIS Circular GIS Calculation Pension Search Dearness Allowances NPS ⟦NPS : At a Glance⟧ NPS Circular NPS Forms NPS- Pension Calculator Online NPS Challan Deposit Guide/Utility for EMP/DDO/DTO NPS Withdrawal NPS Exit NPS Withdra"
+  },
+  "igod-50b73c3937b8d29b/kl-faq": {
+   "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+   "quoteSha256": "64c0d68ede0350a7fbaca8ba6e7bde926801eb8ce2c791e6bc65b855279877e4",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-50b73c3937b8d29b/7bfa1fc5107b2777.json",
+   "textSha256": "e85bfd9058201d65fbaec7da0d5daa2470472f4cb20a2181dd7765b706285299",
+   "capturedAt": "2026-10-17T11:01:13+00:00",
+   "match": "page text",
+   "offset": 234,
+   "context": "In മലയാളം Accessibility Menu NIC Kerala Close Keyboard Nav Cursor Contrast + Bigger Text Desaturate Highlight Links Legible Fonts Read Page ⟦Frequently Asked Questions Back to Home. General Questions⟧ How to create a portal user account in eDistrict? My aadhaar verification is failing while trying to create user account? I was able to suc"
+  },
+  "igod-50b73c3937b8d29b/kl-lang": {
+   "url": "https://edistrict.kerala.gov.in/",
+   "quoteSha256": "3080efdb77efa2411025fcd11e89dd22d8d6f1e1e85d70cb2c53b6c5dec19d95",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-50b73c3937b8d29b/50b73c3937b8d29b.json",
+   "textSha256": "92c5760b681ba6f1342edc7cdc963223437e545d101213ad278c1e790f75563d",
+   "capturedAt": "2026-10-17T10:49:29+00:00",
+   "match": "page text",
+   "offset": 97,
+   "context": "Govt Orders Revenue Court Case Track Application Certificate verification Create Account Sign In ⟦മലയാളം⟧ Accessibility Menu NIC Kerala Close Keyboard Nav Cursor Contrast + Bigger Text Desaturate Highlight Links Legible Fonts Read Page Notice De"
+  },
+  "igod-50b73c3937b8d29b/kl-operator": {
+   "url": "https://edistrict.kerala.gov.in/",
+   "quoteSha256": "c547c53374b092263d44cb65c438093b97877a35e0ee6d7d0ec87ca7a0f96d26",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-50b73c3937b8d29b/50b73c3937b8d29b.json",
+   "textSha256": "92c5760b681ba6f1342edc7cdc963223437e545d101213ad278c1e790f75563d",
+   "capturedAt": "2026-10-17T10:49:29+00:00",
+   "match": "page text",
+   "offset": 2033,
+   "context": "here. Government Websites WebSite Policies Terms and Conditions Privacy Policy Cancellation and Refund-Policy Quick Links Government Orders ⟦Implemented & Managed by Kerala State IT Mission.⟧ Content / Data Managed by KSITM / Respective Departments. Designed and Developed by National Informatics Centre, Kerala Contact Us Email: e"
+  },
+  "igod-50b73c3937b8d29b/kl-purpose": {
+   "url": "https://edistrict.kerala.gov.in/",
+   "quoteSha256": "f1021fdc38b4dc3d98d0aed36a0fe22998eece259c66f0345318f4c64e41a676",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-50b73c3937b8d29b/50b73c3937b8d29b.json",
+   "textSha256": "92c5760b681ba6f1342edc7cdc963223437e545d101213ad278c1e790f75563d",
+   "capturedAt": "2026-10-17T10:49:29+00:00",
+   "match": "page text",
+   "offset": 880,
+   "context": "t Card will remain suspended until further notice. Inconvenience caused is highly regretted. eDistrict - Services from Government of Kerala ⟦Kerala E-District project intend to provide Government services to citizens through Common Service Centers(CSC) which are easily accessible.⟧ Services from different departments are brought under one umbrella at any CSC. Some of the services are also made available through online "
+  },
+  "igod-50b73c3937b8d29b/kl-track": {
+   "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+   "quoteSha256": "731a0c336b7e3f08f8016e786cf41ce907558efa6edb3c23913e067893ffdc09",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-50b73c3937b8d29b/7bfa1fc5107b2777.json",
+   "textSha256": "e85bfd9058201d65fbaec7da0d5daa2470472f4cb20a2181dd7765b706285299",
+   "capturedAt": "2026-10-17T11:01:13+00:00",
+   "match": "page text",
+   "offset": 31,
+   "context": "Govt Orders Revenue Court Case ⟦Track Application⟧ Certificate verification Create Account Sign In മലയാളം Accessibility Menu NIC Kerala Close Keyboard Nav Cursor Contrast + Bigger Text Desat"
+  },
+  "igod-5891bfd68a83ed15/js-contact": {
+   "url": "https://janasunani.odisha.gov.in/",
+   "quoteSha256": "d4c794634cae4b447003711ed5f0095040f8734a96e6fdebcc5261de114abcbc",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-5891bfd68a83ed15/5891bfd68a83ed15-attempt2.json",
+   "textSha256": "15c099c65e4e82e4d363787eca21ac040c201ef0689fe4d5b3d60294d96d35b3",
+   "capturedAt": "2026-10-17T19:27:34+00:00",
+   "match": "page text",
+   "offset": 265,
+   "context": "ମୁଖ୍ୟମନ୍ତ୍ରୀ ଶ୍ରୀମତୀ ପ୍ରଭାତୀ ପରିଡ଼ା ମାନ୍ୟବର ଉପ-ମୁଖ୍ୟମନ୍ତ୍ରୀ ଓଡ଼ିଆ ଲଗଇନ୍ / ସାଇନ୍ ଅପ୍ ହୋମ୍ ଅଭିଯୋଗ ସ୍ଥିତି ଅନୁଧ୍ୟାନ ବାରମ୍ବାର ପଚାରଯାଉଥିବା ପ୍ରଶ୍ନ ⟦ଯୋଗାଯୋଗ⟧ ଜିଲ୍ଲାସ୍ତରୀୟ ଯୁଗ୍ମ ଶୁଣାଣୀ ମୁଖ୍ୟମନ୍ତ୍ରୀଙ୍କୁ ସାକ୍ଷାତକାର ପାଇଁ ଏଠାରେ ପଞ୍ଜିକରଣ କରନ୍ତୁ ପୂର୍ବରୁ ବୁକ୍ ହୋଇସାରିଛି! ଆପଣଙ୍କର ପଞ୍ଜୀକୃତ ପ୍ରାପ୍ତି ସ୍ୱୀକାର "
+  },
+  "igod-5891bfd68a83ed15/js-contact-en": {
+   "url": "https://janasunani.odisha.gov.in/contact",
+   "quoteSha256": "ca893932aa3e40fbf122f8141e39b285d058afc8bc221b27f2d65766394b5cad",
+   "snapshot": "data/website_enrichment/research/2026-10-18-linkcheck/igod-5891bfd68a83ed15/0929ff217e90d71f.json",
+   "textSha256": "1cdde2f0d658f3f20fa5594a76a637c71d6b3338f5929653872958d8ca54cc83",
+   "capturedAt": "2026-10-17T20:31:06+00:00",
+   "match": "page text",
+   "offset": 179,
+   "context": "଼ିଶା ସରକାର ଓଡ଼ିଆ ଲଗଇନ୍ / ସାଇନ୍ ଅପ୍ ହୋମ୍ ଅଭିଯୋଗ ସ୍ଥିତି ଅନୁଧ୍ୟାନ ବାରମ୍ବାର ପଚାରଯାଉଥିବା ପ୍ରଶ୍ନ ଯୋଗାଯୋଗ ଜିଲ୍ଲାସ୍ତରୀୟ ଯୁଗ୍ମ ଶୁଣାଣୀ ଯୋଗାଯୋଗ କରନ୍ତୁ ⟦Department of General Administration and Public Grievance, Lokseva Bhawan, Bhubaneswar-751001, Odisha⟧ ଜନସାଧାରଣଙ୍କ ଅଭିଯୋଗର ସମାଧାନ ଆମର ଅଗ୍ରାଧିକାର। ଆପଣ ଆପଣଙ୍କ ସୁବିଧା ଅନୁସାରେ ଅଭିଯୋଗ ପଞ୍ଜିକରଣ କରିପାରିବେ । ଅଭିଯୋଗ ସ୍ଥିତି ଅନୁଧ୍ୟାନ ଆଡମିନ୍ ଲଗିନ୍ ଉପଯୋଗକ"
+  },
+  "igod-5891bfd68a83ed15/js-dept": {
+   "url": "https://janasunani.odisha.gov.in/",
+   "quoteSha256": "e423edea0fbb506f5de00cf1cf5d7b3cd1152e6c0bb9d85180c1121445b7811b",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-5891bfd68a83ed15/5891bfd68a83ed15-attempt2.json",
+   "textSha256": "15c099c65e4e82e4d363787eca21ac040c201ef0689fe4d5b3d60294d96d35b3",
+   "capturedAt": "2026-10-17T19:27:34+00:00",
+   "match": "page text",
+   "offset": 0,
+   "context": "⟦ସାଧାରଣ ପ୍ରଶାସନ ଓ ସାଧାରଣ ଅଭିଯୋଗ ବିଭାଗ ଓଡ଼ିଶା ସରକାର⟧ ଶ୍ରୀ କନକ ବର୍ଦ୍ଧନ ସିଂଦେଓ ମାନ୍ୟବର ଉପ-ମୁଖ୍ୟମନ୍ତ୍ରୀ ଶ୍ରୀ ମୋହନ ଚରଣ ମାଝି ମାନ୍ୟବର ମୁଖ୍ୟମନ୍ତ୍ରୀ ଶ୍ରୀମତୀ ପ୍ରଭାତୀ ପରିଡ଼ା ମାନ୍ୟବର ଉପ-ମୁଖ୍ୟମନ୍ତ୍ରୀ ଓଡ଼ି"
+  },
+  "igod-5891bfd68a83ed15/js-faq": {
+   "url": "https://janasunani.odisha.gov.in/",
+   "quoteSha256": "553652fa1d9e82e9442fff74bb06cf1a05bae955d8a03ca8679cd743ba3619ec",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-5891bfd68a83ed15/5891bfd68a83ed15-attempt2.json",
+   "textSha256": "15c099c65e4e82e4d363787eca21ac040c201ef0689fe4d5b3d60294d96d35b3",
+   "capturedAt": "2026-10-17T19:27:34+00:00",
+   "match": "page text",
+   "offset": 237,
+   "context": " ଶ୍ରୀ ମୋହନ ଚରଣ ମାଝି ମାନ୍ୟବର ମୁଖ୍ୟମନ୍ତ୍ରୀ ଶ୍ରୀମତୀ ପ୍ରଭାତୀ ପରିଡ଼ା ମାନ୍ୟବର ଉପ-ମୁଖ୍ୟମନ୍ତ୍ରୀ ଓଡ଼ିଆ ଲଗଇନ୍ / ସାଇନ୍ ଅପ୍ ହୋମ୍ ଅଭିଯୋଗ ସ୍ଥିତି ଅନୁଧ୍ୟାନ ⟦ବାରମ୍ବାର ପଚାରଯାଉଥିବା ପ୍ରଶ୍ନ⟧ ଯୋଗାଯୋଗ ଜିଲ୍ଲାସ୍ତରୀୟ ଯୁଗ୍ମ ଶୁଣାଣୀ ମୁଖ୍ୟମନ୍ତ୍ରୀଙ୍କୁ ସାକ୍ଷାତକାର ପାଇଁ ଏଠାରେ ପଞ୍ଜିକରଣ କରନ୍ତୁ ପୂର୍ବରୁ ବୁକ୍ ହୋଇସାରିଛି! ଆପଣଙ୍କର ପଞ୍ଜୀକୃତ ପ୍ରାପ୍ତି "
+  },
+  "igod-5891bfd68a83ed15/js-purpose": {
+   "url": "https://janasunani.odisha.gov.in/",
+   "quoteSha256": "968e3af1200779883599b56fe5f2bb1ea11ed487eb3eb3fb39341b6a96f0a422",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-5891bfd68a83ed15/5891bfd68a83ed15-attempt2.json",
+   "textSha256": "15c099c65e4e82e4d363787eca21ac040c201ef0689fe4d5b3d60294d96d35b3",
+   "capturedAt": "2026-10-17T19:27:34+00:00",
+   "match": "page text",
+   "offset": 425,
+   "context": " ଯୁଗ୍ମ ଶୁଣାଣୀ ମୁଖ୍ୟମନ୍ତ୍ରୀଙ୍କୁ ସାକ୍ଷାତକାର ପାଇଁ ଏଠାରେ ପଞ୍ଜିକରଣ କରନ୍ତୁ ପୂର୍ବରୁ ବୁକ୍ ହୋଇସାରିଛି! ଆପଣଙ୍କର ପଞ୍ଜୀକୃତ ପ୍ରାପ୍ତି ସ୍ୱୀକାର ପତ୍ର ପାଅନ୍ତୁ ⟦ଆପଣଙ୍କ ଅଭିଯୋଗର ପଞ୍ଜିକରଣ ଓ ଏହାର ସମାଧାନ ଦିଗରେ ଏହି ମଞ୍ଚ ଆପଣଙ୍କୁ ସହଯୋଗ କରିଥାଏ⟧ ଦୟାକରି ଆପଣଙ୍କ ଅଭିଯୋଗର ବିବରଣୀ ପ୍ରଦାନ କରନ୍ତୁ। ଏହା ଆମ ପାଖରେ ସୁରକ୍ଷିତ ରହିବ। ଅଭିଯୋଗ ପଞ୍ଜିକରଣ କରନ୍ତୁ ସରକାରୀ କର୍ମଚାରୀ ଦୟାକରି ଆପଣଙ୍କର ଅଭିଯୋଗର ବିବରଣ"
+  },
+  "igod-5891bfd68a83ed15/js-status": {
+   "url": "https://janasunani.odisha.gov.in/",
+   "quoteSha256": "d52a347fcb6c4a06c40167b77b7ad47b79f5bef3d0002ab681f3a523f318f196",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-5891bfd68a83ed15/5891bfd68a83ed15-attempt2.json",
+   "textSha256": "15c099c65e4e82e4d363787eca21ac040c201ef0689fe4d5b3d60294d96d35b3",
+   "capturedAt": "2026-10-17T19:27:34+00:00",
+   "match": "page text",
+   "offset": 214,
+   "context": "ମାନ୍ୟବର ଉପ-ମୁଖ୍ୟମନ୍ତ୍ରୀ ଶ୍ରୀ ମୋହନ ଚରଣ ମାଝି ମାନ୍ୟବର ମୁଖ୍ୟମନ୍ତ୍ରୀ ଶ୍ରୀମତୀ ପ୍ରଭାତୀ ପରିଡ଼ା ମାନ୍ୟବର ଉପ-ମୁଖ୍ୟମନ୍ତ୍ରୀ ଓଡ଼ିଆ ଲଗଇନ୍ / ସାଇନ୍ ଅପ୍ ହୋମ୍ ⟦ଅଭିଯୋଗ ସ୍ଥିତି ଅନୁଧ୍ୟାନ⟧ ବାରମ୍ବାର ପଚାରଯାଉଥିବା ପ୍ରଶ୍ନ ଯୋଗାଯୋଗ ଜିଲ୍ଲାସ୍ତରୀୟ ଯୁଗ୍ମ ଶୁଣାଣୀ ମୁଖ୍ୟମନ୍ତ୍ରୀଙ୍କୁ ସାକ୍ଷାତକାର ପାଇଁ ଏଠାରେ ପଞ୍ଜିକରଣ କରନ୍ତୁ ପୂର୍ବରୁ ବୁକ୍ ହୋଇସାରିଛି"
+  },
+  "igod-5891bfd68a83ed15/js-title": {
+   "url": "https://janasunani.odisha.gov.in/",
+   "quoteSha256": "e5f5c651b250c761d3f64a396411b68f0ed2bdbae321805a121d611811d23ed1",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-5891bfd68a83ed15/5891bfd68a83ed15-attempt2.json",
+   "textSha256": "15c099c65e4e82e4d363787eca21ac040c201ef0689fe4d5b3d60294d96d35b3",
+   "capturedAt": "2026-10-17T19:27:34+00:00",
+   "match": "page text",
+   "offset": 1214,
+   "context": " ଆଡମିନ୍ ଲଗିନ୍ ଉପଯୋଗକାରୀ ନିୟମାବଳୀ ବାରମ୍ବାର ପଚାରଯାଉଥିବା ପ୍ରଶ୍ନ ଯୋଗାଯୋଗ ସାଇଟମ୍ୟାପ୍ ଆମକୁ ଅନୁସରଣ କର ମୋବାଇଲ୍ ଆପ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ Copyright © 2021 ⟦Public Grievance Redressal Portal⟧, All Rights Reserved Powered by Jana Sunani Helpdesk"
+  },
+  "igod-5e885f0e333d5206/od-certificates": {
+   "url": "https://edistrict.odisha.gov.in/",
+   "quoteSha256": "698d36720c6a3d4b2a532612725d1f12730137167e713cf5d59b0492e0a4fff3",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-5e885f0e333d5206/5e885f0e333d5206.json",
+   "textSha256": "025a91ffd66636752d02bfcc93a8c6aa8546c36b72e1ea5ddd1796aba01b2624",
+   "capturedAt": "2026-10-17T10:49:36+00:00",
+   "match": "page text",
+   "offset": 536,
+   "context": "n attempt to fulfill this vision, the Government of Odisha has implemented the ServicePlus platform of NIC to provide services to citizens. ⟦e-Certificates Revenue & Disaster Management Department Resident Certificate Income Certificate⟧ Guardianship Certificate Scheduled Caste Certificate Scheduled Tribe Certificate Income and Asset Certificate Legal Heir Certificate OBC Ce"
+  },
+  "igod-5e885f0e333d5206/od-contact": {
+   "url": "https://edistrict.odisha.gov.in/",
+   "quoteSha256": "98b67063cf8e584d75e53b88472ee85473e01e0ea16f29ece9cc98f4a2710494",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-5e885f0e333d5206/5e885f0e333d5206.json",
+   "textSha256": "025a91ffd66636752d02bfcc93a8c6aa8546c36b72e1ea5ddd1796aba01b2624",
+   "capturedAt": "2026-10-17T10:49:36+00:00",
+   "match": "page text",
+   "offset": 18,
+   "context": "Home Services FAQ ⟦Contact Us⟧ Login (CSC / Official User) Previous Next eDistrict The e-District portal involves integrated and seamless delivery of citizen services by "
+  },
+  "igod-5e885f0e333d5206/od-contact-section": {
+   "url": "https://edistrict.odisha.gov.in/#contact",
+   "quoteSha256": "89924751cd8904449ee3ae9c271af3d2008d3da678f632805cb2f2c440e8cb92",
+   "snapshot": "data/website_enrichment/research/2026-10-18-linkcheck/igod-5e885f0e333d5206/1e70faba8fbd5da1.json",
+   "textSha256": "025a91ffd66636752d02bfcc93a8c6aa8546c36b72e1ea5ddd1796aba01b2624",
+   "capturedAt": "2026-10-17T20:27:49+00:00",
+   "match": "page text",
+   "offset": 1594,
+   "context": " status online? How can I take a print of my issued e-Certificate? How can one verify the issued e-Certificates? How can I register my DSC? ⟦In case of any queries related to e-Certificates of Revenue & Disaster Management Department⟧, Please Contact at email ecertificate[dot]rdm[at]odisha[dot]gov[dot]in and Toll Free No. 1800-121-8242 Sanjog Helpline Number 155335 For Te"
+  },
+  "igod-5e885f0e333d5206/od-faq": {
+   "url": "https://edistrict.odisha.gov.in/",
+   "quoteSha256": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-5e885f0e333d5206/5e885f0e333d5206.json",
+   "textSha256": "025a91ffd66636752d02bfcc93a8c6aa8546c36b72e1ea5ddd1796aba01b2624",
+   "capturedAt": "2026-10-17T10:49:36+00:00",
+   "match": "page text",
+   "offset": 14,
+   "context": "Home Services ⟦FAQ⟧ Contact Us Login (CSC / Official User) Previous Next eDistrict The e-District portal involves integrated and seamless delivery of citizen s"
+  },
+  "igod-5e885f0e333d5206/od-faq-section": {
+   "url": "https://edistrict.odisha.gov.in/#team",
+   "quoteSha256": "09773de69c05d44cba88b6cf1400a5e81c6e5bcc822ad12be24a9de02a1a4173",
+   "snapshot": "data/website_enrichment/research/2026-10-18-linkcheck/igod-5e885f0e333d5206/da42de837dfd4da8.json",
+   "textSha256": "025a91ffd66636752d02bfcc93a8c6aa8546c36b72e1ea5ddd1796aba01b2624",
+   "capturedAt": "2026-10-17T20:27:35+00:00",
+   "match": "page text",
+   "offset": 1363,
+   "context": "partment Odisha Hydro Power Corporation Ltd Revenue & DM, Collector and District Magistrate(PURI) Collector and District Magistrate(ANUGUL) ⟦Frequently Asked Questions How citizen can apply for a Service?⟧ How to track my application status online? How can I take a print of my issued e-Certificate? How can one verify the issued e-Certificates?"
+  },
+  "igod-5e885f0e333d5206/od-platform": {
+   "url": "https://edistrict.odisha.gov.in/",
+   "quoteSha256": "ce594a2bdbc6de31f9f58e1b75b851d607ed8827d9f73833cd315b5d465462f3",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-5e885f0e333d5206/5e885f0e333d5206.json",
+   "textSha256": "025a91ffd66636752d02bfcc93a8c6aa8546c36b72e1ea5ddd1796aba01b2624",
+   "capturedAt": "2026-10-17T10:49:36+00:00",
+   "match": "page text",
+   "offset": 434,
+   "context": "icipating sections/departments for providing services in a most efficient manner to the citizens. In an attempt to fulfill this vision, the ⟦Government of Odisha has implemented the ServicePlus platform of NIC to provide services to citizens.⟧ e-Certificates Revenue & Disaster Management Department Resident Certificate Income Certificate Guardianship Certificate Scheduled Caste Ce"
+  },
+  "igod-5e885f0e333d5206/od-purpose": {
+   "url": "https://edistrict.odisha.gov.in/",
+   "quoteSha256": "d083130751752ad79655bffe23dbc78e5e01ad3f3625662abeb0563269e93f1e",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-5e885f0e333d5206/5e885f0e333d5206.json",
+   "textSha256": "025a91ffd66636752d02bfcc93a8c6aa8546c36b72e1ea5ddd1796aba01b2624",
+   "capturedAt": "2026-10-17T10:49:36+00:00",
+   "match": "page text",
+   "offset": 81,
+   "context": "Home Services FAQ Contact Us Login (CSC / Official User) Previous Next eDistrict ⟦The e-District portal involves integrated and seamless delivery of citizen services by district administration through automation of workflow⟧, back end digitization, integration and process redesigning across participating sections/departments for providing services in a most effi"
+  },
+  "igod-6e1f53ab402e424c/sp-footer": {
+   "url": "https://welfarepension.lsgkerala.gov.in/",
+   "quoteSha256": "f2ec47de718c52d6d943761114d493ed70161b30863a0b6bfc9641c394aeca0c",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-6e1f53ab402e424c/6e1f53ab402e424c.json",
+   "textSha256": "a39d6275c0d11eb8b9a009194d5d3c16a037d72bf3cdf42412bdd38e7b4d00aa",
+   "capturedAt": "2026-10-17T19:15:57+00:00",
+   "match": "page text",
+   "offset": 1453,
+   "context": " ബന്ധപെടുക - 1800 - 4251 - 1800,uidhelpdesk@kerala.gov.in എ.എല്‍.പിഎന്‍.ഒ.എ.പിഎസ്.ഡി.പിയു.എം.ഡബ്ലിയു.പിഡബ്ലിയു.പി Chart type not supported. ⟦Content owned and updated by: Respective Local Government Instistutions. Designed, developed and maintained by:Information Kerala Mission⟧, Network services by: State e-governance data centre. - Server 113 - Version 8.4.1 WgIChart type not supported."
+  },
+  "igod-6e1f53ab402e424c/sp-schemes": {
+   "url": "https://welfarepension.lsgkerala.gov.in/",
+   "quoteSha256": "1102b66f132b688527d525055269075cc13e0ffd519334df4e02db2a74c9ed58",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-6e1f53ab402e424c/6e1f53ab402e424c.json",
+   "textSha256": "a39d6275c0d11eb8b9a009194d5d3c16a037d72bf3cdf42412bdd38e7b4d00aa",
+   "capturedAt": "2026-10-17T19:15:57+00:00",
+   "match": "page text",
+   "offset": 41,
+   "context": "Last Updated : 17 Oct 2026 - 9:01 PM ഹോം ⟦സ്കീമുകള്‍⟧ ഡൌണ്‍ലോഡ് » മാനദണ്ഡങ്ങള്‍ ലോഗിന്‍ ഇ - ഫയലിംഗ് ക്വിക്ക്സെർച്ച് Current Flash News വിധവ പെൻഷൻ / 50 വയസ് കഴിഞ്ഞ അവിവാഹിത കൾക്കുള്ള പെൻഷൻ ഗുണഭോ"
+  },
+  "igod-6e1f53ab402e424c/sp-search": {
+   "url": "https://welfarepension.lsgkerala.gov.in/",
+   "quoteSha256": "47bb24eb51a3e2178e315f2fb15e831c3279a426c8adf76ba43103bec6bd1a2e",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-6e1f53ab402e424c/6e1f53ab402e424c.json",
+   "textSha256": "a39d6275c0d11eb8b9a009194d5d3c16a037d72bf3cdf42412bdd38e7b4d00aa",
+   "capturedAt": "2026-10-17T19:15:57+00:00",
+   "match": "page text",
+   "offset": 511,
+   "context": "82 Cr ഗുണഭോക്താക്കളുടെ എണ്ണം 5,222,478 സ്ത്രീ സുരക്ഷ - എണ്ണം 1,949,443 റിപ്പോര്‍ട്ടുകള്‍ ക്വിക്ക് സെർച്ച് മസ്റ്ററിംഗ് ഡാഷ് ബോർഡ് ഡി ബി റ്റി ⟦പെന്‍ഷന്‍ തിരച്ചില്‍⟧ സ്ത്രീ സുരക്ഷ തിരച്ചില്‍ സ്ത്രീ സുരക്ഷ സ്ത്രീ സുരക്ഷ ഡി ബി റ്റി വാര്‍ത്തകള്‍ സര്‍ക്കാര്‍ ഉത്തരവുകള്‍ സ്വകാര്യതാ നയം * വിധവ പെൻഷൻ / 50 വയസ് "
+  },
+  "igod-6e1f53ab402e424c/sp-title": {
+   "url": "https://welfarepension.lsgkerala.gov.in/",
+   "quoteSha256": "c22a4f971b889f546c9ac851620d558826a02ba0b762c48910df723c3e27fb02",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-6e1f53ab402e424c/6e1f53ab402e424c.json",
+   "textSha256": "a39d6275c0d11eb8b9a009194d5d3c16a037d72bf3cdf42412bdd38e7b4d00aa",
+   "capturedAt": "2026-10-17T19:15:57+00:00",
+   "match": "page title",
+   "offset": null,
+   "context": "Sevana Pension - Social Security System, Govt. of Kerala"
+  },
+  "igod-781379c678ce1e21/os-contact": {
+   "url": "https://scholarship.odisha.gov.in/content/contact-us",
+   "quoteSha256": "2477c54e2498141267d938582bc0543c42fb0b5d89a68b065053e2ec4b186e6e",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-781379c678ce1e21/ddffb549d9f4b2a9.json",
+   "textSha256": "0db28ad4884dd5551932711b55a445f67ba1c50f562e6757cbe6d4b40942ca78",
+   "capturedAt": "2026-10-17T19:24:59+00:00",
+   "match": "page text",
+   "offset": 128,
+   "context": "ଓଡ଼ିଆ A-AA+ Screen Reader Odisha State Scholarship Portal Government of Odisha About Schemes How to Apply FAQs Contact Us Login ⟦CONTACT US⟧ Home Contact Us Department of School & Mass Education Department Government of Odisha, Bhubaneswar-751001 Call 155335 / 1800-345-6770 Email"
+  },
+  "igod-781379c678ce1e21/os-departments": {
+   "url": "https://scholarship.odisha.gov.in/content/about-us",
+   "quoteSha256": "d0034e664cfc985472ca96e40986ab66835376bea0eb76ac827f8b995b75ad9f",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-781379c678ce1e21/2688fd6febe973f9.json",
+   "textSha256": "f72fd3b69ec0259d07292c17debe13fdd6ba2bc145d7a148c5e4a7e03cc4d57e",
+   "capturedAt": "2026-10-17T19:24:35+00:00",
+   "match": "page text",
+   "offset": 857,
+   "context": "envisioned to bridge the gap between the scholarship providers and scholarship seekers thus, encouraging more students to be in the system. ⟦Six major department of the state have on boarded onto this common platform for duplication and leakage free scholarship disbursal.⟧ The portal validates the applications of the students online based on Aadhar Authentication. This is a one stop database for scholarships a"
+  },
+  "igod-781379c678ce1e21/os-faq": {
+   "url": "https://scholarship.odisha.gov.in/faqs",
+   "quoteSha256": "d42b3bb98723f212269fac033e852bc0fc3c7aaa6504b877a0d5c8d3adc159f8",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-781379c678ce1e21/dac19b11c11ab4a6.json",
+   "textSha256": "668de73eb0cd5130cbe802efeea4db5082d353a836e9ce91eb442884b0afeab2",
+   "capturedAt": "2026-10-17T19:24:43+00:00",
+   "match": "page text",
+   "offset": 128,
+   "context": "ଓଡ଼ିଆ A-AA+ Screen Reader Odisha State Scholarship Portal Government of Odisha About Schemes How to Apply FAQs Contact Us Login ⟦FREQUENTLY ASKED QUESTIONS⟧ Home Frequently Asked Questions Common FAQs Agriculture & FE Department Higher Education Department Labour & ESI Department School & Mass E"
+  },
+  "igod-781379c678ce1e21/os-header": {
+   "url": "https://scholarship.odisha.gov.in/content/about-us",
+   "quoteSha256": "bf6154ff3bbd29300ed2d3854dd744fafd4ddbe9f85f4be4143387f77e4a16c5",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-781379c678ce1e21/2688fd6febe973f9.json",
+   "textSha256": "f72fd3b69ec0259d07292c17debe13fdd6ba2bc145d7a148c5e4a7e03cc4d57e",
+   "capturedAt": "2026-10-17T19:24:35+00:00",
+   "match": "page text",
+   "offset": 26,
+   "context": "ଓଡ଼ିଆ A-AA+ Screen Reader ⟦Odisha State Scholarship Portal Government of Odisha⟧ About Schemes How to Apply FAQs Contact Us Login ABOUT US Home About Us About Us A large segment of Odisha's potential workforce is unemplo"
+  },
+  "igod-781379c678ce1e21/os-odia": {
+   "url": "https://scholarship.odisha.gov.in/content/about-us",
+   "quoteSha256": "b0e0c2b59a322fe7dd62ddd80acb6ee09310fecc3e2c188bae2ed4e3762bd4a3",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-781379c678ce1e21/2688fd6febe973f9.json",
+   "textSha256": "f72fd3b69ec0259d07292c17debe13fdd6ba2bc145d7a148c5e4a7e03cc4d57e",
+   "capturedAt": "2026-10-17T19:24:35+00:00",
+   "match": "page text",
+   "offset": 0,
+   "context": "⟦ଓଡ଼ିଆ⟧ A-AA+ Screen Reader Odisha State Scholarship Portal Government of Odisha About Schemes How to Apply FAQs Contact Us Login ABOUT US Home Abo"
+  },
+  "igod-781379c678ce1e21/os-purpose": {
+   "url": "https://scholarship.odisha.gov.in/content/about-us",
+   "quoteSha256": "65644c043ee9d842f338c1f3f27b6bb85bbeb90352813abba28cd3e6ed089264",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-781379c678ce1e21/2688fd6febe973f9.json",
+   "textSha256": "f72fd3b69ec0259d07292c17debe13fdd6ba2bc145d7a148c5e4a7e03cc4d57e",
+   "capturedAt": "2026-10-17T19:24:35+00:00",
+   "match": "page text",
+   "offset": 685,
+   "context": "cholarships, its accessibility and its application process are also some of the major factors for increase in dropout numbers in the state. ⟦Odisha State Scholarship Portal envisioned to bridge the gap between the scholarship providers and scholarship seekers thus, encouraging more students to be in the system.⟧ Six major department of the state have on boarded onto this common platform for duplication and leakage free scholarship disbursal. The por"
+  },
+  "igod-781379c678ce1e21/os-status": {
+   "url": "https://scholarship.odisha.gov.in/content/about-us",
+   "quoteSha256": "5a4829765b8bea7bb26216d617bc49c89e8f9859f2a30134d1c5fcd6170e54b3",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-781379c678ce1e21/2688fd6febe973f9.json",
+   "textSha256": "f72fd3b69ec0259d07292c17debe13fdd6ba2bc145d7a148c5e4a7e03cc4d57e",
+   "capturedAt": "2026-10-17T19:24:35+00:00",
+   "match": "page text",
+   "offset": 3009,
+   "context": "iciaries. Important Links Apply Freeship Card View IFSC Code List of Institutions Check Eligibility Other Links National Scholarship Portal ⟦Know Your Status⟧ Sitemap Privacy Policy Odisha State Scholarship Portal © 2026, All Rights Reserved Total Visitors: 19,712,188"
+  },
+  "igod-7bb47a1cab5183f2/bs-purpose": {
+   "url": "https://new.broadcastseva.gov.in/digigov-portal-web-app/",
+   "quoteSha256": "c477d1f3ca878b4396788b1821d3e22adb69e7920702c4631de8dde5f822f8f9",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-7bb47a1cab5183f2/7bb47a1cab5183f2-attempt2.json",
+   "textSha256": "53b87661e1333b35d3a45a002f606635e1268a5c32f122b70e660bdb884577d0",
+   "capturedAt": "2026-10-17T19:25:42+00:00",
+   "match": "meta description",
+   "offset": null,
+   "context": "Broadcast Seva, an initiative by Ministry of Information & Broadcasting, provides a single point facility for broadcast related activities."
+  },
+  "igod-7bb47a1cab5183f2/bs-vision": {
+   "url": "https://new.broadcastseva.gov.in/digigov-portal-web-app/",
+   "quoteSha256": "a0c904aa692a7f8840fecfa7ab1cf2c1275886b956ad70551eef80e56bcbb66c",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-7bb47a1cab5183f2/7bb47a1cab5183f2-attempt2.json",
+   "textSha256": "53b87661e1333b35d3a45a002f606635e1268a5c32f122b70e660bdb884577d0",
+   "capturedAt": "2026-10-17T19:25:42+00:00",
+   "match": "page text",
+   "offset": 418,
+   "context": "is a pillar of an open and democratic society. In keeping with Hon’ble Prime Minister’s vision of Digital India and Ease of Doing Business, ⟦the Ministry of Information and Broadcasting is committed to provide efficient and transparent regime for the growth and management of the Broadcast Sector. BroadcastSeva is our effort in that direction.⟧ Helpdesk Contact Us : 011-23381707 18002127307 (Toll Free Number) Timing: 10:00AM to 5:00PM Monday-Friday Click on the below link for any c"
+  },
+  "igod-7c7865e8e6982bc1/pyr-charter": {
+   "url": "https://revenue.py.gov.in/",
+   "quoteSha256": "90ca936b363292abf22d5f1f8f2dfe8c9bbc2d38fbbcbdf83714aecc8ee041e2",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-7c7865e8e6982bc1/7c7865e8e6982bc1-attempt2.json",
+   "textSha256": "e071d7c71224d37fbd4a5a1a6d8bb1e8bb15ab3b4cc5e7ba99662e135edb26fe",
+   "capturedAt": "2026-10-17T11:01:20+00:00",
+   "match": "page text",
+   "offset": 3934,
+   "context": "come Tax Portal Employee's Corner ESI Corporation e-Salary Software Accounts & Treasury EPFO National Pension System PFRDA Citizen's Corner ⟦Citizen Charter⟧ R.T.I. Authorities Tenders Quick Links Land Records G.L.R. Value Excise More Services Registration Notifications RTI Events Census workshop"
+  },
+  "igod-7c7865e8e6982bc1/pyr-contacts": {
+   "url": "https://revenue.py.gov.in/",
+   "quoteSha256": "b450645debe2cf0a590edd7f78d36eccd465027d389652dc30d6350542587c04",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-7c7865e8e6982bc1/7c7865e8e6982bc1-attempt2.json",
+   "textSha256": "e071d7c71224d37fbd4a5a1a6d8bb1e8bb15ab3b4cc5e7ba99662e135edb26fe",
+   "capturedAt": "2026-10-17T11:01:20+00:00",
+   "match": "page text",
+   "offset": 207,
+   "context": " AND DISASTER MANAGEMENT Home About Administration Services & Scheme Disaster Management Training E-Governance Tourism EODB Corner Posh Act ⟦Contacts⟧ Emergency Helpline State Level Disaster Emergency 1070 District Level Disaster Emergency 1077 Ambulance 102, 108 Fire 101 Police Control Ro"
+  },
+  "igod-7c7865e8e6982bc1/pyr-menu": {
+   "url": "https://revenue.py.gov.in/",
+   "quoteSha256": "b16919e385b563d8f1887ce66ad1c1bb0417a5210360b9015e1721ba85938b49",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-7c7865e8e6982bc1/7c7865e8e6982bc1-attempt2.json",
+   "textSha256": "e071d7c71224d37fbd4a5a1a6d8bb1e8bb15ab3b4cc5e7ba99662e135edb26fe",
+   "capturedAt": "2026-10-17T11:01:20+00:00",
+   "match": "page text",
+   "offset": 118,
+   "context": "Skip to main content Government of Puducherry DEPARTMENT OF REVENUE AND DISASTER MANAGEMENT Home About Administration ⟦Services & Scheme Disaster Management⟧ Training E-Governance Tourism EODB Corner Posh Act Contacts Emergency Helpline State Level Disaster Emergency 1070 District Level Disaster "
+  },
+  "igod-7c7865e8e6982bc1/pyr-meta": {
+   "url": "https://revenue.py.gov.in/",
+   "quoteSha256": "f690ded9c3fcf326b82624512aefbd9d8e9185698cce282ad8d3ab25c83b99b9",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-7c7865e8e6982bc1/7c7865e8e6982bc1-attempt2.json",
+   "textSha256": "e071d7c71224d37fbd4a5a1a6d8bb1e8bb15ab3b4cc5e7ba99662e135edb26fe",
+   "capturedAt": "2026-10-17T11:01:20+00:00",
+   "match": "meta description",
+   "offset": null,
+   "context": "Official website of Department of Revenue and Disaster Management, Puducherry"
+  },
+  "igod-7c7865e8e6982bc1/pyr-services": {
+   "url": "https://revenue.py.gov.in/",
+   "quoteSha256": "cfcc78ed5d802aadbb167c38b637c130be179a57523d1eaf69b15d59d00fcc43",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-7c7865e8e6982bc1/7c7865e8e6982bc1-attempt2.json",
+   "textSha256": "e071d7c71224d37fbd4a5a1a6d8bb1e8bb15ab3b4cc5e7ba99662e135edb26fe",
+   "capturedAt": "2026-10-17T11:01:20+00:00",
+   "match": "page text",
+   "offset": 118,
+   "context": "Skip to main content Government of Puducherry DEPARTMENT OF REVENUE AND DISASTER MANAGEMENT Home About Administration ⟦Services & Scheme⟧ Disaster Management Training E-Governance Tourism EODB Corner Posh Act Contacts Emergency Helpline State Level Disaster Emergency 1070 Dist"
+  },
+  "igod-7c7865e8e6982bc1/pyr-title": {
+   "url": "https://revenue.py.gov.in/",
+   "quoteSha256": "c669999e61bc2d316f9b98c96e8830c44e3124c511834bb6b1acfa67ceff3bbc",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-7c7865e8e6982bc1/7c7865e8e6982bc1-attempt2.json",
+   "textSha256": "e071d7c71224d37fbd4a5a1a6d8bb1e8bb15ab3b4cc5e7ba99662e135edb26fe",
+   "capturedAt": "2026-10-17T11:01:20+00:00",
+   "match": "page title",
+   "offset": null,
+   "context": "Government of Puducherry, Department of Revenue and Disaster Management"
+  },
+  "igod-85affa23dc47255b/eci-hindi": {
+   "url": "https://electoralsearch.eci.gov.in/",
+   "quoteSha256": "61f54eca3cfe3e746886e31fa41c4825f4a5f23fdd28809120e13fb9193cf3b1",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-85affa23dc47255b/85affa23dc47255b-attempt2.json",
+   "textSha256": "abce2652597c4c2ec2398964db91b8f663745f5ad14f39b46c52a9ef3c018672",
+   "capturedAt": "2026-10-17T11:02:00+00:00",
+   "match": "page text",
+   "offset": 302,
+   "context": "Search by EPIC विवरण द्वारा खोजें/ Search by Details मोबाइल द्वारा खोजें / Search by Mobile भाषा का चयन करे/Select Language Select Language ⟦Hindi/हिंदी⟧ Assamese/অসমীয়া Bengali/বাংলা Konkani/कोंकणी Gujarati/ગુજરાતી Malayalam/മലയാളം Odia/ଓଡିଆ Punjabi/ਪੰਜਾਬੀ Tamil/தமிழ் Telugu/తెలుగు Marathi/म"
+  },
+  "igod-85affa23dc47255b/eci-modes": {
+   "url": "https://electoralsearch.eci.gov.in/",
+   "quoteSha256": "63a0cfe76e1cc597a03542f7c19fd8ecd2d4c844acd0727035908cc57ef090a2",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-85affa23dc47255b/85affa23dc47255b-attempt2.json",
+   "textSha256": "abce2652597c4c2ec2398964db91b8f663745f5ad14f39b46c52a9ef3c018672",
+   "capturedAt": "2026-10-17T11:02:00+00:00",
+   "match": "page text",
+   "offset": 162,
+   "context": "+ भारत निर्वाचन आयोग Election Commission of India मतदाता सेवा पोर्टल VOTERS' SERVICE PORTAL Search in Electoral Roll ईपीआईसी द्वारा खोजें / ⟦Search by EPIC विवरण द्वारा खोजें/ Search by Details मोबाइल द्वारा खोजें / Search by Mobile⟧ भाषा का चयन करे/Select Language Select Language Hindi/हिंदी Assamese/অসমীয়া Bengali/বাংলা Konkani/कोंकणी Gujarati/ગુજરાતી Malayalam/മലയാളം "
+  },
+  "igod-85affa23dc47255b/eci-operator": {
+   "url": "https://electoralsearch.eci.gov.in/",
+   "quoteSha256": "f3e78caa130342a4eef3e4f6ff12ed3e6238d2f3d9d6377c79fb942c71ac6758",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-85affa23dc47255b/85affa23dc47255b-attempt2.json",
+   "textSha256": "abce2652597c4c2ec2398964db91b8f663745f5ad14f39b46c52a9ef3c018672",
+   "capturedAt": "2026-10-17T11:02:00+00:00",
+   "match": "page text",
+   "offset": 24,
+   "context": "| AB A_B A__B | A- A A+ ⟦भारत निर्वाचन आयोग Election Commission of India⟧ मतदाता सेवा पोर्टल VOTERS' SERVICE PORTAL Search in Electoral Roll ईपीआईसी द्वारा खोजें / Search by EPIC विवरण द्वारा खोजें/ Search by Deta"
+  },
+  "igod-85affa23dc47255b/eci-search": {
+   "url": "https://electoralsearch.eci.gov.in/",
+   "quoteSha256": "bac8cecb907801fb2b3d4e4214dee22e39d28bbeb2f46129d41744cc9845c3e5",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-85affa23dc47255b/85affa23dc47255b-attempt2.json",
+   "textSha256": "abce2652597c4c2ec2398964db91b8f663745f5ad14f39b46c52a9ef3c018672",
+   "capturedAt": "2026-10-17T11:02:00+00:00",
+   "match": "page text",
+   "offset": 114,
+   "context": "| AB A_B A__B | A- A A+ भारत निर्वाचन आयोग Election Commission of India मतदाता सेवा पोर्टल VOTERS' SERVICE PORTAL ⟦Search in Electoral Roll⟧ ईपीआईसी द्वारा खोजें / Search by EPIC विवरण द्वारा खोजें/ Search by Details मोबाइल द्वारा खोजें / Search by Mobile भाषा का चयन करे/Select L"
+  },
+  "igod-85affa23dc47255b/eci-selector": {
+   "url": "https://electoralsearch.eci.gov.in/",
+   "quoteSha256": "9a9df99648bc8f7fccf6508400c73025273a527c2bbf8af0761a36966f70d13a",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-85affa23dc47255b/85affa23dc47255b-attempt2.json",
+   "textSha256": "abce2652597c4c2ec2398964db91b8f663745f5ad14f39b46c52a9ef3c018672",
+   "capturedAt": "2026-10-17T11:02:00+00:00",
+   "match": "page text",
+   "offset": 302,
+   "context": "Search by EPIC विवरण द्वारा खोजें/ Search by Details मोबाइल द्वारा खोजें / Search by Mobile भाषा का चयन करे/Select Language Select Language ⟦Hindi/हिंदी Assamese/অসমীয়া Bengali/বাংলা Konkani/कोंकणी Gujarati/ગુજરાતી Malayalam/മലയാളം Odia/ଓଡିଆ Punjabi/ਪੰਜਾਬੀ Tamil/தமிழ் Telugu/తెలుగు Marathi/मराठी Kannada/ಕನ್ನಡ Urdu/اردو⟧ EPIC DETAIL ईपीआईसी संख्या/ EPIC Number * राज्य/ State Select Your State Andaman & Nicobar Islands Andhra Pradesh Arunachal Pradesh Assam B"
+  },
+  "igod-85affa23dc47255b/eci-states": {
+   "url": "https://electoralsearch.eci.gov.in/",
+   "quoteSha256": "0b9291a1bf727ac951298a659dcddc97b6063f46dfc90070a4c64cbb83b68af2",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-85affa23dc47255b/85affa23dc47255b-attempt2.json",
+   "textSha256": "abce2652597c4c2ec2398964db91b8f663745f5ad14f39b46c52a9ef3c018672",
+   "capturedAt": "2026-10-17T11:02:00+00:00",
+   "match": "page text",
+   "offset": 537,
+   "context": "/ଓଡିଆ Punjabi/ਪੰਜਾਬੀ Tamil/தமிழ் Telugu/తెలుగు Marathi/मराठी Kannada/ಕನ್ನಡ Urdu/اردو EPIC DETAIL ईपीआईसी संख्या/ EPIC Number * राज्य/ State ⟦Select Your State Andaman & Nicobar Islands Andhra Pradesh⟧ Arunachal Pradesh Assam Bihar Chandigarh Chhattisgarh Dadra & Nagar Haveli and Daman & Diu Goa Gujarat Haryana Himachal Pradesh Jammu and K"
+  },
+  "igod-85affa23dc47255b/eci-tamil": {
+   "url": "https://electoralsearch.eci.gov.in/",
+   "quoteSha256": "83925d6b877e27f10fab4b37adf84e68a783ac10dd405335981a22450cc5f791",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-85affa23dc47255b/85affa23dc47255b-attempt2.json",
+   "textSha256": "abce2652597c4c2ec2398964db91b8f663745f5ad14f39b46c52a9ef3c018672",
+   "capturedAt": "2026-10-17T11:02:00+00:00",
+   "match": "page text",
+   "offset": 418,
+   "context": "anguage Select Language Hindi/हिंदी Assamese/অসমীয়া Bengali/বাংলা Konkani/कोंकणी Gujarati/ગુજરાતી Malayalam/മലയാളം Odia/ଓଡିଆ Punjabi/ਪੰਜਾਬੀ ⟦Tamil/தமிழ்⟧ Telugu/తెలుగు Marathi/मराठी Kannada/ಕನ್ನಡ Urdu/اردو EPIC DETAIL ईपीआईसी संख्या/ EPIC Number * राज्य/ State Select Your State Andaman & Nico"
+  },
+  "igod-9908672336cdd912/dl-contact": {
+   "url": "https://edistrict.delhigovt.nic.in/",
+   "quoteSha256": "98b67063cf8e584d75e53b88472ee85473e01e0ea16f29ece9cc98f4a2710494",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-9908672336cdd912/9908672336cdd912.json",
+   "textSha256": "66f6d2cb8da333aafdfab9008724eaf7139dcd88d73e2e142842e9f01b100b0c",
+   "capturedAt": "2026-10-17T10:49:57+00:00",
+   "match": "page text",
+   "offset": 118,
+   "context": "Government of NCT of Delhi Login/Register Hindi Home About Us Services Citizen's Corner Downloads Feedback/Suggestion ⟦Contact Us⟧ ‹ › Our Services Track your Application Verify your Certificate Print/Download Certificate Apply Service Track your Application Verify your"
+  },
+  "igod-9908672336cdd912/dl-english": {
+   "url": "https://edistrict.delhigovt.nic.in/",
+   "quoteSha256": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-9908672336cdd912/9908672336cdd912.json",
+   "textSha256": "66f6d2cb8da333aafdfab9008724eaf7139dcd88d73e2e142842e9f01b100b0c",
+   "capturedAt": "2026-10-17T10:49:57+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “English” → https://edistrict.delhigovt.nic.in/in/en/Home/ChangeLanguage.html?PageName=%2F"
+  },
+  "igod-9908672336cdd912/dl-faq": {
+   "url": "https://edistrict.delhigovt.nic.in/",
+   "quoteSha256": "9856b7433f842da2093b956811286d51860e05ae3904dc40b36dc709ea298884",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-9908672336cdd912/9908672336cdd912.json",
+   "textSha256": "66f6d2cb8da333aafdfab9008724eaf7139dcd88d73e2e142842e9f01b100b0c",
+   "capturedAt": "2026-10-17T10:49:57+00:00",
+   "match": "page text",
+   "offset": 632,
+   "context": "eceased person due to COVID-19 in Delhi Mukhyamantri Tirth Yatra Yojana… Verify Voter Details… For registration at NSP portal… How to Apply ⟦FAQs⟧ Timelines Designated Officials Eligibility Criteria and Guidelines Other Links Revenue Courts Issuance of ROR (DLRC) Download and Print e-R"
+  },
+  "igod-9908672336cdd912/dl-help": {
+   "url": "https://edistrict.delhigovt.nic.in/",
+   "quoteSha256": "b79cac926e0b2e347e72cc91d5174037c9e17ae7733fd7bdb570f71b10cd7bfc",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-9908672336cdd912/9908672336cdd912.json",
+   "textSha256": "66f6d2cb8da333aafdfab9008724eaf7139dcd88d73e2e142842e9f01b100b0c",
+   "capturedAt": "2026-10-17T10:49:57+00:00",
+   "match": "page text",
+   "offset": 1100,
+   "context": "ficates Downloaded 8745241 Users Online 5987 Authentication Departmental Login Citizen Login ‹ › × POLICIES Privacy Policy Copyright Policy ⟦Help⟧ Website Policy Accessibility Statement E-District Delhi Government of National Capital Territory of Delhi / Department of Information Techn"
+  },
+  "igod-9908672336cdd912/dl-hindi": {
+   "url": "https://edistrict.delhigovt.nic.in/",
+   "quoteSha256": "63c2dc51d089559ce10804e8184e2a80b717548fd33930b780214b2997c034cf",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-9908672336cdd912/9908672336cdd912.json",
+   "textSha256": "66f6d2cb8da333aafdfab9008724eaf7139dcd88d73e2e142842e9f01b100b0c",
+   "capturedAt": "2026-10-17T10:49:57+00:00",
+   "match": "page text",
+   "offset": 42,
+   "context": "Government of NCT of Delhi Login/Register ⟦Hindi⟧ Home About Us Services Citizen's Corner Downloads Feedback/Suggestion Contact Us ‹ › Our Services Track your Application Verify your Certif"
+  },
+  "igod-9908672336cdd912/dl-operator": {
+   "url": "https://edistrict.delhigovt.nic.in/in/en/Public/AboutUs.html",
+   "quoteSha256": "ea0b85ce4eb09069e0318500bce86a99f1e8d582c7c37e905c1fd0067ec257e0",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-9908672336cdd912/062fd30d92e48e10.json",
+   "textSha256": "05a0dd28d217da2db797769eeab86f2728dae3c4fb509c1b03d7a6a69390b1e3",
+   "capturedAt": "2026-10-17T10:50:05+00:00",
+   "match": "page text",
+   "offset": 1344,
+   "context": "p towards making Delhi a SMART CITY.\" POLICIES Privacy Policy Copyright Policy Help Website Policy Accessibility Statement E-District Delhi ⟦Government of National Capital Territory of Delhi / Department of Information Technology⟧, 9th Level, B-wing, Delhi Secretariat, I.P. Estate, Delhi-110002 (India) Office Timing: 09:30 AM to 06:00 PM Visitor No :337866815 © Discla"
+  },
+  "igod-9908672336cdd912/dl-purpose": {
+   "url": "https://edistrict.delhigovt.nic.in/in/en/Public/AboutUs.html",
+   "quoteSha256": "6130ceb624a52c41ba74c03caa9776fea41ee2e34f89a8c9a67b6050040b0b2a",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-9908672336cdd912/062fd30d92e48e10.json",
+   "textSha256": "05a0dd28d217da2db797769eeab86f2728dae3c4fb509c1b03d7a6a69390b1e3",
+   "capturedAt": "2026-10-17T10:50:05+00:00",
+   "match": "page text",
+   "offset": 138,
+   "context": "Government of NCT of Delhi Login/Register Hindi Home About Us Services Citizen's Corner Downloads Feedback/Suggestion Contact Us About Us ⟦E-District is a comprehensive and web-enabled service portal through which citizens can access various services provided by the Government.⟧ It provides end-to-end integrated solution to various services availed through this portal. By using E-District platform, you can avail var"
+  },
+  "igod-9908672336cdd912/dl-services": {
+   "url": "https://edistrict.delhigovt.nic.in/",
+   "quoteSha256": "a22dec9bc7d6a5ec6585938a6208c2ec7dcec301af655843dc382a6489b2e4d8",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-9908672336cdd912/9908672336cdd912.json",
+   "textSha256": "66f6d2cb8da333aafdfab9008724eaf7139dcd88d73e2e142842e9f01b100b0c",
+   "capturedAt": "2026-10-17T10:49:57+00:00",
+   "match": "page text",
+   "offset": 133,
+   "context": "Government of NCT of Delhi Login/Register Hindi Home About Us Services Citizen's Corner Downloads Feedback/Suggestion Contact Us ‹ › ⟦Our Services Track your Application Verify your Certificate Print/Download Certificate⟧ Apply Service Track your Application Verify your Certificate Print/Download Certificate Apply Service Track your Application Verify your Ce"
+  },
+  "igod-9908672336cdd912/dl-track": {
+   "url": "https://edistrict.delhigovt.nic.in/",
+   "quoteSha256": "44b86b7d0b6ef7ce7953040860d684681f20cc3c3fd701f0e27c3a24ca4d53ca",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-9908672336cdd912/9908672336cdd912.json",
+   "textSha256": "66f6d2cb8da333aafdfab9008724eaf7139dcd88d73e2e142842e9f01b100b0c",
+   "capturedAt": "2026-10-17T10:49:57+00:00",
+   "match": "page text",
+   "offset": 146,
+   "context": "ment of NCT of Delhi Login/Register Hindi Home About Us Services Citizen's Corner Downloads Feedback/Suggestion Contact Us ‹ › Our Services ⟦Track your Application⟧ Verify your Certificate Print/Download Certificate Apply Service Track your Application Verify your Certificate Print/Download Certificate "
+  },
+  "igod-af6bdd4b418c67a8/ms-purpose": {
+   "url": "https://odishamsme.nic.in/",
+   "quoteSha256": "78733b488e4ebea9073dc288a3a57b7c6989caef3d365887ecb3df77854544ff",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-af6bdd4b418c67a8/af6bdd4b418c67a8-attempt2.json",
+   "textSha256": "2e74c8bc5f41369cc036f6a1b1cceb7b9495b9913dfdc859113736a43e3d6c2a",
+   "capturedAt": "2026-10-17T19:28:44+00:00",
+   "match": "page text",
+   "offset": 0,
+   "context": "⟦e-MSME Seva All your e-Applications are here.⟧ Administration of Incentives for MSMEs & Large Industries ( AIM 2.0) Directorate of Industries, Odisha (DI) Business Reforms Action Plan ( "
+  },
+  "igod-af6bdd4b418c67a8/ms-systems": {
+   "url": "https://odishamsme.nic.in/",
+   "quoteSha256": "a6f03f008ea5c600a689c978f38d00e0ac75a89ae335f36a8430f94700d41153",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-af6bdd4b418c67a8/af6bdd4b418c67a8-attempt2.json",
+   "textSha256": "2e74c8bc5f41369cc036f6a1b1cceb7b9495b9913dfdc859113736a43e3d6c2a",
+   "capturedAt": "2026-10-17T19:28:44+00:00",
+   "match": "page text",
+   "offset": 46,
+   "context": "e-MSME Seva All your e-Applications are here. ⟦Administration of Incentives for MSMEs & Large Industries ( AIM 2.0) Directorate of Industries, Odisha (DI)⟧ Business Reforms Action Plan ( BRAP ) Directorate of Industries, Odisha (DI) Directorate of Export Promotion & Marketing - Online Services "
+  },
+  "igod-af6bdd4b418c67a8/ms-title": {
+   "url": "https://odishamsme.nic.in/",
+   "quoteSha256": "b2eaf8601b89733e9c099e99b5c598f9ce33cf401c78afeb60e2e44733666ade",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-af6bdd4b418c67a8/af6bdd4b418c67a8-attempt2.json",
+   "textSha256": "2e74c8bc5f41369cc036f6a1b1cceb7b9495b9913dfdc859113736a43e3d6c2a",
+   "capturedAt": "2026-10-17T19:28:44+00:00",
+   "match": "page title",
+   "offset": null,
+   "context": "MSME | Micro, Small & Medium Enterprises Department | Government of Odisha"
+  },
+  "igod-b3a364f734caa1f1/he-contact": {
+   "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=contactUs",
+   "quoteSha256": "339b2271611b15861e3dce7c6e07e140e5190eab883c5763e5c613603d14bb4b",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-b3a364f734caa1f1/4f56f9038bf64296.json",
+   "textSha256": "0fbb215c44d0eeabfe9e3cc704ff0d89b4cf073355fa85ccd3b0062eb58fbbff",
+   "capturedAt": "2026-10-17T19:29:05+00:00",
+   "match": "page text",
+   "offset": 204,
+   "context": " FAQ'S Contact Us Student Login Schemes Offered Contact Us NSP & Higher Educational Respective Schemes Higher Education Technical Education ⟦The queries, if any regarding the NSP and ePass Portal will preferablly be sent through E-mail⟧ i.e. hpepass2013@gmail.com However, in some important cases may contact on the Mobile/Telephone Nos of the Concerned officials as shown aga"
+  },
+  "igod-b3a364f734caa1f1/he-faq": {
+   "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=faqs",
+   "quoteSha256": "c2a8967069adce33c7374e2ecf1fbeaa848f933f1e0f1213f854df90cfa76ebf",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-b3a364f734caa1f1/14e6c704678a6063.json",
+   "textSha256": "65a7c9a704e3ce10c84ab7e837bcba135e743cdb1f2bcf9eec2598c1dc709a07",
+   "capturedAt": "2026-10-17T19:28:58+00:00",
+   "match": "page text",
+   "offset": 96,
+   "context": "Home Advertisement for Technical Schemes Downloads Photo Gallery FAQ'S Contact Us Student Login ⟦Schemes Offered⟧ 1. Who are eligible to apply under various State & Centrally Sponsored Scholarship Schemes, being implemented by the Department of Higher E"
+  },
+  "igod-b3a364f734caa1f1/he-flash": {
+   "url": "https://hpepass.cgg.gov.in/",
+   "quoteSha256": "3b3ab3b2de3da85dd91d039aaa31343c4d8ecb344a9abed1a90504e81f6a1c40",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-b3a364f734caa1f1/b3a364f734caa1f1-attempt2.json",
+   "textSha256": "5651ae231b7e1f51129f90ae3f2fc8b13f0c28649075094300aa1b3c2b3d7d3a",
+   "capturedAt": "2026-10-17T19:28:51+00:00",
+   "match": "page text",
+   "offset": 213,
+   "context": "ntact Us Student Login Schemes Offered Flash News OPENING/ LAST DATE OF ONLINE VERIFICATION AT hpepass portal FOR COLLEGES /SCHOOLS LEVEL - ⟦FROM 05-03-2019 TO 20-03-2019⟧. AFTER VERIFICATION THE DATE FOR SUBMISSION OF CERTFICATE INTO CONCERNED DDHE DULY SINGED BY MONITORING COMMITTEE TILL 22-03-2019.. OPENING"
+  },
+  "igod-b3a364f734caa1f1/he-online": {
+   "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=faqs",
+   "quoteSha256": "6eea4b56fb8879c64deb94b25d8d6386f870d457f3bfe2b3ab65577043cf639d",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-b3a364f734caa1f1/14e6c704678a6063.json",
+   "textSha256": "65a7c9a704e3ce10c84ab7e837bcba135e743cdb1f2bcf9eec2598c1dc709a07",
+   "capturedAt": "2026-10-17T19:28:58+00:00",
+   "match": "page text",
+   "offset": 281,
+   "context": "under various State & Centrally Sponsored Scholarship Schemes, being implemented by the Department of Higher Education, Himachal Pradesh? 2.⟦Where can a student apply online under these scholarship schemes?⟧ 3.Who can apply online under these scholarship schemes? 4.What is the last date for submitting applications online? 5. How can I apply onli"
+  },
+  "igod-b3a364f734caa1f1/he-schemes": {
+   "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=faqs",
+   "quoteSha256": "d1e2af4c39186bb4f6d3e9498c8e4d2a7cb0f65d5f3debc87ba7a6870f3ae812",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-b3a364f734caa1f1/14e6c704678a6063.json",
+   "textSha256": "65a7c9a704e3ce10c84ab7e837bcba135e743cdb1f2bcf9eec2598c1dc709a07",
+   "capturedAt": "2026-10-17T19:28:58+00:00",
+   "match": "page text",
+   "offset": 115,
+   "context": "Home Advertisement for Technical Schemes Downloads Photo Gallery FAQ'S Contact Us Student Login Schemes Offered 1. ⟦Who are eligible to apply under various State & Centrally Sponsored Scholarship Schemes, being implemented by the Department of Higher Education, Himachal Pradesh?⟧ 2.Where can a student apply online under these scholarship schemes? 3.Who can apply online under these scholarship schemes? 4.What is the l"
+  },
+  "igod-c01d8df9282d87de/bh-avail": {
+   "url": "https://bhavishya.nic.in/AboutUs.aspx",
+   "quoteSha256": "ba1d4c6c780ece36a5dc2f1b96443297b298767383a964fd8fa0b7df08730fc0",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c01d8df9282d87de/31c5efeb4830a5cd.json",
+   "textSha256": "f65f7599cc963a141b638c30a90e6334857790836a999b6800a8d13a51df81f9",
+   "capturedAt": "2026-10-17T19:25:18+00:00",
+   "match": "page text",
+   "offset": 1262,
+   "context": " process through SMS/E-Mail. The system obviates delays in payment of pension by ensuring complete transparency. Video Gallery Holiday List ⟦How to Avail Service⟧ Privacy Policy Report Cyber Security Incidents 1 1 0 4 9 0 Calls handled since 01/06/2020 Sitemap Application Security Audit Certificate In"
+  },
+  "igod-c01d8df9282d87de/bh-contact": {
+   "url": "https://bhavishya.nic.in/ContactUs.aspx",
+   "quoteSha256": "35de509a096086679e09656603002c78a82204568288a3b603386f76991563c4",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c01d8df9282d87de/6b1d4ad4c87f2c17.json",
+   "textSha256": "330f112a676b9d706d6aa4f408f0dc5b7e0d3b58a05225d52c6e6f528c77044d",
+   "capturedAt": "2026-10-17T19:25:34+00:00",
+   "match": "page text",
+   "offset": 383,
+   "context": "Welfare Login Registration About Us Pension Rules Nodal Officers List FAQs Timeline Quick Links Contact Us Get Instant CGHS Card Contact Us ⟦Get In Touch With Us⟧ Working Days - Monday to Friday except public holidays from 9:00 AM to 5:30 PM Address : Department of Pension & Pensioners' Welfare, Third"
+  },
+  "igod-c01d8df9282d87de/bh-faq": {
+   "url": "https://bhavishya.nic.in/FAQs.aspx?pid=faq",
+   "quoteSha256": "3b37e577150c9173b8a73b075c9bddb7bd29906959ee286b186e0d7a8c7ba5d9",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c01d8df9282d87de/a7fded5a16e4798f.json",
+   "textSha256": "022572530981413a00c2731fd594bd5e24dca338cf6fde66d0bbbac074a3d766",
+   "capturedAt": "2026-10-17T19:25:27+00:00",
+   "match": "page text",
+   "offset": 376,
+   "context": "oners' Welfare Login Registration About Us Pension Rules Nodal Officers List FAQs Timeline Quick Links Contact Us Get Instant CGHS Card FAQ ⟦What is Bhavishya ?⟧ 'Bhavishya' is an initiative of Department of Pension & Pensioners' Welfare, which is launched with the goal to ensure payment of all retir"
+  },
+  "igod-c01d8df9282d87de/bh-goal": {
+   "url": "https://bhavishya.nic.in/AboutUs.aspx",
+   "quoteSha256": "490121c34e3c9ff661095f2b16548a118862aaf12132413018f255cf72d398e9",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c01d8df9282d87de/31c5efeb4830a5cd.json",
+   "textSha256": "f65f7599cc963a141b638c30a90e6334857790836a999b6800a8d13a51df81f9",
+   "capturedAt": "2026-10-17T19:25:18+00:00",
+   "match": "page text",
+   "offset": 511,
+   "context": " About Bhavishya Department of Pension & Pensioners’ Welfare is working with a vision of ensuring active and dignified life for pensioners. ⟦The goal is to ensure payment of all retirement dues and delivery of Pension Payment Order (PPO) to retiring employees on the day of retirement itself.⟧ Towards this goal, the department has launched an online Pension Sanction & Payment Tracking System called 'BHAVISHYA'. The system provides"
+  },
+  "igod-c01d8df9282d87de/bh-header": {
+   "url": "https://bhavishya.nic.in/AboutUs.aspx",
+   "quoteSha256": "6fdfa50bf135a6e2f293167873ec54212615ca51832edc41d80e7c2c5e754e75",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c01d8df9282d87de/31c5efeb4830a5cd.json",
+   "textSha256": "f65f7599cc963a141b638c30a90e6334857790836a999b6800a8d13a51df81f9",
+   "capturedAt": "2026-10-17T19:25:18+00:00",
+   "match": "page text",
+   "offset": 0,
+   "context": "⟦Government of India Ministry of Personnel, Public Grievances & Pensions Department of Pension & Pensioners' Welfare⟧ Screen Reader Access Bhavishya Pension Sanction & Payment Tracking System An initiative of Department of Pension & Pensioners' Welfare Logi"
+  },
+  "igod-c01d8df9282d87de/bh-launch": {
+   "url": "https://bhavishya.nic.in/AboutUs.aspx",
+   "quoteSha256": "05afa6b4b82afcd3e29b18f67ad16ba8e5ea17239ded32348d000b3554d5040c",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c01d8df9282d87de/31c5efeb4830a5cd.json",
+   "textSha256": "f65f7599cc963a141b638c30a90e6334857790836a999b6800a8d13a51df81f9",
+   "capturedAt": "2026-10-17T19:25:18+00:00",
+   "match": "page text",
+   "offset": 663,
+   "context": "to ensure payment of all retirement dues and delivery of Pension Payment Order (PPO) to retiring employees on the day of retirement itself. ⟦Towards this goal, the department has launched an online Pension Sanction & Payment Tracking System called 'BHAVISHYA'.⟧ The system provides online tracking of pension sanction and payment process by the individual as well as the administrative authorities. Th"
+  },
+  "igod-c01d8df9282d87de/bh-tracking": {
+   "url": "https://bhavishya.nic.in/AboutUs.aspx",
+   "quoteSha256": "ca3fb089421827aa36efc669ebd5c4d18d27cf92d50627a8e54be3145adcd44f",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c01d8df9282d87de/31c5efeb4830a5cd.json",
+   "textSha256": "f65f7599cc963a141b638c30a90e6334857790836a999b6800a8d13a51df81f9",
+   "capturedAt": "2026-10-17T19:25:18+00:00",
+   "match": "page text",
+   "offset": 783,
+   "context": " retirement itself. Towards this goal, the department has launched an online Pension Sanction & Payment Tracking System called 'BHAVISHYA'. ⟦The system provides online tracking of pension sanction and payment process by the individual as well as the administrative authorities.⟧ The system captures the pensioners personal and service particulars. The forms for processing of pension can be submitted online. It keeps "
+  },
+  "igod-c33cb8549415ad34/ek-attention": {
+   "url": "https://ekalyan.cgg.gov.in/",
+   "quoteSha256": "d04635062b072d4b420461a4f17900c2dff35472177fad2e80602ae2435fbaba",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c33cb8549415ad34/c33cb8549415ad34-attempt2.json",
+   "textSha256": "2b45cf207e53b69f61c3c0102126109d916850397dcf707ee0e453b507182006",
+   "capturedAt": "2026-10-17T19:28:37+00:00",
+   "match": "page text",
+   "offset": 498,
+   "context": " हैं मिशन यूपीएससी पंजीकरण (2024-25) बंद हो गए हैं मुफ़्त CM माइनॉरिटी कोचिंग स्कीम प्री-मैट्रिक पंजीकरण (2026-27) शुरू हो गए हैं Attention ⟦Before applying, please carefully read How to Apply & FAQ Section.⟧ Go To Section Shri Hemant Soren Hon’ble Chief Minister Shri Chamra Linda Hon’ble Minister for Department of ST, SC & Backward Class Welfare"
+  },
+  "igod-c33cb8549415ad34/ek-dept": {
+   "url": "https://ekalyan.cgg.gov.in/",
+   "quoteSha256": "a63b8c0bbd287446cd1a29a7a3f3c2274ce801080918a7d965b4fb68a762bbe8",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c33cb8549415ad34/c33cb8549415ad34-attempt2.json",
+   "textSha256": "2b45cf207e53b69f61c3c0102126109d916850397dcf707ee0e453b507182006",
+   "capturedAt": "2026-10-17T19:28:37+00:00",
+   "match": "page text",
+   "offset": 73,
+   "context": "हिन्दी ए- ए ए+ छात्र लॉगिन जेईई/नीट लॉगिन/पंजीकरण कॉलेज पंजीकरण ई-कल्याण ⟦अनुसूचित जनजाति, अनुसूचित जाति, अल्पसंख्यक और पिछड़ा वर्ग कल्याण, झारखंड सरकार⟧ Toggle main menu visibility सेवाएँ एवं अनुसूचियाँ आवेदन कैसे करे सूचना पट्ट योजनाएँ / छात्रवृत्तियाँ सहायता केंद् Logins More Previous Next"
+  },
+  "igod-c33cb8549415ad34/ek-english": {
+   "url": "https://ekalyan.cgg.gov.in/",
+   "quoteSha256": "ba118bf7fc9c1aedc1edb28a0aa86e0b43b681f222af6616e13c43be87815b06",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c33cb8549415ad34/c33cb8549415ad34-attempt2.json",
+   "textSha256": "2b45cf207e53b69f61c3c0102126109d916850397dcf707ee0e453b507182006",
+   "capturedAt": "2026-10-17T19:28:37+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “English” → https://ekalyan.cgg.gov.in/#"
+  },
+  "igod-c33cb8549415ad34/ek-faq": {
+   "url": "https://ekalyan.cgg.gov.in/",
+   "quoteSha256": "285f0d4721511796217610fbb59e89144420798606521ba53a5c333cba9929f5",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c33cb8549415ad34/c33cb8549415ad34-attempt2.json",
+   "textSha256": "2b45cf207e53b69f61c3c0102126109d916850397dcf707ee0e453b507182006",
+   "capturedAt": "2026-10-17T19:28:37+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “सामान्य प्रश्न” → https://ekalyan.cgg.gov.in/Faqs.do"
+  },
+  "igod-c33cb8549415ad34/ek-reg": {
+   "url": "https://ekalyan.cgg.gov.in/",
+   "quoteSha256": "8f7626ba39d11f9a0ef400c3ab1a7d9852a463c330d8e6bf3ae821b05eeac352",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c33cb8549415ad34/c33cb8549415ad34-attempt2.json",
+   "textSha256": "2b45cf207e53b69f61c3c0102126109d916850397dcf707ee0e453b507182006",
+   "capturedAt": "2026-10-17T19:28:37+00:00",
+   "match": "page text",
+   "offset": 304,
+   "context": "menu visibility सेवाएँ एवं अनुसूचियाँ आवेदन कैसे करे सूचना पट्ट योजनाएँ / छात्रवृत्तियाँ सहायता केंद् Logins More Previous Next फ़्लैश ख़बर ⟦पोस्ट-मैट्रिक पंजीकरण (2025-26) & (2026-27) शुरू हो गए हैं⟧ मिशन यूपीएससी पंजीकरण (2024-25) बंद हो गए हैं मुफ़्त CM माइनॉरिटी कोचिंग स्कीम प्री-मैट्रिक पंजीकरण (2026-27) शुरू हो गए हैं Attention Befo"
+  },
+  "igod-c33cb8549415ad34/ek-secretary": {
+   "url": "https://ekalyan.cgg.gov.in/",
+   "quoteSha256": "0438b25018b909d89d67693de78c40e204d7df44805b882040b1381b5d74eb0f",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-c33cb8549415ad34/c33cb8549415ad34-attempt2.json",
+   "textSha256": "2b45cf207e53b69f61c3c0102126109d916850397dcf707ee0e453b507182006",
+   "capturedAt": "2026-10-17T19:28:37+00:00",
+   "match": "page text",
+   "offset": 800,
+   "context": "epartment of ST, SC & Backward Class Welfare Shri Hafizul Hassan Hon’ble Minister for Department of Minority Welfare Shri Kripanand Jha IAS ⟦Secretary, Department of ST, SC, Minority and Backward Class Welfare⟧ Shri Kuldeep Chaudhary IAS Tribal Welfare Commissioner झारखंड शैक्षणिक वर्ष 2024-25 योजनाओं की संख्या 06 लाभार्थियों की संख्या 3321042 कुल "
+  },
+  "igod-dc063c5a252aabe5/ng-apply": {
+   "url": "https://scholarship.nagaland.gov.in/",
+   "quoteSha256": "df289189b22bb2d27f1b637436d17dc04536e71f37dd16ef451df5de75d24ea0",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-dc063c5a252aabe5/dc063c5a252aabe5-attempt2.json",
+   "textSha256": "8fc1e93973e142002f0215db3660501dbe930271190dc6b158f441285a3c882d",
+   "capturedAt": "2026-10-17T19:27:07+00:00",
+   "match": "page text",
+   "offset": 386,
+   "context": "gle-window platform for students to discover scholarship schemes provided by the Government of Nagaland. Browse Scholarships Create Account ⟦Apply for Scholarship⟧ 5 Active scholarship schemes 8 Hosted scholarship schemes 59,675 Applications approved ANNOUNCEMENTS Latest news & updates 13 OCT NOTICE In"
+  },
+  "igod-dc063c5a252aabe5/ng-contact": {
+   "url": "https://scholarship.nagaland.gov.in/",
+   "quoteSha256": "47aaf31b83d6bfd705b80bcd5b6269be4caa3cf54cfa546b0ae7bc4078b39b0f",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-dc063c5a252aabe5/dc063c5a252aabe5-attempt2.json",
+   "textSha256": "8fc1e93973e142002f0215db3660501dbe930271190dc6b158f441285a3c882d",
+   "capturedAt": "2026-10-17T19:27:07+00:00",
+   "match": "page text",
+   "offset": 172,
+   "context": " portal of the Government of Nagaland A- A+ A High contrast Common Scholarship Portal Government of Nagaland Home Scholarships How to Apply ⟦Contact us⟧ Log in Register GOVERNMENT OF NAGALAND Scholarship Portal A single-window platform for students to discover scholarship schemes provided by"
+  },
+  "igod-dc063c5a252aabe5/ng-contact-section": {
+   "url": "https://scholarship.nagaland.gov.in/#contact",
+   "quoteSha256": "96588faf549cbdd1cf23ab0475edec9d96009f33098eb117701e25ce467e6789",
+   "snapshot": "data/website_enrichment/research/2026-10-18-linkcheck/igod-dc063c5a252aabe5/5de0f5d5473777dc.json",
+   "textSha256": "8fc1e93973e142002f0215db3660501dbe930271190dc6b158f441285a3c882d",
+   "capturedAt": "2026-10-17T20:30:44+00:00",
+   "match": "page text",
+   "offset": 3039,
+   "context": "for multiple scholarships? No, you can only apply for one scholarship at a time. Review the eligibility criteria carefully before applying. ⟦Help desk & Contact Reach the support team⟧ for application issues, account access, scholarship guidance, and official portal assistance. Talk to us FOR PORTAL & TECHNICAL ISSUES ONLY"
+  },
+  "igod-dc063c5a252aabe5/ng-official": {
+   "url": "https://scholarship.nagaland.gov.in/",
+   "quoteSha256": "ff064b57ada2284143f63d3ca9d568919e8e7ed4f46798397bc2b419090296f4",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-dc063c5a252aabe5/dc063c5a252aabe5-attempt2.json",
+   "textSha256": "8fc1e93973e142002f0215db3660501dbe930271190dc6b158f441285a3c882d",
+   "capturedAt": "2026-10-17T19:27:07+00:00",
+   "match": "page text",
+   "offset": 21,
+   "context": "Skip to main content ⟦An official portal of the Government of Nagaland⟧ A- A+ A High contrast Common Scholarship Portal Government of Nagaland Home Scholarships How to Apply Contact us Log in Register GOVERNMENT"
+  },
+  "igod-dc063c5a252aabe5/ng-purpose": {
+   "url": "https://scholarship.nagaland.gov.in/",
+   "quoteSha256": "5c663d189017bd7830d03d93e12a72ab5064caa09b255a56e085c10765a7079f",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-dc063c5a252aabe5/dc063c5a252aabe5-attempt2.json",
+   "textSha256": "8fc1e93973e142002f0215db3660501dbe930271190dc6b158f441285a3c882d",
+   "capturedAt": "2026-10-17T19:27:07+00:00",
+   "match": "page text",
+   "offset": 241,
+   "context": "holarship Portal Government of Nagaland Home Scholarships How to Apply Contact us Log in Register GOVERNMENT OF NAGALAND Scholarship Portal ⟦A single-window platform for students to discover scholarship schemes provided by the Government of Nagaland.⟧ Browse Scholarships Create Account Apply for Scholarship 5 Active scholarship schemes 8 Hosted scholarship schemes 59,675 Applications appr"
+  },
+  "igod-ddb798b880079969/dbt-audience": {
+   "url": "https://dbt.lsgkerala.gov.in/",
+   "quoteSha256": "9ff066a9c6b56bf40ec471dd6cdd6a5886150b914d3f0b7f75749059c6c9a674",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ddb798b880079969/ddb798b880079969.json",
+   "textSha256": "52ba62c0d26afca526dcbd3adda307f3492e2a919f9c5af9b1c6b0f4be99be54",
+   "capturedAt": "2026-10-17T19:16:05+00:00",
+   "match": "page text",
+   "offset": 345,
+   "context": "the Kerala state with the intention of providing efficient and transparent mechanism in the social security services executed through them. ⟦This application is being used by the Co-Operative Banks to disburse Social welfare pensions in a time bound manner.⟧ Login Help & Faq Office/User Creation Application Help for Office and User Management Form - I Help for downloading Form - I (Beneficiaries"
+  },
+  "igod-ddb798b880079969/dbt-contact": {
+   "url": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx",
+   "quoteSha256": "3960234aef738d188ce5f85ac0d1920b4e177048d8e8c65d728a9569129dde6e",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ddb798b880079969/c0728f0f7477ae8c-attempt2.json",
+   "textSha256": "f8cc95d06dbfbda9c467edf0ba8a6433dee61082c3d56547006f32196d697db2",
+   "capturedAt": "2026-10-17T19:29:26+00:00",
+   "match": "page text",
+   "offset": 48,
+   "context": "Home Help & Faq Video Tutorial Contact Us Login ⟦Contact Details - SevanaPension Direct To Home Module.⟧ Kerala Social Security Pension Limited Phone :0471-2994660 Email :kssplimited@gmail.com DBT Cell(Directorate of Panchayat) Phone : 0471-232"
+  },
+  "igod-ddb798b880079969/dbt-faq": {
+   "url": "https://dbt.lsgkerala.gov.in/Help_Faq.aspx",
+   "quoteSha256": "2dbdfe0d9e774ac21ec6fec920f45e5ef8146945f505aded8671bf5f0fdf72cb",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ddb798b880079969/3720db1919cfd05a.json",
+   "textSha256": "cf55f386cf1394b1c563a7248d8e62db697e8e35405fca3a4ac90f809dba4128",
+   "capturedAt": "2026-10-17T19:16:12+00:00",
+   "match": "page text",
+   "offset": 48,
+   "context": "Home Help & Faq Video Tutorial Contact Us Login ⟦Help & Faq - SevanaPension Direct To Home Module⟧ Help & Faq providing SevanaPension Direct To Home Software Module operating Help Help & Faq Office/User Creation Application Help for Offic"
+  },
+  "igod-ddb798b880079969/dbt-purpose": {
+   "url": "https://dbt.lsgkerala.gov.in/",
+   "quoteSha256": "b6638afbc33027d079dba7b654c54d3a602562462e12cdcb11ae26a908392d72",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ddb798b880079969/ddb798b880079969.json",
+   "textSha256": "52ba62c0d26afca526dcbd3adda307f3492e2a919f9c5af9b1c6b0f4be99be54",
+   "capturedAt": "2026-10-17T19:16:05+00:00",
+   "match": "page text",
+   "offset": 85,
+   "context": "Home Help & Faq Video Tutorial Contact Us Login Sevana Pension Direct To Home Module ⟦is the application software deployed for the distribution of Social Security Pensions through Co-Operative Banks within the Kerala state⟧ with the intention of providing efficient and transparent mechanism in the social security services executed through them. This application"
+  },
+  "igod-e300869e279b9cd4/jh-audience": {
+   "url": "https://scholarshipsdhte.jharkhand.gov.in/",
+   "quoteSha256": "696dbfb9f45429a95bff6d6a7129458daf854203f58bdfe1dfaf522f45a6f929",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-e300869e279b9cd4/e300869e279b9cd4-attempt2.json",
+   "textSha256": "198e413d163984fbda77c381ddf0806d942d2b9af9808d5e2593639702f013d5",
+   "capturedAt": "2026-10-17T19:26:43+00:00",
+   "match": "page text",
+   "offset": 422,
+   "context": "ances Signup Login Continue with Digital Seva Connect GOVERNMENT OF JHARKHAND 01 04 CM FELLOWSHIP Academic Excellence for a Brighter Future ⟦Empowering talented students of Jharkhand with opportunities to pursue academic excellence.⟧ Explore Fellowship 01 CM Fellowship Academic Excellence Dream. Achieve. 01 CM Fellowship 02 Academic Excellence 03 Manki Munda 04 Girls' Ed"
+  },
+  "igod-e300869e279b9cd4/jh-contact": {
+   "url": "https://scholarshipsdhte.jharkhand.gov.in/contact",
+   "quoteSha256": "ee2d1551ee1cc942c1fed2491302d0fab91fe5a8d1a0f58337ef6be0ca1bfd44",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-e300869e279b9cd4/f922ae19abb801ec.json",
+   "textSha256": "28bb109e48ec8c803ee49b722799ea8fd007b97e6a0e8429efa17e20acb29bcf",
+   "capturedAt": "2026-10-17T19:27:00+00:00",
+   "match": "page text",
+   "offset": 369,
+   "context": " Schemes Resources Approved List FAQ Contact Us Grievances Signup Login Continue with Digital Seva Connect GET IN TOUCH Contact Information ⟦Connect with the Department of Higher and Technical Education for general information and technical assistance related to the portal.⟧ Go Back CM FELLOWSHIP PORTAL We’re here to help. For information about the portal, general communication or technical queries, please use t"
+  },
+  "igod-e300869e279b9cd4/jh-faq": {
+   "url": "https://scholarshipsdhte.jharkhand.gov.in/faq",
+   "quoteSha256": "30af57bf5c07ff2fbba481a3ff411aca7825c20c9bb430940f08f4d148b7345c",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-e300869e279b9cd4/7739b33643162571.json",
+   "textSha256": "986fe3fe17b85f66a0388c1c52d0be381d2aa9dbc86f4c94f883b4c480d9dab4",
+   "capturedAt": "2026-10-17T19:26:51+00:00",
+   "match": "page text",
+   "offset": 375,
+   "context": "es Resources Approved List FAQ Contact Us Grievances Signup Login Continue with Digital Seva Connect HELP CENTRE Frequently Asked Questions ⟦Find answers to common questions about the CM Fellowship Scheme, eligibility, applications, documents and application status.⟧ Go Back NEED ASSISTANCE? Everything you need to know, in one place. Browse the questions below to quickly understand the fellowship program"
+  },
+  "igod-e300869e279b9cd4/jh-grievance": {
+   "url": "https://scholarshipsdhte.jharkhand.gov.in/",
+   "quoteSha256": "1a91d690c0f78852e6582552c9d265e038e66a6f979998d51e674dca241d383f",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-e300869e279b9cd4/e300869e279b9cd4-attempt2.json",
+   "textSha256": "198e413d163984fbda77c381ddf0806d942d2b9af9808d5e2593639702f013d5",
+   "capturedAt": "2026-10-17T19:26:43+00:00",
+   "match": "page text",
+   "offset": 277,
+   "context": "ion Government of Jharkhand Shri Hemant Soren Hon'ble Minister & Hon'ble Chief Minister Home Schemes Resources Approved List FAQ Contact Us ⟦Grievances⟧ Signup Login Continue with Digital Seva Connect GOVERNMENT OF JHARKHAND 01 04 CM FELLOWSHIP Academic Excellence for a Brighter Future Empow"
+  },
+  "igod-e300869e279b9cd4/jh-lang": {
+   "url": "https://scholarshipsdhte.jharkhand.gov.in/",
+   "quoteSha256": "04d1789bb7e65afdb26d0eb45f177429486fbd71363a20270f183ac4710d8bff",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-e300869e279b9cd4/e300869e279b9cd4-attempt2.json",
+   "textSha256": "198e413d163984fbda77c381ddf0806d942d2b9af9808d5e2593639702f013d5",
+   "capturedAt": "2026-10-17T19:26:43+00:00",
+   "match": "page text",
+   "offset": 33,
+   "context": "Skip to main content A- | A | A+ ⟦EN | हिंदी⟧ Screen Reader CM Fellowship for Academic Excellence Department of Higher and Technical Education Government of Jharkhand Shri Hemant Soren "
+  },
+  "igod-e300869e279b9cd4/jh-meta": {
+   "url": "https://scholarshipsdhte.jharkhand.gov.in/",
+   "quoteSha256": "240786252fc7483e28d07c0f59f480dce09020b288327be2f3c3339bba8ff424",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-e300869e279b9cd4/e300869e279b9cd4-attempt2.json",
+   "textSha256": "198e413d163984fbda77c381ddf0806d942d2b9af9808d5e2593639702f013d5",
+   "capturedAt": "2026-10-17T19:26:43+00:00",
+   "match": "meta description",
+   "offset": null,
+   "context": "Apply for various CM Fellowship Schemes. Government of Jharkhand."
+  },
+  "igod-e300869e279b9cd4/jh-operator": {
+   "url": "https://scholarshipsdhte.jharkhand.gov.in/",
+   "quoteSha256": "5e189c5effccf7d413fc83920b3f7ea05fc3492a92ec9f069252cbd1258fd9c4",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-e300869e279b9cd4/e300869e279b9cd4-attempt2.json",
+   "textSha256": "198e413d163984fbda77c381ddf0806d942d2b9af9808d5e2593639702f013d5",
+   "capturedAt": "2026-10-17T19:26:43+00:00",
+   "match": "page text",
+   "offset": 58,
+   "context": "Skip to main content A- | A | A+ EN | हिंदी Screen Reader ⟦CM Fellowship for Academic Excellence Department of Higher and Technical Education Government of Jharkhand⟧ Shri Hemant Soren Hon'ble Minister & Hon'ble Chief Minister Home Schemes Resources Approved List FAQ Contact Us Grievances Signup Login Con"
+  },
+  "igod-e300869e279b9cd4/jh-scheme": {
+   "url": "https://scholarshipsdhte.jharkhand.gov.in/faq",
+   "quoteSha256": "9bd16b808238f9aaa0e2466d5adf552b4194062a8825603a845738735a968c78",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-e300869e279b9cd4/7739b33643162571.json",
+   "textSha256": "986fe3fe17b85f66a0388c1c52d0be381d2aa9dbc86f4c94f883b4c480d9dab4",
+   "capturedAt": "2026-10-17T19:26:51+00:00",
+   "match": "page text",
+   "offset": 884,
+   "context": " CM Fellowship Scheme Program? The CM Fellowship Scheme is a government initiative implemented under the Jharkhand CM Fellowship Act, 2014. ⟦It promotes research and higher education by providing opportunities, financial assistance, and foreign education fellowships through its various components of the scheme.⟧ 02 Who is eligible to apply? Male & female residents of Jharkhand pursuing Diploma, Undergraduate, Postgraduate, or Ph.D. programs with int"
+  },
+  "igod-ec86b21083980772/tnp-developer": {
+   "url": "https://www.tn.gov.in/faq.php",
+   "quoteSha256": "c3942dee7829085c212135a4b6cb8d6d3aa1fd0dfde06642986ba58b7cc3e3b7",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-ec86b21083980772/4a6ff39deb764846.json",
+   "textSha256": "1cdd3b202d01c162e9498f0c9bdd7be2e0c69badac103b914e91a2701b04c1f8",
+   "capturedAt": "2026-10-17T10:54:29+00:00",
+   "match": "page text",
+   "offset": 554,
+   "context": "emes News & Events Interact with Govt Others CSC Login What's New FAQ Home FAQ Frequently Asked Questions 1. What is this Web Portal about? ⟦State Portal is a Mission Mode Project under the National E-Governance Plan developed by National Informatics Center, Tamil Nadu State Centre and was launched in 2013.⟧ The objective of the Portal is to provide a single window ‘Any Time, Any Where’ access to the information and services of the State Governm"
+  },
+  "igod-ec86b21083980772/tnp-directory": {
+   "url": "https://www.tn.gov.in/contact_directory.php",
+   "quoteSha256": "af13e7645b57e30807cad637e184665cfdf394db76f05f7683fee5b13260c1d7",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-ec86b21083980772/786248968f3cdfdd.json",
+   "textSha256": "196942d1f3af6c9f33367cbc2dd2bf54a32d74ea1e135359b97cb40b37573be4",
+   "capturedAt": "2026-10-17T10:54:12+00:00",
+   "match": "page text",
+   "offset": 480,
+   "context": "் காண்ப தறிவு Home Government Departments Districts Documents Services Schemes News & Events Interact with Govt Others CSC Login What's New ⟦Contact Directory Governor Chief Minister⟧ Chief Justice Deputy Chief Minister Council Of Ministers Rajya Sabha MPs MLAs Chief Secretary to Government Secretaries to Government Distr"
+  },
+  "igod-ec86b21083980772/tnp-documents": {
+   "url": "https://www.tn.gov.in/faq.php",
+   "quoteSha256": "aabd8e612f890a038b18feb4dfec980d77e9c6826dcae0eb9e688db38a4711be",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-ec86b21083980772/4a6ff39deb764846.json",
+   "textSha256": "1cdd3b202d01c162e9498f0c9bdd7be2e0c69badac103b914e91a2701b04c1f8",
+   "capturedAt": "2026-10-17T10:54:29+00:00",
+   "match": "page text",
+   "offset": 985,
+   "context": "he State Government. 2. What does a Web portal for a State mean? It acts as a single window to all the Services provided by the Government. ⟦All the Announcements, Press Releases and Government Orders can be accessed from this single Portal.⟧ 3. Is this web portal GIGW compliant? Yes. This web portal is GIGW compliant. 4. Does this website comply with all accessibility options? Y"
+  },
+  "igod-ec86b21083980772/tnp-faq": {
+   "url": "https://www.tn.gov.in/faq.php",
+   "quoteSha256": "8836911f4151f75a917fac7099c3358de92ab2215dff71ffff5204061ee0cf5c",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-ec86b21083980772/4a6ff39deb764846.json",
+   "textSha256": "1cdd3b202d01c162e9498f0c9bdd7be2e0c69badac103b914e91a2701b04c1f8",
+   "capturedAt": "2026-10-17T10:54:29+00:00",
+   "match": "page text",
+   "offset": 493,
+   "context": " Home Government Departments Districts Documents Services Schemes News & Events Interact with Govt Others CSC Login What's New FAQ Home FAQ ⟦Frequently Asked Questions 1. What is this Web Portal about?⟧ State Portal is a Mission Mode Project under the National E-Governance Plan developed by National Informatics Center, Tamil Nadu State Cent"
+  },
+  "igod-ec86b21083980772/tnp-footer": {
+   "url": "https://www.tn.gov.in/faq.php",
+   "quoteSha256": "0b80c99003ac8c31fb57589f731732a36e7423cf531987e4ba069da1b9075397",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-ec86b21083980772/4a6ff39deb764846.json",
+   "textSha256": "1cdd3b202d01c162e9498f0c9bdd7be2e0c69badac103b914e91a2701b04c1f8",
+   "capturedAt": "2026-10-17T10:54:29+00:00",
+   "match": "page text",
+   "offset": 4565,
+   "context": "on employment vacancies for Government Jobs? Yes. Link is provided to the Job vacancies across all the Departments of the State Government. ⟦Content owned and Maintained by: Government of Tamil Nadu. Site Designed and Developed by: National Informatics Centre.⟧ Queries/Comments regarding the content on this site may be sent to webadmin[at]tn[dot]gov[dot]in Disclaimer | Privacy and Copyright policy "
+  },
+  "igod-ec86b21083980772/tnp-grievances": {
+   "url": "https://www.tn.gov.in/",
+   "quoteSha256": "1a91d690c0f78852e6582552c9d265e038e66a6f979998d51e674dca241d383f",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-ec86b21083980772/ec86b21083980772.json",
+   "textSha256": "2f57056f54e15ca02bb4fd742e9b3bba7fd002f400f5582bbe3861899ff80d28",
+   "capturedAt": "2026-10-17T10:54:05+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “Grievances” → https://www.tn.gov.in/grievances.php"
+  },
+  "igod-ec86b21083980772/tnp-header": {
+   "url": "https://www.tn.gov.in/",
+   "quoteSha256": "a4997ff33734ed1dc455cb267540ea79b5b6e62eabcf48b7f594ab50de46540b",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-ec86b21083980772/ec86b21083980772.json",
+   "textSha256": "2f57056f54e15ca02bb4fd742e9b3bba7fd002f400f5582bbe3861899ff80d28",
+   "capturedAt": "2026-10-17T10:54:05+00:00",
+   "match": "page text",
+   "offset": 243,
+   "context": " Links Text Spacing Cursor Light-Dark Invert Colors Reset All Settings Accessibility Options தமிழ்த்தாய் வாழ்த்து 0:00 Skip To Main Content ⟦தமிழ்நாடு அரசு Government Of Tamil Nadu⟧ எப்பொருள் யார்யார்வாய்க் கேட்பினும் அப்பொருள் மெய்ப்பொருள் காண்ப தறிவு Home Government Departments Districts Documents Services Schemes New"
+  },
+  "igod-ec86b21083980772/tnp-helpdesk": {
+   "url": "https://www.tn.gov.in/help_desk.php",
+   "quoteSha256": "03f7444f348e282b1824e429641edeaf9ae63be8930d65107113e90c4e70194a",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-ec86b21083980772/65647f1eb6ff4698.json",
+   "textSha256": "b6f5d58b85b72926b06900c136bff6b979847d8e36a3a6a83be8ecc93154626f",
+   "capturedAt": "2026-10-17T10:54:19+00:00",
+   "match": "page text",
+   "offset": 523,
+   "context": "istricts Documents Services Schemes News & Events Interact with Govt Others CSC Login What's New Help Line Numbers Others Help Line Numbers ⟦Call Centre and Help Desk – Government of Tamil Nadu⟧ S.No. Name of the Facility Contact No. Remarks 1 Disaster Management Help Line (District Helpline) https://tnsdma.tn.gov.in/pages/view/usef"
+  },
+  "igod-ec86b21083980772/tnp-objective": {
+   "url": "https://www.tn.gov.in/faq.php",
+   "quoteSha256": "93719fe16d18a88421018d29a0534eb0e97f6e54870cb78e749f8e82aa726354",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-ec86b21083980772/4a6ff39deb764846.json",
+   "textSha256": "1cdd3b202d01c162e9498f0c9bdd7be2e0c69badac103b914e91a2701b04c1f8",
+   "capturedAt": "2026-10-17T10:54:29+00:00",
+   "match": "page text",
+   "offset": 722,
+   "context": "de Project under the National E-Governance Plan developed by National Informatics Center, Tamil Nadu State Centre and was launched in 2013. ⟦The objective of the Portal is to provide a single window ‘Any Time, Any Where’ access to the information and services of the State Government.⟧ 2. What does a Web portal for a State mean? It acts as a single window to all the Services provided by the Government. All the Announcement"
+  },
+  "igod-ec86b21083980772/tnp-online": {
+   "url": "https://www.tn.gov.in/",
+   "quoteSha256": "47d9461b0016dc43a11a2abe60f9020fb8549b17973d08b3dd703875047c20f4",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-ec86b21083980772/ec86b21083980772.json",
+   "textSha256": "2f57056f54e15ca02bb4fd742e9b3bba7fd002f400f5582bbe3861899ff80d28",
+   "capturedAt": "2026-10-17T10:54:05+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “Online Services” → https://www.tn.gov.in/services.php"
+  },
+  "igod-ef54536511a6523b/uk-charter": {
+   "url": "https://ekosh.uk.gov.in/about-department/",
+   "quoteSha256": "90ca936b363292abf22d5f1f8f2dfe8c9bbc2d38fbbcbdf83714aecc8ee041e2",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ef54536511a6523b/92e1762cd229097f.json",
+   "textSha256": "ef9301a95865753f11d3d2daa96ef147334bae19b1c9a57e6746e186cb3b64a0",
+   "capturedAt": "2026-10-17T19:28:13+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “Citizen Charter” → https://ekosh.uk.gov.in/citizen-charter/"
+  },
+  "igod-ef54536511a6523b/uk-faq": {
+   "url": "https://ekosh.uk.gov.in/frequently-asked-questionsfaqs/",
+   "quoteSha256": "53a8404b49427d22948af6c63a4f745cefb259abc40a91f6a1bab1e1eeb6c96a",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ef54536511a6523b/64d35a1b4f5c2904.json",
+   "textSha256": "ae15e14372f5777c9b7e1abb0b1fc4a3ff2c1e1ba316e3ee41d9157fcb55d652",
+   "capturedAt": "2026-10-17T19:28:29+00:00",
+   "match": "page text",
+   "offset": 280,
+   "context": "ments, Uttarakhand Search Search Home About Department Directory Citizen’s Corner Documents Government Orders UFS Notices Publications Home ⟦Frequently Asked Questions(FAQs)⟧ Frequently Asked Questions(FAQs) Q. What is Digital Signature Certificate(DSC)? Digital Signature Certificates (DSC) are the digital equiva"
+  },
+  "igod-ef54536511a6523b/uk-gov": {
+   "url": "https://ekosh.uk.gov.in/about-department/",
+   "quoteSha256": "5549fbcc54ff087a5932e9351350e6bac229d44e4b2f7f605f9d4af359d08f57",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ef54536511a6523b/92e1762cd229097f.json",
+   "textSha256": "ef9301a95865753f11d3d2daa96ef147334bae19b1c9a57e6746e186cb3b64a0",
+   "capturedAt": "2026-10-17T19:28:13+00:00",
+   "match": "page text",
+   "offset": 19,
+   "context": "उत्‍तराखण्‍ड सरकार ⟦GOVERNMENT OF UTTARAKHAND⟧ निदेशालय कोषागार, पेंशन एवं हकदारी, उत्‍तराखण्‍ड Directorate of Treasuries, Pension and Entitlements, Uttarakhand Search Search Home About "
+  },
+  "igod-ef54536511a6523b/uk-hindi": {
+   "url": "https://ekosh.uk.gov.in/about-department/",
+   "quoteSha256": "9ddb12af8457d635ec15773f905ca8587772ef64d5ecbe24d9aa4eab27a2e79b",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ef54536511a6523b/92e1762cd229097f.json",
+   "textSha256": "ef9301a95865753f11d3d2daa96ef147334bae19b1c9a57e6746e186cb3b64a0",
+   "capturedAt": "2026-10-17T19:28:13+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “हिन्दी” → https://ekosh.uk.gov.in/hi/%e0%a4%b5%e0%a4%bf%e0%a4%ad%e0%a4%be%e0%a4%97-%e0%a4%95%e0%a5%87-%e0%a4%ac%e0%a4%be%e0%a4%b0%e0%a5%87-%e0%a4%ae%e0%a5%87%e0%a4%82/"
+  },
+  "igod-ef54536511a6523b/uk-nic": {
+   "url": "https://ekosh.uk.gov.in/about-department/",
+   "quoteSha256": "7e83ad12561b24d30a37f0375fd4c918044675cfe7962474df0d4caf10de9dce",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ef54536511a6523b/92e1762cd229097f.json",
+   "textSha256": "ef9301a95865753f11d3d2daa96ef147334bae19b1c9a57e6746e186cb3b64a0",
+   "capturedAt": "2026-10-17T19:28:13+00:00",
+   "match": "page text",
+   "offset": 570,
+   "context": "dback Website Policies Contact Us Help Web Information Manager Sitemap Content Owned by : Treasuries, Pension and Entitlements, Uttarakhand ⟦Developed and hosted by National Informatics Centre, Ministry of Electronics & Information Technology, Government of India⟧ Last Updated: 17.04.2025"
+  },
+  "igod-ef54536511a6523b/uk-owner": {
+   "url": "https://ekosh.uk.gov.in/about-department/",
+   "quoteSha256": "74cc964ccfa8eb737be38689edba32b236fc7781b67c2262bd2de875c9d97edb",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ef54536511a6523b/92e1762cd229097f.json",
+   "textSha256": "ef9301a95865753f11d3d2daa96ef147334bae19b1c9a57e6746e186cb3b64a0",
+   "capturedAt": "2026-10-17T19:28:13+00:00",
+   "match": "page text",
+   "offset": 501,
+   "context": "inistrative Setup Organization Who's Who Former Head Useful Links Feedback Website Policies Contact Us Help Web Information Manager Sitemap ⟦Content Owned by : Treasuries, Pension and Entitlements, Uttarakhand⟧ Developed and hosted by National Informatics Centre, Ministry of Electronics & Information Technology, Government of India Last Updated: 17"
+  },
+  "igod-ef54536511a6523b/uk-title": {
+   "url": "https://ekosh.uk.gov.in/about-department/",
+   "quoteSha256": "5a1a89987d74c05c0e0f2fb6293b26346eb7ff6fbfb17f5005d199d359669d2e",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ef54536511a6523b/92e1762cd229097f.json",
+   "textSha256": "ef9301a95865753f11d3d2daa96ef147334bae19b1c9a57e6746e186cb3b64a0",
+   "capturedAt": "2026-10-17T19:28:13+00:00",
+   "match": "page text",
+   "offset": 94,
+   "context": "उत्‍तराखण्‍ड सरकार GOVERNMENT OF UTTARAKHAND निदेशालय कोषागार, पेंशन एवं हकदारी, उत्‍तराखण्‍ड ⟦Directorate of Treasuries, Pension and Entitlements, Uttarakhand⟧ Search Search Home About Department Directory Citizen’s Corner Documents Government Orders UFS Notices Home About Department About Departme"
+  },
+  "igod-fd26b3c2335b6081/pyp-citizens": {
+   "url": "https://www.py.gov.in/",
+   "quoteSha256": "610512054966005a3217010c579825a3bf8c1336800b8a35208803e0c89147e1",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-fd26b3c2335b6081/fd26b3c2335b6081.json",
+   "textSha256": "68ca227c2d15610b0ee9645774371d4b897388078150df3c2689e4e7c229c859",
+   "capturedAt": "2026-10-17T10:54:37+00:00",
+   "match": "page text",
+   "offset": 380,
+   "context": "ates Educational Institutions Undertakings/Organisations Central Government Departments/Organisations/ Institutions Municipalities Websites ⟦Citizens Citizen's Charter Online Services E-District⟧ Mobile Apps CSC List Notice Board Press Releases Tenders Recruitment NCSAM Oct 2024 Public Grievance Contact Us Email Contacts Emergency Co"
+  },
+  "igod-fd26b3c2335b6081/pyp-faq": {
+   "url": "https://www.py.gov.in/",
+   "quoteSha256": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-fd26b3c2335b6081/fd26b3c2335b6081.json",
+   "textSha256": "68ca227c2d15610b0ee9645774371d4b897388078150df3c2689e4e7c229c859",
+   "capturedAt": "2026-10-17T10:54:37+00:00",
+   "match": "page text",
+   "offset": 2305,
+   "context": "nt Holidays - 2025 More+ Accessibility Statement Copyright Policy Disclaimer Site Map Feedback Hyperlink Policy Privacy Policy Terms of Use ⟦FAQ⟧ Chief Data Officer OGD Puducherry Help Copyright © 2023 - All Rights Reserved - Official website of Government of Puducherry, India. Note: "
+  },
+  "igod-fd26b3c2335b6081/pyp-faq-content": {
+   "url": "https://www.py.gov.in/frequently-asked-questions",
+   "quoteSha256": "8bd94bbd0c8bd3ec008ef7b7996b39a889a8a858a2bccb20b23052beecff994f",
+   "snapshot": "data/website_enrichment/research/2026-10-18-linkcheck/igod-fd26b3c2335b6081/311a135bc28994be.json",
+   "textSha256": "adbdd0cb3f9787bc5ceb2106e9b48966368deb54bf9eb4104575dd7a504af3fb",
+   "capturedAt": "2026-10-17T20:29:39+00:00",
+   "match": "page text",
+   "offset": 2977,
+   "context": "tion) Directorate of the Ministry of Electronics and Information Technology, Govt. of India 6. Who manages the content in the State Portal? ⟦A team of Officials in the Directorate of Information Technology, Puducherry is managing the content update works in the State Portal of Government of Puducherry.⟧ 7. What is the Nodal Agency in Government of Puducherry for State Portal project? Puducherry e-Governance Society – An Undertaking of Gover"
+  },
+  "igod-fd26b3c2335b6081/pyp-faq-nodal": {
+   "url": "https://www.py.gov.in/frequently-asked-questions",
+   "quoteSha256": "35e37d2748cfbbef8abfbc98a920c1a848a854eac470e6c60b43debe1f965809",
+   "snapshot": "data/website_enrichment/research/2026-10-18-linkcheck/igod-fd26b3c2335b6081/311a135bc28994be.json",
+   "textSha256": "adbdd0cb3f9787bc5ceb2106e9b48966368deb54bf9eb4104575dd7a504af3fb",
+   "capturedAt": "2026-10-17T20:29:39+00:00",
+   "match": "page text",
+   "offset": 3222,
+   "context": "te works in the State Portal of Government of Puducherry. 7. What is the Nodal Agency in Government of Puducherry for State Portal project? ⟦Puducherry e-Governance Society – An Undertaking of Government of Puducherry under the Directorate of Information Technology is the Nodal Agency for State Portal project.⟧ Back To Previous Page | Page last updated date: 15-10-2026 Government Lt. Governor Chief Minister Speakers Ministers M.P.s M.L.A.s Secretar"
+  },
+  "igod-fd26b3c2335b6081/pyp-grievance": {
+   "url": "https://www.py.gov.in/",
+   "quoteSha256": "cf839a6e74319e602b2d9e303f9ec0a7effab904edc442697ec1e2341ea344aa",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-fd26b3c2335b6081/fd26b3c2335b6081.json",
+   "textSha256": "68ca227c2d15610b0ee9645774371d4b897388078150df3c2689e4e7c229c859",
+   "capturedAt": "2026-10-17T10:54:37+00:00",
+   "match": "page text",
+   "offset": 518,
+   "context": "s Citizens Citizen's Charter Online Services E-District Mobile Apps CSC List Notice Board Press Releases Tenders Recruitment NCSAM Oct 2024 ⟦Public Grievance⟧ Contact Us Email Contacts Emergency Contacts Department Contacts Help Desk International Day of Yoga What's New Puducherry Distilleries Ltd"
+  },
+  "igod-fd26b3c2335b6081/pyp-helpdesk": {
+   "url": "https://www.py.gov.in/help-desk",
+   "quoteSha256": "2cef181e70f879abfeec15c5c38877a79462f0ceda931517e0c450dc07bb14e5",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-fd26b3c2335b6081/6adb77e546e3b49e.json",
+   "textSha256": "f79ae091ffcca94fa11402fb51be3e30f9be3f6ea80006fea02e40bf593ff6c0",
+   "capturedAt": "2026-10-17T10:55:15+00:00",
+   "match": "page text",
+   "offset": 653,
+   "context": "2024 Public Grievance Contact Us Email Contacts Emergency Contacts Department Contacts Help Desk You are here Home » Contact Us » Help Desk ⟦Help Desk Department Department of Information Technology⟧ Address No.505, Kamaraj Salai Planning & Research Department Complex Saram Puducherry 605013 Phone No: +91-413-2246090[ 08:45 to 17:45 hrs "
+  },
+  "igod-fd26b3c2335b6081/pyp-online": {
+   "url": "https://www.py.gov.in/",
+   "quoteSha256": "47d9461b0016dc43a11a2abe60f9020fb8549b17973d08b3dd703875047c20f4",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-fd26b3c2335b6081/fd26b3c2335b6081.json",
+   "textSha256": "68ca227c2d15610b0ee9645774371d4b897388078150df3c2689e4e7c229c859",
+   "capturedAt": "2026-10-17T10:54:37+00:00",
+   "match": "page text",
+   "offset": 407,
+   "context": "ns Undertakings/Organisations Central Government Departments/Organisations/ Institutions Municipalities Websites Citizens Citizen's Charter ⟦Online Services⟧ E-District Mobile Apps CSC List Notice Board Press Releases Tenders Recruitment NCSAM Oct 2024 Public Grievance Contact Us Email Contacts E"
+  },
+  "igod-fd26b3c2335b6081/pyp-title": {
+   "url": "https://www.py.gov.in/",
+   "quoteSha256": "0bfae831ab2b18098a2019b51fd755fc41d23ec0465bca7fa0d9b04de2bd74ee",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-fd26b3c2335b6081/fd26b3c2335b6081.json",
+   "textSha256": "68ca227c2d15610b0ee9645774371d4b897388078150df3c2689e4e7c229c859",
+   "capturedAt": "2026-10-17T10:54:37+00:00",
+   "match": "page title",
+   "offset": null,
+   "context": "Official Website of Government of Puducherry, India"
+  },
+  "igod-fd26b3c2335b6081/pyp-ut": {
+   "url": "https://www.py.gov.in/about-puducherry",
+   "quoteSha256": "eb71423a1ed34eb079d37f01a52382f0c60abb0c2518777443548b95c502d216",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-fd26b3c2335b6081/2f77542bbd5bf357.json",
+   "textSha256": "ff7405bf5dd416880187eca71d12a655c6c3c9c190fdff70ff61bf418ce8e1c6",
+   "capturedAt": "2026-10-17T10:54:49+00:00",
+   "match": "page text",
+   "offset": 653,
+   "context": "2024 Public Grievance Contact Us Email Contacts Emergency Contacts Department Contacts Help Desk You are here Home » About Puducherry About ⟦The Union Territory of Puducherry comprises the former French establishments of Puducherry, Karaikal, Mahe and Yanam⟧, which lie scattered in South India. Puducherry, the capital of the Territory was once the original headquarters of the French in India, is"
+  },
+  "igod-fd26b3c2335b6081/pyp-webmaster": {
+   "url": "https://www.py.gov.in/contact-us",
+   "quoteSha256": "1e08667587d6899b86886515eee7bdff32f0ed2913b19d064168d64f9dd21a49",
+   "snapshot": "data/website_enrichment/research/2026-10-17/igod-fd26b3c2335b6081/c0e0437cf9d6392f.json",
+   "textSha256": "a5c918ac70a25c23371976d2e92f3e02fb223108fa112fdf438c3070c232b868",
+   "capturedAt": "2026-10-17T10:55:01+00:00",
+   "match": "page text",
+   "offset": 877,
+   "context": "g & Research Department Complex Saram Puducherry 605013 Phone No: +91-413-2246190 Email Id : dit[at]py[dot]gov[dot]in Fax : +91-413-2246090 ⟦Web Master Department Department of Information Technology⟧ Address No.505, Kamaraj Salai Planning & Research Department Complex Saram Puducherry 605013 Phone No: +91-413-2246190 Email Id : pyportal["
+  },
+  "igod-ffa4189a2ac66991/hp-about": {
+   "url": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB4QOC0eN%2F%2B6qQ%3D%3D",
+   "quoteSha256": "3ae01f9d621caef00af1d268984575cd1af2e802cd41734dd8dcccf435f31732",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ffa4189a2ac66991/d0e3d32b44ae1f1c.json",
+   "textSha256": "9fa7469f25cb9eef6febadf6100e70bf1e4e796920366038ed47c9ef8a306900",
+   "capturedAt": "2026-10-17T19:15:33+00:00",
+   "match": "page text",
+   "offset": 143,
+   "context": "lish Home About Himachal Government eServices e Tourism Judiciary About the Portal Last Updated: Friday, 20 February, 2026 About the Portal ⟦This is the Official Web-Portal of the Government of Himachal Pradesh, India, designed, developed and hosted by National Informatics Centre (NIC), Himachal Pradesh State Centre.⟧ NIC is a premier ICT Organisation of the Government of India under the aegis of Ministry of Electronics and Information Technology. The obj"
+  },
+  "igod-ffa4189a2ac66991/hp-faq": {
+   "url": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB6vDHvsMAvpTw%3D%3D",
+   "quoteSha256": "a3d458e1bd1eda066018d8db2dd5537c9e742f02f68401457c01553e77f57403",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ffa4189a2ac66991/b50ec2553243861a.json",
+   "textSha256": "2f718d1bda76b4be62f74ea3aac95237bfdfb6f46361ad0b5e28100ae648372a",
+   "capturedAt": "2026-10-17T19:15:41+00:00",
+   "match": "page text",
+   "offset": 69,
+   "context": "English Home About Himachal Government eServices e Tourism Judiciary ⟦Frequently Asked Questions⟧ Last Updated: Thursday, 23 April, 2026 Frequently Asked Questions 1. There are a number of websites of the Himachal Pradesh Government Depa"
+  },
+  "igod-ffa4189a2ac66991/hp-helpline": {
+   "url": "https://himachal.gov.in/",
+   "quoteSha256": "930d8fe0e614f5ec80f15427543915f1fbac21d67b08a1a0712b8edd1933a9ca",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ffa4189a2ac66991/ffa4189a2ac66991.json",
+   "textSha256": "bba66ba9e63e142992ac5b8a7760eb398b59eb7b08071efb2535c9e7fcc62df9",
+   "capturedAt": "2026-10-17T19:15:23+00:00",
+   "match": "page text",
+   "offset": 2362,
+   "context": "acted for further information or suggestion. Neither NIC nor Government of Himachal Pradesh is liable for any inadvertent or typing errors. ⟦Helpline⟧ H.P. Secretariat, Shimla +91 177 2622204 +91 177 2621154 group1-hp[at]nic[dot]in Web Information Managers About the Portal Website Policies"
+  },
+  "igod-ffa4189a2ac66991/hp-purpose": {
+   "url": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB4QOC0eN%2F%2B6qQ%3D%3D",
+   "quoteSha256": "7edcc2806081460365d6d66bfd4f55066a4673d06c8986fb18353d5155b4b6d5",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ffa4189a2ac66991/d0e3d32b44ae1f1c.json",
+   "textSha256": "9fa7469f25cb9eef6febadf6100e70bf1e4e796920366038ed47c9ef8a306900",
+   "capturedAt": "2026-10-17T19:15:33+00:00",
+   "match": "page text",
+   "offset": 453,
+   "context": "Centre. NIC is a premier ICT Organisation of the Government of India under the aegis of Ministry of Electronics and Information Technology. ⟦The objective behind the Portal is to provide a single window access to the information and services being provided by the Himachal Pradesh Government for the citizens and other stakeholders.⟧ An attempt has been made through this Portal to provide comprehensive, accurate, reliable and one stop source of information about Himachal"
+  },
+  "igod-ffa4189a2ac66991/hp-services": {
+   "url": "https://himachal.gov.in/",
+   "quoteSha256": "44b233463938a12a99f315035476e478c3c9d1f6872537a1ec4ac6ba6764f20d",
+   "snapshot": "data/website_enrichment/research/2026-10-18/igod-ffa4189a2ac66991/ffa4189a2ac66991.json",
+   "textSha256": "bba66ba9e63e142992ac5b8a7760eb398b59eb7b08071efb2535c9e7fcc62df9",
+   "capturedAt": "2026-10-17T19:15:23+00:00",
+   "match": "page text",
+   "offset": 1725,
+   "context": "Judgements Manav Sampada HR and Financial Management Him Atithi Online Room Reservation for Guests VC Bookings Official Government Meetings ⟦Departmental Citizen Services⟧ Telephone Directory Search Video Conference Booking RTI Application/Appeal Frequently Asked Questions Web Information Managers JSV- Online "
+  },
+  "income-tax-efiling/it-contact": {
+   "url": "https://www.incometax.gov.in/iec/foportal/contact-us",
+   "quoteSha256": "c1d246ff84458a8f1d4a749c29c9876621410fe71ec8a710f7dcdb206d599225",
+   "snapshot": "data/website_enrichment/research/2026-10-17/income-tax-efiling/78b5a76419db6fda.json",
+   "textSha256": "10ab9e5cd733f831f84b4dc39960fd57e6cfe50b6583a27eec3fdf3e05b2cbc7",
+   "capturedAt": "2026-10-17T11:01:52+00:00",
+   "match": "page text",
+   "offset": 175,
+   "context": "h Login Register Home Individual/HUF » Company » Non-Company » Tax Professionals & Others » Downloads Help Contact Us Contact Us Contact Us ⟦Help Desk Contact Details⟧ e-filing and Centralized Processing Center e-Filing of Income Tax Return or Forms and other value added services & Intimation, Rectificatio"
+  },
+  "income-tax-efiling/it-help": {
+   "url": "https://www.incometax.gov.in/iec/foportal/help",
+   "quoteSha256": "27fbef36aac3cf7e5f986a44a9545f185491da69fee544db3b33a3a10fe3ab13",
+   "snapshot": "data/website_enrichment/research/2026-10-17/income-tax-efiling/26e260e1b63e12b8.json",
+   "textSha256": "6992db56b71d203afb254c75b33d9d1dd1e98c0862b63861d3d064e2be781547",
+   "capturedAt": "2026-10-17T11:01:37+00:00",
+   "match": "page text",
+   "offset": 142,
+   "context": "ip to main content Call Us English Login Register Home Individual/HUF » Company » Non-Company » Tax Professionals & Others » Downloads Help ⟦Help & Support Center⟧ Search for help articles, guides, and frequently asked questions Learn With Us Pamphlets Do's & Don'ts Tips on Scanning Documents Co-Browse"
+  },
+  "income-tax-efiling/it-official": {
+   "url": "https://www.incometax.gov.in/iec/foportal/about-portal",
+   "quoteSha256": "2ed9980990ce8ac18e1999dcb78ef51c4833cae9bb3cf2048c65fe749eed8ade",
+   "snapshot": "data/website_enrichment/research/2026-10-17/income-tax-efiling/9faf850756327da3.json",
+   "textSha256": "fface972c28136cf955d22beaee371053c8d9fd9bb90ae7d14327fcaedd3ba16",
+   "capturedAt": "2026-10-17T11:01:45+00:00",
+   "match": "page text",
+   "offset": 193,
+   "context": "ome Individual/HUF » Company » Non-Company » Tax Professionals & Others » Downloads Help About the Portal About the Portal About the Portal ⟦This is the official portal of Income Tax Department, Ministry of Finance, Government of India.⟧ The portal has been developed as a Mission Mode Project under the National E-Governance Plan. The objective of this portal is to provide a "
+  },
+  "income-tax-efiling/it-purpose": {
+   "url": "https://www.incometax.gov.in/iec/foportal/about-portal",
+   "quoteSha256": "7695568f8ef1dc82288cf77160919a9047247413463efafaa1a573c64e94bd6e",
+   "snapshot": "data/website_enrichment/research/2026-10-17/income-tax-efiling/9faf850756327da3.json",
+   "textSha256": "fface972c28136cf955d22beaee371053c8d9fd9bb90ae7d14327fcaedd3ba16",
+   "capturedAt": "2026-10-17T11:01:45+00:00",
+   "match": "page text",
+   "offset": 383,
+   "context": "nt, Ministry of Finance, Government of India. The portal has been developed as a Mission Mode Project under the National E-Governance Plan. ⟦The objective of this portal is to provide a single window access to the income tax related services for taxpayers and other stakeholders.⟧ Follow us on About Us About the Portal History of Direct Taxation Vision, Mission, Values Vision, Mission, Values (Hindi) Who We Are Right "
+  },
+  "national-career-service/ncs-audience": {
+   "url": "https://ncs.gov.in/",
+   "quoteSha256": "f21ef64ecae44c30566c90e38b1b10f7f9dd3fe7dfd507825b9562fc06c47725",
+   "snapshot": "data/website_enrichment/research/2026-10-17/national-career-service/2a3af393fc735c4a.json",
+   "textSha256": "04dfa1ac838dce21f8e5f4de60caf9642c886d3bc39874e84afe53a207fb0731",
+   "capturedAt": "2026-10-17T10:50:59+00:00",
+   "match": "page text",
+   "offset": 17921,
+   "context": " and job fair information. It is an initiative of the Ministry of Labour & Employment, Government of India. Who can register on the portal? ⟦Job Seekers, Employers, Skill Providers, Career Counsellors, Local Service Providers, Career Centers, Placement Organisations, Households, and Government Departments.⟧ Is NCS free to use? Yes. NCS does not charge any fee at any stage of registration, job application, or interview processing. Jobseekers sho"
+  },
+  "national-career-service/ncs-faq": {
+   "url": "https://ncs.gov.in/faq",
+   "quoteSha256": "4017f9be362fa56d95a8e0ab0d134de7993a0fd3cdb6c65545035e6295da1885",
+   "snapshot": "data/website_enrichment/research/2026-10-17/national-career-service/216718078185418d.json",
+   "textSha256": "2d5cc5e8587a422c11c8f4d03a1e9a55676127919b61976ce0083d8f01a3d14c",
+   "capturedAt": "2026-10-17T10:51:28+00:00",
+   "match": "page text",
+   "offset": 537,
+   "context": "ng, career content, counselling, and job fair information. It is an initiative of the Ministry of Labour & Employment, Government of India. ⟦Who can register on the portal?⟧ Is NCS free to use? Is a mobile app available? How can I avoid fake NCS communication? Still have questions? Can't find the answer you're l"
+  },
+  "national-career-service/ncs-operator": {
+   "url": "https://ncs.gov.in/",
+   "quoteSha256": "db6693badd44e4b89744507077475511095916d07407dca2313020973c37e642",
+   "snapshot": "data/website_enrichment/research/2026-10-17/national-career-service/2a3af393fc735c4a.json",
+   "textSha256": "04dfa1ac838dce21f8e5f4de60caf9642c886d3bc39874e84afe53a207fb0731",
+   "capturedAt": "2026-10-17T10:50:59+00:00",
+   "match": "page text",
+   "offset": 17808,
+   "context": "areer-related services to the citizens of India, including job search, job matching, career content, counselling, and job fair information. ⟦It is an initiative of the Ministry of Labour & Employment, Government of India.⟧ Who can register on the portal? Job Seekers, Employers, Skill Providers, Career Counsellors, Local Service Providers, Career Centers, Place"
+  },
+  "national-career-service/ncs-purpose": {
+   "url": "https://ncs.gov.in/",
+   "quoteSha256": "3a58a48a2bf75589f95fc490becb06e5dbe53db5713ace573032012cf77275df",
+   "snapshot": "data/website_enrichment/research/2026-10-17/national-career-service/2a3af393fc735c4a.json",
+   "textSha256": "04dfa1ac838dce21f8e5f4de60caf9642c886d3bc39874e84afe53a207fb0731",
+   "capturedAt": "2026-10-17T10:50:59+00:00",
+   "match": "page text",
+   "offset": 17570,
+   "context": "resume — all in your pocket. Download on the App Store Frequently asked questions Everything you need to know about using NCS. What is NCS? ⟦The National Career Service (NCS) is a one-stop solution offering a wide range of employment and career-related services to the citizens of India, including job search, job matching, career content, counselling, and job fair information.⟧ It is an initiative of the Ministry of Labour & Employment, Government of India. Who can register on the portal? Job Seekers, Employers, Sk"
+  },
+  "national-scholarship-portal/nsp-apply": {
+   "url": "https://scholarships.gov.in/",
+   "quoteSha256": "167154ccf0741656c66bcc957a960277f214cae951bf280fed8ce5d656eb1c5f",
+   "snapshot": "data/website_enrichment/research/2026-10-17/national-scholarship-portal/f66f8a901d5af644.json",
+   "textSha256": "bfc151280c7f8a2463c38b91ac9f628f85b651211a1b41d8bfccbcc53ae810ec",
+   "capturedAt": "2026-10-17T10:50:36+00:00",
+   "match": "page text",
+   "offset": 3083,
+   "context": " Registration (OTR) is a unique number allotted to the student and is applicable for entire academic career on National Scholarship Portal. ⟦OTR is required to apply for the scholarships on National Scholarship Portal from AY 2024-25.⟧ OTR can be generated using Aadhaar/Aadhaar Enrollment number(EID) NSP OTR App is available on Google Play Store. View more Get your OTR One"
+  },
+  "national-scholarship-portal/nsp-header": {
+   "url": "https://scholarships.gov.in/",
+   "quoteSha256": "a321352fd6a8d9d68428b9cca83917f97bb8b214177d9599a2b869653f915577",
+   "snapshot": "data/website_enrichment/research/2026-10-17/national-scholarship-portal/f66f8a901d5af644.json",
+   "textSha256": "bfc151280c7f8a2463c38b91ac9f628f85b651211a1b41d8bfccbcc53ae810ec",
+   "capturedAt": "2026-10-17T10:50:36+00:00",
+   "match": "page text",
+   "offset": 0,
+   "context": "⟦Government of India Ministry of Electronics & Information Technology⟧ Academic Year 2026-27 FAQs Announcements Helpdesk Previous Next Students Institutions Officers Public Fellowship Announcements All disabled"
+  },
+  "national-scholarship-portal/nsp-helpdesk": {
+   "url": "https://scholarships.gov.in/",
+   "quoteSha256": "65c1c52b9bc35d710270f5f1e224e5a2f8f4983eefb043125c47fe634511da3a",
+   "snapshot": "data/website_enrichment/research/2026-10-17/national-scholarship-portal/f66f8a901d5af644.json",
+   "textSha256": "bfc151280c7f8a2463c38b91ac9f628f85b651211a1b41d8bfccbcc53ae810ec",
+   "capturedAt": "2026-10-17T10:50:36+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “NSP Helpdesk.” → https://scholarships.gov.in/nsphelpdesk"
+  },
+  "national-scholarship-portal/nsp-lang": {
+   "url": "https://scholarships.gov.in/",
+   "quoteSha256": "c4d155067d1afe5c478383a5afe9eeba80a8bd4bf5245f435adc6ca461941908",
+   "snapshot": "data/website_enrichment/research/2026-10-17/national-scholarship-portal/f66f8a901d5af644.json",
+   "textSha256": "bfc151280c7f8a2463c38b91ac9f628f85b651211a1b41d8bfccbcc53ae810ec",
+   "capturedAt": "2026-10-17T10:50:36+00:00",
+   "match": "page text",
+   "offset": 3801,
+   "context": " Scholarship Portal. Apply now! Copyright Policy Privacy Policy Terms and Conditions Disclaimer Hyperlink Site Map Last update on June 2026 ⟦The original text is in English. Translation into other languages is powered by the Bhashini service.⟧"
+  },
+  "national-scholarship-portal/nsp-pfms": {
+   "url": "https://scholarships.gov.in/",
+   "quoteSha256": "8eaaa14cfffa5cc8f1f567957a26ef33aa4cfa009ca6893ad754af00e08e5bbd",
+   "snapshot": "data/website_enrichment/research/2026-10-17/national-scholarship-portal/f66f8a901d5af644.json",
+   "textSha256": "bfc151280c7f8a2463c38b91ac9f628f85b651211a1b41d8bfccbcc53ae810ec",
+   "capturedAt": "2026-10-17T10:50:36+00:00",
+   "match": "link label",
+   "offset": null,
+   "context": "Link text “PFMS Helpdesk” → https://scholarships.gov.in/pfmshelpdesk"
+  },
+  "national-scholarship-portal/nsp-sections": {
+   "url": "https://scholarships.gov.in/",
+   "quoteSha256": "a8c878b7ec7236905b124cc52dca4fa05c9b1efadd021fff8f2bd485b2be2289",
+   "snapshot": "data/website_enrichment/research/2026-10-17/national-scholarship-portal/f66f8a901d5af644.json",
+   "textSha256": "bfc151280c7f8a2463c38b91ac9f628f85b651211a1b41d8bfccbcc53ae810ec",
+   "capturedAt": "2026-10-17T10:50:36+00:00",
+   "match": "page text",
+   "offset": 133,
+   "context": "Government of India Ministry of Electronics & Information Technology Academic Year 2026-27 FAQs Announcements Helpdesk Previous Next ⟦Students Institutions Officers Public⟧ Fellowship Announcements All disabled students must first login in the UDID portal and provide consent to share their UDID details and then"
+  },
+  "rti-online/rti-contact": {
+   "url": "https://rtionline.gov.in/",
+   "quoteSha256": "98b67063cf8e584d75e53b88472ee85473e01e0ea16f29ece9cc98f4a2710494",
+   "snapshot": "data/website_enrichment/research/2026-10-17/rti-online/272aa34b65a9c92e.json",
+   "textSha256": "1d3ab363a741cda4e6f2aa4aa181c10227a50baa83e288d7ac2023f211abddd2",
+   "capturedAt": "2026-10-17T10:52:07+00:00",
+   "match": "page text",
+   "offset": 240,
+   "context": "tive of Department of Personnel & Training, Government of India HomeSubmit RequestSubmit First AppealView StatusView HistoryLoginUser Manual⟦Contact Us⟧FAQPayment Reconciliation The Central Information Commission (CIC) has integrated its Second Appeal Filing Portal with the Department of Per"
+  },
+  "rti-online/rti-faq": {
+   "url": "https://rtionline.gov.in/",
+   "quoteSha256": "dbc468a14b601d5d9240aeb72b9fcd2f8aed2f4e30932876edf8d16ec313846b",
+   "snapshot": "data/website_enrichment/research/2026-10-17/rti-online/272aa34b65a9c92e.json",
+   "textSha256": "1d3ab363a741cda4e6f2aa4aa181c10227a50baa83e288d7ac2023f211abddd2",
+   "capturedAt": "2026-10-17T10:52:07+00:00",
+   "match": "page text",
+   "offset": 250,
+   "context": "partment of Personnel & Training, Government of India HomeSubmit RequestSubmit First AppealView StatusView HistoryLoginUser ManualContact Us⟦FAQ⟧Payment Reconciliation The Central Information Commission (CIC) has integrated its Second Appeal Filing Portal with the Department of Person"
+  },
+  "rti-online/rti-lang": {
+   "url": "https://rtionline.gov.in/",
+   "quoteSha256": "3fddf68cea86281e4c667a80b0c3070f9b3f3a7bcdfafda68d0c3aa7ff32fb0a",
+   "snapshot": "data/website_enrichment/research/2026-10-17/rti-online/272aa34b65a9c92e.json",
+   "textSha256": "1d3ab363a741cda4e6f2aa4aa181c10227a50baa83e288d7ac2023f211abddd2",
+   "capturedAt": "2026-10-17T10:52:07+00:00",
+   "match": "page text",
+   "offset": 8,
+   "context": "A+ A A- ⟦Select Language: English Hindi⟧ Public Authorities Available RTI Online Version 2.0 An Initiative of Department of Personnel & Training, Government of India HomeSubmit Req"
+  },
+  "rti-online/rti-menu": {
+   "url": "https://rtionline.gov.in/",
+   "quoteSha256": "14fdf97bceb4ceacfea0ed717c3d270fa3bade73319652552aacd571370e7e10",
+   "snapshot": "data/website_enrichment/research/2026-10-17/rti-online/272aa34b65a9c92e.json",
+   "textSha256": "1d3ab363a741cda4e6f2aa4aa181c10227a50baa83e288d7ac2023f211abddd2",
+   "capturedAt": "2026-10-17T10:52:07+00:00",
+   "match": "page text",
+   "offset": 168,
+   "context": "lish Hindi Public Authorities Available RTI Online Version 2.0 An Initiative of Department of Personnel & Training, Government of India Home⟦Submit RequestSubmit First AppealView Status⟧View HistoryLoginUser ManualContact UsFAQPayment Reconciliation The Central Information Commission (CIC) has integrated its Second Appeal Fi"
+  },
+  "rti-online/rti-operator": {
+   "url": "https://rtionline.gov.in/",
+   "quoteSha256": "66e6221d96ced311fefb78d572f4dc20be5073f1d91bee7a4faec8ef4847db65",
+   "snapshot": "data/website_enrichment/research/2026-10-17/rti-online/272aa34b65a9c92e.json",
+   "textSha256": "1d3ab363a741cda4e6f2aa4aa181c10227a50baa83e288d7ac2023f211abddd2",
+   "capturedAt": "2026-10-17T10:52:07+00:00",
+   "match": "page text",
+   "offset": 91,
+   "context": "A+ A A- Select Language: English Hindi Public Authorities Available RTI Online Version 2.0 ⟦An Initiative of Department of Personnel & Training, Government of India⟧ HomeSubmit RequestSubmit First AppealView StatusView HistoryLoginUser ManualContact UsFAQPayment Reconciliation The Central Information Com"
+  },
+  "rti-online/rti-scope": {
+   "url": "https://rtionline.gov.in/",
+   "quoteSha256": "9149379130c27aa5fddf2fc80a77ee04ad1ca6cced3e847ca36c024126cfa7c5",
+   "snapshot": "data/website_enrichment/research/2026-10-17/rti-online/272aa34b65a9c92e.json",
+   "textSha256": "1d3ab363a741cda4e6f2aa4aa181c10227a50baa83e288d7ac2023f211abddd2",
+   "capturedAt": "2026-10-17T10:52:07+00:00",
+   "match": "page text",
+   "offset": 792,
+   "context": "e RTI Application and First Appeal from the RTI Online Portal. This will ensure a smooth and more streamlined Second Appeal filing process. ⟦Please do not file RTI applications through this portal for the public authorities under the State Governments, including Government of NCT Delhi.⟧ If filed, the application would be returned, without refund of amount. This is a portal to file RTI applications/first appeals online along"
+  },
+  "udyam-registration/ud-audience": {
+   "url": "https://udyamregistration.gov.in/",
+   "quoteSha256": "9acc227a4071fa9e47e89205dda56c38b822ad61e796f533220e93e8516cb3cd",
+   "snapshot": "data/website_enrichment/research/2026-10-17/udyam-registration/925a2c3a0b615a31.json",
+   "textSha256": "7b56e81b5395761da9e2194dc2f2d347bce5730f65743d24a9e44fa9eb033ecd",
+   "capturedAt": "2026-10-17T10:53:06+00:00",
+   "match": "page text",
+   "offset": 219,
+   "context": "Cancel Udyam Registration Login THIS IS THE ONLY GOVERNMENT PORTAL FOR MSME (UDYAM) REGISTRATION MSME Udyam Registration Udyam Registration ⟦For New Entrepreneurs who are not Registered yet as Micro, Small & Medium⟧ New Registration For those already having registration as Udyog Aadhar Memorandum UAM Migration to Udyam For those already having registrat"
+  },
+  "udyam-registration/ud-grievance": {
+   "url": "https://udyamregistration.gov.in/",
+   "quoteSha256": "c8cbdb5064de04029b1affdc95552766173b0a4d18c1eaf428c681781e35b37e",
+   "snapshot": "data/website_enrichment/research/2026-10-17/udyam-registration/925a2c3a0b615a31.json",
+   "textSha256": "7b56e81b5395761da9e2194dc2f2d347bce5730f65743d24a9e44fa9eb033ecd",
+   "capturedAt": "2026-10-17T10:53:06+00:00",
+   "match": "page text",
+   "offset": 2825,
+   "context": "ME Address Office of DCMSME, Ministry of MSME, Kartavya Bhawan 3 - New Delhi 136 Visitor Count 4288677 Get In Touch Email: champions@gov.in ⟦For Grievances⟧ Call or Whatsapp on +91 8308809334 Mon to Fri : 10:00 AM - 06:00 PM Disclaimer: The language translation service available on this portal/w"
+  },
+  "udyam-registration/ud-operator": {
+   "url": "https://udyamregistration.gov.in/",
+   "quoteSha256": "9cd1bb7611cffd5570a813356989fd2de685e1bdecd57dc548efde56713f5295",
+   "snapshot": "data/website_enrichment/research/2026-10-17/udyam-registration/925a2c3a0b615a31.json",
+   "textSha256": "7b56e81b5395761da9e2194dc2f2d347bce5730f65743d24a9e44fa9eb033ecd",
+   "capturedAt": "2026-10-17T10:53:06+00:00",
+   "match": "page title",
+   "offset": null,
+   "context": "Udyam Registration : Zero cost, No Fee and Free Registration of MSMEs. This is official website of Govt. of India, Ministry of MSME. No other website/portal/app is official. MSMEs are requested to do MSME Registration here only"
+  },
+  "udyam-registration/ud-purpose": {
+   "url": "https://udyamregistration.gov.in/",
+   "quoteSha256": "091f8d99c8449c38ac326909ec6e6d4c235a2af13f3030f2419868a311bdb4e9",
+   "snapshot": "data/website_enrichment/research/2026-10-17/udyam-registration/925a2c3a0b615a31.json",
+   "textSha256": "7b56e81b5395761da9e2194dc2f2d347bce5730f65743d24a9e44fa9eb033ecd",
+   "capturedAt": "2026-10-17T10:53:06+00:00",
+   "match": "page text",
+   "offset": 111,
+   "context": "Government of India English Home NIC Code Useful Documents Print/Verify Update/Cancel Udyam Registration Login ⟦THIS IS THE ONLY GOVERNMENT PORTAL FOR MSME (UDYAM) REGISTRATION⟧ MSME Udyam Registration Udyam Registration For New Entrepreneurs who are not Registered yet as Micro, Small & Medium New Registration For t"
+  },
+  "udyam-registration/ud-warning": {
+   "url": "https://udyamregistration.gov.in/",
+   "quoteSha256": "cfb438e7bf26ed567760a43ddd9e7abb9bae6fa895dfe45eea8e404b8c89a7ca",
+   "snapshot": "data/website_enrichment/research/2026-10-17/udyam-registration/925a2c3a0b615a31.json",
+   "textSha256": "7b56e81b5395761da9e2194dc2f2d347bce5730f65743d24a9e44fa9eb033ecd",
+   "capturedAt": "2026-10-17T10:53:06+00:00",
+   "match": "page text",
+   "offset": 1004,
+   "context": " M1xchange, 3. RXIL, 4. DTX India Udyami Bharat Portal(UBP) - The portal of all MSME portals click here to visit. Udyam Registration Portal ⟦Except this portal of Government of India and Government's Single Window Systems, no other private online or offline system, service, agency or person is authorized to do MSME Registration or undertake any related activity.⟧ Important to Know − An enterprise shall be classified as a micro, small or medium enterprise on the basis of the following criteria, namely"
+  }
+ }
+}

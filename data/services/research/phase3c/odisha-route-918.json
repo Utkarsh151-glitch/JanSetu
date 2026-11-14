@@ -1,0 +1,16 @@
+{
+  "url": "https://edistrict.odisha.gov.in/directApply.do?serviceId=918",
+  "retrievedAt": "2026-10-15T23:07:15.524236+00:00",
+  "httpStatus": 200,
+  "finalUrl": "https://edistrict.odisha.gov.in/directApply.do?serviceId=918",
+  "redirects": 0,
+  "success": true,
+  "tlsVerified": true,
+  "curlExit": 0,
+  "sha256": "e2a72c22117d469a081c72da383368fcbb000dea7b0744f0eda99658933849e2",
+  "bytes": 4908,
+  "text": "",
+  "links": [],
+  "title": null,
+  "review": "Unreviewed retrieval; HTTP success alone is not publication approval or proof of a completed transaction"
+}

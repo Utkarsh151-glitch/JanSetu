@@ -1,0 +1,76 @@
+{
+ "websiteId": "rti-online",
+ "url": "https://rtionline.gov.in/",
+ "checkedAt": "2026-10-17T10:52:07+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "httpStatus": 200,
+ "finalUrl": "https://rtionline.gov.in/",
+ "title": "RTI Online :: Home | Submit RTI Request | Submit RTI First Appeal | View RTI Status | RTI FAQ",
+ "lang": null,
+ "metaDescription": "Online RTI Information Systems, Government of India RTI Request & Appeal Management Information System (RTI-MIS) (Based on Right to Information Act 2005) RTI Online Request ,RTI Online First Appeal, Online View Status.",
+ "text": " \nA+     A     A-\nSelect Language:\nEnglish\nHindi\nPublic Authorities Available\nRTI Online\nVersion 2.0\nAn Initiative of Department of Personnel & Training, Government of India\nHomeSubmit RequestSubmit First AppealView StatusView HistoryLoginUser ManualContact UsFAQPayment Reconciliation\n\n\nThe Central Information Commission (CIC) has integrated its Second Appeal Filing Portal with the Department of Personnel and Training (DoPT) RTI Online Portal. Now, while submitting a Second Appeal, appellants can input the First Appeal Registration Number, Email ID and Date of Filing the First Appeal, thereafter, the system will automatically retrieve related details of the RTI Application and First Appeal from the RTI Online Portal. This will ensure a smooth and more streamlined Second Appeal filing process.\n\nPlease do not file RTI applications through this portal for the public authorities under the State Governments, including Government of NCT Delhi. If filed, the application would be returned, without refund of amount.\n\nThis is a portal to file RTI applications/first appeals online along with payment gateway. Payment can be made through internet banking, debit/credit cards of Master/Visa, RuPay cards and UPI. Through this portal, RTI applications/first appeals can be filed by Indian Citizens for all Ministries/Departments and other Public Authorities of Central Government. RTI applications/first appeals should not be filed for other Public authorities under State Govt. through this portal.\nPlease read instructions carefully while submitting request/appeal.\n\n\n\n\nHelp Desk : For any query or feedback related to this portal, Please contact at 011-24010690/691 , during office hours\n(9:00 AM to 5:30 PM, Monday to Friday except Public Holidays) or send an email to helprtionline-dopt[at]nic[dot]in. Due to high call volume, call waiting may occur.\n\nHome | National Portal of India | Complaint & Second Appeal to CIC | FAQ | Policy\n\nCopyright © 2026. All rights reserved | Website designed, developed, and hosted by National Informatics Centre, New Delhi | Content owned and managed by DOP&T\n\n\n",
+ "textSha256": "1d3ab363a741cda4e6f2aa4aa181c10227a50baa83e288d7ac2023f211abddd2",
+ "links": [
+  {
+   "text": "Public Authorities Available",
+   "href": "https://rtionline.gov.in/request/allpa.php?pageid=1679091c5a880faf6fb5e6087eb1b2dc"
+  },
+  {
+   "text": "Home",
+   "href": "https://rtionline.gov.in/index.php"
+  },
+  {
+   "text": "Submit Request",
+   "href": "https://rtionline.gov.in/guidelines.php?request&&pageid=1679091c5a880faf6fb5e6087eb1b2dc"
+  },
+  {
+   "text": "Submit First Appeal",
+   "href": "https://rtionline.gov.in/guidelines.php?appeal&&pageid=1679091c5a880faf6fb5e6087eb1b2dc"
+  },
+  {
+   "text": "View Status",
+   "href": "https://rtionline.gov.in/request/status.php"
+  },
+  {
+   "text": "View History",
+   "href": "https://rtionline.gov.in/request/status_history.php"
+  },
+  {
+   "text": "Login",
+   "href": "https://rtionline.gov.in/login.php"
+  },
+  {
+   "text": "User Manual",
+   "href": "https://rtionline.gov.in/viewPDF.php?file=um_citizen.pdf"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://rtionline.gov.in/Contactus.php"
+  },
+  {
+   "text": "FAQ",
+   "href": "https://rtionline.gov.in/faq.php?pageid=1679091c5a880faf6fb5e6087eb1b2dc"
+  },
+  {
+   "text": "Payment Reconciliation",
+   "href": "https://rtionline.gov.in/request/status_pendingPayment.php?pageid=1679091c5a880faf6fb5e6087eb1b2dc"
+  },
+  {
+   "text": "Click here",
+   "href": "https://rtionline.gov.in/guidelines.php?request"
+  },
+  {
+   "text": "Home",
+   "href": "https://rtionline.gov.in/"
+  },
+  {
+   "text": "FAQ",
+   "href": "https://rtionline.gov.in/faq.php?pageid=1679091c5a880faf6fb5e6087eb1b2dc"
+  },
+  {
+   "text": "Policy",
+   "href": "https://rtionline.gov.in/Policies.php"
+  }
+ ]
+}

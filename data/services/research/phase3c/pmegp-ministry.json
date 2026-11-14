@@ -1,0 +1,16 @@
+{
+  "url": "https://www.msme.gov.in/important-links",
+  "retrievedAt": "2026-10-15T23:05:15.435980+00:00",
+  "httpStatus": 200,
+  "finalUrl": "https://www.msme.gov.in/important-links",
+  "redirects": 0,
+  "success": true,
+  "tlsVerified": true,
+  "curlExit": 0,
+  "sha256": "2f8609e89dc79d61aa3f99f8ef1e9906ca321bfa8e56e7799a558f38dfce16f3",
+  "bytes": 8868,
+  "text": "Important Links",
+  "links": [],
+  "title": "Important Links",
+  "review": "Unreviewed retrieval; HTTP success alone is not publication approval or proof of a completed transaction"
+}

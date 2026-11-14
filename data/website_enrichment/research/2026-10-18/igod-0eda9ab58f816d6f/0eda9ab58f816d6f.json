@@ -1,0 +1,25 @@
+{
+ "websiteId": "igod-0eda9ab58f816d6f",
+ "url": "https://pension.hrmsodisha.gov.in/",
+ "checkedAt": "2026-10-17T19:15:50+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "httpStatus": 200,
+ "finalUrl": "https://pension.hrmsodisha.gov.in/",
+ "title": ":: Pension Grievance ::",
+ "lang": null,
+ "metaDescription": null,
+ "text": " Pension Grievance\nGovernment of Odisha\nDepartment/PSA Login CLICK HERE to Login\nDDO Login CLICK HERE to Login\n\n\n\nCopyright © CMGI - All Rights Reserved - General Administration & Public Grievance Department, Government of Odisha",
+ "textSha256": "ddcf0fe5c6fb419a5d8265288115fe548427dc680d4327e6445f8452b4516126",
+ "links": [
+  {
+   "text": "CLICK HERE",
+   "href": "https://pension.hrmsodisha.gov.in/admin.htm"
+  },
+  {
+   "text": "CLICK HERE",
+   "href": "https://pension.hrmsodisha.gov.in/admin.htm"
+  }
+ ],
+ "attempt": 1
+}

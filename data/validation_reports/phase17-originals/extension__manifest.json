@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "JanSetu Companion",
+  "version": "0.2.0",
+  "description": "A local companion panel and opt-in readability aid for selected official portals.",
+  "permissions": ["sidePanel", "activeTab", "scripting"],
+  "action": {"default_title": "Open JanSetu Companion"},
+  "background": {"service_worker": "background.js"},
+  "side_panel": {"default_path": "panel.html"}
+}

@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-10-14T20:25:14+00:00",
+  "localCatalog": 7270,
+  "curatedUnchanged": 9,
+  "directoryListed": 7261,
+  "publicRelease": "blocked pending NIC permission",
+  "pythonTests": {
+    "tests": 37,
+    "result": "passed"
+  },
+  "nodeTests": {
+    "tests": 5,
+    "result": "passed"
+  },
+  "jvmTests": {
+    "tests": 9,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "api37Tests": {
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "chromePanelSmoke": "passed with mocked extension APIs; installed toolbar unverified",
+  "linkAudit": {
+    "freshCuratedProbes": 9,
+    "cachedActualDirectoryChecks": 7261,
+    "allResponded": true
+  },
+  "assetBytes": 28375808,
+  "desktopJvmMs": {
+    "parse": 255.5259,
+    "index": 291.6421,
+    "thirtySearches": 2323.2725
+  },
+  "emulatorMs": {
+    "parse": 3291.7803,
+    "index": 1782.9867,
+    "thirtySearches": 3170.3401
+  },
+  "observedDebugColdActivityMs": 8803,
+  "observedHomePssKb": 147267,
+  "observedOnboardingPssKb": 216827,
+  "artifacts": [
+    {
+      "path": "app/build/outputs/apk/debug/app-debug.apk",
+      "bytes": 22631163,
+      "sha256": "07a367f4f14d6d28488a54ca5a1d10220f58eaa73990031cc0190321f426cbfe"
+    },
+    {
+      "path": "app/build/outputs/apk/release/app-release-unsigned.apk",
+      "bytes": 14590116,
+      "sha256": "1bbff11e4c1583c98ad62355b119537bd65603d1cbbaa04ef05e99594a7efda3"
+    },
+    {
+      "path": "app/build/outputs/bundle/release/app-release.aab",
+      "bytes": 14234182,
+      "sha256": "36a20ca75a9b2f04fa96a6f447b48acd2ca9ca455cd65298659c2f6fff859e08"
+    }
+  ],
+  "sourceBranchEnumeration": 36,
+  "completeStateBranches": 36
+}

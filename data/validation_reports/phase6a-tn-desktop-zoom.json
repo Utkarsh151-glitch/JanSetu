@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-17T10:31:40+00:00",
+  "browser": "Chrome 155.0.8059.41 (headless)",
+  "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+  "httpStatus": 200,
+  "method": "One read-only load; CSS viewport widths equal to a 1280px window at each zoom.",
+  "rows": [
+    {
+      "desktopZoomEquivalent": "100%",
+      "viewportWidth": 1280,
+      "containerFound": true,
+      "overflowX": "hidden",
+      "clientWidth": 1280,
+      "scrollWidth": 1295,
+      "applyColumnRight": 1260,
+      "applyColumnFullyVisible": true,
+      "clippedWithoutScroll": true
+    },
+    {
+      "desktopZoomEquivalent": "125%",
+      "viewportWidth": 1024,
+      "containerFound": true,
+      "overflowX": "hidden",
+      "clientWidth": 1024,
+      "scrollWidth": 1039,
+      "applyColumnRight": 1004,
+      "applyColumnFullyVisible": true,
+      "clippedWithoutScroll": true
+    },
+    {
+      "desktopZoomEquivalent": "150%",
+      "viewportWidth": 853,
+      "containerFound": true,
+      "overflowX": "hidden",
+      "clientWidth": 853,
+      "scrollWidth": 868,
+      "applyColumnRight": 863,
+      "applyColumnFullyVisible": false,
+      "clippedWithoutScroll": true
+    },
+    {
+      "desktopZoomEquivalent": "200%",
+      "viewportWidth": 640,
+      "containerFound": true,
+      "overflowX": "hidden",
+      "clientWidth": 640,
+      "scrollWidth": 863,
+      "applyColumnRight": 863,
+      "applyColumnFullyVisible": false,
+      "clippedWithoutScroll": true
+    }
+  ]
+}

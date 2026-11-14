@@ -1,0 +1,56 @@
+[
+  {
+    "finalUrl": "https://forest.rajasthan.gov.in/content/raj/forest/en/home.html",
+    "preferredId": "igod-4f1465872e767478",
+    "websiteIds": [
+      "igod-3144682b173255aa",
+      "igod-4f1465872e767478"
+    ],
+    "sourceUrls": [
+      "https://forest.rajasthan.gov.in/",
+      "https://forest.rajasthan.gov.in/content/raj/forest/en/home.html"
+    ],
+    "reason": "Observed same secure responding destination; alias retained, not separately bundled"
+  },
+  {
+    "finalUrl": "https://landrevenue.rajasthan.gov.in/content/landrevenuenew/en.html",
+    "preferredId": "igod-7b8dc137ad7e37b4",
+    "websiteIds": [
+      "igod-0d932eefc3fca520",
+      "igod-7b8dc137ad7e37b4"
+    ],
+    "sourceUrls": [
+      "https://landrevenue.rajasthan.gov.in/",
+      "https://landrevenue.rajasthan.gov.in/content/landrevenuenew/en.html"
+    ],
+    "reason": "Observed same secure responding destination; alias retained, not separately bundled"
+  },
+  {
+    "finalUrl": "https://pmindiaun.gov.in/",
+    "preferredId": "igod-1cd9fb98bd754de6",
+    "websiteIds": [
+      "igod-1cd9fb98bd754de6",
+      "igod-897bd28df4f663cf"
+    ],
+    "sourceUrls": [
+      "https://pmindiaun.gov.in/",
+      "https://www.pmindiaun.gov.in/"
+    ],
+    "reason": "Observed same secure responding destination; alias retained, not separately bundled"
+  },
+  {
+    "finalUrl": "https://ulbharyana.gov.in/Error/HttpError404.html",
+    "preferredId": "igod-3e7bbed1e7d96fd0",
+    "websiteIds": [
+      "igod-3e7bbed1e7d96fd0",
+      "igod-3ff2eb52c32c5db4",
+      "igod-b3046b55b1dbdfd6"
+    ],
+    "sourceUrls": [
+      "https://ulbharyana.gov.in/Sonipat/253",
+      "https://ulbharyana.gov.in/WebCMS/Start/191",
+      "https://ulbharyana.gov.in/Hisar/249"
+    ],
+    "reason": "Observed same secure responding destination; alias retained, not separately bundled"
+  }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.ui.BrowserTextSizeTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-18T06:23:01.940Z" hostname="LAPTOP-FAIP099K" time="0.012">
+  <properties/>
+  <testcase name="websiteTextStartsFromTheAndroidFontSize" classname="in.jansetu.app.ui.BrowserTextSizeTest" time="0.003"/>
+  <testcase name="readingPositionSurvivesReflowAsAShareOfTheScrollableHeight" classname="in.jansetu.app.ui.BrowserTextSizeTest" time="0.0"/>
+  <testcase name="largerStepsBy25UpTo200" classname="in.jansetu.app.ui.BrowserTextSizeTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

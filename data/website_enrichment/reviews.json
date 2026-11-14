@@ -1,0 +1,5 @@
+{
+ "schemaVersion": 1,
+ "note": "Append-only human review decisions. Never edit by hand; use the review packet and editorial_review.py import.",
+ "decisions": []
+}

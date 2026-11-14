@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-781379c678ce1e21",
+ "url": "https://scholarship.odisha.gov.in/",
+ "checkedAt": "2026-10-17T19:16:36+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://scholarship.odisha.gov.in/\nCall log:\n  - navigating to \"https://scholarship.odisha.gov.",
+ "attempt": 1
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://revenue.py.gov.in/citizen_charter.html",
+  "retrievedAt": "2026-10-15T23:07:09.662716+00:00",
+  "httpStatus": 200,
+  "finalUrl": "https://revenue.py.gov.in/citizen_charter.html",
+  "redirects": 0,
+  "success": true,
+  "tlsVerified": true,
+  "curlExit": 0,
+  "sha256": "f6b618e7338210d01df3387f9a9aa459bac41cdbb60b07e5f0a76eb5b1c7f0a4",
+  "bytes": 4436,
+  "text": "Government of Puducherry, Department of Revenue and Disaster Management Home About Citizenn Charter Citizen Charter The Revision of Citizen Charter of DR&DM is under Process Previous version Citizen Charter is available below DRDM - Citizen Charter (English) DRDM - Citizen Charter (Tamil)",
+  "links": [
+    {
+      "text": "Home",
+      "url": "https://revenue.py.gov.in/index.html"
+    },
+    {
+      "text": "About",
+      "url": "https://revenue.py.gov.in/about.htmll"
+    },
+    {
+      "text": "DRDM - Citizen Charter (English)",
+      "url": "https://revenue.py.gov.in/downloads/DRDM - Citizen Charter -English.pdf"
+    },
+    {
+      "text": "DRDM - Citizen Charter (Tamil)",
+      "url": "https://revenue.py.gov.in/downloads/DRDM - Citizen Charter -Tamil.pdf"
+    }
+  ],
+  "title": "Government of Puducherry, Department of Revenue and Disaster Management",
+  "review": "Unreviewed retrieval; HTTP success alone is not publication approval or proof of a completed transaction"
+}

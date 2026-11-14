@@ -1,0 +1,73 @@
+{
+  "version": 11,
+  "organizations": [
+    {
+      "id": "org-7077af4eaac38e33",
+      "name": "National Scholarship Portal",
+      "websiteIds": [
+        "national-scholarship-portal"
+      ]
+    },
+    {
+      "id": "org-05a96313c65f060b",
+      "name": "Tamil Nadu eSevai Portal, Tamil Nadu",
+      "websiteIds": [
+        "igod-2715637a8f399700"
+      ]
+    },
+    {
+      "id": "org-7ed359018f05059a",
+      "name": "Ministry of Labour & Employment",
+      "websiteIds": [
+        "national-career-service"
+      ]
+    },
+    {
+      "id": "org-e999f31ac201d555",
+      "name": "Unique Identification Authority of India",
+      "websiteIds": [
+        "uidai"
+      ]
+    },
+    {
+      "id": "org-afff511c4bead63d",
+      "name": "Department of Administrative Reforms & Public Grievances",
+      "websiteIds": [
+        "cpgrams"
+      ]
+    },
+    {
+      "id": "org-7f72318d5949adac",
+      "name": "Department of Personnel and Training",
+      "websiteIds": [
+        "rti-online"
+      ]
+    },
+    {
+      "id": "org-caf4f9732b6768f4",
+      "name": "Ministry of Micro, Small and Medium Enterprises",
+      "websiteIds": [
+        "udyam-registration"
+      ]
+    },
+    {
+      "id": "org-5763d05f09e5a8be",
+      "name": "Ministry of Micro, Small & Medium Enterprises (MSME)",
+      "websiteIds": [
+        "igod-1d591544b1c2e25d"
+      ]
+    }
+  ],
+  "approvals": {
+    "tn-community-certificate": {
+      "reviewedBy": "Codex official-source clarification review",
+      "notes": "Separate community and nativity conditional documents; preserve original review history.",
+      "candidateSha256": "dfa7232280b91059bccca8dc40e74e7afc5668b2f279246f42cabf0fc8d2d868"
+    },
+    "tn-nativity-certificate": {
+      "reviewedBy": "Codex official-source clarification review",
+      "notes": "Separate community and nativity conditional documents; preserve original review history.",
+      "candidateSha256": "13f2e4c5d00d89b7ead763473c1e81189276d501718ca8199c3ccec2a73f31bd"
+    }
+  }
+}

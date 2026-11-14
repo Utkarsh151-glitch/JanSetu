@@ -1,0 +1,14 @@
+﻿{
+    "recordedAt":  "2026-10-17T15:48:27.1141454+05:30",
+    "note":  "Preview preferences hash differed from the Phase 5 final value before any Phase 6A device step. File modification time (metadata only; contents not read) was 2026-10-17 15:44:08 IST, between the desktop-only screening (ended 15:42:54) and the first Phase 6A emulator step (15:45:13). The preview app had been left in the foreground. Tracker database and reminder registry were unchanged (last modified 2026-10-16 22:38:24).",
+    "phase5Final":  {
+                        "prefs":  "91c4897bb27a6f960465e3a186d3bcd23129f1b44a0c9f1815b4909490dc7bde"
+                    },
+    "phase6aBaseline":  {
+                            "no_backup/tracker/applications.db":  "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+                            "shared_prefs/jansetu_preferences.xml":  "78d11267d05203bb89d72d8c4b2dcf4074c72ab32ac8829247a30b53390ee3f0",
+                            "shared_prefs/tracker_alarm_ids.xml":  "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+                            "files/catalog-update.jansetu":  null
+                        },
+    "afterAndroidCheck":  "identical to phase6aBaseline"
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "national-scholarship-portal",
+    "title": "National Scholarship Portal",
+    "description": "Find scholarship schemes and application resources for students.",
+    "url": "https://scholarships.gov.in/",
+    "organization": "National Scholarship Portal",
+    "level": "Central",
+    "categories": ["education"],
+    "keywords": ["scholarship", "scholarships", "student", "education"],
+    "sourceUrl": "https://scholarships.gov.in/aboutUs",
+    "sourceType": "Official portal about page"
+  },
+  {
+    "id": "udyam-registration",
+    "title": "Udyam Registration",
+    "description": "Access the official MSME registration portal and its registration information.",
+    "url": "https://udyamregistration.gov.in/",
+    "organization": "Ministry of Micro, Small and Medium Enterprises",
+    "level": "Central",
+    "categories": ["business"],
+    "keywords": ["MSME", "small business", "enterprise registration", "Udyam"],
+    "sourceUrl": "https://udyamregistration.gov.in/",
+    "sourceType": "Official portal ownership statement"
+  },
+  {
+    "id": "income-tax-efiling",
+    "title": "Income Tax e-Filing",
+    "description": "Find official income-tax e-filing, forms, help, and return services.",
+    "url": "https://www.incometax.gov.in/iec/foportal/",
+    "organization": "Income Tax Department, Ministry of Finance",
+    "level": "Central",
+    "categories": ["taxation"],
+    "keywords": ["income tax", "ITR", "tax return", "e filing"],
+    "sourceUrl": "https://www.incometax.gov.in/iec/foportal/",
+    "sourceType": "Official portal ownership statement"
+  },
+  {
+    "id": "rti-online",
+    "title": "RTI Online",
+    "description": "Submit and track Right to Information requests and first appeals for central public authorities.",
+    "url": "https://rtionline.gov.in/",
+    "organization": "Department of Personnel and Training",
+    "level": "Central",
+    "categories": ["transparency", "information"],
+    "keywords": ["RTI", "right to information", "information request", "first appeal"],
+    "knownLimitations": "The official portal says not to use it for State Government public authorities.",
+    "sourceUrl": "https://rtionline.gov.in/",
+    "sourceType": "Official portal ownership and scope statement"
+  },
+  {
+    "id": "uidai",
+    "title": "UIDAI Aadhaar Services",
+    "description": "Find official Aadhaar information and routes to enrollment, updates, downloads, and security tools.",
+    "url": "https://uidai.gov.in/en/my-aadhaar",
+    "organization": "Unique Identification Authority of India",
+    "level": "Central",
+    "categories": ["documents"],
+    "keywords": ["Aadhaar", "identity", "enrolment", "address update", "download Aadhaar"],
+    "sourceUrl": "https://uidai.gov.in/en/my-aadhaar",
+    "sourceType": "Official authority portal service page"
+  },
+  {
+    "id": "pm-kisan",
+    "title": "PM-KISAN",
+    "description": "Find official PM-KISAN scheme information and farmer status tools.",
+    "url": "https://pmkisan.gov.in/",
+    "organization": "Department of Agriculture and Farmers Welfare",
+    "level": "Central",
+    "categories": ["agriculture"],
+    "keywords": ["PM Kisan", "farmer", "agriculture", "scheme status"],
+    "sourceUrl": "https://pmkisan.gov.in/",
+    "sourceType": "Official ministry portal ownership statement"
+  },
+  {
+    "id": "parivahan-sewa",
+    "title": "Parivahan Sewa",
+    "description": "Find official driving licence and vehicle service routes.",
+    "url": "https://parivahan.gov.in/",
+    "organization": "Ministry of Road Transport and Highways",
+    "level": "Central",
+    "categories": ["transport"],
+    "keywords": ["driving licence", "driving license", "vehicle registration", "transport"],
+    "sourceUrl": "https://parivahan.gov.in/parivahan/en/content/download-forms",
+    "sourceType": "Official ministry portal service page"
+  },
+  {
+    "id": "ecourts",
+    "title": "eCourts",
+    "description": "Find court information and links to case status and orders.",
+    "url": "https://ecourts.gov.in/",
+    "organization": "eCommittee, Supreme Court of India",
+    "level": "Central",
+    "categories": ["courts"],
+    "keywords": ["court", "case status", "orders", "judgments"],
+    "sourceUrl": "https://ecourts.gov.in/ecourts_home/static/about-us.php",
+    "sourceType": "Official portal about page"
+  }
+]

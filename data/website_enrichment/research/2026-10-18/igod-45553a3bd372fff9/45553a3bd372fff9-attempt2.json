@@ -1,0 +1,418 @@
+{
+ "websiteId": "igod-45553a3bd372fff9",
+ "url": "https://www.pension.mp.gov.in/",
+ "checkedAt": "2026-10-17T19:27:55+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response).",
+ "httpStatus": 200,
+ "finalUrl": "https://www.pension.mp.gov.in/",
+ "title": "ABOUT US",
+ "lang": "de",
+ "metaDescription": "About Us",
+ "text": "Screen Reader\nSkip to Nav Content\nSkip to Main Content\nहिंदी\nA- A A+\n \nLOGIN\nDirectorate of Pension Provident Fund and Insurance(DoPPFI)\n\nDepartment of Finance, Government of Madhya Pradesh\n\nHOME\nABOUT US\nOrganizational Structure\nDepartmental Chart\nOrganizational Hierarchy\nWho’s Who\nPENSION(OPS)\nPension Component\nRetiral Benefits\nClassification\nEligibility\nQualifying Service\nPension Calculation\nDCRG\nCommutation\nFamily Pension\nTravelling Allowances\nRequirement for Pension Cases\nGeneral Deficiency\nPension Forms\nPension/GIS Circular\nGIS Calculation\nPension Search\nDearness Allowances\nNPS\nNPS : At a Glance\nNPS Circular\nNPS Forms\nNPS- Pension Calculator\nOnline NPS Challan Deposit\nGuide/Utility for EMP/DDO/DTO\nNPS Withdrawal\nNPS Exit\nNPS Withdrawal Forms\nNPS Withdrawal for Death Cases\nNPS Withdrawal for Resignation\nNPS Withdrawal for Retirement\nNPS Partial Withdrawal\nAnnuity Service Providers\nDOPPFI\nDoPPFI Instruction\nPension Welfare\nPension Welfare : At a Glance\nNotification/Forms\nLok Sewa Guarantee\nEMPLOYEE CORNER\nGallery\nImmovable Property Details\nPFRDA/GOI/CTA\nRTI\nRULES AND ACT\nFAQ\nGRIEVANCES\nPENSION\nNPS\nPROVIDENT FUND(DPF & GPF)\ne_Departmental Provident Fund(e_DPF)\ne_General Provident Fund(e_GPF)\nCONTACT US\nPrevious\nNext\n1\n2\n LATEST NEWS \n   \nAPPOINTMENT ORDERS OF CONTRACTUAL DATA ENTRY OPERA...\nIMPLEMENTATION OF ONLINE E_DPF PROCESS AND BALANCE...\nNPS EXIT/WITHDRAWAL FLOW CHART..WITH QR CODES...\nDr Mohan Yadav\n\nHon'ble Chief Minister\nAbout Us\n\nDirectorate of Pension, Provident Fund and Insurance (DoPPFI) is a HoD office under the Finance Department of Government of Madhya Pradesh (GoMP).\nThe Department of Finance, Government of Madhya Pradesh monitors all receipt, expenditure and financial management of the State. The Department of Finance is the administrative department controlling five Directorates like Directorate of Treasuries and Accounts, Directorate of Financial Management and Information System, Directorate of Institutional Finance, Directorate of Local Fund and Audit and Directorate of Pension Provident Fund and Insurance.\nThree Corporation/Company/Board also works under Finance Department of GoMP i.e. Madhya…\n\n READ MORE\nEVENTS\n27 APR 2022\n\nNPS Notice Board\n\nVIEW MORE\nNPS LINKS\n\nOnline PRAN Generation Process\n\nList of PRAN pending to initiate the Exit Case after retirement\n\nList of PRANs pending for Annuity Purchase\n\nFormat for Deactivation of Multiple/Duplicate PRAN\n\nFormat for DDO Registration/Updation/Re-mapping\n\nVIEW MORE\nIMPORTANT LINKS\nDirectorate Treasury and Accounts\nhttps://www.mptreasury.org/\nFinance Department M P\nhttp://www.finance.mp.gov.in/\nAGMP Gwalior\nhttp://www.agmp.nic.in/\nPension Fund Regulatory and Development Authority\nhttp://www.pfrda.org.in/\nNational Security Depository Limited\nhttps://npscra.nsdl.co.in/\nVIEW MORE\n QUICK LINKS\n\nEmployee Database Form\n\nC R Format for Clerical Cadre\n\nC R Format for Executive Cadre\n\nReady Reckoner for GIS 1985\n\nReady Reckoner for GIS 2003\n\nVIEW MORE\nFeedback\nWim\nTenders\nHyperlink Policy\nTerms and Conditions\nPrivacy Policy\nDisclaimer\nSite Map\nPhoto Gallery\nWebsite Policy\nHelp\n  Last Updated : 18, Oct 2026\n\n  \n\nContent Provided and Maintained by DoPPFI\nCopyright © 2026, Gov. of MP. All Rights Reserved.\nDesigned & developed by Center of Excellence (CoE) MPSeDC\n📅DIARY/CALENDAR 2026 \n2026\nDiary/calendar 2026",
+ "textSha256": "0cd0f00602d24b94ffdf10b81d8a8340c6da79231df3a79aa6f4b29699ff7dea",
+ "links": [
+  {
+   "text": "Screen Reader",
+   "href": "https://pension.mp.gov.in/screen-reader"
+  },
+  {
+   "text": "Skip to Nav Content",
+   "href": "https://www.pension.mp.gov.in/#navigation"
+  },
+  {
+   "text": "Skip to Main Content",
+   "href": "https://www.pension.mp.gov.in/#content-section"
+  },
+  {
+   "text": "हिंदी",
+   "href": "https://pension.mp.gov.in/LanguageSwitcher/switchLang/hindi"
+  },
+  {
+   "text": "LOGIN",
+   "href": "https://pension.mp.gov.in/loginview"
+  },
+  {
+   "text": "logo",
+   "href": "https://pension.mp.gov.in/"
+  },
+  {
+   "text": "HOME",
+   "href": "https://pension.mp.gov.in/home"
+  },
+  {
+   "text": "ABOUT US",
+   "href": "https://pension.mp.gov.in/about-us"
+  },
+  {
+   "text": "Organizational Structure",
+   "href": "https://pension.mp.gov.in/organisational-structure"
+  },
+  {
+   "text": "Departmental Chart",
+   "href": "https://pension.mp.gov.in/departmental-chart"
+  },
+  {
+   "text": "Organizational Hierarchy",
+   "href": "https://pension.mp.gov.in/organizational-hierarchy"
+  },
+  {
+   "text": "Who’s Who",
+   "href": "https://pension.mp.gov.in/whos-who"
+  },
+  {
+   "text": "PENSION(OPS)",
+   "href": "https://pension.mp.gov.in/pension-system"
+  },
+  {
+   "text": "Pension Component",
+   "href": "https://pension.mp.gov.in/about-us"
+  },
+  {
+   "text": "Retiral Benefits",
+   "href": "https://pension.mp.gov.in/retiral-benefits"
+  },
+  {
+   "text": "Classification",
+   "href": "https://pension.mp.gov.in/classification"
+  },
+  {
+   "text": "Eligibility",
+   "href": "https://pension.mp.gov.in/eligibility"
+  },
+  {
+   "text": "Qualifying Service",
+   "href": "https://pension.mp.gov.in/pen-qualifying-service"
+  },
+  {
+   "text": "Pension Calculation",
+   "href": "https://pension.mp.gov.in/pension-calculation"
+  },
+  {
+   "text": "DCRG",
+   "href": "https://pension.mp.gov.in/dcrg"
+  },
+  {
+   "text": "Commutation",
+   "href": "https://pension.mp.gov.in/commutation"
+  },
+  {
+   "text": "Family Pension",
+   "href": "https://pension.mp.gov.in/family-pension"
+  },
+  {
+   "text": "Travelling Allowances",
+   "href": "https://pension.mp.gov.in/travelling-allowances"
+  },
+  {
+   "text": "Requirement for Pension Cases",
+   "href": "https://pension.mp.gov.in/requirement-for-pension"
+  },
+  {
+   "text": "General Deficiency",
+   "href": "https://pension.mp.gov.in/general-deficiency"
+  },
+  {
+   "text": "Pension Forms",
+   "href": "https://pension.mp.gov.in/download/index/6"
+  },
+  {
+   "text": "Pension/GIS Circular",
+   "href": "https://pension.mp.gov.in/pension-circulars"
+  },
+  {
+   "text": "Pension Search",
+   "href": "https://www.mptreasury.org/mpt/dynamic/pensionsearch.htm"
+  },
+  {
+   "text": "NPS",
+   "href": "https://pension.mp.gov.in/nps-links"
+  },
+  {
+   "text": "NPS : At a Glance",
+   "href": "https://pension.mp.gov.in/nps-at-a-glance"
+  },
+  {
+   "text": "NPS Circular",
+   "href": "https://pension.mp.gov.in/npscircular"
+  },
+  {
+   "text": "NPS Forms",
+   "href": "https://pension.mp.gov.in/download/index/5"
+  },
+  {
+   "text": "Online NPS Challan Deposit",
+   "href": "https://www.mptreasury.org/mpt/dynamic/cybertreasuryhome.htm"
+  },
+  {
+   "text": "Guide/Utility for EMP/DDO/DTO",
+   "href": "https://npscra.nsdl.co.in/nodal-office-corner-state.php"
+  },
+  {
+   "text": "NPS Withdrawal",
+   "href": "https://pension.mp.gov.in/nps-exit"
+  },
+  {
+   "text": "NPS Exit",
+   "href": "https://pension.mp.gov.in/nps-exit"
+  },
+  {
+   "text": "NPS Withdrawal Forms",
+   "href": "https://pension.mp.gov.in/download"
+  },
+  {
+   "text": "NPS Withdrawal for Death Cases",
+   "href": "https://pension.mp.gov.in/download/index/7"
+  },
+  {
+   "text": "NPS Withdrawal for Resignation",
+   "href": "https://pension.mp.gov.in/download/index/8"
+  },
+  {
+   "text": "NPS Withdrawal for Retirement",
+   "href": "https://pension.mp.gov.in/download"
+  },
+  {
+   "text": "NPS Partial Withdrawal",
+   "href": "https://pension.mp.gov.in/download/index/10"
+  },
+  {
+   "text": "Annuity Service Providers",
+   "href": "https://pension.mp.gov.in/annuity-service-providers"
+  },
+  {
+   "text": "DOPPFI",
+   "href": "https://pension.mp.gov.in/ppfi-instruction"
+  },
+  {
+   "text": "DoPPFI Instruction",
+   "href": "https://pension.mp.gov.in/ppfi-instruction"
+  },
+  {
+   "text": "Pension Welfare",
+   "href": "https://pension.mp.gov.in/pension-welfare"
+  },
+  {
+   "text": "Pension Welfare : At a Glance",
+   "href": "https://pension.mp.gov.in/pension-welfare"
+  },
+  {
+   "text": "Notification/Forms",
+   "href": "https://pension.mp.gov.in/download/index/11"
+  },
+  {
+   "text": "Lok Sewa Guarantee",
+   "href": "https://pension.mp.gov.in/lok-sewa-guarantee"
+  },
+  {
+   "text": "Gallery",
+   "href": "https://pension.mp.gov.in/photo-gallery"
+  },
+  {
+   "text": "Immovable Property Details",
+   "href": "https://pension.mp.gov.in/property-details"
+  },
+  {
+   "text": "PFRDA/GOI/CTA",
+   "href": "https://pension.mp.gov.in/circular"
+  },
+  {
+   "text": "RTI",
+   "href": "https://pension.mp.gov.in/rti"
+  },
+  {
+   "text": "RULES AND ACT",
+   "href": "https://pension.mp.gov.in/rules"
+  },
+  {
+   "text": "FAQ",
+   "href": "https://pension.mp.gov.in/faq"
+  },
+  {
+   "text": "PENSION",
+   "href": "https://pension.mp.gov.in/pension-grievances"
+  },
+  {
+   "text": "NPS",
+   "href": "https://cra-nsdl.com/CRA/"
+  },
+  {
+   "text": "PROVIDENT FUND(DPF & GPF)",
+   "href": "https://pension.mp.gov.in/provident-fund-e-dpf-e-gpf"
+  },
+  {
+   "text": "e_Departmental Provident Fund(e_DPF)",
+   "href": "https://pension.mp.gov.in/provident-fund-e-dpf-e-gpf"
+  },
+  {
+   "text": "e_General Provident Fund(e_GPF)",
+   "href": "https://pension.mp.gov.in/provident-fund-e-dpf-e-gpf"
+  },
+  {
+   "text": "CONTACT US",
+   "href": "https://pension.mp.gov.in/contact-us"
+  },
+  {
+   "text": "Play",
+   "href": "https://www.pension.mp.gov.in/#"
+  },
+  {
+   "text": "APPOINTMENT ORDERS OF CONTRACTUAL DATA ENTRY OPERA...",
+   "href": "https://www.pension.mp.gov.in/news-details/nid/ZFF1QW5ncW02WTVCS1NwR05udGlzZz09"
+  },
+  {
+   "text": "IMPLEMENTATION OF ONLINE E_DPF PROCESS AND BALANCE...",
+   "href": "https://www.pension.mp.gov.in/news-details/nid/czFpc2hyWG5sckFsU3M3c3VQVjB1Zz09"
+  },
+  {
+   "text": "NPS EXIT/WITHDRAWAL FLOW CHART..WITH QR CODES...",
+   "href": "https://www.pension.mp.gov.in/news-details/nid/QS9JSlNGS0hmMFlpS3laNXlXN1NSdz09"
+  },
+  {
+   "text": "READ MORE",
+   "href": "https://pension.mp.gov.in/about-us"
+  },
+  {
+   "text": "NPS Notice Board",
+   "href": "https://pension.mp.gov.in/events/view/UFpqN1UvTGpzSFdSK0RxcHlLT24vdz09"
+  },
+  {
+   "text": "VIEW MORE",
+   "href": "https://pension.mp.gov.in/events"
+  },
+  {
+   "text": "Online PRAN Generation Process",
+   "href": "https://pension.mp.gov.in/uploads/files/Online_PRAN_generation1.pdf"
+  },
+  {
+   "text": "List of PRAN pending to initiate the Exit Case after retirement",
+   "href": "https://pension.mp.gov.in/uploads/files/List_of_PRANs,_yet_to_initiate_Exit_cases_after_passing_a_DOR.xlsx"
+  },
+  {
+   "text": "List of PRANs pending for Annuity Purchase",
+   "href": "https://pension.mp.gov.in/uploads/files/List_of_PRANs_pending_for_annuity_purchase_after_successfully_exit_from____.xlsx"
+  },
+  {
+   "text": "Format for Deactivation of Multiple/Duplicate PRAN",
+   "href": "https://pension.mp.gov.in/uploads/files/Format_Multiple_PRAN.xls"
+  },
+  {
+   "text": "Format for DDO Registration/Updation/Re-mapping",
+   "href": "https://pension.mp.gov.in/uploads/files/ddo_updation.xlsx"
+  },
+  {
+   "text": "VIEW MORE",
+   "href": "https://pension.mp.gov.in/nps-links"
+  },
+  {
+   "text": "https://www.mptreasury.org/",
+   "href": "https://www.mptreasury.org/"
+  },
+  {
+   "text": "https://npscra.nsdl.co.in/",
+   "href": "https://npscra.nsdl.co.in/"
+  },
+  {
+   "text": "VIEW MORE",
+   "href": "https://pension.mp.gov.in/important-links"
+  },
+  {
+   "text": "Employee Database Form",
+   "href": "https://pension.mp.gov.in/uploads/files/employee_database_form.pdf"
+  },
+  {
+   "text": "C R Format for Clerical Cadre",
+   "href": "https://pension.mp.gov.in/uploads/files/CRFormAssittant.docx"
+  },
+  {
+   "text": "C R Format for Executive Cadre",
+   "href": "https://pension.mp.gov.in/uploads/files/CRForm.doc"
+  },
+  {
+   "text": "Ready Reckoner for GIS 1985",
+   "href": "https://pension.mp.gov.in/uploads/files/Ready_reckoner_GIS_1985.PDF"
+  },
+  {
+   "text": "Ready Reckoner for GIS 2003",
+   "href": "https://pension.mp.gov.in/uploads/files/Ready_reckoner_GIS_2003.PDF"
+  },
+  {
+   "text": "VIEW MORE",
+   "href": "https://pension.mp.gov.in/nps-links/2"
+  },
+  {
+   "text": "My Gov MP",
+   "href": "https://mp.mygov.in/"
+  },
+  {
+   "text": "National portal",
+   "href": "https://www.india.gov.in/"
+  },
+  {
+   "text": "gotop",
+   "href": "https://www.pension.mp.gov.in/#"
+  },
+  {
+   "text": "Feedback",
+   "href": "https://pension.mp.gov.in/feedback"
+  },
+  {
+   "text": "Wim",
+   "href": "https://pension.mp.gov.in/web-information-manager"
+  },
+  {
+   "text": "Tenders",
+   "href": "https://pension.mp.gov.in/tenders-for-vehicle"
+  },
+  {
+   "text": "Hyperlink Policy",
+   "href": "https://pension.mp.gov.in/hyperlink-policy"
+  },
+  {
+   "text": "Terms and Conditions",
+   "href": "https://pension.mp.gov.in/terms-and-conditions"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://pension.mp.gov.in/privacy-policy"
+  },
+  {
+   "text": "Disclaimer",
+   "href": "https://pension.mp.gov.in/disclaimer"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://pension.mp.gov.in/sitemap"
+  },
+  {
+   "text": "Photo Gallery",
+   "href": "https://pension.mp.gov.in/photo-gallery"
+  },
+  {
+   "text": "Website Policy",
+   "href": "https://pension.mp.gov.in/websitepolicy-web"
+  },
+  {
+   "text": "Help",
+   "href": "https://pension.mp.gov.in/help"
+  },
+  {
+   "text": "Facebook",
+   "href": "https://www.facebook.com/"
+  },
+  {
+   "text": "Twitter",
+   "href": "https://twitter.com/"
+  },
+  {
+   "text": "Youtube",
+   "href": "https://www.youtube.com/"
+  },
+  {
+   "text": "MPSeDC",
+   "href": "https://mpsedc.mp.gov.in/"
+  }
+ ],
+ "attempt": 2
+}

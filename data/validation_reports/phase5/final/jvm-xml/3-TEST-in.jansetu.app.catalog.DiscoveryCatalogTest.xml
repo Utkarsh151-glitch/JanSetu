@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.catalog.DiscoveryCatalogTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-16T21:14:00.930Z" hostname="LAPTOP-FAIP099K" time="2.999">
+  <properties/>
+  <testcase name="actualCatalogParseIndexAndRepeatedSearchAreMeasured" classname="in.jansetu.app.catalog.DiscoveryCatalogTest" time="1.876"/>
+  <testcase name="categoryAndJurisdictionFiltersHaveUniqueExactUrlResults" classname="in.jansetu.app.catalog.DiscoveryCatalogTest" time="0.372"/>
+  <testcase name="newerInconclusiveCheckStaysSeparateFromEarlierAdmissionEvidence" classname="in.jansetu.app.catalog.DiscoveryCatalogTest" time="0.228"/>
+  <testcase name="realExpandedCatalogSupportsAliasesAndCombinedRegionalFilters" classname="in.jansetu.app.catalog.DiscoveryCatalogTest" time="0.305"/>
+  <testcase name="directoryEvidenceCannotMasqueradeAsReviewedOrPubliclyLicensedData" classname="in.jansetu.app.catalog.DiscoveryCatalogTest" time="0.217"/>
+  <system-out><![CDATA[REAL_CATALOG_METRICS websites=7347 bytes=28819757 parseMs=257.8393 indexMs=265.9766 thirtySearchesMs=1144.2484
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

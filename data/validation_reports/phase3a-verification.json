@@ -1,0 +1,309 @@
+{
+  "recordedAt": "2026-10-15T22:04:45+00:00",
+  "scope": "Local development; unsigned release artifacts; no publication",
+  "appVersion": "0.3.0",
+  "versionCode": 3,
+  "bundledCatalogVersion": 11,
+  "counts": {
+    "websites": 7347,
+    "services": 25,
+    "serviceOrganizations": 8,
+    "pendingServices": 4,
+    "unknownEligibility": 14,
+    "unknownDocuments": 19
+  },
+  "applicationModes": {
+    "online": 11,
+    "assisted": 9,
+    "information": 5
+  },
+  "preservedSourceSha256": {
+    "app/src/main/assets/catalog.json": "af25cfc31eed917c3d44dadf3d6c2db781e406bba54fb8aa549bc43bab93cd1a",
+    "data/review_queue.json": "5f5a69526379ca3d26f077b1c4ffe2d1f64b1bffc1d8668bd57ec5f489972c60"
+  },
+  "runtimeBytes": 10806486,
+  "runtimeSha256": "7825855d9af88dfd5cc16698366a61389e7e20a7e532de3311ececc6a7cf24fe",
+  "publicKeySha256": "08b89c0df4afa20b187d827fa04942afaa9a74d4b5c3fa4bb8cb1157fa1884d7",
+  "artifacts": {
+    "app/build/outputs/apk/debug/app-debug.apk": {
+      "bytes": 21586361,
+      "sha256": "120f673e091edd1088f99422284144f37c69b1e6db0aa1083360127dc1d6c146",
+      "catalogMatches": true
+    },
+    "app/build/outputs/apk/release/app-release-unsigned.apk": {
+      "bytes": 13577513,
+      "sha256": "e8a78bfe345db72f79957c7bcf9dc0bb454cd7ff606263b216fe891a38715d28",
+      "catalogMatches": true
+    },
+    "app/build/outputs/bundle/release/app-release.aab": {
+      "bytes": 13208635,
+      "sha256": "7f587036e895b3d89f6082220ff40af9b57d1c1ffae73fc351f78878a411c2f8",
+      "catalogMatches": true
+    },
+    "artifacts/catalog-v12.jansetu": {
+      "bytes": 14409059,
+      "sha256": "95222ffffe870ea337d62992d0a2b41af9473e4daa8e83ae4c2dbe68660b4a48",
+      "signatureValid": true,
+      "version": 12,
+      "services": 25
+    }
+  },
+  "jvm": {
+    "tests": 22,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "android": {
+    "tests": 11,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 17
+  },
+  "otherExecutedChecks": {
+    "pythonUnittest": {
+      "tests": 58,
+      "failures": 0
+    },
+    "nodeTest": {
+      "tests": 7,
+      "failures": 0
+    },
+    "chromeSmoke": "Passed with mocked extension APIs; installed activeTab flow not tested",
+    "publicReleaseGate": "Expected rejection of local IGOD-derived records"
+  },
+  "benchmarkBefore": {
+    "websites": 7347,
+    "services": 0,
+    "indexMs": 235.6821,
+    "medianQueryMs": 35.3833,
+    "p95QueryMs": 86.5332,
+    "queries": [
+      {
+        "query": "I need a scholarship for engineering",
+        "topResults": [
+          "igod-e5cc84af115ef2c3",
+          "igod-ab306a7f3d4064eb",
+          "igod-abb4e82528c732fd",
+          "igod-5a162043e64dfcd1",
+          "igod-8bf263d33eddadfd"
+        ]
+      },
+      {
+        "query": "How can I get a caste certificate",
+        "topResults": []
+      },
+      {
+        "query": "Find government jobs",
+        "topResults": [
+          "igod-b1b71f174b533174",
+          "national-career-service",
+          "igod-7d4e23ca4e846e52",
+          "igod-9783d3afd73ca927",
+          "igod-fd56661119980d47"
+        ]
+      },
+      {
+        "query": "I want to apply for a pension",
+        "topResults": []
+      },
+      {
+        "query": "How do I obtain a birth certificate",
+        "topResults": []
+      },
+      {
+        "query": "I need a subsidy for my small business",
+        "topResults": []
+      },
+      {
+        "query": "DigiLocker",
+        "topResults": [
+          "digilocker"
+        ]
+      },
+      {
+        "query": "file a complaint",
+        "topResults": [
+          "igod-9278b77470ecaa55",
+          "igod-c819a08566f34da7",
+          "igod-664a5a232911a95c",
+          "igod-a3597967bb974289",
+          "cpgrams"
+        ]
+      }
+    ]
+  },
+  "benchmarkAfter": {
+    "websites": 7347,
+    "services": 25,
+    "indexMs": 79.5763,
+    "medianQueryMs": 34.2212,
+    "p95QueryMs": 66.1945,
+    "queries": [
+      {
+        "query": "I need a scholarship for engineering",
+        "topResults": [
+          {
+            "id": "aicte-swanath-degree",
+            "type": "service",
+            "title": "AICTE Swanath Scholarship (Technical Degree)"
+          },
+          {
+            "id": "aicte-pragati-degree",
+            "type": "service",
+            "title": "AICTE Pragati Scholarship for Girl Students (Degree)"
+          },
+          {
+            "id": "aicte-saksham-degree",
+            "type": "service",
+            "title": "AICTE Saksham Scholarship for Specially-Abled Students (Degree)"
+          },
+          {
+            "id": "igod-641f328e9ccfbcad",
+            "type": "website",
+            "title": "All India Council of Technical Education (AICTE)"
+          },
+          {
+            "id": "igod-e5cc84af115ef2c3",
+            "type": "website",
+            "title": "Assam Engineering College (AEC)"
+          }
+        ]
+      },
+      {
+        "query": "How can I get a caste certificate",
+        "topResults": [
+          {
+            "id": "tn-community-certificate",
+            "type": "service",
+            "title": "Community Certificate (Tamil Nadu)"
+          }
+        ]
+      },
+      {
+        "query": "Find government jobs",
+        "topResults": [
+          {
+            "id": "ncs-government-job-search",
+            "type": "service",
+            "title": "Search government-sector jobs on NCS"
+          },
+          {
+            "id": "igod-b1b71f174b533174",
+            "type": "website",
+            "title": "Job Provider Portal, Prime Minister's Internship Scheme"
+          },
+          {
+            "id": "national-career-service",
+            "type": "website",
+            "title": "National Career Service"
+          },
+          {
+            "id": "igod-7d4e23ca4e846e52",
+            "type": "website",
+            "title": "Online Portal for Government Recruitments, Puducherry"
+          },
+          {
+            "id": "igod-9783d3afd73ca927",
+            "type": "website",
+            "title": "Department of Pension & Pensioner's Welfare (DoPPW)"
+          }
+        ]
+      },
+      {
+        "query": "I want to apply for a pension",
+        "topResults": [
+          {
+            "id": "tn-widow-pension",
+            "type": "service",
+            "title": "Destitute Widow Pension Scheme (Tamil Nadu)"
+          },
+          {
+            "id": "tn-disability-pension",
+            "type": "service",
+            "title": "Differently Abled Pension Scheme (Tamil Nadu)"
+          },
+          {
+            "id": "tn-old-age-pension",
+            "type": "service",
+            "title": "Indira Gandhi National Old Age Pension Scheme — Tamil Nadu access"
+          },
+          {
+            "id": "igod-c01d8df9282d87de",
+            "type": "website",
+            "title": "Bhavishya, Pension Sanction and Payment Tracking System"
+          },
+          {
+            "id": "igod-421dca3648f50c0b",
+            "type": "website",
+            "title": "Central Pension Accounting Office (CPAO)"
+          }
+        ]
+      },
+      {
+        "query": "How do I obtain a birth certificate",
+        "topResults": [
+          {
+            "id": "tn-birth-certificate-print",
+            "type": "service",
+            "title": "Printing of Birth Certificate (Tamil Nadu)"
+          }
+        ]
+      },
+      {
+        "query": "I need a subsidy for my small business",
+        "topResults": [
+          {
+            "id": "pmegp-enterprise-support",
+            "type": "service",
+            "title": "Prime Minister’s Employment Generation Programme (PMEGP)"
+          }
+        ]
+      },
+      {
+        "query": "DigiLocker",
+        "topResults": [
+          {
+            "id": "digilocker",
+            "type": "website",
+            "title": "DigiLocker"
+          }
+        ]
+      },
+      {
+        "query": "file a complaint",
+        "topResults": [
+          {
+            "id": "cpgrams-public-grievance",
+            "type": "service",
+            "title": "Lodge a Public Grievance through CPGRAMS"
+          },
+          {
+            "id": "cpgrams-grievance-appeal",
+            "type": "service",
+            "title": "Appeal a Dissatisfied CPGRAMS Grievance"
+          },
+          {
+            "id": "igod-9278b77470ecaa55",
+            "type": "website",
+            "title": "Complaint and Appeal Tracking System, Uttar Pradesh"
+          },
+          {
+            "id": "igod-c819a08566f34da7",
+            "type": "website",
+            "title": "Online Telecom Consumer Complaints Monitoring System"
+          },
+          {
+            "id": "igod-664a5a232911a95c",
+            "type": "website",
+            "title": "SHe Box-Online Complaint Management System for Sexual Harassment at Workplace"
+          }
+        ]
+      }
+    ]
+  },
+  "measurementLimit": "JVM warm query observations; index timings cache/order sensitive; not Android latency guarantees"
+}

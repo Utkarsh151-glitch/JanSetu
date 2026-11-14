@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-2bdd905020581df7",
+ "url": "https://telanganaepass.cgg.gov.in/studentfaqs.do",
+ "checkedAt": "2026-10-17T19:29:24+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://telanganaepass.cgg.gov.in/studentfaqs.do\nCall log:\n  - navigating to \"https://tela",
+ "attempt": 1
+}

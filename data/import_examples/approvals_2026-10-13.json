@@ -1,0 +1,27 @@
+{
+  "national-scholarship-portal": {
+    "approvedBy": "Codex source review",
+    "ownershipEvidence": "https://scholarships.gov.in/aboutUs",
+    "verifiedOn": "2026-10-13"
+  },
+  "udyam-registration": {
+    "approvedBy": "Codex source review",
+    "ownershipEvidence": "https://udyamregistration.gov.in/",
+    "verifiedOn": "2026-10-13"
+  },
+  "income-tax-efiling": {
+    "approvedBy": "Codex source review",
+    "ownershipEvidence": "https://www.incometax.gov.in/iec/foportal/",
+    "verifiedOn": "2026-10-13"
+  },
+  "rti-online": {
+    "approvedBy": "Codex source review",
+    "ownershipEvidence": "https://rtionline.gov.in/",
+    "verifiedOn": "2026-10-13"
+  },
+  "uidai": {
+    "approvedBy": "Codex source review",
+    "ownershipEvidence": "https://uidai.gov.in/en/my-aadhaar",
+    "verifiedOn": "2026-10-13"
+  }
+}

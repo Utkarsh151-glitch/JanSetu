@@ -1,0 +1,26 @@
+{
+  "url": "https://lgdirectory.gov.in/getStateWiseUrbanLB.do",
+  "checkedAt": "2026-10-14T20:46:35+00:00",
+  "status": "OK",
+  "httpStatus": 200,
+  "transport": "curl normal TLS validation",
+  "exitCode": 0,
+  "error": "",
+  "location": null,
+  "elapsedMs": 764,
+  "snapshot": "data\\collection\\phase2b-2026-10-15\\administrative_snapshots\\886be4e1693234496d999106e54443a68c2abbcb8537a7f5e2c068a4f89519bd.json",
+  "method": "GET",
+  "wireSha256": "d9d09a20a86362212405afb459fbe06f2f4e48316d86e02c9bb18dbd33b9c0fd",
+  "bodyBytes": 49912,
+  "attempts": [
+    {
+      "checkedAt": "2026-10-14T20:46:35+00:00",
+      "status": "OK",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "error": ""
+    }
+  ],
+  "pageTitle": "LGD - Local Government Directory, Government of India",
+  "bodyRetention": "discarded; title/status/size/hash only"
+}

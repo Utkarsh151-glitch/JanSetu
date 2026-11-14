@@ -1,0 +1,431 @@
+{
+  "version": 1,
+  "updated": "2026-10-18",
+  "note": "Page-specific JanSetu Assist decisions. Each entry applies to one exact HTTPS host, path and query only. A class is a recommendation for that page; it never authorises styling the rest of a domain. Validated by tools/site_interventions.py against the extension allowlist, the extension background route check and the Android in-app host list.",
+  "contexts": {
+    "android_inapp": "JanSetu's read-only Android WebView (only catalog hosts with browserSupport=in_app)",
+    "chrome_extension": "JanSetu Companion side panel in desktop Chrome",
+    "jansetu_native": "JanSetu's own screens; the official page is not altered"
+  },
+  "controls": {
+    "text_zoom": {
+      "altersPresentation": true,
+      "description": "Browser-level text size (WebView textZoom or Chrome tab zoom). No page code is changed."
+    },
+    "readable_text_css": {
+      "altersPresentation": true,
+      "description": "Retired typography stylesheet (formerly extension/readability.css, withdrawn in Phase 17; archived at data/retired/nsp-readable-text.css)."
+    },
+    "overflow_scroll_css": {
+      "altersPresentation": true,
+      "description": "Single rule letting one clipped container scroll sideways. Proposal only."
+    },
+    "reading_view": {
+      "altersPresentation": true,
+      "description": "JanSetu-rendered copy of reviewed public text. Not implemented."
+    },
+    "restore_original": {
+      "altersPresentation": false,
+      "description": "Returns the page to its own presentation (A / remove stylesheet / reload / close view)."
+    },
+    "jansetu_guidance": {
+      "altersPresentation": false,
+      "description": "Plain-language JanSetu guidance shown beside the official page."
+    },
+    "official_handoff": {
+      "altersPresentation": false,
+      "description": "Open the unchanged page in the person's own browser."
+    }
+  },
+  "pages": [
+    {
+      "pageId": "india-portal-home",
+      "url": "https://www.india.gov.in/",
+      "class": "B",
+      "status": "investigating",
+      "decision": "Text scaling only. Make the in-app WebView start from the person's Android font size and keep reading position across rotation. Never restyle the consent dialog or site controls.",
+      "controls": [
+        {
+          "context": "android_inapp",
+          "control": "text_zoom",
+          "state": "active",
+          "scope": "user_preference_all_inapp_pages"
+        },
+        {
+          "context": "android_inapp",
+          "control": "restore_original",
+          "state": "active"
+        },
+        {
+          "context": "android_inapp",
+          "control": "official_handoff",
+          "state": "active"
+        }
+      ],
+      "evidence": [
+        "docs/screenshots/phase6/india-portal-android-a100-font1.png",
+        "docs/screenshots/phase6/india-portal-android-a100-font2.png",
+        "docs/screenshots/phase6/india-portal-android-a125-font1.png",
+        "docs/screenshots/phase6/india-portal-android-landscape-font1.png",
+        "data/validation_reports/phase6a-android-portal.json"
+      ],
+      "acceptanceCriteria": [
+        "At Android font 1.3x and 2.0x the page text follows the setting by default",
+        "At each offered size the consent dialog's three buttons, the site search and its own accessibility menu stay visible and operable",
+        "A returns to 100% in one tap",
+        "Rotation and font change keep the current page and scroll position"
+      ]
+    },
+    {
+      "pageId": "scholarship-home",
+      "url": "https://scholarships.gov.in/home",
+      "class": "D",
+      "status": "retired",
+      "decision": "Guidance first. The Readable text pilot was withdrawn on 2026-10-18 (Phase 12): it changed text size but showed no measured benefit on the page's documented problems (2026-10-17 screening). Any replacement must show a measured gain and pass review before it is allowlisted again. Removed from the extension in Phase 17 (scripting permission, stylesheet, background listener and panel controls); the stylesheet is archived as evidence only.",
+      "controls": [
+        {
+          "context": "chrome_extension",
+          "control": "readable_text_css",
+          "state": "retired",
+          "stylesheet": "data/retired/nsp-readable-text.css"
+        },
+        {
+          "context": "chrome_extension",
+          "control": "restore_original",
+          "state": "retired"
+        },
+        {
+          "context": "jansetu_native",
+          "control": "jansetu_guidance",
+          "state": "proposed"
+        }
+      ],
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/scholarship-home-390.png",
+        "docs/screenshots/phase6/scholarship-home-readable-390.png",
+        "docs/screenshots/phase6/scholarship-home-original-1280.png",
+        "docs/screenshots/phase6/scholarship-home-readable-1280.png"
+      ],
+      "acceptanceCriteria": [
+        "Any replacement stylesheet must show a measured readability gain on a documented problem, not only a change in size",
+        "No control hidden, covered or moved off-screen",
+        "Restore returns identical computed styles"
+      ]
+    },
+    {
+      "pageId": "scholarship-application",
+      "url": "https://scholarships.gov.in/ApplicationForm/",
+      "class": "E",
+      "status": "recommendation",
+      "decision": "Sign-in and application: never styled. Independent guidance and handoff only.",
+      "controls": [
+        {
+          "context": "jansetu_native",
+          "control": "jansetu_guidance",
+          "state": "proposed"
+        },
+        {
+          "context": "jansetu_native",
+          "control": "official_handoff",
+          "state": "active"
+        }
+      ],
+      "evidence": [
+        "https://scholarships.gov.in/Students"
+      ],
+      "acceptanceCriteria": [
+        "Remains absent from every styling allowlist"
+      ]
+    },
+    {
+      "pageId": "rti-home",
+      "url": "https://rtionline.gov.in/",
+      "class": "D",
+      "status": "recommendation",
+      "decision": "Fixed 980px layout; guidance and handoff. Generic text enlargement would worsen clipping.",
+      "controls": [
+        {
+          "context": "jansetu_native",
+          "control": "jansetu_guidance",
+          "state": "active"
+        },
+        {
+          "context": "jansetu_native",
+          "control": "official_handoff",
+          "state": "active"
+        }
+      ],
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/rti-home-390.png",
+        "docs/screenshots/audit-rti-home.png"
+      ],
+      "acceptanceCriteria": [
+        "Remains absent from every styling allowlist"
+      ]
+    },
+    {
+      "pageId": "rti-guidelines",
+      "url": "https://rtionline.gov.in/guidelines.php?request",
+      "class": "D",
+      "status": "investigating",
+      "decision": "No viewport meta: phones show it at about 0.4 scale. CSS cannot repair that. Provide JanSetu guidance covering its key rules, then hand off. The acknowledgement checkbox and Submit/Cancel begin the request and payment journey and must stay untouched.",
+      "controls": [
+        {
+          "context": "jansetu_native",
+          "control": "jansetu_guidance",
+          "state": "active",
+          "note": "Shown in the app from Phase 17 (18 October 2026) as the RTI request page's 'Before you request' card, under the project owner's explicit authorisation. Every item is an evidence-backed service fact. The content has not had a human editorial review (RB-03)."
+        },
+        {
+          "context": "jansetu_native",
+          "control": "official_handoff",
+          "state": "active"
+        }
+      ],
+      "evidence": [
+        "data/validation_reports/phase6a-page-structure.json",
+        "docs/screenshots/phase6/rti-guidelines-android-chrome-font1.png",
+        "docs/screenshots/phase6/rti-guidelines-android-chrome-font2.png",
+        "docs/screenshots/phase6/rti-guidelines-390.png"
+      ],
+      "acceptanceCriteria": [
+        "JanSetu guidance states all five key rules with source and check date",
+        "In a moderated task, participants can say whether a BPL applicant pays a fee and what to do if no registration number arrives after payment",
+        "The official checkbox, Submit and Cancel are unchanged"
+      ]
+    },
+    {
+      "pageId": "rti-login",
+      "url": "https://rtionline.gov.in/login.php",
+      "class": "E",
+      "status": "recommendation",
+      "decision": "Credentials and security code: never styled.",
+      "controls": [
+        {
+          "context": "jansetu_native",
+          "control": "official_handoff",
+          "state": "active"
+        }
+      ],
+      "evidence": [
+        "https://rtionline.gov.in/login.php"
+      ],
+      "acceptanceCriteria": [
+        "Remains absent from every styling allowlist"
+      ]
+    },
+    {
+      "pageId": "tn-esevai-service-list",
+      "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "class": "C",
+      "status": "investigating",
+      "decision": "The service table is clipped by overflow-x:hidden, so Fee, documents and apply-link columns are unreachable on phones. Investigate one reversible rule allowing that container to scroll sideways; fill JanSetu's TN fee/document gaps through the editorial workflow in parallel. Not allowlisted.",
+      "controls": [
+        {
+          "context": "chrome_extension",
+          "control": "overflow_scroll_css",
+          "state": "proposed",
+          "stylesheet": "data/site_intervention_proposals/tn-esevai-service-list.css"
+        },
+        {
+          "context": "chrome_extension",
+          "control": "restore_original",
+          "state": "proposed"
+        },
+        {
+          "context": "jansetu_native",
+          "control": "jansetu_guidance",
+          "state": "active"
+        }
+      ],
+      "evidence": [
+        "data/validation_reports/phase6a-page-structure.json",
+        "docs/screenshots/phase6/tn-esevai-service-list-390.png",
+        "docs/screenshots/phase6/tn-esevai-service-list-zoom200.png",
+        "docs/screenshots/phase6/tn-esevai-service-list-android-chrome-font1-scrolled.png"
+      ],
+      "acceptanceCriteria": [
+        "All 8 columns reachable by horizontal scrolling at 390px and at 200% zoom",
+        "No text, link, icon or site control changes appearance except the container's scroll behaviour",
+        "The site's A-/A/A+ controls still work with the rule applied",
+        "Apply links still open the same official destination",
+        "Restore returns identical computed styles",
+        "Human review on desktop Chrome with the installed extension, keyboard and screen reader"
+      ]
+    },
+    {
+      "pageId": "digilocker-home",
+      "url": "https://www.digilocker.gov.in/",
+      "class": "D",
+      "status": "recommendation",
+      "decision": "The earlier B prospect failed: at 200% zoom the page overflows (317px content in a 195px viewport, 29 controls off-screen). Use the existing JanSetu guide and the site's own controls.",
+      "controls": [
+        {
+          "context": "jansetu_native",
+          "control": "jansetu_guidance",
+          "state": "active"
+        },
+        {
+          "context": "jansetu_native",
+          "control": "official_handoff",
+          "state": "active"
+        }
+      ],
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/digilocker-home-zoom200.png",
+        "docs/screenshots/phase6/digilocker-home-390.png"
+      ],
+      "acceptanceCriteria": [
+        "Remains absent from every styling allowlist unless a later review shows reflow at 200%"
+      ]
+    },
+    {
+      "pageId": "lakshadweep-home",
+      "url": "https://lakshadweep.gov.in/",
+      "class": "A",
+      "status": "recommendation",
+      "decision": "No intervention evidenced in the first viewport (14 October review, not rechecked).",
+      "controls": [],
+      "evidence": [
+        "docs/screenshots/audit-lakshadweep-home.png"
+      ],
+      "acceptanceCriteria": []
+    },
+    {
+      "pageId": "coimbatore-home",
+      "url": "https://www.ccmc.gov.in/",
+      "class": "D",
+      "status": "recommendation",
+      "decision": "Navigation density and separate payment/grievance hosts; guidance after ownership review (14 October, not rechecked).",
+      "controls": [
+        {
+          "context": "jansetu_native",
+          "control": "jansetu_guidance",
+          "state": "proposed"
+        }
+      ],
+      "evidence": [
+        "docs/screenshots/audit-coimbatore-home.png"
+      ],
+      "acceptanceCriteria": []
+    },
+    {
+      "pageId": "chennai-directory-destination",
+      "url": "https://chennaicorporation.gov.in/",
+      "class": "F",
+      "status": "recommendation",
+      "decision": "Directory destination showed a default server page once; CSS cannot repair it. Verify the canonical URL.",
+      "controls": [],
+      "evidence": [
+        "https://igod.gov.in/index.php/leg/TN/L008/organizations"
+      ],
+      "acceptanceCriteria": []
+    },
+    {
+      "pageId": "cpgrams-lodge",
+      "url": "https://pgportal.gov.in/Home/LodgeGrievance",
+      "class": "E",
+      "status": "recommendation",
+      "decision": "Registered sign-in begins a grievance: never styled.",
+      "controls": [
+        {
+          "context": "jansetu_native",
+          "control": "jansetu_guidance",
+          "state": "active"
+        },
+        {
+          "context": "jansetu_native",
+          "control": "official_handoff",
+          "state": "active"
+        }
+      ],
+      "evidence": [
+        "https://pgportal.gov.in/Home/LodgeGrievance"
+      ],
+      "acceptanceCriteria": [
+        "Remains absent from every styling allowlist"
+      ]
+    },
+    {
+      "pageId": "kerala-edistrict-faq",
+      "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "class": "NEEDS_MANUAL_REVIEW",
+      "status": "recommendation",
+      "decision": "Selection screening only: readable at 390px; 37px overflow at 320px. Not selected this phase.",
+      "controls": [],
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/kerala-edistrict-faq-390.png"
+      ],
+      "acceptanceCriteria": []
+    },
+    {
+      "pageId": "odisha-edistrict-home",
+      "url": "https://edistrict.odisha.gov.in/",
+      "class": "NEEDS_MANUAL_REVIEW",
+      "status": "recommendation",
+      "decision": "Selection screening only: reflows to 195px; four text blocks measured below 4.5:1 contrast need a manual check.",
+      "controls": [],
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/odisha-edistrict-home-390.png"
+      ],
+      "acceptanceCriteria": []
+    },
+    {
+      "pageId": "uidai-my-aadhaar",
+      "url": "https://www.uidai.gov.in/en/my-aadhaar",
+      "class": "NEEDS_MANUAL_REVIEW",
+      "status": "recommendation",
+      "decision": "HTTP 500 to one headless request: access inconclusive, not a UI finding.",
+      "controls": [],
+      "evidence": [
+        "data/screening_runs/2026-10-17.json"
+      ],
+      "acceptanceCriteria": []
+    },
+    {
+      "pageId": "cpgrams-faq",
+      "url": "https://pgportal.gov.in/Home/Faq",
+      "class": "NEEDS_MANUAL_REVIEW",
+      "status": "recommendation",
+      "decision": "Selection screening only: readable at 390px; small overflow at 320px.",
+      "controls": [],
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/cpgrams-faq-390.png"
+      ],
+      "acceptanceCriteria": []
+    },
+    {
+      "pageId": "ncs-faq",
+      "url": "https://ncs.gov.in/faq",
+      "class": "NEEDS_MANUAL_REVIEW",
+      "status": "recommendation",
+      "decision": "Selection screening only: readable at 390px; overflow at 200% zoom.",
+      "controls": [],
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/ncs-faq-390.png"
+      ],
+      "acceptanceCriteria": []
+    },
+    {
+      "pageId": "incometax-epan-help",
+      "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM",
+      "class": "NEEDS_MANUAL_REVIEW",
+      "status": "recommendation",
+      "decision": "Selection screening only: small text (median 14px) but reflows at 200% zoom with its own text-size controls; a likely B through browser zoom alone.",
+      "controls": [],
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/incometax-epan-help-390.png",
+        "docs/screenshots/phase6/incometax-epan-help-zoom200.png"
+      ],
+      "acceptanceCriteria": []
+    }
+  ]
+}

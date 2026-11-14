@@ -1,0 +1,8 @@
+{
+ "websiteId": "igod-7c7865e8e6982bc1",
+ "url": "https://revenue.py.gov.in/",
+ "checkedAt": "2026-10-17T10:52:27+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_NAME_NOT_RESOLVED at https://revenue.py.gov.in/\nCall log:\n  - navigating to \"https://revenue.py.gov.in/\", waiting until "
+}

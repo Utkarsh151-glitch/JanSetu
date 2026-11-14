@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-18",
+  "device": "emulator-5554 (Medium_Phone_API_37.0)",
+  "phaseBaseline": {
+    "note": "Recorded at the start of Phase 6C (2026-10-17 19:38 IST). The preferences hash differed from the Phase 6B gate result (78d11267…) because the preview app was used on the device at 19:22 IST (usagestats: usedByUser; file modified 19:22:18). No tooling touched the preview app.",
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "5ff177e197384375107f2c7c24bf0cc44d916d3050845fa45cd7a07c1c2dbe2b",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "what_happened": "Before a targeted instrumented run, the first protected-hash read (adb shell run-as … sha256sum) timed out. qemu-system-x86_64 (PID 26940) used 0 CPU seconds over 5 s and was reported as not responding; no test had started. Host free memory was 2,158 MB.",
+  "steps": [
+    "Stopped the Gradle daemon and one Kotlin build process that were waiting on the device.",
+    "Stopped the hung emulator and started the same AVD with its original flags: -no-snapshot-load -no-snapshot-save (cold boot from the current disk; no snapshot rollback).",
+    "No app data was cleared, uninstalled, reseeded or migrated; nothing was installed into in.jansetu.app."
+  ],
+  "previewProfileAfterRestart": {
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "5ff177e197384375107f2c7c24bf0cc44d916d3050845fa45cd7a07c1c2dbe2b",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "result": "All four protected preview hashes are identical to the Phase 6C baseline. This is the second emulator hang in two days (see phase6b-emulator-restart.json); the emulator should be checked for host stability before long device runs."
+}

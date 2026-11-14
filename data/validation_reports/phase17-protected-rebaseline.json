@@ -1,0 +1,54 @@
+{
+  "phase": "17",
+  "date": "2026-10-18",
+  "authorisation": "Project owner, Phase 17 instruction (18 October 2026): modification and rebaselining of the specifically identified protected files for (1) evidence-backed RTI guidance corrections and the Before you request card, (2) complete cleanup of the withdrawn NSP Readable text extension pilot. Nothing else.",
+  "mechanism": "Hash values edited in place in data/validation_reports/phase4-source-baseline.json (protectedSha256 only); the readability.css line removed because the file was deleted. sourceSha256 and phase3c sections unchanged; the checkers (run_phase4_quality.py, run_phase5_quality.py, test_phase4_quality.py, test_review_reconciliation.py) are unchanged.",
+  "previousBaselineCopy": "data/validation_reports/phase17-originals/phase4-source-baseline.json",
+  "files": {
+    "app/src/main/assets/catalog.json": {
+      "before": "af25cfc31eed917c3d44dadf3d6c2db781e406bba54fb8aa549bc43bab93cd1a",
+      "after": "af25cfc31eed917c3d44dadf3d6c2db781e406bba54fb8aa549bc43bab93cd1a",
+      "reason": "Unrelated: unchanged"
+    },
+    "data/review_queue.json": {
+      "before": "5f5a69526379ca3d26f077b1c4ffe2d1f64b1bffc1d8668bd57ec5f489972c60",
+      "after": "5f5a69526379ca3d26f077b1c4ffe2d1f64b1bffc1d8668bd57ec5f489972c60",
+      "reason": "Unrelated: unchanged"
+    },
+    "data/services/catalog.json": {
+      "before": "dbbfac97529d43761b34ec542e2fdf98b3aaaf6f87892e3b16731fcc50a6b15a",
+      "after": "312c24ac202da785892cdd6677c8b5d6eff9e67e96cb994b506a9d1d687ab1b6",
+      "reason": "Task A: rti-central-request revised through the official workflow (service_catalog.py import --revision, publish with phase17-rti-approvals.json); service catalogue version 13 to 14; all other services, their order and organisations unchanged."
+    },
+    "data/services/review_queue.json": {
+      "before": "ff5bdfbb87691edc7ea3ae067c25a6641aa7fa9c02254baf26d083110f3eaf1e",
+      "after": "4de483690d4de461a7997dead8fbd5c3b6724600165943aa0574ce0f0889099c",
+      "reason": "Task A: the official workflow appended one entry recording the RTI revision, its digest and its approval; all 86 earlier entries are byte-for-byte unchanged in content."
+    },
+    "app/src/main/assets/catalog-update-public.der": {
+      "before": "08b89c0df4afa20b187d827fa04942afaa9a74d4b5c3fa4bb8cb1157fa1884d7",
+      "after": "08b89c0df4afa20b187d827fa04942afaa9a74d4b5c3fa4bb8cb1157fa1884d7",
+      "reason": "Unrelated: unchanged"
+    },
+    "extension/manifest.json": {
+      "before": "12daac2513e721be5c63645bd77c05e9344d1380445816d3eafdeb90c6cf9b96",
+      "after": "c1cbff7bc289f5564e43d82cc78905d8aa95a9bae99f3649a4fcca039ad77f3f",
+      "reason": "Task B: removed the unused 'scripting' permission; description no longer mentions a readability aid; version 0.2.0 to 0.3.0. Permissions are now sidePanel and activeTab."
+    },
+    "extension/readability.css": {
+      "before": "729be501fff81ffdcafdf54d6ff8424eb78c0347e423c4a37cbc906c3afde4ef",
+      "after": "removed",
+      "reason": "Task B: deleted from the extension (no remaining feature uses it); entry removed from the baseline. An archived copy for the Phase 6A evidence is at data/retired/nsp-readable-text.css, outside the package."
+    },
+    "extension/background.js": {
+      "before": "b7445ecb259caebaa712e49ad7d59ab3ab2d5bd45a7f45f25c5cab1fcd97885a",
+      "after": "324e0677bdf03cf451e66fd05a2d4f3fee1ecc2fb3af3e7af4ff8c8647e286ea",
+      "reason": "Task B: removed the obsolete tab-navigation listener that removed the withdrawn stylesheet; only opens the side panel."
+    }
+  },
+  "unrelatedUnchanged": {
+    "app/src/main/assets/catalog.json": true,
+    "data/review_queue.json": true,
+    "app/src/main/assets/catalog-update-public.der": true
+  }
+}

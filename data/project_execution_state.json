@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "updatedOn": "2026-10-18",
+  "note": "Resume from here, but always re-check the repository and retained test evidence before trusting a status.",
+  "baseline": {
+    "measuredOn": "2026-10-18",
+    "websites": 7347,
+    "catalogVersion": 8,
+    "services": 52,
+    "serviceCatalogVersion": 13,
+    "websiteProfiles": {
+      "published": 25,
+      "proposed": 8,
+      "held": 5
+    },
+    "humanEditorialDecisions": 0,
+    "app": {
+      "applicationId": "in.jansetu.app",
+      "qaApplicationId": "in.jansetu.app.qa",
+      "versionName": "0.4.1",
+      "versionCode": 5,
+      "minSdk": 26,
+      "targetSdk": 36
+    },
+    "lastGate": {
+      "run": "phase6d-final",
+      "python": 135,
+      "extension": 13,
+      "jvm": 54,
+      "android": 50,
+      "lintErrors": 0,
+      "lintWarnings": 14,
+      "passed": true
+    },
+    "previewProfileSha256": {
+      "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+      "shared_prefs/jansetu_preferences.xml": "5ff177e197384375107f2c7c24bf0cc44d916d3050845fa45cd7a07c1c2dbe2b",
+      "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+      "files/catalog-update.jansetu": null
+    },
+    "versionControl": "not a git repository"
+  },
+  "phases": {
+    "7": {
+      "name": "Secure local document vault",
+      "status": "PASSED",
+      "evidence": [
+        "data/validation_reports/phase5/phase7-final/result.json (passed: python 139, extension 13, JVM 76, API 37 68, lint 0 errors / 14 warnings, preview and protected data unchanged)",
+        "docs/PHASE7_DOCUMENT_VAULT.md (design, threat model, failure behaviour)",
+        "app/src/main/assets/privacy.txt and privacy-hi.txt updated 18 October 2026",
+        "SystemPickerIntegrationTest: real DocumentsUI lists, returns and revokes a chosen document"
+      ],
+      "blockers": [],
+      "limitations": [
+        "No in-app lock (Phase 14)",
+        "No recovery or sync (Phase 9 decision)",
+        "Physical devices and live upload fields unverified (RB-10)",
+        "Vault screens English only"
+      ],
+      "next": []
+    },
+    "8": {
+      "name": "Accounts and backend architecture",
+      "status": "NEEDS_REVIEW",
+      "evidence": [
+        "docs/PHASE8_ACCOUNT_ARCHITECTURE_DECISION.md (no current feature needs an account; options, legal prerequisites and threat model)",
+        "tools/test_account_boundary.py (guards: no network client, account SDK, endpoints or secrets)"
+      ],
+      "blockers": [
+        "RB-13"
+      ],
+      "next": [
+        "Owner decides: local-only launch (option A) or accounts for sync (recommended option E) with hosting and legal decisions"
+      ]
+    },
+    "9": {
+      "name": "Optional encrypted sync and recovery",
+      "status": "NEEDS_REVIEW",
+      "evidence": [
+        "docs/PHASE9_SYNC_AND_RECOVERY_DESIGN.md (decision: retain local-only storage; E2EE design and test requirements for any future sync)"
+      ],
+      "blockers": [
+        "RB-13"
+      ],
+      "next": [
+        "Reopen only if the owner approves accounts and hosting"
+      ]
+    },
+    "10": {
+      "name": "Preparation and tracker integration",
+      "status": "PASSED",
+      "evidence": [
+        "data/validation_reports/phase5/phase10-final/result.json (passed: python 143, extension 13, JVM 78, API 37 72, lint 0/14, preview and protected data unchanged)",
+        "docs/PHASE10_PREPARATION_AND_TRACKING.md",
+        "PreparationJourneyTest: service, checklist, own document, Add to My Applications, application page"
+      ],
+      "blockers": [],
+      "limitations": [
+        "Statuses remain user-maintained; no government status API",
+        "Export is JSON only, no import"
+      ],
+      "next": []
+    },
+    "11": {
+      "name": "Catalogue quality and discovery",
+      "status": "NEEDS_REVIEW",
+      "evidence": [
+        "docs/PHASE11_CATALOGUE_QUALITY_STATUS.md (measured coverage and backlog)",
+        "tools/stale_evidence.py with tests"
+      ],
+      "blockers": [
+        "RB-01",
+        "RB-02",
+        "RB-03"
+      ],
+      "next": [
+        "Human review of 25 profiles (RB-03)",
+        "RTI rules capture after RB-15 approval",
+        "Next enrichment batch only once reviewers are available"
+      ]
+    },
+    "12": {
+      "name": "Website readability and JanSetu Assist",
+      "status": "NEEDS_REVIEW",
+      "evidence": [
+        "docs/PHASE12_READABILITY_AND_ASSIST.md",
+        "BrowserTextSizeTest (3), BrowserReadingTest (2)",
+        "NSP pilot withdrawn: core.mjs allowlist empty, registry retired, validator and tests updated"
+      ],
+      "blockers": [
+        "RB-09",
+        "RB-14",
+        "RB-15"
+      ],
+      "next": [
+        "Live-page human check at 1.3x and 2.0x",
+        "Owner approval to remove protected extension files",
+        "RTI card after evidence and reviewer decision"
+      ]
+    },
+    "13": {
+      "name": "Accessibility, usability and beta preparation",
+      "status": "BLOCKED",
+      "evidence": [
+        "docs/PHASE13_BETA_READINESS.md",
+        "Phase13AccessibilityChecksTest (ATF on new screens, light/dark/2x)"
+      ],
+      "blockers": [
+        "RB-09"
+      ],
+      "next": [
+        "Manual TalkBack, Switch Access, keyboard and physical-device checks (RB-09, RB-10)"
+      ]
+    },
+    "14": {
+      "name": "Security, privacy, legal and infrastructure",
+      "status": "BLOCKED",
+      "evidence": [
+        "docs/PHASE14_SECURITY_PRIVACY_REVIEW.md (no critical findings; medium: no in-app lock)"
+      ],
+      "blockers": [
+        "RB-01",
+        "RB-02",
+        "RB-04",
+        "RB-07",
+        "RB-08"
+      ],
+      "next": [
+        "Optional in-app lock",
+        "Dependency vulnerability scan",
+        "Independent security and legal review"
+      ]
+    },
+    "15": {
+      "name": "Release engineering and publishing",
+      "status": "BLOCKED",
+      "evidence": [
+        "docs/PHASE15_RELEASE_BLOCKED_REPORT.md",
+        "tools/inspect_release_artifact.py with tests; unsigned release APK e4daf85c... passed --release inspection"
+      ],
+      "blockers": [
+        "RB-05",
+        "RB-06",
+        "RB-12"
+      ],
+      "next": [
+        "Owner: permissions or reduced scope, signing keys, authorisation"
+      ]
+    },
+    "16": {
+      "name": "Post-launch operations",
+      "status": "NOT_STARTED",
+      "evidence": [
+        "docs/PHASE16_OPERATIONS_RUNBOOK.md (prepared, not in use)"
+      ],
+      "blockers": [
+        "RB-12"
+      ],
+      "next": [
+        "Adopt at an authorised launch"
+      ]
+    }
+  },
+  "openReleaseBlockers": [
+    "RB-01",
+    "RB-02",
+    "RB-03",
+    "RB-04",
+    "RB-05",
+    "RB-06",
+    "RB-07",
+    "RB-08",
+    "RB-09",
+    "RB-10",
+    "RB-11",
+    "RB-12",
+    "RB-13",
+    "RB-14",
+    "RB-15"
+  ],
+  "lastGate": {
+    "run": "phase12-final",
+    "python": 148,
+    "extension": 13,
+    "jvm": 81,
+    "android": 75,
+    "lintErrors": 0,
+    "lintWarnings": 14,
+    "passed": true,
+    "previewUnchanged": true,
+    "protectedUnchanged": true
+  },
+  "overallStatus": "ENGINEERING IN PROGRESS — RELEASE BLOCKED",
+  "ownerDecisionsNeeded": [
+    "RB-13: accounts and sync (local-only launch, or passkey-first accounts with E2EE sync plus hosting and legal decisions)",
+    "RB-15: approval to change hash-protected files (RTI rules in the service catalogue; removing the retired NSP extension files)",
+    "RB-01 / RB-02: NIC/IGOD permission and the official-text reuse decision, or a reduced release scope (Phase 15 options R1 to R3)",
+    "RB-05 / RB-06: production signing and catalogue-update keys",
+    "RB-12: publication authorisation"
+  ]
+}

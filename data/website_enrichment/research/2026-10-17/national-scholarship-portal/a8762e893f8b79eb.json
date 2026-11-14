@@ -1,0 +1,100 @@
+{
+ "websiteId": "national-scholarship-portal",
+ "url": "https://scholarships.gov.in/pfmshelpdesk",
+ "checkedAt": "2026-10-17T10:50:52+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "httpStatus": 200,
+ "finalUrl": "https://scholarships.gov.in/pfmshelpdesk",
+ "title": "NSP : National Scholarship Portal",
+ "lang": "en",
+ "metaDescription": null,
+ "text": "Government of India\nMinistry of Electronics & Information Technology\nAcademic Year 2026-27\nFAQs\nAnnouncements\nHelpdesk\nHelpdesk\n NSP\n PFMS\n\n helpdesk-pfms[at]gov[dot]in\n\n Toll free Number: 1800 118 111\n\nCopyright Policy\nPrivacy Policy\nTerms and Conditions\nDisclaimer\nHyperlink\nSite Map\nLast update on June 2026\nThe original text is in English. Translation into other languages is powered by the Bhashini service.",
+ "textSha256": "e7cc3c9da13b95a93cf99fd5ee06cdb13cb04755da9e5eef5e42a40cbfa3123b",
+ "links": [
+  {
+   "text": "Visit Bhashini website",
+   "href": "https://bhashini.gov.in/"
+  },
+  {
+   "text": "Student",
+   "href": "https://scholarships.gov.in/home"
+  },
+  {
+   "text": "Institute",
+   "href": "https://nsp.gov.in/"
+  },
+  {
+   "text": "Officer",
+   "href": "https://nsp.gov.in/NSPADMIN/loginPage"
+  },
+  {
+   "text": "FAQs",
+   "href": "https://scholarships.gov.in/pfmshelpdesk#"
+  },
+  {
+   "text": "Student",
+   "href": "https://scholarships.gov.in/studentFAQs"
+  },
+  {
+   "text": "Institute",
+   "href": "https://scholarships.gov.in/InstituteFAQs"
+  },
+  {
+   "text": "Officer",
+   "href": "https://scholarships.gov.in/public/FAQ/DNO_SNO_FAQs_21122023_updated.pdf"
+  },
+  {
+   "text": "Announcements",
+   "href": "https://scholarships.gov.in/pfmshelpdesk#"
+  },
+  {
+   "text": "Student",
+   "href": "https://scholarships.gov.in/student-announcements"
+  },
+  {
+   "text": "Institute",
+   "href": "https://scholarships.gov.in/institute-announcements"
+  },
+  {
+   "text": "Officer",
+   "href": "https://scholarships.gov.in/officer-announcements"
+  },
+  {
+   "text": "Helpdesk",
+   "href": "https://scholarships.gov.in/pfmshelpdesk#"
+  },
+  {
+   "text": "NSP Helpdesk.",
+   "href": "https://scholarships.gov.in/nsphelpdesk"
+  },
+  {
+   "text": "PFMS Helpdesk",
+   "href": "https://scholarships.gov.in/pfmshelpdesk"
+  },
+  {
+   "text": "Copyright Policy",
+   "href": "https://scholarships.gov.in/copyright-policy"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://scholarships.gov.in/privacy-policy"
+  },
+  {
+   "text": "Terms and Conditions",
+   "href": "https://scholarships.gov.in/terms-conditions"
+  },
+  {
+   "text": "Disclaimer",
+   "href": "https://scholarships.gov.in/disclaimer_New"
+  },
+  {
+   "text": "Hyperlink",
+   "href": "https://scholarships.gov.in/hyperlinkPolicy_New"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://scholarships.gov.in/siteMap"
+  }
+ ]
+}

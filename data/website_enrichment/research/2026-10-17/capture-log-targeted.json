@@ -1,0 +1,122 @@
+[
+ {
+  "websiteId": "igod-2715637a8f399700",
+  "url": "https://www.tnesevai.tn.gov.in/Pages/AboutUs.aspx",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://www.tnesevai.tn.gov.in/Pages/AboutUs.aspx",
+  "title": "TNeGA",
+  "result": null,
+  "note": "About page; Tamil navigation label is not matched by the English follow rule"
+ },
+ {
+  "websiteId": "igod-2715637a8f399700",
+  "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+  "title": "TNeGA",
+  "result": null,
+  "note": "Service list page; Tamil navigation label"
+ },
+ {
+  "websiteId": "igod-2715637a8f399700",
+  "url": "https://www.tnesevai.tn.gov.in/Pages/ContactUs.aspx",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://www.tnesevai.tn.gov.in/Pages/ContactUs.aspx",
+  "title": "Tamil Nadu eSevai Portal",
+  "result": null,
+  "note": "Contact page; Tamil navigation label"
+ },
+ {
+  "websiteId": "igod-2715637a8f399700",
+  "url": "https://www.tnesevai.tn.gov.in/Pages/FAQ.aspx",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://www.tnesevai.tn.gov.in/Pages/FAQ.aspx",
+  "title": "TNeGA",
+  "result": null,
+  "note": "FAQ page; Tamil navigation label"
+ },
+ {
+  "websiteId": "igod-50b73c3937b8d29b",
+  "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+  "title": "e D i s t r i c t Kerala",
+  "result": null,
+  "note": "The home-page FAQ link carries a session token; checking whether the address without the token serves the FAQ"
+ },
+ {
+  "websiteId": "igod-7c7865e8e6982bc1",
+  "url": "https://revenue.py.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://revenue.py.gov.in/",
+  "title": "Government of Puducherry, Department of Revenue and Disaster Management",
+  "result": null,
+  "note": "Single retry after ERR_NAME_NOT_RESOLVED in the first capture"
+ },
+ {
+  "websiteId": "income-tax-efiling",
+  "url": "https://www.incometax.gov.in/iec/foportal/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://www.incometax.gov.in/iec/foportal/",
+  "title": "Home | Income Tax Department",
+  "result": null,
+  "note": "Single retry after ERR_NAME_NOT_RESOLVED in the first capture"
+ },
+ {
+  "websiteId": "income-tax-efiling",
+  "url": "https://www.incometax.gov.in/iec/foportal/help",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://www.incometax.gov.in/iec/foportal/help",
+  "title": "Help | Income Tax Department",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "income-tax-efiling",
+  "url": "https://www.incometax.gov.in/iec/foportal/about-portal",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://www.incometax.gov.in/iec/foportal/about-portal",
+  "title": "About the Portal | Income Tax Department",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "income-tax-efiling",
+  "url": "https://www.incometax.gov.in/iec/foportal/contact-us",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://www.incometax.gov.in/iec/foportal/contact-us",
+  "title": "Contact Us | Income Tax Department",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-85affa23dc47255b",
+  "url": "https://electoralsearch.eci.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://electoralsearch.eci.gov.in/",
+  "title": "VOTERS' SERVICES PORTAL",
+  "result": null,
+  "note": "Single retry after ERR_NAME_NOT_RESOLVED in the first capture"
+ },
+ {
+  "websiteId": "uidai",
+  "url": "https://uidai.gov.in/en/my-aadhaar",
+  "attempt": 2,
+  "httpStatus": 500,
+  "finalUrl": "https://uidai.gov.in/en/my-aadhaar",
+  "title": null,
+  "result": "access_or_server_response; not a content observation",
+  "note": "Single retry after HTTP 500 (server error) in the first capture; HTTP 403 responses are access decisions and are not retried"
+ }
+]

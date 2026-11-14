@@ -1,0 +1,10 @@
+{
+ "websiteId": "uidai",
+ "url": "https://uidai.gov.in/en/my-aadhaar",
+ "checkedAt": "2026-10-17T10:50:29+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "httpStatus": 500,
+ "finalUrl": "https://uidai.gov.in/en/my-aadhaar",
+ "result": "access_or_server_response; not a content observation"
+}

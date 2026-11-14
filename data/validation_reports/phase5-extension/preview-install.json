@@ -1,0 +1,55 @@
+{
+  "startedAt": "2026-10-16T23:36:08.616500+00:00",
+  "apk": {
+    "bytes": 21217487,
+    "sha256": "a27ef5be61b6453a337eb0c45d01ed713d7f6214ee62b61f3ab9d2ac2d495e10"
+  },
+  "aapt": {
+    "package": [
+      "in.jansetu.app",
+      "5",
+      "0.4.1"
+    ],
+    "label": "JanSetu",
+    "minSdk": "26",
+    "targetSdk": "36",
+    "icon": [
+      "res/mipmap-anydpi-v26/ic_launcher.xml"
+    ]
+  },
+  "apksigner": [
+    "Verifies",
+    "Verified using v1 scheme (JAR signing): false",
+    "Verified using v2 scheme (APK Signature Scheme v2): true",
+    "Verified using v3 scheme (APK Signature Scheme v3): false",
+    "Verified using v3.1 scheme (APK Signature Scheme v3.1): false",
+    "Verified using v4 scheme (APK Signature Scheme v4): false"
+  ],
+  "previewBefore": {
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "91c4897bb27a6f960465e3a186d3bcd23129f1b44a0c9f1815b4909490dc7bde",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "install": "Success",
+  "installed": {
+    "versionName": "0.4.1",
+    "versionCode": "5",
+    "lastUpdateTime": "2026-10-17 05:06:09",
+    "firstInstallTime": "2026-10-16 22:34:07"
+  },
+  "installedApkSha256": "a27ef5be61b6453a337eb0c45d01ed713d7f6214ee62b61f3ab9d2ac2d495e10",
+  "coldLaunch": [
+    "Status: ok",
+    "LaunchState: WARM",
+    "TotalTime: 5888"
+  ],
+  "previewAfter": {
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "91c4897bb27a6f960465e3a186d3bcd23129f1b44a0c9f1815b4909490dc7bde",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "previewUnchanged": true,
+  "finishedAt": "2026-10-16T23:36:39.266441+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "phase": "17",
+  "capturedAt": "2026-10-18",
+  "purpose": "Protected-file hashes captured before any Phase 17 edit.",
+  "baselineFile": "data/validation_reports/phase4-source-baseline.json",
+  "allMatchBaseline": true,
+  "before": {
+    "app/src/main/assets/catalog.json": "af25cfc31eed917c3d44dadf3d6c2db781e406bba54fb8aa549bc43bab93cd1a",
+    "data/review_queue.json": "5f5a69526379ca3d26f077b1c4ffe2d1f64b1bffc1d8668bd57ec5f489972c60",
+    "data/services/catalog.json": "dbbfac97529d43761b34ec542e2fdf98b3aaaf6f87892e3b16731fcc50a6b15a",
+    "data/services/review_queue.json": "ff5bdfbb87691edc7ea3ae067c25a6641aa7fa9c02254baf26d083110f3eaf1e",
+    "app/src/main/assets/catalog-update-public.der": "08b89c0df4afa20b187d827fa04942afaa9a74d4b5c3fa4bb8cb1157fa1884d7",
+    "extension/manifest.json": "12daac2513e721be5c63645bd77c05e9344d1380445816d3eafdeb90c6cf9b96",
+    "extension/readability.css": "729be501fff81ffdcafdf54d6ff8424eb78c0347e423c4a37cbc906c3afde4ef",
+    "extension/background.js": "b7445ecb259caebaa712e49ad7d59ab3ab2d5bd45a7f45f25c5cab1fcd97885a"
+  },
+  "authorisedScope": {
+    "taskA_rtiGuidance": [
+      "data/services/catalog.json",
+      "data/services/review_queue.json"
+    ],
+    "taskB_nspExtensionCleanup": [
+      "extension/manifest.json",
+      "extension/background.js",
+      "extension/readability.css"
+    ]
+  },
+  "mustRemainIdentical": [
+    "app/src/main/assets/catalog.json",
+    "data/review_queue.json",
+    "app/src/main/assets/catalog-update-public.der"
+  ],
+  "authorisation": "Project owner, Phase 17 instruction (18 October 2026): modification and rebaselining of the specifically identified protected files for (1) evidence-backed RTI guidance corrections and the Before you request card, (2) complete cleanup of the withdrawn NSP Readable text extension pilot. Nothing else.",
+  "notes": "data/services/review_queue.json is written by the project's official service revision workflow (tools/service_catalog.py import --revision / publish), which records the revision and its approval; it is therefore directly required by Task A."
+}

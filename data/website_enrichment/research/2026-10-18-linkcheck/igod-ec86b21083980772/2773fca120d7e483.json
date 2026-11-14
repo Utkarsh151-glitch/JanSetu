@@ -1,0 +1,290 @@
+{
+ "websiteId": "igod-ec86b21083980772",
+ "url": "https://www.tn.gov.in/grievances.php",
+ "checkedAt": "2026-10-17T20:29:18+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Link check (read-only): target was only seen as a link",
+ "httpStatus": 200,
+ "finalUrl": "https://www.tn.gov.in/grievances.php",
+ "title": "Government of Tamil Nadu",
+ "lang": "en",
+ "metaDescription": null,
+ "text": "Screen Reader Access W3C\nAccessibility Menu\nTEXT TO SPEECH\nBIGGER TEXT\nSMALL TEXT\nLINE HEIGHT\nHIGHLIGHT LINKS\nTEXT SPACING\nCURSOR\nLIGHT-DARK\nINVERT COLORS\nRESET ALL SETTINGS\nACCESSIBILITY OPTIONS\nதமிழ்த்தாய் வாழ்த்து 0:00\nSkip To Main Content\n\nதமிழ்நாடு அரசு\n\nGovernment Of Tamil Nadu\n\nஇன்னாசெய் தாரை ஒறுத்தல் அவர்நாண\nநன்னயஞ் செய்து விடல்\n\nHome\nGovernment \nDepartments\nDistricts \nDocuments \nServices \nSchemes \nNews & Events \nInteract with Govt \nOthers \nCSC Login\nWhat's New\nGrievances\nDocuments  Grievances\nTitle\n\nChennai Metropolitan Water Supply and Sewage Board\n\n\nTANGEDCO ( Electricity Board)\n\n\nChief Minister in your Constituency\n\n\nChief Minister Special Cell - Online Petition filing\n\n\nPetition Processing Portal(PPP)\n\n\nCorporation of Chennai\n\n\nCivil Supplies\n\n\nState Human Rights Commission\n\n\nMinistry of Personnel, Public Grievances and Pensions\n\n\nDistrict Administration\n\n\nDepartment of Administrative Reforms and Public Grievances\n\n\nChennai Metropolitan Development Authority\n\n\nCPGRAMS - For grievances related to Other States/Government of India Organizations\n\n\nTamil Nadu Generation and Distribution Corporation Limited (TANGEDCO - Formerly TNEB)\n\n\nRTO offices\n\nContent owned and Maintained by: Government of Tamil Nadu.\n\nSite Designed and Developed by: National Informatics Centre.\n\nQueries/Comments regarding the content on this site may be sent to webadmin[at]tn[dot]gov[dot]in\n\nDisclaimer | Privacy and Copyright policy | Terms of Use | FAQ | copyright@2024",
+ "textSha256": "fe4873b397cd4bd27a1dc987c4daa48ca7fd44905697ac6f949c14b89da6d9ac",
+ "links": [
+  {
+   "text": "Screen Reader Access",
+   "href": "https://www.tn.gov.in/screenreader.php"
+  },
+  {
+   "text": "W3C",
+   "href": "https://www.w3.org/"
+  },
+  {
+   "text": "தமிழ்த்தாய் வாழ்த்து",
+   "href": "https://www.tn.gov.in/sites/default/new_images/tamilthaivazhthusong.pdf"
+  },
+  {
+   "text": "Skip To Main Content",
+   "href": "https://www.tn.gov.in/grievances.php#main"
+  },
+  {
+   "text": "தமிழ்நாடு அரசு Government Of Tamil Nadu",
+   "href": "https://www.tn.gov.in/index.php"
+  },
+  {
+   "text": "Home",
+   "href": "https://www.tn.gov.in/index.php"
+  },
+  {
+   "text": "Government",
+   "href": "https://www.tn.gov.in/grievances.php#"
+  },
+  {
+   "text": "Governor / Chief Minister / Chief Justice",
+   "href": "https://www.tn.gov.in/governor.php"
+  },
+  {
+   "text": "Council of Ministers",
+   "href": "https://www.tn.gov.in/minister_list.php"
+  },
+  {
+   "text": "MLA profile",
+   "href": "https://assembly.tn.gov.in/17thassembly_members.php"
+  },
+  {
+   "text": "State Profile",
+   "href": "https://www.tn.gov.in/about_tn.php"
+  },
+  {
+   "text": "Departments",
+   "href": "https://www.tn.gov.in/department_list.php"
+  },
+  {
+   "text": "Districts",
+   "href": "https://www.tn.gov.in/grievances.php#"
+  },
+  {
+   "text": "Districts",
+   "href": "https://www.tn.gov.in/district_list.php"
+  },
+  {
+   "text": "Documents",
+   "href": "https://www.tn.gov.in/grievances.php#"
+  },
+  {
+   "text": "G.Os",
+   "href": "https://www.tn.gov.in/godept_list.php"
+  },
+  {
+   "text": "Policy notes / Performance Budget / Citizen Charter",
+   "href": "https://www.tn.gov.in/document_dept_list.php?cate_name=YWxs"
+  },
+  {
+   "text": "Rules & Regulations",
+   "href": "https://www.tn.gov.in/rules.php"
+  },
+  {
+   "text": "Circulars & notifications",
+   "href": "https://www.tn.gov.in/circular_notifications_dept_list.php"
+  },
+  {
+   "text": "Announcements",
+   "href": "https://www.tn.gov.in/anndept_list.php"
+  },
+  {
+   "text": "Acts",
+   "href": "https://www.tn.gov.in/act_ordinances.php"
+  },
+  {
+   "text": "Services",
+   "href": "https://www.tn.gov.in/grievances.php#"
+  },
+  {
+   "text": "Online Services",
+   "href": "https://www.tn.gov.in/services.php"
+  },
+  {
+   "text": "Contact Directory",
+   "href": "https://www.tn.gov.in/contact_directory.php"
+  },
+  {
+   "text": "Job Opportunity",
+   "href": "https://www.tn.gov.in/job_opportunity.php"
+  },
+  {
+   "text": "Important Websites",
+   "href": "https://www.tn.gov.in/impweb_view.php?dep_id=QWxs"
+  },
+  {
+   "text": "Census",
+   "href": "https://tn.census.gov.in/"
+  },
+  {
+   "text": "Statistics",
+   "href": "https://www.tn.gov.in/deptst/"
+  },
+  {
+   "text": "Employment Details",
+   "href": "https://www.tn.gov.in/employment.php"
+  },
+  {
+   "text": "Grievances",
+   "href": "https://www.tn.gov.in/grievances.php"
+  },
+  {
+   "text": "Forms",
+   "href": "https://www.tn.gov.in/formdept_list.php"
+  },
+  {
+   "text": "RTI Contacts",
+   "href": "https://www.tn.gov.in/rti/"
+  },
+  {
+   "text": "Mobile App Directory",
+   "href": "https://www.tn.gov.in/mobileappform.php"
+  },
+  {
+   "text": "Schemes",
+   "href": "https://www.tn.gov.in/grievances.php#"
+  },
+  {
+   "text": "Schemes",
+   "href": "https://www.tn.gov.in/schemes.php"
+  },
+  {
+   "text": "News & Events",
+   "href": "https://www.tn.gov.in/grievances.php#"
+  },
+  {
+   "text": "Press Releases",
+   "href": "https://www.tn.gov.in/press_release.php"
+  },
+  {
+   "text": "Publications",
+   "href": "https://www.tamildigitallibrary.in/"
+  },
+  {
+   "text": "Photo Gallery",
+   "href": "https://dipr.tn.gov.in/photo-gallery.html"
+  },
+  {
+   "text": "Video Gallery",
+   "href": "https://dipr.tn.gov.in/video-gallery.html"
+  },
+  {
+   "text": "Interact with Govt",
+   "href": "https://www.tn.gov.in/grievances.php#"
+  },
+  {
+   "text": "Polls",
+   "href": "https://www.tn.gov.in/poll.php"
+  },
+  {
+   "text": "Discussion Forum",
+   "href": "https://www.tn.gov.in/discuss.php"
+  },
+  {
+   "text": "Others",
+   "href": "https://www.tn.gov.in/grievances.php#"
+  },
+  {
+   "text": "What's New",
+   "href": "https://www.tn.gov.in/whatsnew.php?year=MjAyNg=="
+  },
+  {
+   "text": "Help line Numbers",
+   "href": "https://www.tn.gov.in/help_desk.php"
+  },
+  {
+   "text": "Holidays",
+   "href": "https://www.tn.gov.in/holiday.php"
+  },
+  {
+   "text": "Sitemap",
+   "href": "https://www.tn.gov.in/sitemap.php"
+  },
+  {
+   "text": "Feedback",
+   "href": "https://www.tn.gov.in/feedback.php"
+  },
+  {
+   "text": "CSC Login",
+   "href": "https://edistricts.tn.gov.in:8443/certificates_csc/"
+  },
+  {
+   "text": "What's New",
+   "href": "https://www.tn.gov.in/whatsnew.php?year=MjAyNg=="
+  },
+  {
+   "text": "Chennai Metropolitan Water Supply and Sewage Board",
+   "href": "https://chennaimetrowater.in/login.html"
+  },
+  {
+   "text": "TANGEDCO ( Electricity Board)",
+   "href": "https://www.tnebltd.gov.in/cgrfonline/"
+  },
+  {
+   "text": "Chief Minister in your Constituency",
+   "href": "https://cmhelpline.tnega.org/portal/ta/home"
+  },
+  {
+   "text": "Petition Processing Portal(PPP)",
+   "href": "https://gdp.tn.gov.in/"
+  },
+  {
+   "text": "Corporation of Chennai",
+   "href": "https://chennaicorporation.gov.in/gcc/"
+  },
+  {
+   "text": "Civil Supplies",
+   "href": "https://consumer.tn.gov.in/"
+  },
+  {
+   "text": "State Human Rights Commission",
+   "href": "https://shrc.tn.gov.in/"
+  },
+  {
+   "text": "Ministry of Personnel, Public Grievances and Pensions",
+   "href": "https://persmin.gov.in/"
+  },
+  {
+   "text": "District Administration",
+   "href": "https://www.tn.gov.in/website_directory/2"
+  },
+  {
+   "text": "Department of Administrative Reforms and Public Grievances",
+   "href": "https://www.darpg.gov.in/"
+  },
+  {
+   "text": "CPGRAMS - For grievances related to Other States/Government of India Organizations",
+   "href": "https://pgportal.gov.in/"
+  },
+  {
+   "text": "Tamil Nadu Generation and Distribution Corporation Limited (TANGEDCO - Formerly TNEB)",
+   "href": "https://www.tangedco.gov.in/"
+  },
+  {
+   "text": "RTO offices",
+   "href": "https://tnsta.gov.in/transport/contacts.do"
+  },
+  {
+   "text": "Disclaimer",
+   "href": "https://www.tn.gov.in/disclaimer.php"
+  },
+  {
+   "text": "Privacy and Copyright policy",
+   "href": "https://www.tn.gov.in/privacy.php"
+  },
+  {
+   "text": "Terms of Use",
+   "href": "https://www.tn.gov.in/termsofuse.php"
+  },
+  {
+   "text": "FAQ",
+   "href": "https://www.tn.gov.in/faq.php"
+  }
+ ],
+ "attempt": 1
+}

@@ -1,0 +1,17 @@
+{
+ "websiteId": "igod-85affa23dc47255b",
+ "url": "https://electoralsearch.eci.gov.in/",
+ "checkedAt": "2026-10-17T11:02:00+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Single retry after ERR_NAME_NOT_RESOLVED in the first capture",
+ "httpStatus": 200,
+ "finalUrl": "https://electoralsearch.eci.gov.in/",
+ "title": "VOTERS' SERVICES PORTAL",
+ "lang": "en",
+ "metaDescription": "Web site created using create-react-app",
+ "text": "|\nAB\nA_B\nA__B\n|\nA-\nA\nA+\nभारत निर्वाचन आयोग\nElection Commission of India\n    \nमतदाता सेवा पोर्टल\nVOTERS' SERVICE PORTAL\n\nSearch in Electoral Roll\n\n  ईपीआईसी द्वारा खोजें / Search by EPIC\n\n  विवरण द्वारा खोजें/ Search by Details\n\n  मोबाइल द्वारा खोजें / Search by Mobile\n\nभाषा का चयन करे/Select Language\nSelect Language\nHindi/हिंदी\nAssamese/অসমীয়া\nBengali/বাংলা\nKonkani/कोंकणी\nGujarati/ગુજરાતી\nMalayalam/മലയാളം\nOdia/ଓଡିଆ\nPunjabi/ਪੰਜਾਬੀ\nTamil/தமிழ்\nTelugu/తెలుగు\nMarathi/मराठी\nKannada/ಕನ್ನಡ\nUrdu/اردو\n\nEPIC DETAIL\n\nईपीआईसी संख्या/\nEPIC Number *\nराज्य/\nState\nSelect Your State\nAndaman & Nicobar Islands\nAndhra Pradesh\nArunachal Pradesh\nAssam\nBihar\nChandigarh\nChhattisgarh\nDadra & Nagar Haveli and Daman & Diu\nGoa\nGujarat\nHaryana\nHimachal Pradesh\nJammu and Kashmir\nJharkhand\nKarnataka\nKerala\nLadakh\nLakshadweep\nMadhya Pradesh\nMaharashtra\nManipur\nMeghalaya\nMizoram\nNagaland\nNCT OF Delhi\nOdisha\nPuducherry\nPunjab\nRajasthan\nSikkim\nTamil Nadu\nTelangana\nTripura\nUttar Pradesh\nUttarakhand\nWest Bengal\n\nCaptcha Code *\n\nEnter Captcha *\n\nSEARCH\nCLEAR",
+ "textSha256": "abce2652597c4c2ec2398964db91b8f663745f5ad14f39b46c52a9ef3c018672",
+ "links": [],
+ "attempt": 2
+}

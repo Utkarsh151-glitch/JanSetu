@@ -1,0 +1,86 @@
+[
+  {
+    "id": "digilocker-fetch-issued",
+    "previousSha256": "2aebfd0c5a990733c4b10cbc44be9cb391785efbe15fdd934297d1550bc75f9c",
+    "reviewedBy": "Codex",
+    "checkedOn": "2026-10-16",
+    "reason": "DigiLocker homepage confirms fetching as a feature, but current FAQ retrieval is a JavaScript shell; issued-document workflow and conditional prerequisites still need readable operation-specific review.",
+    "reviewEvidence": [
+      {
+        "researchFile": "data/services/research/phase3c/digilocker-home.json",
+        "url": "https://www.digilocker.gov.in/"
+      },
+      {
+        "researchFile": "data/services/research/phase3c/digilocker-faq.json",
+        "url": "https://www.digilocker.gov.in/web/about/faq"
+      },
+      {
+        "researchFile": "data/services/research/phase3c/digilocker-readable-faq.json",
+        "url": "https://wb.digilocker.gov.in/web/about/faq"
+      }
+    ]
+  },
+  {
+    "id": "digilocker-share-issued",
+    "previousSha256": "e9ea960c5ce60a133faae5a8e62f66d1cb92d5e05fe69d82f31ee5eb67014228",
+    "reviewedBy": "Codex",
+    "checkedOn": "2026-10-16",
+    "reason": "Homepage describes sharing but current FAQ body is a JavaScript shell; operation-specific consent and issued-versus-uploaded distinctions remain unreviewed.",
+    "reviewEvidence": [
+      {
+        "researchFile": "data/services/research/phase3c/digilocker-home.json",
+        "url": "https://www.digilocker.gov.in/"
+      },
+      {
+        "researchFile": "data/services/research/phase3c/digilocker-faq.json",
+        "url": "https://www.digilocker.gov.in/web/about/faq"
+      }
+    ]
+  },
+  {
+    "id": "driving-licence-application",
+    "previousSha256": "e04e2ffa4444066b6b071e8a99892049593e393789ec78167f4a2a35dbd38e83",
+    "reviewedBy": "Codex",
+    "checkedOn": "2026-10-16",
+    "reason": "Delhi-specific permanent/learner pages were retrieved but contain mixed/possibly old requirements. Sarathi and central FAQ retrieval failed (curl 56); no current state transaction entry/checklist confirmed.",
+    "reviewEvidence": [
+      {
+        "researchFile": "data/services/research/phase3c/delhi-driving.json",
+        "url": "https://transport.delhi.gov.in/transport/driving-license"
+      },
+      {
+        "researchFile": "data/services/research/phase3c/delhi-learner.json",
+        "url": "https://transport.delhi.gov.in/transport/learner-licence"
+      },
+      {
+        "researchFile": "data/services/research/phase3c/sarathi-route.json",
+        "url": "https://sarathi.parivahan.gov.in/"
+      },
+      {
+        "researchFile": "data/services/research/phase3c/driving-faq.json",
+        "url": "https://parivahan.gov.in/parivahan/en/content/how-apply-driving-license"
+      }
+    ]
+  },
+  {
+    "id": "pmegp-direct-application",
+    "previousSha256": "344c40ec1bd2f5296be6669bda791236de32dea2e0e42a1258bb9323d39397e8",
+    "reviewedBy": "Codex",
+    "checkedOn": "2026-10-16",
+    "reason": "Canonical non-www host now passes normal TLS, while www fails curl 60. Public homepage notice says fresh intake is unavailable pending scheme-continuation approval. Retain pending; do not infer an active Apply route.",
+    "reviewEvidence": [
+      {
+        "researchFile": "data/services/research/phase3c/pmegp-route.json",
+        "url": "https://common-pmegp.msme.gov.in/"
+      },
+      {
+        "researchFile": "data/services/research/phase3c/pmegp-route-www.json",
+        "url": "https://www.common-pmegp.msme.gov.in/Home/HomePage/"
+      },
+      {
+        "researchFile": "data/services/research/phase3c/pmegp-intake-review.json",
+        "url": "https://common-pmegp.msme.gov.in/"
+      }
+    ]
+  }
+]

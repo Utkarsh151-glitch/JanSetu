@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-c33cb8549415ad34",
+ "url": "https://ekalyan.cgg.gov.in/",
+ "checkedAt": "2026-10-17T19:18:15+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://ekalyan.cgg.gov.in/\nCall log:\n  - navigating to \"https://ekalyan.cgg.gov.in/\", waiting ",
+ "attempt": 1
+}

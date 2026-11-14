@@ -1,0 +1,96 @@
+{
+  "services": [
+    {
+      "id": "rti-central-request",
+      "websiteId": "rti-online",
+      "organizationId": "org-7f72318d5949adac",
+      "title": "Submit an RTI Request to a Central Public Authority",
+      "description": "Request government information.",
+      "categories": [
+        "transparency"
+      ],
+      "department": "Department of Personnel and Training",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "right to information",
+        "rti request"
+      ],
+      "synonyms": [
+        "right to information",
+        "rti request"
+      ],
+      "informationUrl": "https://rtionline.gov.in/guidelines.php?request",
+      "sourceUrl": "https://rtionline.gov.in/guidelines.php?request",
+      "applicationUrl": "https://rtionline.gov.in/",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "rti",
+          "url": "https://rtionline.gov.in/guidelines.php?request",
+          "publisher": "Department of Personnel and Training",
+          "checkedOn": "2026-10-18",
+          "summary": "RTI Online guidelines for requests to central public authorities: attachments, payment modes, payment reconciliation, the BPL fee exemption and the first appeal.",
+          "locator": "Guidelines page: \"Do not upload Aadhar Card or PAN Card…\"; payment modes (a)–(d); \"After making payment… 24-48 working hours\"; \"No RTI fee… below poverty line\"; \"Submit First Appeal\"",
+          "contentSha256": "f0ede7ab2e561ca32567c638a087a2ba4d6255955ca00acd42efa726bc1086ca"
+        },
+        {
+          "id": "rti-rules-2012",
+          "url": "https://cic.gov.in/sites/default/files/RTI/RTIRules2012.pdf",
+          "publisher": "Central Information Commission (published copy of the Right to Information Rules, 2012, G.S.R. 603(E))",
+          "checkedOn": "2026-10-18",
+          "summary": "Rule 3: a request is accompanied by a fee of rupees ten. Rule 5: no fee under rules 3 and 4 for a person below the poverty line who submits a copy of the appropriate Government's certificate with the application.",
+          "locator": "Rules 3 and 5",
+          "contentSha256": "8d73989088febe131299d4b9a2f17b83002a576fab15084882c8f30d3424bc20"
+        }
+      ],
+      "linkEvidenceIds": [
+        "rti"
+      ],
+      "verifiedOn": "2026-10-18",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official guidance re-checked on 2026-10-18 by Claude Code (automated agent) under the project owner's Phase 17 authorisation, against the RTI Online guidelines and the Right to Information Rules, 2012 (earlier check by Codex on 2026-10-16). Not a human editorial review and not a completed transaction. Applies to requests to central public authorities through RTI Online; state public authorities follow their own RTI rules. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "eligibility": {
+        "text": "Indian citizens requesting information from covered Government of India ministries/departments.",
+        "evidenceIds": [
+          "rti"
+        ]
+      },
+      "documents": null,
+      "conditionalDocuments": [
+        {
+          "text": "If you are below the poverty line: a copy of the BPL certificate issued by the appropriate government, attached with the application, to be exempt from the fee.",
+          "evidenceIds": [
+            "rti",
+            "rti-rules-2012"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Do not upload an Aadhaar card, PAN card or any other personal identification. The only exception is a BPL card when you claim the fee exemption.",
+          "evidenceIds": [
+            "rti"
+          ]
+        },
+        {
+          "text": "If you have paid but no registration number appears, wait 24–48 working hours while the payment is reconciled, and do not pay again. If it has still not appeared, email the RTI Online helpdesk (helprtionline-dopt[at]nic[dot]in) with the transaction details.",
+          "evidenceIds": [
+            "rti"
+          ]
+        }
+      ],
+      "fees": {
+        "text": "₹10 per request (Right to Information Rules, 2012, rule 3). RTI Online accepts internet banking, Mastercard or Visa credit and debit cards, UPI and RuPay cards. Applicants below the poverty line pay no fee if they attach a copy of their BPL certificate (rule 5).",
+        "evidenceIds": [
+          "rti",
+          "rti-rules-2012"
+        ]
+      },
+      "deadline": null,
+      "processing": null
+    }
+  ]
+}

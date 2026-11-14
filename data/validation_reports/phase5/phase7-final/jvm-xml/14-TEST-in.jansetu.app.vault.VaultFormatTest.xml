@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.vault.VaultFormatTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-18T05:45:31.998Z" hostname="LAPTOP-FAIP099K" time="0.02">
+  <properties/>
+  <testcase name="capacityIsCheckedBeforeReading" classname="in.jansetu.app.vault.VaultFormatTest" time="0.001"/>
+  <testcase name="storedMetadataIsValidated" classname="in.jansetu.app.vault.VaultFormatTest" time="0.002"/>
+  <testcase name="truncatedOrHeaderOnlyFilesAreMalformed" classname="in.jansetu.app.vault.VaultFormatTest" time="0.001"/>
+  <testcase name="namesNeverKeepPathsExtensionsOrControlCharacters" classname="in.jansetu.app.vault.VaultFormatTest" time="0.006"/>
+  <testcase name="signaturesComeFromContentNotNames" classname="in.jansetu.app.vault.VaultFormatTest" time="0.001"/>
+  <testcase name="everyImportProblemTellsThePersonWhatToDo" classname="in.jansetu.app.vault.VaultFormatTest" time="0.0"/>
+  <testcase name="declaredTypeMustAgreeWithContent" classname="in.jansetu.app.vault.VaultFormatTest" time="0.0"/>
+  <testcase name="searchFiltersAndSortsWithoutChangingDocuments" classname="in.jansetu.app.vault.VaultFormatTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

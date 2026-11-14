@@ -1,0 +1,335 @@
+{
+  "records": [
+    {
+      "sourceFile": "central_portals_2026-10-13.json",
+      "sourceRow": 6,
+      "importedAt": "2026-10-13T18:25:50+00:00",
+      "status": "TEMPORARILY_UNREACHABLE",
+      "reason": "Portal ownership appears in an official search result, but the live destination returned 502 during this review. Retry the live URL and confirm its final destination before publication.",
+      "record": {
+        "id": "pm-kisan",
+        "title": "PM-KISAN",
+        "description": "Find official PM-KISAN scheme information and farmer status tools.",
+        "url": "https://pmkisan.gov.in/",
+        "organization": "Department of Agriculture and Farmers Welfare",
+        "level": "Central",
+        "categories": [
+          "agriculture"
+        ],
+        "keywords": [
+          "PM Kisan",
+          "farmer",
+          "agriculture",
+          "scheme status"
+        ],
+        "sourceUrl": "https://pmkisan.gov.in/",
+        "sourceType": "Official ministry portal ownership statement"
+      },
+      "reviewHistory": [
+        {
+          "at": "2026-10-13T18:25:50+00:00",
+          "status": "TEMPORARILY_UNREACHABLE",
+          "reason": "Portal ownership appears in an official search result, but the live destination returned 502 during this review. Retry the live URL and confirm its final destination before publication."
+        }
+      ]
+    },
+    {
+      "sourceFile": "central_portals_2026-10-13.json",
+      "sourceRow": 7,
+      "importedAt": "2026-10-13T18:25:50+00:00",
+      "status": "TEMPORARILY_UNREACHABLE",
+      "reason": "The Parivahan home page timed out during live review. Confirm the current canonical portal URL and final destination before publication.",
+      "record": {
+        "id": "parivahan-sewa",
+        "title": "Parivahan Sewa",
+        "description": "Find official driving licence and vehicle service routes.",
+        "url": "https://parivahan.gov.in/",
+        "organization": "Ministry of Road Transport and Highways",
+        "level": "Central",
+        "categories": [
+          "transport"
+        ],
+        "keywords": [
+          "driving licence",
+          "driving license",
+          "vehicle registration",
+          "transport"
+        ],
+        "sourceUrl": "https://parivahan.gov.in/parivahan/en/content/download-forms",
+        "sourceType": "Official ministry portal service page"
+      },
+      "reviewHistory": [
+        {
+          "at": "2026-10-13T18:25:50+00:00",
+          "status": "TEMPORARILY_UNREACHABLE",
+          "reason": "The Parivahan home page timed out during live review. Confirm the current canonical portal URL and final destination before publication."
+        }
+      ]
+    },
+    {
+      "sourceFile": "central_portals_2026-10-13.json",
+      "sourceRow": 8,
+      "importedAt": "2026-10-13T18:25:50+00:00",
+      "status": "TEMPORARILY_UNREACHABLE",
+      "reason": "The eCourts home and about pages timed out during live review. Confirm the current portal URL and ownership page before publication.",
+      "record": {
+        "id": "ecourts",
+        "title": "eCourts",
+        "description": "Find court information and links to case status and orders.",
+        "url": "https://ecourts.gov.in/",
+        "organization": "eCommittee, Supreme Court of India",
+        "level": "Central",
+        "categories": [
+          "courts"
+        ],
+        "keywords": [
+          "court",
+          "case status",
+          "orders",
+          "judgments"
+        ],
+        "sourceUrl": "https://ecourts.gov.in/ecourts_home/static/about-us.php",
+        "sourceType": "Official portal about page"
+      },
+      "reviewHistory": [
+        {
+          "at": "2026-10-13T18:25:50+00:00",
+          "status": "TEMPORARILY_UNREACHABLE",
+          "reason": "The eCourts home and about pages timed out during live review. Confirm the current portal URL and ownership page before publication."
+        }
+      ]
+    },
+    {
+      "sourceFile": "discovery_batch_2026-10-14.json",
+      "sourceRow": 1,
+      "importedAt": "2026-10-13T21:21:10+00:00",
+      "status": "TEMPORARILY_UNREACHABLE",
+      "reason": "IGOD lists the portal, but the destination timed out from the research browser; no current page assessment.",
+      "record": {
+        "id": "mp-government",
+        "title": "Government of Madhya Pradesh portal",
+        "description": "State information portal listed by IGOD; live destination and current landing page need review.",
+        "url": "https://mp.gov.in/",
+        "organization": "Government of Madhya Pradesh",
+        "level": "State",
+        "state": "Madhya Pradesh",
+        "primarySector": "government_information",
+        "purposes": [
+          "information",
+          "service_directory"
+        ],
+        "keywords": [
+          "Madhya Pradesh",
+          "state services"
+        ],
+        "sourceId": "igod",
+        "sourceUrl": "https://igod.gov.in/index.php/sg/MP/categories",
+        "sourceType": "Official government directory listing",
+        "reviewStatus": "TEMPORARILY_UNREACHABLE",
+        "reviewReason": "IGOD lists the portal, but the destination timed out from the research browser; no current page assessment."
+      },
+      "reviewHistory": [
+        {
+          "at": "2026-10-13T21:21:10+00:00",
+          "status": "TEMPORARILY_UNREACHABLE",
+          "reason": "IGOD lists the portal, but the destination timed out from the research browser; no current page assessment."
+        }
+      ]
+    },
+    {
+      "sourceFile": "discovery_batch_2026-10-14.json",
+      "sourceRow": 2,
+      "importedAt": "2026-10-13T21:21:10+00:00",
+      "status": "TEMPORARILY_UNREACHABLE",
+      "reason": "IGOD lists the portal, but the destination timed out from the research browser.",
+      "record": {
+        "id": "mp-social-security",
+        "title": "Madhya Pradesh State Social Security Portal",
+        "description": "State social security portal listed by IGOD; service scope and landing page need review.",
+        "url": "https://socialsecurity.mp.gov.in/",
+        "organization": "Government of Madhya Pradesh",
+        "level": "State",
+        "state": "Madhya Pradesh",
+        "primarySector": "social_security_welfare",
+        "purposes": [
+          "mixed"
+        ],
+        "keywords": [
+          "social security",
+          "welfare",
+          "pension"
+        ],
+        "sourceId": "igod",
+        "sourceUrl": "https://igod.gov.in/index.php/sg/MP/categories",
+        "sourceType": "Official government directory listing",
+        "reviewStatus": "TEMPORARILY_UNREACHABLE",
+        "reviewReason": "IGOD lists the portal, but the destination timed out from the research browser."
+      },
+      "reviewHistory": [
+        {
+          "at": "2026-10-13T21:21:10+00:00",
+          "status": "TEMPORARILY_UNREACHABLE",
+          "reason": "IGOD lists the portal, but the destination timed out from the research browser."
+        }
+      ]
+    },
+    {
+      "sourceFile": "discovery_batch_2026-10-14.json",
+      "sourceRow": 3,
+      "importedAt": "2026-10-13T21:21:10+00:00",
+      "status": "TEMPORARILY_UNREACHABLE",
+      "reason": "IGOD lists the district site, but its destination timed out from the research browser.",
+      "record": {
+        "id": "agar-malwa-district",
+        "title": "Agar Malwa district portal",
+        "description": "District administration portal listed by IGOD; live destination and local services need review.",
+        "url": "https://agarmalwa.nic.in/",
+        "organization": "Agar Malwa District Administration",
+        "level": "District",
+        "state": "Madhya Pradesh",
+        "district": "Agar Malwa",
+        "primarySector": "government_information",
+        "purposes": [
+          "information",
+          "service_directory"
+        ],
+        "keywords": [
+          "Agar Malwa",
+          "district services"
+        ],
+        "sourceId": "igod",
+        "sourceUrl": "https://igod.gov.in/index.php/sg/MP/categories",
+        "sourceType": "Official government directory listing",
+        "reviewStatus": "TEMPORARILY_UNREACHABLE",
+        "reviewReason": "IGOD lists the district site, but its destination timed out from the research browser."
+      },
+      "reviewHistory": [
+        {
+          "at": "2026-10-13T21:21:10+00:00",
+          "status": "TEMPORARILY_UNREACHABLE",
+          "reason": "IGOD lists the district site, but its destination timed out from the research browser."
+        }
+      ]
+    },
+    {
+      "sourceFile": "discovery_batch_2026-10-14.json",
+      "sourceRow": 4,
+      "importedAt": "2026-10-13T21:21:10+00:00",
+      "status": "NEEDS_URL_REVIEW",
+      "reason": "Following the IGOD link returned a default Apache Tomcat page, not a usable municipal homepage. Find the canonical official destination.",
+      "record": {
+        "id": "greater-chennai-corporation",
+        "title": "Greater Chennai Corporation",
+        "description": "Municipal site listed by IGOD; its directory destination needs correction before use.",
+        "url": "https://chennaicorporation.gov.in/",
+        "organization": "Greater Chennai Corporation",
+        "level": "Municipal",
+        "state": "Tamil Nadu",
+        "locality": "Chennai",
+        "primarySector": "utilities_local",
+        "purposes": [
+          "mixed"
+        ],
+        "keywords": [
+          "Chennai corporation",
+          "municipal services"
+        ],
+        "sourceId": "igod",
+        "sourceUrl": "https://igod.gov.in/index.php/leg/TN/L008/organizations",
+        "sourceType": "Official government directory listing",
+        "reviewStatus": "NEEDS_URL_REVIEW",
+        "reviewReason": "Following the IGOD link returned a default Apache Tomcat page, not a usable municipal homepage. Find the canonical official destination."
+      },
+      "reviewHistory": [
+        {
+          "at": "2026-10-13T21:21:10+00:00",
+          "status": "NEEDS_URL_REVIEW",
+          "reason": "Following the IGOD link returned a default Apache Tomcat page, not a usable municipal homepage. Find the canonical official destination."
+        }
+      ]
+    },
+    {
+      "sourceFile": "discovery_batch_2026-10-14.json",
+      "sourceRow": 5,
+      "importedAt": "2026-10-13T21:21:10+00:00",
+      "status": "NEEDS_OWNERSHIP_REVIEW",
+      "reason": "IGOD links to this site, which links onward to payment and grievance hosts. Confirm the operating organizations, canonical URL and currency of content before publication.",
+      "record": {
+        "id": "coimbatore-corporation",
+        "title": "Coimbatore City Municipal Corporation",
+        "description": "Municipal homepage with civic links; ownership, payment destinations and current content need editorial review.",
+        "url": "https://www.ccmc.gov.in/",
+        "organization": "Coimbatore City Municipal Corporation",
+        "level": "Municipal",
+        "state": "Tamil Nadu",
+        "locality": "Coimbatore",
+        "primarySector": "utilities_local",
+        "purposes": [
+          "information",
+          "service_directory",
+          "external_partner",
+          "mixed"
+        ],
+        "keywords": [
+          "Coimbatore",
+          "property tax",
+          "birth certificate",
+          "municipal grievance"
+        ],
+        "sourceId": "igod",
+        "sourceUrl": "https://igod.gov.in/index.php/leg/TN/L008/organizations",
+        "sourceType": "Official government directory listing",
+        "reviewStatus": "NEEDS_OWNERSHIP_REVIEW",
+        "reviewReason": "IGOD links to this site, which links onward to payment and grievance hosts. Confirm the operating organizations, canonical URL and currency of content before publication."
+      },
+      "reviewHistory": [
+        {
+          "at": "2026-10-13T21:21:10+00:00",
+          "status": "NEEDS_OWNERSHIP_REVIEW",
+          "reason": "IGOD links to this site, which links onward to payment and grievance hosts. Confirm the operating organizations, canonical URL and currency of content before publication."
+        }
+      ]
+    },
+    {
+      "sourceFile": "discovery_batch_2026-10-14.json",
+      "sourceRow": 6,
+      "importedAt": "2026-10-13T21:21:10+00:00",
+      "status": "DISCOVERED",
+      "reason": "IGOD lists the UT portal and the live page identifies the administration; a second editor must confirm scope and publication metadata.",
+      "record": {
+        "id": "lakshadweep-administration",
+        "title": "Lakshadweep Administration",
+        "description": "Union territory information and service directory; editorial review is pending.",
+        "url": "https://lakshadweep.gov.in/",
+        "organization": "Administration of Lakshadweep",
+        "level": "Union Territory",
+        "state": "Lakshadweep",
+        "primarySector": "government_information",
+        "purposes": [
+          "information",
+          "service_directory",
+          "mixed"
+        ],
+        "keywords": [
+          "Lakshadweep",
+          "UT services",
+          "entry permit"
+        ],
+        "sourceId": "igod",
+        "sourceUrl": "https://igod.gov.in/sg/LD/categories",
+        "additionalEvidenceUrl": "https://lakshadweep.gov.in/",
+        "sourceType": "Official directory and administration homepage",
+        "reviewStatus": "DISCOVERED",
+        "reviewReason": "IGOD lists the UT portal and the live page identifies the administration; a second editor must confirm scope and publication metadata."
+      },
+      "reviewHistory": [
+        {
+          "at": "2026-10-13T21:21:10+00:00",
+          "status": "DISCOVERED",
+          "reason": "IGOD lists the UT portal and the live page identifies the administration; a second editor must confirm scope and publication metadata."
+        }
+      ]
+    }
+  ],
+  "importedAt": "2026-10-13T21:21:10+00:00"
+}

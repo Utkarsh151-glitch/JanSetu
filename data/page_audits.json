@@ -1,0 +1,748 @@
+{
+  "method": "Page-level editorial records; automated measurements are screening only and screenshots are limited visual review, not WCAG certification. Phase 6A (2026-10-17) adds dated history, confirmed/suspected status per observation, emulator Chrome and in-app WebView evidence.",
+  "pages": [
+    {
+      "pageId": "india-portal-home",
+      "portalId": "india-portal",
+      "url": "https://www.india.gov.in/",
+      "pageType": "public home and directory",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "MANUAL_REVIEW",
+      "intervention": "B",
+      "provisionalCandidate": "B (text scaling only) - investigating, not approved",
+      "conditions": "JanSetu QA app in-app WebView, API 37 emulator 1080x2400 420dpi: A (100%) and A+ (125%) at Android font 1.0 and 2.0, plus landscape. Headless Chrome 390x844 returned HTTP 403 again (access inconclusive).",
+      "evidence": [
+        "docs/screenshots/browser-text-normal.png",
+        "docs/screenshots/browser-text-zoom.png",
+        "data/screening_runs/2026-10-14.json",
+        "https://www.india.gov.in/",
+        "docs/screenshots/audit-android-large-web-100.png",
+        "docs/screenshots/audit-android-large-web-125.png",
+        "docs/screenshots/audit-android-large-web-scroll.png",
+        "docs/screenshots/audit-android-landscape-after-fix.png",
+        "docs/screenshots/phase6/india-portal-android-a100-font1.png",
+        "docs/screenshots/phase6/india-portal-android-a125-font1.png",
+        "docs/screenshots/phase6/india-portal-android-a125-font2.png",
+        "docs/screenshots/phase6/india-portal-android-a100-font2.png",
+        "docs/screenshots/phase6/india-portal-android-landscape-font1.png",
+        "data/validation_reports/phase6a-android-portal.json",
+        "data/screening_runs/2026-10-17.json"
+      ],
+      "observations": [
+        {
+          "dimension": "text_scaling",
+          "issue": "In JanSetu's WebView the page text stays the same size at Android font 2.0 as at 1.0; only JanSetu's own frame grows. A+ gives 125% at most.",
+          "severity": "high",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "reflow",
+          "issue": "At A+ (125%) the header shifts sideways (emblem off-centre, menu icon clipped at the edge) and the consent dialog fills about half the screen.",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "controls",
+          "issue": "The site's floating '+' button overlaps the corner of 'Accept all cookies' at 100% and 125%.",
+          "severity": "low",
+          "confidence": "medium",
+          "status": "confirmed in one session"
+        },
+        {
+          "dimension": "reliability_jansetu",
+          "issue": "Rotating the device or changing the font size recreates JanSetu's WebView and reloads the page, losing scroll position (landscape capture shows the site's loading screen).",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "jansetu_frame",
+          "issue": "At Android font 2.0 JanSetu's 'does not control this page' note wraps to three lines and pushes the page down.",
+          "severity": "low",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "existing_controls",
+          "issue": "The page shows its own accessibility and language controls; their behaviour was not tested.",
+          "severity": "informational",
+          "confidence": "high",
+          "status": "observed"
+        }
+      ],
+      "risk": "medium",
+      "rationale": "Text scaling is a browser-level aid that changes no page code. The defect is in JanSetu: its WebView ignores the person's Android font size. Higher sizes need reflow and consent-dialog checks because 125% already shifts the header.",
+      "recommendedAction": "Investigate first: start WebView text zoom from Android font scale, keep A/A+ with a clear 'original size', preserve page state across rotation, and let the frame note collapse at large font. Never restyle the consent dialog or site controls.",
+      "testStatus": "Emulator captures at 100%/125% and font 1.0/2.0 plus landscape; 150%/200% text zoom, TalkBack, keyboard and the full consent flow not run.",
+      "limitations": "One emulator and one session; Chrome 403 is not a UI finding; the site's own accessibility tools were not exercised.",
+      "history": [
+        {
+          "date": "2026-10-14",
+          "intervention": "NEEDS_MANUAL_REVIEW",
+          "status": "MANUAL_REVIEW",
+          "recommendedAction": "Use official controls and JanSetu guidance pending full device review; do not expand styling."
+        }
+      ]
+    },
+    {
+      "pageId": "scholarship-home",
+      "portalId": "national-scholarship-portal",
+      "url": "https://scholarships.gov.in/home",
+      "pageType": "public service landing",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "PILOT_TESTED",
+      "intervention": "D",
+      "provisionalCandidate": "Existing C pilot: no measured benefit; recommend withdrawal",
+      "conditions": "Headless Chrome 155, 390x844 and 1280x800, one load; packaged extension/readability.css applied locally as an author stylesheet (approximation of the extension's user-origin insertion) and removed again.",
+      "evidence": [
+        "docs/screenshots/audit-scholarship-home.png",
+        "docs/screenshots/national-scholarship-portal-original.png",
+        "data/screening_runs/2026-10-14.json",
+        "https://scholarships.gov.in/home",
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/scholarship-home-390.png",
+        "docs/screenshots/phase6/scholarship-home-readable-390.png",
+        "docs/screenshots/phase6/scholarship-home-original-1280.png",
+        "docs/screenshots/phase6/scholarship-home-readable-1280.png"
+      ],
+      "observations": [
+        {
+          "dimension": "pilot_effect",
+          "issue": "With the stylesheet, median body text went from 16px to 16.8px and median line height from 1.69 to 1.65; no text block was under 16px before or after.",
+          "severity": "informational",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "mobile_reflow",
+          "issue": "Document width 402px in a 390px viewport, unchanged by the stylesheet.",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "contrast_screening",
+          "issue": "4 of 18 measured text blocks below 4.5:1 (minimum 2.13); the stylesheet does not address colour.",
+          "severity": "medium",
+          "confidence": "medium",
+          "status": "suspected (automated)"
+        },
+        {
+          "dimension": "preservation",
+          "issue": "25 visible controls before and after; none newly covered or moved off-screen; removing the stylesheet restored identical computed styles.",
+          "severity": "informational",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "routes",
+          "issue": "No same-document hash links on /home, so in-page routing would not carry the stylesheet to unreviewed content.",
+          "severity": "informational",
+          "confidence": "medium",
+          "status": "observed"
+        }
+      ],
+      "risk": "medium",
+      "rationale": "The pilot changes size slightly but does not address the page's measured problems (overflow, contrast) and makes line spacing marginally tighter. Applying it is not evidence of improvement.",
+      "recommendedAction": "Keep class D (guidance). Withdraw the Readable text pilot in the next extension release unless a revised, documented problem-specific rule set shows a measured gain.",
+      "testStatus": "Local before/after/restore comparison at 390px and 1280px; installed-extension, keyboard, screen-reader and route tests still pending.",
+      "limitations": "Author-origin approximation; one load; automated contrast ignores background images.",
+      "history": [
+        {
+          "date": "2026-10-14",
+          "intervention": "D",
+          "status": "MANUAL_REVIEW",
+          "recommendedAction": "Prioritize a native scholarship guide and test the site's own controls; hold any broader CSS decision until mobile, keyboard and route-change review."
+        }
+      ]
+    },
+    {
+      "pageId": "scholarship-application",
+      "portalId": "national-scholarship-portal",
+      "url": "https://scholarships.gov.in/ApplicationForm/",
+      "pageType": "scholarship sign-in/application entry",
+      "date": "2026-10-14",
+      "reviewer": "Codex, official-link risk review",
+      "status": "AUTOMATED_SCREENING",
+      "intervention": "E",
+      "conditions": "Public official Students page link inspected; no sign-in or form interaction",
+      "evidence": [
+        "https://scholarships.gov.in/Students",
+        "https://scholarships.gov.in/ApplicationForm/"
+      ],
+      "observations": [
+        {
+          "dimension": "transactional_risk",
+          "issue": "The Students page says this route uses OTR ID and password for scholarship application and status.",
+          "severity": "high",
+          "confidence": "high"
+        }
+      ],
+      "risk": "high",
+      "rationale": "Authentication and stateful applications must retain the official site's own presentation and controls.",
+      "recommendedAction": "No JanSetu styling; provide independent guidance and external-browser handoff.",
+      "testStatus": "Risk classification from official public description only; authenticated journey not tested",
+      "limitations": "No credential or OTP use; exact post-login layout unknown."
+    },
+    {
+      "pageId": "rti-home",
+      "portalId": "rti-online",
+      "url": "https://rtionline.gov.in/",
+      "pageType": "public RTI landing",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "MANUAL_REVIEW",
+      "intervention": "D",
+      "conditions": "Headless Chrome 390x844, one load",
+      "evidence": [
+        "docs/screenshots/audit-rti-home.png",
+        "data/screening_runs/2026-10-14.json",
+        "https://rtionline.gov.in/",
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/rti-home-390.png",
+        "docs/screenshots/phase6/rti-home-zoom200.png"
+      ],
+      "observations": [
+        {
+          "dimension": "mobile_reflow",
+          "issue": "Document width was 980px in a 390px viewport; warning and explanatory text were visibly clipped horizontally.",
+          "severity": "high",
+          "confidence": "high"
+        },
+        {
+          "dimension": "existing_controls",
+          "issue": "The page already has A+/A/A- controls and a state-versus-central warning.",
+          "severity": "informational",
+          "confidence": "high"
+        }
+      ],
+      "risk": "high",
+      "rationale": "The problem is structural reflow and task comprehension; scaling text may worsen clipping, and the nearby request journey includes payment.",
+      "recommendedAction": "Provide a concise central-RTI guide and use the official browser; do not apply generic CSS.",
+      "testStatus": "Rechecked 2026-10-17: still 980px wide at 390, 320 and 195px; 18 of 19 controls under 24px. Keyboard, screen reader and full navigation pending.",
+      "limitations": "Single device-class screenshot does not prove a general mobile failure or legal accessibility noncompliance.",
+      "history": [
+        {
+          "date": "2026-10-14",
+          "intervention": "D",
+          "status": "MANUAL_REVIEW",
+          "recommendedAction": "Provide a concise central-RTI guide and use the official browser; do not apply generic CSS."
+        }
+      ]
+    },
+    {
+      "pageId": "rti-login",
+      "portalId": "rti-online",
+      "url": "https://rtionline.gov.in/login.php",
+      "pageType": "citizen sign-in",
+      "date": "2026-10-14",
+      "reviewer": "Codex, official page risk review",
+      "status": "AUTOMATED_SCREENING",
+      "intervention": "E",
+      "conditions": "Public login page viewed read-only",
+      "evidence": [
+        "https://rtionline.gov.in/login.php",
+        "https://rtionline.gov.in/"
+      ],
+      "observations": [
+        {
+          "dimension": "transactional_risk",
+          "issue": "Username, password and security-code controls are present.",
+          "severity": "high",
+          "confidence": "high"
+        }
+      ],
+      "risk": "high",
+      "rationale": "Credentials and a security challenge are present; JanSetu should not alter this page's styling.",
+      "recommendedAction": "External-browser handoff and independent instructions only.",
+      "testStatus": "No login attempted",
+      "limitations": "No authenticated page or screen-reader flow inspected."
+    },
+    {
+      "pageId": "digilocker-home",
+      "portalId": "digilocker",
+      "url": "https://www.digilocker.gov.in/",
+      "pageType": "public document-service landing",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "MANUAL_REVIEW",
+      "intervention": "D",
+      "provisionalCandidate": "B rejected",
+      "conditions": "Headless Chrome 155, 390x844, one load; same document resized to 320px and 195px (about 200% zoom).",
+      "evidence": [
+        "docs/screenshots/audit-digilocker-home.png",
+        "data/screening_runs/2026-10-14.json",
+        "https://www.digilocker.gov.in/",
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/digilocker-home-390.png",
+        "docs/screenshots/phase6/digilocker-home-zoom200.png"
+      ],
+      "observations": [
+        {
+          "dimension": "readability",
+          "issue": "41 of 43 visible paragraphs measured below 16px; some public copy looks small in the screenshot.",
+          "severity": "medium",
+          "confidence": "medium"
+        },
+        {
+          "dimension": "mobile_reflow",
+          "issue": "No horizontal document overflow at 390px; task cards were visible.",
+          "severity": "informational",
+          "confidence": "high"
+        },
+        {
+          "dimension": "existing_controls",
+          "issue": "A site accessibility control is visible; its effect was not tested.",
+          "severity": "informational",
+          "confidence": "medium"
+        },
+        {
+          "dimension": "zoom_reflow",
+          "issue": "At 195px (about 200% zoom) the content is 317px wide and 29 controls sit beyond the right edge; text scaling would introduce horizontal scrolling.",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "readability",
+          "issue": "Median text 14px with line height 1.2; 10 blocks below 13px.",
+          "severity": "medium",
+          "confidence": "medium",
+          "status": "suspected (automated)"
+        }
+      ],
+      "risk": "medium",
+      "rationale": "The B prospect failed its reflow condition. On Android the page opens in the person's browser, where JanSetu cannot assist except with guidance.",
+      "recommendedAction": "Use the existing JanSetu DigiLocker guide and the site's own controls; no JanSetu styling.",
+      "testStatus": "Screening at 390/320/195px; native accessibility control, keyboard and screen reader not tested.",
+      "limitations": "Small paragraph count is a screening signal, not proof of unreadability.",
+      "history": [
+        {
+          "date": "2026-10-14",
+          "intervention": "NEEDS_MANUAL_REVIEW",
+          "status": "MANUAL_REVIEW",
+          "recommendedAction": "Test the site's own accessibility control and browser text scaling on the public home; never style login or document retrieval."
+        }
+      ]
+    },
+    {
+      "pageId": "lakshadweep-home",
+      "portalId": "lakshadweep-administration",
+      "url": "https://lakshadweep.gov.in/",
+      "pageType": "public UT information home",
+      "date": "2026-10-14",
+      "reviewer": "Codex, 390px screenshot review plus automated screening",
+      "status": "MANUAL_REVIEW",
+      "intervention": "A",
+      "conditions": "Headless Chrome 390x844, one load",
+      "evidence": [
+        "docs/screenshots/audit-lakshadweep-home.png",
+        "data/screening_runs/2026-10-14.json",
+        "https://lakshadweep.gov.in/"
+      ],
+      "observations": [
+        {
+          "dimension": "readability_and_reflow",
+          "issue": "The inspected introductory text wrapped within 390px with no horizontal document overflow.",
+          "severity": "informational",
+          "confidence": "high"
+        },
+        {
+          "dimension": "existing_controls",
+          "issue": "The page displays accessibility and language controls.",
+          "severity": "informational",
+          "confidence": "high"
+        }
+      ],
+      "risk": "low",
+      "rationale": "The reviewed first viewport gives no evidence that JanSetu styling would improve this public page; native controls should be tried first.",
+      "recommendedAction": "No JanSetu styling for this viewport; link official controls and continue task-level audit.",
+      "testStatus": "First viewport only; keyboard, screen reader, 200% zoom and service pages pending",
+      "limitations": "Candidate portal is not published. Class A is limited to inspected landing content, not a site-wide accessibility claim."
+    },
+    {
+      "pageId": "coimbatore-home",
+      "portalId": "coimbatore-corporation",
+      "url": "https://www.ccmc.gov.in/",
+      "pageType": "public municipal home",
+      "date": "2026-10-14",
+      "reviewer": "Codex, 390px screenshot review plus automated screening",
+      "status": "MANUAL_REVIEW",
+      "intervention": "D",
+      "conditions": "Headless Chrome 390x844, one load",
+      "evidence": [
+        "docs/screenshots/audit-coimbatore-home.png",
+        "data/screening_runs/2026-10-14.json",
+        "https://www.ccmc.gov.in/"
+      ],
+      "observations": [
+        {
+          "dimension": "navigation_density",
+          "issue": "The page showed many service tiles and 296 links in the loaded document; finding one civic task may require guidance.",
+          "severity": "medium",
+          "confidence": "medium"
+        },
+        {
+          "dimension": "existing_controls",
+          "issue": "The page provides A-/A/A+ controls and links to separate payment and grievance hosts.",
+          "severity": "informational",
+          "confidence": "high"
+        }
+      ],
+      "risk": "high",
+      "rationale": "Navigation and external transaction routes are the main concerns; a stylesheet should not cover payment or grievance flows.",
+      "recommendedAction": "Create a native civic-task guide after confirming current official destinations and partner operators.",
+      "testStatus": "Homepage screening only; no payment or grievance interaction",
+      "limitations": "Portal remains in ownership review; link counts alone do not establish bad usability."
+    },
+    {
+      "pageId": "chennai-directory-destination",
+      "portalId": "greater-chennai-corporation",
+      "url": "https://chennaicorporation.gov.in/",
+      "pageType": "directory-linked municipal root",
+      "date": "2026-10-14",
+      "reviewer": "Codex, official-directory link review",
+      "status": "AUTOMATED_SCREENING",
+      "intervention": "F",
+      "conditions": "Followed the IGOD municipal listing once in a research browser",
+      "evidence": [
+        "https://igod.gov.in/index.php/leg/TN/L008/organizations",
+        "https://chennaicorporation.gov.in/"
+      ],
+      "observations": [
+        {
+          "dimension": "reliability",
+          "issue": "The destination showed a default Apache Tomcat page instead of the municipal homepage.",
+          "severity": "high",
+          "confidence": "high"
+        }
+      ],
+      "risk": "high",
+      "rationale": "A wrong or misconfigured destination is not remediated by CSS. The canonical official link needs investigation.",
+      "recommendedAction": "Keep in NEEDS_URL_REVIEW; locate and verify the working municipal portal before any user-facing link.",
+      "testStatus": "Single observed destination; repeat and confirm with the authority",
+      "limitations": "One response does not establish a permanent outage or the correct replacement URL."
+    },
+    {
+      "pageId": "cpgrams-lodge",
+      "portalId": "cpgrams",
+      "url": "https://pgportal.gov.in/Home/LodgeGrievance",
+      "pageType": "grievance sign-in entry",
+      "date": "2026-10-14",
+      "reviewer": "Codex, official page risk review",
+      "status": "AUTOMATED_SCREENING",
+      "intervention": "E",
+      "conditions": "Public sign-in gate viewed read-only",
+      "evidence": [
+        "https://pgportal.gov.in/Home/LodgeGrievance"
+      ],
+      "observations": [
+        {
+          "dimension": "transactional_risk",
+          "issue": "The official page says grievances can be lodged only by registered users and offers sign-in/registration.",
+          "severity": "high",
+          "confidence": "high"
+        }
+      ],
+      "risk": "high",
+      "rationale": "This begins a sensitive, stateful grievance journey.",
+      "recommendedAction": "No injected styling; use the existing JanSetu guide and official-browser handoff.",
+      "testStatus": "No sign-in or grievance submitted",
+      "limitations": "Post-login form accessibility not assessed."
+    },
+    {
+      "pageId": "rti-guidelines",
+      "portalId": "rti-online",
+      "url": "https://rtionline.gov.in/guidelines.php?request",
+      "pageType": "public guidelines with acknowledgement gate before the RTI request form",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "MANUAL_REVIEW",
+      "intervention": "D",
+      "conditions": "Emulator Chrome 145 (1080x2400, 420dpi) at Android font 1.0 and 2.0; headless Chrome 155 at 390x844 with and without mobile viewport handling; read-only, no checkbox or button used.",
+      "evidence": [
+        "data/validation_reports/phase6a-page-structure.json",
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/rti-guidelines-390.png",
+        "docs/screenshots/phase6/rti-guidelines-android-chrome-font1.png",
+        "docs/screenshots/phase6/rti-guidelines-android-chrome-font2.png",
+        "docs/screenshots/phase6/rti-guidelines-android-chrome-font1-scrolled.png"
+      ],
+      "observations": [
+        {
+          "dimension": "mobile_reflow",
+          "issue": "No viewport meta: phones lay the page out at 980px and show it at about 0.40 scale, so 15.3px text appears at about 6px.",
+          "severity": "high",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "touch_targets",
+          "issue": "The acknowledgement checkbox (15x15) and Submit/Cancel (about 42x21) render at roughly 6px and 17x8px at first view.",
+          "severity": "high",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "hierarchy",
+          "issue": "No headings and no lang attribute; 21 numbered rules in one list.",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "text_scaling",
+          "issue": "In emulator Chrome, raising Android font to 2.0 did not visibly enlarge the page in this session.",
+          "severity": "medium",
+          "confidence": "medium",
+          "status": "observed once"
+        },
+        {
+          "dimension": "content",
+          "issue": "Contains five rules a citizen needs: no Aadhaar/PAN upload, no fee below the poverty line, payment modes, wait 24-48 hours instead of paying again, and no fee for first appeal. JanSetu's own RTI record covers three of them.",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "confirmed"
+        }
+      ],
+      "risk": "high",
+      "rationale": "CSS cannot add a missing viewport meta, and the page's checkbox and Submit/Cancel begin the request and payment journey, which must stay unchanged.",
+      "recommendedAction": "JanSetu guidance that states all five rules with source and date, then hand off to the official page; propose the two missing rules through the editorial service workflow.",
+      "testStatus": "Emulator and headless observations only; no moderated task, TalkBack or keyboard test.",
+      "limitations": "One session; Chrome's own text-scaling setting was not changed; no request, payment or acknowledgement performed."
+    },
+    {
+      "pageId": "tn-esevai-service-list",
+      "portalId": "igod-2715637a8f399700",
+      "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "pageType": "public list of e-Sevai services with fees, documents and apply links",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "MANUAL_REVIEW",
+      "intervention": "C",
+      "provisionalCandidate": "C investigation (one overflow rule) plus D",
+      "conditions": "Emulator Chrome 145 at Android font 1.0 and 2.0 (scroll only); headless Chrome 155 at 390x844 (desktop and mobile viewport handling) and resized to 320px/195px; read-only.",
+      "evidence": [
+        "data/validation_reports/phase6a-page-structure.json",
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/tn-esevai-service-list-390.png",
+        "docs/screenshots/phase6/tn-esevai-service-list-zoom200.png",
+        "docs/screenshots/phase6/tn-esevai-service-list-android-chrome-font1.png",
+        "docs/screenshots/phase6/tn-esevai-service-list-android-chrome-font1-scrolled.png",
+        "docs/screenshots/phase6/tn-esevai-service-list-android-chrome-font2-scrolled.png"
+      ],
+      "observations": [
+        {
+          "dimension": "reachability",
+          "issue": "The 843px table of 236 services sits in div.smooth-overflow with overflow-x:hidden (and body/html also hidden), so the Fee, List of Document Required and link to apply columns start beyond a 390px screen and cannot be scrolled into view.",
+          "severity": "high",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "layout",
+          "issue": "Median row height 203 CSS px; in emulator Chrome each service row fills most of a screen.",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "confirmed"
+        },
+        {
+          "dimension": "contrast_screening",
+          "issue": "235 of 615 measured text blocks below 4.5:1 (minimum 3.66), mostly link text.",
+          "severity": "medium",
+          "confidence": "medium",
+          "status": "suspected (automated)"
+        },
+        {
+          "dimension": "existing_controls",
+          "issue": "The site offers A-/A/A+ and a screen-reader link; enlarging text does not make clipped columns reachable.",
+          "severity": "informational",
+          "confidence": "high",
+          "status": "observed"
+        }
+      ],
+      "risk": "medium",
+      "rationale": "A public page with no form fields; the clipping is a single container property, so one reversible rule may restore access without restyling text or controls. JanSetu's own TN records lack fees and most documents, so guidance cannot yet replace the page.",
+      "recommendedAction": "Investigate the proposed overflow rule against the acceptance criteria; do not allowlist yet. In parallel, source TN fees and documents through the editorial workflow.",
+      "testStatus": "Static-fixture test of the rule mechanics passes; no live application of the rule, installed-extension, keyboard or screen-reader test.",
+      "limitations": "Columns may be reachable some other way (for example desktop width or the site's screen-reader page), which human review must check."
+    },
+    {
+      "pageId": "kerala-edistrict-faq",
+      "portalId": "igod-50b73c3937b8d29b",
+      "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "pageType": "public FAQ",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "AUTOMATED_SCREENING",
+      "intervention": "NEEDS_MANUAL_REVIEW",
+      "conditions": "Selection screening: one headless Chrome 155 load at 390x844, resized to 320px and 195px.",
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/kerala-edistrict-faq-390.png"
+      ],
+      "observations": [
+        {
+          "dimension": "screening",
+          "issue": "Readable at 390px; at 320px the content is 357px wide; 11 of 15 controls under 24px.",
+          "severity": "informational",
+          "confidence": "medium",
+          "status": "screening only"
+        }
+      ],
+      "risk": "unknown",
+      "rationale": "Used only to choose this phase's two investigation pages.",
+      "recommendedAction": "Not selected this phase; review manually before any classification.",
+      "testStatus": "Automated screening only.",
+      "limitations": "One load from one machine; metrics are flags, not WCAG results."
+    },
+    {
+      "pageId": "odisha-edistrict-home",
+      "portalId": "igod-5e885f0e333d5206",
+      "url": "https://edistrict.odisha.gov.in/",
+      "pageType": "public eDistrict home",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "AUTOMATED_SCREENING",
+      "intervention": "NEEDS_MANUAL_REVIEW",
+      "conditions": "Selection screening: one headless Chrome 155 load at 390x844, resized to 320px and 195px.",
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/odisha-edistrict-home-390.png"
+      ],
+      "observations": [
+        {
+          "dimension": "screening",
+          "issue": "Reflows to 195px; 4 of 19 text blocks measured below 4.5:1 (minimum 2.11).",
+          "severity": "informational",
+          "confidence": "medium",
+          "status": "screening only"
+        }
+      ],
+      "risk": "unknown",
+      "rationale": "Used only to choose this phase's two investigation pages.",
+      "recommendedAction": "Not selected this phase; review manually before any classification.",
+      "testStatus": "Automated screening only.",
+      "limitations": "One load from one machine; metrics are flags, not WCAG results."
+    },
+    {
+      "pageId": "uidai-my-aadhaar",
+      "portalId": "uidai",
+      "url": "https://www.uidai.gov.in/en/my-aadhaar",
+      "pageType": "public information page",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "AUTOMATED_SCREENING",
+      "intervention": "NEEDS_MANUAL_REVIEW",
+      "conditions": "Selection screening: one headless Chrome 155 load at 390x844, resized to 320px and 195px.",
+      "evidence": [
+        "data/screening_runs/2026-10-17.json"
+      ],
+      "observations": [
+        {
+          "dimension": "screening",
+          "issue": "HTTP 500 to one headless request; access inconclusive, not a UI finding.",
+          "severity": "informational",
+          "confidence": "medium",
+          "status": "screening only"
+        }
+      ],
+      "risk": "unknown",
+      "rationale": "Used only to choose this phase's two investigation pages.",
+      "recommendedAction": "Not selected this phase; review manually before any classification.",
+      "testStatus": "Automated screening only.",
+      "limitations": "One load from one machine; metrics are flags, not WCAG results."
+    },
+    {
+      "pageId": "cpgrams-faq",
+      "portalId": "cpgrams",
+      "url": "https://pgportal.gov.in/Home/Faq",
+      "pageType": "public FAQ",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "AUTOMATED_SCREENING",
+      "intervention": "NEEDS_MANUAL_REVIEW",
+      "conditions": "Selection screening: one headless Chrome 155 load at 390x844, resized to 320px and 195px.",
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/cpgrams-faq-390.png"
+      ],
+      "observations": [
+        {
+          "dimension": "screening",
+          "issue": "Readable at 390px; 351px content at 320px; two text blocks under 13px.",
+          "severity": "informational",
+          "confidence": "medium",
+          "status": "screening only"
+        }
+      ],
+      "risk": "unknown",
+      "rationale": "Used only to choose this phase's two investigation pages.",
+      "recommendedAction": "Not selected this phase; review manually before any classification.",
+      "testStatus": "Automated screening only.",
+      "limitations": "One load from one machine; metrics are flags, not WCAG results."
+    },
+    {
+      "pageId": "ncs-faq",
+      "portalId": "national-career-service",
+      "url": "https://ncs.gov.in/faq",
+      "pageType": "public FAQ",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "AUTOMATED_SCREENING",
+      "intervention": "NEEDS_MANUAL_REVIEW",
+      "conditions": "Selection screening: one headless Chrome 155 load at 390x844, resized to 320px and 195px.",
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/ncs-faq-390.png"
+      ],
+      "observations": [
+        {
+          "dimension": "screening",
+          "issue": "Readable at 390px; 310px content at 195px (about 200% zoom); 17 of 35 controls under 24px.",
+          "severity": "informational",
+          "confidence": "medium",
+          "status": "screening only"
+        }
+      ],
+      "risk": "unknown",
+      "rationale": "Used only to choose this phase's two investigation pages.",
+      "recommendedAction": "Not selected this phase; review manually before any classification.",
+      "testStatus": "Automated screening only.",
+      "limitations": "One load from one machine; metrics are flags, not WCAG results."
+    },
+    {
+      "pageId": "incometax-epan-help",
+      "portalId": "income-tax-efiling",
+      "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM",
+      "pageType": "public user manual",
+      "date": "2026-10-17",
+      "reviewer": "Claude Code (Phase 6A), headless Chrome screening, emulator Chrome and JanSetu in-app WebView",
+      "status": "AUTOMATED_SCREENING",
+      "intervention": "NEEDS_MANUAL_REVIEW",
+      "conditions": "Selection screening: one headless Chrome 155 load at 390x844, resized to 320px and 195px.",
+      "evidence": [
+        "data/screening_runs/2026-10-17.json",
+        "docs/screenshots/phase6/incometax-epan-help-390.png"
+      ],
+      "observations": [
+        {
+          "dimension": "screening",
+          "issue": "Median text 14px but reflows at 195px with no overflow; own text-size controls and skip link present.",
+          "severity": "informational",
+          "confidence": "medium",
+          "status": "screening only"
+        }
+      ],
+      "risk": "unknown",
+      "rationale": "Used only to choose this phase's two investigation pages.",
+      "recommendedAction": "Not selected this phase; review manually before any classification.",
+      "testStatus": "Automated screening only.",
+      "limitations": "One load from one machine; metrics are flags, not WCAG results."
+    }
+  ]
+}

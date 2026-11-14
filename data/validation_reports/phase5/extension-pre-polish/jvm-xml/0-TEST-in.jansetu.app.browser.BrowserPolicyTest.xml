@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.browser.BrowserPolicyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-16T22:35:03.672Z" hostname="LAPTOP-FAIP099K" time="0.055">
+  <properties/>
+  <testcase name="onlyTheConfiguredHttpsHostStaysInApp" classname="in.jansetu.app.browser.BrowserPolicyTest" time="0.043"/>
+  <testcase name="sensitiveQueryFragmentAndNestedEncodingCannotStayInTheReadOnlyBrowser" classname="in.jansetu.app.browser.BrowserPolicyTest" time="0.004"/>
+  <testcase name="authenticationAndPaymentJourneysUseExternalBrowserEvenOnTheSameHost" classname="in.jansetu.app.browser.BrowserPolicyTest" time="0.004"/>
+  <testcase name="encodedControlsAndBackslashesAreNotSafeHandoffs" classname="in.jansetu.app.browser.BrowserPolicyTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

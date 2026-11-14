@@ -1,0 +1,66 @@
+{
+ "websiteId": "igod-50b73c3937b8d29b",
+ "url": "https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch&lang=en",
+ "checkedAt": "2026-10-17T20:27:28+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Link check (read-only): target was only seen as a link",
+ "httpStatus": 200,
+ "finalUrl": "https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch&lang=en",
+ "title": "e-District Certificate Verification",
+ "lang": "en",
+ "metaDescription": null,
+ "text": "Govt Orders\nRevenue Court Case \nTrack Application\nCertificate verification\nCreate Account\nSign In മലയാളം \nAccessibility Menu\n\nNIC Kerala\n\nClose\n\nKeyboard Nav\n\t\n\nCursor\n\n\n\nContrast +\n\t\n\nBigger Text\n\n\n\nDesaturate\n\t\n\nHighlight Links\n\n\n\nLegible Fonts\n\t\n\nRead Page\nTrack Application\nBack to Home.\n\n\n\n\n\nApplication Status\n\n\n\nService\n--Select One--\nCERTIFICATE SERVICES\nRTI Normal\nRTI Appeal\nGrievance\nREVENUE COURT CASE\nForest Department\nPermission for Nature Camp\nWood Based Industrial Unit\nEnter Application No.\nGovernment Websites\n     \nWebSite Policies\nTerms and Conditions\nPrivacy Policy\nCancellation and Refund-Policy\nQuick Links\nGovernment Orders\n\n\nImplemented & Managed by Kerala State IT Mission.\nContent / Data Managed by KSITM / Respective Departments.\nDesigned and Developed by National Informatics Centre, Kerala\nContact Us\nEmail: edistrict.ksitm@kerala.gov.in\nPhone: 0471 2525444\nVrindavan Gardens,\nSaankethika, near EPF Office,\nPattom P.O, Thiruvananthapuram,\nKerala 695004",
+ "textSha256": "fa1156b101f584e2e5827edbcc2bfad2af04e6a77059f758bf970d8620d41f70",
+ "links": [
+  {
+   "text": "Sign In ലോഗിന്‍",
+   "href": "https://edistrict.kerala.gov.in/edportalsignin.jsp"
+  },
+  {
+   "text": "Govt Orders",
+   "href": "https://edistrict.kerala.gov.in/governmentOrders.jsp?lang=en"
+  },
+  {
+   "text": "Revenue Court Case",
+   "href": "https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch&lang=en#"
+  },
+  {
+   "text": "Cause Listകോസ് ലിസ്റ്റ്",
+   "href": "https://edistrict.kerala.gov.in/CivilCaseEvents.do?lang=en"
+  },
+  {
+   "text": "Download SoPഡൌണ്‍ലോഡ് എസ് ഒ പി",
+   "href": "https://edistrict.kerala.gov.in/rccsop.pdf?lang=en"
+  },
+  {
+   "text": "Track Application",
+   "href": "https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch&lang=en"
+  },
+  {
+   "text": "Certificate verification",
+   "href": "https://edistrict.kerala.gov.in/qrVerify.do?qr=qrVerify&lang=en"
+  },
+  {
+   "text": "Create Account",
+   "href": "https://edistrict.kerala.gov.in/registerPortalUser.do?lang=en"
+  },
+  {
+   "text": "Sign In",
+   "href": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en"
+  },
+  {
+   "text": "Read Page",
+   "href": "https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch&lang=en#"
+  },
+  {
+   "text": "Back to Home.",
+   "href": "https://edistrict.kerala.gov.in/"
+  },
+  {
+   "text": "Government Orders",
+   "href": "https://edistrict.kerala.gov.in/generalService.htm?event=governmentOrders&token=17922688493195267473654787984452"
+  }
+ ],
+ "attempt": 1
+}

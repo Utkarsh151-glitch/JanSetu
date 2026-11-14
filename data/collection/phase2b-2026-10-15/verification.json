@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-10-14T21:14:25+00:00",
+  "catalogWebsites": 7347,
+  "directoryListed": 7338,
+  "curated": 9,
+  "individualServices": 0,
+  "queuePending": 3823,
+  "originalCandidatesExamined": 3902,
+  "automaticallyResolved": 79,
+  "newLocalAdmissions": 77,
+  "archivedAliases": 2,
+  "ownershipCertifications": 0,
+  "rejections": 0,
+  "unchangedBaselineWebsites": 7270,
+  "unchangedCurated": 9,
+  "queueRerunIdentical": true,
+  "extensionCatalogMatches": true,
+  "pythonTests": {
+    "tests": 53,
+    "result": "passed"
+  },
+  "jvmTests": {
+    "tests": 11,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "emulatorTests": {
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "nodeTests": {
+    "tests": 6,
+    "result": "passed"
+  },
+  "chromeSmoke": "passed; extension APIs mocked; installed toolbar unverified",
+  "builds": "debug APK, lint and unsigned release APK/AAB passed",
+  "linkAudit": {
+    "freshCuratedProbes": 9,
+    "cachedDirectoryChecks": 7338,
+    "result": "all responded at their recorded check times"
+  },
+  "administrativeStateIds": 36,
+  "administrativeTotals": {
+    "districts": 784,
+    "districtPanchayats": 675,
+    "districtTraditionalBodies": 14,
+    "subdistricts": 7092,
+    "blocks": 7327,
+    "intermediatePanchayats": 6769,
+    "intermediateTraditionalBodies": 47,
+    "villages": 677665,
+    "villagePanchayats": 255396,
+    "villageTraditionalBodies": 14102,
+    "traditionalBodies": 14163,
+    "urbanBodies": 5050,
+    "cantonmentBoards": 60
+  },
+  "confirmedDistrictLocalBodyWebsiteIdLinks": 0,
+  "captchaProtectedPaths": [
+    "https://lgdirectory.gov.in/getStateWiseUrbanLB.do",
+    "https://lgdirectory.gov.in/globalviewdistrictforcitizen.do",
+    "https://lgdirectory.gov.in/globalViewLocalBodyForCitizen.do",
+    "https://lgdirectory.gov.in/downloadDirectory.do"
+  ],
+  "artifactCatalogBytesMatch": true,
+  "artifacts": [
+    {
+      "path": "app/build/outputs/apk/debug/app-debug.apk",
+      "bytes": 22189028,
+      "sha256": "ffee715f48d0fac94bf87d97d2c582f3086af71abab50d7446346907bf99965b"
+    },
+    {
+      "path": "app/build/outputs/apk/release/app-release-unsigned.apk",
+      "bytes": 14609228,
+      "sha256": "fa40614f7fa6eecc092782a6a23cbef29d54b111d69d8c0d16dc609f4368c0af"
+    },
+    {
+      "path": "app/build/outputs/bundle/release/app-release.aab",
+      "bytes": 14254474,
+      "sha256": "eaff01e713e62fd9f7d5e1e8b4dd39fba7eb2684685555984f627d46ec956e55"
+    }
+  ],
+  "ruleCodeSha256": {
+    "tools/review_queue.py": "105a4a57a1f7760fcd1f56c84279b8dec998e56b467d276ebb4b114495ad0b10",
+    "tools/administrative_coverage.py": "90980b4d2a7753f2a829b0b2b2fdbdee2635471e37ce7e344a1756f35b639684",
+    "tools/catalog_pipeline.py": "7046b8047ddc87ee7238a3dd75206f9318f5aff0c86887132768936597209337",
+    "tools/discovery_report.py": "4dcafc211671d4b5620e8f2bca91b4518ddc8f954e526974171282ba6ea700bc",
+    "tools/test_phase2b.py": "f8c62f33b2dc5dc3e392b01f84a057e387bc5a03f12d184c35a6b75be69fc633"
+  },
+  "privacy": "No destination/admin homepage bodies retained; token/cookie headers redacted; no CAPTCHA submission or forms collected",
+  "publicRelease": "blocked pending NIC permission; release artifacts unsigned"
+}

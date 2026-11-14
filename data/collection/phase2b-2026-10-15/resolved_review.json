@@ -1,0 +1,652 @@
+[
+  {
+    "record": {
+      "id": "igod-3144682b173255aa",
+      "title": "Forest Department, Rajasthan",
+      "aliases": [
+        "Forest Department, Rajasthan"
+      ],
+      "description": "IGOD lists this website under Departments - Rajasthan. Open the official destination for current information.",
+      "url": "https://forest.rajasthan.gov.in/",
+      "rootDomain": "forest.rajasthan.gov.in",
+      "rootUrl": "https://forest.rajasthan.gov.in/",
+      "websiteEntityId": "web-e9a9dce65faaabd1",
+      "landingPageId": "landing-3144682b173255aa",
+      "organization": "Forest Department, Rajasthan",
+      "owner": null,
+      "operator": null,
+      "governmentLevel": "state",
+      "level": "State",
+      "jurisdiction": "Rajasthan",
+      "state": "Rajasthan",
+      "sourceStateCode": "RJ",
+      "district": null,
+      "sourceStates": [
+        "Rajasthan"
+      ],
+      "primarySector": "environment_natural_resources",
+      "secondarySectors": [],
+      "sourceCategories": [
+        "Departments - Rajasthan"
+      ],
+      "sourceSectors": [],
+      "purposes": [
+        "information"
+      ],
+      "serviceType": "website",
+      "classificationStatus": "SOURCE_CATEGORY_RULES",
+      "classificationConfidence": "low",
+      "sourceId": "igod",
+      "sourceType": "Official IGOD directory listing",
+      "sourceUrl": "https://igod.gov.in/sg/RJ/E003/organizations_more/25/5",
+      "sourceEvidence": [
+        {
+          "sourceId": "igod",
+          "sourcePage": "https://igod.gov.in/sg/RJ/E003/organizations_more/25/5",
+          "listingPage": "https://igod.gov.in/sg/RJ/E003/organizations",
+          "detailUrl": null,
+          "originalName": "Forest Department, Rajasthan",
+          "originalUrl": "https://forest.rajasthan.gov.in",
+          "category": "Departments - Rajasthan",
+          "retrievedAt": "2026-10-14T17:37:32+00:00",
+          "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\snapshots\\a1049eb8664ae63d9c96199d283b5f92d0e05000cb7eb4708aafef98b3acc428.html",
+          "preview": false
+        }
+      ],
+      "sourceOrganizationIds": [
+        "org-d480d72938902633"
+      ],
+      "sourceAuthority": "LISTED_BY_OFFICIAL_DIRECTORY",
+      "ownershipConfidence": "directory_linkage_only",
+      "firstDiscovered": "2026-10-14T17:37:32+00:00",
+      "lastSourceChecked": "2026-10-14T17:37:32+00:00",
+      "publicationScope": "local_development",
+      "publicationStatus": "DUPLICATE_EQUIVALENT",
+      "reviewStatus": "RESOLVED_DUPLICATE",
+      "browserSupport": "external",
+      "browserJavaScript": false,
+      "knownLimitations": "Listed by IGOD. Owner/operator and individual service journeys have not been manually reviewed.",
+      "categories": [
+        "environment"
+      ],
+      "keywords": [
+        "Departments - Rajasthan",
+        "Forest Department, Rajasthan",
+        "Rajasthan"
+      ],
+      "destinationHealth": {
+        "url": "https://forest.rajasthan.gov.in/",
+        "checkedAt": "2026-10-14T17:40:56+00:00",
+        "redirects": [
+          {
+            "from": "https://forest.rajasthan.gov.in/",
+            "to": "https://forest.rajasthan.gov.in/content/raj/forest/en/home.html",
+            "httpStatus": 301
+          }
+        ],
+        "robotsChecks": [
+          {
+            "url": "https://forest.rajasthan.gov.in/robots.txt",
+            "httpStatus": 200,
+            "status": "OK",
+            "resolvedRules": true,
+            "allowed": true,
+            "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\c90a5fa837a621b128ca68120e5b5feede5c2124d02212657c474cd1bf44e9da.json",
+            "checkedAt": "2026-10-14T17:40:51+00:00"
+          },
+          {
+            "url": "https://forest.rajasthan.gov.in/robots.txt",
+            "httpStatus": 200,
+            "status": "OK",
+            "resolvedRules": true,
+            "allowed": true,
+            "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\c90a5fa837a621b128ca68120e5b5feede5c2124d02212657c474cd1bf44e9da.json",
+            "checkedAt": "2026-10-14T17:40:51+00:00"
+          }
+        ],
+        "conclusive": true,
+        "httpStatus": 200,
+        "finalUrl": "https://forest.rajasthan.gov.in/content/raj/forest/en/home.html",
+        "retrieval": {
+          "url": "https://forest.rajasthan.gov.in/content/raj/forest/en/home.html",
+          "checkedAt": "2026-10-14T17:40:56+00:00",
+          "status": "OK",
+          "httpStatus": 200,
+          "transport": "curl normal TLS validation",
+          "exitCode": 0,
+          "error": "",
+          "location": null,
+          "elapsedMs": 417,
+          "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\d8ca77478a87de9ef4900e69df2f851393718287f88d5bf04f53ae9520ffeaf6.json",
+          "method": "GET",
+          "wireSha256": "be22d7088b4e37652b22b590f59e1f2a4fc7f689576192f65f5ea2eb9a535f04",
+          "bodyBytes": 59872,
+          "attempts": [
+            {
+              "checkedAt": "2026-10-14T17:40:56+00:00",
+              "status": "OK",
+              "httpStatus": 200,
+              "exitCode": 0,
+              "error": ""
+            }
+          ],
+          "pageTitle": "Home",
+          "bodyRetention": "discarded; title/status/size/hash only"
+        },
+        "policyEvaluatedAt": "2026-10-14T17:40:56+00:00",
+        "pageTitle": "Home",
+        "status": "RESPONDING",
+        "reason": "Public HTTPS response, not ownership or transaction certification"
+      },
+      "observedFinalUrl": "https://forest.rajasthan.gov.in/content/raj/forest/en/home.html",
+      "healthStatus": "RESPONDING",
+      "healthCheckedAt": "2026-10-14T17:40:56+00:00",
+      "sourceRetrievedOn": "2026-10-14",
+      "duplicateOf": "igod-4f1465872e767478",
+      "reviewReason": "Observed safe redirect alias of igod-4f1465872e767478",
+      "reviewConflicts": []
+    },
+    "status": "RESOLVED_DUPLICATE",
+    "reason": "Explicit safe redirect chain to one bundled destination with matching organization evidence; source alias retained",
+    "sourceFile": "normalized_candidates.json",
+    "importedAt": "2026-10-14T18:49:10+00:00",
+    "collectionManaged": true,
+    "reviewHistory": [
+      {
+        "at": "2026-10-14T18:49:10+00:00",
+        "status": "NEEDS_URL_REVIEW",
+        "reason": "Staged by collection pipeline"
+      },
+      {
+        "at": "2026-10-14T20:56:21+00:00",
+        "status": "RESOLVED_DUPLICATE",
+        "reason": "Explicit safe redirect chain to one bundled destination with matching organization evidence; source alias retained",
+        "ruleVersion": "phase2b-v1"
+      }
+    ],
+    "triage": {
+      "ruleVersion": "phase2b-v1",
+      "bucket": "SAFE_DETERMINISTIC_RESOLUTION",
+      "confidence": "high",
+      "reason": "Explicit safe redirect chain to one bundled destination with matching organization evidence; source alias retained",
+      "unresolvedConflicts": [],
+      "sourceAuthority": "LISTED_BY_OFFICIAL_DIRECTORY",
+      "destinationHealth": "RESPONDING",
+      "ownershipConfidence": "directory_linkage_only",
+      "publicationEligibility": "NOT_ELIGIBLE",
+      "lastCheckAt": "2026-10-14T17:40:56+00:00",
+      "originalSources": [
+        {
+          "originalName": "Forest Department, Rajasthan",
+          "originalUrl": "https://forest.rajasthan.gov.in",
+          "sourcePage": "https://igod.gov.in/sg/RJ/E003/organizations_more/25/5",
+          "listingPage": "https://igod.gov.in/sg/RJ/E003/organizations",
+          "detailUrl": null,
+          "retrievedAt": "2026-10-14T17:37:32+00:00",
+          "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\snapshots\\a1049eb8664ae63d9c96199d283b5f92d0e05000cb7eb4708aafef98b3acc428.html"
+        }
+      ],
+      "evidenceUsed": {
+        "sourceUrl": "https://igod.gov.in/sg/RJ/E003/organizations_more/25/5",
+        "normalizedDestination": "https://forest.rajasthan.gov.in/",
+        "observedFinalUrl": "https://forest.rajasthan.gov.in/content/raj/forest/en/home.html",
+        "redirects": [
+          {
+            "from": "https://forest.rajasthan.gov.in/",
+            "to": "https://forest.rajasthan.gov.in/content/raj/forest/en/home.html",
+            "httpStatus": 301
+          }
+        ],
+        "robotsChecks": [
+          {
+            "url": "https://forest.rajasthan.gov.in/robots.txt",
+            "httpStatus": 200,
+            "status": "OK",
+            "resolvedRules": true,
+            "allowed": true,
+            "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\c90a5fa837a621b128ca68120e5b5feede5c2124d02212657c474cd1bf44e9da.json",
+            "checkedAt": "2026-10-14T17:40:51+00:00"
+          },
+          {
+            "url": "https://forest.rajasthan.gov.in/robots.txt",
+            "httpStatus": 200,
+            "status": "OK",
+            "resolvedRules": true,
+            "allowed": true,
+            "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\c90a5fa837a621b128ca68120e5b5feede5c2124d02212657c474cd1bf44e9da.json",
+            "checkedAt": "2026-10-14T17:40:51+00:00"
+          }
+        ]
+      },
+      "safeResolution": true,
+      "duplicateOf": "igod-4f1465872e767478",
+      "priority": {
+        "score": 30,
+        "citizenImpact": 10,
+        "sourceAuthority": 15,
+        "regionalCoverageGap": 5,
+        "risk": 0,
+        "discoverability": 0,
+        "ageDays": 0,
+        "ageScore": 0
+      },
+      "fingerprint": "597b0cc3d0b593b56ff0ec4a058ebc4afb8c17416f8c56c3f751160225a7a5b6",
+      "evaluatedAt": "2026-10-14T20:56:21+00:00"
+    },
+    "triageHistory": [
+      {
+        "ruleVersion": "phase2b-v1",
+        "bucket": "SAFE_DETERMINISTIC_RESOLUTION",
+        "confidence": "high",
+        "reason": "Explicit safe redirect chain to one bundled destination with matching organization evidence; source alias retained",
+        "unresolvedConflicts": [],
+        "sourceAuthority": "LISTED_BY_OFFICIAL_DIRECTORY",
+        "destinationHealth": "RESPONDING",
+        "ownershipConfidence": "directory_linkage_only",
+        "publicationEligibility": "NOT_ELIGIBLE",
+        "lastCheckAt": "2026-10-14T17:40:56+00:00",
+        "originalSources": [
+          {
+            "originalName": "Forest Department, Rajasthan",
+            "originalUrl": "https://forest.rajasthan.gov.in",
+            "sourcePage": "https://igod.gov.in/sg/RJ/E003/organizations_more/25/5",
+            "listingPage": "https://igod.gov.in/sg/RJ/E003/organizations",
+            "detailUrl": null,
+            "retrievedAt": "2026-10-14T17:37:32+00:00",
+            "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\snapshots\\a1049eb8664ae63d9c96199d283b5f92d0e05000cb7eb4708aafef98b3acc428.html"
+          }
+        ],
+        "evidenceUsed": {
+          "sourceUrl": "https://igod.gov.in/sg/RJ/E003/organizations_more/25/5",
+          "normalizedDestination": "https://forest.rajasthan.gov.in/",
+          "observedFinalUrl": "https://forest.rajasthan.gov.in/content/raj/forest/en/home.html",
+          "redirects": [
+            {
+              "from": "https://forest.rajasthan.gov.in/",
+              "to": "https://forest.rajasthan.gov.in/content/raj/forest/en/home.html",
+              "httpStatus": 301
+            }
+          ],
+          "robotsChecks": [
+            {
+              "url": "https://forest.rajasthan.gov.in/robots.txt",
+              "httpStatus": 200,
+              "status": "OK",
+              "resolvedRules": true,
+              "allowed": true,
+              "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\c90a5fa837a621b128ca68120e5b5feede5c2124d02212657c474cd1bf44e9da.json",
+              "checkedAt": "2026-10-14T17:40:51+00:00"
+            },
+            {
+              "url": "https://forest.rajasthan.gov.in/robots.txt",
+              "httpStatus": 200,
+              "status": "OK",
+              "resolvedRules": true,
+              "allowed": true,
+              "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\c90a5fa837a621b128ca68120e5b5feede5c2124d02212657c474cd1bf44e9da.json",
+              "checkedAt": "2026-10-14T17:40:51+00:00"
+            }
+          ]
+        },
+        "safeResolution": true,
+        "duplicateOf": "igod-4f1465872e767478",
+        "priority": {
+          "score": 30,
+          "citizenImpact": 10,
+          "sourceAuthority": 15,
+          "regionalCoverageGap": 5,
+          "risk": 0,
+          "discoverability": 0,
+          "ageDays": 0,
+          "ageScore": 0
+        },
+        "fingerprint": "597b0cc3d0b593b56ff0ec4a058ebc4afb8c17416f8c56c3f751160225a7a5b6",
+        "evaluatedAt": "2026-10-14T20:56:21+00:00"
+      }
+    ],
+    "priorReviewStatus": "NEEDS_URL_REVIEW"
+  },
+  {
+    "record": {
+      "id": "igod-ea44291aeb7028ec",
+      "title": "National Career Service",
+      "aliases": [
+        "National Career Service"
+      ],
+      "description": "IGOD lists this website under Others. Open the official destination for current information.",
+      "url": "https://www.ncs.gov.in/",
+      "rootDomain": "www.ncs.gov.in",
+      "rootUrl": "https://www.ncs.gov.in/",
+      "websiteEntityId": "web-1ef4865fe5797878",
+      "landingPageId": "landing-ea44291aeb7028ec",
+      "organization": "National Career Service",
+      "owner": null,
+      "operator": null,
+      "governmentLevel": "union",
+      "level": "Central",
+      "jurisdiction": "India (exact scope requires review)",
+      "state": null,
+      "sourceStateCode": null,
+      "district": null,
+      "sourceStates": [],
+      "primarySector": "employment_pensions",
+      "secondarySectors": [],
+      "sourceCategories": [
+        "Others",
+        "Employment & Labour"
+      ],
+      "sourceSectors": [
+        "Employment & Labour"
+      ],
+      "purposes": [
+        "information"
+      ],
+      "serviceType": "website",
+      "classificationStatus": "SOURCE_CATEGORY_RULES",
+      "classificationConfidence": "medium",
+      "sourceId": "igod",
+      "sourceType": "Official IGOD directory listing",
+      "sourceUrl": "https://igod.gov.in/ug/OTHR/organizations_list_more/490/5?keyword=",
+      "sourceEvidence": [
+        {
+          "sourceId": "igod",
+          "sourcePage": "https://igod.gov.in/ug/OTHR/organizations_list_more/490/5?keyword=",
+          "listingPage": "https://igod.gov.in/ug/OTHR/organizations",
+          "detailUrl": null,
+          "originalName": "National Career Service",
+          "originalUrl": "https://www.ncs.gov.in",
+          "category": "Others",
+          "retrievedAt": "2026-10-13T22:37:33+00:00",
+          "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\snapshots\\699bcc12d020431d0e7a9c533359ca49b3af48292722f95447c878f73b64a4d7.html",
+          "preview": false
+        },
+        {
+          "sourceId": "igod",
+          "sourcePage": "https://igod.gov.in/sector/BxNsIHQBsvhI6u6Q3tju/organizations_list_more/100/5",
+          "listingPage": "https://igod.gov.in/sector/BxNsIHQBsvhI6u6Q3tju/organizations",
+          "detailUrl": null,
+          "originalName": "National Career Service",
+          "originalUrl": "https://www.ncs.gov.in",
+          "category": "Employment & Labour",
+          "retrievedAt": "2026-10-13T23:04:57+00:00",
+          "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\snapshots\\d5643272de40ffba85b44e8a39f67205271c3e14aaaf3981cc84b6ee42dc65db.html",
+          "preview": false
+        }
+      ],
+      "sourceOrganizationIds": [
+        "org-4d12e2b46c617ebb",
+        "org-c8b52815a8b00bed"
+      ],
+      "sourceAuthority": "LISTED_BY_OFFICIAL_DIRECTORY",
+      "ownershipConfidence": "directory_linkage_only",
+      "firstDiscovered": "2026-10-13T22:37:33+00:00",
+      "lastSourceChecked": "2026-10-13T23:04:57+00:00",
+      "publicationScope": "local_development",
+      "publicationStatus": "ELIGIBLE_LOCAL_DIRECTORY",
+      "reviewStatus": "RESOLVED_DUPLICATE",
+      "browserSupport": "external",
+      "browserJavaScript": false,
+      "knownLimitations": "Listed by IGOD. Owner/operator and individual service journeys have not been manually reviewed.",
+      "categories": [
+        "jobs"
+      ],
+      "keywords": [
+        "Employment & Labour",
+        "National Career Service",
+        "Others"
+      ],
+      "destinationHealth": {
+        "url": "https://www.ncs.gov.in/",
+        "checkedAt": "2026-10-14T18:49:07+00:00",
+        "redirects": [
+          {
+            "from": "https://www.ncs.gov.in/",
+            "to": "https://ncs.gov.in/",
+            "httpStatus": 301
+          }
+        ],
+        "robotsChecks": [
+          {
+            "url": "https://ncs.gov.in/",
+            "httpStatus": 200,
+            "status": "OK",
+            "resolvedRules": true,
+            "allowed": true,
+            "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\689b45782cbeefa30e200f3947cce3377697a824ebc4d7458396f5b43ccb8a3a.json",
+            "checkedAt": "2026-10-14T18:49:07+00:00"
+          },
+          {
+            "url": "https://ncs.gov.in/robots.txt",
+            "httpStatus": 404,
+            "status": "HTTP_ERROR",
+            "resolvedRules": true,
+            "allowed": true,
+            "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\667ed80affcea77d026e0471a5233209ff7c83a574d97c0798b06901375bc0c2.json",
+            "checkedAt": "2026-10-14T18:49:10+00:00"
+          }
+        ],
+        "conclusive": true,
+        "httpStatus": 200,
+        "finalUrl": "https://ncs.gov.in/",
+        "retrieval": {
+          "url": "https://ncs.gov.in/",
+          "checkedAt": "2026-10-14T18:49:07+00:00",
+          "status": "OK",
+          "httpStatus": 200,
+          "transport": "curl normal TLS validation",
+          "exitCode": 0,
+          "error": "",
+          "location": null,
+          "elapsedMs": 285,
+          "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\689b45782cbeefa30e200f3947cce3377697a824ebc4d7458396f5b43ccb8a3a.json",
+          "method": "GET",
+          "wireSha256": "904d2b12aef0a8db01c9af7b939430eeec0adce9b3b50da5b096b334e995244d",
+          "bodyBytes": 268907,
+          "attempts": [
+            {
+              "checkedAt": "2026-10-14T18:49:07+00:00",
+              "status": "OK",
+              "httpStatus": 200,
+              "exitCode": 0,
+              "error": ""
+            }
+          ],
+          "pageTitle": "NcsNewWebsite",
+          "bodyRetention": "discarded; title/status/size/hash only",
+          "cacheHit": true
+        },
+        "policyEvaluatedAt": "2026-10-14T18:49:10+00:00",
+        "pageTitle": "NcsNewWebsite",
+        "status": "RESPONDING",
+        "reason": "Public HTTPS response, not ownership or transaction certification"
+      },
+      "observedFinalUrl": "https://ncs.gov.in/",
+      "healthStatus": "RESPONDING",
+      "healthCheckedAt": "2026-10-14T18:49:07+00:00",
+      "sourceRetrievedOn": "2026-10-13",
+      "reviewConflicts": []
+    },
+    "status": "RESOLVED_DUPLICATE",
+    "reason": "Explicit safe redirect chain to one bundled destination with matching organization evidence; source alias retained",
+    "sourceFile": "normalized_candidates.json",
+    "importedAt": "2026-10-14T18:49:10+00:00",
+    "collectionManaged": true,
+    "reviewHistory": [
+      {
+        "at": "2026-10-14T18:49:10+00:00",
+        "status": "DISCOVERED",
+        "reason": "Staged by collection pipeline"
+      },
+      {
+        "at": "2026-10-14T19:07:38+00:00",
+        "status": "NEEDS_URL_REVIEW",
+        "reason": "Legacy catalog uniqueness collision; distinct source URL retained, equivalence not assumed"
+      },
+      {
+        "at": "2026-10-14T20:56:21+00:00",
+        "status": "RESOLVED_DUPLICATE",
+        "reason": "Explicit safe redirect chain to one bundled destination with matching organization evidence; source alias retained",
+        "ruleVersion": "phase2b-v1"
+      }
+    ],
+    "triage": {
+      "ruleVersion": "phase2b-v1",
+      "bucket": "SAFE_DETERMINISTIC_RESOLUTION",
+      "confidence": "high",
+      "reason": "Explicit safe redirect chain to one bundled destination with matching organization evidence; source alias retained",
+      "unresolvedConflicts": [],
+      "sourceAuthority": "LISTED_BY_OFFICIAL_DIRECTORY",
+      "destinationHealth": "RESPONDING",
+      "ownershipConfidence": "directory_linkage_only",
+      "publicationEligibility": "NOT_ELIGIBLE",
+      "lastCheckAt": "2026-10-14T18:49:07+00:00",
+      "originalSources": [
+        {
+          "originalName": "National Career Service",
+          "originalUrl": "https://www.ncs.gov.in",
+          "sourcePage": "https://igod.gov.in/ug/OTHR/organizations_list_more/490/5?keyword=",
+          "listingPage": "https://igod.gov.in/ug/OTHR/organizations",
+          "detailUrl": null,
+          "retrievedAt": "2026-10-13T22:37:33+00:00",
+          "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\snapshots\\699bcc12d020431d0e7a9c533359ca49b3af48292722f95447c878f73b64a4d7.html"
+        },
+        {
+          "originalName": "National Career Service",
+          "originalUrl": "https://www.ncs.gov.in",
+          "sourcePage": "https://igod.gov.in/sector/BxNsIHQBsvhI6u6Q3tju/organizations_list_more/100/5",
+          "listingPage": "https://igod.gov.in/sector/BxNsIHQBsvhI6u6Q3tju/organizations",
+          "detailUrl": null,
+          "retrievedAt": "2026-10-13T23:04:57+00:00",
+          "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\snapshots\\d5643272de40ffba85b44e8a39f67205271c3e14aaaf3981cc84b6ee42dc65db.html"
+        }
+      ],
+      "evidenceUsed": {
+        "sourceUrl": "https://igod.gov.in/ug/OTHR/organizations_list_more/490/5?keyword=",
+        "normalizedDestination": "https://www.ncs.gov.in/",
+        "observedFinalUrl": "https://ncs.gov.in/",
+        "redirects": [
+          {
+            "from": "https://www.ncs.gov.in/",
+            "to": "https://ncs.gov.in/",
+            "httpStatus": 301
+          }
+        ],
+        "robotsChecks": [
+          {
+            "url": "https://ncs.gov.in/",
+            "httpStatus": 200,
+            "status": "OK",
+            "resolvedRules": true,
+            "allowed": true,
+            "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\689b45782cbeefa30e200f3947cce3377697a824ebc4d7458396f5b43ccb8a3a.json",
+            "checkedAt": "2026-10-14T18:49:07+00:00"
+          },
+          {
+            "url": "https://ncs.gov.in/robots.txt",
+            "httpStatus": 404,
+            "status": "HTTP_ERROR",
+            "resolvedRules": true,
+            "allowed": true,
+            "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\667ed80affcea77d026e0471a5233209ff7c83a574d97c0798b06901375bc0c2.json",
+            "checkedAt": "2026-10-14T18:49:10+00:00"
+          }
+        ]
+      },
+      "safeResolution": true,
+      "duplicateOf": "national-career-service",
+      "priority": {
+        "score": 45,
+        "citizenImpact": 30,
+        "sourceAuthority": 15,
+        "regionalCoverageGap": 0,
+        "risk": 0,
+        "discoverability": 0,
+        "ageDays": 0,
+        "ageScore": 0
+      },
+      "fingerprint": "296c4b61efac29c18fb9d470a7566518eb54ad6fc922fd92a9f18b5cfb8078ff",
+      "evaluatedAt": "2026-10-14T20:56:21+00:00"
+    },
+    "triageHistory": [
+      {
+        "ruleVersion": "phase2b-v1",
+        "bucket": "SAFE_DETERMINISTIC_RESOLUTION",
+        "confidence": "high",
+        "reason": "Explicit safe redirect chain to one bundled destination with matching organization evidence; source alias retained",
+        "unresolvedConflicts": [],
+        "sourceAuthority": "LISTED_BY_OFFICIAL_DIRECTORY",
+        "destinationHealth": "RESPONDING",
+        "ownershipConfidence": "directory_linkage_only",
+        "publicationEligibility": "NOT_ELIGIBLE",
+        "lastCheckAt": "2026-10-14T18:49:07+00:00",
+        "originalSources": [
+          {
+            "originalName": "National Career Service",
+            "originalUrl": "https://www.ncs.gov.in",
+            "sourcePage": "https://igod.gov.in/ug/OTHR/organizations_list_more/490/5?keyword=",
+            "listingPage": "https://igod.gov.in/ug/OTHR/organizations",
+            "detailUrl": null,
+            "retrievedAt": "2026-10-13T22:37:33+00:00",
+            "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\snapshots\\699bcc12d020431d0e7a9c533359ca49b3af48292722f95447c878f73b64a4d7.html"
+          },
+          {
+            "originalName": "National Career Service",
+            "originalUrl": "https://www.ncs.gov.in",
+            "sourcePage": "https://igod.gov.in/sector/BxNsIHQBsvhI6u6Q3tju/organizations_list_more/100/5",
+            "listingPage": "https://igod.gov.in/sector/BxNsIHQBsvhI6u6Q3tju/organizations",
+            "detailUrl": null,
+            "retrievedAt": "2026-10-13T23:04:57+00:00",
+            "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\snapshots\\d5643272de40ffba85b44e8a39f67205271c3e14aaaf3981cc84b6ee42dc65db.html"
+          }
+        ],
+        "evidenceUsed": {
+          "sourceUrl": "https://igod.gov.in/ug/OTHR/organizations_list_more/490/5?keyword=",
+          "normalizedDestination": "https://www.ncs.gov.in/",
+          "observedFinalUrl": "https://ncs.gov.in/",
+          "redirects": [
+            {
+              "from": "https://www.ncs.gov.in/",
+              "to": "https://ncs.gov.in/",
+              "httpStatus": 301
+            }
+          ],
+          "robotsChecks": [
+            {
+              "url": "https://ncs.gov.in/",
+              "httpStatus": 200,
+              "status": "OK",
+              "resolvedRules": true,
+              "allowed": true,
+              "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\689b45782cbeefa30e200f3947cce3377697a824ebc4d7458396f5b43ccb8a3a.json",
+              "checkedAt": "2026-10-14T18:49:07+00:00"
+            },
+            {
+              "url": "https://ncs.gov.in/robots.txt",
+              "httpStatus": 404,
+              "status": "HTTP_ERROR",
+              "resolvedRules": true,
+              "allowed": true,
+              "snapshot": "C:\\goverment website\\data\\collection\\igod-2026-10-14\\destination_snapshots\\667ed80affcea77d026e0471a5233209ff7c83a574d97c0798b06901375bc0c2.json",
+              "checkedAt": "2026-10-14T18:49:10+00:00"
+            }
+          ]
+        },
+        "safeResolution": true,
+        "duplicateOf": "national-career-service",
+        "priority": {
+          "score": 45,
+          "citizenImpact": 30,
+          "sourceAuthority": 15,
+          "regionalCoverageGap": 0,
+          "risk": 0,
+          "discoverability": 0,
+          "ageDays": 0,
+          "ageScore": 0
+        },
+        "fingerprint": "296c4b61efac29c18fb9d470a7566518eb54ad6fc922fd92a9f18b5cfb8078ff",
+        "evaluatedAt": "2026-10-14T20:56:21+00:00"
+      }
+    ],
+    "priorReviewStatus": "NEEDS_URL_REVIEW"
+  }
+]

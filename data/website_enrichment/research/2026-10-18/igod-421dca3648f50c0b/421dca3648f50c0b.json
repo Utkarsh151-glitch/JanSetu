@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-421dca3648f50c0b",
+ "url": "https://cpao.nic.in/",
+ "checkedAt": "2026-10-17T19:17:01+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://cpao.nic.in/\nCall log:\n  - navigating to \"https://cpao.nic.in/\", waiting until \"domcont",
+ "attempt": 1
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.vault.SegmentedCipherTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-18T06:23:02.635Z" hostname="LAPTOP-FAIP099K" time="0.382">
+  <properties/>
+  <testcase name="randomAccessReadsMatchThePlaintext" classname="in.jansetu.app.vault.SegmentedCipherTest" time="0.103"/>
+  <testcase name="emptyAndOversizedInputsAreRefused" classname="in.jansetu.app.vault.SegmentedCipherTest" time="0.036"/>
+  <testcase name="eachDocumentGetsItsOwnKeyAndNonces" classname="in.jansetu.app.vault.SegmentedCipherTest" time="0.011"/>
+  <testcase name="closedReadersRefuseFurtherReads" classname="in.jansetu.app.vault.SegmentedCipherTest" time="0.006"/>
+  <testcase name="tamperingTruncationReorderingAndSwappingAreDetected" classname="in.jansetu.app.vault.SegmentedCipherTest" time="0.086"/>
+  <testcase name="roundTripsEverySizeIncludingExactSegmentBoundaries" classname="in.jansetu.app.vault.SegmentedCipherTest" time="0.079"/>
+  <testcase name="ciphertextNeverContainsThePlaintext" classname="in.jansetu.app.vault.SegmentedCipherTest" time="0.06"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

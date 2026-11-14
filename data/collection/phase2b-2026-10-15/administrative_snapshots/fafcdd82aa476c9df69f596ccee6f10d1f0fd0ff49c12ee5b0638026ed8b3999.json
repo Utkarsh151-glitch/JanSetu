@@ -1,0 +1,26 @@
+{
+  "url": "https://lgdirectory.gov.in/globalviewdistrictforcitizen.do",
+  "checkedAt": "2026-10-14T20:46:39+00:00",
+  "status": "OK",
+  "httpStatus": 200,
+  "transport": "curl normal TLS validation",
+  "exitCode": 0,
+  "error": "",
+  "location": null,
+  "elapsedMs": 395,
+  "snapshot": "data\\collection\\phase2b-2026-10-15\\administrative_snapshots\\fafcdd82aa476c9df69f596ccee6f10d1f0fd0ff49c12ee5b0638026ed8b3999.json",
+  "method": "GET",
+  "wireSha256": "c32b55acc4c2589f61165dde03cfcf1dd44b3c67b2fa072814d43eaf8095292b",
+  "bodyBytes": 78074,
+  "attempts": [
+    {
+      "checkedAt": "2026-10-14T20:46:39+00:00",
+      "status": "OK",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "error": ""
+    }
+  ],
+  "pageTitle": "LGD - Local Government Directory, Government of India",
+  "bodyRetention": "discarded; title/status/size/hash only"
+}

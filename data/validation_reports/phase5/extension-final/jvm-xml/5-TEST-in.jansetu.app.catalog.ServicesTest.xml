@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.catalog.ServicesTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-16T23:09:37.107Z" hostname="LAPTOP-FAIP099K" time="3.903">
+  <properties/>
+  <testcase name="actualPilotHasSourcesAndPreservesAllWebsiteIdentities" classname="in.jansetu.app.catalog.ServicesTest" time="0.387"/>
+  <testcase name="citizenQueriesPrioritizeRealServicesAndRetainWebsiteResults" classname="in.jansetu.app.catalog.ServicesTest" time="0.714"/>
+  <testcase name="typesAndJurisdictionFiltersDoNotPretendCoverage" classname="in.jansetu.app.catalog.ServicesTest" time="0.26"/>
+  <testcase name="unionTerritoryFilterUsesActualJurisdictionWithoutChangingSerializedFacts" classname="in.jansetu.app.catalog.ServicesTest" time="0.132"/>
+  <testcase name="routeReviewsAndUnknownsCannotBePromotedIntoApply" classname="in.jansetu.app.catalog.ServicesTest" time="0.221"/>
+  <testcase name="duplicateServiceIdentityCannotLoadUnderAnotherId" classname="in.jansetu.app.catalog.ServicesTest" time="0.146"/>
+  <testcase name="malformedUnpublishedAndUnattributedServicesCannotLoad" classname="in.jansetu.app.catalog.ServicesTest" time="1.712"/>
+  <testcase name="expandedQueriesRespectJurisdictionAndExactPortalNames" classname="in.jansetu.app.catalog.ServicesTest" time="0.331"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

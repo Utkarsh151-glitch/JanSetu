@@ -1,0 +1,6 @@
+[
+  {"id":"people","title":"Documents and daily needs","titleHi":"दस्तावेज़ और दैनिक ज़रूरतें","categories":["documents","health","welfare","utilities","civic"]},
+  {"id":"learning_work","title":"Learning and work","titleHi":"शिक्षा और काम","categories":["education","jobs","business","industry"]},
+  {"id":"land_mobility","title":"Land, farming and travel","titleHi":"भूमि, खेती और यात्रा","categories":["land","agriculture","transport","environment"]},
+  {"id":"rights","title":"Rights, finance and government","titleHi":"अधिकार, वित्त और सरकार","categories":["grievances","courts","safety","taxation","transparency","information"]}
+]

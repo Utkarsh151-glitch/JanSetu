@@ -1,0 +1,76 @@
+{
+  "stage": "before",
+  "package": "in.jansetu.app.qa",
+  "repeats": 3,
+  "conditions": "API37 emulator; 1080x2400/420 dpi, font1.0, English/light, 7347 websites/52 services, empty QA tracker. Host ADB/UIAutomator interaction upper bounds, not UI-frame latency. Cold = force-stopped process with OS/disk caches retained.",
+  "rows": [
+    {
+      "repeat": 1,
+      "coldCatalogReadyMs": 36296.999999991385,
+      "amStart": {
+        "TotalTime": 9021,
+        "WaitTime": 9157
+      },
+      "searchInteractionMs": 13734.99999998603,
+      "serviceOpenMs": 6640.00000001397,
+      "emptyTrackerLoadMs": 6875.0,
+      "signedImportMs": 25657.00000000652,
+      "restoreMs": 22500.0
+    },
+    {
+      "repeat": 2,
+      "coldCatalogReadyMs": 37015.00000001397,
+      "amStart": {
+        "TotalTime": 8842,
+        "WaitTime": 8847
+      },
+      "searchInteractionMs": 14171.999999991385,
+      "serviceOpenMs": 6516.00000000326,
+      "emptyTrackerLoadMs": 6187.000000005355,
+      "signedImportMs": 23905.999999988126,
+      "restoreMs": 18891.00000000326
+    },
+    {
+      "repeat": 3,
+      "coldCatalogReadyMs": 36327.99999997951,
+      "amStart": {
+        "TotalTime": 8621,
+        "WaitTime": 8635
+      },
+      "searchInteractionMs": 13577.99999997951,
+      "serviceOpenMs": 6172.000000020489,
+      "emptyTrackerLoadMs": 6264.999999984866,
+      "signedImportMs": 22265.00000001397,
+      "restoreMs": 19092.99999999348
+    }
+  ],
+  "medians": {
+    "coldCatalogReadyMs": 36327.99999997951,
+    "searchInteractionMs": 13734.99999998603,
+    "serviceOpenMs": 6516.00000000326,
+    "emptyTrackerLoadMs": 6264.999999984866,
+    "signedImportMs": 23905.999999988126,
+    "restoreMs": 19092.99999999348
+  },
+  "sourceSha256": {
+    "app\\src\\main\\java\\in\\jansetu\\app\\MainActivity.kt": "64406c5ee48061f850656cdd9096b4666c1898339b645478044623f8ab803b35",
+    "app\\src\\main\\java\\in\\jansetu\\app\\browser\\BrowserPolicy.kt": "3380feb04dafc068c91be78b4e2dd5d166020fdd5b298c0a1bc94bf258e812fc",
+    "app\\src\\main\\java\\in\\jansetu\\app\\catalog\\Catalog.kt": "af6415c250c78782fa271103f5961a10bcb1f5629f4766e83cc9af6938d3df2d",
+    "app\\src\\main\\java\\in\\jansetu\\app\\catalog\\CatalogUpdates.kt": "3ddbf6ca69643929d294068e9825f9d1187add301393fb974f6bd6089f55efdb",
+    "app\\src\\main\\java\\in\\jansetu\\app\\catalog\\Services.kt": "7918c0e55bad8af6b5711c24e4de078cd8935ce8079efbfdc5ee5764076dcbbc",
+    "app\\src\\main\\java\\in\\jansetu\\app\\integrations\\IntegrationRegistry.kt": "b66a0593b9c198d1ee2da6a2120fe264addc5cd44ac532063cf84b43eaa692e1",
+    "app\\src\\main\\java\\in\\jansetu\\app\\settings\\LocalSettings.kt": "fd70565ba0e5129c768dd295d3acf6597b8b5c8b10ba9154dde5a051feecac52",
+    "app\\src\\main\\java\\in\\jansetu\\app\\tracker\\AndroidReminders.kt": "dcb36d47b667030c960151709081de5c4f4d367092f83a181f141e0cd08c3443",
+    "app\\src\\main\\java\\in\\jansetu\\app\\tracker\\Applications.kt": "9ff24c537624ac35ce50b36625546873eaa2bed82c2d3fdf227e39a9a2e2e60e",
+    "app\\src\\main\\java\\in\\jansetu\\app\\tracker\\ApplicationStore.kt": "8fc681e1e1e414b674ca272a3c4ba61a81d69047b3cfb0ad4108e673a49820b7",
+    "app\\src\\main\\java\\in\\jansetu\\app\\tracker\\ReminderPolicy.kt": "2a2277b0eabbe57e152e22adb1944ea28533565430f1ce26b64a2035cc0317f0",
+    "app\\src\\main\\java\\in\\jansetu\\app\\ui\\BrowserScreen.kt": "b9cef437ef2140962af365e648812b31df66c2ab2501b3029525bd43cb034670",
+    "app\\src\\main\\java\\in\\jansetu\\app\\ui\\CatalogManagementScreen.kt": "10042d0a926bfc748ae713199b847ccd4f62d40135201a6bc3ebe84eb70b0e0f",
+    "app\\src\\main\\java\\in\\jansetu\\app\\ui\\OrganizationsScreen.kt": "208d4a488431a8080ca98525f08b4bfaa10ac6c73136469dbf69a62824990e26",
+    "app\\src\\main\\java\\in\\jansetu\\app\\ui\\Screens.kt": "42df4c08e82072305a1c80b75ba2ac75a234d2708f0019e616e9189d3811935b",
+    "app\\src\\main\\java\\in\\jansetu\\app\\ui\\ServiceScreen.kt": "35fb01f84179859937ac677b0c0fde155bcf04678782fd0615289b826d47e903",
+    "app\\src\\main\\java\\in\\jansetu\\app\\ui\\Theme.kt": "9835ab6d0f79345b79cb1339f48de7f38398491e32271b320736e301cc554f2c",
+    "app\\src\\main\\java\\in\\jansetu\\app\\ui\\TrackerScreens.kt": "e69b6af9bd3e02c14da2cb30e8170f927a9c4558efe7e65bf7cc9065bb7677bd"
+  },
+  "apkSha256": "cc23adfe2e11675e5f4c9da9d511ba319f241b370402138d0c65dcfd926e3f87"
+}

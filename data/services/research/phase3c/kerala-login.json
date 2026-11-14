@@ -1,0 +1,57 @@
+{
+  "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+  "retrievedAt": "2026-10-15T23:16:15.097871+00:00",
+  "httpStatus": 200,
+  "finalUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+  "redirects": 0,
+  "success": true,
+  "tlsVerified": true,
+  "curlExit": 0,
+  "sha256": "56f5fdcc34c75951495b39386e7b53e76c2a9051e32812998b944838980e88e4",
+  "bytes": 34907,
+  "text": "e D i s t r i c t X Don't you have an eDistrict account Create your account to access all online services Register now Accessibility Menu NIC Kerala Close Keyboard Nav Cursor Contrast + Bigger Text Desaturate Highlight Links Legible Fonts Read Page Don't you have an eDistrict account Create your account to access all online services Register now Caps Lock is On × Some text in the modal.",
+  "links": [
+    {
+      "text": "Register now",
+      "url": "https://edistrict.kerala.gov.in/registerPortalUser.do"
+    },
+    {
+      "text": "Read Page",
+      "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en"
+    },
+    {
+      "text": "",
+      "url": "https://edistrict.kerala.gov.in/"
+    },
+    {
+      "text": "",
+      "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en"
+    },
+    {
+      "text": "Forgot Password ?",
+      "url": "https://edistrict.kerala.gov.in/portalPasswordReset.do?token=17921061735224460784521124697395"
+    },
+    {
+      "text": "Forgot Password ?",
+      "url": "https://edistrict.kerala.gov.in/officialPasswordReset.do?token=17921061735224460784521124697395"
+    },
+    {
+      "text": "Forgot Loginname ?",
+      "url": "https://edistrict.kerala.gov.in/findportalLoginname.do?token=17921061735224460784521124697395"
+    },
+    {
+      "text": "Login with Jan Parichay",
+      "url": "https://edistrict.kerala.gov.in/janParichayLogin.do"
+    },
+    {
+      "text": "If you do not have an account Register Now",
+      "url": "https://edistrict.kerala.gov.in/registerPortalUser.do"
+    },
+    {
+      "text": "Register now",
+      "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en"
+    }
+  ],
+  "title": "e D i s t r i c t",
+  "review": "Unreviewed retrieval; HTTP success alone is not publication approval or proof of a completed transaction"
+}

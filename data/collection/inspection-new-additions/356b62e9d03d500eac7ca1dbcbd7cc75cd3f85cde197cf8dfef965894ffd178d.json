@@ -1,0 +1,24 @@
+{
+  "url": "https://igod.gov.in/organization/new_additions",
+  "checkedAt": "2026-10-13T23:28:08+00:00",
+  "status": "OK",
+  "httpStatus": 200,
+  "transport": "curl normal TLS validation",
+  "exitCode": 0,
+  "error": "",
+  "location": null,
+  "elapsedMs": 316,
+  "snapshot": "data\\collection\\inspection-new-additions\\356b62e9d03d500eac7ca1dbcbd7cc75cd3f85cde197cf8dfef965894ffd178d.html",
+  "method": "GET",
+  "attempts": [
+    {
+      "checkedAt": "2026-10-13T23:28:08+00:00",
+      "status": "OK",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "error": ""
+    }
+  ],
+  "wireSha256": "f1986f2253dc3ca95532a3820d3e4d245b80b8e725798369e678e3cb6a4fec67",
+  "sha256": "f1986f2253dc3ca95532a3820d3e4d245b80b8e725798369e678e3cb6a4fec67"
+}

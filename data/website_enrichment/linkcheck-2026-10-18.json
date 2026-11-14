@@ -1,0 +1,152 @@
+{
+ "batchId": "2026-10-18-linkcheck",
+ "selectionRule": "Phase 6C link check after the AI pre-review: every published help or task link whose target was only seen as a link, every link the AI pre-review held, and new evidence pages it cited. One read-only load each; no following.",
+ "websites": [],
+ "targetedPages": [
+  {
+   "websiteId": "igod-2715637a8f399700",
+   "url": "https://tnedistrict.tn.gov.in/tneda/",
+   "reason": "Link check (read-only): target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-50b73c3937b8d29b",
+   "url": "https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch&lang=en",
+   "reason": "Link check (read-only): target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-5e885f0e333d5206",
+   "url": "https://edistrict.odisha.gov.in/#team",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-5e885f0e333d5206",
+   "url": "https://edistrict.odisha.gov.in/#contact",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-9908672336cdd912",
+   "url": "https://edistrict.delhigovt.nic.in/Public/TrackApplication",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-9908672336cdd912",
+   "url": "https://edistrict.delhigovt.nic.in/in/en/Public/Help.html",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "national-scholarship-portal",
+   "url": "https://scholarships.gov.in/pfmshelpdesk",
+   "reason": "Link check (read-only): AI pre-review held this link"
+  },
+  {
+   "websiteId": "cpgrams",
+   "url": "https://pgportal.gov.in/Status",
+   "reason": "Link check (read-only): target was only seen as a link"
+  },
+  {
+   "websiteId": "udyam-registration",
+   "url": "https://champions.gov.in/",
+   "reason": "Link check (read-only): target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-7c7865e8e6982bc1",
+   "url": "https://revenue.py.gov.in/services_and_scheme.html",
+   "reason": "Link check (read-only): target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-7c7865e8e6982bc1",
+   "url": "https://revenue.py.gov.in/contact_us.html",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-7c7865e8e6982bc1",
+   "url": "https://revenue.py.gov.in/citizen_charter.html",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "digilocker",
+   "url": "https://www.digilocker.gov.in/web/about/contact-us",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-ec86b21083980772",
+   "url": "https://www.tn.gov.in/services.php",
+   "reason": "Link check (read-only): target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-ec86b21083980772",
+   "url": "https://www.tn.gov.in/contact_directory.php",
+   "reason": "Link check (read-only): AI pre-review held this link"
+  },
+  {
+   "websiteId": "igod-ec86b21083980772",
+   "url": "https://www.tn.gov.in/grievances.php",
+   "reason": "Link check (read-only): target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-fd26b3c2335b6081",
+   "url": "https://www.py.gov.in/onlineservices",
+   "reason": "Link check (read-only): target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-fd26b3c2335b6081",
+   "url": "https://www.py.gov.in/frequently-asked-questions",
+   "reason": "Link check (read-only): target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-ffa4189a2ac66991",
+   "url": "https://services.hp.gov.in/",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-ffa4189a2ac66991",
+   "url": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-781379c678ce1e21",
+   "url": "https://scholarship.odisha.gov.in/know-your-status",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-781379c678ce1e21",
+   "url": "https://scholarship.odisha.gov.in/content/contact-us",
+   "reason": "Link check (read-only): AI pre-review held this link"
+  },
+  {
+   "websiteId": "igod-c01d8df9282d87de",
+   "url": "https://bhavishya.nic.in/availservice.aspx",
+   "reason": "Link check (read-only): target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-e300869e279b9cd4",
+   "url": "https://scholarshipsdhte.jharkhand.gov.in/grievances",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-dc063c5a252aabe5",
+   "url": "https://scholarship.nagaland.gov.in/#contact",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-5891bfd68a83ed15",
+   "url": "https://janasunani.odisha.gov.in/complaint-status",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-5891bfd68a83ed15",
+   "url": "https://janasunani.odisha.gov.in/faq",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-5891bfd68a83ed15",
+   "url": "https://janasunani.odisha.gov.in/contact",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  },
+  {
+   "websiteId": "igod-ef54536511a6523b",
+   "url": "https://ekosh.uk.gov.in/citizen-charter/",
+   "reason": "Link check (read-only): AI pre-review held this link; target was only seen as a link"
+  }
+ ]
+}

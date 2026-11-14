@@ -1,0 +1,206 @@
+{
+ "websiteId": "cpgrams",
+ "url": "https://pgportal.gov.in/Status",
+ "checkedAt": "2026-10-17T20:28:19+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Link check (read-only): target was only seen as a link",
+ "httpStatus": 200,
+ "finalUrl": "https://pgportal.gov.in/Status",
+ "title": "View Status",
+ "lang": "en",
+ "metaDescription": null,
+ "text": "भारत सरकार\nGovernment of India\nकार्मिक, लोक शिकायत और पेंशन मंत्रालय\nMinistry of Personnel, Public Grievances & Pensions\nHome\nContact Us\nAbout Us\nFAQs/Help\nSite Map\nCPGRAMS\nCentralized Public Grievance Redress And Monitoring System\nView Status \nNodal PG Officers \nRedress Process \nGrievance \nNodal Authority for Appeal\n(current)\n Mobile App\nLanguage :\nEnglish\n Sign In\nView Status\nFields marked with * are mandatory.\n\nRegistration number\n\n\nSecurity Code\nProceed\n  \nThis site is designed, developed & hosted by National Informatics Centre, Ministry of Electronics & IT (MeitY), Government of India and Content owned by Department of Administrative Reforms & Public Grievances.\n\nPortal is Compatible with all major Browsers like Google Chrome, Mozilla Firefox, Microsoft Edge, Safari etc.\n\nBest Viewed in 1440 x 900 resolution\n\n\n\n\n\n\n\n\n\n\n\n\nDisclaimer Website Policies Web Information Manager Version 7.0.01092019.0.0, Copyright © 2026 Last Updated On: 14-10-2026 Total Visitors : 8177701 (since 19-01-2024)",
+ "textSha256": "7ac1826002eccea755edfbd9f9e0c88afd9d1568006713d1cf22304ee6c7d792",
+ "links": [
+  {
+   "text": "Home",
+   "href": "https://pgportal.gov.in/"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://pgportal.gov.in/Home/ContactUs"
+  },
+  {
+   "text": "About Us",
+   "href": "https://pgportal.gov.in/Home/AboutUs"
+  },
+  {
+   "text": "FAQs/Help",
+   "href": "https://pgportal.gov.in/Home/Faq"
+  },
+  {
+   "text": "Site Map",
+   "href": "https://pgportal.gov.in/Sitemap"
+  },
+  {
+   "text": "View Status",
+   "href": "https://pgportal.gov.in/Status#"
+  },
+  {
+   "text": "Grievance Status",
+   "href": "https://pgportal.gov.in/Status"
+  },
+  {
+   "text": "Appeal Status",
+   "href": "https://pgportal.gov.in/Appeal/Status"
+  },
+  {
+   "text": "Nodal PG Officers",
+   "href": "https://pgportal.gov.in/Status#"
+  },
+  {
+   "text": "Central Government",
+   "href": "https://pgportal.gov.in/Home/NodalPgOfficers"
+  },
+  {
+   "text": "State Government",
+   "href": "https://pgportal.gov.in/Home/NodalPgOfficersState"
+  },
+  {
+   "text": "Redress Process",
+   "href": "https://pgportal.gov.in/Status#"
+  },
+  {
+   "text": "Redress Process Flow",
+   "href": "https://pgportal.gov.in/Home/ProcessFlow"
+  },
+  {
+   "text": "Grievance",
+   "href": "https://pgportal.gov.in/Status#"
+  },
+  {
+   "text": "Lodge Public Grievance",
+   "href": "https://pgportal.gov.in/Home/LodgeGrievance"
+  },
+  {
+   "text": "View Status",
+   "href": "https://pgportal.gov.in/Status"
+  },
+  {
+   "text": "Reminder Clarification",
+   "href": "https://pgportal.gov.in/Reminder"
+  },
+  {
+   "text": "Rate Grievance",
+   "href": "https://pgportal.gov.in/status/Index/F2A735FA35FCA11528479B9308348C17"
+  },
+  {
+   "text": "Nodal Authority for Appeal (current)",
+   "href": "https://pgportal.gov.in/Home/NodalAuthorityForAppeal"
+  },
+  {
+   "text": "English",
+   "href": "https://pgportal.gov.in/Status#"
+  },
+  {
+   "text": "English",
+   "href": "https://pgportal.gov.in/Culture/Index/en"
+  },
+  {
+   "text": "हिंदी (Hindi)",
+   "href": "https://pgportal.gov.in/Culture/Index/hi"
+  },
+  {
+   "text": "ગુજરાતી (Gujarati)",
+   "href": "https://pgportal.gov.in/Culture/Index/gu"
+  },
+  {
+   "text": "मराठी (Marathi)",
+   "href": "https://pgportal.gov.in/Culture/Index/mr"
+  },
+  {
+   "text": "বাংলা (Bangala)",
+   "href": "https://pgportal.gov.in/Culture/Index/bn"
+  },
+  {
+   "text": "తెలుగు (Telugu)",
+   "href": "https://pgportal.gov.in/Culture/Index/te"
+  },
+  {
+   "text": "অসমীয়া (Assamese)",
+   "href": "https://pgportal.gov.in/Culture/Index/as"
+  },
+  {
+   "text": "ଓଡିଆ (Odia)",
+   "href": "https://pgportal.gov.in/Culture/Index/or"
+  },
+  {
+   "text": "தமிழ் (Tamil)",
+   "href": "https://pgportal.gov.in/Culture/Index/ta"
+  },
+  {
+   "text": "മലയാളം (Malayalam)",
+   "href": "https://pgportal.gov.in/Culture/Index/ml"
+  },
+  {
+   "text": "(Urdu) اردو",
+   "href": "https://pgportal.gov.in/Culture/Index/ur"
+  },
+  {
+   "text": "Sindhi",
+   "href": "https://pgportal.gov.in/Culture/Index/sd"
+  },
+  {
+   "text": "बोडो (Bodo)",
+   "href": "https://pgportal.gov.in/Culture/Index/br"
+  },
+  {
+   "text": "कोंकणी (Konkani)",
+   "href": "https://pgportal.gov.in/Culture/Index/ko"
+  },
+  {
+   "text": "नेपाली (Nepali)",
+   "href": "https://pgportal.gov.in/Culture/Index/ne"
+  },
+  {
+   "text": "Manipuri",
+   "href": "https://pgportal.gov.in/Culture/Index/mn"
+  },
+  {
+   "text": "ਪੰਜਾਬੀ (Punjabi)",
+   "href": "https://pgportal.gov.in/Culture/Index/pa"
+  },
+  {
+   "text": "ಕನ್ನಡ (Kannada)",
+   "href": "https://pgportal.gov.in/Culture/Index/kn"
+  },
+  {
+   "text": "डोगरी (Dogri)",
+   "href": "https://pgportal.gov.in/Culture/Index/da"
+  },
+  {
+   "text": "मैथिली (Maithili)",
+   "href": "https://pgportal.gov.in/Culture/Index/mt"
+  },
+  {
+   "text": "کشمیر (Kashmiri)",
+   "href": "https://pgportal.gov.in/Culture/Index/ks"
+  },
+  {
+   "text": "संस्कृत (Sanskrit)",
+   "href": "https://pgportal.gov.in/Culture/Index/sa"
+  },
+  {
+   "text": "ᱥᱟᱱᱛᱟᱲᱤ (Santhali)",
+   "href": "https://pgportal.gov.in/Culture/Index/st"
+  },
+  {
+   "text": "Sign In",
+   "href": "https://pgportal.gov.in/Signin"
+  },
+  {
+   "text": "Disclaimer",
+   "href": "https://pgportal.gov.in/Home/Disclaimer"
+  },
+  {
+   "text": "Website Policies",
+   "href": "https://pgportal.gov.in/Home/WebsitePolicies"
+  },
+  {
+   "text": "Web Information Manager",
+   "href": "https://darpg.gov.in/en/web-information-manager"
+  }
+ ],
+ "attempt": 1
+}

@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-ef54536511a6523b",
+ "url": "https://ekosh.uk.gov.in/",
+ "checkedAt": "2026-10-17T19:18:07+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://ekosh.uk.gov.in/\nCall log:\n  - navigating to \"https://ekosh.uk.gov.in/\", waiting until ",
+ "attempt": 1
+}

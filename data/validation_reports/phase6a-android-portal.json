@@ -1,0 +1,42 @@
+{
+  "startedAt": "2026-10-17T10:15:13+00:00",
+  "package": "in.jansetu.app.qa",
+  "url": "https://www.india.gov.in/",
+  "deviceBefore": {
+    "night": "Night mode: no",
+    "font_scale": "1.0",
+    "density": "Physical density: 420",
+    "size": "Physical size: 1080x2400",
+    "accelerometer_rotation": "1",
+    "user_rotation": "0",
+    "animator_duration_scale": "null",
+    "transition_animation_scale": "1.0",
+    "wifi": "1",
+    "mobile_data": "1",
+    "airplane_mode": "0",
+    "sdk": "37"
+  },
+  "deviceAfter": {
+    "night": "Night mode: no",
+    "font_scale": "1.0",
+    "density": "Physical density: 420",
+    "size": "Physical size: 1080x2400",
+    "accelerometer_rotation": "1",
+    "user_rotation": "0",
+    "animator_duration_scale": "null",
+    "transition_animation_scale": "1.0",
+    "wifi": "1",
+    "mobile_data": "1",
+    "airplane_mode": "0",
+    "sdk": "37"
+  },
+  "captured": [
+    "india-portal-android-a100-font1",
+    "india-portal-android-a125-font1",
+    "india-portal-android-a125-font2",
+    "india-portal-android-a100-font2",
+    "india-portal-android-landscape-font1"
+  ],
+  "notes": {},
+  "scope": "JanSetu in-app WebView, QA package only; only JanSetu's own A/A+ control was used."
+}

@@ -1,0 +1,93 @@
+{
+ "websiteId": "igod-18649bde195e5a01",
+ "url": "https://cpwdsewa.gov.in/Public_Portal/contactresi.aspx?rnr=call_rnr",
+ "checkedAt": "2026-10-17T19:27:25+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "httpStatus": 200,
+ "finalUrl": "https://cpwdsewa.gov.in/Default.aspx?ReturnUrl=%2ferrorStatus.aspx",
+ "title": "Home | CPWDSewa",
+ "lang": "en",
+ "metaDescription": null,
+ "text": "CPWDSewa\nCENTRAL PUBLIC WORKS DEPARTMENT\nCPWDSewa\nMinistry of Housing and Urban Affairs\nHome\nCities\n84\nResidential Service Centres\n735\nNon Residential Service Centre\n439\nComplaints Lodged Today*\n1\nContact Us\n*as on 18/10/2026 12:00 AM\nResidents\nService Centre\nManagement\nCall Centre\nDirectorate of Estates\nMobile App for Android / Apple phone has been updated. Users may download the updated version from Google Play and Apple App Store.\nAccessibility Statement\nWeb Information Manager\nMaintenance Charter\nPeriodic/ Upgradation Work\nPruning of Trees\nSurvey Report\nMobile App\nSMS\nComplaints Statistics\nComplaint Status\nStatus of House\nComplaints Type\n Designed and Developed by National Informatics Centre हिन्दी",
+ "textSha256": "33551b8e90201be732b19679f132ebaf3c3c124ab86908b0dc74b0f97bc5b06f",
+ "links": [
+  {
+   "text": "Home",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/main.aspx"
+  },
+  {
+   "text": "84",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/PP_Cities.aspx?pg_name=PP_city"
+  },
+  {
+   "text": "735",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/PP_SC.aspx?mode=R"
+  },
+  {
+   "text": "439",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/PP_SC.aspx?mode=NR"
+  },
+  {
+   "text": "1",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/PP_Complaints.aspx?pg_name=PP_compl"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/contactresi.aspx?rnr=call_rnr"
+  },
+  {
+   "text": "Residents",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/Login_mobile.aspx"
+  },
+  {
+   "text": "Service Centre",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/Login.aspx"
+  },
+  {
+   "text": "Management",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/mgmt_login.aspx"
+  },
+  {
+   "text": "Call Centre",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/Call_Login.aspx"
+  },
+  {
+   "text": "Directorate of Estates",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/Doe_Login.aspx"
+  },
+  {
+   "text": "Accessibility Statement",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/Accessibility_Statement.aspx"
+  },
+  {
+   "text": "Web Information Manager",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/Web_info.aspx?show=one"
+  },
+  {
+   "text": "Survey Report",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/PP_Quarterly_Survey_MIS.aspx"
+  },
+  {
+   "text": "SMS",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/Web_info.aspx?show=two"
+  },
+  {
+   "text": "Complaints Statistics",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/Complaints_Statistics.aspx"
+  },
+  {
+   "text": "Complaint Status",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/PP_ComplaintSearch.aspx"
+  },
+  {
+   "text": "Status of House",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/PP_Status_of_House.aspx"
+  },
+  {
+   "text": "Complaints Type",
+   "href": "https://cpwdsewa.gov.in/Public_Portal/PP_ComplaintTypes.aspx"
+  }
+ ],
+ "attempt": 1
+}

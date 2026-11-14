@@ -1,0 +1,188 @@
+{
+  "version": 10,
+  "organizations": [
+    {
+      "id": "org-7077af4eaac38e33",
+      "name": "National Scholarship Portal",
+      "websiteIds": [
+        "national-scholarship-portal"
+      ]
+    },
+    {
+      "id": "org-05a96313c65f060b",
+      "name": "Tamil Nadu eSevai Portal, Tamil Nadu",
+      "websiteIds": [
+        "igod-2715637a8f399700"
+      ]
+    },
+    {
+      "id": "org-7ed359018f05059a",
+      "name": "Ministry of Labour & Employment",
+      "websiteIds": [
+        "national-career-service"
+      ]
+    },
+    {
+      "id": "org-e999f31ac201d555",
+      "name": "Unique Identification Authority of India",
+      "websiteIds": [
+        "uidai"
+      ]
+    },
+    {
+      "id": "org-afff511c4bead63d",
+      "name": "Department of Administrative Reforms & Public Grievances",
+      "websiteIds": [
+        "cpgrams"
+      ]
+    },
+    {
+      "id": "org-7f72318d5949adac",
+      "name": "Department of Personnel and Training",
+      "websiteIds": [
+        "rti-online"
+      ]
+    },
+    {
+      "id": "org-caf4f9732b6768f4",
+      "name": "Ministry of Micro, Small and Medium Enterprises",
+      "websiteIds": [
+        "udyam-registration"
+      ]
+    },
+    {
+      "id": "org-5763d05f09e5a8be",
+      "name": "Ministry of Micro, Small & Medium Enterprises (MSME)",
+      "websiteIds": [
+        "igod-1d591544b1c2e25d"
+      ]
+    }
+  ],
+  "approvals": {
+    "aicte-pragati-degree": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+      "candidateSha256": "9afeb66df9211d8649ffe5685cff06e91b8d34871e225728585f4f8ae234a4e4"
+    },
+    "aicte-saksham-degree": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+      "candidateSha256": "e4fd2848df30e8f81770869c41d996f9193088680e058904a7e9e1378bd6af5c"
+    },
+    "aicte-swanath-degree": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+      "candidateSha256": "d08d529605f1bb6172e4650e4cf8569728b59a821243ed850eef0abc795f0821"
+    },
+    "tn-community-certificate": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "candidateSha256": "774b8d7055ac92023b39aaab8b6ede993cba9673aa010d9b804f0b7ad8c7eda5"
+    },
+    "tn-nativity-certificate": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "candidateSha256": "8ecc9a9f710d8419c78416607aa5c79b25fb221229a75f67511c0200c1cc98ef"
+    },
+    "tn-income-certificate": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "candidateSha256": "716ff3c8cce56e0b636069e517913e5d67296e836ffe4e1f36cee82fd542b922"
+    },
+    "tn-birth-certificate-print": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "candidateSha256": "9dd571789ecdcd85951300f2ecfb588b2fca9bc58a8b15e619ce0bd6c2089a55"
+    },
+    "tn-old-age-pension": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "candidateSha256": "604068fc95313be424c29c8182eae8a4f89bfc881e1c3090b5a6b9e61f21884c"
+    },
+    "tn-widow-pension": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "candidateSha256": "d6a9396472a44b8e6d5cff9366d338ef32e18bb3c4b5c1ddfc5633c7e7ae1b43"
+    },
+    "tn-disability-pension": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "candidateSha256": "6ccf143520c2c517a0dd55f8831d6f4de0770c26f37ee41d29b4a15aa9296fae"
+    },
+    "tn-unemployment-certificate": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "candidateSha256": "940852391577f34ae6568aef784e39e831eec53244d6eb6713a0723acc1f5db2"
+    },
+    "tn-legal-heir-certificate": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "candidateSha256": "3ea10940af803dee994a9379e7286682a144dd8879cb75547cb86d2c01b3214b"
+    },
+    "ncs-government-job-search": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "candidateSha256": "102711285aec16fbd4d28f582994245ee0531012133dcd0daee147c2ad50cbe0"
+    },
+    "ncs-jobseeker-registration": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "candidateSha256": "d88f13f1ae0f20f39216e26b7173189ce771d27e72347505615c2d5d8a89fae1"
+    },
+    "ncs-career-counselling": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "candidateSha256": "75d9f37cdb1d977ed585a6df930db881fd2e0c4777d2fd466ea45ec2971d52bb"
+    },
+    "aadhaar-download": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+      "candidateSha256": "fe37bbc41b158e78ccd7a343782dda68928f397807ac4aaf82c48e8722bd9a62"
+    },
+    "aadhaar-address-update": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+      "candidateSha256": "99cda0c4479a744cdbb5fb18a902d710a27d19a17646bc7c89f7c6497fcaf5c8"
+    },
+    "aadhaar-pvc-card": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+      "candidateSha256": "779c92e59b561cfeab5b326d3891da4df46433f4d737b7cd3b5ce5f3d1411e36"
+    },
+    "aadhaar-biometric-lock": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+      "candidateSha256": "64c2966a57f721638a07b1446ee40d60e21a9742fb7fc8e05740e1efde5fdc83"
+    },
+    "cpgrams-public-grievance": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "candidateSha256": "ecce7a87ebad49eacd20d5c49fcd15335b311050755b3c5c14a7e1320eb32b6e"
+    },
+    "cpgrams-grievance-appeal": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "candidateSha256": "dcb277f8267b20b71b86778585534cf30342b53fa350fde4f9424485437d2cb0"
+    },
+    "rti-central-request": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "candidateSha256": "f3d1a52ef01c477b7f33a2420c0ac29cba5993b061885d6a45526b5ab0d1623b"
+    },
+    "rti-first-appeal": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "candidateSha256": "dea75388fc33ae2252f58a98e6b14f5df5f712f5d12cdf3993e3ff1beb5f9ba5"
+    },
+    "udyam-new-registration": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "candidateSha256": "9c042ce7727bd5c66a5f389c16cad5cbec6d973c624989ee951b4955ecd7adae"
+    },
+    "pmegp-enterprise-support": {
+      "reviewedBy": "Codex official-source review (not a human verification claim)",
+      "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Information-only record. A candidate application host failed TLS verification on this machine, so no application button is published. Current eligibility, documents, funding window and route require further review.",
+      "candidateSha256": "951d3a6c541addf0781fa9b324668d29efa4122149980337fea0e54f499be270"
+    }
+  }
+}

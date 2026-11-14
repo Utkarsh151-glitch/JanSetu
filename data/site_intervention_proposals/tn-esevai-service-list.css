@@ -1,0 +1,18 @@
+/*
+ * PROPOSAL ONLY. Not packaged with, referenced by or loaded by the JanSetu
+ * extension or Android app. Approval requires the review in
+ * docs/UI_INTERVENTION_MATRIX.md and an entry with status "approved" in
+ * data/site_interventions.json.
+ *
+ * Page:    https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx (exact path, no query)
+ * Problem: the 843px service table sits in div.smooth-overflow with
+ *          overflow-x: hidden, so the Fee, List of Document Required and
+ *          link to apply columns cannot be reached below about 860px width
+ *          (data/validation_reports/phase6a-page-structure.json, 2026-10-17).
+ * Change:  let that one container scroll sideways. Text, colours, sizes,
+ *          links and the site's own controls are not touched.
+ * Restore: remove this stylesheet; nothing else is changed.
+ */
+:where(div.smooth-overflow) {
+  overflow-x: auto !important;
+}

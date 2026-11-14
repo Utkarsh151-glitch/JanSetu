@@ -1,0 +1,10 @@
+{
+ "websiteId": "india-portal",
+ "url": "https://www.india.gov.in/",
+ "checkedAt": "2026-10-17T10:53:31+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "httpStatus": 403,
+ "finalUrl": "https://www.india.gov.in/",
+ "result": "access_or_server_response; not a content observation"
+}

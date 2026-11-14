@@ -1,0 +1,15 @@
+/* RETIRED 2026-10-18 and removed from the extension in Phase 17. Kept only as evidence for the Phase 6A
+   evaluation and its fixture tests. It is not packaged and nothing can apply it. */
+:where(p, main li, article li) {
+  font-size: max(1rem, 1.05em) !important;
+  line-height: 1.65 !important;
+  letter-spacing: 0.01em !important;
+}
+:where(a) {
+  text-decoration-thickness: 0.09em !important;
+  text-underline-offset: 0.17em !important;
+}
+:where(a, button, input, select, textarea):focus-visible {
+  outline: 3px solid #0d6b61 !important;
+  outline-offset: 3px !important;
+}

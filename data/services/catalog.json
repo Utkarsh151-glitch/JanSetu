@@ -1,0 +1,4114 @@
+{
+  "version": 14,
+  "services": [
+    {
+      "id": "aicte-pragati-degree",
+      "websiteId": "national-scholarship-portal",
+      "organizationId": "org-7077af4eaac38e33",
+      "title": "AICTE Pragati Scholarship for Girl Students (Degree)",
+      "description": "Scholarship support for eligible technical degree students.",
+      "categories": [
+        "education"
+      ],
+      "department": "All India Council for Technical Education",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "I need a scholarship for engineering",
+        "apply for pragati scholarship"
+      ],
+      "synonyms": [
+        "pragati",
+        "engineering scholarship",
+        "technical education",
+        "student financial assistance"
+      ],
+      "informationUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf",
+      "sourceUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf",
+      "applicationUrl": "https://scholarships.gov.in/",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "pragati",
+          "url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf",
+          "publisher": "AICTE",
+          "checkedOn": "2026-10-16",
+          "summary": "Degree scholarship conditions and application procedure.",
+          "locator": "Sections 2, 6, 10 and renewals; July 2020 guidelines linked by current NSP",
+          "contentSha256": "1e493333bc25f9adf9192624a0f92104845f5c5e3b3a00e1ec52af5302a4b10f"
+        },
+        {
+          "id": "nsp",
+          "url": "https://scholarships.gov.in/All-Scholarships",
+          "publisher": "National Scholarship Portal",
+          "checkedOn": "2026-10-16",
+          "summary": "The degree scheme is listed on the current NSP page.",
+          "locator": "Current AICTE scheme list",
+          "contentSha256": "6168af5cf69ad11807dcfdbe8af6a490743e720eb7752daef4250633e32a626f"
+        }
+      ],
+      "linkEvidenceIds": [
+        "pragati",
+        "nsp"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+      "eligibility": {
+        "text": "Selected conditions: girls entering year one, or year two through lateral entry, of an AICTE-approved degree; family income up to INR 8 lakh; at most two girls per family. Read the guidelines for exclusions.",
+        "evidenceIds": [
+          "pragati"
+        ]
+      },
+      "documents": [
+        {
+          "text": "State/UT income certificate.",
+          "evidenceIds": [
+            "pragati"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": [
+        {
+          "text": "Use the NSP student application process for this scheme; institution and State/UT scrutiny follow.",
+          "evidenceIds": [
+            "pragati"
+          ]
+        }
+      ],
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "aicte-saksham-degree",
+      "websiteId": "national-scholarship-portal",
+      "organizationId": "org-7077af4eaac38e33",
+      "title": "AICTE Saksham Scholarship for Specially-Abled Students (Degree)",
+      "description": "Scholarship support for eligible technical degree students.",
+      "categories": [
+        "education"
+      ],
+      "department": "All India Council for Technical Education",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "I need a scholarship for engineering",
+        "apply for saksham scholarship"
+      ],
+      "synonyms": [
+        "saksham",
+        "engineering scholarship",
+        "technical education",
+        "student financial assistance"
+      ],
+      "informationUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
+      "sourceUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
+      "applicationUrl": "https://scholarships.gov.in/",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "saksham",
+          "url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
+          "publisher": "AICTE",
+          "checkedOn": "2026-10-16",
+          "summary": "Degree scholarship conditions and application procedure.",
+          "locator": "Sections 2, 6, 7 and 8; July 2020 guidelines linked by current NSP",
+          "contentSha256": "06ebed9e50a47ae76cba985ddde78cd65f19f2193b0e4c9c164fff529580474c"
+        },
+        {
+          "id": "nsp",
+          "url": "https://scholarships.gov.in/All-Scholarships",
+          "publisher": "National Scholarship Portal",
+          "checkedOn": "2026-10-16",
+          "summary": "The degree scheme is listed on the current NSP page.",
+          "locator": "Current AICTE scheme list",
+          "contentSha256": "6168af5cf69ad11807dcfdbe8af6a490743e720eb7752daef4250633e32a626f"
+        }
+      ],
+      "linkEvidenceIds": [
+        "saksham",
+        "nsp"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+      "eligibility": {
+        "text": "Selected conditions: AICTE-approved degree admission in year one or lateral entry in year two; disability at least 40%; family income up to INR 8 lakh. Other conditions apply.",
+        "evidenceIds": [
+          "saksham"
+        ]
+      },
+      "documents": [
+        {
+          "text": "State/UT income certificate.",
+          "evidenceIds": [
+            "saksham"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": [
+        {
+          "text": "Use the NSP student application process for this scheme; institution and State/UT scrutiny follow.",
+          "evidenceIds": [
+            "saksham"
+          ]
+        }
+      ],
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "aicte-swanath-degree",
+      "websiteId": "national-scholarship-portal",
+      "organizationId": "org-7077af4eaac38e33",
+      "title": "AICTE Swanath Scholarship (Technical Degree)",
+      "description": "Scholarship support for eligible technical degree students.",
+      "categories": [
+        "education"
+      ],
+      "department": "All India Council for Technical Education",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "I need a scholarship for engineering",
+        "apply for swanath scholarship"
+      ],
+      "synonyms": [
+        "swanath",
+        "engineering scholarship",
+        "technical education",
+        "student financial assistance"
+      ],
+      "informationUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
+      "sourceUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
+      "applicationUrl": "https://scholarships.gov.in/",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "swanath",
+          "url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
+          "publisher": "AICTE",
+          "checkedOn": "2026-10-16",
+          "summary": "Degree scholarship conditions and application procedure.",
+          "locator": "May 2025 guidelines, sections 2, 7 and 10",
+          "contentSha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04"
+        },
+        {
+          "id": "nsp",
+          "url": "https://scholarships.gov.in/All-Scholarships",
+          "publisher": "National Scholarship Portal",
+          "checkedOn": "2026-10-16",
+          "summary": "The degree scheme is listed on the current NSP page.",
+          "locator": "Current AICTE scheme list",
+          "contentSha256": "6168af5cf69ad11807dcfdbe8af6a490743e720eb7752daef4250633e32a626f"
+        }
+      ],
+      "linkEvidenceIds": [
+        "swanath",
+        "nsp"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+      "eligibility": {
+        "text": "Qualifying family circumstances include orphanhood, parental death due to COVID-19, a parent martyred in specified forces, or the specified critical illness/accident category. Income up to INR 8 lakh, regular AICTE-approved study and no other government/AICTE scholarship are also required.",
+        "evidenceIds": [
+          "swanath"
+        ]
+      },
+      "documents": [
+        {
+          "text": "Institution bonafide certificate and applicable income evidence; see category-specific checklist.",
+          "evidenceIds": [
+            "swanath"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": [
+        {
+          "text": "Use the NSP student application process for this scheme; institution and State/UT scrutiny follow.",
+          "evidenceIds": [
+            "swanath"
+          ]
+        }
+      ],
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "tn-community-certificate",
+      "websiteId": "igod-2715637a8f399700",
+      "organizationId": "org-05a96313c65f060b",
+      "title": "Community Certificate (Tamil Nadu)",
+      "description": "Community certification.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Administration, Government of Tamil Nadu",
+      "level": "State",
+      "state": "Tamil Nadu",
+      "district": null,
+      "citizenIntents": [
+        "How can I get a caste certificate"
+      ],
+      "synonyms": [
+        "community certificate",
+        "caste certificate",
+        "जाति प्रमाणपत्र"
+      ],
+      "informationUrl": "https://serviceonline.gov.in/configuretn/login.do",
+      "sourceUrl": "https://serviceonline.gov.in/configuretn/login.do",
+      "applicationUrl": null,
+      "applicationMode": "assisted",
+      "evidence": [
+        {
+          "id": "tn-community",
+          "url": "https://serviceonline.gov.in/configuretn/login.do",
+          "publisher": "Tamil Nadu e-Governance Agency / ServicePlus",
+          "checkedOn": "2026-10-16",
+          "summary": "community certificate service.",
+          "locator": "Description, access steps and service-specific documents",
+          "contentSha256": "b13c8222ab52490c67c4d5d700f4446f108ad2e6d0ea3edb527f0ca55ed01e51"
+        }
+      ],
+      "linkEvidenceIds": [
+        "tn-community"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Applicant photo, address evidence and self-declaration.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "A parent or sibling community certificate, where applicable.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Register/login on the official service platform and select the relevant service.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "tn-nativity-certificate",
+      "websiteId": "igod-2715637a8f399700",
+      "organizationId": "org-05a96313c65f060b",
+      "title": "Nativity Certificate (Tamil Nadu)",
+      "description": "Nativity certification.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Administration, Government of Tamil Nadu",
+      "level": "State",
+      "state": "Tamil Nadu",
+      "district": null,
+      "citizenIntents": [
+        "apply for nativity certificate"
+      ],
+      "synonyms": [
+        "nativity certificate",
+        "residence origin"
+      ],
+      "informationUrl": "https://serviceonline.gov.in/configuretn/login.do",
+      "sourceUrl": "https://serviceonline.gov.in/configuretn/login.do",
+      "applicationUrl": null,
+      "applicationMode": "assisted",
+      "evidence": [
+        {
+          "id": "tn-community",
+          "url": "https://serviceonline.gov.in/configuretn/login.do",
+          "publisher": "Tamil Nadu e-Governance Agency / ServicePlus",
+          "checkedOn": "2026-10-16",
+          "summary": "nativity certificate service.",
+          "locator": "Description, access steps and service-specific documents",
+          "contentSha256": "b13c8222ab52490c67c4d5d700f4446f108ad2e6d0ea3edb527f0ca55ed01e51"
+        }
+      ],
+      "linkEvidenceIds": [
+        "tn-community"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Applicant photo, address evidence and self-declaration.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "Birth certificate or school/employment/residence-history proof, as applicable.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Register/login on the official service platform and select the relevant service.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "tn-income-certificate",
+      "websiteId": "igod-2715637a8f399700",
+      "organizationId": "org-05a96313c65f060b",
+      "title": "Income Certificate (Tamil Nadu)",
+      "description": "Income certification.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Administration, Government of Tamil Nadu",
+      "level": "State",
+      "state": "Tamil Nadu",
+      "district": null,
+      "citizenIntents": [
+        "apply for income certificate"
+      ],
+      "synonyms": [
+        "income certificate",
+        "earnings proof"
+      ],
+      "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "applicationUrl": null,
+      "applicationMode": "assisted",
+      "evidence": [
+        {
+          "id": "tn",
+          "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+          "publisher": "Tamil Nadu e-Governance Agency",
+          "checkedOn": "2026-10-16",
+          "summary": "income certificate service.",
+          "locator": "Named service row in official eSevai centre list",
+          "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+        }
+      ],
+      "linkEvidenceIds": [
+        "tn"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "tn-birth-certificate-print",
+      "websiteId": "igod-2715637a8f399700",
+      "organizationId": "org-05a96313c65f060b",
+      "title": "Printing of Birth Certificate (Tamil Nadu)",
+      "description": "Print an existing birth record.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Directorate of Public Health, Government of Tamil Nadu",
+      "level": "State",
+      "state": "Tamil Nadu",
+      "district": null,
+      "citizenIntents": [
+        "How do I obtain a birth certificate"
+      ],
+      "synonyms": [
+        "birth certificate",
+        "birth record copy",
+        "जन्म प्रमाणपत्र"
+      ],
+      "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "applicationUrl": null,
+      "applicationMode": "assisted",
+      "evidence": [
+        {
+          "id": "tn",
+          "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+          "publisher": "Tamil Nadu e-Governance Agency",
+          "checkedOn": "2026-10-16",
+          "summary": "birth certificate service.",
+          "locator": "Named service row in official eSevai centre list",
+          "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+        }
+      ],
+      "linkEvidenceIds": [
+        "tn"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "tn-old-age-pension",
+      "websiteId": "igod-2715637a8f399700",
+      "organizationId": "org-05a96313c65f060b",
+      "title": "Indira Gandhi National Old Age Pension Scheme — Tamil Nadu access",
+      "description": "Old-age pension application access.",
+      "categories": [
+        "welfare"
+      ],
+      "department": "Revenue Administration, Government of Tamil Nadu",
+      "level": "State",
+      "state": "Tamil Nadu",
+      "district": null,
+      "citizenIntents": [
+        "I want to apply for a pension"
+      ],
+      "synonyms": [
+        "pension",
+        "old age pension",
+        "senior citizen support"
+      ],
+      "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "applicationUrl": null,
+      "applicationMode": "assisted",
+      "evidence": [
+        {
+          "id": "tn",
+          "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+          "publisher": "Tamil Nadu e-Governance Agency",
+          "checkedOn": "2026-10-16",
+          "summary": "pension service.",
+          "locator": "Named service row in official eSevai centre list",
+          "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+        }
+      ],
+      "linkEvidenceIds": [
+        "tn"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "tn-widow-pension",
+      "websiteId": "igod-2715637a8f399700",
+      "organizationId": "org-05a96313c65f060b",
+      "title": "Destitute Widow Pension Scheme (Tamil Nadu)",
+      "description": "Widow pension application access.",
+      "categories": [
+        "welfare"
+      ],
+      "department": "Revenue Administration, Government of Tamil Nadu",
+      "level": "State",
+      "state": "Tamil Nadu",
+      "district": null,
+      "citizenIntents": [
+        "I want to apply for a pension"
+      ],
+      "synonyms": [
+        "widow pension",
+        "pension benefits"
+      ],
+      "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "applicationUrl": null,
+      "applicationMode": "assisted",
+      "evidence": [
+        {
+          "id": "tn",
+          "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+          "publisher": "Tamil Nadu e-Governance Agency",
+          "checkedOn": "2026-10-16",
+          "summary": "widow pension service.",
+          "locator": "Named service row in official eSevai centre list",
+          "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+        }
+      ],
+      "linkEvidenceIds": [
+        "tn"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "tn-disability-pension",
+      "websiteId": "igod-2715637a8f399700",
+      "organizationId": "org-05a96313c65f060b",
+      "title": "Differently Abled Pension Scheme (Tamil Nadu)",
+      "description": "Disability pension application access.",
+      "categories": [
+        "welfare"
+      ],
+      "department": "Revenue Administration, Government of Tamil Nadu",
+      "level": "State",
+      "state": "Tamil Nadu",
+      "district": null,
+      "citizenIntents": [
+        "I want to apply for a pension"
+      ],
+      "synonyms": [
+        "disability pension",
+        "differently abled benefits"
+      ],
+      "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "applicationUrl": null,
+      "applicationMode": "assisted",
+      "evidence": [
+        {
+          "id": "tn",
+          "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+          "publisher": "Tamil Nadu e-Governance Agency",
+          "checkedOn": "2026-10-16",
+          "summary": "disability pension service.",
+          "locator": "Named service row in official eSevai centre list",
+          "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+        }
+      ],
+      "linkEvidenceIds": [
+        "tn"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "tn-unemployment-certificate",
+      "websiteId": "igod-2715637a8f399700",
+      "organizationId": "org-05a96313c65f060b",
+      "title": "Unemployment Certificate (Tamil Nadu)",
+      "description": "Unemployment certification.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Administration, Government of Tamil Nadu",
+      "level": "State",
+      "state": "Tamil Nadu",
+      "district": null,
+      "citizenIntents": [
+        "apply for unemployment certificate"
+      ],
+      "synonyms": [
+        "unemployment certificate",
+        "jobless certificate"
+      ],
+      "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "applicationUrl": null,
+      "applicationMode": "assisted",
+      "evidence": [
+        {
+          "id": "tn",
+          "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+          "publisher": "Tamil Nadu e-Governance Agency",
+          "checkedOn": "2026-10-16",
+          "summary": "unemployment certificate service.",
+          "locator": "Named service row in official eSevai centre list",
+          "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+        }
+      ],
+      "linkEvidenceIds": [
+        "tn"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "tn-legal-heir-certificate",
+      "websiteId": "igod-2715637a8f399700",
+      "organizationId": "org-05a96313c65f060b",
+      "title": "Legal Heir Certificate (Tamil Nadu)",
+      "description": "Legal heir certification.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Administration, Government of Tamil Nadu",
+      "level": "State",
+      "state": "Tamil Nadu",
+      "district": null,
+      "citizenIntents": [
+        "apply for legal heir certificate"
+      ],
+      "synonyms": [
+        "legal heir certificate",
+        "succession proof"
+      ],
+      "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+      "applicationUrl": null,
+      "applicationMode": "assisted",
+      "evidence": [
+        {
+          "id": "tn",
+          "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+          "publisher": "Tamil Nadu e-Governance Agency",
+          "checkedOn": "2026-10-16",
+          "summary": "legal heir certificate service.",
+          "locator": "Named service row in official eSevai centre list",
+          "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+        }
+      ],
+      "linkEvidenceIds": [
+        "tn"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "ncs-government-job-search",
+      "websiteId": "national-career-service",
+      "organizationId": "org-7ed359018f05059a",
+      "title": "Search government-sector jobs on NCS",
+      "description": "Find published government-sector job listings; this is not a vacancy or selection guarantee.",
+      "categories": [
+        "jobs"
+      ],
+      "department": "Directorate General of Employment, Ministry of Labour & Employment",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "Find government jobs",
+        "search govt jobs"
+      ],
+      "synonyms": [
+        "government jobs",
+        "naukri",
+        "recruitment vacancies"
+      ],
+      "informationUrl": "https://ncs.gov.in/faq",
+      "sourceUrl": "https://ncs.gov.in/faq",
+      "applicationUrl": "https://ncs.gov.in/job-listing?isGovernmentJob=true",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "ncs",
+          "url": "https://ncs.gov.in/faq",
+          "publisher": "Directorate General of Employment",
+          "checkedOn": "2026-10-16",
+          "summary": "Government-jobs search is linked in jobseeker navigation.",
+          "locator": "Jobseeker navigation and general FAQ",
+          "contentSha256": "0cc583a2e8ad712ff1d9159d8f9a7663bda99efdb9e443d30301ab6662289bd8"
+        }
+      ],
+      "linkEvidenceIds": [
+        "ncs"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": [
+        {
+          "text": "Open government-sector search and inspect the employer’s vacancy notice.",
+          "evidenceIds": [
+            "ncs"
+          ]
+        }
+      ],
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "ncs-jobseeker-registration",
+      "websiteId": "national-career-service",
+      "organizationId": "org-7ed359018f05059a",
+      "title": "NCS Jobseeker Registration",
+      "description": "Create a jobseeker profile on the official employment platform.",
+      "categories": [
+        "jobs"
+      ],
+      "department": "Directorate General of Employment, Ministry of Labour & Employment",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "register as a jobseeker"
+      ],
+      "synonyms": [
+        "employment registration",
+        "ncs account"
+      ],
+      "informationUrl": "https://ncs.gov.in/assets/pdf/Jobseeker%20registration%20flowchart%201.pdf",
+      "sourceUrl": "https://ncs.gov.in/assets/pdf/Jobseeker%20registration%20flowchart%201.pdf",
+      "applicationUrl": "https://ncs.gov.in/",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "ncs-register",
+          "url": "https://ncs.gov.in/assets/pdf/Jobseeker%20registration%20flowchart%201.pdf",
+          "publisher": "Directorate General of Employment",
+          "checkedOn": "2026-10-16",
+          "summary": "Official jobseeker registration flowchart.",
+          "locator": "One-page jobseeker registration flowchart"
+        },
+        {
+          "id": "ncs",
+          "url": "https://ncs.gov.in/faq",
+          "publisher": "Directorate General of Employment",
+          "checkedOn": "2026-10-16",
+          "summary": "Jobseeker registration is provided.",
+          "locator": "Jobseeker navigation and general FAQ",
+          "contentSha256": "0cc583a2e8ad712ff1d9159d8f9a7663bda99efdb9e443d30301ab6662289bd8"
+        }
+      ],
+      "linkEvidenceIds": [
+        "ncs-register",
+        "ncs"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": [
+        {
+          "text": "Choose jobseeker registration; follow the official flowchart.",
+          "evidenceIds": [
+            "ncs-register"
+          ]
+        }
+      ],
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "ncs-career-counselling",
+      "websiteId": "national-career-service",
+      "organizationId": "org-7ed359018f05059a",
+      "title": "Find a Career Counsellor through NCS",
+      "description": "Explore official career-counselling access.",
+      "categories": [
+        "jobs"
+      ],
+      "department": "Directorate General of Employment, Ministry of Labour & Employment",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "find career counselling"
+      ],
+      "synonyms": [
+        "career advice",
+        "counsellor"
+      ],
+      "informationUrl": "https://ncs.gov.in/faq",
+      "sourceUrl": "https://ncs.gov.in/faq",
+      "applicationUrl": "https://ncs.gov.in/career-counsellors",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "ncs",
+          "url": "https://ncs.gov.in/faq",
+          "publisher": "Directorate General of Employment",
+          "checkedOn": "2026-10-16",
+          "summary": "Counsellor search is linked under jobseeker support.",
+          "locator": "Jobseeker navigation and general FAQ",
+          "contentSha256": "0cc583a2e8ad712ff1d9159d8f9a7663bda99efdb9e443d30301ab6662289bd8"
+        }
+      ],
+      "linkEvidenceIds": [
+        "ncs"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "aadhaar-download",
+      "websiteId": "uidai",
+      "organizationId": "org-e999f31ac201d555",
+      "title": "Download Aadhaar",
+      "description": "Retrieve an electronic Aadhaar copy.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Unique Identification Authority of India",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "download aadhaar",
+        "e aadhaar"
+      ],
+      "synonyms": [
+        "download aadhaar",
+        "e aadhaar"
+      ],
+      "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+      "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "uidai",
+          "url": "https://www.uidai.gov.in/en/my-aadhaar",
+          "publisher": "UIDAI",
+          "checkedOn": "2026-10-16",
+          "summary": "download aadhaar is listed.",
+          "locator": "Named My Aadhaar service card; access requires official authentication",
+          "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+        }
+      ],
+      "linkEvidenceIds": [
+        "uidai"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+      "eligibility": {
+        "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+        "evidenceIds": [
+          "uidai"
+        ]
+      },
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "aadhaar-address-update",
+      "websiteId": "uidai",
+      "organizationId": "org-e999f31ac201d555",
+      "title": "Aadhaar Address Update",
+      "description": "Request an address change.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Unique Identification Authority of India",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "aadhaar address update",
+        "change address"
+      ],
+      "synonyms": [
+        "aadhaar address update",
+        "change address"
+      ],
+      "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+      "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "uidai",
+          "url": "https://www.uidai.gov.in/en/my-aadhaar",
+          "publisher": "UIDAI",
+          "checkedOn": "2026-10-16",
+          "summary": "aadhaar address update is listed.",
+          "locator": "Named My Aadhaar service card; access requires official authentication",
+          "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+        }
+      ],
+      "linkEvidenceIds": [
+        "uidai"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+      "eligibility": {
+        "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+        "evidenceIds": [
+          "uidai"
+        ]
+      },
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "aadhaar-pvc-card",
+      "websiteId": "uidai",
+      "organizationId": "org-e999f31ac201d555",
+      "title": "Order Aadhaar PVC Card",
+      "description": "Request a durable Aadhaar card.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Unique Identification Authority of India",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "aadhaar pvc card",
+        "order aadhaar"
+      ],
+      "synonyms": [
+        "aadhaar pvc card",
+        "order aadhaar"
+      ],
+      "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+      "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "uidai",
+          "url": "https://www.uidai.gov.in/en/my-aadhaar",
+          "publisher": "UIDAI",
+          "checkedOn": "2026-10-16",
+          "summary": "aadhaar pvc card is listed.",
+          "locator": "Named My Aadhaar service card; access requires official authentication",
+          "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+        }
+      ],
+      "linkEvidenceIds": [
+        "uidai"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+      "eligibility": {
+        "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+        "evidenceIds": [
+          "uidai"
+        ]
+      },
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "aadhaar-biometric-lock",
+      "websiteId": "uidai",
+      "organizationId": "org-e999f31ac201d555",
+      "title": "Lock or Unlock Aadhaar Biometrics",
+      "description": "Manage biometric authentication locking.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Unique Identification Authority of India",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "aadhaar biometric lock",
+        "unlock fingerprint"
+      ],
+      "synonyms": [
+        "aadhaar biometric lock",
+        "unlock fingerprint"
+      ],
+      "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+      "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "uidai",
+          "url": "https://www.uidai.gov.in/en/my-aadhaar",
+          "publisher": "UIDAI",
+          "checkedOn": "2026-10-16",
+          "summary": "aadhaar biometric lock is listed.",
+          "locator": "Named My Aadhaar service card; access requires official authentication",
+          "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+        }
+      ],
+      "linkEvidenceIds": [
+        "uidai"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+      "eligibility": {
+        "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+        "evidenceIds": [
+          "uidai"
+        ]
+      },
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "cpgrams-public-grievance",
+      "websiteId": "cpgrams",
+      "organizationId": "org-afff511c4bead63d",
+      "title": "Lodge a Public Grievance through CPGRAMS",
+      "description": "Submit a grievance to the relevant public authority.",
+      "categories": [
+        "grievances"
+      ],
+      "department": "Department of Administrative Reforms and Public Grievances",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "file a complaint",
+        "lodge grievance"
+      ],
+      "synonyms": [
+        "file a complaint",
+        "lodge grievance"
+      ],
+      "informationUrl": "https://pgportal.gov.in/Home/Faq",
+      "sourceUrl": "https://pgportal.gov.in/Home/Faq",
+      "applicationUrl": "https://pgportal.gov.in/Home/LodgeGrievance",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "cpgrams",
+          "url": "https://pgportal.gov.in/Home/Faq",
+          "publisher": "DARPG",
+          "checkedOn": "2026-10-16",
+          "summary": "Grievance submission, exclusions and appeal route.",
+          "locator": "FAQ 3, 10 and 15",
+          "contentSha256": "aae350bbde0fda78465e546099e7a2f9bf1cc4bd16941abe7c2faf089197e0da"
+        }
+      ],
+      "linkEvidenceIds": [
+        "cpgrams"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "eligibility": {
+        "text": "Excluded matters include RTI requests, court/subjudice matters, and personal/family disputes.",
+        "evidenceIds": [
+          "cpgrams"
+        ]
+      },
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "cpgrams-grievance-appeal",
+      "websiteId": "cpgrams",
+      "organizationId": "org-afff511c4bead63d",
+      "title": "Appeal a Dissatisfied CPGRAMS Grievance",
+      "description": "Use the appeal process for eligible disposed central-government grievances.",
+      "categories": [
+        "grievances"
+      ],
+      "department": "Department of Administrative Reforms and Public Grievances",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "appeal grievance",
+        "unsatisfied complaint"
+      ],
+      "synonyms": [
+        "appeal grievance",
+        "unsatisfied complaint"
+      ],
+      "informationUrl": "https://pgportal.gov.in/Home/Faq",
+      "sourceUrl": "https://pgportal.gov.in/Home/Faq",
+      "applicationUrl": "https://pgportal.gov.in/",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "cpgrams",
+          "url": "https://pgportal.gov.in/Home/Faq",
+          "publisher": "DARPG",
+          "checkedOn": "2026-10-16",
+          "summary": "Grievance submission, exclusions and appeal route.",
+          "locator": "FAQ 3, 10 and 15",
+          "contentSha256": "aae350bbde0fda78465e546099e7a2f9bf1cc4bd16941abe7c2faf089197e0da"
+        }
+      ],
+      "linkEvidenceIds": [
+        "cpgrams"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "eligibility": {
+        "text": "The central grievance appeal provision follows mandatory feedback on disposal; see the official FAQ.",
+        "evidenceIds": [
+          "cpgrams"
+        ]
+      },
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "rti-central-request",
+      "websiteId": "rti-online",
+      "organizationId": "org-7f72318d5949adac",
+      "title": "Submit an RTI Request to a Central Public Authority",
+      "description": "Request government information.",
+      "categories": [
+        "transparency"
+      ],
+      "department": "Department of Personnel and Training",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "right to information",
+        "rti request"
+      ],
+      "synonyms": [
+        "right to information",
+        "rti request"
+      ],
+      "informationUrl": "https://rtionline.gov.in/guidelines.php?request",
+      "sourceUrl": "https://rtionline.gov.in/guidelines.php?request",
+      "applicationUrl": "https://rtionline.gov.in/",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "rti",
+          "url": "https://rtionline.gov.in/guidelines.php?request",
+          "publisher": "Department of Personnel and Training",
+          "checkedOn": "2026-10-18",
+          "summary": "RTI Online guidelines for requests to central public authorities: attachments, payment modes, payment reconciliation, the BPL fee exemption and the first appeal.",
+          "locator": "Guidelines page: \"Do not upload Aadhar Card or PAN Card…\"; payment modes (a)–(d); \"After making payment… 24-48 working hours\"; \"No RTI fee… below poverty line\"; \"Submit First Appeal\"",
+          "contentSha256": "f0ede7ab2e561ca32567c638a087a2ba4d6255955ca00acd42efa726bc1086ca"
+        },
+        {
+          "id": "rti-rules-2012",
+          "url": "https://cic.gov.in/sites/default/files/RTI/RTIRules2012.pdf",
+          "publisher": "Central Information Commission (published copy of the Right to Information Rules, 2012, G.S.R. 603(E))",
+          "checkedOn": "2026-10-18",
+          "summary": "Rule 3: a request is accompanied by a fee of rupees ten. Rule 5: no fee under rules 3 and 4 for a person below the poverty line who submits a copy of the appropriate Government's certificate with the application.",
+          "locator": "Rules 3 and 5",
+          "contentSha256": "8d73989088febe131299d4b9a2f17b83002a576fab15084882c8f30d3424bc20"
+        }
+      ],
+      "linkEvidenceIds": [
+        "rti"
+      ],
+      "verifiedOn": "2026-10-18",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official guidance re-checked on 2026-10-18 by Claude Code (automated agent) under the project owner's Phase 17 authorisation, against the RTI Online guidelines and the Right to Information Rules, 2012 (earlier check by Codex on 2026-10-16). Not a human editorial review and not a completed transaction. Applies to requests to central public authorities through RTI Online; state public authorities follow their own RTI rules. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "eligibility": {
+        "text": "Indian citizens requesting information from covered Government of India ministries/departments.",
+        "evidenceIds": [
+          "rti"
+        ]
+      },
+      "documents": null,
+      "conditionalDocuments": [
+        {
+          "text": "If you are below the poverty line: a copy of the BPL certificate issued by the appropriate government, attached with the application, to be exempt from the fee.",
+          "evidenceIds": [
+            "rti",
+            "rti-rules-2012"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Do not upload an Aadhaar card, PAN card or any other personal identification. The only exception is a BPL card when you claim the fee exemption.",
+          "evidenceIds": [
+            "rti"
+          ]
+        },
+        {
+          "text": "If you have paid but no registration number appears, wait 24–48 working hours while the payment is reconciled, and do not pay again. If it has still not appeared, email the RTI Online helpdesk (helprtionline-dopt[at]nic[dot]in) with the transaction details.",
+          "evidenceIds": [
+            "rti"
+          ]
+        }
+      ],
+      "fees": {
+        "text": "₹10 per request (Right to Information Rules, 2012, rule 3). RTI Online accepts internet banking, Mastercard or Visa credit and debit cards, UPI and RuPay cards. Applicants below the poverty line pay no fee if they attach a copy of their BPL certificate (rule 5).",
+        "evidenceIds": [
+          "rti",
+          "rti-rules-2012"
+        ]
+      },
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "rti-first-appeal",
+      "websiteId": "rti-online",
+      "organizationId": "org-7f72318d5949adac",
+      "title": "Submit an RTI First Appeal",
+      "description": "Appeal an online RTI request.",
+      "categories": [
+        "transparency"
+      ],
+      "department": "Department of Personnel and Training",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "rti first appeal",
+        "information appeal"
+      ],
+      "synonyms": [
+        "rti first appeal",
+        "information appeal"
+      ],
+      "informationUrl": "https://rtionline.gov.in/guidelines.php?request",
+      "sourceUrl": "https://rtionline.gov.in/guidelines.php?request",
+      "applicationUrl": "https://rtionline.gov.in/",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "rti",
+          "url": "https://rtionline.gov.in/guidelines.php?request",
+          "publisher": "Department of Personnel and Training",
+          "checkedOn": "2026-10-16",
+          "summary": "Online central RTI request and first-appeal instructions.",
+          "locator": "Guidelines 1–2, 6, 12, 16–18",
+          "contentSha256": "09c1522a2577441cdc2fd9ec1734271453e7f0f7fcf4b363fe91d2a3d2326888"
+        }
+      ],
+      "linkEvidenceIds": [
+        "rti"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "eligibility": {
+        "text": "Indian citizens requesting information from covered Government of India ministries/departments.",
+        "evidenceIds": [
+          "rti"
+        ]
+      },
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": [
+        {
+          "text": "Choose Submit First Appeal and reference the original registration number.",
+          "evidenceIds": [
+            "rti"
+          ]
+        }
+      ],
+      "fees": {
+        "text": "No fee for the first appeal.",
+        "evidenceIds": [
+          "rti"
+        ]
+      },
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "udyam-new-registration",
+      "websiteId": "udyam-registration",
+      "organizationId": "org-caf4f9732b6768f4",
+      "title": "Udyam Registration for a New MSME",
+      "description": "Register an eligible micro, small or medium enterprise.",
+      "categories": [
+        "business"
+      ],
+      "department": "Ministry of Micro, Small and Medium Enterprises",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "register my small business",
+        "msme registration"
+      ],
+      "synonyms": [
+        "udyam",
+        "business registration"
+      ],
+      "informationUrl": "https://udyamregistration.gov.in/",
+      "sourceUrl": "https://udyamregistration.gov.in/",
+      "applicationUrl": "https://udyamregistration.gov.in/",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "udyam",
+          "url": "https://udyamregistration.gov.in/",
+          "publisher": "Ministry of MSME",
+          "checkedOn": "2026-10-16",
+          "summary": "Free paperless registration and official new-registration route.",
+          "locator": "New registration, Must Follow and Must Know sections"
+        }
+      ],
+      "linkEvidenceIds": [
+        "udyam"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Registration requires no document uploads; Aadhaar and applicable PAN/GST details are handled by the official portal.",
+          "evidenceIds": [
+            "udyam"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": {
+        "text": "Registration is free.",
+        "evidenceIds": [
+          "udyam"
+        ]
+      },
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "pmegp-enterprise-support",
+      "websiteId": "igod-1d591544b1c2e25d",
+      "organizationId": "org-5763d05f09e5a8be",
+      "title": "Prime Minister’s Employment Generation Programme (PMEGP)",
+      "description": "Bank-linked margin-money subsidy for eligible new non-farm micro enterprises.",
+      "categories": [
+        "business"
+      ],
+      "department": "Ministry of MSME / Khadi and Village Industries Commission",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "citizenIntents": [
+        "I need a subsidy for my small business",
+        "financial support for new micro enterprise"
+      ],
+      "synonyms": [
+        "pmegp",
+        "business subsidy",
+        "small business subsidy"
+      ],
+      "informationUrl": "https://common-pmegp.msme.gov.in/",
+      "sourceUrl": "https://common-pmegp.msme.gov.in/",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "pmegp",
+          "url": "https://www.pib.gov.in/newsite/archiveContent.aspx?lang=2&reg=48&relid=286631",
+          "publisher": "Press Information Bureau / Ministry of MSME",
+          "checkedOn": "2026-10-16",
+          "summary": "Official release confirms the enterprise-support programme.",
+          "locator": "23 March 2026 official PMEGP release"
+        },
+        {
+          "id": "pmegp-route",
+          "url": "https://common-pmegp.msme.gov.in/",
+          "publisher": "PMEGP / Ministry of MSME",
+          "checkedOn": "2026-10-16",
+          "summary": "Canonical portal and public intake notice; application availability must be rechecked.",
+          "locator": "Homepage; fresh-intake notice in public JavaScript (window.NewApplicationAccept)",
+          "contentSha256": "55f14d849524195ade2c25f5363da80304980199297e6c576db19f70c8aa5874"
+        }
+      ],
+      "linkEvidenceIds": [
+        "pmegp-route"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Information-only record. A candidate application host failed TLS verification on this machine, so no application button is published. Current eligibility, documents, funding window and route require further review. Phase 3C: the canonical non-www host responds with valid TLS. Its public fresh-intake notice says new submissions are unavailable pending approval of continuation/revised guidelines. The www host still fails TLS. No application button or open-window claim is published.",
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "deadline": null,
+      "processing": null,
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "pmegp-route"
+        ],
+        "notes": "Canonical homepage responds, but fresh-intake notice says submission is unavailable. A reachable homepage is not an active application route."
+      }
+    },
+    {
+      "id": "dl-income-certificate",
+      "title": "Delhi Income Certificate",
+      "websiteId": "igod-9908672336cdd912",
+      "organizationId": "org-f766679368dbf7d4",
+      "description": "Official information about delhi income certificate.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of NCT of Delhi",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "informationUrl": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=riKGp6qbpouao2hGbLw4dJUtjAFtwDFpZutrIuogId0=",
+      "sourceUrl": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=riKGp6qbpouao2hGbLw4dJUtjAFtwDFpZutrIuogId0=",
+      "applicationUrl": "https://edistrict.delhigovt.nic.in/Account/Login",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "delhi-income",
+          "url": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=riKGp6qbpouao2hGbLw4dJUtjAFtwDFpZutrIuogId0=",
+          "publisher": "Revenue Department, Government of NCT of Delhi",
+          "checkedOn": "2026-10-16",
+          "summary": "Selected certificate requirements and conditional evidence.",
+          "locator": "Certificate guideline: eligibility, mandatory/conditional documents and important notes",
+          "contentSha256": "a55af811391026adbc1aef7cdc5ed565bd9bc74e8a07ce5e06347b2902210650"
+        },
+        {
+          "id": "delhi-list",
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "publisher": "eDistrict Delhi / Revenue Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Service names, departments and public sign-in links.",
+          "locator": "Guidelines & Eligibility Criteria, Revenue and Social Welfare rows",
+          "contentSha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ],
+      "linkEvidenceIds": [
+        "delhi-income",
+        "delhi-list"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get income certificate in Delhi",
+        "Delhi income certificate"
+      ],
+      "synonyms": [
+        "income certificate",
+        "Delhi certificate"
+      ],
+      "eligibility": {
+        "text": "Selected conditions: an Indian individual permanently resident in NCT Delhi; confirm the current form and full conditions.",
+        "evidenceIds": [
+          "delhi-income"
+        ]
+      },
+      "documents": [
+        {
+          "text": "Identity and address evidence from the guideline alternatives; family-income evidence and applicable expenditure evidence.",
+          "evidenceIds": [
+            "delhi-income"
+          ]
+        },
+        {
+          "text": "Signed self-declaration and a recent passport-size photograph.",
+          "evidenceIds": [
+            "delhi-income"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "An earlier income certificate is optional; BPL/NFS evidence applies where available.",
+          "evidenceIds": [
+            "delhi-income"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Use the official citizen login/application service, select the certificate and follow the current form. Document verification or an original declaration may also be required.",
+          "evidenceIds": [
+            "delhi-income"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": null,
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "delhi-income",
+          "delhi-list"
+        ],
+        "url": "https://edistrict.delhigovt.nic.in/Account/Login",
+        "finalUrl": "https://edistrict.delhigovt.nic.in/Account/Login",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "dl-domicile-certificate",
+      "title": "Delhi Domicile Certificate",
+      "websiteId": "igod-9908672336cdd912",
+      "organizationId": "org-f766679368dbf7d4",
+      "description": "Official information about delhi domicile certificate.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of NCT of Delhi",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "informationUrl": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=GDX0anvCbFI+Ydkd0X4TfOMzCufU1wuuYbY+d/MGkho=",
+      "sourceUrl": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=GDX0anvCbFI+Ydkd0X4TfOMzCufU1wuuYbY+d/MGkho=",
+      "applicationUrl": "https://edistrict.delhigovt.nic.in/Account/Login",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "delhi-domicile",
+          "url": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=GDX0anvCbFI+Ydkd0X4TfOMzCufU1wuuYbY+d/MGkho=",
+          "publisher": "Revenue Department, Government of NCT of Delhi",
+          "checkedOn": "2026-10-16",
+          "summary": "Selected certificate requirements and conditional evidence.",
+          "locator": "Certificate guideline: eligibility, mandatory/conditional documents and important notes",
+          "contentSha256": "01e895d37e83e95091d6cf77b6b4b4d0e139da75cb3e5a505292eb8ada1c08b3"
+        },
+        {
+          "id": "delhi-list",
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "publisher": "eDistrict Delhi / Revenue Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Service names, departments and public sign-in links.",
+          "locator": "Guidelines & Eligibility Criteria, Revenue and Social Welfare rows",
+          "contentSha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ],
+      "linkEvidenceIds": [
+        "delhi-domicile",
+        "delhi-list"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get domicile certificate in Delhi",
+        "Delhi domicile certificate"
+      ],
+      "synonyms": [
+        "domicile certificate",
+        "Delhi certificate"
+      ],
+      "eligibility": {
+        "text": "Selected conditions: Indian citizenship and continuous residence in Delhi for the preceding three years; see the guideline for minor applicants.",
+        "evidenceIds": [
+          "delhi-domicile"
+        ]
+      },
+      "documents": [
+        {
+          "text": "Identity evidence, proof of three years of residence, self-declaration and a photograph.",
+          "evidenceIds": [
+            "delhi-domicile"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "For a minor, the guideline lists parent identity and school/birth evidence alternatives.",
+          "evidenceIds": [
+            "delhi-domicile"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Use the official citizen login/application service, select the certificate and follow the current form. Document verification or an original declaration may also be required.",
+          "evidenceIds": [
+            "delhi-domicile"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": null,
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "delhi-domicile",
+          "delhi-list"
+        ],
+        "url": "https://edistrict.delhigovt.nic.in/Account/Login",
+        "finalUrl": "https://edistrict.delhigovt.nic.in/Account/Login",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "dl-obc-certificate",
+      "title": "Delhi OBC Certificate",
+      "websiteId": "igod-9908672336cdd912",
+      "organizationId": "org-f766679368dbf7d4",
+      "description": "Official information about delhi obc certificate.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of NCT of Delhi",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "informationUrl": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=JB43Aj/g9K8d1RKt88lGvwuLNCKqIbcj5IEnYbOVu3E=",
+      "sourceUrl": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=JB43Aj/g9K8d1RKt88lGvwuLNCKqIbcj5IEnYbOVu3E=",
+      "applicationUrl": "https://edistrict.delhigovt.nic.in/Account/Login",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "delhi-obc",
+          "url": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=JB43Aj/g9K8d1RKt88lGvwuLNCKqIbcj5IEnYbOVu3E=",
+          "publisher": "Revenue Department, Government of NCT of Delhi",
+          "checkedOn": "2026-10-16",
+          "summary": "Selected certificate requirements and conditional evidence.",
+          "locator": "Certificate guideline: eligibility, mandatory/conditional documents and important notes",
+          "contentSha256": "b59c49679a0a8851a8a8f522e12289f1b3fd16d40baf11de69136a45c5977104"
+        },
+        {
+          "id": "delhi-list",
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "publisher": "eDistrict Delhi / Revenue Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Service names, departments and public sign-in links.",
+          "locator": "Guidelines & Eligibility Criteria, Revenue and Social Welfare rows",
+          "contentSha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ],
+      "linkEvidenceIds": [
+        "delhi-obc",
+        "delhi-list"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get obc certificate in Delhi",
+        "Delhi obc certificate"
+      ],
+      "synonyms": [
+        "obc certificate",
+        "Delhi certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Identity/address evidence, self-declaration and photograph; caste and family-link evidence depend on the case.",
+          "evidenceIds": [
+            "delhi-obc"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "Delhi/Central OBC and migration cases have different criteria and evidence. Read sections A/B and the non-creamy-layer conditions; this is not a single universal checklist.",
+          "evidenceIds": [
+            "delhi-obc"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Use the official citizen login/application service, select the certificate and follow the current form. Document verification or an original declaration may also be required.",
+          "evidenceIds": [
+            "delhi-obc"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": null,
+      "deadline": null,
+      "beneficiaryGroups": [
+        {
+          "text": "Other Backward Classes (OBC)",
+          "evidenceIds": [
+            "delhi-obc"
+          ]
+        }
+      ],
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "delhi-obc",
+          "delhi-list"
+        ],
+        "url": "https://edistrict.delhigovt.nic.in/Account/Login",
+        "finalUrl": "https://edistrict.delhigovt.nic.in/Account/Login",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "dl-sc-certificate",
+      "title": "Delhi Scheduled Caste Certificate",
+      "websiteId": "igod-9908672336cdd912",
+      "organizationId": "org-f766679368dbf7d4",
+      "description": "Official information about delhi scheduled caste certificate.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of NCT of Delhi",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "informationUrl": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=lC/pNp5TPkzmQmDopE7xNpVTQ95OIoVTdMKB66fUUIU=",
+      "sourceUrl": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=lC/pNp5TPkzmQmDopE7xNpVTQ95OIoVTdMKB66fUUIU=",
+      "applicationUrl": "https://edistrict.delhigovt.nic.in/Account/Login",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "delhi-sc",
+          "url": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=lC/pNp5TPkzmQmDopE7xNpVTQ95OIoVTdMKB66fUUIU=",
+          "publisher": "Revenue Department, Government of NCT of Delhi",
+          "checkedOn": "2026-10-16",
+          "summary": "Selected certificate requirements and conditional evidence.",
+          "locator": "Certificate guideline: eligibility, mandatory/conditional documents and important notes",
+          "contentSha256": "55116455473da361eea2187d3e3a0d22fc0e18993664a7147a3bde034a79da9b"
+        },
+        {
+          "id": "delhi-list",
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "publisher": "eDistrict Delhi / Revenue Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Service names, departments and public sign-in links.",
+          "locator": "Guidelines & Eligibility Criteria, Revenue and Social Welfare rows",
+          "contentSha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ],
+      "linkEvidenceIds": [
+        "delhi-sc",
+        "delhi-list"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get sc certificate in Delhi",
+        "Delhi sc certificate"
+      ],
+      "synonyms": [
+        "sc certificate",
+        "Delhi certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected identity/address evidence and self-declaration; family/caste evidence depends on the applicable case.",
+          "evidenceIds": [
+            "delhi-sc"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "The combined SC/ST guideline has distinct historical residence, family and migration cases. Read the complete applicable section.",
+          "evidenceIds": [
+            "delhi-sc"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Use the official citizen login/application service, select the certificate and follow the current form. Document verification or an original declaration may also be required.",
+          "evidenceIds": [
+            "delhi-sc"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": null,
+      "deadline": null,
+      "beneficiaryGroups": [
+        {
+          "text": "Scheduled Castes (SC)",
+          "evidenceIds": [
+            "delhi-sc"
+          ]
+        }
+      ],
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "delhi-sc",
+          "delhi-list"
+        ],
+        "url": "https://edistrict.delhigovt.nic.in/Account/Login",
+        "finalUrl": "https://edistrict.delhigovt.nic.in/Account/Login",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "dl-surviving-certificate",
+      "title": "Delhi Surviving Member Certificate",
+      "websiteId": "igod-9908672336cdd912",
+      "organizationId": "org-f766679368dbf7d4",
+      "description": "Official information about delhi surviving member certificate.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of NCT of Delhi",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "informationUrl": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=jWdPxdcDpwWlm4OG+ipyvwLqhz7b9TKwPuPuOKYWVcM=",
+      "sourceUrl": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=jWdPxdcDpwWlm4OG+ipyvwLqhz7b9TKwPuPuOKYWVcM=",
+      "applicationUrl": "https://edistrict.delhigovt.nic.in/Account/Login",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "delhi-surviving",
+          "url": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=jWdPxdcDpwWlm4OG+ipyvwLqhz7b9TKwPuPuOKYWVcM=",
+          "publisher": "Revenue Department, Government of NCT of Delhi",
+          "checkedOn": "2026-10-16",
+          "summary": "Selected certificate requirements and conditional evidence.",
+          "locator": "Certificate guideline: eligibility, mandatory/conditional documents and important notes",
+          "contentSha256": "032fb024c1cf647068e50312fb4d0273f15b8161d5ccd62b38fd4deae998bdfa"
+        },
+        {
+          "id": "delhi-list",
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "publisher": "eDistrict Delhi / Revenue Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Service names, departments and public sign-in links.",
+          "locator": "Guidelines & Eligibility Criteria, Revenue and Social Welfare rows",
+          "contentSha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ],
+      "linkEvidenceIds": [
+        "delhi-surviving",
+        "delhi-list"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get surviving certificate in Delhi",
+        "Delhi surviving certificate"
+      ],
+      "synonyms": [
+        "surviving certificate",
+        "Delhi certificate"
+      ],
+      "eligibility": {
+        "text": "Selected conditions: an Indian individual resident in Delhi; the guideline defines the family evidence needed.",
+        "evidenceIds": [
+          "delhi-surviving"
+        ]
+      },
+      "documents": [
+        {
+          "text": "Applicant and surviving-family identity/address evidence, death certificate, signed declaration and photographs specified by the guideline.",
+          "evidenceIds": [
+            "delhi-surviving"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "Additional family-member list when there are more than four survivors. Original declaration/physical verification may be required.",
+          "evidenceIds": [
+            "delhi-surviving"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Use the official citizen login/application service, select the certificate and follow the current form. Document verification or an original declaration may also be required.",
+          "evidenceIds": [
+            "delhi-surviving"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": null,
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "delhi-surviving",
+          "delhi-list"
+        ],
+        "url": "https://edistrict.delhigovt.nic.in/Account/Login",
+        "finalUrl": "https://edistrict.delhigovt.nic.in/Account/Login",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "kl-income-certificate",
+      "title": "Income Certificate (Kerala)",
+      "websiteId": "igod-50b73c3937b8d29b",
+      "organizationId": "org-af215f9440cbcc78",
+      "description": "Kerala eDistrict guidance for income certificate. Requirements differ from similarly named certificates in other states.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of Kerala",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "informationUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "sourceUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "applicationUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "kerala-faq",
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Certificate naming, account procedure, supporting-evidence and service-time tables.",
+          "locator": "General questions; supporting documents and time-limit tables",
+          "contentSha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "id": "kerala-list",
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Revenue and other department service list.",
+          "locator": "Revenue Department certificate services",
+          "contentSha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ],
+      "linkEvidenceIds": [
+        "kerala-faq",
+        "kerala-faq"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get income certificate in Kerala",
+        "Kerala income certificate"
+      ],
+      "synonyms": [
+        "income certificate",
+        "Kerala certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Income evidence appropriate to the applicant, such as salary evidence, tax returns or relevant income records; affidavit where required.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "The FAQ says to verify the ration-card number with PDS instead of uploading a copy. Other supporting evidence depends on the certificate and current form.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Create/sign in to the official eDistrict account, complete One Time Registration, then choose Apply for a Certificate and the appropriate applicant registration.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": {
+        "text": "The FAQ lists 6 working days for this certificate; this is a published service standard, not a personal delivery guarantee.",
+        "evidenceIds": [
+          "kerala-faq"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "kerala-faq",
+          "kerala-faq"
+        ],
+        "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "finalUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "kl-nativity-certificate",
+      "title": "Nativity Certificate (Kerala)",
+      "websiteId": "igod-50b73c3937b8d29b",
+      "organizationId": "org-af215f9440cbcc78",
+      "description": "Kerala eDistrict guidance for nativity certificate. Requirements differ from similarly named certificates in other states.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of Kerala",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "informationUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "sourceUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "applicationUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "kerala-faq",
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Certificate naming, account procedure, supporting-evidence and service-time tables.",
+          "locator": "General questions; supporting documents and time-limit tables",
+          "contentSha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "id": "kerala-list",
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Revenue and other department service list.",
+          "locator": "Revenue Department certificate services",
+          "contentSha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ],
+      "linkEvidenceIds": [
+        "kerala-faq",
+        "kerala-faq"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get nativity certificate in Kerala",
+        "Kerala nativity certificate"
+      ],
+      "synonyms": [
+        "nativity certificate",
+        "Kerala certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected birth/school evidence and affidavit; parent school evidence may apply.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "The FAQ says to verify the ration-card number with PDS instead of uploading a copy. Other supporting evidence depends on the certificate and current form.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Create/sign in to the official eDistrict account, complete One Time Registration, then choose Apply for a Certificate and the appropriate applicant registration.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": {
+        "text": "The FAQ lists 5 working days for this certificate; this is a published service standard, not a personal delivery guarantee.",
+        "evidenceIds": [
+          "kerala-faq"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "kerala-faq",
+          "kerala-faq"
+        ],
+        "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "finalUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "kl-caste-obc-certificate",
+      "title": "Caste Certificate (OBC) (Kerala)",
+      "websiteId": "igod-50b73c3937b8d29b",
+      "organizationId": "org-af215f9440cbcc78",
+      "description": "Kerala eDistrict guidance for caste certificate (obc). Requirements differ from similarly named certificates in other states.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of Kerala",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "informationUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "sourceUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "applicationUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "kerala-faq",
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Certificate naming, account procedure, supporting-evidence and service-time tables.",
+          "locator": "General questions; supporting documents and time-limit tables",
+          "contentSha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "id": "kerala-list",
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Revenue and other department service list.",
+          "locator": "Revenue Department certificate services",
+          "contentSha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ],
+      "linkEvidenceIds": [
+        "kerala-faq",
+        "kerala-faq"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get caste certificate (obc) in Kerala",
+        "Kerala caste certificate (obc)"
+      ],
+      "synonyms": [
+        "caste certificate (obc)",
+        "Kerala certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected caste evidence, school certificate and affidavit.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "The FAQ says to verify the ration-card number with PDS instead of uploading a copy. Other supporting evidence depends on the certificate and current form.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Create/sign in to the official eDistrict account, complete One Time Registration, then choose Apply for a Certificate and the appropriate applicant registration.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": {
+        "text": "The FAQ lists 3 working days for this certificate; this is a published service standard, not a personal delivery guarantee.",
+        "evidenceIds": [
+          "kerala-faq"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": [
+        {
+          "text": "Other Backward Classes (OBC)",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "kerala-faq",
+          "kerala-faq"
+        ],
+        "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "finalUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "kl-community-sc-st-certificate",
+      "title": "Community Certificate (SC/ST) (Kerala)",
+      "websiteId": "igod-50b73c3937b8d29b",
+      "organizationId": "org-af215f9440cbcc78",
+      "description": "Kerala eDistrict guidance for community certificate (sc/st). Requirements differ from similarly named certificates in other states.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of Kerala",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "informationUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "sourceUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "applicationUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "kerala-faq",
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Certificate naming, account procedure, supporting-evidence and service-time tables.",
+          "locator": "General questions; supporting documents and time-limit tables",
+          "contentSha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "id": "kerala-list",
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Revenue and other department service list.",
+          "locator": "Revenue Department certificate services",
+          "contentSha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ],
+      "linkEvidenceIds": [
+        "kerala-faq",
+        "kerala-faq"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get community certificate (sc/st) in Kerala",
+        "Kerala community certificate (sc/st)"
+      ],
+      "synonyms": [
+        "community certificate (sc/st)",
+        "Kerala certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected caste evidence, school certificate and affidavit.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "The FAQ says to verify the ration-card number with PDS instead of uploading a copy. Other supporting evidence depends on the certificate and current form.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Create/sign in to the official eDistrict account, complete One Time Registration, then choose Apply for a Certificate and the appropriate applicant registration.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": {
+        "text": "The FAQ lists 5 working days for this certificate; this is a published service standard, not a personal delivery guarantee.",
+        "evidenceIds": [
+          "kerala-faq"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": [
+        {
+          "text": "Scheduled Castes / Scheduled Tribes (SC/ST)",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "kerala-faq",
+          "kerala-faq"
+        ],
+        "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "finalUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "kl-domicile-certificate",
+      "title": "Domicile Certificate (Kerala)",
+      "websiteId": "igod-50b73c3937b8d29b",
+      "organizationId": "org-af215f9440cbcc78",
+      "description": "Kerala eDistrict guidance for domicile certificate. Requirements differ from similarly named certificates in other states.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of Kerala",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "informationUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "sourceUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "applicationUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "kerala-faq",
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Certificate naming, account procedure, supporting-evidence and service-time tables.",
+          "locator": "General questions; supporting documents and time-limit tables",
+          "contentSha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "id": "kerala-list",
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Revenue and other department service list.",
+          "locator": "Revenue Department certificate services",
+          "contentSha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ],
+      "linkEvidenceIds": [
+        "kerala-faq",
+        "kerala-faq"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get domicile certificate in Kerala",
+        "Kerala domicile certificate"
+      ],
+      "synonyms": [
+        "domicile certificate",
+        "Kerala certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected identity/birth evidence and affidavit; parent school evidence may apply.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "The FAQ says to verify the ration-card number with PDS instead of uploading a copy. Other supporting evidence depends on the certificate and current form.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Create/sign in to the official eDistrict account, complete One Time Registration, then choose Apply for a Certificate and the appropriate applicant registration.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": {
+        "text": "The FAQ lists 3 working days for this certificate; this is a published service standard, not a personal delivery guarantee.",
+        "evidenceIds": [
+          "kerala-faq"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "kerala-faq",
+          "kerala-faq"
+        ],
+        "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "finalUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "kl-family-membership-certificate",
+      "title": "Family Membership Certificate (Kerala)",
+      "websiteId": "igod-50b73c3937b8d29b",
+      "organizationId": "org-af215f9440cbcc78",
+      "description": "Kerala eDistrict guidance for family membership certificate. Requirements differ from similarly named certificates in other states.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of Kerala",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "informationUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "sourceUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "applicationUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "kerala-faq",
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Certificate naming, account procedure, supporting-evidence and service-time tables.",
+          "locator": "General questions; supporting documents and time-limit tables",
+          "contentSha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "id": "kerala-list",
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Revenue and other department service list.",
+          "locator": "Revenue Department certificate services",
+          "contentSha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ],
+      "linkEvidenceIds": [
+        "kerala-faq",
+        "kerala-faq"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get family membership certificate in Kerala",
+        "Kerala family membership certificate"
+      ],
+      "synonyms": [
+        "family membership certificate",
+        "Kerala certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected identity/school evidence, affidavit and death evidence where applicable.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "The FAQ says to verify the ration-card number with PDS instead of uploading a copy. Other supporting evidence depends on the certificate and current form.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Create/sign in to the official eDistrict account, complete One Time Registration, then choose Apply for a Certificate and the appropriate applicant registration.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": {
+        "text": "The FAQ lists 6 working days for this certificate; this is a published service standard, not a personal delivery guarantee.",
+        "evidenceIds": [
+          "kerala-faq"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "kerala-faq",
+          "kerala-faq"
+        ],
+        "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "finalUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "kl-relationship-certificate",
+      "title": "Relationship Certificate (Kerala)",
+      "websiteId": "igod-50b73c3937b8d29b",
+      "organizationId": "org-af215f9440cbcc78",
+      "description": "Kerala eDistrict guidance for relationship certificate. Requirements differ from similarly named certificates in other states.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of Kerala",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "informationUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "sourceUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "applicationUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "kerala-faq",
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Certificate naming, account procedure, supporting-evidence and service-time tables.",
+          "locator": "General questions; supporting documents and time-limit tables",
+          "contentSha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "id": "kerala-list",
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Revenue and other department service list.",
+          "locator": "Revenue Department certificate services",
+          "contentSha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ],
+      "linkEvidenceIds": [
+        "kerala-faq",
+        "kerala-faq"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get relationship certificate in Kerala",
+        "Kerala relationship certificate"
+      ],
+      "synonyms": [
+        "relationship certificate",
+        "Kerala certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected identity/school evidence and affidavit.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "The FAQ says to verify the ration-card number with PDS instead of uploading a copy. Other supporting evidence depends on the certificate and current form.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Create/sign in to the official eDistrict account, complete One Time Registration, then choose Apply for a Certificate and the appropriate applicant registration.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": {
+        "text": "The FAQ lists 7 working days for this certificate; this is a published service standard, not a personal delivery guarantee.",
+        "evidenceIds": [
+          "kerala-faq"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "kerala-faq",
+          "kerala-faq"
+        ],
+        "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "finalUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "kl-legal-heir-certificate",
+      "title": "Legal Heir Certificate (Kerala)",
+      "websiteId": "igod-50b73c3937b8d29b",
+      "organizationId": "org-af215f9440cbcc78",
+      "description": "Kerala eDistrict guidance for legal heir certificate. Requirements differ from similarly named certificates in other states.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Department, Government of Kerala",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "informationUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "sourceUrl": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+      "applicationUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+      "applicationMode": "online",
+      "evidence": [
+        {
+          "id": "kerala-faq",
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Certificate naming, account procedure, supporting-evidence and service-time tables.",
+          "locator": "General questions; supporting documents and time-limit tables",
+          "contentSha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "id": "kerala-list",
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "publisher": "Kerala eDistrict / Kerala State IT Mission",
+          "checkedOn": "2026-10-16",
+          "summary": "Revenue and other department service list.",
+          "locator": "Revenue Department certificate services",
+          "contentSha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ],
+      "linkEvidenceIds": [
+        "kerala-faq",
+        "kerala-faq"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get legal heir certificate in Kerala",
+        "Kerala legal heir certificate"
+      ],
+      "synonyms": [
+        "legal heir certificate",
+        "Kerala certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected death and identity evidence and affidavit.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "The FAQ says to verify the ration-card number with PDS instead of uploading a copy. Other supporting evidence depends on the certificate and current form.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Create/sign in to the official eDistrict account, complete One Time Registration, then choose Apply for a Certificate and the appropriate applicant registration.",
+          "evidenceIds": [
+            "kerala-faq"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": {
+        "text": "The FAQ describes a 30-working-day objection period after gazette notification, then issue within 15 working days after that period if there is no objection; confirm the applicable process.",
+        "evidenceIds": [
+          "kerala-faq"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. ",
+      "applicationRouteEvidence": {
+        "status": "confirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "kerala-faq",
+          "kerala-faq"
+        ],
+        "url": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "finalUrl": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+        "httpStatus": 200,
+        "tlsVerified": true,
+        "linkedFromSource": true,
+        "entryReviewed": true,
+        "redirectReviewed": false,
+        "notes": "Normal TLS public login entry reviewed. This opens the shared official sign-in, not a prefilled service form. Authentication, service selection, acceptance and submission were not tested; availability can change."
+      }
+    },
+    {
+      "id": "od-resident-certificate",
+      "title": "Resident Certificate (Odisha)",
+      "websiteId": "igod-5e885f0e333d5206",
+      "organizationId": "org-7f432ad3e33f5840",
+      "description": "Official Odisha guidance for resident certificate. Full eligibility and a functioning transaction entry still need confirmation.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue and Disaster Management Department, Government of Odisha",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "informationUrl": "https://edistrict.odisha.gov.in/",
+      "sourceUrl": "https://edistrict.odisha.gov.in/",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "odisha-home",
+          "url": "https://edistrict.odisha.gov.in/",
+          "publisher": "eDistrict Odisha / Revenue and Disaster Management Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Public revenue-certificate modal descriptions, document alternatives, fees and time standards.",
+          "locator": "e-Certificates: corresponding named service modal (not the aggregate application statistics)",
+          "contentSha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ],
+      "linkEvidenceIds": [
+        "odisha-home"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get resident certificate in Odisha",
+        "Odisha resident certificate"
+      ],
+      "synonyms": [
+        "resident certificate",
+        "Odisha certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected residence-evidence alternatives include a utility bill, land record, rental agreement or employer certificate; provide the applicable evidence, not every listed item.",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": {
+        "text": "The service modal lists no government service charge; other channel charges have not been verified.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "processing": {
+        "text": "The modal lists 10 working days as the service standard; observed processing and individual outcomes can differ.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "odisha-home"
+        ],
+        "notes": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred."
+      }
+    },
+    {
+      "id": "od-income-certificate",
+      "title": "Income Certificate (Odisha)",
+      "websiteId": "igod-5e885f0e333d5206",
+      "organizationId": "org-7f432ad3e33f5840",
+      "description": "Official Odisha guidance for income certificate. Full eligibility and a functioning transaction entry still need confirmation.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue and Disaster Management Department, Government of Odisha",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "informationUrl": "https://edistrict.odisha.gov.in/",
+      "sourceUrl": "https://edistrict.odisha.gov.in/",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "odisha-home",
+          "url": "https://edistrict.odisha.gov.in/",
+          "publisher": "eDistrict Odisha / Revenue and Disaster Management Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Public revenue-certificate modal descriptions, document alternatives, fees and time standards.",
+          "locator": "e-Certificates: corresponding named service modal (not the aggregate application statistics)",
+          "contentSha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ],
+      "linkEvidenceIds": [
+        "odisha-home"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get income certificate in Odisha",
+        "Odisha income certificate"
+      ],
+      "synonyms": [
+        "income certificate",
+        "Odisha certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected income evidence includes salary records, tax returns or other income evidence as applicable.",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": {
+        "text": "The service modal lists no government service charge; other channel charges have not been verified.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "processing": {
+        "text": "The modal lists 10 working days as the service standard; observed processing and individual outcomes can differ.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "odisha-home"
+        ],
+        "notes": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred."
+      }
+    },
+    {
+      "id": "od-sc-certificate",
+      "title": "Scheduled Caste Certificate (Odisha)",
+      "websiteId": "igod-5e885f0e333d5206",
+      "organizationId": "org-7f432ad3e33f5840",
+      "description": "Official Odisha guidance for scheduled caste certificate. Full eligibility and a functioning transaction entry still need confirmation.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue and Disaster Management Department, Government of Odisha",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "informationUrl": "https://edistrict.odisha.gov.in/",
+      "sourceUrl": "https://edistrict.odisha.gov.in/",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "odisha-home",
+          "url": "https://edistrict.odisha.gov.in/",
+          "publisher": "eDistrict Odisha / Revenue and Disaster Management Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Public revenue-certificate modal descriptions, document alternatives, fees and time standards.",
+          "locator": "e-Certificates: corresponding named service modal (not the aggregate application statistics)",
+          "contentSha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ],
+      "linkEvidenceIds": [
+        "odisha-home"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get scheduled caste certificate in Odisha",
+        "Odisha scheduled caste certificate"
+      ],
+      "synonyms": [
+        "scheduled caste certificate",
+        "Odisha certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected identity, land or family caste evidence as applicable; the source presents alternatives rather than a universal mandatory list.",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": {
+        "text": "The service modal lists no government service charge; other channel charges have not been verified.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "processing": {
+        "text": "The modal lists 15 working days as the service standard; observed processing and individual outcomes can differ.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": [
+        {
+          "text": "Scheduled Castes (SC)",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "odisha-home"
+        ],
+        "notes": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred."
+      }
+    },
+    {
+      "id": "od-st-certificate",
+      "title": "Scheduled Tribe Certificate (Odisha)",
+      "websiteId": "igod-5e885f0e333d5206",
+      "organizationId": "org-7f432ad3e33f5840",
+      "description": "Official Odisha guidance for scheduled tribe certificate. Full eligibility and a functioning transaction entry still need confirmation.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue and Disaster Management Department, Government of Odisha",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "informationUrl": "https://edistrict.odisha.gov.in/",
+      "sourceUrl": "https://edistrict.odisha.gov.in/",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "odisha-home",
+          "url": "https://edistrict.odisha.gov.in/",
+          "publisher": "eDistrict Odisha / Revenue and Disaster Management Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Public revenue-certificate modal descriptions, document alternatives, fees and time standards.",
+          "locator": "e-Certificates: corresponding named service modal (not the aggregate application statistics)",
+          "contentSha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ],
+      "linkEvidenceIds": [
+        "odisha-home"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get scheduled tribe certificate in Odisha",
+        "Odisha scheduled tribe certificate"
+      ],
+      "synonyms": [
+        "scheduled tribe certificate",
+        "Odisha certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected identity, land or family caste evidence as applicable; the source presents alternatives rather than a universal mandatory list.",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": {
+        "text": "The service modal lists no government service charge; other channel charges have not been verified.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "processing": {
+        "text": "The modal lists 15 working days as the service standard; observed processing and individual outcomes can differ.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": [
+        {
+          "text": "Scheduled Tribes (ST)",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "odisha-home"
+        ],
+        "notes": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred."
+      }
+    },
+    {
+      "id": "od-ews-certificate",
+      "title": "Income and Asset Certificate (EWS) (Odisha)",
+      "websiteId": "igod-5e885f0e333d5206",
+      "organizationId": "org-7f432ad3e33f5840",
+      "description": "Official Odisha guidance for income and asset certificate (ews). Full eligibility and a functioning transaction entry still need confirmation.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue and Disaster Management Department, Government of Odisha",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "informationUrl": "https://edistrict.odisha.gov.in/",
+      "sourceUrl": "https://edistrict.odisha.gov.in/",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "odisha-home",
+          "url": "https://edistrict.odisha.gov.in/",
+          "publisher": "eDistrict Odisha / Revenue and Disaster Management Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Public revenue-certificate modal descriptions, document alternatives, fees and time standards.",
+          "locator": "e-Certificates: corresponding named service modal (not the aggregate application statistics)",
+          "contentSha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ],
+      "linkEvidenceIds": [
+        "odisha-home"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get income and asset certificate (ews) in Odisha",
+        "Odisha income and asset certificate (ews)"
+      ],
+      "synonyms": [
+        "income and asset certificate (ews)",
+        "Odisha certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Identity, income and land evidence as applicable. Salary and agricultural-income proof are required when those income values are declared.",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": {
+        "text": "The service modal lists no government service charge; other channel charges have not been verified.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "processing": {
+        "text": "The modal lists 10 working days as the service standard; observed processing and individual outcomes can differ.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": [
+        {
+          "text": "Economically Weaker Sections (EWS)",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "odisha-home"
+        ],
+        "notes": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred."
+      }
+    },
+    {
+      "id": "od-legal-heir-certificate",
+      "title": "Legal Heir Certificate (Odisha)",
+      "websiteId": "igod-5e885f0e333d5206",
+      "organizationId": "org-7f432ad3e33f5840",
+      "description": "Official Odisha guidance for legal heir certificate. Full eligibility and a functioning transaction entry still need confirmation.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue and Disaster Management Department, Government of Odisha",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "informationUrl": "https://edistrict.odisha.gov.in/",
+      "sourceUrl": "https://edistrict.odisha.gov.in/",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "odisha-home",
+          "url": "https://edistrict.odisha.gov.in/",
+          "publisher": "eDistrict Odisha / Revenue and Disaster Management Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Public revenue-certificate modal descriptions, document alternatives, fees and time standards.",
+          "locator": "e-Certificates: corresponding named service modal (not the aggregate application statistics)",
+          "contentSha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ],
+      "linkEvidenceIds": [
+        "odisha-home"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get legal heir certificate in Odisha",
+        "Odisha legal heir certificate"
+      ],
+      "synonyms": [
+        "legal heir certificate",
+        "Odisha certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Death certificate is explicitly mandatory in this service modal; identity and other evidence depend on the case.",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": {
+        "text": "The service modal lists no government service charge; other channel charges have not been verified.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "processing": {
+        "text": "The modal lists 30 working days as the service standard; observed processing and individual outcomes can differ.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "odisha-home"
+        ],
+        "notes": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred."
+      }
+    },
+    {
+      "id": "od-obc-certificate",
+      "title": "OBC Certificate (Odisha)",
+      "websiteId": "igod-5e885f0e333d5206",
+      "organizationId": "org-7f432ad3e33f5840",
+      "description": "Official Odisha guidance for obc certificate. Full eligibility and a functioning transaction entry still need confirmation.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue and Disaster Management Department, Government of Odisha",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "informationUrl": "https://edistrict.odisha.gov.in/",
+      "sourceUrl": "https://edistrict.odisha.gov.in/",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "odisha-home",
+          "url": "https://edistrict.odisha.gov.in/",
+          "publisher": "eDistrict Odisha / Revenue and Disaster Management Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Public revenue-certificate modal descriptions, document alternatives, fees and time standards.",
+          "locator": "e-Certificates: corresponding named service modal (not the aggregate application statistics)",
+          "contentSha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ],
+      "linkEvidenceIds": [
+        "odisha-home"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get obc certificate in Odisha",
+        "Odisha obc certificate"
+      ],
+      "synonyms": [
+        "obc certificate",
+        "Odisha certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected identity evidence, self-declaration, land record or land passbook as applicable.",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": {
+        "text": "The service modal lists no government service charge; other channel charges have not been verified.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "processing": {
+        "text": "The modal lists 15 working days as the service standard; observed processing and individual outcomes can differ.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": [
+        {
+          "text": "Other Backward Classes (OBC)",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "odisha-home"
+        ],
+        "notes": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred."
+      }
+    },
+    {
+      "id": "od-sebc-certificate",
+      "title": "SEBC Certificate (Odisha)",
+      "websiteId": "igod-5e885f0e333d5206",
+      "organizationId": "org-7f432ad3e33f5840",
+      "description": "Official Odisha guidance for sebc certificate. Full eligibility and a functioning transaction entry still need confirmation.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue and Disaster Management Department, Government of Odisha",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "informationUrl": "https://edistrict.odisha.gov.in/",
+      "sourceUrl": "https://edistrict.odisha.gov.in/",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "odisha-home",
+          "url": "https://edistrict.odisha.gov.in/",
+          "publisher": "eDistrict Odisha / Revenue and Disaster Management Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Public revenue-certificate modal descriptions, document alternatives, fees and time standards.",
+          "locator": "e-Certificates: corresponding named service modal (not the aggregate application statistics)",
+          "contentSha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ],
+      "linkEvidenceIds": [
+        "odisha-home"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get sebc certificate in Odisha",
+        "Odisha sebc certificate"
+      ],
+      "synonyms": [
+        "sebc certificate",
+        "Odisha certificate"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected identity evidence, self-declaration, land record or land passbook as applicable.",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": {
+        "text": "The service modal lists no government service charge; other channel charges have not been verified.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "processing": {
+        "text": "The modal lists 15 working days as the service standard; observed processing and individual outcomes can differ.",
+        "evidenceIds": [
+          "odisha-home"
+        ]
+      },
+      "deadline": null,
+      "beneficiaryGroups": [
+        {
+          "text": "Socially and Educationally Backward Classes (SEBC)",
+          "evidenceIds": [
+            "odisha-home"
+          ]
+        }
+      ],
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "odisha-home"
+        ],
+        "notes": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred."
+      }
+    },
+    {
+      "id": "py-income-certificate",
+      "title": "Income Certificate (Puducherry)",
+      "websiteId": "igod-7c7865e8e6982bc1",
+      "organizationId": "org-fdd5069647df76c9",
+      "description": "Official information about income certificate (puducherry).",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue and Disaster Management Department, Government of Puducherry",
+      "level": "State",
+      "state": "Puducherry",
+      "district": null,
+      "informationUrl": "https://revenue.py.gov.in/downloads/EODB/EODB-Income%20Certificate.pdf",
+      "sourceUrl": "https://revenue.py.gov.in/downloads/EODB/EODB-Income%20Certificate.pdf",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "py-income",
+          "url": "https://revenue.py.gov.in/downloads/EODB/EODB-Income%20Certificate.pdf",
+          "publisher": "Revenue and Disaster Management Department, Puducherry",
+          "checkedOn": "2026-10-16",
+          "summary": "Departmental certificate procedure and fee statement.",
+          "locator": "Steps I-IV; document appendix not adopted because it appears generic/mismatched",
+          "contentSha256": "edd020293e08af154056d9acb80c9d9f2107d3c1dea56d1960b5c1e330bd963d"
+        }
+      ],
+      "linkEvidenceIds": [
+        "py-income"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get income certificate (puducherry)"
+      ],
+      "synonyms": [
+        "income certificate (puducherry)"
+      ],
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": [
+        {
+          "text": "The departmental PDF describes eDistrict registration, selecting the Revenue service, submitting the current form and retaining the acknowledgement; approval follows official verification.",
+          "evidenceIds": [
+            "py-income"
+          ]
+        }
+      ],
+      "fees": {
+        "text": "The procedure PDF states no certificate fee; other channel charges have not been verified.",
+        "evidenceIds": [
+          "py-income"
+        ]
+      },
+      "processing": null,
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. The PDF names edistrict.py.gov.in, but normal TLS retrieval failed (curl 35). Information only. The document appendix appears mismatched; eligibility and document requirements remain unknown rather than using a guessed checklist.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "py-income"
+        ],
+        "notes": "The PDF names edistrict.py.gov.in, but normal TLS retrieval failed (curl 35). Information only. The document appendix appears mismatched; eligibility and document requirements remain unknown rather than using a guessed checklist."
+      }
+    },
+    {
+      "id": "py-residence-certificate",
+      "title": "Residence Certificate (Puducherry)",
+      "websiteId": "igod-7c7865e8e6982bc1",
+      "organizationId": "org-fdd5069647df76c9",
+      "description": "Official information about residence certificate (puducherry).",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue and Disaster Management Department, Government of Puducherry",
+      "level": "State",
+      "state": "Puducherry",
+      "district": null,
+      "informationUrl": "https://revenue.py.gov.in/downloads/EODB/EODB-Residence%20Certificate.pdf",
+      "sourceUrl": "https://revenue.py.gov.in/downloads/EODB/EODB-Residence%20Certificate.pdf",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "py-residence",
+          "url": "https://revenue.py.gov.in/downloads/EODB/EODB-Residence%20Certificate.pdf",
+          "publisher": "Revenue and Disaster Management Department, Puducherry",
+          "checkedOn": "2026-10-16",
+          "summary": "Departmental certificate procedure and fee statement.",
+          "locator": "Steps I-IV; document appendix not adopted because it appears generic/mismatched",
+          "contentSha256": "15c2837e3faee5545b382cd89b96b1eef5885ec56025f4a26800e2d754540005"
+        }
+      ],
+      "linkEvidenceIds": [
+        "py-residence"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get residence certificate (puducherry)"
+      ],
+      "synonyms": [
+        "residence certificate (puducherry)"
+      ],
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": [
+        {
+          "text": "The departmental PDF describes eDistrict registration, selecting the Revenue service, submitting the current form and retaining the acknowledgement; approval follows official verification.",
+          "evidenceIds": [
+            "py-residence"
+          ]
+        }
+      ],
+      "fees": {
+        "text": "The procedure PDF states no certificate fee; other channel charges have not been verified.",
+        "evidenceIds": [
+          "py-residence"
+        ]
+      },
+      "processing": null,
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. The PDF names edistrict.py.gov.in, but normal TLS retrieval failed (curl 35). Information only. The document appendix appears mismatched; eligibility and document requirements remain unknown rather than using a guessed checklist.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "py-residence"
+        ],
+        "notes": "The PDF names edistrict.py.gov.in, but normal TLS retrieval failed (curl 35). Information only. The document appendix appears mismatched; eligibility and document requirements remain unknown rather than using a guessed checklist."
+      }
+    },
+    {
+      "id": "instant-epan-new",
+      "title": "Instant e-PAN: new allotment",
+      "websiteId": "income-tax-efiling",
+      "organizationId": "org-13df6f9a70161c3e",
+      "description": "Official information about instant e-pan: new allotment.",
+      "categories": [
+        "taxation"
+      ],
+      "department": "Income Tax Department",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "informationUrl": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM?mobile-app=1",
+      "sourceUrl": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM?mobile-app=1",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "epan-manual",
+          "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM?mobile-app=1",
+          "publisher": "Income Tax Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Current prerequisites and separate new-PAN and download/status operations.",
+          "locator": "Overview, prerequisites and sections 3.1-3.3",
+          "contentSha256": "342b1f4313f2587bfbd5f4398716c9cc2dd104bdb1c9c531be2db8ef796d71a0"
+        }
+      ],
+      "linkEvidenceIds": [
+        "epan-manual"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "get a new instant e-PAN",
+        "apply for instant PAN"
+      ],
+      "synonyms": [
+        "instant epan",
+        "new PAN card"
+      ],
+      "eligibility": {
+        "text": "Selected prerequisites: an individual without an allotted PAN, not a minor or representative assessee; valid Aadhaar, linked mobile and DigiLocker access. Confirm all declarations in the current manual.",
+        "evidenceIds": [
+          "epan-manual"
+        ]
+      },
+      "documents": [
+        {
+          "text": "The current manual requires consent-based DigiLocker proof of date of birth from its prescribed alternatives; it is not a no-documents service.",
+          "evidenceIds": [
+            "epan-manual"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": [
+        {
+          "text": "From official e-Filing Quick Links choose Instant e-PAN and Get New e-PAN, then follow the current declarations and consent workflow on the government portals.",
+          "evidenceIds": [
+            "epan-manual"
+          ]
+        }
+      ],
+      "fees": {
+        "text": "The manual describes new digitally signed e-PAN allotment as free of cost.",
+        "evidenceIds": [
+          "epan-manual"
+        ]
+      },
+      "processing": null,
+      "deadline": null,
+      "beneficiaryGroups": [
+        {
+          "text": "Individual taxpayers",
+          "evidenceIds": [
+            "epan-manual"
+          ]
+        }
+      ],
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. Manual is readable and reviewed; it provides navigation instructions without a directly observed transaction URL. Information only; no credentials or OTPs were entered.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "epan-manual"
+        ],
+        "notes": "Manual is readable and reviewed; it provides navigation instructions without a directly observed transaction URL. Information only; no credentials or OTPs were entered."
+      }
+    },
+    {
+      "id": "instant-epan-download",
+      "title": "Instant e-PAN: check request or download",
+      "websiteId": "income-tax-efiling",
+      "organizationId": "org-13df6f9a70161c3e",
+      "description": "Official information about instant e-pan: check request or download.",
+      "categories": [
+        "taxation"
+      ],
+      "department": "Income Tax Department",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "informationUrl": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM?mobile-app=1",
+      "sourceUrl": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM?mobile-app=1",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "epan-manual",
+          "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM?mobile-app=1",
+          "publisher": "Income Tax Department",
+          "checkedOn": "2026-10-16",
+          "summary": "Current prerequisites and separate new-PAN and download/status operations.",
+          "locator": "Overview, prerequisites and sections 3.1-3.3",
+          "contentSha256": "342b1f4313f2587bfbd5f4398716c9cc2dd104bdb1c9c531be2db8ef796d71a0"
+        }
+      ],
+      "linkEvidenceIds": [
+        "epan-manual"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "download my instant e-PAN",
+        "check instant PAN request"
+      ],
+      "synonyms": [
+        "epan download",
+        "instant PAN status"
+      ],
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": null,
+      "procedure": [
+        {
+          "text": "From official e-Filing Quick Links choose Instant e-PAN, then Check Status / Download e-PAN. The manual describes Aadhaar-linked mobile authentication on the official portal.",
+          "evidenceIds": [
+            "epan-manual"
+          ]
+        }
+      ],
+      "fees": null,
+      "processing": null,
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. A distinct operation for an existing Instant e-PAN request. Public transaction URL not confirmed; information only. JanSetu does not retrieve status or collect Aadhaar/OTP.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "epan-manual"
+        ],
+        "notes": "A distinct operation for an existing Instant e-PAN request. Public transaction URL not confirmed; information only. JanSetu does not retrieve status or collect Aadhaar/OTP."
+      }
+    },
+    {
+      "id": "eci-new-elector-form6",
+      "title": "New voter registration: Form 6",
+      "websiteId": "igod-85affa23dc47255b",
+      "organizationId": "org-e5d43c1e786f7b17",
+      "description": "Official Form 6 information for first inclusion in an electoral roll; the responsible Electoral Registration Officer decides the application.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Election Commission of India / Electoral Registration Officer",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "informationUrl": "https://voters.eci.gov.in/formspdf/Form_6_English.pdf",
+      "sourceUrl": "https://voters.eci.gov.in/formspdf/Form_6_English.pdf",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "voter-form6",
+          "url": "https://voters.eci.gov.in/formspdf/Form_6_English.pdf",
+          "publisher": "Election Commission of India",
+          "checkedOn": "2026-10-16",
+          "summary": "New-elector application, evidence alternatives and declarations.",
+          "locator": "Form 6: sections 7-8, declaration and accessibility notes",
+          "contentSha256": "2d89e57e2e530989e628872a19c1334a0d968e081ffb542c55e9336ca714a179"
+        }
+      ],
+      "linkEvidenceIds": [
+        "voter-form6"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "register as a new voter",
+        "first voter registration"
+      ],
+      "synonyms": [
+        "Form 6",
+        "new voter ID"
+      ],
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Selected evidence: photograph, age evidence and ordinary-residence evidence from the form alternatives. The form includes alternatives/field verification where specified evidence is unavailable.",
+          "evidenceIds": [
+            "voter-form6"
+          ]
+        }
+      ],
+      "conditionalDocuments": null,
+      "procedure": null,
+      "fees": null,
+      "processing": null,
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. Readable official PDF reviewed; the voters portal response is a JavaScript shell, so no online Apply action or current enrollment-window claim is made.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "voter-form6"
+        ],
+        "notes": "Readable official PDF reviewed; the voters portal response is a JavaScript shell, so no online Apply action or current enrollment-window claim is made."
+      }
+    },
+    {
+      "id": "eci-elector-form8",
+      "title": "Voter record changes: Form 8",
+      "websiteId": "igod-85affa23dc47255b",
+      "organizationId": "org-e5d43c1e786f7b17",
+      "description": "Official Form 8 information for an existing electoral record: choose the appropriate correction, shifting, replacement or disability-marking operation.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Election Commission of India / Electoral Registration Officer",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "informationUrl": "https://voters.eci.gov.in/formspdf/Form_8_English.pdf",
+      "sourceUrl": "https://voters.eci.gov.in/formspdf/Form_8_English.pdf",
+      "applicationUrl": null,
+      "applicationMode": "information",
+      "evidence": [
+        {
+          "id": "voter-form8",
+          "url": "https://voters.eci.gov.in/formspdf/Form_8_English.pdf",
+          "publisher": "Election Commission of India",
+          "checkedOn": "2026-10-16",
+          "summary": "Existing-elector correction, shifting, replacement and disability-marking choices.",
+          "locator": "Form 8: purpose selection, sections 1-4 and supporting-evidence instructions",
+          "contentSha256": "41d815f8462f48e130f001882b5a0c26e32540e8b2f6b7e589edd03c92c75c90"
+        }
+      ],
+      "linkEvidenceIds": [
+        "voter-form8"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "verified",
+      "publicationStatus": "published",
+      "citizenIntents": [
+        "correct my voter details",
+        "change voter address"
+      ],
+      "synonyms": [
+        "Form 8",
+        "voter ID correction",
+        "EPIC replacement"
+      ],
+      "eligibility": null,
+      "documents": null,
+      "conditionalDocuments": [
+        {
+          "text": "Evidence depends on the selected operation: residence proof for shifting, supporting proof for corrections, and the stated replacement/disability evidence where applicable.",
+          "evidenceIds": [
+            "voter-form8"
+          ]
+        }
+      ],
+      "procedure": null,
+      "fees": null,
+      "processing": null,
+      "deadline": null,
+      "beneficiaryGroups": null,
+      "reviewNotes": "Source reviewed by Codex on 2026-10-16. Selected facts only; unknown fields remain null. Document lists are partial and case-dependent. The website operator and responsible department are recorded separately. No transaction was submitted. Readable official PDF reviewed. Individual operation requirements differ; no single mandatory checklist or confirmed online Apply route is inferred.",
+      "applicationRouteEvidence": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-10-16",
+        "evidenceIds": [
+          "voter-form8"
+        ],
+        "notes": "Readable official PDF reviewed. Individual operation requirements differ; no single mandatory checklist or confirmed online Apply route is inferred."
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org-7077af4eaac38e33",
+      "name": "National Scholarship Portal",
+      "websiteIds": [
+        "national-scholarship-portal"
+      ]
+    },
+    {
+      "id": "org-05a96313c65f060b",
+      "name": "Tamil Nadu eSevai Portal, Tamil Nadu",
+      "websiteIds": [
+        "igod-2715637a8f399700"
+      ]
+    },
+    {
+      "id": "org-7ed359018f05059a",
+      "name": "Ministry of Labour & Employment",
+      "websiteIds": [
+        "national-career-service"
+      ]
+    },
+    {
+      "id": "org-e999f31ac201d555",
+      "name": "Unique Identification Authority of India",
+      "websiteIds": [
+        "uidai"
+      ]
+    },
+    {
+      "id": "org-afff511c4bead63d",
+      "name": "Department of Administrative Reforms & Public Grievances",
+      "websiteIds": [
+        "cpgrams"
+      ]
+    },
+    {
+      "id": "org-7f72318d5949adac",
+      "name": "Department of Personnel and Training",
+      "websiteIds": [
+        "rti-online"
+      ]
+    },
+    {
+      "id": "org-caf4f9732b6768f4",
+      "name": "Ministry of Micro, Small and Medium Enterprises",
+      "websiteIds": [
+        "udyam-registration"
+      ]
+    },
+    {
+      "id": "org-5763d05f09e5a8be",
+      "name": "Ministry of Micro, Small & Medium Enterprises (MSME)",
+      "websiteIds": [
+        "igod-1d591544b1c2e25d"
+      ]
+    },
+    {
+      "id": "org-f766679368dbf7d4",
+      "name": "Online Citizen Services Portal, Delhi",
+      "websiteIds": [
+        "igod-9908672336cdd912"
+      ]
+    },
+    {
+      "id": "org-af215f9440cbcc78",
+      "name": "eDistrict - Services, Kerala",
+      "websiteIds": [
+        "igod-50b73c3937b8d29b"
+      ]
+    },
+    {
+      "id": "org-7f432ad3e33f5840",
+      "name": "eDistrict Portal, Odisha",
+      "websiteIds": [
+        "igod-5e885f0e333d5206"
+      ]
+    },
+    {
+      "id": "org-fdd5069647df76c9",
+      "name": "Revenue and Disaster Management Department, Puducherry",
+      "websiteIds": [
+        "igod-7c7865e8e6982bc1"
+      ]
+    },
+    {
+      "id": "org-35b358bf8f6aff0f",
+      "name": "Official Portal of Himachal Pradesh Government",
+      "websiteIds": [
+        "igod-ffa4189a2ac66991"
+      ]
+    },
+    {
+      "id": "org-13df6f9a70161c3e",
+      "name": "Income Tax Department, Ministry of Finance",
+      "websiteIds": [
+        "income-tax-efiling"
+      ]
+    },
+    {
+      "id": "org-e5d43c1e786f7b17",
+      "name": "Voters' Service Portal, Election Commission of India",
+      "websiteIds": [
+        "igod-85affa23dc47255b"
+      ]
+    }
+  ]
+}

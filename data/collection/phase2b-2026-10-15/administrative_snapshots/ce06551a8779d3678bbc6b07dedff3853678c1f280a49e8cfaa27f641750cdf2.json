@@ -1,0 +1,26 @@
+{
+  "url": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+  "checkedAt": "2026-10-14T20:46:31+00:00",
+  "status": "OK",
+  "httpStatus": 200,
+  "transport": "curl normal TLS validation",
+  "exitCode": 0,
+  "error": "",
+  "location": null,
+  "elapsedMs": 759,
+  "snapshot": "data\\collection\\phase2b-2026-10-15\\administrative_snapshots\\ce06551a8779d3678bbc6b07dedff3853678c1f280a49e8cfaa27f641750cdf2.json",
+  "method": "GET",
+  "wireSha256": "5f470cabf3003eb6f8270f7b46c1c5ac08c74fb4419edfc052800f5377765359",
+  "bodyBytes": 159715,
+  "attempts": [
+    {
+      "checkedAt": "2026-10-14T20:46:31+00:00",
+      "status": "OK",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "error": ""
+    }
+  ],
+  "pageTitle": "LGD - Local Government Directory, Government of India",
+  "bodyRetention": "discarded; title/status/size/hash only"
+}

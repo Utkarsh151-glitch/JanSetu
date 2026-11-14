@@ -1,0 +1,380 @@
+{
+ "inputs": {
+  "app/src/main/assets/catalog.json": "af25cfc31eed917c3d44dadf3d6c2db781e406bba54fb8aa549bc43bab93cd1a",
+  "data/services/catalog.json": "dbbfac97529d43761b34ec542e2fdf98b3aaaf6f87892e3b16731fcc50a6b15a",
+  "data/services/review_queue.json": "ff5bdfbb87691edc7ea3ae067c25a6641aa7fa9c02254baf26d083110f3eaf1e",
+  "data/review_queue.json": "5f5a69526379ca3d26f077b1c4ffe2d1f64b1bffc1d8668bd57ec5f489972c60",
+  "data/website_enrichment/claims.json": "1d52025b0cfab31ae832bb4db5b1d641236dec7b51a68dac0fb71b06b4e63fcb"
+ },
+ "catalogVersion": 13,
+ "definitions": {
+  "populated": "non-empty value from any source",
+  "directoryOnly": "populated only from the IGOD import",
+  "verified": "checked against an official source (reviewed record or published source-checked profile); never inferred",
+  "unknown": "no value"
+ },
+ "coverage": {
+  "directory": {
+   "catalogWebsites": 7347,
+   "byVerificationStatus": {
+    "verified": 9,
+    "directory_listed": 7338
+   },
+   "igodReviewQueueCandidates": 3823,
+   "igodReviewQueueByStatus": {
+    "TEMPORARILY_UNREACHABLE": 2349,
+    "NEEDS_URL_REVIEW": 297,
+    "NEEDS_OWNERSHIP_REVIEW": 1177
+   },
+   "note": "Directory coverage means a record exists. It does not mean the website's purpose, owner or services were checked."
+  },
+  "verifiedInformation": {
+   "websitesWithVerifiedPurpose": 17,
+   "ofWhichReviewedRecords": 9,
+   "ofWhichPhase6bProfiles": 8,
+   "phase6bProfilesPublished": 15,
+   "phase6bProfilesHeld": 3,
+   "phase6bReviewStatus": {
+    "source_checked": 15
+   },
+   "humanReviewed": 0,
+   "websitesWithCheckedHelpLink": 14,
+   "websitesWithoutVerifiedPurpose": 7330,
+   "websitesWithoutVerifiedPurposePct": 99.77
+  },
+  "publishedServices": {
+   "services": 52,
+   "websitesWithServices": 14,
+   "states": [
+    "Delhi",
+    "Kerala",
+    "Odisha",
+    "Puducherry",
+    "Tamil Nadu"
+   ],
+   "centralServices": 20,
+   "byApplicationMode": {
+    "online": 24,
+    "assisted": 9,
+    "information": 19
+   },
+   "serviceReviewQueueEntries": 86,
+   "serviceReviewQueueUniqueIds": 83,
+   "serviceReviewQueueByLatestStatus": {
+    "NEEDS_REVIEW": 31,
+    "PUBLISHED": 52
+   },
+   "note": "Three service ids have two PUBLISHED decisions each in the queue history, so 55 PUBLISHED entries cover 52 services."
+  }
+ },
+ "websiteFields": {
+  "total": 7347,
+  "rows": [
+   {
+    "field": "Title",
+    "populated": 7347,
+    "populatedPct": 100.0,
+    "directoryOnly": 7338,
+    "directoryOnlyPct": 99.88,
+    "verified": 9,
+    "verifiedPct": 0.12,
+    "unknown": 0,
+    "unknownPct": 0.0,
+    "note": "Directory titles are IGOD names; only the manually reviewed records were checked."
+   },
+   {
+    "field": "Official URL",
+    "populated": 7347,
+    "populatedPct": 100.0,
+    "directoryOnly": 7330,
+    "directoryOnlyPct": 99.77,
+    "verified": 17,
+    "verifiedPct": 0.23,
+    "unknown": 0,
+    "unknownPct": 0.0,
+    "note": "Directory URLs had an automated response check (healthStatus), which is not an ownership review. Verified: reviewed records and websites whose official pages were loaded for a published profile."
+   },
+   {
+    "field": "Purpose (what the website is for)",
+    "populated": 7347,
+    "populatedPct": 100.0,
+    "directoryOnly": 7330,
+    "directoryOnlyPct": 99.77,
+    "verified": 17,
+    "verifiedPct": 0.23,
+    "unknown": 0,
+    "unknownPct": 0.0,
+    "note": "7338 directory descriptions are IGOD category templates. A template never counts as a verified purpose; 8 of those records have a checked purpose from a Phase 6B profile instead."
+   },
+   {
+    "field": "Department or operator",
+    "populated": 7347,
+    "populatedPct": 100.0,
+    "directoryOnly": 7330,
+    "directoryOnlyPct": 99.77,
+    "verified": 17,
+    "verifiedPct": 0.23,
+    "unknown": 0,
+    "unknownPct": 0.0,
+    "note": "For 7338 directory records the listed organisation is the same text as the title."
+   },
+   {
+    "field": "Who it serves (audience)",
+    "populated": 9,
+    "populatedPct": 0.12,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 9,
+    "verifiedPct": 0.12,
+    "unknown": 7338,
+    "unknownPct": 99.88,
+    "note": "No directory field; only published profiles that quote the website."
+   },
+   {
+    "field": "Jurisdiction",
+    "populated": 7345,
+    "populatedPct": 99.97,
+    "directoryOnly": 7330,
+    "directoryOnlyPct": 99.77,
+    "verified": 15,
+    "verifiedPct": 0.2,
+    "unknown": 2,
+    "unknownPct": 0.03,
+    "note": "Directory jurisdiction is the IGOD state grouping, not a checked statement."
+   },
+   {
+    "field": "Languages offered",
+    "populated": 7,
+    "populatedPct": 0.1,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 7,
+    "verifiedPct": 0.1,
+    "unknown": 7340,
+    "unknownPct": 99.9,
+    "note": "No directory field; only language switches observed on saved official pages."
+   },
+   {
+    "field": "Topics / categories",
+    "populated": 7347,
+    "populatedPct": 100.0,
+    "directoryOnly": 7338,
+    "directoryOnlyPct": 99.88,
+    "verified": 9,
+    "verifiedPct": 0.12,
+    "unknown": 0,
+    "unknownPct": 0.0,
+    "note": "Directory categories come from IGOD classification (low or medium confidence)."
+   },
+   {
+    "field": "Official help or contact link",
+    "populated": 14,
+    "populatedPct": 0.19,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 14,
+    "verifiedPct": 0.19,
+    "unknown": 7333,
+    "unknownPct": 99.81,
+    "note": "Links to official help, FAQ, contact or grievance pages observed on a saved page. Phone numbers and emails are not copied."
+   },
+   {
+    "field": "Official task links",
+    "populated": 7,
+    "populatedPct": 0.1,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 7,
+    "verifiedPct": 0.1,
+    "unknown": 7340,
+    "unknownPct": 99.9,
+    "note": "Public task pages (for example, status tracking or service lists). Sign-in, application and payment pages are excluded."
+   },
+   {
+    "field": "Linked JanSetu services",
+    "populated": 14,
+    "populatedPct": 0.19,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 14,
+    "verifiedPct": 0.19,
+    "unknown": 7333,
+    "unknownPct": 99.81,
+    "note": "Websites that at least one published, source-reviewed service record links to."
+   },
+   {
+    "field": "Check date and source",
+    "populated": 7347,
+    "populatedPct": 100.0,
+    "directoryOnly": 7330,
+    "directoryOnlyPct": 99.77,
+    "verified": 17,
+    "verifiedPct": 0.23,
+    "unknown": 0,
+    "unknownPct": 0.0,
+    "note": "Directory records carry the IGOD retrieval date; verified records carry an official-source check date."
+   }
+  ]
+ },
+ "serviceFields": {
+  "total": 52,
+  "rows": [
+   {
+    "field": "Purpose (description)",
+    "populated": 52,
+    "populatedPct": 100.0,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 52,
+    "verifiedPct": 100.0,
+    "unknown": 0,
+    "unknownPct": 0.0,
+    "note": "Verified = set on a published service record with official evidence."
+   },
+   {
+    "field": "Applicant / beneficiary groups",
+    "populated": 10,
+    "populatedPct": 19.23,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 10,
+    "verifiedPct": 19.23,
+    "unknown": 42,
+    "unknownPct": 80.77,
+    "note": "Verified = every entry cites evidence held on the service record. Where it is empty, who may apply is either in eligibility text or not yet sourced."
+   },
+   {
+    "field": "Eligibility",
+    "populated": 15,
+    "populatedPct": 28.85,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 15,
+    "verifiedPct": 28.85,
+    "unknown": 37,
+    "unknownPct": 71.15,
+    "note": "Verified = every entry cites evidence held on the service record."
+   },
+   {
+    "field": "Required documents",
+    "populated": 29,
+    "populatedPct": 55.77,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 29,
+    "verifiedPct": 55.77,
+    "unknown": 23,
+    "unknownPct": 44.23,
+    "note": "Verified = every entry cites evidence held on the service record."
+   },
+   {
+    "field": "Conditional documents",
+    "populated": 17,
+    "populatedPct": 32.69,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 17,
+    "verifiedPct": 32.69,
+    "unknown": 35,
+    "unknownPct": 67.31,
+    "note": "Verified = every entry cites evidence held on the service record."
+   },
+   {
+    "field": "Procedure",
+    "populated": 25,
+    "populatedPct": 48.08,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 25,
+    "verifiedPct": 48.08,
+    "unknown": 27,
+    "unknownPct": 51.92,
+    "note": "Verified = every entry cites evidence held on the service record."
+   },
+   {
+    "field": "Fees",
+    "populated": 13,
+    "populatedPct": 25.0,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 13,
+    "verifiedPct": 25.0,
+    "unknown": 39,
+    "unknownPct": 75.0,
+    "note": "Verified = every entry cites evidence held on the service record."
+   },
+   {
+    "field": "Deadline",
+    "populated": 0,
+    "populatedPct": 0.0,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 0,
+    "verifiedPct": 0.0,
+    "unknown": 52,
+    "unknownPct": 100.0,
+    "note": "Verified = every entry cites evidence held on the service record."
+   },
+   {
+    "field": "Processing time",
+    "populated": 16,
+    "populatedPct": 30.77,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 16,
+    "verifiedPct": 30.77,
+    "unknown": 36,
+    "unknownPct": 69.23,
+    "note": "Verified = every entry cites evidence held on the service record."
+   },
+   {
+    "field": "Direct application URL",
+    "populated": 24,
+    "populatedPct": 46.15,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 24,
+    "verifiedPct": 46.15,
+    "unknown": 28,
+    "unknownPct": 53.85,
+    "note": "Verified = set on a published service record with official evidence. Null for information-only and assisted (centre) services, where no direct citizen URL was confirmed."
+   },
+   {
+    "field": "Application route (mode)",
+    "populated": 52,
+    "populatedPct": 100.0,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 52,
+    "verifiedPct": 100.0,
+    "unknown": 0,
+    "unknownPct": 0.0,
+    "note": "Verified = set on a published service record with official evidence."
+   },
+   {
+    "field": "Official information page",
+    "populated": 52,
+    "populatedPct": 100.0,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 52,
+    "verifiedPct": 100.0,
+    "unknown": 0,
+    "unknownPct": 0.0,
+    "note": "Verified = set on a published service record with official evidence."
+   },
+   {
+    "field": "Responsible department",
+    "populated": 52,
+    "populatedPct": 100.0,
+    "directoryOnly": 0,
+    "directoryOnlyPct": 0.0,
+    "verified": 52,
+    "verifiedPct": 100.0,
+    "unknown": 0,
+    "unknownPct": 0.0,
+    "note": "Verified = set on a published service record with official evidence."
+   }
+  ]
+ }
+}

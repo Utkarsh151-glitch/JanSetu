@@ -1,0 +1,62 @@
+{
+ "websiteId": "igod-ddb798b880079969",
+ "url": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx",
+ "checkedAt": "2026-10-17T19:29:26+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response).",
+ "httpStatus": 200,
+ "finalUrl": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx",
+ "title": "SevanaPension DBT Module - Social Security System Govt.of Kerala",
+ "lang": null,
+ "metaDescription": null,
+ "text": "Home\nHelp & Faq\nVideo Tutorial\nContact Us\nLogin\nContact Details - SevanaPension Direct To Home Module.\n\nKerala Social Security Pension Limited\nPhone :0471-2994660\nEmail :kssplimited@gmail.com\nDBT Cell(Directorate of Panchayat)\nPhone : 0471-2327526\nEmail :dbtcell2017@gmail.com\nInformation Kerala Mission (For Technical Help)\nInformation Kerala Mission\nJoint Registrar of Co-operative Socities\nContact Deatails\nPdf",
+ "textSha256": "f8cc95d06dbfbda9c467edf0ba8a6433dee61082c3d56547006f32196d697db2",
+ "links": [
+  {
+   "text": "Home",
+   "href": "https://dbt.lsgkerala.gov.in/Home.aspx"
+  },
+  {
+   "text": "Help & Faq",
+   "href": "https://dbt.lsgkerala.gov.in/Help_Faq.aspx"
+  },
+  {
+   "text": "Video Tutorial",
+   "href": "https://dbt.lsgkerala.gov.in/Video_Docs.aspx"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx"
+  },
+  {
+   "text": "Login",
+   "href": "https://dbt.lsgkerala.gov.in/login.aspx"
+  },
+  {
+   "text": "Kerala Social Security Pension Limited",
+   "href": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx#collapseOne"
+  },
+  {
+   "text": "DBT Cell(Directorate of Panchayat)",
+   "href": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx#collapsetwo"
+  },
+  {
+   "text": "Information Kerala Mission (For Technical Help)",
+   "href": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx#collapsethree"
+  },
+  {
+   "text": "Information Kerala Mission",
+   "href": "https://ikm.gov.in/en/help-desk"
+  },
+  {
+   "text": "Joint Registrar of Co-operative Socities",
+   "href": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx#collapsefour"
+  },
+  {
+   "text": "Contact Deatails Pdf",
+   "href": "https://dbt.lsgkerala.gov.in/Forms/JR%20details.pdf"
+  }
+ ],
+ "attempt": 2
+}

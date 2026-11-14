@@ -1,0 +1,22 @@
+HTTP/1.1 200 
+X-FRAME-OPTIONS: SAMEORIGIN
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: No-cache
+Access-Control-Allow-Origin: https://lgdirectory.gov.in
+Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE, HEAD, PATCH
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, token, OWASP_CSRFTOKEN, X-CSRF-TOKEN
+Access-Control-Expose-Headers: Authorization, Content-Disposition, token
+ETag: 
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-FRAME-OPTIONS: SAMEORIGIN
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Transfer-Encoding: chunked
+Date: Wed, 14 Oct 2026 20:46:34 GMT
+

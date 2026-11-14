@@ -1,0 +1,1237 @@
+{
+  "reviewedOn": "2026-10-16",
+  "scope": "targeted local editorial research; no nationwide crawl",
+  "candidates": [
+    {
+      "id": "dl-income-certificate",
+      "title": "Delhi Income Certificate",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=riKGp6qbpouao2hGbLw4dJUtjAFtwDFpZutrIuogId0=",
+          "researchFile": "data/services/research/phase3c/delhi-income.json",
+          "sha256": "a55af811391026adbc1aef7cdc5ed565bd9bc74e8a07ce5e06347b2902210650"
+        },
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-domicile-certificate",
+      "title": "Delhi Domicile Certificate",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=GDX0anvCbFI+Ydkd0X4TfOMzCufU1wuuYbY+d/MGkho=",
+          "researchFile": "data/services/research/phase3c/delhi-domicile.json",
+          "sha256": "01e895d37e83e95091d6cf77b6b4b4d0e139da75cb3e5a505292eb8ada1c08b3"
+        },
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-obc-certificate",
+      "title": "Delhi OBC Certificate",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=JB43Aj/g9K8d1RKt88lGvwuLNCKqIbcj5IEnYbOVu3E=",
+          "researchFile": "data/services/research/phase3c/delhi-obc.json",
+          "sha256": "b59c49679a0a8851a8a8f522e12289f1b3fd16d40baf11de69136a45c5977104"
+        },
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-sc-certificate",
+      "title": "Delhi Scheduled Caste Certificate",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=lC/pNp5TPkzmQmDopE7xNpVTQ95OIoVTdMKB66fUUIU=",
+          "researchFile": "data/services/research/phase3c/delhi-sc.json",
+          "sha256": "55116455473da361eea2187d3e3a0d22fc0e18993664a7147a3bde034a79da9b"
+        },
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-surviving-certificate",
+      "title": "Delhi Surviving Member Certificate",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/Public/ViewUploadScanDocumentTemplate?q=jWdPxdcDpwWlm4OG+ipyvwLqhz7b9TKwPuPuOKYWVcM=",
+          "researchFile": "data/services/research/phase3c/delhi-surviving.json",
+          "sha256": "032fb024c1cf647068e50312fb4d0273f15b8161d5ccd62b38fd4deae998bdfa"
+        },
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-st",
+      "title": "Scheduled Tribe Certificate (Delhi)",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Listed in the current departmental table. Service-specific guideline/current requirements have not been reviewed; retain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-ews",
+      "title": "Income and Assets Certificate for Economically Weaker Section (Delhi)",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Listed in the current departmental table. Service-specific guideline/current requirements have not been reviewed; retain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-ncl",
+      "title": "Non-Creamy Layer Certificate for OBC (Delhi)",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Listed in the current departmental table. Service-specific guideline/current requirements have not been reviewed; retain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-marriage-registration",
+      "title": "Registration of Marriage (Delhi)",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Listed in the current departmental table. Service-specific guideline/current requirements have not been reviewed; retain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-marriage-solemnization",
+      "title": "Solemnization of Marriage (Delhi)",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Listed in the current departmental table. Service-specific guideline/current requirements have not been reviewed; retain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-disability-id",
+      "title": "Permanent Identity Card to the Disabled Person (Delhi)",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Listed in the current departmental table. Service-specific guideline/current requirements have not been reviewed; retain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-solvency",
+      "title": "Solvency Certificate (Delhi)",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Listed in the current departmental table. Service-specific guideline/current requirements have not been reviewed; retain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-lal-dora",
+      "title": "Lal dora Certificate (Delhi)",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "land",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Listed in the current departmental table. Service-specific guideline/current requirements have not been reviewed; retain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "dl-old-age-pension",
+      "title": "Old Age Pension Scheme (Delhi)",
+      "level": "State",
+      "state": "Delhi",
+      "district": null,
+      "category": "welfare",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Listed in the current departmental table. Service-specific guideline/current requirements have not been reviewed; retain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ServiceGuideline.html",
+          "researchFile": "data/services/research/phase3c/delhi-list.json",
+          "sha256": "b73bb65c3354c6d2352ba7bb8ec8a5b1b69824050b86f807bec11c85047930b3"
+        }
+      ]
+    },
+    {
+      "id": "kl-income-certificate",
+      "title": "Income Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "researchFile": "data/services/research/phase3c/kerala-faq.json",
+          "sha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-nativity-certificate",
+      "title": "Nativity Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "researchFile": "data/services/research/phase3c/kerala-faq.json",
+          "sha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-caste-obc-certificate",
+      "title": "Caste Certificate (OBC) (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "researchFile": "data/services/research/phase3c/kerala-faq.json",
+          "sha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-community-sc-st-certificate",
+      "title": "Community Certificate (SC/ST) (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "researchFile": "data/services/research/phase3c/kerala-faq.json",
+          "sha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-domicile-certificate",
+      "title": "Domicile Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "researchFile": "data/services/research/phase3c/kerala-faq.json",
+          "sha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-family-membership-certificate",
+      "title": "Family Membership Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "researchFile": "data/services/research/phase3c/kerala-faq.json",
+          "sha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-relationship-certificate",
+      "title": "Relationship Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "researchFile": "data/services/research/phase3c/kerala-faq.json",
+          "sha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-legal-heir-certificate",
+      "title": "Legal Heir Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Service-specific fact and route review complete; only selected sourced facts are proposed.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq",
+          "researchFile": "data/services/research/phase3c/kerala-faq.json",
+          "sha256": "a784de47c2a54d154cfd366b543136cc8ba114ea6736109ede940198abfcb33d"
+        },
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-possession-certificate",
+      "title": "Possession Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Current service list confirms the operation. Individual eligibility and conditional evidence are not yet reviewed; remain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-one-same-certificate",
+      "title": "One and the Same Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Current service list confirms the operation. Individual eligibility and conditional evidence are not yet reviewed; remain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-non-remarriage-certificate",
+      "title": "Non-Remarriage Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Current service list confirms the operation. Individual eligibility and conditional evidence are not yet reviewed; remain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-valuation-certificate",
+      "title": "Valuation Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Current service list confirms the operation. Individual eligibility and conditional evidence are not yet reviewed; remain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-dependency-certificate",
+      "title": "Dependency Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Current service list confirms the operation. Individual eligibility and conditional evidence are not yet reviewed; remain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-non-creamy-certificate",
+      "title": "Non-Creamy Layer Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Current service list confirms the operation. Individual eligibility and conditional evidence are not yet reviewed; remain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "kl-conversion-certificate",
+      "title": "Conversion Certificate (Kerala)",
+      "level": "State",
+      "state": "Kerala",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Current service list confirms the operation. Individual eligibility and conditional evidence are not yet reviewed; remain pending.",
+      "sources": [
+        {
+          "url": "https://edistrict.kerala.gov.in/servicesNew.html",
+          "researchFile": "data/services/research/phase3c/kerala-list.json",
+          "sha256": "598b39f0f7c5c2e8b7624f5514d905b861a61b087f07f3cf9cc3cc8c16391774"
+        }
+      ]
+    },
+    {
+      "id": "od-resident-certificate",
+      "title": "Resident Certificate (Odisha)",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "sources": [
+        {
+          "url": "https://edistrict.odisha.gov.in/",
+          "researchFile": "data/services/research/phase3c/odisha-home.json",
+          "sha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ]
+    },
+    {
+      "id": "od-income-certificate",
+      "title": "Income Certificate (Odisha)",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "sources": [
+        {
+          "url": "https://edistrict.odisha.gov.in/",
+          "researchFile": "data/services/research/phase3c/odisha-home.json",
+          "sha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ]
+    },
+    {
+      "id": "od-sc-certificate",
+      "title": "Scheduled Caste Certificate (Odisha)",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "sources": [
+        {
+          "url": "https://edistrict.odisha.gov.in/",
+          "researchFile": "data/services/research/phase3c/odisha-home.json",
+          "sha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ]
+    },
+    {
+      "id": "od-st-certificate",
+      "title": "Scheduled Tribe Certificate (Odisha)",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "sources": [
+        {
+          "url": "https://edistrict.odisha.gov.in/",
+          "researchFile": "data/services/research/phase3c/odisha-home.json",
+          "sha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ]
+    },
+    {
+      "id": "od-ews-certificate",
+      "title": "Income and Asset Certificate (EWS) (Odisha)",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "sources": [
+        {
+          "url": "https://edistrict.odisha.gov.in/",
+          "researchFile": "data/services/research/phase3c/odisha-home.json",
+          "sha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ]
+    },
+    {
+      "id": "od-legal-heir-certificate",
+      "title": "Legal Heir Certificate (Odisha)",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "sources": [
+        {
+          "url": "https://edistrict.odisha.gov.in/",
+          "researchFile": "data/services/research/phase3c/odisha-home.json",
+          "sha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ]
+    },
+    {
+      "id": "od-obc-certificate",
+      "title": "OBC Certificate (Odisha)",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "sources": [
+        {
+          "url": "https://edistrict.odisha.gov.in/",
+          "researchFile": "data/services/research/phase3c/odisha-home.json",
+          "sha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ]
+    },
+    {
+      "id": "od-sebc-certificate",
+      "title": "SEBC Certificate (Odisha)",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Official service facts reviewed. Source-linked directApply endpoints returned normal-TLS HTTP 200 but no readable transaction entry; no Apply action. Some modal wording appears old/incomplete, so full eligibility is not inferred.",
+      "sources": [
+        {
+          "url": "https://edistrict.odisha.gov.in/",
+          "researchFile": "data/services/research/phase3c/odisha-home.json",
+          "sha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ]
+    },
+    {
+      "id": "od-guardianship",
+      "title": "Guardianship Certificate (Odisha)",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Current portal lists this distinct service. Scope, conditional evidence and current application entry need individual review.",
+      "sources": [
+        {
+          "url": "https://edistrict.odisha.gov.in/",
+          "researchFile": "data/services/research/phase3c/odisha-home.json",
+          "sha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ]
+    },
+    {
+      "id": "od-solvency",
+      "title": "Solvency Certificate (Odisha)",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Current portal lists this distinct service. Scope, conditional evidence and current application entry need individual review.",
+      "sources": [
+        {
+          "url": "https://edistrict.odisha.gov.in/",
+          "researchFile": "data/services/research/phase3c/odisha-home.json",
+          "sha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ]
+    },
+    {
+      "id": "od-ror",
+      "title": "Certified Copy of RoR (Odisha)",
+      "level": "State",
+      "state": "Odisha",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Current portal lists this distinct service. Scope, conditional evidence and current application entry need individual review.",
+      "sources": [
+        {
+          "url": "https://edistrict.odisha.gov.in/",
+          "researchFile": "data/services/research/phase3c/odisha-home.json",
+          "sha256": "f2341a48ec83accdbd767b99846c2a3bfe62085b9b852b8fd85743fe97ed2703"
+        }
+      ]
+    },
+    {
+      "id": "py-income-certificate",
+      "title": "Income Certificate (Puducherry)",
+      "level": "State",
+      "state": "Puducherry",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "The PDF names edistrict.py.gov.in, but normal TLS retrieval failed (curl 35). Information only. The document appendix appears mismatched; eligibility and document requirements remain unknown rather than using a guessed checklist.",
+      "sources": [
+        {
+          "url": "https://revenue.py.gov.in/downloads/EODB/EODB-Income%20Certificate.pdf",
+          "researchFile": "data/services/research/phase3c/py-income.json",
+          "sha256": "edd020293e08af154056d9acb80c9d9f2107d3c1dea56d1960b5c1e330bd963d"
+        }
+      ]
+    },
+    {
+      "id": "py-residence-certificate",
+      "title": "Residence Certificate (Puducherry)",
+      "level": "State",
+      "state": "Puducherry",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "The PDF names edistrict.py.gov.in, but normal TLS retrieval failed (curl 35). Information only. The document appendix appears mismatched; eligibility and document requirements remain unknown rather than using a guessed checklist.",
+      "sources": [
+        {
+          "url": "https://revenue.py.gov.in/downloads/EODB/EODB-Residence%20Certificate.pdf",
+          "researchFile": "data/services/research/phase3c/py-residence.json",
+          "sha256": "15c2837e3faee5545b382cd89b96b1eef5885ec56025f4a26800e2d754540005"
+        }
+      ]
+    },
+    {
+      "id": "hp-income",
+      "title": "Income Certificate (Himachal Pradesh)",
+      "level": "State",
+      "state": "Himachal Pradesh",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Old eDistrict link redirects to HimSeva; the current list confirms this operation. Service-specific checklist, conditions and public application entry need review.",
+      "sources": [
+        {
+          "url": "https://himseva.hp.gov.in/pages/staticSite/serviceList.xhtml",
+          "researchFile": "data/services/research/phase3c/himachal-current-list.json",
+          "sha256": "01126ace676d411137ab74f265ee0f810be281d28ebe69a866abd3156bca0d7e"
+        }
+      ]
+    },
+    {
+      "id": "hp-bonafide",
+      "title": "Bonafide Himachali Certificate (Himachal Pradesh)",
+      "level": "State",
+      "state": "Himachal Pradesh",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Old eDistrict link redirects to HimSeva; the current list confirms this operation. Service-specific checklist, conditions and public application entry need review.",
+      "sources": [
+        {
+          "url": "https://himseva.hp.gov.in/pages/staticSite/serviceList.xhtml",
+          "researchFile": "data/services/research/phase3c/himachal-current-list.json",
+          "sha256": "01126ace676d411137ab74f265ee0f810be281d28ebe69a866abd3156bca0d7e"
+        }
+      ]
+    },
+    {
+      "id": "hp-caste",
+      "title": "Caste (SC/ST) Certificate (Himachal Pradesh)",
+      "level": "State",
+      "state": "Himachal Pradesh",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Old eDistrict link redirects to HimSeva; the current list confirms this operation. Service-specific checklist, conditions and public application entry need review.",
+      "sources": [
+        {
+          "url": "https://himseva.hp.gov.in/pages/staticSite/serviceList.xhtml",
+          "researchFile": "data/services/research/phase3c/himachal-current-list.json",
+          "sha256": "01126ace676d411137ab74f265ee0f810be281d28ebe69a866abd3156bca0d7e"
+        }
+      ]
+    },
+    {
+      "id": "hp-legal-heir",
+      "title": "Legal Heirs Certificate (Himachal Pradesh)",
+      "level": "State",
+      "state": "Himachal Pradesh",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Old eDistrict link redirects to HimSeva; the current list confirms this operation. Service-specific checklist, conditions and public application entry need review.",
+      "sources": [
+        {
+          "url": "https://himseva.hp.gov.in/pages/staticSite/serviceList.xhtml",
+          "researchFile": "data/services/research/phase3c/himachal-current-list.json",
+          "sha256": "01126ace676d411137ab74f265ee0f810be281d28ebe69a866abd3156bca0d7e"
+        }
+      ]
+    },
+    {
+      "id": "hp-unemployment",
+      "title": "Un-Employment Certificate (Himachal Pradesh)",
+      "level": "State",
+      "state": "Himachal Pradesh",
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Old eDistrict link redirects to HimSeva; the current list confirms this operation. Service-specific checklist, conditions and public application entry need review.",
+      "sources": [
+        {
+          "url": "https://himseva.hp.gov.in/pages/staticSite/serviceList.xhtml",
+          "researchFile": "data/services/research/phase3c/himachal-current-list.json",
+          "sha256": "01126ace676d411137ab74f265ee0f810be281d28ebe69a866abd3156bca0d7e"
+        }
+      ]
+    },
+    {
+      "id": "shimla-water-connection",
+      "title": "Application for Water Connection (Shimla)",
+      "level": "Local",
+      "state": "Himachal Pradesh",
+      "district": "Shimla",
+      "category": "utilities",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "The current list places this operation under Municipal Corporation Shimla / SJPNL. No service-specific requirements or application route reviewed; local candidate only, not statewide coverage.",
+      "sources": [
+        {
+          "url": "https://himseva.hp.gov.in/pages/staticSite/serviceList.xhtml",
+          "researchFile": "data/services/research/phase3c/himachal-current-list.json",
+          "sha256": "01126ace676d411137ab74f265ee0f810be281d28ebe69a866abd3156bca0d7e"
+        }
+      ]
+    },
+    {
+      "id": "shimla-sewer-connection",
+      "title": "Application for Sewerage Connection (Shimla)",
+      "level": "Local",
+      "state": "Himachal Pradesh",
+      "district": "Shimla",
+      "category": "utilities",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "The current list places this operation under Municipal Corporation Shimla / SJPNL. No service-specific requirements or application route reviewed; local candidate only, not statewide coverage.",
+      "sources": [
+        {
+          "url": "https://himseva.hp.gov.in/pages/staticSite/serviceList.xhtml",
+          "researchFile": "data/services/research/phase3c/himachal-current-list.json",
+          "sha256": "01126ace676d411137ab74f265ee0f810be281d28ebe69a866abd3156bca0d7e"
+        }
+      ]
+    },
+    {
+      "id": "instant-epan-new",
+      "title": "Instant e-PAN: new allotment",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "category": "taxation",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Manual is readable and reviewed; it provides navigation instructions without a directly observed transaction URL. Information only; no credentials or OTPs were entered.",
+      "sources": [
+        {
+          "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM?mobile-app=1",
+          "researchFile": "data/services/research/phase3c/epan-manual.json",
+          "sha256": "342b1f4313f2587bfbd5f4398716c9cc2dd104bdb1c9c531be2db8ef796d71a0"
+        }
+      ]
+    },
+    {
+      "id": "instant-epan-download",
+      "title": "Instant e-PAN: check request or download",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "category": "taxation",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "A distinct operation for an existing Instant e-PAN request. Public transaction URL not confirmed; information only. JanSetu does not retrieve status or collect Aadhaar/OTP.",
+      "sources": [
+        {
+          "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/instant-e-pan/instant-UM?mobile-app=1",
+          "researchFile": "data/services/research/phase3c/epan-manual.json",
+          "sha256": "342b1f4313f2587bfbd5f4398716c9cc2dd104bdb1c9c531be2db8ef796d71a0"
+        }
+      ]
+    },
+    {
+      "id": "eci-new-elector-form6",
+      "title": "New voter registration: Form 6",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Readable official PDF reviewed; the voters portal response is a JavaScript shell, so no online Apply action or current enrollment-window claim is made.",
+      "sources": [
+        {
+          "url": "https://voters.eci.gov.in/formspdf/Form_6_English.pdf",
+          "researchFile": "data/services/research/phase3c/voter-form6.json",
+          "sha256": "2d89e57e2e530989e628872a19c1334a0d968e081ffb542c55e9336ca714a179"
+        }
+      ]
+    },
+    {
+      "id": "eci-elector-form8",
+      "title": "Voter record changes: Form 8",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": true,
+      "decision": "publish",
+      "reason": "Readable official PDF reviewed. Individual operation requirements differ; no single mandatory checklist or confirmed online Apply route is inferred.",
+      "sources": [
+        {
+          "url": "https://voters.eci.gov.in/formspdf/Form_8_English.pdf",
+          "researchFile": "data/services/research/phase3c/voter-form8.json",
+          "sha256": "41d815f8462f48e130f001882b5a0c26e32540e8b2f6b7e589edd03c92c75c90"
+        }
+      ]
+    },
+    {
+      "id": "eci-overseas-form6a",
+      "title": "Overseas voter registration: Form 6A",
+      "level": "Central",
+      "state": null,
+      "district": null,
+      "category": "documents",
+      "investigatedOn": "2026-10-16",
+      "discovered": true,
+      "sourceReviewed": false,
+      "decision": "pending",
+      "reason": "Official PDF is readable but appended instructions use older qualifying-date examples and legacy NVSP links. Current prerequisites and application route need reconciliation; pending.",
+      "sources": [
+        {
+          "url": "https://voters.eci.gov.in/formspdf/Form_6A_English.pdf",
+          "researchFile": "data/services/research/phase3c/voter-form6a.json",
+          "sha256": "650b15022cabb2c824be06f2bb45c969caed1a97a6837bccbb761bcaac3b5620"
+        }
+      ]
+    }
+  ],
+  "existingCaseReviews": [
+    {
+      "id": "digilocker-fetch-issued",
+      "previousSha256": "2aebfd0c5a990733c4b10cbc44be9cb391785efbe15fdd934297d1550bc75f9c",
+      "reviewedBy": "Codex",
+      "checkedOn": "2026-10-16",
+      "reason": "DigiLocker homepage confirms fetching as a feature, but current FAQ retrieval is a JavaScript shell; issued-document workflow and conditional prerequisites still need readable operation-specific review.",
+      "reviewEvidence": [
+        {
+          "researchFile": "data/services/research/phase3c/digilocker-home.json",
+          "url": "https://www.digilocker.gov.in/"
+        },
+        {
+          "researchFile": "data/services/research/phase3c/digilocker-faq.json",
+          "url": "https://www.digilocker.gov.in/web/about/faq"
+        },
+        {
+          "researchFile": "data/services/research/phase3c/digilocker-readable-faq.json",
+          "url": "https://wb.digilocker.gov.in/web/about/faq"
+        }
+      ]
+    },
+    {
+      "id": "digilocker-share-issued",
+      "previousSha256": "e9ea960c5ce60a133faae5a8e62f66d1cb92d5e05fe69d82f31ee5eb67014228",
+      "reviewedBy": "Codex",
+      "checkedOn": "2026-10-16",
+      "reason": "Homepage describes sharing but current FAQ body is a JavaScript shell; operation-specific consent and issued-versus-uploaded distinctions remain unreviewed.",
+      "reviewEvidence": [
+        {
+          "researchFile": "data/services/research/phase3c/digilocker-home.json",
+          "url": "https://www.digilocker.gov.in/"
+        },
+        {
+          "researchFile": "data/services/research/phase3c/digilocker-faq.json",
+          "url": "https://www.digilocker.gov.in/web/about/faq"
+        }
+      ]
+    },
+    {
+      "id": "driving-licence-application",
+      "previousSha256": "e04e2ffa4444066b6b071e8a99892049593e393789ec78167f4a2a35dbd38e83",
+      "reviewedBy": "Codex",
+      "checkedOn": "2026-10-16",
+      "reason": "Delhi-specific permanent/learner pages were retrieved but contain mixed/possibly old requirements. Sarathi and central FAQ retrieval failed (curl 56); no current state transaction entry/checklist confirmed.",
+      "reviewEvidence": [
+        {
+          "researchFile": "data/services/research/phase3c/delhi-driving.json",
+          "url": "https://transport.delhi.gov.in/transport/driving-license"
+        },
+        {
+          "researchFile": "data/services/research/phase3c/delhi-learner.json",
+          "url": "https://transport.delhi.gov.in/transport/learner-licence"
+        },
+        {
+          "researchFile": "data/services/research/phase3c/sarathi-route.json",
+          "url": "https://sarathi.parivahan.gov.in/"
+        },
+        {
+          "researchFile": "data/services/research/phase3c/driving-faq.json",
+          "url": "https://parivahan.gov.in/parivahan/en/content/how-apply-driving-license"
+        }
+      ]
+    },
+    {
+      "id": "pmegp-direct-application",
+      "previousSha256": "344c40ec1bd2f5296be6669bda791236de32dea2e0e42a1258bb9323d39397e8",
+      "reviewedBy": "Codex",
+      "checkedOn": "2026-10-16",
+      "reason": "Canonical non-www host now passes normal TLS, while www fails curl 60. Public homepage notice says fresh intake is unavailable pending scheme-continuation approval. Retain pending; do not infer an active Apply route.",
+      "reviewEvidence": [
+        {
+          "researchFile": "data/services/research/phase3c/pmegp-route.json",
+          "url": "https://common-pmegp.msme.gov.in/"
+        },
+        {
+          "researchFile": "data/services/research/phase3c/pmegp-route-www.json",
+          "url": "https://www.common-pmegp.msme.gov.in/Home/HomePage/"
+        },
+        {
+          "researchFile": "data/services/research/phase3c/pmegp-intake-review.json",
+          "url": "https://common-pmegp.msme.gov.in/"
+        }
+      ]
+    }
+  ]
+}

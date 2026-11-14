@@ -1,0 +1,72 @@
+{
+ "websiteId": "rti-online",
+ "url": "https://rtionline.gov.in/faq.php?pageid=1679091c5a880faf6fb5e6087eb1b2dc",
+ "checkedAt": "2026-10-17T10:52:20+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "httpStatus": 200,
+ "finalUrl": "https://rtionline.gov.in/faq.php?pageid=1679091c5a880faf6fb5e6087eb1b2dc",
+ "title": "RTI Online :: Frequently Asked Questions",
+ "lang": "en",
+ "metaDescription": "Online RTI Information Systems, Government of India RTI Request & Appeal Management Information System (RTI-MIS) (Based on Right to Information Act 2005) RTI Online Request ,RTI Online First Appeal, Online View Status.",
+ "text": " \nA+     A     A-\nSelect Language:\nEnglish\nHindi\nPublic Authorities Available\nRTI Online\nVersion 2.0\nAn Initiative of Department of Personnel & Training, Government of India\nHomeSubmit RequestSubmit First AppealView StatusView HistoryLoginUser ManualContact UsFAQPayment Reconciliation\n\n\nRTI Online Frequently Asked Questions:-\nTo which Public Authority can I file a request through this portal?\nHow do I write my application for seeking the information as per RTI Act 2005?\nHow do I make the payment for RTI fee?\nDo I get any receipt for online filing of RTI application?\nWhat will happen to my application if I select a wrong Public Authority in the RTI request form?\nWill I be informed about the additional fee (if any) is required to pay?\nHow do I file an appeal with First Appellate Authority?\nDo I need to make any payment for filing an appeal?\nDo I get any SMS from RTI Online Portal?\nWhat can I do if I forgot my login credentials?\nIs it mandatory to create user account on RTI online web portal?\nHow much time RTI request/appeal retain at this portal?\nWhat should I do if amount is deducted from my account but registration number is not generated?\nWhat should I do when portal is not allowing me to file the first appeal?\nCan I file online first appeal for any RTI application filed physically in the first place ?\nWhy RTI application filed by me is not reflecting in my user account history?\nWhy I have received multiple RTI registration numbers, even though I have filed single RTI application ?\nHow can I View Status/Reply of my RTI Application or First Appeal?\nWhat if the Registration Number is not received on my Email or Mobile No. even after 48 working Hours?\nHow to upload a supporting document if an alert comes as \"SUPPORTING DOCUMENTS REQUIRED FROM APPLICANT\"?\nWhat queries can be raised with Helpline Email helprtionline-dopt(at)nic(dot)in ?\nWhat should I do when my browser show certificate error while opening RTI online portal?\nCan I file RTI application for state public authorities through this portal?\nIf the RTI application is filed manually , then is it possible to file 1st appeal on line?\nWhat are the reasons for my RTI payment failing?\nWhy this OTP feature is introduced in view status option?\n\nHome | National Portal of India | Complaint & Second Appeal to CIC | FAQ | Policy\n\nCopyright © 2026. All rights reserved | Website designed, developed, and hosted by National Informatics Centre, New Delhi | Content owned and managed by DOP&T\n\n\n",
+ "textSha256": "92c3ac31f255ede6c16c35093d63fb32ee56b03e3975a7c8a45309ba021b2e1b",
+ "links": [
+  {
+   "text": "Public Authorities Available",
+   "href": "https://rtionline.gov.in/request/allpa.php?pageid=cfcd208495d565ef66e7dff9f98764da"
+  },
+  {
+   "text": "Home",
+   "href": "https://rtionline.gov.in/index.php"
+  },
+  {
+   "text": "Submit Request",
+   "href": "https://rtionline.gov.in/guidelines.php?request&&pageid=cfcd208495d565ef66e7dff9f98764da"
+  },
+  {
+   "text": "Submit First Appeal",
+   "href": "https://rtionline.gov.in/guidelines.php?appeal&&pageid=cfcd208495d565ef66e7dff9f98764da"
+  },
+  {
+   "text": "View Status",
+   "href": "https://rtionline.gov.in/request/status.php"
+  },
+  {
+   "text": "View History",
+   "href": "https://rtionline.gov.in/request/status_history.php"
+  },
+  {
+   "text": "Login",
+   "href": "https://rtionline.gov.in/login.php"
+  },
+  {
+   "text": "User Manual",
+   "href": "https://rtionline.gov.in/viewPDF.php?file=um_citizen.pdf"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://rtionline.gov.in/Contactus.php"
+  },
+  {
+   "text": "FAQ",
+   "href": "https://rtionline.gov.in/faq.php?pageid=cfcd208495d565ef66e7dff9f98764da"
+  },
+  {
+   "text": "Payment Reconciliation",
+   "href": "https://rtionline.gov.in/request/status_pendingPayment.php?pageid=cfcd208495d565ef66e7dff9f98764da"
+  },
+  {
+   "text": "Home",
+   "href": "https://rtionline.gov.in/"
+  },
+  {
+   "text": "FAQ",
+   "href": "https://rtionline.gov.in/faq.php?pageid=cfcd208495d565ef66e7dff9f98764da"
+  },
+  {
+   "text": "Policy",
+   "href": "https://rtionline.gov.in/Policies.php"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "websiteId": "igod-ddb798b880079969",
+ "url": "https://dbt.lsgkerala.gov.in/",
+ "checkedAt": "2026-10-17T19:16:05+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "httpStatus": 200,
+ "finalUrl": "https://dbt.lsgkerala.gov.in/",
+ "title": "SevanaPension DBT Module - Social Security System Govt.of Kerala",
+ "lang": null,
+ "metaDescription": null,
+ "text": "Home\nHelp & Faq\nVideo Tutorial\nContact Us\nLogin\nSevana Pension Direct To Home Module\nis the application software deployed for the distribution of Social Security Pensions through Co-Operative Banks within the Kerala state with the intention of providing efficient and transparent mechanism in the social security services executed through them. This application is being used by the Co-Operative Banks to disburse Social welfare pensions in a time bound manner.\nLogin\nHelp & Faq\nOffice/User Creation\n\nApplication Help for Office and User Management\n\nForm - I\n\nHelp for downloading Form - I (Beneficiaries Disbursement List)\n\nForm - II\n\nFormat of Form - II\n\nForm - III\n\nFormat for submitting correction details to DBT Cell\n\nJR User Manual\n\nApplication Help for Alloting Funds to PACS\n\nVideo Tutorial\n\nApplication Help for relating the process of SevanaPension Direct To Home Module.",
+ "textSha256": "52ba62c0d26afca526dcbd3adda307f3492e2a919f9c5af9b1c6b0f4be99be54",
+ "links": [
+  {
+   "text": "Home",
+   "href": "https://dbt.lsgkerala.gov.in/Home.aspx"
+  },
+  {
+   "text": "Help & Faq",
+   "href": "https://dbt.lsgkerala.gov.in/Help_Faq.aspx"
+  },
+  {
+   "text": "Video Tutorial",
+   "href": "https://dbt.lsgkerala.gov.in/Video_Docs.aspx"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx"
+  },
+  {
+   "text": "Login",
+   "href": "https://dbt.lsgkerala.gov.in/login.aspx"
+  },
+  {
+   "text": "Login",
+   "href": "https://dbt.lsgkerala.gov.in/login.aspx"
+  },
+  {
+   "text": "Login",
+   "href": "https://dbt.lsgkerala.gov.in/login.aspx"
+  },
+  {
+   "text": "Login",
+   "href": "https://dbt.lsgkerala.gov.in/login.aspx"
+  },
+  {
+   "text": "Application Help for Office and User Management",
+   "href": "https://dbt.lsgkerala.gov.in/Forms/PensionHelp_Faq.pdf"
+  },
+  {
+   "text": "Help for downloading Form - I (Beneficiaries Disbursement List)",
+   "href": "https://dbt.lsgkerala.gov.in/Forms/StepsTodownloadFormI.pdf"
+  },
+  {
+   "text": "Format of Form - II",
+   "href": "https://dbt.lsgkerala.gov.in/Forms/Form-2.pdf"
+  },
+  {
+   "text": "Format for submitting correction details to DBT Cell",
+   "href": "https://dbt.lsgkerala.gov.in/Forms/FormIII.pdf"
+  },
+  {
+   "text": "Application Help for Alloting Funds to PACS",
+   "href": "https://dbt.lsgkerala.gov.in/Forms/SevanaPensionDBT_JR_PACSUserManual.pdf"
+  },
+  {
+   "text": "Application Help for relating the process of SevanaPension Direct To Home Module.",
+   "href": "https://dbt.lsgkerala.gov.in/Video_Docs.aspx"
+  }
+ ],
+ "attempt": 1
+}

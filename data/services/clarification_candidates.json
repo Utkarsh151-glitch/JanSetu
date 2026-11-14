@@ -1,0 +1,147 @@
+{
+  "services": [
+    {
+      "id": "tn-community-certificate",
+      "websiteId": "igod-2715637a8f399700",
+      "organizationId": "org-05a96313c65f060b",
+      "title": "Community Certificate (Tamil Nadu)",
+      "description": "Community certification.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Administration, Government of Tamil Nadu",
+      "level": "State",
+      "state": "Tamil Nadu",
+      "district": null,
+      "citizenIntents": [
+        "How can I get a caste certificate"
+      ],
+      "synonyms": [
+        "community certificate",
+        "caste certificate",
+        "जाति प्रमाणपत्र"
+      ],
+      "informationUrl": "https://serviceonline.gov.in/configuretn/login.do",
+      "sourceUrl": "https://serviceonline.gov.in/configuretn/login.do",
+      "applicationUrl": null,
+      "applicationMode": "assisted",
+      "evidence": [
+        {
+          "id": "tn-community",
+          "url": "https://serviceonline.gov.in/configuretn/login.do",
+          "publisher": "Tamil Nadu e-Governance Agency / ServicePlus",
+          "checkedOn": "2026-10-16",
+          "summary": "community certificate service.",
+          "locator": "Description, access steps and service-specific documents",
+          "contentSha256": "b13c8222ab52490c67c4d5d700f4446f108ad2e6d0ea3edb527f0ca55ed01e51"
+        }
+      ],
+      "linkEvidenceIds": [
+        "tn-community"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "candidate",
+      "publicationStatus": "draft",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Applicant photo, address evidence and self-declaration.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "A parent or sibling community certificate, where applicable.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Register/login on the official service platform and select the relevant service.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    },
+    {
+      "id": "tn-nativity-certificate",
+      "websiteId": "igod-2715637a8f399700",
+      "organizationId": "org-05a96313c65f060b",
+      "title": "Nativity Certificate (Tamil Nadu)",
+      "description": "Nativity certification.",
+      "categories": [
+        "documents"
+      ],
+      "department": "Revenue Administration, Government of Tamil Nadu",
+      "level": "State",
+      "state": "Tamil Nadu",
+      "district": null,
+      "citizenIntents": [
+        "apply for nativity certificate"
+      ],
+      "synonyms": [
+        "nativity certificate",
+        "residence origin"
+      ],
+      "informationUrl": "https://serviceonline.gov.in/configuretn/login.do",
+      "sourceUrl": "https://serviceonline.gov.in/configuretn/login.do",
+      "applicationUrl": null,
+      "applicationMode": "assisted",
+      "evidence": [
+        {
+          "id": "tn-community",
+          "url": "https://serviceonline.gov.in/configuretn/login.do",
+          "publisher": "Tamil Nadu e-Governance Agency / ServicePlus",
+          "checkedOn": "2026-10-16",
+          "summary": "nativity certificate service.",
+          "locator": "Description, access steps and service-specific documents",
+          "contentSha256": "b13c8222ab52490c67c4d5d700f4446f108ad2e6d0ea3edb527f0ca55ed01e51"
+        }
+      ],
+      "linkEvidenceIds": [
+        "tn-community"
+      ],
+      "verifiedOn": "2026-10-16",
+      "verificationStatus": "candidate",
+      "publicationStatus": "draft",
+      "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+      "eligibility": null,
+      "documents": [
+        {
+          "text": "Applicant photo, address evidence and self-declaration.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "conditionalDocuments": [
+        {
+          "text": "Birth certificate or school/employment/residence-history proof, as applicable.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "procedure": [
+        {
+          "text": "Register/login on the official service platform and select the relevant service.",
+          "evidenceIds": [
+            "tn-community"
+          ]
+        }
+      ],
+      "fees": null,
+      "deadline": null,
+      "processing": null
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "mp-government", "title": "Government of Madhya Pradesh portal",
+    "description": "State information portal listed by IGOD; live destination and current landing page need review.",
+    "url": "https://mp.gov.in/", "organization": "Government of Madhya Pradesh", "level": "State",
+    "state": "Madhya Pradesh", "primarySector": "government_information",
+    "purposes": ["information", "service_directory"], "keywords": ["Madhya Pradesh", "state services"],
+    "sourceId": "igod", "sourceUrl": "https://igod.gov.in/index.php/sg/MP/categories",
+    "sourceType": "Official government directory listing", "reviewStatus": "TEMPORARILY_UNREACHABLE",
+    "reviewReason": "IGOD lists the portal, but the destination timed out from the research browser; no current page assessment."
+  },
+  {
+    "id": "mp-social-security", "title": "Madhya Pradesh State Social Security Portal",
+    "description": "State social security portal listed by IGOD; service scope and landing page need review.",
+    "url": "https://socialsecurity.mp.gov.in/", "organization": "Government of Madhya Pradesh", "level": "State",
+    "state": "Madhya Pradesh", "primarySector": "social_security_welfare",
+    "purposes": ["mixed"], "keywords": ["social security", "welfare", "pension"],
+    "sourceId": "igod", "sourceUrl": "https://igod.gov.in/index.php/sg/MP/categories",
+    "sourceType": "Official government directory listing", "reviewStatus": "TEMPORARILY_UNREACHABLE",
+    "reviewReason": "IGOD lists the portal, but the destination timed out from the research browser."
+  },
+  {
+    "id": "agar-malwa-district", "title": "Agar Malwa district portal",
+    "description": "District administration portal listed by IGOD; live destination and local services need review.",
+    "url": "https://agarmalwa.nic.in/", "organization": "Agar Malwa District Administration", "level": "District",
+    "state": "Madhya Pradesh", "district": "Agar Malwa", "primarySector": "government_information",
+    "purposes": ["information", "service_directory"], "keywords": ["Agar Malwa", "district services"],
+    "sourceId": "igod", "sourceUrl": "https://igod.gov.in/index.php/sg/MP/categories",
+    "sourceType": "Official government directory listing", "reviewStatus": "TEMPORARILY_UNREACHABLE",
+    "reviewReason": "IGOD lists the district site, but its destination timed out from the research browser."
+  },
+  {
+    "id": "greater-chennai-corporation", "title": "Greater Chennai Corporation",
+    "description": "Municipal site listed by IGOD; its directory destination needs correction before use.",
+    "url": "https://chennaicorporation.gov.in/", "organization": "Greater Chennai Corporation", "level": "Municipal",
+    "state": "Tamil Nadu", "locality": "Chennai", "primarySector": "utilities_local",
+    "purposes": ["mixed"], "keywords": ["Chennai corporation", "municipal services"],
+    "sourceId": "igod", "sourceUrl": "https://igod.gov.in/index.php/leg/TN/L008/organizations",
+    "sourceType": "Official government directory listing", "reviewStatus": "NEEDS_URL_REVIEW",
+    "reviewReason": "Following the IGOD link returned a default Apache Tomcat page, not a usable municipal homepage. Find the canonical official destination."
+  },
+  {
+    "id": "coimbatore-corporation", "title": "Coimbatore City Municipal Corporation",
+    "description": "Municipal homepage with civic links; ownership, payment destinations and current content need editorial review.",
+    "url": "https://www.ccmc.gov.in/", "organization": "Coimbatore City Municipal Corporation", "level": "Municipal",
+    "state": "Tamil Nadu", "locality": "Coimbatore", "primarySector": "utilities_local",
+    "purposes": ["information", "service_directory", "external_partner", "mixed"],
+    "keywords": ["Coimbatore", "property tax", "birth certificate", "municipal grievance"],
+    "sourceId": "igod", "sourceUrl": "https://igod.gov.in/index.php/leg/TN/L008/organizations",
+    "sourceType": "Official government directory listing", "reviewStatus": "NEEDS_OWNERSHIP_REVIEW",
+    "reviewReason": "IGOD links to this site, which links onward to payment and grievance hosts. Confirm the operating organizations, canonical URL and currency of content before publication."
+  },
+  {
+    "id": "lakshadweep-administration", "title": "Lakshadweep Administration",
+    "description": "Union territory information and service directory; editorial review is pending.",
+    "url": "https://lakshadweep.gov.in/", "organization": "Administration of Lakshadweep", "level": "Union Territory",
+    "state": "Lakshadweep", "primarySector": "government_information",
+    "purposes": ["information", "service_directory", "mixed"],
+    "keywords": ["Lakshadweep", "UT services", "entry permit"],
+    "sourceId": "igod", "sourceUrl": "https://igod.gov.in/sg/LD/categories",
+    "additionalEvidenceUrl": "https://lakshadweep.gov.in/",
+    "sourceType": "Official directory and administration homepage", "reviewStatus": "DISCOVERED",
+    "reviewReason": "IGOD lists the UT portal and the live page identifies the administration; a second editor must confirm scope and publication metadata."
+  }
+]

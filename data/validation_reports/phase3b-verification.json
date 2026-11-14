@@ -1,0 +1,57 @@
+{
+  "recordedAt": "2026-10-15T22:54:30+00:00",
+  "appVersion": "0.4.0",
+  "versionCode": 4,
+  "scope": "Local debug build; no publication",
+  "preservedSourceSha256": {
+    "app/src/main/assets/catalog.json": "af25cfc31eed917c3d44dadf3d6c2db781e406bba54fb8aa549bc43bab93cd1a",
+    "data/review_queue.json": "5f5a69526379ca3d26f077b1c4ffe2d1f64b1bffc1d8668bd57ec5f489972c60",
+    "data/services/catalog.json": "634aeed4070707a254fa80c7f6e7f3a6d54c1ce092bc37088eb50f828ef21311",
+    "data/services/review_queue.json": "42a6d233fa31207e838233999a74f142825617b6be23a6f173849f4a96320b1f"
+  },
+  "counts": {
+    "websites": 7347,
+    "services": 25,
+    "pendingWebsites": 3823
+  },
+  "jvm": {
+    "tests": 32,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "android": {
+    "tests": 26,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 22
+  },
+  "otherExecutedChecks": {
+    "python": {
+      "tests": 58,
+      "failures": 0
+    },
+    "node": {
+      "tests": 7,
+      "failures": 0
+    }
+  },
+  "debugApk": {
+    "path": "app\\build\\outputs\\apk\\debug\\app-debug.apk",
+    "bytes": 20870117,
+    "sha256": "b1dc5129b394c5f64b2f0ad87589c57e8e0e0c32174622104060f35fc77216ff",
+    "catalogAndPrivacyMatch": true
+  },
+  "runtimeCatalogSha256": "7825855d9af88dfd5cc16698366a61389e7e20a7e532de3311ececc6a7cf24fe",
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "storage": "Keystore AES-256-GCM payloads, private no-backup SQLite v2; explicit backup/transfer exclusions",
+  "reminderScope": "Actual alarm PendingIntent replacement/cancellation and notification posting tested; due-time execution uses a fixed test clock. Scheduling/posting do not confirm delivery/read receipt.",
+  "manualChecks": "See the dated Phase 3B section of docs/QA_REPORT.md for restart, display and permission observations."
+}

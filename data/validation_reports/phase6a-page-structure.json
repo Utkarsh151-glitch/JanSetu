@@ -1,0 +1,122 @@
+{
+  "checkedAt": "2026-10-17T10:21:23+00:00",
+  "method": "One read-only headless Chrome load per page, 390x844, is_mobile=True, Chrome's own headless user agent, normal TLS validation.",
+  "browser": "Chrome 155.0.8059.41 (headless)",
+  "tn-esevai-service-list": {
+    "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+    "httpStatus": 200,
+    "finalUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+    "structure": {
+      "layoutViewport": 390,
+      "visualScale": 1,
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "headers": [
+        "S.No",
+        "Department",
+        "Service name",
+        "User manual",
+        "Stipulated Timeline",
+        "Fee",
+        "List of Document Required",
+        "link to apply"
+      ],
+      "columnLeft": [
+        21,
+        51,
+        174,
+        309,
+        369,
+        434,
+        554,
+        668
+      ],
+      "columnWidth": [
+        30,
+        124,
+        135,
+        60,
+        65,
+        121,
+        114,
+        195
+      ],
+      "columnsStartingBeyondViewport": 3,
+      "tableWidth": 843,
+      "rows": 236,
+      "medianRowHeight": 203,
+      "averageCellTextLength": [
+        2,
+        33,
+        45,
+        9,
+        1,
+        9,
+        4,
+        95
+      ],
+      "scrollContainer": {
+        "tag": "DIV",
+        "className": "smooth-overflow",
+        "overflowX": "hidden",
+        "clientWidth": 390,
+        "scrollWidth": 863
+      },
+      "bodyOverflowX": "hidden",
+      "htmlOverflowX": "hidden",
+      "documentHeight": 844,
+      "nativeTextControls": [
+        "A-",
+        "A",
+        "A+"
+      ]
+    }
+  },
+  "rti-guidelines": {
+    "url": "https://rtionline.gov.in/guidelines.php?request",
+    "httpStatus": 200,
+    "finalUrl": "https://rtionline.gov.in/guidelines.php?request",
+    "structure": {
+      "layoutViewport": 980,
+      "visualScale": 0.39714866876602173,
+      "viewportMeta": null,
+      "lang": null,
+      "headings": 0,
+      "guidelineItems": 21,
+      "bodyFontPx": 15.3333,
+      "controls": [
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "value": null,
+          "label": "",
+          "cssWidth": 15,
+          "cssHeight": 15
+        },
+        {
+          "tag": "INPUT",
+          "type": "submit",
+          "value": "Submit",
+          "label": "",
+          "cssWidth": 42,
+          "cssHeight": 21
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "value": "Cancel",
+          "label": "",
+          "cssWidth": 40,
+          "cssHeight": 21
+        }
+      ],
+      "keyStatements": {
+        "noAadhaarPanUpload": true,
+        "bplNoFee": true,
+        "paymentModes": true,
+        "waitBeforeRepayment": true,
+        "firstAppealNoFee": true
+      },
+      "acknowledgementGate": true
+    }
+  }
+}

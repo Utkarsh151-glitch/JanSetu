@@ -1,0 +1,392 @@
+[
+ {
+  "websiteId": "igod-781379c678ce1e21",
+  "url": "https://scholarship.odisha.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://scholarship.odisha.gov.in/home",
+  "title": "State Scholarship Portal",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-781379c678ce1e21",
+  "url": "https://scholarship.odisha.gov.in/content/about-us",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://scholarship.odisha.gov.in/content/about-us",
+  "title": "State Scholarship Portal",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-781379c678ce1e21",
+  "url": "https://scholarship.odisha.gov.in/faqs",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://scholarship.odisha.gov.in/faqs",
+  "title": "State Scholarship Portal",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-781379c678ce1e21",
+  "url": "https://scholarship.odisha.gov.in/content/contact-us",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://scholarship.odisha.gov.in/content/contact-us",
+  "title": "State Scholarship Portal",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-c01d8df9282d87de",
+  "url": "https://bhavishya.nic.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://bhavishya.nic.in/",
+  "title": "Bhavishya 12.0(15102026): (Pension Sanction & Payment Tracking System) An Initiative of D/o of Pension & Pensioners' Welfare",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-c01d8df9282d87de",
+  "url": "https://bhavishya.nic.in/AboutUs.aspx",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://bhavishya.nic.in/AboutUs.aspx",
+  "title": "Bhavishya 12.0(15102026): (Pension Sanction & Payment Tracking System) An Initiative of D/o of Pension & Pensioners' Welfare",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-c01d8df9282d87de",
+  "url": "https://bhavishya.nic.in/FAQs.aspx?pid=faq",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://bhavishya.nic.in/FAQs.aspx?pid=faq",
+  "title": "Bhavishya 12.0(15102026): (Pension Sanction & Payment Tracking System) An Initiative of D/o of Pension & Pensioners' Welfare",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-c01d8df9282d87de",
+  "url": "https://bhavishya.nic.in/ContactUs.aspx",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://bhavishya.nic.in/ContactUs.aspx",
+  "title": "Bhavishya 12.0(15102026): (Pension Sanction & Payment Tracking System) An Initiative of D/o of Pension & Pensioners' Welfare",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-7bb47a1cab5183f2",
+  "url": "https://new.broadcastseva.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://new.broadcastseva.gov.in/digigov-portal-web-app/",
+  "title": "Home | Broadcast Seva | GoI",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-7bb47a1cab5183f2",
+  "url": "https://new.broadcastseva.gov.in/digigov-portal-web-app/jsp/mib/common/HomeUser.jsp",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://new.broadcastseva.gov.in/digigov-portal-web-app/jsp/mib/common/HomeUser.jsp",
+  "title": "Login",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-7bb47a1cab5183f2",
+  "url": "https://new.broadcastseva.gov.in/digigov-portal-web-app/",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://new.broadcastseva.gov.in/digigov-portal-web-app/",
+  "title": "Home | Broadcast Seva | GoI",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-421dca3648f50c0b",
+  "url": "https://cpao.nic.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://cpao.nic.in/",
+  "title": "CPAO – Central Pension Accounting Office",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-421dca3648f50c0b",
+  "url": "https://cpao.nic.in/Publications/FAQ.php",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://cpao.nic.in/Publications/FAQ.php",
+  "title": "CPAO – Central Pension Accounting Office",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-421dca3648f50c0b",
+  "url": "https://cpao.nic.in/Contact-Us.php",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://cpao.nic.in/Contact-Us.php",
+  "title": "CPAO – Central Pension Accounting Office",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-421dca3648f50c0b",
+  "url": "https://cpao.nic.in/Pensioner/Contact-Banks.php",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://cpao.nic.in/Pensioner/Contact-Banks.php",
+  "title": "CPAO – Central Pension Accounting Office",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-e300869e279b9cd4",
+  "url": "https://scholarshipsdhte.jharkhand.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://scholarshipsdhte.jharkhand.gov.in/",
+  "title": "CM Fellowship for Academic Excellence",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-e300869e279b9cd4",
+  "url": "https://scholarshipsdhte.jharkhand.gov.in/faq",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://scholarshipsdhte.jharkhand.gov.in/faq",
+  "title": "CM Fellowship for Academic Excellence",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-e300869e279b9cd4",
+  "url": "https://scholarshipsdhte.jharkhand.gov.in/contact",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://scholarshipsdhte.jharkhand.gov.in/contact",
+  "title": "CM Fellowship for Academic Excellence",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-dc063c5a252aabe5",
+  "url": "https://scholarship.nagaland.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://scholarship.nagaland.gov.in/",
+  "title": "Common Scholarship Portal | Nagaland",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-18649bde195e5a01",
+  "url": "https://cpwdsewa.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://cpwdsewa.gov.in/Default.aspx?ReturnUrl=%2f",
+  "title": "Home | CPWDSewa",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-18649bde195e5a01",
+  "url": "https://cpwdsewa.gov.in/Public_Portal/contactresi.aspx?rnr=call_rnr",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://cpwdsewa.gov.in/Default.aspx?ReturnUrl=%2ferrorStatus.aspx",
+  "title": "Home | CPWDSewa",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-5891bfd68a83ed15",
+  "url": "https://janasunani.odisha.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://janasunani.odisha.gov.in/",
+  "title": "Public Grievance Redressal Portal",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-9783d3afd73ca927",
+  "url": "https://www.doppw.gov.in/",
+  "attempt": 2,
+  "httpStatus": 403,
+  "finalUrl": "https://www.doppw.gov.in/",
+  "title": null,
+  "result": "access_or_server_response; not a content observation",
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-44b4a596b1818cab",
+  "url": "https://dppf.gujarat.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://dppf.gujarat.gov.in/",
+  "title": "Firewall Captcha Authentication",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-45553a3bd372fff9",
+  "url": "https://www.pension.mp.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://www.pension.mp.gov.in/",
+  "title": "ABOUT US",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-ef54536511a6523b",
+  "url": "https://ekosh.uk.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://ekosh.uk.gov.in/",
+  "title": "Homepage | Directorate of Treasuries, Pension and Entitlements, Uttarakhand | Secure, Scalable and Sugamya Website as a Service | India",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-ef54536511a6523b",
+  "url": "https://ekosh.uk.gov.in/about-department/",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://ekosh.uk.gov.in/about-department/",
+  "title": "About Department | Directorate of Treasuries, Pension and Entitlements, Uttarakhand | India",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-ef54536511a6523b",
+  "url": "https://ekosh.uk.gov.in/grievance-redressal/",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://ekosh.uk.gov.in/grievance-redressal/",
+  "title": "Grievance Mechanism Portal | Directorate of Treasuries, Pension and Entitlements, Uttarakhand | India",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-ef54536511a6523b",
+  "url": "https://ekosh.uk.gov.in/frequently-asked-questionsfaqs/",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://ekosh.uk.gov.in/frequently-asked-questionsfaqs/",
+  "title": "Frequently Asked Questions | Directorate of Treasuries, Pension and Entitlements, Uttarakhand | India",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-c33cb8549415ad34",
+  "url": "https://ekalyan.cgg.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://ekalyan.cgg.gov.in/",
+  "title": "e-Kalyan",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-af6bdd4b418c67a8",
+  "url": "https://odishamsme.nic.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://odishamsme.nic.in/",
+  "title": "MSME | Micro, Small & Medium Enterprises Department | Government of Odisha",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-b3a364f734caa1f1",
+  "url": "https://hpepass.cgg.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://hpepass.cgg.gov.in/",
+  "title": "ePASS :: Himachal Pradesh",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-b3a364f734caa1f1",
+  "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=faqs",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=faqs",
+  "title": "ePASS :: Himachal Pradesh",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-b3a364f734caa1f1",
+  "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=contactUs",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=contactUs",
+  "title": "ePASS :: Himachal Pradesh",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-2bdd905020581df7",
+  "url": "https://telanganaepass.cgg.gov.in/",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://telanganaepass.cgg.gov.in/",
+  "title": "Welcome",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ },
+ {
+  "websiteId": "igod-2bdd905020581df7",
+  "url": "https://telanganaepass.cgg.gov.in/AboutUs.do",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://telanganaepass.cgg.gov.in/AboutUs.do\nCall log:\n  - navigating to \"https://telangan",
+  "note": null
+ },
+ {
+  "websiteId": "igod-2bdd905020581df7",
+  "url": "https://telanganaepass.cgg.gov.in/ContactUs.do",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://telanganaepass.cgg.gov.in/ContactUs.do\nCall log:\n  - navigating to \"https://telang",
+  "note": null
+ },
+ {
+  "websiteId": "igod-2bdd905020581df7",
+  "url": "https://telanganaepass.cgg.gov.in/studentfaqs.do",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://telanganaepass.cgg.gov.in/studentfaqs.do\nCall log:\n  - navigating to \"https://tela",
+  "note": null
+ },
+ {
+  "websiteId": "igod-ddb798b880079969",
+  "url": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx",
+  "attempt": 2,
+  "httpStatus": 200,
+  "finalUrl": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx",
+  "title": "SevanaPension DBT Module - Social Security System Govt.of Kerala",
+  "result": null,
+  "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response)."
+ }
+]

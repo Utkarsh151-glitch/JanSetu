@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.integrations.IntegrationRegistryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-18T05:55:55.429Z" hostname="LAPTOP-FAIP099K" time="0.428">
+  <properties/>
+  <testcase name="absentAuthorizationNeverInventsStatusOrCallsAService" classname="in.jansetu.app.integrations.IntegrationRegistryTest" time="0.249"/>
+  <testcase name="providerFailureAndUntrustedOutputFallBackToTheOfficialWebsite" classname="in.jansetu.app.integrations.IntegrationRegistryTest" time="0.179"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

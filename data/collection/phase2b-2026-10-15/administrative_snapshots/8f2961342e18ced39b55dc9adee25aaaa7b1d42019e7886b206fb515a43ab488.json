@@ -1,0 +1,26 @@
+{
+  "url": "https://lgdirectory.gov.in/downloadDirectory.do",
+  "checkedAt": "2026-10-14T20:46:46+00:00",
+  "status": "OK",
+  "httpStatus": 200,
+  "transport": "curl normal TLS validation",
+  "exitCode": 0,
+  "error": "",
+  "location": null,
+  "elapsedMs": 506,
+  "snapshot": "data\\collection\\phase2b-2026-10-15\\administrative_snapshots\\8f2961342e18ced39b55dc9adee25aaaa7b1d42019e7886b206fb515a43ab488.json",
+  "method": "GET",
+  "wireSha256": "a4c34eaa21a30091a073a41b1bb4dacfcfaf17173bd529e6b33b06b5e2cd5bbf",
+  "bodyBytes": 125845,
+  "attempts": [
+    {
+      "checkedAt": "2026-10-14T20:46:46+00:00",
+      "status": "OK",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "error": ""
+    }
+  ],
+  "pageTitle": "LGD - Local Government Directory, Government of India",
+  "bodyRetention": "discarded; title/status/size/hash only"
+}

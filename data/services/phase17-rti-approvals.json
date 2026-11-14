@@ -1,0 +1,11 @@
+{
+  "version": 14,
+  "organizations": [],
+  "approvals": {
+    "rti-central-request": {
+      "reviewedBy": "Claude Code automated official-source check under the project owner's Phase 17 authorisation (not a human editorial review)",
+      "notes": "Re-checked 2026-10-18 against https://rtionline.gov.in/guidelines.php?request (capture sha256 f0ede7ab…, text identical to the 2026-10-15 capture) and the Right to Information Rules, 2012 (https://cic.gov.in/sites/default/files/RTI/RTIRules2012.pdf, rules 3 and 5). Corrections: the BPL certificate is the only conditional document; the Aadhaar/PAN instruction now carries the official BPL-card exception and moves to procedure; added the four RTI Online payment modes, the ₹10 fee and the 24–48 working-hour reconciliation wait. Portal instructions are distinguished from the statutory rules.",
+      "candidateSha256": "b179c43a99c38ee363f92e3d8392d4dac291cd71a6d743b85c3e2ac3b6929b59"
+    }
+  }
+}

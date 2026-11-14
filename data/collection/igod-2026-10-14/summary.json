@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "batch": "igod-2026-10-14",
+  "preparedAt": "2026-10-14T19:08:20+00:00",
+  "acquisitionUpdatedAt": "2026-10-14T17:37:41+00:00",
+  "rawEntries": 23169,
+  "distinctSourceOrganizations": 20946,
+  "uniqueNormalizedUrls": 11168,
+  "missingOrInvalidUrlOrganizations": 2356,
+  "suspectedDuplicateGroups": 29,
+  "safeRedirectGroups": 4,
+  "safeRedirectAliases": 5,
+  "localEligible": 7342,
+  "health": {
+    "RESPONDING": 8250,
+    "ROBOTS_UNRESOLVED": 2302,
+    "DEFAULT_SERVER_PAGE": 4,
+    "CONTENT_REVIEW": 130,
+    "REDIRECT_REVIEW": 172,
+    "ROBOTS_DISALLOWED": 98,
+    "HTTP_ERROR": 57,
+    "NETWORK_ERROR": 114,
+    "SERVER_ERROR": 25,
+    "ACCESS_DENIED": 10,
+    "URL_REVIEW": 2,
+    "ACCESS_OR_CONTENT_REVIEW": 4
+  },
+  "permission": "Local development only; NIC permission required before public reproduction"
+}

@@ -1,0 +1,412 @@
+[
+  {
+    "sourceId": "india-web-directory",
+    "checkedAt": "2026-10-13T22:17:21+00:00",
+    "robots": {
+      "url": "https://www.india.gov.in/robots.txt",
+      "checkedAt": "2026-10-13T22:14:01+00:00",
+      "status": "OK",
+      "httpStatus": 200,
+      "transport": "curl normal TLS validation",
+      "exitCode": 0,
+      "error": "",
+      "location": null,
+      "elapsedMs": 362,
+      "snapshot": "C:\\goverment website\\data\\collection\\secondary\\snapshots\\b6db6183407c0da0629cf5a5a137aa26c4879242af7d7ac8d2c47afb38e30e64.html",
+      "method": "GET",
+      "attempts": [
+        {
+          "checkedAt": "2026-10-13T22:14:01+00:00",
+          "status": "OK",
+          "httpStatus": 200,
+          "exitCode": 0,
+          "error": ""
+        }
+      ],
+      "sha256": "ffa629920770a5a777d9e9bb6239a5ba8734882e4f722a039e6390ca55b916e9",
+      "text": "User-Agent: *\nAllow: /*\nCrawl-delay: 10\n\nUser-agent: facebookexternalhit\nDisallow:",
+      "crawlDelay": 10
+    },
+    "pages": [
+      {
+        "url": "https://www.india.gov.in/directory/web-directory",
+        "checkedAt": "2026-10-13T22:14:11+00:00",
+        "status": "OK",
+        "httpStatus": 200,
+        "transport": "curl normal TLS validation",
+        "exitCode": 0,
+        "error": "",
+        "location": null,
+        "elapsedMs": 124,
+        "snapshot": "C:\\goverment website\\data\\collection\\secondary\\snapshots\\c51be769ce59af8855061ddc5c1c6f8265239461ad0faee56b4879ad55d15202.html",
+        "method": "GET",
+        "attempts": [
+          {
+            "checkedAt": "2026-10-13T22:14:11+00:00",
+            "status": "OK",
+            "httpStatus": 200,
+            "exitCode": 0,
+            "error": ""
+          }
+        ],
+        "sha256": "40ca9eddb4fb1bd794f3ecda470e13efd79941f3f78f36d35f2835bb8bc815d0",
+        "title": "Web Directory | Directory | National Portal of India",
+        "visibleTextSample": "Web Directory | Directory | National Portal of India says Okay Cancel Close Search Area/ Topics All Acts Citizen Engagements Directory Explore India Government Datasets Helplines News Public Utilities Schemes Services Others Search All Categories Acts Citizen Engagements Directory Explore India Government Datasets Helplines News Public Utilities Schemes Services Others Search Close Search Area/ Topics All Acts Citizen Engagements Directory Explore India Government Datasets Helplines News Public Utilities Schemes Services Others Search All Categories Acts Citizen Engagements Directory Explore India Government Datasets Helplines News Public Utilities Schemes Services Others Search | Skip to main content | Current year text/heading, 2026 October SUN MON TUE WED THU FRI SAT Select a holiday View More | Accessibility Tools Contrast Adjustment High Contrast Normal Text Size Increase Text Decrease Text Reset Text Text Spacing Line Height Others Hide Images Big Cursor Screen Reader | Loading... | Translation Feedback CPGRAMS Calendar Share Colour Color + Web Directory Ministries / Departments Loading... Ministries Loading... DEPARTMENTS Loading... INDEPENDENT DEPARTMENTS On selecting any option, the page will update. Select Ministry/ Department/ Ind. Department View Apex Bodies Loading... Loading... On selecting any option, the page will update. Select Apex Bodies (Central/State) View States and Union Territories Delhi (DL) Andhra Pradesh (AP) Bihar (BR) Dadra and Nagar Haveli and Daman and Diu (ND) Andaman and Nicobar Islands (AN) Arunachal Pradesh (AR) Chhattisgarh (CG) Chandigarh (CH) Assam (AS) Goa (GA) Himachal Pradesh (HP) Haryana (HR) Jammu and Kashmir (JK) Jharkhand (JH) Karnataka (KA) Kerala (KL) Gujarat (GJ) Ladakh (LA) Madhya Pradesh (MP) Lakshadweep (LD) Maharashtra (MH) Manipur (MN) Meghalaya (ML) Punjab (PB) Odisha (OD) Sikkim (SK) Nagaland (NL) Mizoram (MZ) Rajasthan (RJ) Puducherry (PY) Tamil Nadu (TN) Uttar Pradesh (UP) Telangana (TS) Tripura (TR) Uttarakhand (UK) West Bengal (WB) 0+ For essential contacts, including Boards/Undertakings, District offices, Directorates/Commissionerates, PSUs/JVs/Companies/Societies, Government Departments, Commissions/Committees/Missions, Statutory/Autonomous Bodies, Academies/Institutions, and others. On selecting any option, the page will update. Select State/UTs Explore Judiciary Legislature Judiciary Legislature Indian Missions Abroad Loading... INDIAN MISSIONS Loading... HONORARY MISIONS Districts View Districts District View Districts Toggle FAQ Section Toggle FAQ Section Toggle FAQ Section Toggle FAQ Section Content Sources India Portal 2.0 Brochure Content Sources India Portal 2.0 Brochure View on Mobile Follow Us Translation Disclaimer Translations of the content into languages other than English are generated using automated tools and may not always be accurate. These translations are provided for informational purposes only and should not be considered authoritative. National Informatics Centre (NIC) logo India Portal is developed under the Digital India Programme to provide citizens with open and easy access to information. It is designed, developed, and maintained by the National Informatics Centre (NIC), under the Ministry of Electronics & Information Technology, Government of India. The content available on India Portal is owned and managed by the respective Ministries and Departments. Last reviewed and updated on 13 October 2026 at 03:13:18 pm",
+        "publicRelevantLinks": [
+          {
+            "name": "View Districts",
+            "url": "https://www.india.gov.in/directory/web-directory/districts"
+          },
+          {
+            "name": "View Districts",
+            "url": "https://www.india.gov.in/directory/web-directory/districts"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sourceId": "data-gov",
+    "checkedAt": "2026-10-13T22:17:21+00:00",
+    "robots": {
+      "url": "https://www.data.gov.in/robots.txt",
+      "checkedAt": "2026-10-13T22:17:21+00:00",
+      "status": "OK",
+      "httpStatus": 200,
+      "transport": "curl normal TLS validation",
+      "exitCode": 0,
+      "error": "",
+      "location": null,
+      "elapsedMs": 257,
+      "snapshot": "C:\\goverment website\\data\\collection\\secondary\\snapshots\\0198bb4ca5e0478ad57cdebe8e38c8effc24099c7adc982c4d34b63e7ad76f4f.html",
+      "method": "GET",
+      "attempts": [
+        {
+          "checkedAt": "2026-10-13T22:17:21+00:00",
+          "status": "OK",
+          "httpStatus": 200,
+          "exitCode": 0,
+          "error": ""
+        }
+      ],
+      "wireSha256": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "sha256": "efdb5938a9736727f5cce2b60355588e4fa541d19d022d222d8a09b8efd5dcce",
+      "text": "User-agent: *\nDisallow: /",
+      "crawlDelay": null
+    },
+    "pages": [
+      {
+        "url": "https://data.gov.in/",
+        "status": "ROBOTS_DISALLOWED"
+      },
+      {
+        "url": "https://data.gov.in/catalog/local-government-directory-lgd",
+        "status": "ROBOTS_DISALLOWED"
+      }
+    ]
+  },
+  {
+    "sourceId": "lgd",
+    "checkedAt": "2026-10-13T22:17:21+00:00",
+    "robots": {
+      "url": "https://lgdirectory.gov.in/robots.txt",
+      "checkedAt": "2026-10-13T22:14:17+00:00",
+      "status": "HTTP_ERROR",
+      "httpStatus": 404,
+      "transport": "curl normal TLS validation",
+      "exitCode": 0,
+      "error": "",
+      "location": null,
+      "elapsedMs": 235,
+      "snapshot": "C:\\goverment website\\data\\collection\\secondary\\snapshots\\f63be0e19c33a4563bdf1eee223c397789042f81fbb0737e8db246dbf7e7b512.html",
+      "method": "GET",
+      "attempts": [
+        {
+          "checkedAt": "2026-10-13T22:14:17+00:00",
+          "status": "HTTP_ERROR",
+          "httpStatus": 404,
+          "exitCode": 0,
+          "error": ""
+        }
+      ],
+      "sha256": "0a86816e8536b5593c9634fa19e227e536a2126041d3b1d33d2987c95a37bf9a",
+      "text": "User-agent: *\nAllow: /\n",
+      "crawlDelay": null
+    },
+    "pages": [
+      {
+        "url": "https://lgdirectory.gov.in/",
+        "checkedAt": "2026-10-13T22:14:19+00:00",
+        "status": "OK",
+        "httpStatus": 200,
+        "transport": "curl normal TLS validation",
+        "exitCode": 0,
+        "error": "",
+        "location": null,
+        "elapsedMs": 373,
+        "snapshot": "C:\\goverment website\\data\\collection\\secondary\\snapshots\\5b905d3a252deafc180df3466a15af9bc97f66529d0b2299dea71224694c2d9c.html",
+        "method": "GET",
+        "attempts": [
+          {
+            "checkedAt": "2026-10-13T22:14:19+00:00",
+            "status": "OK",
+            "httpStatus": 200,
+            "exitCode": 0,
+            "error": ""
+          }
+        ],
+        "sha256": "e9a6a02c45582a448fc77bf1a40b837ea8e666a00ee954fd4c0fe1e18ddd363b",
+        "title": "LGD - Local Government Directory, Government of India",
+        "visibleTextSample": "LGD - Local Government Directory, Government of India Alert Menu Government of India | Ministry of Panchayati Raj Local Government Directory Facilitating Data Standardization, Data Sharing & Interoperability Among eGov Applications Screen Reader Access Dashboard A A+ A A- Login Accessibility options by UX4G Text To Speech Bigger Text Steps span tags will be dynamically added here Small Text Steps span tags will be dynamically added here Line Height Steps span tags will be dynamically added here Highlight Links Text Spacing Steps span tags will be dynamically added here Dyslexia Friendly Hide Images Cursor Light-Dark Invert Colors Reset Button copyright accessibility bar Reset All Settings Created by Accessibility Options LGD https://LGDirectory.gov.in Unified and Authoritative Directory of Land Regions/Revenue, Rural and Urban Local Governments Need  of Local Government Directory? About Local Government Directory Local Government Directory (LGD) - https://lgdirectory.gov.in is one of the 11 applications developed as part of Panchayat Enterprise Suite (PES) under e-Panchayat Mission Mode project (MMP). The primary objective of the Local Government Directory (LGD) is to build a Standard location directory by providing an online platform to the States/UTs to maintain the up-to-date list of respective administrative units (Districts, Sub-Districts, Villages, Blocks, Local Governance bodies along with their corresponding Rural/ Urban wards) in collaboration with\n                                Office of the Registrar General of India (ORGI), Ministry of Home Affairs (MHA). The adoption of LGD codes as the Standard location code in the e-Governance applications of Ministries/Departments/States/UTs was mandated by Cabinet Secretariat vide letter dated 04th November 2016. The agenda behind this directive from Cabinet Secretariat was to establish seamless exchange of data across all e-Governance applications and thus ensure transparency in the system. Useful for: All Central Government Ministries and Department/State Governments State Panchayati Raj Departments State Urban Development Departments State Revenue Departments State Election Commissions A unique frame for all types of Census and Surveys Registered Software Applications Citizen Key Features: Unique Code to Land/Region Enable Interoperability Notification generated online SMS/Email notifications States/UTs 36 28 States 8 Union Territories 784 Districts 7092 Sub-Districts 7327 Development Blocks 677665 658156 Inhabited Villages 18371 Un-inhabited Villages 1138 Forest Villages Villages Rural Rural Villages 642710 262839 Rural Localbodies 675 6769 255395 District Panchayats Block Panchayats Village Panchayats 14163 Traditional Localbodies 14 47 14102 District Level Block Level Village Level Urban 24133 Urban Villages 5050 Urban Localbodies 276 2006 2416 Municipal Corporation Municipality Town Panchayats 2318 1689 Center 566 States/UTs Other Organizations and Departments Local Government Directory (LGD) Codes LGD Codes of State/UTs LGD Codes of Districts LGD Codes of Sub-Districts LGD Codes of Villages LGD Codes of Development Blocks LGD Codes of Wards LGD Codes of Local Bodies LGD Codes of Cantonment Boards Statistical/Analytical Summary No. of States/Union Territories (UTs) 36 No. of Districts 784 No. of Sub-Districts 7092 No. of Development Blocks 7327 No. of Villages 677665 No. of Inhabited Village 658156 No. of Un-inhabited Villages 18371 No. of Forest Villages 1138 No. of Villages (R",
+        "publicRelevantLinks": [
+          {
+            "name": "States/UTs",
+            "url": "https://lgdirectory.gov.in/globalviewstateforcitizen.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Districts",
+            "url": "https://lgdirectory.gov.in/globalviewdistrictforcitizen.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Sub-Districts",
+            "url": "https://lgdirectory.gov.in/globalviewsubdistrictforcitizen.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "LGD Codes of State/UTs",
+            "url": "https://lgdirectory.gov.in/globalviewstateforcitizen.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "LGD Codes of Districts",
+            "url": "https://lgdirectory.gov.in/globalviewdistrictforcitizen.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "LGD Codes of Sub-Districts",
+            "url": "https://lgdirectory.gov.in/globalviewsubdistrictforcitizen.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "LGD Codes of Local Bodies",
+            "url": "https://lgdirectory.gov.in/globalViewLocalBodyForCitizen.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "GPs mapped to villages of multiple districts",
+            "url": "https://lgdirectory.gov.in/exceptionalReportsc.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Development Blocks mapped to villages of multiple districts",
+            "url": "https://lgdirectory.gov.in/exceptionalReportse.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Inhabitant villages not mapped to any local body",
+            "url": "https://lgdirectory.gov.in/exceptionalReportsf.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "List of land region entity FULLY mapped under more than one local bodies",
+            "url": "https://lgdirectory.gov.in/exceptionReportForFullyMappedCover.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Villages which are mapped to development block but not mapped to Rural local bodies and vice versa",
+            "url": "https://lgdirectory.gov.in/exceptionalReportOnStateSelection.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "List of All urban  local bodies with no Wards.",
+            "url": "https://lgdirectory.gov.in/exceptionalReportOnUrbanLbNoWard.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Consolidated Local Government Directory (LGD) Codes of Rural Local Bodies",
+            "url": "https://lgdirectory.gov.in/rptConsolidateforRuralLB.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on District wise Development Blocks and Mapped Gram Panchayats",
+            "url": "https://lgdirectory.gov.in/rptConsolidateBlockGramPanchayat.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on State Panchayat Set-up",
+            "url": "https://lgdirectory.gov.in/rptStatePanchayats.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on State wise Unmapped Villages (Villages not mapped to any village panchayats/equivalent local body)",
+            "url": "https://lgdirectory.gov.in/stateWiseUnmappedVillagesReport.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on Invalidated Local Bodies",
+            "url": "https://lgdirectory.gov.in/localBodyInvalidation.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "NAPIX API Provider",
+            "url": "https://dev.napix.gov.in/nic/lgd/"
+          },
+          {
+            "name": "Download Directory",
+            "url": "https://lgdirectory.gov.in/downloadDirectory.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "CBT(Download Training File)",
+            "url": "https://lgdirectory.gov.in/downLoadCBT.do"
+          },
+          {
+            "name": "Privacy Policy",
+            "url": "https://lgdirectory.gov.in/privacyPolicy.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Copyright Policy",
+            "url": "https://lgdirectory.gov.in/copyRightPolicy.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "LGD Codes of States/UTs",
+            "url": "https://lgdirectory.gov.in/globalviewstateforcitizen.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "LGD Codes of Districts",
+            "url": "https://lgdirectory.gov.in/globalviewdistrictforcitizen.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "LGD Codes of Sub-Districts",
+            "url": "https://lgdirectory.gov.in/globalviewsubdistrictforcitizen.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Consolidated Local Government Directory (LGD) Codes of Rural Local Bodies",
+            "url": "https://lgdirectory.gov.in/rptConsolidateforRuralLB.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "LGD Codes of District wise Villages and their mapped Gram Panchayats and Urban localbodies",
+            "url": "https://lgdirectory.gov.in/rptConsolidateVillageGramPanchayat.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "LGD Codes of District wise Development Blocks and Mapped Gram Panchayats/TLB",
+            "url": "https://lgdirectory.gov.in/rptConsolidateBlockGramPanchayat.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on State Panchayat Set-up",
+            "url": "https://lgdirectory.gov.in/rptStatePanchayats.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on State wise Unmapped Villages (Villages not mapped to any village panchayats/equivalent local body)",
+            "url": "https://lgdirectory.gov.in/stateWiseUnmappedVillagesReport.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "State wise Village to GP/ULB Mapping Status",
+            "url": "https://lgdirectory.gov.in/stateWiseGPtoVillageMappingReport.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "State wise Village to GP Mapping Status",
+            "url": "https://lgdirectory.gov.in/stateWiseGPtoVillageMappingReportB.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "State wise Gram Panchayat to Census village mapping Status Detailed",
+            "url": "https://lgdirectory.gov.in/stateWiseGramPanchayats.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Unmapped Landregion/Local Bodies/Ward for PC/AC",
+            "url": "https://lgdirectory.gov.in/unmapLBWardforPCAC.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on District Wise Local Bodies",
+            "url": "https://lgdirectory.gov.in/districtWiseLBReport.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on District Wise Invalidated Villages",
+            "url": "https://lgdirectory.gov.in/rptDistrictWiseInvalidatedVillage.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "District Panchayat Ward/Constituency Wise village Panchayat",
+            "url": "https://lgdirectory.gov.in/dpwardConstituencyWiseVP.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "District wise Detailed Report",
+            "url": "https://lgdirectory.gov.in/districtWiseDetailReport.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Ward to Halka Mapping Report (Jharkhand State)",
+            "url": "https://lgdirectory.gov.in/wardToHalkaMappingReport.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Halka to Village Mapping Report (Jharkhand State)",
+            "url": "https://lgdirectory.gov.in/halkaToVillageMappingReport.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "StateWise GIS Mapped Local Body",
+            "url": "https://lgdirectory.gov.in/globalViewStatewiseLocalBody.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "State Wise Population",
+            "url": "https://lgdirectory.gov.in/stateWisePopulation.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on State Wise Summary of ULBs & Wards",
+            "url": "https://lgdirectory.gov.in/getStateWiseUrbanLB.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on State wise Last Updation Date",
+            "url": "https://lgdirectory.gov.in/getStatewiseLastupdated.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Number of village Panchayats/Equivalent local bodies which are mapped with part of villages",
+            "url": "https://lgdirectory.gov.in/getStatewiseTotalGPNPartlyMappedGP.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "State Wise Village Mapping Status",
+            "url": "https://lgdirectory.gov.in/getStatewiseVillageMappedCount.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "State Wise Unmapped Vilages List",
+            "url": "https://lgdirectory.gov.in/stateWiseUnmappedVillages.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on Invalidated Local Bodies",
+            "url": "https://lgdirectory.gov.in/localBodyInvalidation.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Villages which are partially mapped with more than one village level rural local bodies",
+            "url": "https://lgdirectory.gov.in/exceptionReportBasedonYear.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on Local Bodies in Disturb State",
+            "url": "https://lgdirectory.gov.in/getLocalBodyInDisturbedState.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on Datewise Active Entities (Local Bodies/Land Region)",
+            "url": "https://lgdirectory.gov.in/localbodyhierarchy.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Aspirational District Wise Village Level Localbodies",
+            "url": "https://lgdirectory.gov.in/aspirationalDistrictWiseVillage.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "State Wise PC/AC Covered Entity Count",
+            "url": "https://lgdirectory.gov.in/stateWiseEntityCount.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Napix Webservices Consumers",
+            "url": "https://lgdirectory.gov.in/napixWebservicesConsume.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Report on State wise Administrative Units & Panchayati Raj Institutions",
+            "url": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do?OWASP_CSRFTOKEN=[redacted]"
+          },
+          {
+            "name": "Learn How to download reports",
+            "url": "https://lgdirectory.gov.in/"
+          },
+          {
+            "name": "Learn How to create a PRI Local Body",
+            "url": "https://lgdirectory.gov.in/"
+          },
+          {
+            "name": "Existing list of Sub-districts of Tripura have been replaced with 23 Sub-divisions of Revenue Department",
+            "url": "https://lgdirectory.gov.in/"
+          },
+          {
+            "name": "Change in the base url of the APIs in the Citizen section.Current base url will be operational till 30th November 2019",
+            "url": "https://lgdirectory.gov.in/"
+          }
+        ],
+        "administrativeTotals": {
+          "statesAndUTs": 36,
+          "districts": 784,
+          "urbanLocalBodies": 5050,
+          "ruralLocalBodies": 262839
+        }
+      }
+    ]
+  }
+]

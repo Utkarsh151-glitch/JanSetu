@@ -1,0 +1,1106 @@
+{
+  "stateUnits": [
+    {
+      "name": "Andaman And Nicobar Islands",
+      "lgdCode": 35,
+      "type": "UT",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 3,
+        "districtPanchayats": 2,
+        "districtTraditionalBodies": null,
+        "subdistricts": 9,
+        "blocks": 9,
+        "intermediatePanchayats": 7,
+        "intermediateTraditionalBodies": 7,
+        "villages": 559,
+        "villagePanchayats": 70,
+        "villageTraditionalBodies": 194,
+        "traditionalBodies": 201,
+        "urbanBodies": 1,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Andhra Pradesh",
+      "lgdCode": 28,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 28,
+        "districtPanchayats": 13,
+        "districtTraditionalBodies": null,
+        "subdistricts": 688,
+        "blocks": 668,
+        "intermediatePanchayats": 660,
+        "intermediateTraditionalBodies": null,
+        "villages": 17957,
+        "villagePanchayats": 13327,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 124,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "lgdCode": 12,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 27,
+        "districtPanchayats": 27,
+        "districtTraditionalBodies": null,
+        "subdistricts": 209,
+        "blocks": 129,
+        "intermediatePanchayats": null,
+        "intermediateTraditionalBodies": null,
+        "villages": 5491,
+        "villagePanchayats": 2108,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 35,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of Intermediate Panchayat",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Assam",
+      "lgdCode": 18,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 35,
+        "districtPanchayats": 27,
+        "districtTraditionalBodies": 3,
+        "subdistricts": 161,
+        "blocks": 234,
+        "intermediatePanchayats": 182,
+        "intermediateTraditionalBodies": null,
+        "villages": 29373,
+        "villagePanchayats": 2192,
+        "villageTraditionalBodies": 465,
+        "traditionalBodies": 468,
+        "urbanBodies": 115,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Bihar",
+      "lgdCode": 10,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 38,
+        "districtPanchayats": 38,
+        "districtTraditionalBodies": null,
+        "subdistricts": 537,
+        "blocks": 537,
+        "intermediatePanchayats": 534,
+        "intermediateTraditionalBodies": null,
+        "villages": 48927,
+        "villagePanchayats": 8051,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 264,
+        "cantonmentBoards": 1,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Chandigarh",
+      "lgdCode": 4,
+      "type": "UT",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 1,
+        "districtPanchayats": null,
+        "districtTraditionalBodies": null,
+        "subdistricts": 1,
+        "blocks": 1,
+        "intermediatePanchayats": null,
+        "intermediateTraditionalBodies": null,
+        "villages": 0,
+        "villagePanchayats": null,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 1,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Panchayat",
+          "No. of District Level Traditional Bodies",
+          "No. of Intermediate Panchayat",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village Panchayat",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Chhattisgarh",
+      "lgdCode": 22,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 33,
+        "districtPanchayats": 33,
+        "districtTraditionalBodies": null,
+        "subdistricts": 252,
+        "blocks": 146,
+        "intermediatePanchayats": 146,
+        "intermediateTraditionalBodies": null,
+        "villages": 20650,
+        "villagePanchayats": 11690,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 194,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "The Dadra And Nagar Haveli And Daman And Diu",
+      "lgdCode": 38,
+      "type": "UT",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 3,
+        "districtPanchayats": 3,
+        "districtTraditionalBodies": null,
+        "subdistricts": 3,
+        "blocks": 3,
+        "intermediatePanchayats": null,
+        "intermediateTraditionalBodies": null,
+        "villages": 101,
+        "villagePanchayats": 50,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 3,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of Intermediate Panchayat",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Delhi",
+      "lgdCode": 7,
+      "type": "UT",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 13,
+        "districtPanchayats": null,
+        "districtTraditionalBodies": null,
+        "subdistricts": 39,
+        "blocks": 0,
+        "intermediatePanchayats": null,
+        "intermediateTraditionalBodies": null,
+        "villages": 353,
+        "villagePanchayats": null,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 4,
+        "cantonmentBoards": 1,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Panchayat",
+          "No. of District Level Traditional Bodies",
+          "No. of Intermediate Panchayat",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village Panchayat",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Goa",
+      "lgdCode": 30,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 3,
+        "districtPanchayats": 2,
+        "districtTraditionalBodies": null,
+        "subdistricts": 12,
+        "blocks": 12,
+        "intermediatePanchayats": null,
+        "intermediateTraditionalBodies": null,
+        "villages": 429,
+        "villagePanchayats": 191,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 14,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of Intermediate Panchayat",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Gujarat",
+      "lgdCode": 24,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 34,
+        "districtPanchayats": 34,
+        "districtTraditionalBodies": null,
+        "subdistricts": 306,
+        "blocks": 267,
+        "intermediatePanchayats": 263,
+        "intermediateTraditionalBodies": null,
+        "villages": 19199,
+        "villagePanchayats": 14607,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 170,
+        "cantonmentBoards": 1,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Haryana",
+      "lgdCode": 6,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 23,
+        "districtPanchayats": 22,
+        "districtTraditionalBodies": null,
+        "subdistricts": 143,
+        "blocks": 143,
+        "intermediatePanchayats": 143,
+        "intermediateTraditionalBodies": null,
+        "villages": 7090,
+        "villagePanchayats": 6230,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 87,
+        "cantonmentBoards": 1,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Himachal Pradesh",
+      "lgdCode": 2,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 12,
+        "districtPanchayats": 12,
+        "districtTraditionalBodies": null,
+        "subdistricts": 193,
+        "blocks": 92,
+        "intermediatePanchayats": 92,
+        "intermediateTraditionalBodies": null,
+        "villages": 21595,
+        "villagePanchayats": 3758,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 76,
+        "cantonmentBoards": 7,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Jammu And Kashmir",
+      "lgdCode": 1,
+      "type": "UT",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 20,
+        "districtPanchayats": 20,
+        "districtTraditionalBodies": null,
+        "subdistricts": 208,
+        "blocks": 285,
+        "intermediatePanchayats": 285,
+        "intermediateTraditionalBodies": null,
+        "villages": 6857,
+        "villagePanchayats": 4291,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 78,
+        "cantonmentBoards": 2,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Jharkhand",
+      "lgdCode": 20,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 24,
+        "districtPanchayats": 24,
+        "districtTraditionalBodies": null,
+        "subdistricts": 264,
+        "blocks": 264,
+        "intermediatePanchayats": 264,
+        "intermediateTraditionalBodies": null,
+        "villages": 32737,
+        "villagePanchayats": 4345,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 49,
+        "cantonmentBoards": 1,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Karnataka",
+      "lgdCode": 29,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 31,
+        "districtPanchayats": 31,
+        "districtTraditionalBodies": null,
+        "subdistricts": 240,
+        "blocks": 237,
+        "intermediatePanchayats": 238,
+        "intermediateTraditionalBodies": null,
+        "villages": 30775,
+        "villagePanchayats": 5946,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 330,
+        "cantonmentBoards": 1,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Kerala",
+      "lgdCode": 32,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 14,
+        "districtPanchayats": 14,
+        "districtTraditionalBodies": null,
+        "subdistricts": 78,
+        "blocks": 152,
+        "intermediatePanchayats": 152,
+        "intermediateTraditionalBodies": null,
+        "villages": 1666,
+        "villagePanchayats": 941,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 93,
+        "cantonmentBoards": 1,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Ladakh",
+      "lgdCode": 37,
+      "type": "UT",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 2,
+        "districtPanchayats": 2,
+        "districtTraditionalBodies": null,
+        "subdistricts": 15,
+        "blocks": 31,
+        "intermediatePanchayats": 31,
+        "intermediateTraditionalBodies": null,
+        "villages": 248,
+        "villagePanchayats": 191,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 2,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Lakshadweep",
+      "lgdCode": 31,
+      "type": "UT",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 1,
+        "districtPanchayats": 1,
+        "districtTraditionalBodies": null,
+        "subdistricts": 10,
+        "blocks": 10,
+        "intermediatePanchayats": null,
+        "intermediateTraditionalBodies": null,
+        "villages": 27,
+        "villagePanchayats": 10,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": null,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of Intermediate Panchayat",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Urban Bodies",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Madhya Pradesh",
+      "lgdCode": 23,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 55,
+        "districtPanchayats": 52,
+        "districtTraditionalBodies": null,
+        "subdistricts": 445,
+        "blocks": 313,
+        "intermediatePanchayats": 313,
+        "intermediateTraditionalBodies": null,
+        "villages": 57497,
+        "villagePanchayats": 23011,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 413,
+        "cantonmentBoards": 5,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Maharashtra",
+      "lgdCode": 27,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 36,
+        "districtPanchayats": 34,
+        "districtTraditionalBodies": null,
+        "subdistricts": 358,
+        "blocks": 352,
+        "intermediatePanchayats": 351,
+        "intermediateTraditionalBodies": null,
+        "villages": 44929,
+        "villagePanchayats": 28090,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 422,
+        "cantonmentBoards": 7,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Manipur",
+      "lgdCode": 14,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 16,
+        "districtPanchayats": 6,
+        "districtTraditionalBodies": 6,
+        "subdistricts": 65,
+        "blocks": 70,
+        "intermediatePanchayats": null,
+        "intermediateTraditionalBodies": null,
+        "villages": 3850,
+        "villagePanchayats": 162,
+        "villageTraditionalBodies": 3649,
+        "traditionalBodies": 3655,
+        "urbanBodies": 27,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of Intermediate Panchayat",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Meghalaya",
+      "lgdCode": 17,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 12,
+        "districtPanchayats": null,
+        "districtTraditionalBodies": 3,
+        "subdistricts": 56,
+        "blocks": 56,
+        "intermediatePanchayats": null,
+        "intermediateTraditionalBodies": null,
+        "villages": 7200,
+        "villagePanchayats": null,
+        "villageTraditionalBodies": 7026,
+        "traditionalBodies": 7029,
+        "urbanBodies": 11,
+        "cantonmentBoards": 1,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Panchayat",
+          "No. of Intermediate Panchayat",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village Panchayat"
+        ]
+      }
+    },
+    {
+      "name": "Mizoram",
+      "lgdCode": 15,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 11,
+        "districtPanchayats": null,
+        "districtTraditionalBodies": null,
+        "subdistricts": 28,
+        "blocks": 28,
+        "intermediatePanchayats": null,
+        "intermediateTraditionalBodies": null,
+        "villages": 887,
+        "villagePanchayats": null,
+        "villageTraditionalBodies": 830,
+        "traditionalBodies": 830,
+        "urbanBodies": 24,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Panchayat",
+          "No. of District Level Traditional Bodies",
+          "No. of Intermediate Panchayat",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village Panchayat",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Nagaland",
+      "lgdCode": 13,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 17,
+        "districtPanchayats": null,
+        "districtTraditionalBodies": null,
+        "subdistricts": 120,
+        "blocks": 76,
+        "intermediatePanchayats": null,
+        "intermediateTraditionalBodies": null,
+        "villages": 1570,
+        "villagePanchayats": null,
+        "villageTraditionalBodies": 1351,
+        "traditionalBodies": 1351,
+        "urbanBodies": 39,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Panchayat",
+          "No. of District Level Traditional Bodies",
+          "No. of Intermediate Panchayat",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village Panchayat",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Odisha",
+      "lgdCode": 21,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 30,
+        "districtPanchayats": 30,
+        "districtTraditionalBodies": null,
+        "subdistricts": 317,
+        "blocks": 314,
+        "intermediatePanchayats": 314,
+        "intermediateTraditionalBodies": null,
+        "villages": 51800,
+        "villagePanchayats": 6733,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 143,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Puducherry",
+      "lgdCode": 34,
+      "type": "UT",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 2,
+        "districtPanchayats": null,
+        "districtTraditionalBodies": null,
+        "subdistricts": 8,
+        "blocks": 4,
+        "intermediatePanchayats": 10,
+        "intermediateTraditionalBodies": null,
+        "villages": 129,
+        "villagePanchayats": 108,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 5,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Panchayat",
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Punjab",
+      "lgdCode": 3,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 23,
+        "districtPanchayats": 23,
+        "districtTraditionalBodies": null,
+        "subdistricts": 97,
+        "blocks": 161,
+        "intermediatePanchayats": 160,
+        "intermediateTraditionalBodies": null,
+        "villages": 13014,
+        "villagePanchayats": 13236,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 166,
+        "cantonmentBoards": 3,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Rajasthan",
+      "lgdCode": 8,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 41,
+        "districtPanchayats": 33,
+        "districtTraditionalBodies": null,
+        "subdistricts": 425,
+        "blocks": 362,
+        "intermediatePanchayats": 361,
+        "intermediateTraditionalBodies": null,
+        "villages": 52585,
+        "villagePanchayats": 11071,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 309,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Sikkim",
+      "lgdCode": 11,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 6,
+        "districtPanchayats": 6,
+        "districtTraditionalBodies": null,
+        "subdistricts": 19,
+        "blocks": 34,
+        "intermediatePanchayats": null,
+        "intermediateTraditionalBodies": null,
+        "villages": 485,
+        "villagePanchayats": 199,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 9,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of Intermediate Panchayat",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)",
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Tamil Nadu",
+      "lgdCode": 33,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 38,
+        "districtPanchayats": 37,
+        "districtTraditionalBodies": null,
+        "subdistricts": 317,
+        "blocks": 392,
+        "intermediatePanchayats": 397,
+        "intermediateTraditionalBodies": null,
+        "villages": 18681,
+        "villagePanchayats": 12571,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 650,
+        "cantonmentBoards": 2,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Telangana",
+      "lgdCode": 36,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 33,
+        "districtPanchayats": 31,
+        "districtTraditionalBodies": null,
+        "subdistricts": 621,
+        "blocks": 621,
+        "intermediatePanchayats": 565,
+        "intermediateTraditionalBodies": null,
+        "villages": 11450,
+        "villagePanchayats": 12760,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 161,
+        "cantonmentBoards": 1,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Tripura",
+      "lgdCode": 16,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 8,
+        "districtPanchayats": 8,
+        "districtTraditionalBodies": 1,
+        "subdistricts": 23,
+        "blocks": 58,
+        "intermediatePanchayats": 35,
+        "intermediateTraditionalBodies": 40,
+        "villages": 898,
+        "villagePanchayats": 607,
+        "villageTraditionalBodies": 587,
+        "traditionalBodies": 628,
+        "urbanBodies": 26,
+        "cantonmentBoards": null,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of Cantonment Board"
+        ]
+      }
+    },
+    {
+      "name": "Uttar Pradesh",
+      "lgdCode": 9,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 75,
+        "districtPanchayats": 75,
+        "districtTraditionalBodies": null,
+        "subdistricts": 350,
+        "blocks": 826,
+        "intermediatePanchayats": 826,
+        "intermediateTraditionalBodies": null,
+        "villages": 110308,
+        "villagePanchayats": 57694,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 770,
+        "cantonmentBoards": 13,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "Uttarakhand",
+      "lgdCode": 5,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 13,
+        "districtPanchayats": 13,
+        "districtTraditionalBodies": null,
+        "subdistricts": 129,
+        "blocks": 95,
+        "intermediatePanchayats": 95,
+        "intermediateTraditionalBodies": null,
+        "villages": 17343,
+        "villagePanchayats": 7817,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": null,
+        "urbanBodies": 107,
+        "cantonmentBoards": 9,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of District Level Traditional Bodies",
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies",
+          "No. of Traditional Local Bodies (District/Intermediate/Village Level TLB)"
+        ]
+      }
+    },
+    {
+      "name": "West Bengal",
+      "lgdCode": 19,
+      "type": "State",
+      "sourceUrl": "https://lgdirectory.gov.in/globalviewstateforcitizen.do",
+      "checkedAt": "2026-10-14T20:46:27+00:00",
+      "counts": {
+        "districts": 23,
+        "districtPanchayats": 22,
+        "districtTraditionalBodies": 1,
+        "subdistricts": 346,
+        "blocks": 345,
+        "intermediatePanchayats": 345,
+        "intermediateTraditionalBodies": null,
+        "villages": 41005,
+        "villagePanchayats": 3339,
+        "villageTraditionalBodies": null,
+        "traditionalBodies": 1,
+        "urbanBodies": 128,
+        "cantonmentBoards": 3,
+        "sourceUrl": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do",
+        "checkedAt": "2026-10-14T20:46:31+00:00",
+        "rawNotApplicable": [
+          "No. of  Intermediate Level Traditional Bodies",
+          "No. of Village level Traditional Bodies"
+        ]
+      }
+    }
+  ],
+  "districtUnits": [],
+  "localBodyUnits": [],
+  "limitations": "Public state codes and aggregate counts only. Individual district/local-body codes require CAPTCHA-protected reports; no bypass."
+}

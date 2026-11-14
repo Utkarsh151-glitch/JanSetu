@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.ui.Phase5PresentationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-16T22:35:21.632Z" hostname="LAPTOP-FAIP099K" time="0.516">
+  <properties/>
+  <testcase name="deadlineWordingDistinguishesPassedSoonAndLaterWithoutColour" classname="in.jansetu.app.ui.Phase5PresentationTest" time="0.021"/>
+  <testcase name="everyEditorialHomeShortcutFindsAPublishedServiceInTheBundledCatalog" classname="in.jansetu.app.ui.Phase5PresentationTest" time="0.474"/>
+  <testcase name="storedThemeKeysFallBackToSystemDefault" classname="in.jansetu.app.ui.Phase5PresentationTest" time="0.001"/>
+  <testcase name="reducedMotionReplacesTimedAnimationWithAnImmediateChange" classname="in.jansetu.app.ui.Phase5PresentationTest" time="0.019"/>
+  <testcase name="largerTextAddsFifteenPercentButNeverExceedsTwiceOrShrinksSystemText" classname="in.jansetu.app.ui.Phase5PresentationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+{
+  "url": "https://sarathi.parivahan.gov.in/",
+  "retrievedAt": "2026-10-15T23:07:11.367432+00:00",
+  "httpStatus": 0,
+  "finalUrl": "https://sarathi.parivahan.gov.in/",
+  "redirects": 0,
+  "success": false,
+  "tlsVerified": false,
+  "curlExit": 56,
+  "error": "curl: (56) Recv failure: Connection was reset\r\n",
+  "review": "Failed normal retrieval; not evidence of service retirement or a confirmed route"
+}

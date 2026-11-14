@@ -1,0 +1,60 @@
+{
+  "startedAt": "2026-10-16T17:26:53.434289+00:00",
+  "stage": "baseline",
+  "previewBefore": {
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "91c4897bb27a6f960465e3a186d3bcd23129f1b44a0c9f1815b4909490dc7bde",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "commands": {
+    "python": {
+      "exitCode": 0,
+      "seconds": 38.375
+    },
+    "node": {
+      "exitCode": 0,
+      "seconds": 0.625
+    },
+    "gradle": {
+      "exitCode": 0,
+      "seconds": 996.875
+    }
+  },
+  "scope": "Functional app code; Android suite in in.jansetu.app.qa, independent UID/Keystore/files",
+  "jvm": {
+    "tests": 35,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "android": {
+    "tests": 28,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 22
+  },
+  "previewAfter": {
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "91c4897bb27a6f960465e3a186d3bcd23129f1b44a0c9f1815b4909490dc7bde",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "passed": true,
+  "finishedAt": "2026-10-16T17:44:10.204963+00:00",
+  "functionalSourceMatchesPhase3c": true,
+  "qaApkSha256": "cc23adfe2e11675e5f4c9da9d511ba319f241b370402138d0c65dcfd926e3f87",
+  "pythonTests": 68,
+  "nodeTests": {
+    "tests": 7,
+    "pass": 7,
+    "fail": 0,
+    "skipped": 0
+  },
+  "postRunVerification": "Source fingerprints and baseline APK archive captured after completed native-code/fresh-XML gate."
+}

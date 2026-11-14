@@ -1,0 +1,16 @@
+{
+  "url": "https://voters.eci.gov.in/",
+  "retrievedAt": "2026-10-15T23:12:53.512271+00:00",
+  "httpStatus": 200,
+  "finalUrl": "https://voters.eci.gov.in/",
+  "redirects": 0,
+  "success": true,
+  "tlsVerified": true,
+  "curlExit": 0,
+  "sha256": "1bfcac1372ac4d9981cec98004e20c96d1203b64942ca1bb41c6fdc09505230f",
+  "bytes": 1548,
+  "text": "Citizen Service Portal You need to enable JavaScript to run this app.",
+  "links": [],
+  "title": "Citizen Service Portal",
+  "review": "Unreviewed retrieval; HTTP success alone is not publication approval or proof of a completed transaction"
+}

@@ -1,0 +1,67 @@
+{
+  "startedAt": "2026-10-16T18:22:58.072429+00:00",
+  "stage": "final",
+  "previewBefore": {
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "91c4897bb27a6f960465e3a186d3bcd23129f1b44a0c9f1815b4909490dc7bde",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "commands": {
+    "python": {
+      "exitCode": 0,
+      "seconds": 17.859
+    },
+    "node": {
+      "exitCode": 0,
+      "seconds": 0.813
+    },
+    "gradle": {
+      "exitCode": 0,
+      "seconds": 640.922
+    }
+  },
+  "scope": "Functional app code; Android suite in in.jansetu.app.qa, independent UID/Keystore/files",
+  "pythonTests": 71,
+  "nodeTests": {
+    "tests": 7,
+    "pass": 7,
+    "fail": 0,
+    "skipped": 0
+  },
+  "jvm": {
+    "tests": 38,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "android": {
+    "tests": 34,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 22
+  },
+  "previewAfter": {
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "91c4897bb27a6f960465e3a186d3bcd23129f1b44a0c9f1815b4909490dc7bde",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "artifacts": {
+    "debug": {
+      "bytes": 20737425,
+      "sha256": "c8b98a4adcf2e2a670c2bfbce23708de241b29aff18c68a3372ddabf7f5c4857"
+    },
+    "qa": {
+      "bytes": 19899007,
+      "sha256": "44851146386bbcfb7130794693495b975c5758bcb7f0bd59cd6e09e7900045ff"
+    }
+  },
+  "passed": true,
+  "finishedAt": "2026-10-16T18:33:58.768849+00:00"
+}

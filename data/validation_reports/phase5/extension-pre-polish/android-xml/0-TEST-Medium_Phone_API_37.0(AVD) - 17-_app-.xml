@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="in.jansetu.app.CitizenJourneysTest" tests="41" failures="0" errors="0" skipped="0" time="509.714" timestamp="2026-10-16T22:46:09" hostname="localhost">
+  <properties>
+    <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="regionalServiceSourcesUnknownsAndUnsupportedStateKeepSearchHonest" classname="in.jansetu.app.CitizenJourneysTest" time="36.406" />
+  <testcase name="misspelledPortalQueryFiltersDetailsOfficialHandoffAndBackKeepContext" classname="in.jansetu.app.CitizenJourneysTest" time="35.648" />
+  <testcase name="sourceBackedGuideAndMissingGuideRender" classname="in.jansetu.app.DetailGuideTest" time="8.575" />
+  <testcase name="signedUpdatePersistsOfflineRejectsDamageAndRestoresBundle" classname="in.jansetu.app.LocalWorkflowsTest" time="37.765" />
+  <testcase name="hindiGuideAndAccessibleNavigationUseRuntimeTranslations" classname="in.jansetu.app.LocalWorkflowsTest" time="12.161" />
+  <testcase name="favoriteRecentSearchAndHistoryWorkThroughTheApp" classname="in.jansetu.app.LocalWorkflowsTest" time="19.042" />
+  <testcase name="organizationGroupingAndCategoryHierarchyAreNavigable" classname="in.jansetu.app.LocalWorkflowsTest" time="12.436" />
+  <testcase name="onboardingAndTopLevelNavigationWork" classname="in.jansetu.app.MainFlowTest" time="17.51" />
+  <testcase name="labelledInteractiveControlsPassTheAndroidAccessibilityFrameworkGate" classname="in.jansetu.app.Phase4AccessibilityAutomationTest" time="11.298" />
+  <testcase name="lostKeyReadPreservesCiphertextAndDoesNotGenerateAReplacementKey" classname="in.jansetu.app.Phase4PrivacyAccessibilityTest" time="6.214" />
+  <testcase name="shortViewportAtTwoTimesTextKeepsSavedApplicationsReachable" classname="in.jansetu.app.Phase4PrivacyAccessibilityTest" time="9.744" />
+  <testcase name="aSavedSnapshotCannotOfferAnApplicationActionAfterCurrentRouteBecomesUnconfirmed" classname="in.jansetu.app.Phase4PrivacyAccessibilityTest" time="11.386" />
+  <testcase name="redesignedScreensPassAccessibilityFrameworkChecksInLightAndDark" classname="in.jansetu.app.Phase5AccessibilityChecksTest" time="18.965" />
+  <testcase name="logoAndIllustrationsRenderVisiblyInLightAndDarkThemes" classname="in.jansetu.app.Phase5DesignTest" time="11.901" />
+  <testcase name="changingSettingsDoesNotTouchTrackerRecordsOrHistory" classname="in.jansetu.app.Phase5DesignTest" time="8.831" />
+  <testcase name="fullMotionAnimatesExpandableSectionsOverSeveralFrames" classname="in.jansetu.app.Phase5DesignTest" time="6.993" />
+  <testcase name="settingsControlsShowStateChangeBehaviourAndPersist" classname="in.jansetu.app.Phase5DesignTest" time="10.701" />
+  <testcase name="decorativeArtIsHiddenFromScreenReadersButInformativeArtIsDescribed" classname="in.jansetu.app.Phase5DesignTest" time="10.788" />
+  <testcase name="reducedMotionMakesExpandableSectionsChangeImmediately" classname="in.jansetu.app.Phase5DesignTest" time="10.191" />
+  <testcase name="actualRegionalRecordCanBeFoundThroughStateAndDistrictControls" classname="in.jansetu.app.RegionalCatalogTest" time="22.135" />
+  <testcase name="categorySearchShowsPublishedPortalAndHonestEmptyState" classname="in.jansetu.app.SearchScreenTest" time="12.469" />
+  <testcase name="searchDisplaysVerifiedPortal" classname="in.jansetu.app.SearchScreenTest" time="12.437" />
+  <testcase name="newInformationOnlyServiceShowsUnknownsSourcesAndNoApply" classname="in.jansetu.app.ServiceFlowTest" time="11.684" />
+  <testcase name="citizenSearchOpensARealServiceThroughAppNavigation" classname="in.jansetu.app.ServiceFlowTest" time="18.072" />
+  <testcase name="newConfirmedServiceOpensReviewedLoginEntryAndOffersLocalTracking" classname="in.jansetu.app.ServiceFlowTest" time="11.07" />
+  <testcase name="serviceOfficialLinksUseExactEvidenceAndApplicationUrls" classname="in.jansetu.app.ServiceFlowTest" time="11.819" />
+  <testcase name="actualSignedInstallAndBundleRestoreDoNotModifySavedApplicationHistory" classname="in.jansetu.app.TrackerCatalogBoundaryTest" time="11.17" />
+  <testcase name="manualCreateEditHistoryMaskingValidationAndConfirmedDeleteWork" classname="in.jansetu.app.TrackerFlowTest" time="41.035" />
+  <testcase name="editorDraftSurvivesSavedStateRestorationWithoutPersisting" classname="in.jansetu.app.TrackerFlowTest" time="11.705" />
+  <testcase name="informationAndAssistedServicePagesNeverOfferApplyOrTrackerShortcut" classname="in.jansetu.app.TrackerFlowTest" time="9.494" />
+  <testcase name="serviceSearchPrefillsOnlyConfirmedFactsAndDoesNotInferSubmission" classname="in.jansetu.app.TrackerFlowTest" time="18.857" />
+  <testcase name="removeAllRequiresConfirmationAndDoesNotChangePreferences" classname="in.jansetu.app.TrackerFlowTest" time="14.36" />
+  <testcase name="actualAlarmIdentityReplacementCancellationAndPrivateNotificationPosting" classname="in.jansetu.app.TrackerReminderTest" time="0.884" />
+  <testcase name="reminderDeliveryGuardSurvivesReopenAndRechecksDeletedOrChangedDates" classname="in.jansetu.app.TrackerRepositoryTest" time="0.474" />
+  <testcase name="progressDatesUseCurrentTimezoneAcrossMidnightWithoutRecreatingRepository" classname="in.jansetu.app.TrackerRepositoryTest" time="0.319" />
+  <testcase name="authenticatedEncryptionRejectsPayloadSwapsAndContainsNoPlaintext" classname="in.jansetu.app.TrackerRepositoryTest" time="0.244" />
+  <testcase name="crudReopenAndEditsPreserveHistoryAndUnrelatedRecords" classname="in.jansetu.app.TrackerRepositoryTest" time="0.537" />
+  <testcase name="multipleApplicationsForOneServiceAndManualEntriesAreIndependent" classname="in.jansetu.app.TrackerRepositoryTest" time="1.881" />
+  <testcase name="corruptAndInvalidPayloadsArePreservedAndDoNotOverwriteGoodData" classname="in.jansetu.app.TrackerRepositoryTest" time="0.474" />
+  <testcase name="wholeDatabaseCorruptionDoesNotTriggerDestructiveRecovery" classname="in.jansetu.app.TrackerRepositoryTest" time="0.27" />
+  <testcase name="additiveVersionOneMigrationKeepsEncryptedRecordAndHistory" classname="in.jansetu.app.TrackerRepositoryTest" time="0.265" />
+</testsuite>

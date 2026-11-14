@@ -1,0 +1,116 @@
+{
+  "sessionDate": "2026-10-16",
+  "scope": "local_development",
+  "appVersion": "0.2.0",
+  "appVersionCode": 2,
+  "counts": {
+    "websites": 7347,
+    "reviewed": 9,
+    "directoryListed": 7338,
+    "services": 0,
+    "guides": 2,
+    "pending": 3823
+  },
+  "sourceBytes": 28819757,
+  "runtimeBytes": 10758951,
+  "runtimeReductionPercent": 62.67,
+  "sourceSha256": "af25cfc31eed917c3d44dadf3d6c2db781e406bba54fb8aa549bc43bab93cd1a",
+  "runtimeSha256": "2155cf51fca24a36b4fe3bad24949e221ea415f366d79b5d9e15db5d89272ecc",
+  "tests": {
+    "jvm": {
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "android": {
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "python": {
+      "tests": 55,
+      "failures": 0
+    },
+    "node": {
+      "tests": 7,
+      "failures": 0
+    }
+  },
+  "artifacts": {
+    "app/build/outputs/apk/debug/app-debug.apk": {
+      "bytes": 20601888,
+      "sha256": "57068c23f6012bf1ee130ad76dc3b559f61874259eeb1fb00071096dee976ee8",
+      "catalogMatchesRuntime": true
+    },
+    "app/build/outputs/apk/release/app-release-unsigned.apk": {
+      "bytes": 13538665,
+      "sha256": "cf00d477d221501235939321df440abeeb7ceabdec591c43a21fd1d128bfe66a",
+      "catalogMatchesRuntime": true
+    },
+    "app/build/outputs/bundle/release/app-release.aab": {
+      "bytes": 13179232,
+      "sha256": "18cbfe1be56d4d1a132fbe36366c9a8fe3a45545cf285ae5113a62de73cb67ad",
+      "catalogMatchesRuntime": true
+    },
+    "artifacts/catalog-v9.jansetu": {
+      "bytes": 14345679,
+      "sha256": "2a649cda973c77284196a07a3f66633308ec908ff0e7a0b592cecf1970bb2b4e"
+    },
+    "app/src/main/assets/catalog-update-public.der": {
+      "bytes": 91,
+      "sha256": "08b89c0df4afa20b187d827fa04942afaa9a74d4b5c3fa4bb8cb1157fa1884d7"
+    }
+  },
+  "releaseSigning": "unsigned",
+  "publicReleaseValidator": "expected rejection: local-development directory data",
+  "limitations": [
+    "No government API provider configured",
+    "No automatic remote update service",
+    "Installed-extension activeTab/CSS behavior unverified",
+    "Live TLS/payment/file browser flows unverified",
+    "Only API 37 emulator tested",
+    "NIC permission and production publication pending"
+  ],
+  "priorSourceComparison": {
+    "authoritativeSourceMatchesPhase2bRelease": true,
+    "sourceSha256": "af25cfc31eed917c3d44dadf3d6c2db781e406bba54fb8aa549bc43bab93cd1a"
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 17
+  },
+  "manualChecks": {
+    "offlineAndroidDocumentPickerImport": "version 9 installed, 7347 websites",
+    "restartPersistence": "version 9 observed after force-stop/relaunch before UI state-transition fix; repository unchanged and final persistence test passes",
+    "restore": "final APK returned to version 8, private update removed",
+    "narrowHindiDark": "720x1600 at 320dpi, 1.3 font scale; Settings and catalog inspected",
+    "talkBack": "service bound; visible Hindi Back focus only; spoken output/full traversal unverified",
+    "keyboardQueryEntry": "Android stylus tutorial interrupted ADB entry; not counted as pass",
+    "environmentRestored": true,
+    "postSuiteChange": "decorative category fallback glyph only; rebuilt and visually checked"
+  },
+  "performanceObservedMs": {
+    "parse": 1731.3187,
+    "index": 1712.6161,
+    "thirtySearches": 2724.5375
+  },
+  "screenshots": {
+    "local-update-installed.png": "d5cb5ba64e5f45ebc02bddcbb02098540649664a0bb4603da0a3b4dc52b118f5",
+    "local-update-restarted.png": "f96e9a8b230dbdf3b80d8cbc5d57a9a1daa1c40faa2a8b1c94b39f018caba337",
+    "local-restored.png": "c793e27454d2a77635b78799ffd39d96d7a707a91563d572a34c98302032582d",
+    "local-picker-final.png": "9b43c50d09c0563bb35e64f3038fc71fa207cc49d1969f0984104d2a41eca1f8",
+    "local-search.png": "5b078d59fde962ef2ba32de26fd1fa51335db68dbd5f288d8133aded32550804",
+    "local-hindi-narrow-settings.png": "90b97e01074200b7550a006c2153239486c98d597b639bdd49950cfbfff998fa",
+    "local-hindi-narrow-catalog.png": "a2f247c30087f7dde3f168cc556cee7c723a167c759279c66b327e5afd2f30e8",
+    "local-talkback.png": "50cd219054252ddb7337a9845d763df1b07372808887ebad9753bd2a2fc36bc3",
+    "local-browse.png": "874e36241206b12b19c181d47920bcd1b407666ca2cc244c9165bacf8847ae17"
+  },
+  "signatureVerification": {
+    "debugApk": "passed",
+    "unsignedReleaseApk": "expected rejection",
+    "aab": "no JAR signature present"
+  },
+  "finalEmulatorScreen": "Browse by need, app 0.2.0/code 2; normal display/network/accessibility settings restored"
+}

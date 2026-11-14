@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "levelLabels": {
+    "union": "Central",
+    "state": "State",
+    "union_territory": "Union Territory",
+    "district": "District",
+    "municipal_local": "Local",
+    "legislature": "Legislature",
+    "judiciary": "Judiciary",
+    "statutory_public_institution": "Public Institution",
+    "other_official_institution": "Other Official Institution"
+  },
+  "sectorCategories": {
+    "identity_civil_registration": "documents",
+    "education_scholarships": "education",
+    "employment_pensions": "jobs",
+    "health_family_welfare": "health",
+    "social_security_welfare": "welfare",
+    "agriculture_rural": "agriculture",
+    "business_msme": "business",
+    "taxation": "taxation",
+    "land_housing": "land",
+    "transport": "transport",
+    "public_finance": "taxation",
+    "justice_legal": "courts",
+    "rti_grievance": "grievances",
+    "utilities_local": "utilities",
+    "local_civic": "civic",
+    "government_information": "information",
+    "environment_natural_resources": "environment",
+    "industry_trade": "industry",
+    "safety_disaster": "safety",
+    "other_verified": "information"
+  },
+  "sourceSectorMap": {
+    "Agriculture & Cooperation": "agriculture_rural",
+    "Animal Husbandry & Fishing": "agriculture_rural",
+    "Education & Training": "education_scholarships",
+    "Employment & Labour": "employment_pensions",
+    "Energy & Power": "utilities_local",
+    "Environment & Natural Resources": "environment_natural_resources",
+    "Forestry & Wildlife": "environment_natural_resources",
+    "Health & Family welfare": "health_family_welfare",
+    "Finance, Banking & Insurance": "public_finance",
+    "Food & Public Distribution": "social_security_welfare",
+    "Housing & Urban Development": "land_housing",
+    "Law & Justice": "justice_legal",
+    "Rural Development & Panchayati Raj": "agriculture_rural",
+    "Social Justice & Empowerment": "social_security_welfare",
+    "Transport & Infrastructure": "transport",
+    "Home affairs & National Security": "safety_disaster",
+    "Defence": "safety_disaster",
+    "Commerce & Industry": "industry_trade",
+    "Chemicals & Fertilizers": "industry_trade",
+    "Coal & Mine": "environment_natural_resources",
+    "Petroleum, Oil & Natural Gas": "industry_trade",
+    "Governance & Administration": "government_information",
+    "Information & Broadcasting": "government_information"
+  },
+  "nameRules": [
+    [
+      "aadhaar|identity|civil registration|passport",
+      "identity_civil_registration"
+    ],
+    [
+      "income tax|gst|taxation|commercial tax|excise|customs",
+      "taxation"
+    ],
+    [
+      "scholarship|education|university|school|college|examination|educational",
+      "education_scholarships"
+    ],
+    [
+      "employment|recruitment|pension|public service commission|labour|career",
+      "employment_pensions"
+    ],
+    [
+      "health|medical|hospital|family welfare|ayush",
+      "health_family_welfare"
+    ],
+    [
+      "agricultur|farmer|animal husbandry|fisher|rural development",
+      "agriculture_rural"
+    ],
+    [
+      "social security|social welfare|women|child development|disabilit",
+      "social_security_welfare"
+    ],
+    [
+      "msme|udyam|entrepreneur|startup",
+      "business_msme"
+    ],
+    [
+      "land record|housing|property|revenue department",
+      "land_housing"
+    ],
+    [
+      "transport|driving|railway|civil aviation|road",
+      "transport"
+    ],
+    [
+      "court|tribunal|judicia|legal|law and justice",
+      "justice_legal"
+    ],
+    [
+      "grievance|rti |right to information",
+      "rti_grievance"
+    ],
+    [
+      "electric|water|sanitation|power distribution",
+      "utilities_local"
+    ],
+    [
+      "municipal|corporation of|panchayat|local government",
+      "local_civic"
+    ],
+    [
+      "environment|forest|wildlife|natural resource",
+      "environment_natural_resources"
+    ],
+    [
+      "industry|industrial|commerce|trade",
+      "industry_trade"
+    ],
+    [
+      "police|disaster|emergency|fire service|home guard",
+      "safety_disaster"
+    ]
+  ],
+  "notes": "Classification confidence is independent of official source evidence. These data rules may be extended alongside taxonomy.json without editing app source."
+}

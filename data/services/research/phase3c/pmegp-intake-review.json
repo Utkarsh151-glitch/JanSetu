@@ -1,0 +1,8 @@
+{
+  "url": "https://common-pmegp.msme.gov.in/",
+  "checkedOn": "2026-10-16",
+  "sha256": "55f14d849524195ade2c25f5363da80304980199297e6c576db19f70c8aa5874",
+  "locator": "Fresh-intake notice in public homepage JavaScript; window.NewApplicationAccept",
+  "observation": "Fresh application submission under PMEGP is presently unavailable. The facility will be enabled upon approval for continuation of the Scheme with the revised guidelines by the competent authority. Please check the PMEGP Portal for further updates.",
+  "normalTls": true
+}

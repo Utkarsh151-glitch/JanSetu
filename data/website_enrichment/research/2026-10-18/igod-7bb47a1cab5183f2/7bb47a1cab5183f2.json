@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-7bb47a1cab5183f2",
+ "url": "https://new.broadcastseva.gov.in/",
+ "checkedAt": "2026-10-17T19:16:52+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://new.broadcastseva.gov.in/\nCall log:\n  - navigating to \"https://new.broadcastseva.gov.in",
+ "attempt": 1
+}

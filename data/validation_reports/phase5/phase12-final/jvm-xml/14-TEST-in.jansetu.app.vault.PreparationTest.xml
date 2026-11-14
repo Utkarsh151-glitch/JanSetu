@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.vault.PreparationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-18T06:23:02.471Z" hostname="LAPTOP-FAIP099K" time="0.157">
+  <properties/>
+  <testcase name="keysAreStableAndChangeWhenWordingOrKindChanges" classname="in.jansetu.app.vault.PreparationTest" time="0.006"/>
+  <testcase name="choicesAreReportedAsChoicesNeverAsMetRequirements" classname="in.jansetu.app.vault.PreparationTest" time="0.138"/>
+  <testcase name="malformedStoredChoicesAreRejected" classname="in.jansetu.app.vault.PreparationTest" time="0.0"/>
+  <testcase name="requirementsAreExactlyTheRecordedFactsAndUnknownsStayUnknown" classname="in.jansetu.app.vault.PreparationTest" time="0.012"/>
+  <testcase name="choicesForChangedRequirementsAreKeptAsOutdatedNotReassigned" classname="in.jansetu.app.vault.PreparationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-17",
+  "device": "emulator-5554 (Medium_Phone_API_37.0)",
+  "what_happened": "During the Phase 6B QA screenshot run, the emulator stopped responding: adb shell and the emulator console timed out, adb reported the device offline, and qemu-system-x86_64 (PID 27812) used 0 CPU seconds over 10 s and was reported as not responding. Host free memory was 736 MB of 16 GB at the time.",
+  "steps": [
+    "Restarted the host adb server (no device effect).",
+    "Stopped the idle Gradle and Kotlin build daemons to free host memory (free memory rose to 3,102 MB). The emulator did not recover.",
+    "Stopped the hung emulator process and started the same AVD with its original flags: -no-snapshot-load -no-snapshot-save (cold boot from the current disk, no snapshot rollback).",
+    "No app data was cleared, uninstalled, reseeded or migrated. No package was installed into in.jansetu.app."
+  ],
+  "previewProfileBeforeHang": {
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "78d11267d05203bb89d72d8c4b2dcf4074c72ab32ac8829247a30b53390ee3f0",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "previewProfileAfterRestart": {
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "78d11267d05203bb89d72d8c4b2dcf4074c72ab32ac8829247a30b53390ee3f0",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "result": "All four protected preview hashes are identical before the hang and after the restart. Packages present after restart: in.jansetu.app, in.jansetu.app.qa, in.jansetu.app.qa.test, in.jansetu.app.test.",
+  "note": "The preview app's boot receiver reconciles reminder alarms on BOOT_COMPLETED; it did not change the alarm registry hash."
+}

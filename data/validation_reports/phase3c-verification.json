@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-16",
+  "appVersion": "0.4.1",
+  "versionCode": 5,
+  "websites": 7347,
+  "services": 52,
+  "runtimeVersion": 13,
+  "signedDemonstrationVersion": 14,
+  "unchangedServiceObjects": 24,
+  "explicitRevisions": [
+    "pmegp-enterprise-support"
+  ],
+  "protectedWebsiteAndQueueHashes": true,
+  "publicPinSha256": "08b89c0df4afa20b187d827fa04942afaa9a74d4b5c3fa4bb8cb1157fa1884d7",
+  "runtimeBytes": 10891448,
+  "runtimeSha256": "495325736c002562fab222d2f10e76cdbbb6cb1740f79f7eb1fa1780b88973ad",
+  "pythonTests": 68,
+  "nodeTests": 7,
+  "jvm": {
+    "tests": 35,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "files": 9
+  },
+  "android": {
+    "tests": 28,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "files": 1
+  },
+  "postCleanupConfigurationRegression": {
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "files": 1
+  },
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 22,
+    "Information": 0
+  },
+  "artifacts": {
+    "app\\build\\outputs\\apk\\debug\\app-debug.apk": {
+      "bytes": 20644064,
+      "sha256": "43e7961fdf53fd7bd75afe51f6c24be0c3a252941c3d38cd7ac3f14356704556"
+    },
+    "artifacts\\catalog-v14.jansetu": {
+      "bytes": 14522343,
+      "sha256": "96625aa7c0949c2ba26a74f6fd3179b2b295d04b78bab3f2824429db09a1824e"
+    }
+  },
+  "release": "Local debug/data delivery only; older release APK/AAB are historical, not rebuilt in Phase 3C. No production signing or upload."
+}

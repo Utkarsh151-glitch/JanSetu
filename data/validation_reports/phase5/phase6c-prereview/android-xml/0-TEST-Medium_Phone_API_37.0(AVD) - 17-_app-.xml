@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="in.jansetu.app.CitizenJourneysTest" tests="50" failures="0" errors="0" skipped="0" time="315.628" timestamp="2026-10-17T20:44:37" hostname="localhost">
+  <properties>
+    <property name="device" value="Medium_Phone_API_37.0(AVD) - 17" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="regionalServiceSourcesUnknownsAndUnsupportedStateKeepSearchHonest" classname="in.jansetu.app.CitizenJourneysTest" time="22.354" />
+  <testcase name="misspelledPortalQueryFiltersDetailsOfficialHandoffAndBackKeepContext" classname="in.jansetu.app.CitizenJourneysTest" time="14.041" />
+  <testcase name="sourceBackedGuideAndMissingGuideRender" classname="in.jansetu.app.DetailGuideTest" time="4.482" />
+  <testcase name="signedUpdatePersistsOfflineRejectsDamageAndRestoresBundle" classname="in.jansetu.app.LocalWorkflowsTest" time="31.398" />
+  <testcase name="hindiGuideAndAccessibleNavigationUseRuntimeTranslations" classname="in.jansetu.app.LocalWorkflowsTest" time="5.05" />
+  <testcase name="favoriteRecentSearchAndHistoryWorkThroughTheApp" classname="in.jansetu.app.LocalWorkflowsTest" time="10.082" />
+  <testcase name="organizationGroupingAndCategoryHierarchyAreNavigable" classname="in.jansetu.app.LocalWorkflowsTest" time="4.993" />
+  <testcase name="onboardingAndTopLevelNavigationWork" classname="in.jansetu.app.MainFlowTest" time="10.068" />
+  <testcase name="labelledInteractiveControlsPassTheAndroidAccessibilityFrameworkGate" classname="in.jansetu.app.Phase4AccessibilityAutomationTest" time="2.338" />
+  <testcase name="lostKeyReadPreservesCiphertextAndDoesNotGenerateAReplacementKey" classname="in.jansetu.app.Phase4PrivacyAccessibilityTest" time="2.265" />
+  <testcase name="shortViewportAtTwoTimesTextKeepsSavedApplicationsReachable" classname="in.jansetu.app.Phase4PrivacyAccessibilityTest" time="2.51" />
+  <testcase name="aSavedSnapshotCannotOfferAnApplicationActionAfterCurrentRouteBecomesUnconfirmed" classname="in.jansetu.app.Phase4PrivacyAccessibilityTest" time="4.743" />
+  <testcase name="redesignedScreensPassAccessibilityFrameworkChecksInLightAndDark" classname="in.jansetu.app.Phase5AccessibilityChecksTest" time="17.187" />
+  <testcase name="logoAndIllustrationsRenderVisiblyInLightAndDarkThemes" classname="in.jansetu.app.Phase5DesignTest" time="4.064" />
+  <testcase name="changingSettingsDoesNotTouchTrackerRecordsOrHistory" classname="in.jansetu.app.Phase5DesignTest" time="2.005" />
+  <testcase name="fullMotionAnimatesExpandableSectionsOverSeveralFrames" classname="in.jansetu.app.Phase5DesignTest" time="1.978" />
+  <testcase name="settingsControlsShowStateChangeBehaviourAndPersist" classname="in.jansetu.app.Phase5DesignTest" time="3.597" />
+  <testcase name="decorativeArtIsHiddenFromScreenReadersButInformativeArtIsDescribed" classname="in.jansetu.app.Phase5DesignTest" time="4.496" />
+  <testcase name="reducedMotionMakesExpandableSectionsChangeImmediately" classname="in.jansetu.app.Phase5DesignTest" time="1.848" />
+  <testcase name="directoryOnlyWebsiteSaysNotCheckedInsteadOfFiller" classname="in.jansetu.app.Phase6bWebsiteInformationTest" time="4.947" />
+  <testcase name="notStatedIsDistinctFromNotChecked" classname="in.jansetu.app.Phase6bWebsiteInformationTest" time="4.126" />
+  <testcase name="checkedWebsiteShowsSixSectionsWithSourcesAndOfficialLinks" classname="in.jansetu.app.Phase6bWebsiteInformationTest" time="6.738" />
+  <testcase name="searchLabelsAndCheckedFilterNeverWidenResults" classname="in.jansetu.app.Phase6bWebsiteInformationTest" time="8.274" />
+  <testcase name="websitePageOpensAVerifiedServiceThroughAppNavigation" classname="in.jansetu.app.Phase6bWebsiteInformationTest" time="8.74" />
+  <testcase name="hindiDetailKeepsSectionsAndMarksEnglishSummaries" classname="in.jansetu.app.Phase6bWebsiteInformationTest" time="4.989" />
+  <testcase name="automatedProfilesSayNoPersonHasReviewedThem" classname="in.jansetu.app.Phase6cReviewDisplayTest" time="4.624" />
+  <testcase name="humanReviewShowsItsOwnDateAndIsNeverImplied" classname="in.jansetu.app.Phase6cReviewDisplayTest" time="4.404" />
+  <testcase name="draftsAndHeldProfilesNeverReachTheApp" classname="in.jansetu.app.Phase6cReviewDisplayTest" time="4.286" />
+  <testcase name="actualRegionalRecordCanBeFoundThroughStateAndDistrictControls" classname="in.jansetu.app.RegionalCatalogTest" time="10.604" />
+  <testcase name="categorySearchShowsPublishedPortalAndHonestEmptyState" classname="in.jansetu.app.SearchScreenTest" time="6.618" />
+  <testcase name="searchDisplaysVerifiedPortal" classname="in.jansetu.app.SearchScreenTest" time="6.841" />
+  <testcase name="newInformationOnlyServiceShowsUnknownsSourcesAndNoApply" classname="in.jansetu.app.ServiceFlowTest" time="4.298" />
+  <testcase name="citizenSearchOpensARealServiceThroughAppNavigation" classname="in.jansetu.app.ServiceFlowTest" time="8.729" />
+  <testcase name="newConfirmedServiceOpensReviewedLoginEntryAndOffersLocalTracking" classname="in.jansetu.app.ServiceFlowTest" time="4.224" />
+  <testcase name="serviceOfficialLinksUseExactEvidenceAndApplicationUrls" classname="in.jansetu.app.ServiceFlowTest" time="4.232" />
+  <testcase name="actualSignedInstallAndBundleRestoreDoNotModifySavedApplicationHistory" classname="in.jansetu.app.TrackerCatalogBoundaryTest" time="11.669" />
+  <testcase name="manualCreateEditHistoryMaskingValidationAndConfirmedDeleteWork" classname="in.jansetu.app.TrackerFlowTest" time="15.118" />
+  <testcase name="editorDraftSurvivesSavedStateRestorationWithoutPersisting" classname="in.jansetu.app.TrackerFlowTest" time="19.715" />
+  <testcase name="informationAndAssistedServicePagesNeverOfferApplyOrTrackerShortcut" classname="in.jansetu.app.TrackerFlowTest" time="4.583" />
+  <testcase name="serviceSearchPrefillsOnlyConfirmedFactsAndDoesNotInferSubmission" classname="in.jansetu.app.TrackerFlowTest" time="10.317" />
+  <testcase name="removeAllRequiresConfirmationAndDoesNotChangePreferences" classname="in.jansetu.app.TrackerFlowTest" time="3.512" />
+  <testcase name="actualAlarmIdentityReplacementCancellationAndPrivateNotificationPosting" classname="in.jansetu.app.TrackerReminderTest" time="0.297" />
+  <testcase name="reminderDeliveryGuardSurvivesReopenAndRechecksDeletedOrChangedDates" classname="in.jansetu.app.TrackerRepositoryTest" time="0.344" />
+  <testcase name="progressDatesUseCurrentTimezoneAcrossMidnightWithoutRecreatingRepository" classname="in.jansetu.app.TrackerRepositoryTest" time="0.108" />
+  <testcase name="authenticatedEncryptionRejectsPayloadSwapsAndContainsNoPlaintext" classname="in.jansetu.app.TrackerRepositoryTest" time="0.085" />
+  <testcase name="crudReopenAndEditsPreserveHistoryAndUnrelatedRecords" classname="in.jansetu.app.TrackerRepositoryTest" time="0.234" />
+  <testcase name="multipleApplicationsForOneServiceAndManualEntriesAreIndependent" classname="in.jansetu.app.TrackerRepositoryTest" time="1.363" />
+  <testcase name="corruptAndInvalidPayloadsArePreservedAndDoNotOverwriteGoodData" classname="in.jansetu.app.TrackerRepositoryTest" time="0.185" />
+  <testcase name="wholeDatabaseCorruptionDoesNotTriggerDestructiveRecovery" classname="in.jansetu.app.TrackerRepositoryTest" time="0.113" />
+  <testcase name="additiveVersionOneMigrationKeepsEncryptedRecordAndHistory" classname="in.jansetu.app.TrackerRepositoryTest" time="0.14" />
+</testsuite>

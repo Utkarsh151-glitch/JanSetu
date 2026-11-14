@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-9783d3afd73ca927",
+ "url": "https://www.doppw.gov.in/",
+ "checkedAt": "2026-10-17T19:17:42+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.doppw.gov.in/\nCall log:\n  - navigating to \"https://www.doppw.gov.in/\", waiting unti",
+ "attempt": 1
+}

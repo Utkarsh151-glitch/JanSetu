@@ -1,0 +1,8 @@
+{
+ "websiteId": "income-tax-efiling",
+ "url": "https://www.incometax.gov.in/iec/foportal/",
+ "checkedAt": "2026-10-17T10:52:50+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.incometax.gov.in/iec/foportal/\nCall log:\n  - navigating to \"https://www.incometax.gov.i"
+}

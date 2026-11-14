@@ -1,0 +1,72 @@
+{
+ "websiteId": "igod-5e885f0e333d5206",
+ "url": "https://edistrict.odisha.gov.in/directApply.do?serviceId=3077",
+ "checkedAt": "2026-10-17T10:49:49+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "httpStatus": 200,
+ "finalUrl": "https://edistrict.odisha.gov.in/directApply.do?serviceId=3077",
+ "title": "Service Plus",
+ "lang": null,
+ "metaDescription": null,
+ "text": "HOME\nLOGIN TO APPLY FOR\nGrievance Redressal on online services of EIC Electricity\n  Get OTP\nI agree to abide by the Terms of Use outlined by ServicePlus.\nLogin\nor\n\nRegister here\n\nForgot Password ?\n\nContact us | Privacy Policy | Web Policy | Cancellation & Refund Policy | DPDP Policy | Feedback\nContents on this website is owned, updated and managed by the eService Delivery and Transformation Division (eSDT) ,\nGovernment of India. Site is technically designed, hosted and maintained by\nNational Informatics Centre (NIC) Powered By- SERVICEPLUS\nLast reviewed and updated on June 17, 2026 | © All Rights Reserved @2026",
+ "textSha256": "856ffcfca902ce346fb8dba6daf509a69c0919c0b1fe107723761956b527a648",
+ "links": [
+  {
+   "text": "HOME",
+   "href": "https://edistrict.odisha.gov.in/"
+  },
+  {
+   "text": "Register here",
+   "href": "https://edistrict.odisha.gov.in/loginWindow.do#"
+  },
+  {
+   "text": "Forgot Password ?",
+   "href": "https://edistrict.odisha.gov.in/loginWindow.do#"
+  },
+  {
+   "text": "Contact us",
+   "href": "https://edistrict.odisha.gov.in/loginWindow.do#"
+  },
+  {
+   "text": "Privacy Policy",
+   "href": "https://edistrict.odisha.gov.in/loginWindow.do#"
+  },
+  {
+   "text": "Web Policy",
+   "href": "https://edistrict.odisha.gov.in/loginWindow.do#"
+  },
+  {
+   "text": "Cancellation & Refund Policy",
+   "href": "https://edistrict.odisha.gov.in/loginWindow.do#"
+  },
+  {
+   "text": "DPDP Policy",
+   "href": "https://edistrict.odisha.gov.in/loginWindow.do#"
+  },
+  {
+   "text": "Feedback",
+   "href": "https://edistrict.odisha.gov.in/loginWindow.do#"
+  },
+  {
+   "text": "eService Delivery and Transformation Division (eSDT)",
+   "href": "https://serviceonline.gov.in/"
+  },
+  {
+   "text": "National Informatics Centre (NIC)",
+   "href": "https://www.nic.gov.in/"
+  },
+  {
+   "text": "SERVICEPLUS",
+   "href": "https://serviceonline.gov.in/"
+  },
+  {
+   "text": "support[dot]serviceplus[at]gmail[dot]com",
+   "href": "https://edistrict.odisha.gov.in/loginWindow.do#"
+  },
+  {
+   "text": "https://serviceonline.gov.in",
+   "href": "https://serviceonline.gov.in/"
+  }
+ ]
+}

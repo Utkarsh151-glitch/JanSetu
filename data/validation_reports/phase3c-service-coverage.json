@@ -1,0 +1,372 @@
+{
+  "version": 13,
+  "websites": 7347,
+  "services": 52,
+  "organizations": 15,
+  "newInvestigated": 54,
+  "newDiscovered": 54,
+  "newSourceReviewed": 27,
+  "newPublished": 27,
+  "pendingServices": 31,
+  "existingCasesRechecked": 4,
+  "existingCasesStillPending": 4,
+  "pendingWebsites": 3823,
+  "publishedOrganizations": 14,
+  "unknownEligibility": 37,
+  "unknownDocuments": 23,
+  "unknownGroups": 42,
+  "levels": {
+    "Central": 20,
+    "State": 32
+  },
+  "modes": {
+    "online": 24,
+    "assisted": 9,
+    "information": 19
+  },
+  "categories": {
+    "education": 3,
+    "documents": 35,
+    "welfare": 3,
+    "jobs": 3,
+    "grievances": 2,
+    "transparency": 2,
+    "business": 2,
+    "taxation": 2
+  },
+  "documentedGroups": {
+    "Other Backward Classes (OBC)": 3,
+    "Scheduled Castes (SC)": 2,
+    "Scheduled Castes / Scheduled Tribes (SC/ST)": 1,
+    "Scheduled Tribes (ST)": 1,
+    "Economically Weaker Sections (EWS)": 1,
+    "Socially and Educationally Backward Classes (SEBC)": 1,
+    "Individual taxpayers": 1
+  },
+  "states": [
+    {
+      "state": "Andaman And Nicobar Islands",
+      "type": "UT",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Andhra Pradesh",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Assam",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Bihar",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Chandigarh",
+      "type": "UT",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Chhattisgarh",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "The Dadra And Nagar Haveli And Daman And Diu",
+      "type": "UT",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Delhi",
+      "type": "UT",
+      "investigated": 14,
+      "discovered": 14,
+      "sourceReviewed": 5,
+      "published": 5,
+      "lastReviewed": "2026-10-16"
+    },
+    {
+      "state": "Goa",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Gujarat",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Haryana",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Himachal Pradesh",
+      "type": "State",
+      "investigated": 7,
+      "discovered": 7,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "type": "UT",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Jharkhand",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Karnataka",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Kerala",
+      "type": "State",
+      "investigated": 15,
+      "discovered": 15,
+      "sourceReviewed": 8,
+      "published": 8,
+      "lastReviewed": "2026-10-16"
+    },
+    {
+      "state": "Ladakh",
+      "type": "UT",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Lakshadweep",
+      "type": "UT",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Madhya Pradesh",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Maharashtra",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Manipur",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Meghalaya",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Mizoram",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Nagaland",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Odisha",
+      "type": "State",
+      "investigated": 11,
+      "discovered": 11,
+      "sourceReviewed": 8,
+      "published": 8,
+      "lastReviewed": "2026-10-16"
+    },
+    {
+      "state": "Puducherry",
+      "type": "UT",
+      "investigated": 2,
+      "discovered": 2,
+      "sourceReviewed": 2,
+      "published": 2,
+      "lastReviewed": "2026-10-16"
+    },
+    {
+      "state": "Punjab",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Rajasthan",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Sikkim",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Tamil Nadu",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 9,
+      "lastReviewed": "2026-10-16"
+    },
+    {
+      "state": "Telangana",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Tripura",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Uttar Pradesh",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "Uttarakhand",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    },
+    {
+      "state": "West Bengal",
+      "type": "State",
+      "investigated": 0,
+      "discovered": 0,
+      "sourceReviewed": 0,
+      "published": 0,
+      "lastReviewed": null
+    }
+  ]
+}

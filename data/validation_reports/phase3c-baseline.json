@@ -1,0 +1,3475 @@
+{
+  "sha256": {
+    "app/src/main/assets/catalog.json": "af25cfc31eed917c3d44dadf3d6c2db781e406bba54fb8aa549bc43bab93cd1a",
+    "data/review_queue.json": "5f5a69526379ca3d26f077b1c4ffe2d1f64b1bffc1d8668bd57ec5f489972c60",
+    "data/services/catalog.json": "634aeed4070707a254fa80c7f6e7f3a6d54c1ce092bc37088eb50f828ef21311",
+    "data/services/review_queue.json": "42a6d233fa31207e838233999a74f142825617b6be23a6f173849f4a96320b1f"
+  },
+  "services": {
+    "version": 11,
+    "services": [
+      {
+        "id": "aicte-pragati-degree",
+        "websiteId": "national-scholarship-portal",
+        "organizationId": "org-7077af4eaac38e33",
+        "title": "AICTE Pragati Scholarship for Girl Students (Degree)",
+        "description": "Scholarship support for eligible technical degree students.",
+        "categories": [
+          "education"
+        ],
+        "department": "All India Council for Technical Education",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "I need a scholarship for engineering",
+          "apply for pragati scholarship"
+        ],
+        "synonyms": [
+          "pragati",
+          "engineering scholarship",
+          "technical education",
+          "student financial assistance"
+        ],
+        "informationUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf",
+        "sourceUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf",
+        "applicationUrl": "https://scholarships.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "pragati",
+            "url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf",
+            "publisher": "AICTE",
+            "checkedOn": "2026-10-16",
+            "summary": "Degree scholarship conditions and application procedure.",
+            "locator": "Sections 2, 6, 10 and renewals; July 2020 guidelines linked by current NSP",
+            "contentSha256": "1e493333bc25f9adf9192624a0f92104845f5c5e3b3a00e1ec52af5302a4b10f"
+          },
+          {
+            "id": "nsp",
+            "url": "https://scholarships.gov.in/All-Scholarships",
+            "publisher": "National Scholarship Portal",
+            "checkedOn": "2026-10-16",
+            "summary": "The degree scheme is listed on the current NSP page.",
+            "locator": "Current AICTE scheme list",
+            "contentSha256": "6168af5cf69ad11807dcfdbe8af6a490743e720eb7752daef4250633e32a626f"
+          }
+        ],
+        "linkEvidenceIds": [
+          "pragati",
+          "nsp"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+        "eligibility": {
+          "text": "Selected conditions: girls entering year one, or year two through lateral entry, of an AICTE-approved degree; family income up to INR 8 lakh; at most two girls per family. Read the guidelines for exclusions.",
+          "evidenceIds": [
+            "pragati"
+          ]
+        },
+        "documents": [
+          {
+            "text": "State/UT income certificate.",
+            "evidenceIds": [
+              "pragati"
+            ]
+          }
+        ],
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Use the NSP student application process for this scheme; institution and State/UT scrutiny follow.",
+            "evidenceIds": [
+              "pragati"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "aicte-saksham-degree",
+        "websiteId": "national-scholarship-portal",
+        "organizationId": "org-7077af4eaac38e33",
+        "title": "AICTE Saksham Scholarship for Specially-Abled Students (Degree)",
+        "description": "Scholarship support for eligible technical degree students.",
+        "categories": [
+          "education"
+        ],
+        "department": "All India Council for Technical Education",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "I need a scholarship for engineering",
+          "apply for saksham scholarship"
+        ],
+        "synonyms": [
+          "saksham",
+          "engineering scholarship",
+          "technical education",
+          "student financial assistance"
+        ],
+        "informationUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
+        "sourceUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
+        "applicationUrl": "https://scholarships.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "saksham",
+            "url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
+            "publisher": "AICTE",
+            "checkedOn": "2026-10-16",
+            "summary": "Degree scholarship conditions and application procedure.",
+            "locator": "Sections 2, 6, 7 and 8; July 2020 guidelines linked by current NSP",
+            "contentSha256": "06ebed9e50a47ae76cba985ddde78cd65f19f2193b0e4c9c164fff529580474c"
+          },
+          {
+            "id": "nsp",
+            "url": "https://scholarships.gov.in/All-Scholarships",
+            "publisher": "National Scholarship Portal",
+            "checkedOn": "2026-10-16",
+            "summary": "The degree scheme is listed on the current NSP page.",
+            "locator": "Current AICTE scheme list",
+            "contentSha256": "6168af5cf69ad11807dcfdbe8af6a490743e720eb7752daef4250633e32a626f"
+          }
+        ],
+        "linkEvidenceIds": [
+          "saksham",
+          "nsp"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+        "eligibility": {
+          "text": "Selected conditions: AICTE-approved degree admission in year one or lateral entry in year two; disability at least 40%; family income up to INR 8 lakh. Other conditions apply.",
+          "evidenceIds": [
+            "saksham"
+          ]
+        },
+        "documents": [
+          {
+            "text": "State/UT income certificate.",
+            "evidenceIds": [
+              "saksham"
+            ]
+          }
+        ],
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Use the NSP student application process for this scheme; institution and State/UT scrutiny follow.",
+            "evidenceIds": [
+              "saksham"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "aicte-swanath-degree",
+        "websiteId": "national-scholarship-portal",
+        "organizationId": "org-7077af4eaac38e33",
+        "title": "AICTE Swanath Scholarship (Technical Degree)",
+        "description": "Scholarship support for eligible technical degree students.",
+        "categories": [
+          "education"
+        ],
+        "department": "All India Council for Technical Education",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "I need a scholarship for engineering",
+          "apply for swanath scholarship"
+        ],
+        "synonyms": [
+          "swanath",
+          "engineering scholarship",
+          "technical education",
+          "student financial assistance"
+        ],
+        "informationUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
+        "sourceUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
+        "applicationUrl": "https://scholarships.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "swanath",
+            "url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
+            "publisher": "AICTE",
+            "checkedOn": "2026-10-16",
+            "summary": "Degree scholarship conditions and application procedure.",
+            "locator": "May 2025 guidelines, sections 2, 7 and 10",
+            "contentSha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04"
+          },
+          {
+            "id": "nsp",
+            "url": "https://scholarships.gov.in/All-Scholarships",
+            "publisher": "National Scholarship Portal",
+            "checkedOn": "2026-10-16",
+            "summary": "The degree scheme is listed on the current NSP page.",
+            "locator": "Current AICTE scheme list",
+            "contentSha256": "6168af5cf69ad11807dcfdbe8af6a490743e720eb7752daef4250633e32a626f"
+          }
+        ],
+        "linkEvidenceIds": [
+          "swanath",
+          "nsp"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+        "eligibility": {
+          "text": "Qualifying family circumstances include orphanhood, parental death due to COVID-19, a parent martyred in specified forces, or the specified critical illness/accident category. Income up to INR 8 lakh, regular AICTE-approved study and no other government/AICTE scholarship are also required.",
+          "evidenceIds": [
+            "swanath"
+          ]
+        },
+        "documents": [
+          {
+            "text": "Institution bonafide certificate and applicable income evidence; see category-specific checklist.",
+            "evidenceIds": [
+              "swanath"
+            ]
+          }
+        ],
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Use the NSP student application process for this scheme; institution and State/UT scrutiny follow.",
+            "evidenceIds": [
+              "swanath"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "tn-community-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Community Certificate (Tamil Nadu)",
+        "description": "Community certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "How can I get a caste certificate"
+        ],
+        "synonyms": [
+          "community certificate",
+          "caste certificate",
+          "जाति प्रमाणपत्र"
+        ],
+        "informationUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "sourceUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn-community",
+            "url": "https://serviceonline.gov.in/configuretn/login.do",
+            "publisher": "Tamil Nadu e-Governance Agency / ServicePlus",
+            "checkedOn": "2026-10-16",
+            "summary": "community certificate service.",
+            "locator": "Description, access steps and service-specific documents",
+            "contentSha256": "b13c8222ab52490c67c4d5d700f4446f108ad2e6d0ea3edb527f0ca55ed01e51"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn-community"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": [
+          {
+            "text": "Applicant photo, address evidence and self-declaration.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "conditionalDocuments": [
+          {
+            "text": "A parent or sibling community certificate, where applicable.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "procedure": [
+          {
+            "text": "Register/login on the official service platform and select the relevant service.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "tn-nativity-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Nativity Certificate (Tamil Nadu)",
+        "description": "Nativity certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "apply for nativity certificate"
+        ],
+        "synonyms": [
+          "nativity certificate",
+          "residence origin"
+        ],
+        "informationUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "sourceUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn-community",
+            "url": "https://serviceonline.gov.in/configuretn/login.do",
+            "publisher": "Tamil Nadu e-Governance Agency / ServicePlus",
+            "checkedOn": "2026-10-16",
+            "summary": "nativity certificate service.",
+            "locator": "Description, access steps and service-specific documents",
+            "contentSha256": "b13c8222ab52490c67c4d5d700f4446f108ad2e6d0ea3edb527f0ca55ed01e51"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn-community"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": [
+          {
+            "text": "Applicant photo, address evidence and self-declaration.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "conditionalDocuments": [
+          {
+            "text": "Birth certificate or school/employment/residence-history proof, as applicable.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "procedure": [
+          {
+            "text": "Register/login on the official service platform and select the relevant service.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "tn-income-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Income Certificate (Tamil Nadu)",
+        "description": "Income certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "apply for income certificate"
+        ],
+        "synonyms": [
+          "income certificate",
+          "earnings proof"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "income certificate service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "tn-birth-certificate-print",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Printing of Birth Certificate (Tamil Nadu)",
+        "description": "Print an existing birth record.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Directorate of Public Health, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "How do I obtain a birth certificate"
+        ],
+        "synonyms": [
+          "birth certificate",
+          "birth record copy",
+          "जन्म प्रमाणपत्र"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "birth certificate service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "tn-old-age-pension",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Indira Gandhi National Old Age Pension Scheme — Tamil Nadu access",
+        "description": "Old-age pension application access.",
+        "categories": [
+          "welfare"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "I want to apply for a pension"
+        ],
+        "synonyms": [
+          "pension",
+          "old age pension",
+          "senior citizen support"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "pension service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "tn-widow-pension",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Destitute Widow Pension Scheme (Tamil Nadu)",
+        "description": "Widow pension application access.",
+        "categories": [
+          "welfare"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "I want to apply for a pension"
+        ],
+        "synonyms": [
+          "widow pension",
+          "pension benefits"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "widow pension service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "tn-disability-pension",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Differently Abled Pension Scheme (Tamil Nadu)",
+        "description": "Disability pension application access.",
+        "categories": [
+          "welfare"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "I want to apply for a pension"
+        ],
+        "synonyms": [
+          "disability pension",
+          "differently abled benefits"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "disability pension service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "tn-unemployment-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Unemployment Certificate (Tamil Nadu)",
+        "description": "Unemployment certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "apply for unemployment certificate"
+        ],
+        "synonyms": [
+          "unemployment certificate",
+          "jobless certificate"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "unemployment certificate service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "tn-legal-heir-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Legal Heir Certificate (Tamil Nadu)",
+        "description": "Legal heir certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "apply for legal heir certificate"
+        ],
+        "synonyms": [
+          "legal heir certificate",
+          "succession proof"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "legal heir certificate service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "ncs-government-job-search",
+        "websiteId": "national-career-service",
+        "organizationId": "org-7ed359018f05059a",
+        "title": "Search government-sector jobs on NCS",
+        "description": "Find published government-sector job listings; this is not a vacancy or selection guarantee.",
+        "categories": [
+          "jobs"
+        ],
+        "department": "Directorate General of Employment, Ministry of Labour & Employment",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "Find government jobs",
+          "search govt jobs"
+        ],
+        "synonyms": [
+          "government jobs",
+          "naukri",
+          "recruitment vacancies"
+        ],
+        "informationUrl": "https://ncs.gov.in/faq",
+        "sourceUrl": "https://ncs.gov.in/faq",
+        "applicationUrl": "https://ncs.gov.in/job-listing?isGovernmentJob=true",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "ncs",
+            "url": "https://ncs.gov.in/faq",
+            "publisher": "Directorate General of Employment",
+            "checkedOn": "2026-10-16",
+            "summary": "Government-jobs search is linked in jobseeker navigation.",
+            "locator": "Jobseeker navigation and general FAQ",
+            "contentSha256": "0cc583a2e8ad712ff1d9159d8f9a7663bda99efdb9e443d30301ab6662289bd8"
+          }
+        ],
+        "linkEvidenceIds": [
+          "ncs"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Open government-sector search and inspect the employer’s vacancy notice.",
+            "evidenceIds": [
+              "ncs"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "ncs-jobseeker-registration",
+        "websiteId": "national-career-service",
+        "organizationId": "org-7ed359018f05059a",
+        "title": "NCS Jobseeker Registration",
+        "description": "Create a jobseeker profile on the official employment platform.",
+        "categories": [
+          "jobs"
+        ],
+        "department": "Directorate General of Employment, Ministry of Labour & Employment",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "register as a jobseeker"
+        ],
+        "synonyms": [
+          "employment registration",
+          "ncs account"
+        ],
+        "informationUrl": "https://ncs.gov.in/assets/pdf/Jobseeker%20registration%20flowchart%201.pdf",
+        "sourceUrl": "https://ncs.gov.in/assets/pdf/Jobseeker%20registration%20flowchart%201.pdf",
+        "applicationUrl": "https://ncs.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "ncs-register",
+            "url": "https://ncs.gov.in/assets/pdf/Jobseeker%20registration%20flowchart%201.pdf",
+            "publisher": "Directorate General of Employment",
+            "checkedOn": "2026-10-16",
+            "summary": "Official jobseeker registration flowchart.",
+            "locator": "One-page jobseeker registration flowchart"
+          },
+          {
+            "id": "ncs",
+            "url": "https://ncs.gov.in/faq",
+            "publisher": "Directorate General of Employment",
+            "checkedOn": "2026-10-16",
+            "summary": "Jobseeker registration is provided.",
+            "locator": "Jobseeker navigation and general FAQ",
+            "contentSha256": "0cc583a2e8ad712ff1d9159d8f9a7663bda99efdb9e443d30301ab6662289bd8"
+          }
+        ],
+        "linkEvidenceIds": [
+          "ncs-register",
+          "ncs"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Choose jobseeker registration; follow the official flowchart.",
+            "evidenceIds": [
+              "ncs-register"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "ncs-career-counselling",
+        "websiteId": "national-career-service",
+        "organizationId": "org-7ed359018f05059a",
+        "title": "Find a Career Counsellor through NCS",
+        "description": "Explore official career-counselling access.",
+        "categories": [
+          "jobs"
+        ],
+        "department": "Directorate General of Employment, Ministry of Labour & Employment",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "find career counselling"
+        ],
+        "synonyms": [
+          "career advice",
+          "counsellor"
+        ],
+        "informationUrl": "https://ncs.gov.in/faq",
+        "sourceUrl": "https://ncs.gov.in/faq",
+        "applicationUrl": "https://ncs.gov.in/career-counsellors",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "ncs",
+            "url": "https://ncs.gov.in/faq",
+            "publisher": "Directorate General of Employment",
+            "checkedOn": "2026-10-16",
+            "summary": "Counsellor search is linked under jobseeker support.",
+            "locator": "Jobseeker navigation and general FAQ",
+            "contentSha256": "0cc583a2e8ad712ff1d9159d8f9a7663bda99efdb9e443d30301ab6662289bd8"
+          }
+        ],
+        "linkEvidenceIds": [
+          "ncs"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "aadhaar-download",
+        "websiteId": "uidai",
+        "organizationId": "org-e999f31ac201d555",
+        "title": "Download Aadhaar",
+        "description": "Retrieve an electronic Aadhaar copy.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Unique Identification Authority of India",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "download aadhaar",
+          "e aadhaar"
+        ],
+        "synonyms": [
+          "download aadhaar",
+          "e aadhaar"
+        ],
+        "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "applicationUrl": null,
+        "applicationMode": "information",
+        "evidence": [
+          {
+            "id": "uidai",
+            "url": "https://www.uidai.gov.in/en/my-aadhaar",
+            "publisher": "UIDAI",
+            "checkedOn": "2026-10-16",
+            "summary": "download aadhaar is listed.",
+            "locator": "Named My Aadhaar service card; access requires official authentication",
+            "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+          }
+        ],
+        "linkEvidenceIds": [
+          "uidai"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "eligibility": {
+          "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+          "evidenceIds": [
+            "uidai"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "aadhaar-address-update",
+        "websiteId": "uidai",
+        "organizationId": "org-e999f31ac201d555",
+        "title": "Aadhaar Address Update",
+        "description": "Request an address change.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Unique Identification Authority of India",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "aadhaar address update",
+          "change address"
+        ],
+        "synonyms": [
+          "aadhaar address update",
+          "change address"
+        ],
+        "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "applicationUrl": null,
+        "applicationMode": "information",
+        "evidence": [
+          {
+            "id": "uidai",
+            "url": "https://www.uidai.gov.in/en/my-aadhaar",
+            "publisher": "UIDAI",
+            "checkedOn": "2026-10-16",
+            "summary": "aadhaar address update is listed.",
+            "locator": "Named My Aadhaar service card; access requires official authentication",
+            "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+          }
+        ],
+        "linkEvidenceIds": [
+          "uidai"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "eligibility": {
+          "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+          "evidenceIds": [
+            "uidai"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "aadhaar-pvc-card",
+        "websiteId": "uidai",
+        "organizationId": "org-e999f31ac201d555",
+        "title": "Order Aadhaar PVC Card",
+        "description": "Request a durable Aadhaar card.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Unique Identification Authority of India",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "aadhaar pvc card",
+          "order aadhaar"
+        ],
+        "synonyms": [
+          "aadhaar pvc card",
+          "order aadhaar"
+        ],
+        "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "applicationUrl": null,
+        "applicationMode": "information",
+        "evidence": [
+          {
+            "id": "uidai",
+            "url": "https://www.uidai.gov.in/en/my-aadhaar",
+            "publisher": "UIDAI",
+            "checkedOn": "2026-10-16",
+            "summary": "aadhaar pvc card is listed.",
+            "locator": "Named My Aadhaar service card; access requires official authentication",
+            "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+          }
+        ],
+        "linkEvidenceIds": [
+          "uidai"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "eligibility": {
+          "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+          "evidenceIds": [
+            "uidai"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "aadhaar-biometric-lock",
+        "websiteId": "uidai",
+        "organizationId": "org-e999f31ac201d555",
+        "title": "Lock or Unlock Aadhaar Biometrics",
+        "description": "Manage biometric authentication locking.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Unique Identification Authority of India",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "aadhaar biometric lock",
+          "unlock fingerprint"
+        ],
+        "synonyms": [
+          "aadhaar biometric lock",
+          "unlock fingerprint"
+        ],
+        "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "applicationUrl": null,
+        "applicationMode": "information",
+        "evidence": [
+          {
+            "id": "uidai",
+            "url": "https://www.uidai.gov.in/en/my-aadhaar",
+            "publisher": "UIDAI",
+            "checkedOn": "2026-10-16",
+            "summary": "aadhaar biometric lock is listed.",
+            "locator": "Named My Aadhaar service card; access requires official authentication",
+            "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+          }
+        ],
+        "linkEvidenceIds": [
+          "uidai"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "eligibility": {
+          "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+          "evidenceIds": [
+            "uidai"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "cpgrams-public-grievance",
+        "websiteId": "cpgrams",
+        "organizationId": "org-afff511c4bead63d",
+        "title": "Lodge a Public Grievance through CPGRAMS",
+        "description": "Submit a grievance to the relevant public authority.",
+        "categories": [
+          "grievances"
+        ],
+        "department": "Department of Administrative Reforms and Public Grievances",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "file a complaint",
+          "lodge grievance"
+        ],
+        "synonyms": [
+          "file a complaint",
+          "lodge grievance"
+        ],
+        "informationUrl": "https://pgportal.gov.in/Home/Faq",
+        "sourceUrl": "https://pgportal.gov.in/Home/Faq",
+        "applicationUrl": "https://pgportal.gov.in/Home/LodgeGrievance",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "cpgrams",
+            "url": "https://pgportal.gov.in/Home/Faq",
+            "publisher": "DARPG",
+            "checkedOn": "2026-10-16",
+            "summary": "Grievance submission, exclusions and appeal route.",
+            "locator": "FAQ 3, 10 and 15",
+            "contentSha256": "aae350bbde0fda78465e546099e7a2f9bf1cc4bd16941abe7c2faf089197e0da"
+          }
+        ],
+        "linkEvidenceIds": [
+          "cpgrams"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": {
+          "text": "Excluded matters include RTI requests, court/subjudice matters, and personal/family disputes.",
+          "evidenceIds": [
+            "cpgrams"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "cpgrams-grievance-appeal",
+        "websiteId": "cpgrams",
+        "organizationId": "org-afff511c4bead63d",
+        "title": "Appeal a Dissatisfied CPGRAMS Grievance",
+        "description": "Use the appeal process for eligible disposed central-government grievances.",
+        "categories": [
+          "grievances"
+        ],
+        "department": "Department of Administrative Reforms and Public Grievances",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "appeal grievance",
+          "unsatisfied complaint"
+        ],
+        "synonyms": [
+          "appeal grievance",
+          "unsatisfied complaint"
+        ],
+        "informationUrl": "https://pgportal.gov.in/Home/Faq",
+        "sourceUrl": "https://pgportal.gov.in/Home/Faq",
+        "applicationUrl": "https://pgportal.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "cpgrams",
+            "url": "https://pgportal.gov.in/Home/Faq",
+            "publisher": "DARPG",
+            "checkedOn": "2026-10-16",
+            "summary": "Grievance submission, exclusions and appeal route.",
+            "locator": "FAQ 3, 10 and 15",
+            "contentSha256": "aae350bbde0fda78465e546099e7a2f9bf1cc4bd16941abe7c2faf089197e0da"
+          }
+        ],
+        "linkEvidenceIds": [
+          "cpgrams"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": {
+          "text": "The central grievance appeal provision follows mandatory feedback on disposal; see the official FAQ.",
+          "evidenceIds": [
+            "cpgrams"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "rti-central-request",
+        "websiteId": "rti-online",
+        "organizationId": "org-7f72318d5949adac",
+        "title": "Submit an RTI Request to a Central Public Authority",
+        "description": "Request government information.",
+        "categories": [
+          "transparency"
+        ],
+        "department": "Department of Personnel and Training",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "right to information",
+          "rti request"
+        ],
+        "synonyms": [
+          "right to information",
+          "rti request"
+        ],
+        "informationUrl": "https://rtionline.gov.in/guidelines.php?request",
+        "sourceUrl": "https://rtionline.gov.in/guidelines.php?request",
+        "applicationUrl": "https://rtionline.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "rti",
+            "url": "https://rtionline.gov.in/guidelines.php?request",
+            "publisher": "Department of Personnel and Training",
+            "checkedOn": "2026-10-16",
+            "summary": "Online central RTI request and first-appeal instructions.",
+            "locator": "Guidelines 1–2, 6, 12, 16–18",
+            "contentSha256": "09c1522a2577441cdc2fd9ec1734271453e7f0f7fcf4b363fe91d2a3d2326888"
+          }
+        ],
+        "linkEvidenceIds": [
+          "rti"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": {
+          "text": "Indian citizens requesting information from covered Government of India ministries/departments.",
+          "evidenceIds": [
+            "rti"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": [
+          {
+            "text": "BPL fee exemption requires the appropriate government-issued certificate. Do not upload Aadhaar, PAN or other identity documents.",
+            "evidenceIds": [
+              "rti"
+            ]
+          }
+        ],
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "rti-first-appeal",
+        "websiteId": "rti-online",
+        "organizationId": "org-7f72318d5949adac",
+        "title": "Submit an RTI First Appeal",
+        "description": "Appeal an online RTI request.",
+        "categories": [
+          "transparency"
+        ],
+        "department": "Department of Personnel and Training",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "rti first appeal",
+          "information appeal"
+        ],
+        "synonyms": [
+          "rti first appeal",
+          "information appeal"
+        ],
+        "informationUrl": "https://rtionline.gov.in/guidelines.php?request",
+        "sourceUrl": "https://rtionline.gov.in/guidelines.php?request",
+        "applicationUrl": "https://rtionline.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "rti",
+            "url": "https://rtionline.gov.in/guidelines.php?request",
+            "publisher": "Department of Personnel and Training",
+            "checkedOn": "2026-10-16",
+            "summary": "Online central RTI request and first-appeal instructions.",
+            "locator": "Guidelines 1–2, 6, 12, 16–18",
+            "contentSha256": "09c1522a2577441cdc2fd9ec1734271453e7f0f7fcf4b363fe91d2a3d2326888"
+          }
+        ],
+        "linkEvidenceIds": [
+          "rti"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": {
+          "text": "Indian citizens requesting information from covered Government of India ministries/departments.",
+          "evidenceIds": [
+            "rti"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Choose Submit First Appeal and reference the original registration number.",
+            "evidenceIds": [
+              "rti"
+            ]
+          }
+        ],
+        "fees": {
+          "text": "No fee for the first appeal.",
+          "evidenceIds": [
+            "rti"
+          ]
+        },
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "udyam-new-registration",
+        "websiteId": "udyam-registration",
+        "organizationId": "org-caf4f9732b6768f4",
+        "title": "Udyam Registration for a New MSME",
+        "description": "Register an eligible micro, small or medium enterprise.",
+        "categories": [
+          "business"
+        ],
+        "department": "Ministry of Micro, Small and Medium Enterprises",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "register my small business",
+          "msme registration"
+        ],
+        "synonyms": [
+          "udyam",
+          "business registration"
+        ],
+        "informationUrl": "https://udyamregistration.gov.in/",
+        "sourceUrl": "https://udyamregistration.gov.in/",
+        "applicationUrl": "https://udyamregistration.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "udyam",
+            "url": "https://udyamregistration.gov.in/",
+            "publisher": "Ministry of MSME",
+            "checkedOn": "2026-10-16",
+            "summary": "Free paperless registration and official new-registration route.",
+            "locator": "New registration, Must Follow and Must Know sections"
+          }
+        ],
+        "linkEvidenceIds": [
+          "udyam"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": null,
+        "documents": [
+          {
+            "text": "Registration requires no document uploads; Aadhaar and applicable PAN/GST details are handled by the official portal.",
+            "evidenceIds": [
+              "udyam"
+            ]
+          }
+        ],
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": {
+          "text": "Registration is free.",
+          "evidenceIds": [
+            "udyam"
+          ]
+        },
+        "deadline": null,
+        "processing": null
+      },
+      {
+        "id": "pmegp-enterprise-support",
+        "websiteId": "igod-1d591544b1c2e25d",
+        "organizationId": "org-5763d05f09e5a8be",
+        "title": "Prime Minister’s Employment Generation Programme (PMEGP)",
+        "description": "Bank-linked margin-money subsidy for eligible new non-farm micro enterprises.",
+        "categories": [
+          "business"
+        ],
+        "department": "Ministry of MSME / Khadi and Village Industries Commission",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "I need a subsidy for my small business",
+          "financial support for new micro enterprise"
+        ],
+        "synonyms": [
+          "pmegp",
+          "business subsidy",
+          "small business subsidy"
+        ],
+        "informationUrl": "https://www.pib.gov.in/newsite/archiveContent.aspx?lang=2&reg=48&relid=286631",
+        "sourceUrl": "https://www.pib.gov.in/newsite/archiveContent.aspx?lang=2&reg=48&relid=286631",
+        "applicationUrl": null,
+        "applicationMode": "information",
+        "evidence": [
+          {
+            "id": "pmegp",
+            "url": "https://www.pib.gov.in/newsite/archiveContent.aspx?lang=2&reg=48&relid=286631",
+            "publisher": "Press Information Bureau / Ministry of MSME",
+            "checkedOn": "2026-10-16",
+            "summary": "Official release confirms the enterprise-support programme.",
+            "locator": "23 March 2026 official PMEGP release"
+          }
+        ],
+        "linkEvidenceIds": [
+          "pmegp"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "verified",
+        "publicationStatus": "published",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Information-only record. A candidate application host failed TLS verification on this machine, so no application button is published. Current eligibility, documents, funding window and route require further review.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      }
+    ],
+    "organizations": [
+      {
+        "id": "org-7077af4eaac38e33",
+        "name": "National Scholarship Portal",
+        "websiteIds": [
+          "national-scholarship-portal"
+        ]
+      },
+      {
+        "id": "org-05a96313c65f060b",
+        "name": "Tamil Nadu eSevai Portal, Tamil Nadu",
+        "websiteIds": [
+          "igod-2715637a8f399700"
+        ]
+      },
+      {
+        "id": "org-7ed359018f05059a",
+        "name": "Ministry of Labour & Employment",
+        "websiteIds": [
+          "national-career-service"
+        ]
+      },
+      {
+        "id": "org-e999f31ac201d555",
+        "name": "Unique Identification Authority of India",
+        "websiteIds": [
+          "uidai"
+        ]
+      },
+      {
+        "id": "org-afff511c4bead63d",
+        "name": "Department of Administrative Reforms & Public Grievances",
+        "websiteIds": [
+          "cpgrams"
+        ]
+      },
+      {
+        "id": "org-7f72318d5949adac",
+        "name": "Department of Personnel and Training",
+        "websiteIds": [
+          "rti-online"
+        ]
+      },
+      {
+        "id": "org-caf4f9732b6768f4",
+        "name": "Ministry of Micro, Small and Medium Enterprises",
+        "websiteIds": [
+          "udyam-registration"
+        ]
+      },
+      {
+        "id": "org-5763d05f09e5a8be",
+        "name": "Ministry of Micro, Small & Medium Enterprises (MSME)",
+        "websiteIds": [
+          "igod-1d591544b1c2e25d"
+        ]
+      }
+    ]
+  },
+  "serviceQueue": [
+    {
+      "id": "digilocker-fetch-issued",
+      "reason": "FAQ body not readable in live retrieval; fresh service evidence needed.",
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "digilocker-share-issued",
+      "reason": "Fresh operation-specific documentation not obtained.",
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "driving-licence-application",
+      "reason": "State-specific application flow and document requirements not reviewed.",
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "pmegp-direct-application",
+      "reason": "Candidate new application host failed normal certificate validation; no bypass.",
+      "status": "NEEDS_REVIEW"
+    },
+    {
+      "id": "aicte-pragati-degree",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "aicte-pragati-degree",
+        "websiteId": "national-scholarship-portal",
+        "organizationId": "org-7077af4eaac38e33",
+        "title": "AICTE Pragati Scholarship for Girl Students (Degree)",
+        "description": "Scholarship support for eligible technical degree students.",
+        "categories": [
+          "education"
+        ],
+        "department": "All India Council for Technical Education",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "I need a scholarship for engineering",
+          "apply for pragati scholarship"
+        ],
+        "synonyms": [
+          "pragati",
+          "engineering scholarship",
+          "technical education",
+          "student financial assistance"
+        ],
+        "informationUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf",
+        "sourceUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf",
+        "applicationUrl": "https://scholarships.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "pragati",
+            "url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf",
+            "publisher": "AICTE",
+            "checkedOn": "2026-10-16",
+            "summary": "Degree scholarship conditions and application procedure.",
+            "locator": "Sections 2, 6, 10 and renewals; July 2020 guidelines linked by current NSP",
+            "contentSha256": "1e493333bc25f9adf9192624a0f92104845f5c5e3b3a00e1ec52af5302a4b10f"
+          },
+          {
+            "id": "nsp",
+            "url": "https://scholarships.gov.in/All-Scholarships",
+            "publisher": "National Scholarship Portal",
+            "checkedOn": "2026-10-16",
+            "summary": "The degree scheme is listed on the current NSP page.",
+            "locator": "Current AICTE scheme list",
+            "contentSha256": "6168af5cf69ad11807dcfdbe8af6a490743e720eb7752daef4250633e32a626f"
+          }
+        ],
+        "linkEvidenceIds": [
+          "pragati",
+          "nsp"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+        "eligibility": {
+          "text": "Selected conditions: girls entering year one, or year two through lateral entry, of an AICTE-approved degree; family income up to INR 8 lakh; at most two girls per family. Read the guidelines for exclusions.",
+          "evidenceIds": [
+            "pragati"
+          ]
+        },
+        "documents": [
+          {
+            "text": "State/UT income certificate.",
+            "evidenceIds": [
+              "pragati"
+            ]
+          }
+        ],
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Use the NSP student application process for this scheme; institution and State/UT scrutiny follow.",
+            "evidenceIds": [
+              "pragati"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+        "candidateSha256": "9afeb66df9211d8649ffe5685cff06e91b8d34871e225728585f4f8ae234a4e4"
+      }
+    },
+    {
+      "id": "aicte-saksham-degree",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "aicte-saksham-degree",
+        "websiteId": "national-scholarship-portal",
+        "organizationId": "org-7077af4eaac38e33",
+        "title": "AICTE Saksham Scholarship for Specially-Abled Students (Degree)",
+        "description": "Scholarship support for eligible technical degree students.",
+        "categories": [
+          "education"
+        ],
+        "department": "All India Council for Technical Education",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "I need a scholarship for engineering",
+          "apply for saksham scholarship"
+        ],
+        "synonyms": [
+          "saksham",
+          "engineering scholarship",
+          "technical education",
+          "student financial assistance"
+        ],
+        "informationUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
+        "sourceUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
+        "applicationUrl": "https://scholarships.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "saksham",
+            "url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
+            "publisher": "AICTE",
+            "checkedOn": "2026-10-16",
+            "summary": "Degree scholarship conditions and application procedure.",
+            "locator": "Sections 2, 6, 7 and 8; July 2020 guidelines linked by current NSP",
+            "contentSha256": "06ebed9e50a47ae76cba985ddde78cd65f19f2193b0e4c9c164fff529580474c"
+          },
+          {
+            "id": "nsp",
+            "url": "https://scholarships.gov.in/All-Scholarships",
+            "publisher": "National Scholarship Portal",
+            "checkedOn": "2026-10-16",
+            "summary": "The degree scheme is listed on the current NSP page.",
+            "locator": "Current AICTE scheme list",
+            "contentSha256": "6168af5cf69ad11807dcfdbe8af6a490743e720eb7752daef4250633e32a626f"
+          }
+        ],
+        "linkEvidenceIds": [
+          "saksham",
+          "nsp"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+        "eligibility": {
+          "text": "Selected conditions: AICTE-approved degree admission in year one or lateral entry in year two; disability at least 40%; family income up to INR 8 lakh. Other conditions apply.",
+          "evidenceIds": [
+            "saksham"
+          ]
+        },
+        "documents": [
+          {
+            "text": "State/UT income certificate.",
+            "evidenceIds": [
+              "saksham"
+            ]
+          }
+        ],
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Use the NSP student application process for this scheme; institution and State/UT scrutiny follow.",
+            "evidenceIds": [
+              "saksham"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+        "candidateSha256": "e4fd2848df30e8f81770869c41d996f9193088680e058904a7e9e1378bd6af5c"
+      }
+    },
+    {
+      "id": "aicte-swanath-degree",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "aicte-swanath-degree",
+        "websiteId": "national-scholarship-portal",
+        "organizationId": "org-7077af4eaac38e33",
+        "title": "AICTE Swanath Scholarship (Technical Degree)",
+        "description": "Scholarship support for eligible technical degree students.",
+        "categories": [
+          "education"
+        ],
+        "department": "All India Council for Technical Education",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "I need a scholarship for engineering",
+          "apply for swanath scholarship"
+        ],
+        "synonyms": [
+          "swanath",
+          "engineering scholarship",
+          "technical education",
+          "student financial assistance"
+        ],
+        "informationUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
+        "sourceUrl": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
+        "applicationUrl": "https://scholarships.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "swanath",
+            "url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
+            "publisher": "AICTE",
+            "checkedOn": "2026-10-16",
+            "summary": "Degree scholarship conditions and application procedure.",
+            "locator": "May 2025 guidelines, sections 2, 7 and 10",
+            "contentSha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04"
+          },
+          {
+            "id": "nsp",
+            "url": "https://scholarships.gov.in/All-Scholarships",
+            "publisher": "National Scholarship Portal",
+            "checkedOn": "2026-10-16",
+            "summary": "The degree scheme is listed on the current NSP page.",
+            "locator": "Current AICTE scheme list",
+            "contentSha256": "6168af5cf69ad11807dcfdbe8af6a490743e720eb7752daef4250633e32a626f"
+          }
+        ],
+        "linkEvidenceIds": [
+          "swanath",
+          "nsp"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+        "eligibility": {
+          "text": "Qualifying family circumstances include orphanhood, parental death due to COVID-19, a parent martyred in specified forces, or the specified critical illness/accident category. Income up to INR 8 lakh, regular AICTE-approved study and no other government/AICTE scholarship are also required.",
+          "evidenceIds": [
+            "swanath"
+          ]
+        },
+        "documents": [
+          {
+            "text": "Institution bonafide certificate and applicable income evidence; see category-specific checklist.",
+            "evidenceIds": [
+              "swanath"
+            ]
+          }
+        ],
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Use the NSP student application process for this scheme; institution and State/UT scrutiny follow.",
+            "evidenceIds": [
+              "swanath"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Guideline publication year differs from review date; it remains linked on current NSP. Reconfirm the applicable academic year and complete conditions. Document list is partial.",
+        "candidateSha256": "d08d529605f1bb6172e4650e4cf8569728b59a821243ed850eef0abc795f0821"
+      }
+    },
+    {
+      "id": "tn-community-certificate",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "tn-community-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Community Certificate (Tamil Nadu)",
+        "description": "Community certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "How can I get a caste certificate"
+        ],
+        "synonyms": [
+          "community certificate",
+          "caste certificate",
+          "जाति प्रमाणपत्र"
+        ],
+        "informationUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "sourceUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn-community",
+            "url": "https://serviceonline.gov.in/configuretn/login.do",
+            "publisher": "Tamil Nadu e-Governance Agency / ServicePlus",
+            "checkedOn": "2026-10-16",
+            "summary": "community certificate service.",
+            "locator": "Description, access steps and service-specific documents",
+            "contentSha256": "b13c8222ab52490c67c4d5d700f4446f108ad2e6d0ea3edb527f0ca55ed01e51"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn-community"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": [
+          {
+            "text": "Applicant photo, address evidence and self-declaration.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "conditionalDocuments": [
+          {
+            "text": "Community: a family member’s certificate; nativity: birth or residence-history evidence, as applicable.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "procedure": [
+          {
+            "text": "Register/login on the official service platform and select the relevant service.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "candidateSha256": "774b8d7055ac92023b39aaab8b6ede993cba9673aa010d9b804f0b7ad8c7eda5"
+      }
+    },
+    {
+      "id": "tn-nativity-certificate",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "tn-nativity-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Nativity Certificate (Tamil Nadu)",
+        "description": "Nativity certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "apply for nativity certificate"
+        ],
+        "synonyms": [
+          "nativity certificate",
+          "residence origin"
+        ],
+        "informationUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "sourceUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn-community",
+            "url": "https://serviceonline.gov.in/configuretn/login.do",
+            "publisher": "Tamil Nadu e-Governance Agency / ServicePlus",
+            "checkedOn": "2026-10-16",
+            "summary": "nativity certificate service.",
+            "locator": "Description, access steps and service-specific documents",
+            "contentSha256": "b13c8222ab52490c67c4d5d700f4446f108ad2e6d0ea3edb527f0ca55ed01e51"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn-community"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": [
+          {
+            "text": "Applicant photo, address evidence and self-declaration.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "conditionalDocuments": [
+          {
+            "text": "Community: a family member’s certificate; nativity: birth or residence-history evidence, as applicable.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "procedure": [
+          {
+            "text": "Register/login on the official service platform and select the relevant service.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "candidateSha256": "8ecc9a9f710d8419c78416607aa5c79b25fb221229a75f67511c0200c1cc98ef"
+      }
+    },
+    {
+      "id": "tn-income-certificate",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "tn-income-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Income Certificate (Tamil Nadu)",
+        "description": "Income certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "apply for income certificate"
+        ],
+        "synonyms": [
+          "income certificate",
+          "earnings proof"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "income certificate service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "candidateSha256": "716ff3c8cce56e0b636069e517913e5d67296e836ffe4e1f36cee82fd542b922"
+      }
+    },
+    {
+      "id": "tn-birth-certificate-print",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "tn-birth-certificate-print",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Printing of Birth Certificate (Tamil Nadu)",
+        "description": "Print an existing birth record.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Directorate of Public Health, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "How do I obtain a birth certificate"
+        ],
+        "synonyms": [
+          "birth certificate",
+          "birth record copy",
+          "जन्म प्रमाणपत्र"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "birth certificate service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "candidateSha256": "9dd571789ecdcd85951300f2ecfb588b2fca9bc58a8b15e619ce0bd6c2089a55"
+      }
+    },
+    {
+      "id": "tn-old-age-pension",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "tn-old-age-pension",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Indira Gandhi National Old Age Pension Scheme — Tamil Nadu access",
+        "description": "Old-age pension application access.",
+        "categories": [
+          "welfare"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "I want to apply for a pension"
+        ],
+        "synonyms": [
+          "pension",
+          "old age pension",
+          "senior citizen support"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "pension service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "candidateSha256": "604068fc95313be424c29c8182eae8a4f89bfc881e1c3090b5a6b9e61f21884c"
+      }
+    },
+    {
+      "id": "tn-widow-pension",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "tn-widow-pension",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Destitute Widow Pension Scheme (Tamil Nadu)",
+        "description": "Widow pension application access.",
+        "categories": [
+          "welfare"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "I want to apply for a pension"
+        ],
+        "synonyms": [
+          "widow pension",
+          "pension benefits"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "widow pension service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "candidateSha256": "d6a9396472a44b8e6d5cff9366d338ef32e18bb3c4b5c1ddfc5633c7e7ae1b43"
+      }
+    },
+    {
+      "id": "tn-disability-pension",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "tn-disability-pension",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Differently Abled Pension Scheme (Tamil Nadu)",
+        "description": "Disability pension application access.",
+        "categories": [
+          "welfare"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "I want to apply for a pension"
+        ],
+        "synonyms": [
+          "disability pension",
+          "differently abled benefits"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "disability pension service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "candidateSha256": "6ccf143520c2c517a0dd55f8831d6f4de0770c26f37ee41d29b4a15aa9296fae"
+      }
+    },
+    {
+      "id": "tn-unemployment-certificate",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "tn-unemployment-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Unemployment Certificate (Tamil Nadu)",
+        "description": "Unemployment certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "apply for unemployment certificate"
+        ],
+        "synonyms": [
+          "unemployment certificate",
+          "jobless certificate"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "unemployment certificate service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "candidateSha256": "940852391577f34ae6568aef784e39e831eec53244d6eb6713a0723acc1f5db2"
+      }
+    },
+    {
+      "id": "tn-legal-heir-certificate",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "tn-legal-heir-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Legal Heir Certificate (Tamil Nadu)",
+        "description": "Legal heir certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "apply for legal heir certificate"
+        ],
+        "synonyms": [
+          "legal heir certificate",
+          "succession proof"
+        ],
+        "informationUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "sourceUrl": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn",
+            "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+            "publisher": "Tamil Nadu e-Governance Agency",
+            "checkedOn": "2026-10-16",
+            "summary": "legal heir certificate service.",
+            "locator": "Named service row in official eSevai centre list",
+            "contentSha256": "119b1d4bb5706be06ae5575a9ff7cce5212462a79351a5e92980974af33203e9"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "candidateSha256": "3ea10940af803dee994a9379e7286682a144dd8879cb75547cb86d2c01b3214b"
+      }
+    },
+    {
+      "id": "ncs-government-job-search",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "ncs-government-job-search",
+        "websiteId": "national-career-service",
+        "organizationId": "org-7ed359018f05059a",
+        "title": "Search government-sector jobs on NCS",
+        "description": "Find published government-sector job listings; this is not a vacancy or selection guarantee.",
+        "categories": [
+          "jobs"
+        ],
+        "department": "Directorate General of Employment, Ministry of Labour & Employment",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "Find government jobs",
+          "search govt jobs"
+        ],
+        "synonyms": [
+          "government jobs",
+          "naukri",
+          "recruitment vacancies"
+        ],
+        "informationUrl": "https://ncs.gov.in/faq",
+        "sourceUrl": "https://ncs.gov.in/faq",
+        "applicationUrl": "https://ncs.gov.in/job-listing?isGovernmentJob=true",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "ncs",
+            "url": "https://ncs.gov.in/faq",
+            "publisher": "Directorate General of Employment",
+            "checkedOn": "2026-10-16",
+            "summary": "Government-jobs search is linked in jobseeker navigation.",
+            "locator": "Jobseeker navigation and general FAQ",
+            "contentSha256": "0cc583a2e8ad712ff1d9159d8f9a7663bda99efdb9e443d30301ab6662289bd8"
+          }
+        ],
+        "linkEvidenceIds": [
+          "ncs"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Open government-sector search and inspect the employer’s vacancy notice.",
+            "evidenceIds": [
+              "ncs"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "candidateSha256": "102711285aec16fbd4d28f582994245ee0531012133dcd0daee147c2ad50cbe0"
+      }
+    },
+    {
+      "id": "ncs-jobseeker-registration",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "ncs-jobseeker-registration",
+        "websiteId": "national-career-service",
+        "organizationId": "org-7ed359018f05059a",
+        "title": "NCS Jobseeker Registration",
+        "description": "Create a jobseeker profile on the official employment platform.",
+        "categories": [
+          "jobs"
+        ],
+        "department": "Directorate General of Employment, Ministry of Labour & Employment",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "register as a jobseeker"
+        ],
+        "synonyms": [
+          "employment registration",
+          "ncs account"
+        ],
+        "informationUrl": "https://ncs.gov.in/assets/pdf/Jobseeker%20registration%20flowchart%201.pdf",
+        "sourceUrl": "https://ncs.gov.in/assets/pdf/Jobseeker%20registration%20flowchart%201.pdf",
+        "applicationUrl": "https://ncs.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "ncs-register",
+            "url": "https://ncs.gov.in/assets/pdf/Jobseeker%20registration%20flowchart%201.pdf",
+            "publisher": "Directorate General of Employment",
+            "checkedOn": "2026-10-16",
+            "summary": "Official jobseeker registration flowchart.",
+            "locator": "One-page jobseeker registration flowchart"
+          },
+          {
+            "id": "ncs",
+            "url": "https://ncs.gov.in/faq",
+            "publisher": "Directorate General of Employment",
+            "checkedOn": "2026-10-16",
+            "summary": "Jobseeker registration is provided.",
+            "locator": "Jobseeker navigation and general FAQ",
+            "contentSha256": "0cc583a2e8ad712ff1d9159d8f9a7663bda99efdb9e443d30301ab6662289bd8"
+          }
+        ],
+        "linkEvidenceIds": [
+          "ncs-register",
+          "ncs"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Choose jobseeker registration; follow the official flowchart.",
+            "evidenceIds": [
+              "ncs-register"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "candidateSha256": "d88f13f1ae0f20f39216e26b7173189ce771d27e72347505615c2d5d8a89fae1"
+      }
+    },
+    {
+      "id": "ncs-career-counselling",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "ncs-career-counselling",
+        "websiteId": "national-career-service",
+        "organizationId": "org-7ed359018f05059a",
+        "title": "Find a Career Counsellor through NCS",
+        "description": "Explore official career-counselling access.",
+        "categories": [
+          "jobs"
+        ],
+        "department": "Directorate General of Employment, Ministry of Labour & Employment",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "find career counselling"
+        ],
+        "synonyms": [
+          "career advice",
+          "counsellor"
+        ],
+        "informationUrl": "https://ncs.gov.in/faq",
+        "sourceUrl": "https://ncs.gov.in/faq",
+        "applicationUrl": "https://ncs.gov.in/career-counsellors",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "ncs",
+            "url": "https://ncs.gov.in/faq",
+            "publisher": "Directorate General of Employment",
+            "checkedOn": "2026-10-16",
+            "summary": "Counsellor search is linked under jobseeker support.",
+            "locator": "Jobseeker navigation and general FAQ",
+            "contentSha256": "0cc583a2e8ad712ff1d9159d8f9a7663bda99efdb9e443d30301ab6662289bd8"
+          }
+        ],
+        "linkEvidenceIds": [
+          "ncs"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "candidateSha256": "75d9f37cdb1d977ed585a6df930db881fd2e0c4777d2fd466ea45ec2971d52bb"
+      }
+    },
+    {
+      "id": "aadhaar-download",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "aadhaar-download",
+        "websiteId": "uidai",
+        "organizationId": "org-e999f31ac201d555",
+        "title": "Download Aadhaar",
+        "description": "Retrieve an electronic Aadhaar copy.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Unique Identification Authority of India",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "download aadhaar",
+          "e aadhaar"
+        ],
+        "synonyms": [
+          "download aadhaar",
+          "e aadhaar"
+        ],
+        "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "applicationUrl": null,
+        "applicationMode": "information",
+        "evidence": [
+          {
+            "id": "uidai",
+            "url": "https://www.uidai.gov.in/en/my-aadhaar",
+            "publisher": "UIDAI",
+            "checkedOn": "2026-10-16",
+            "summary": "download aadhaar is listed.",
+            "locator": "Named My Aadhaar service card; access requires official authentication",
+            "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+          }
+        ],
+        "linkEvidenceIds": [
+          "uidai"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "eligibility": {
+          "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+          "evidenceIds": [
+            "uidai"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "candidateSha256": "fe37bbc41b158e78ccd7a343782dda68928f397807ac4aaf82c48e8722bd9a62"
+      }
+    },
+    {
+      "id": "aadhaar-address-update",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "aadhaar-address-update",
+        "websiteId": "uidai",
+        "organizationId": "org-e999f31ac201d555",
+        "title": "Aadhaar Address Update",
+        "description": "Request an address change.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Unique Identification Authority of India",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "aadhaar address update",
+          "change address"
+        ],
+        "synonyms": [
+          "aadhaar address update",
+          "change address"
+        ],
+        "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "applicationUrl": null,
+        "applicationMode": "information",
+        "evidence": [
+          {
+            "id": "uidai",
+            "url": "https://www.uidai.gov.in/en/my-aadhaar",
+            "publisher": "UIDAI",
+            "checkedOn": "2026-10-16",
+            "summary": "aadhaar address update is listed.",
+            "locator": "Named My Aadhaar service card; access requires official authentication",
+            "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+          }
+        ],
+        "linkEvidenceIds": [
+          "uidai"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "eligibility": {
+          "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+          "evidenceIds": [
+            "uidai"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "candidateSha256": "99cda0c4479a744cdbb5fb18a902d710a27d19a17646bc7c89f7c6497fcaf5c8"
+      }
+    },
+    {
+      "id": "aadhaar-pvc-card",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "aadhaar-pvc-card",
+        "websiteId": "uidai",
+        "organizationId": "org-e999f31ac201d555",
+        "title": "Order Aadhaar PVC Card",
+        "description": "Request a durable Aadhaar card.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Unique Identification Authority of India",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "aadhaar pvc card",
+          "order aadhaar"
+        ],
+        "synonyms": [
+          "aadhaar pvc card",
+          "order aadhaar"
+        ],
+        "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "applicationUrl": null,
+        "applicationMode": "information",
+        "evidence": [
+          {
+            "id": "uidai",
+            "url": "https://www.uidai.gov.in/en/my-aadhaar",
+            "publisher": "UIDAI",
+            "checkedOn": "2026-10-16",
+            "summary": "aadhaar pvc card is listed.",
+            "locator": "Named My Aadhaar service card; access requires official authentication",
+            "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+          }
+        ],
+        "linkEvidenceIds": [
+          "uidai"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "eligibility": {
+          "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+          "evidenceIds": [
+            "uidai"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "candidateSha256": "779c92e59b561cfeab5b326d3891da4df46433f4d737b7cd3b5ce5f3d1411e36"
+      }
+    },
+    {
+      "id": "aadhaar-biometric-lock",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "aadhaar-biometric-lock",
+        "websiteId": "uidai",
+        "organizationId": "org-e999f31ac201d555",
+        "title": "Lock or Unlock Aadhaar Biometrics",
+        "description": "Manage biometric authentication locking.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Unique Identification Authority of India",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "aadhaar biometric lock",
+          "unlock fingerprint"
+        ],
+        "synonyms": [
+          "aadhaar biometric lock",
+          "unlock fingerprint"
+        ],
+        "informationUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "sourceUrl": "https://www.uidai.gov.in/en/my-aadhaar",
+        "applicationUrl": null,
+        "applicationMode": "information",
+        "evidence": [
+          {
+            "id": "uidai",
+            "url": "https://www.uidai.gov.in/en/my-aadhaar",
+            "publisher": "UIDAI",
+            "checkedOn": "2026-10-16",
+            "summary": "aadhaar biometric lock is listed.",
+            "locator": "Named My Aadhaar service card; access requires official authentication",
+            "contentSha256": "601897a311551ba4c0ff2bdf52a6cb4c802efc02298e5571aa0393ff70f2c4be"
+          }
+        ],
+        "linkEvidenceIds": [
+          "uidai"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "eligibility": {
+          "text": "For Aadhaar holders; the listed online flow requires mobile OTP.",
+          "evidenceIds": [
+            "uidai"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. UIDAI currently links a beta-branded service host. Direct application endpoint is held for route review; open the official information page and use its current service link. No OTP is entered into JanSetu.",
+        "candidateSha256": "64c2966a57f721638a07b1446ee40d60e21a9742fb7fc8e05740e1efde5fdc83"
+      }
+    },
+    {
+      "id": "cpgrams-public-grievance",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "cpgrams-public-grievance",
+        "websiteId": "cpgrams",
+        "organizationId": "org-afff511c4bead63d",
+        "title": "Lodge a Public Grievance through CPGRAMS",
+        "description": "Submit a grievance to the relevant public authority.",
+        "categories": [
+          "grievances"
+        ],
+        "department": "Department of Administrative Reforms and Public Grievances",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "file a complaint",
+          "lodge grievance"
+        ],
+        "synonyms": [
+          "file a complaint",
+          "lodge grievance"
+        ],
+        "informationUrl": "https://pgportal.gov.in/Home/Faq",
+        "sourceUrl": "https://pgportal.gov.in/Home/Faq",
+        "applicationUrl": "https://pgportal.gov.in/Home/LodgeGrievance",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "cpgrams",
+            "url": "https://pgportal.gov.in/Home/Faq",
+            "publisher": "DARPG",
+            "checkedOn": "2026-10-16",
+            "summary": "Grievance submission, exclusions and appeal route.",
+            "locator": "FAQ 3, 10 and 15",
+            "contentSha256": "aae350bbde0fda78465e546099e7a2f9bf1cc4bd16941abe7c2faf089197e0da"
+          }
+        ],
+        "linkEvidenceIds": [
+          "cpgrams"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": {
+          "text": "Excluded matters include RTI requests, court/subjudice matters, and personal/family disputes.",
+          "evidenceIds": [
+            "cpgrams"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "candidateSha256": "ecce7a87ebad49eacd20d5c49fcd15335b311050755b3c5c14a7e1320eb32b6e"
+      }
+    },
+    {
+      "id": "cpgrams-grievance-appeal",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "cpgrams-grievance-appeal",
+        "websiteId": "cpgrams",
+        "organizationId": "org-afff511c4bead63d",
+        "title": "Appeal a Dissatisfied CPGRAMS Grievance",
+        "description": "Use the appeal process for eligible disposed central-government grievances.",
+        "categories": [
+          "grievances"
+        ],
+        "department": "Department of Administrative Reforms and Public Grievances",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "appeal grievance",
+          "unsatisfied complaint"
+        ],
+        "synonyms": [
+          "appeal grievance",
+          "unsatisfied complaint"
+        ],
+        "informationUrl": "https://pgportal.gov.in/Home/Faq",
+        "sourceUrl": "https://pgportal.gov.in/Home/Faq",
+        "applicationUrl": "https://pgportal.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "cpgrams",
+            "url": "https://pgportal.gov.in/Home/Faq",
+            "publisher": "DARPG",
+            "checkedOn": "2026-10-16",
+            "summary": "Grievance submission, exclusions and appeal route.",
+            "locator": "FAQ 3, 10 and 15",
+            "contentSha256": "aae350bbde0fda78465e546099e7a2f9bf1cc4bd16941abe7c2faf089197e0da"
+          }
+        ],
+        "linkEvidenceIds": [
+          "cpgrams"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": {
+          "text": "The central grievance appeal provision follows mandatory feedback on disposal; see the official FAQ.",
+          "evidenceIds": [
+            "cpgrams"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "candidateSha256": "dcb277f8267b20b71b86778585534cf30342b53fa350fde4f9424485437d2cb0"
+      }
+    },
+    {
+      "id": "rti-central-request",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "rti-central-request",
+        "websiteId": "rti-online",
+        "organizationId": "org-7f72318d5949adac",
+        "title": "Submit an RTI Request to a Central Public Authority",
+        "description": "Request government information.",
+        "categories": [
+          "transparency"
+        ],
+        "department": "Department of Personnel and Training",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "right to information",
+          "rti request"
+        ],
+        "synonyms": [
+          "right to information",
+          "rti request"
+        ],
+        "informationUrl": "https://rtionline.gov.in/guidelines.php?request",
+        "sourceUrl": "https://rtionline.gov.in/guidelines.php?request",
+        "applicationUrl": "https://rtionline.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "rti",
+            "url": "https://rtionline.gov.in/guidelines.php?request",
+            "publisher": "Department of Personnel and Training",
+            "checkedOn": "2026-10-16",
+            "summary": "Online central RTI request and first-appeal instructions.",
+            "locator": "Guidelines 1–2, 6, 12, 16–18",
+            "contentSha256": "09c1522a2577441cdc2fd9ec1734271453e7f0f7fcf4b363fe91d2a3d2326888"
+          }
+        ],
+        "linkEvidenceIds": [
+          "rti"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": {
+          "text": "Indian citizens requesting information from covered Government of India ministries/departments.",
+          "evidenceIds": [
+            "rti"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": [
+          {
+            "text": "BPL fee exemption requires the appropriate government-issued certificate. Do not upload Aadhaar, PAN or other identity documents.",
+            "evidenceIds": [
+              "rti"
+            ]
+          }
+        ],
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "candidateSha256": "f3d1a52ef01c477b7f33a2420c0ac29cba5993b061885d6a45526b5ab0d1623b"
+      }
+    },
+    {
+      "id": "rti-first-appeal",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "rti-first-appeal",
+        "websiteId": "rti-online",
+        "organizationId": "org-7f72318d5949adac",
+        "title": "Submit an RTI First Appeal",
+        "description": "Appeal an online RTI request.",
+        "categories": [
+          "transparency"
+        ],
+        "department": "Department of Personnel and Training",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "rti first appeal",
+          "information appeal"
+        ],
+        "synonyms": [
+          "rti first appeal",
+          "information appeal"
+        ],
+        "informationUrl": "https://rtionline.gov.in/guidelines.php?request",
+        "sourceUrl": "https://rtionline.gov.in/guidelines.php?request",
+        "applicationUrl": "https://rtionline.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "rti",
+            "url": "https://rtionline.gov.in/guidelines.php?request",
+            "publisher": "Department of Personnel and Training",
+            "checkedOn": "2026-10-16",
+            "summary": "Online central RTI request and first-appeal instructions.",
+            "locator": "Guidelines 1–2, 6, 12, 16–18",
+            "contentSha256": "09c1522a2577441cdc2fd9ec1734271453e7f0f7fcf4b363fe91d2a3d2326888"
+          }
+        ],
+        "linkEvidenceIds": [
+          "rti"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": {
+          "text": "Indian citizens requesting information from covered Government of India ministries/departments.",
+          "evidenceIds": [
+            "rti"
+          ]
+        },
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": [
+          {
+            "text": "Choose Submit First Appeal and reference the original registration number.",
+            "evidenceIds": [
+              "rti"
+            ]
+          }
+        ],
+        "fees": {
+          "text": "No fee for the first appeal.",
+          "evidenceIds": [
+            "rti"
+          ]
+        },
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "candidateSha256": "dea75388fc33ae2252f58a98e6b14f5df5f712f5d12cdf3993e3ff1beb5f9ba5"
+      }
+    },
+    {
+      "id": "udyam-new-registration",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "udyam-new-registration",
+        "websiteId": "udyam-registration",
+        "organizationId": "org-caf4f9732b6768f4",
+        "title": "Udyam Registration for a New MSME",
+        "description": "Register an eligible micro, small or medium enterprise.",
+        "categories": [
+          "business"
+        ],
+        "department": "Ministry of Micro, Small and Medium Enterprises",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "register my small business",
+          "msme registration"
+        ],
+        "synonyms": [
+          "udyam",
+          "business registration"
+        ],
+        "informationUrl": "https://udyamregistration.gov.in/",
+        "sourceUrl": "https://udyamregistration.gov.in/",
+        "applicationUrl": "https://udyamregistration.gov.in/",
+        "applicationMode": "online",
+        "evidence": [
+          {
+            "id": "udyam",
+            "url": "https://udyamregistration.gov.in/",
+            "publisher": "Ministry of MSME",
+            "checkedOn": "2026-10-16",
+            "summary": "Free paperless registration and official new-registration route.",
+            "locator": "New registration, Must Follow and Must Know sections"
+          }
+        ],
+        "linkEvidenceIds": [
+          "udyam"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "eligibility": null,
+        "documents": [
+          {
+            "text": "Registration requires no document uploads; Aadhaar and applicable PAN/GST details are handled by the official portal.",
+            "evidenceIds": [
+              "udyam"
+            ]
+          }
+        ],
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": {
+          "text": "Registration is free.",
+          "evidenceIds": [
+            "udyam"
+          ]
+        },
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null.",
+        "candidateSha256": "9c042ce7727bd5c66a5f389c16cad5cbec6d973c624989ee951b4955ecd7adae"
+      }
+    },
+    {
+      "id": "pmegp-enterprise-support",
+      "status": "PUBLISHED",
+      "candidate": {
+        "id": "pmegp-enterprise-support",
+        "websiteId": "igod-1d591544b1c2e25d",
+        "organizationId": "org-5763d05f09e5a8be",
+        "title": "Prime Minister’s Employment Generation Programme (PMEGP)",
+        "description": "Bank-linked margin-money subsidy for eligible new non-farm micro enterprises.",
+        "categories": [
+          "business"
+        ],
+        "department": "Ministry of MSME / Khadi and Village Industries Commission",
+        "level": "Central",
+        "state": null,
+        "district": null,
+        "citizenIntents": [
+          "I need a subsidy for my small business",
+          "financial support for new micro enterprise"
+        ],
+        "synonyms": [
+          "pmegp",
+          "business subsidy",
+          "small business subsidy"
+        ],
+        "informationUrl": "https://www.pib.gov.in/newsite/archiveContent.aspx?lang=2&reg=48&relid=286631",
+        "sourceUrl": "https://www.pib.gov.in/newsite/archiveContent.aspx?lang=2&reg=48&relid=286631",
+        "applicationUrl": null,
+        "applicationMode": "information",
+        "evidence": [
+          {
+            "id": "pmegp",
+            "url": "https://www.pib.gov.in/newsite/archiveContent.aspx?lang=2&reg=48&relid=286631",
+            "publisher": "Press Information Bureau / Ministry of MSME",
+            "checkedOn": "2026-10-16",
+            "summary": "Official release confirms the enterprise-support programme.",
+            "locator": "23 March 2026 official PMEGP release"
+          }
+        ],
+        "linkEvidenceIds": [
+          "pmegp"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Information-only record. A candidate application host failed TLS verification on this machine, so no application button is published. Current eligibility, documents, funding window and route require further review.",
+        "eligibility": null,
+        "documents": null,
+        "conditionalDocuments": null,
+        "procedure": null,
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source review (not a human verification claim)",
+        "notes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Information-only record. A candidate application host failed TLS verification on this machine, so no application button is published. Current eligibility, documents, funding window and route require further review.",
+        "candidateSha256": "951d3a6c541addf0781fa9b324668d29efa4122149980337fea0e54f499be270"
+      }
+    },
+    {
+      "id": "tn-community-certificate",
+      "status": "PUBLISHED",
+      "revisionDigest": "dfa7232280b91059bccca8dc40e74e7afc5668b2f279246f42cabf0fc8d2d868",
+      "candidate": {
+        "id": "tn-community-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Community Certificate (Tamil Nadu)",
+        "description": "Community certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "How can I get a caste certificate"
+        ],
+        "synonyms": [
+          "community certificate",
+          "caste certificate",
+          "जाति प्रमाणपत्र"
+        ],
+        "informationUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "sourceUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn-community",
+            "url": "https://serviceonline.gov.in/configuretn/login.do",
+            "publisher": "Tamil Nadu e-Governance Agency / ServicePlus",
+            "checkedOn": "2026-10-16",
+            "summary": "community certificate service.",
+            "locator": "Description, access steps and service-specific documents",
+            "contentSha256": "b13c8222ab52490c67c4d5d700f4446f108ad2e6d0ea3edb527f0ca55ed01e51"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn-community"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": [
+          {
+            "text": "Applicant photo, address evidence and self-declaration.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "conditionalDocuments": [
+          {
+            "text": "A parent or sibling community certificate, where applicable.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "procedure": [
+          {
+            "text": "Register/login on the official service platform and select the relevant service.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source clarification review",
+        "notes": "Separate community and nativity conditional documents; preserve original review history.",
+        "candidateSha256": "dfa7232280b91059bccca8dc40e74e7afc5668b2f279246f42cabf0fc8d2d868"
+      }
+    },
+    {
+      "id": "tn-nativity-certificate",
+      "status": "PUBLISHED",
+      "revisionDigest": "13f2e4c5d00d89b7ead763473c1e81189276d501718ca8199c3ccec2a73f31bd",
+      "candidate": {
+        "id": "tn-nativity-certificate",
+        "websiteId": "igod-2715637a8f399700",
+        "organizationId": "org-05a96313c65f060b",
+        "title": "Nativity Certificate (Tamil Nadu)",
+        "description": "Nativity certification.",
+        "categories": [
+          "documents"
+        ],
+        "department": "Revenue Administration, Government of Tamil Nadu",
+        "level": "State",
+        "state": "Tamil Nadu",
+        "district": null,
+        "citizenIntents": [
+          "apply for nativity certificate"
+        ],
+        "synonyms": [
+          "nativity certificate",
+          "residence origin"
+        ],
+        "informationUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "sourceUrl": "https://serviceonline.gov.in/configuretn/login.do",
+        "applicationUrl": null,
+        "applicationMode": "assisted",
+        "evidence": [
+          {
+            "id": "tn-community",
+            "url": "https://serviceonline.gov.in/configuretn/login.do",
+            "publisher": "Tamil Nadu e-Governance Agency / ServicePlus",
+            "checkedOn": "2026-10-16",
+            "summary": "nativity certificate service.",
+            "locator": "Description, access steps and service-specific documents",
+            "contentSha256": "b13c8222ab52490c67c4d5d700f4446f108ad2e6d0ea3edb527f0ca55ed01e51"
+          }
+        ],
+        "linkEvidenceIds": [
+          "tn-community"
+        ],
+        "verifiedOn": "2026-10-16",
+        "verificationStatus": "candidate",
+        "publicationStatus": "draft",
+        "reviewNotes": "Official service information reviewed by Codex on 2026-10-16; not an independently completed transaction. The linked organization identifies the existing website operator; the responsible department is listed separately. Unknown fields stay null. Centre-assisted listing; no direct citizen application URL or complete eligibility checklist confirmed. Fees and processing-time columns may differ by service and are not reproduced. Birth printing is not birth registration.",
+        "eligibility": null,
+        "documents": [
+          {
+            "text": "Applicant photo, address evidence and self-declaration.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "conditionalDocuments": [
+          {
+            "text": "Birth certificate or school/employment/residence-history proof, as applicable.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "procedure": [
+          {
+            "text": "Register/login on the official service platform and select the relevant service.",
+            "evidenceIds": [
+              "tn-community"
+            ]
+          }
+        ],
+        "fees": null,
+        "deadline": null,
+        "processing": null
+      },
+      "decision": {
+        "reviewedBy": "Codex official-source clarification review",
+        "notes": "Separate community and nativity conditional documents; preserve original review history.",
+        "candidateSha256": "13f2e4c5d00d89b7ead763473c1e81189276d501718ca8199c3ccec2a73f31bd"
+      }
+    }
+  ],
+  "websites": 7347,
+  "pendingWebsites": 3823
+}

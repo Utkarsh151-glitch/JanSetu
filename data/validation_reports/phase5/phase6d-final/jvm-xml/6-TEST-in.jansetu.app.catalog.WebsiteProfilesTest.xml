@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.catalog.WebsiteProfilesTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-17T20:58:57.778Z" hostname="LAPTOP-FAIP099K" time="0.94">
+  <properties/>
+  <testcase name="websiteProfilesNeverCarryServiceChecklistsOrContactDetails" classname="in.jansetu.app.catalog.WebsiteProfilesTest" time="0.103"/>
+  <testcase name="unknownStaysUnknownAndNotStatedIsDistinct" classname="in.jansetu.app.catalog.WebsiteProfilesTest" time="0.098"/>
+  <testcase name="everyFactAndLinkCarriesProvenanceAndOfficialLinksOnly" classname="in.jansetu.app.catalog.WebsiteProfilesTest" time="0.0"/>
+  <testcase name="citizenSearchUsesCheckedTextAndLabelsWithoutInventingFacts" classname="in.jansetu.app.catalog.WebsiteProfilesTest" time="0.304"/>
+  <testcase name="recordsAndIdentifiersArePreservedAndServicesStaySeparate" classname="in.jansetu.app.catalog.WebsiteProfilesTest" time="0.217"/>
+  <testcase name="humanReviewNeedsItsOwnDateAndAutomatedChecksNeverCarryOne" classname="in.jansetu.app.catalog.WebsiteProfilesTest" time="0.011"/>
+  <testcase name="parserAndSignedImportsApplyTheSameProfileChecks" classname="in.jansetu.app.catalog.WebsiteProfilesTest" time="0.16"/>
+  <testcase name="completenessCountsSeparateCheckedReviewedAndUnderReview" classname="in.jansetu.app.catalog.WebsiteProfilesTest" time="0.02"/>
+  <testcase name="firstBatchIsPublishedAsAutomatedSourceCheckOnly" classname="in.jansetu.app.catalog.WebsiteProfilesTest" time="0.0"/>
+  <testcase name="validationRejectsUnsafeOrUnsupportedProfiles" classname="in.jansetu.app.catalog.WebsiteProfilesTest" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

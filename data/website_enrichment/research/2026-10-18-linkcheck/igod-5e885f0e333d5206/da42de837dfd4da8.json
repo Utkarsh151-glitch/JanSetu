@@ -1,0 +1,431 @@
+{
+ "websiteId": "igod-5e885f0e333d5206",
+ "url": "https://edistrict.odisha.gov.in/#team",
+ "checkedAt": "2026-10-17T20:27:35+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Link check (read-only): AI pre-review held this link; target was only seen as a link",
+ "httpStatus": 200,
+ "finalUrl": "https://edistrict.odisha.gov.in/#team",
+ "title": "eDistrict Odisha",
+ "lang": "en",
+ "metaDescription": null,
+ "anchor": {
+  "id": "team",
+  "found": true,
+  "text": "Frequently Asked Questions How citizen can apply for a Service? How to track my application status online? How can I take a print of my issued e-Certificate? How can one verify the issued e-Certificates? How can I register my DSC?"
+ },
+ "text": "\n\nHome\nServices\nFAQ\nContact Us\nLogin\n(CSC / Official User)\nPrevious\nNext\neDistrict\n\n\n\n\nThe e-District portal involves integrated and seamless delivery of citizen services by district administration through automation of workflow, back end digitization, integration and process redesigning across participating sections/departments for providing services in a most efficient manner to the citizens.\n\nIn an attempt to fulfill this vision, the Government of Odisha has implemented the ServicePlus platform of NIC to provide services to citizens.\n\n\n\ne-Certificates\nRevenue & Disaster Management Department\nResident Certificate\nIncome Certificate\nGuardianship Certificate\nScheduled Caste Certificate\nScheduled Tribe Certificate\nIncome and Asset Certificate\nLegal Heir Certificate\nOBC Certificate\nSEBC Certificate\nSolvency Certificate\nCertified Copy of RoR\nDirectorate of Horticulture\nEnergy Department\nDirectorate of Animal Husbandry and Veterinary Services\nDirectorate of Fisheries\nOdia Language Literature & Culture Department\nHealth & Family Welfare\nHigher Education\nSchool and Mass Education\nDhenkanal Regional Improvement Trust\nHigh Court\nOdisha University of Agriculture and Technology Bhubaneswar\nPanchayati Raj & Drinking Water Department\nOdisha Hydro Power Corporation Ltd\nRevenue & DM, Collector and District Magistrate(PURI)\nCollector and District Magistrate(ANUGUL)\nFrequently Asked Questions\nHow citizen can apply for a Service?\nHow to track my application status online?\nHow can I take a print of my issued e-Certificate?\nHow can one verify the issued e-Certificates?\nHow can I register my DSC?\nIn case of any queries related to e-Certificates of Revenue & Disaster Management Department,\nPlease Contact at email ecertificate[dot]rdm[at]odisha[dot]gov[dot]in and Toll Free No. 1800-121-8242\n\nSanjog Helpline Number 155335\nFor Technical Support\n\nOdisha Computer Application Centre,\nTechnical Directorate of Electronics & Information Technology Department, Govt. of Odisha\nOCAC Building, Plot No.N-1/7-D, Acharya Vihar, Bhubaneswar-751013, Odisha, India\n\nedistrict[at]odisha[dot]gov[dot]in\n\nNational Informatics Centre\nSachivalaya Marg.\nUnit-4, Bhubaneswar\nOdisha. 751001\n\nserviceplus-od[at]nic[dot]in\n\n© Copyright National Informatics Centre\nContents as provided, updated and permitted by the Government of Odisha,\nSite is technically designed, hosted and maintained by National Informatics Centre and Powered by ServicePlus.",
+ "textSha256": "025a91ffd66636752d02bfcc93a8c6aa8546c36b72e1ea5ddd1796aba01b2624",
+ "links": [
+  {
+   "text": "Home",
+   "href": "https://edistrict.odisha.gov.in/#intro"
+  },
+  {
+   "text": "Services",
+   "href": "https://edistrict.odisha.gov.in/#services"
+  },
+  {
+   "text": "FAQ",
+   "href": "https://edistrict.odisha.gov.in/#team"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://edistrict.odisha.gov.in/#contact"
+  },
+  {
+   "text": "Previous",
+   "href": "https://edistrict.odisha.gov.in/#carouselExampleIndicators"
+  },
+  {
+   "text": "Next",
+   "href": "https://edistrict.odisha.gov.in/#carouselExampleIndicators"
+  },
+  {
+   "text": "ServicePlus",
+   "href": "https://www.serviceonline.gov.in/"
+  },
+  {
+   "text": "Proceed",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=908"
+  },
+  {
+   "text": "Proceed",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=918"
+  },
+  {
+   "text": "Proceed",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=836"
+  },
+  {
+   "text": "Proceed",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=948"
+  },
+  {
+   "text": "Proceed",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=949"
+  },
+  {
+   "text": "Proceed",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1113"
+  },
+  {
+   "text": "Proceed",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1217"
+  },
+  {
+   "text": "Proceed",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=951"
+  },
+  {
+   "text": "Proceed",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=950"
+  },
+  {
+   "text": "Resident Certificate",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=908"
+  },
+  {
+   "text": "Income Certificate",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=918"
+  },
+  {
+   "text": "Guardianship Certificate",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=836"
+  },
+  {
+   "text": "Scheduled Caste Certificate",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=948"
+  },
+  {
+   "text": "Scheduled Tribe Certificate",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=949"
+  },
+  {
+   "text": "Income and Asset Certificate",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1113"
+  },
+  {
+   "text": "Legal Heir Certificate",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1217"
+  },
+  {
+   "text": "OBC Certificate",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=951"
+  },
+  {
+   "text": "SEBC Certificate",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=950"
+  },
+  {
+   "text": "Solvency Certificate",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1238"
+  },
+  {
+   "text": "Certified Copy of RoR",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=972"
+  },
+  {
+   "text": "Seed License (District)",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=765"
+  },
+  {
+   "text": "Seed License (State)",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=714"
+  },
+  {
+   "text": "Nursery Registration System",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=815"
+  },
+  {
+   "text": "Candidates Qualified In The Examination For Issuance Of Scc",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1576"
+  },
+  {
+   "text": "Candidates qualified in the examination for issuance of Workman Permit",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1561"
+  },
+  {
+   "text": "Chartered Electrical Safety Engineer Authorisation on Examination basis",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1583"
+  },
+  {
+   "text": "New Contractor License",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1532"
+  },
+  {
+   "text": "Renewal Of Contractor License",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1543"
+  },
+  {
+   "text": "Temporary Contractor License",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1544"
+  },
+  {
+   "text": "Workman Permit on Exemption basis",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1480"
+  },
+  {
+   "text": "Time Extension Of Temporary Contractor License",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1549"
+  },
+  {
+   "text": "Renewal of Supervisor Certificate Of Competency",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1479"
+  },
+  {
+   "text": "Renewal of Workman Permit",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1531"
+  },
+  {
+   "text": "Supervisor Certificate of Competency on exemption basis",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1421"
+  },
+  {
+   "text": "Approval for DG Set Installation",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1740"
+  },
+  {
+   "text": "Approval for DG Set Installation on Emergency Basis",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1747"
+  },
+  {
+   "text": "Inspection of Electrical Installation Other Than DG Sets",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1674"
+  },
+  {
+   "text": "Inspection of Electrical Installation Other Than DG Sets on Emergency Basis",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1675"
+  },
+  {
+   "text": "Renewal of Chartered Electrical Safety Engineer Certificate",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1909"
+  },
+  {
+   "text": "Issue of Chartered Electrical Safety Engineer Authorization on Exemption Basis",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1908"
+  },
+  {
+   "text": "Filling of Quarterly Return By Chartered Electrical Safety Engineer",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1910"
+  },
+  {
+   "text": "Drawing Approval Of Electrical Works Installation",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1912"
+  },
+  {
+   "text": "Testing of Insulation Tester and Earth Tester",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1947"
+  },
+  {
+   "text": "Testing Of Single Phase Energy Meter/ CT (up to 650 V) PT (up to 33 KV)/ Transformer Oil",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1945"
+  },
+  {
+   "text": "Testing of Three Phase Energy Meter/CT above 650V/PT above 33KV",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1946"
+  },
+  {
+   "text": "Workman Permit on Examination Basis For Other than Workman EHT",
+   "href": "https://edistrict.odisha.gov.in/serviceLink.html?serviceToken=EiWAm2anLq"
+  },
+  {
+   "text": "Grievance Redressal on online services of EIC Electricity",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=3077"
+  },
+  {
+   "text": "Workman Permit on Examination Basis For Workman EHT",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=2841"
+  },
+  {
+   "text": "Animal Health Certificate Under The ARD Sector",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=858"
+  },
+  {
+   "text": "Support to Farmers for setting up Sheep/ Goat/Broiler/Pig Units",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=162"
+  },
+  {
+   "text": "Postmortem Reports and Insurance Documents for insurance claim of animals",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=161"
+  },
+  {
+   "text": "Risk Management and Insurance coverage for Large and Small Animals",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1609"
+  },
+  {
+   "text": "Support to Farmers for Broiler Farming (500 Bird Capacity) under Deep Litter System in Individual Mode",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1481"
+  },
+  {
+   "text": "Support to Farmers for New Poultry Layer Units in Cage System Farming 1000 Bird Capacity",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1489"
+  },
+  {
+   "text": "Registration certificate and fishing license under OMFRA",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1562"
+  },
+  {
+   "text": "Renewal of fishing license under OMFRA",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1563"
+  },
+  {
+   "text": "Brackish water pond development through excavation of new tanks",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1560"
+  },
+  {
+   "text": "Intensive fresh-water aqua-culture through excavation of new fish ponds",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1520"
+  },
+  {
+   "text": "Online registration of brackish water farm and hatcheries",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1591"
+  },
+  {
+   "text": "Online renewal of registration of brackish water farm and hatcheries",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1594"
+  },
+  {
+   "text": "Popularization of Fisheries Machinery/ Equipment / Implements",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1519"
+  },
+  {
+   "text": "Promotion of bio-floc technology for intensive shrimp and fish farming",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1581"
+  },
+  {
+   "text": "Promotion of polylining technology for intensive shrimp farming",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1580"
+  },
+  {
+   "text": "Ravindra Mandap Booking",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=884"
+  },
+  {
+   "text": "Utkal Mandap Booking",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1090"
+  },
+  {
+   "text": "BhanjaKala Mandap Booking",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1089"
+  },
+  {
+   "text": "PC & PNDT",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=786"
+  },
+  {
+   "text": "Authentication of Original Educational Qualification",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=332"
+  },
+  {
+   "text": "Issue of Duplicate Marksheet (CHSE)",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=383"
+  },
+  {
+   "text": "Authentication of Original Certificate OR Marksheet",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1607"
+  },
+  {
+   "text": "Provisional Certificates",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1590"
+  },
+  {
+   "text": "TRANSFER CERTIFICATE BY ELEMENTARY / SECONDARY SCHOOLS",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1604"
+  },
+  {
+   "text": "Building Plan Approval for Residential 3 storied or more",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=899"
+  },
+  {
+   "text": "Building Plan Approval for Commercial 3 storied or more",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=901"
+  },
+  {
+   "text": "Building Plan Approval for Residential upto 2 storied",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=857"
+  },
+  {
+   "text": "Building Plan Approval for Commercial upto 2 storied",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=900"
+  },
+  {
+   "text": "Issuance Of Online MEMO",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1408"
+  },
+  {
+   "text": "Online Certified Copy",
+   "href": "https://edistrict.odisha.gov.in/serviceLink.html?serviceToken=dhbTEhefg7"
+  },
+  {
+   "text": "Cards For TVCC Hospital System",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=1978"
+  },
+  {
+   "text": "On-line application Receipt and Processing for GRS Recruitment for Cuttack District",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=2294"
+  },
+  {
+   "text": "On-line application Receipt and Processing for GRS Recruitment",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=3018"
+  },
+  {
+   "text": "Recruitment To The Post Of GETs",
+   "href": "https://edistrict.odisha.gov.in/directApply.do?serviceId=24080002"
+  },
+  {
+   "text": "Habishyali Accomodation,Puri",
+   "href": "https://edistrict.odisha.gov.in/serviceLink.html?serviceToken=C8Us0W8tbL"
+  },
+  {
+   "text": "Black Diamond Complex,Anugul",
+   "href": "https://edistrict.odisha.gov.in/serviceLink.html?serviceToken=HvQSIm4PAj"
+  },
+  {
+   "text": "Frequently Asked Questions",
+   "href": "https://www.india.gov.in/"
+  },
+  {
+   "text": "How citizen can apply for a Service?",
+   "href": "https://edistrict.odisha.gov.in/#collapseOne"
+  },
+  {
+   "text": "How to track my application status online?",
+   "href": "https://edistrict.odisha.gov.in/#collapseTwo"
+  },
+  {
+   "text": "How can I take a print of my issued e-Certificate?",
+   "href": "https://edistrict.odisha.gov.in/#collapseThree"
+  },
+  {
+   "text": "How can one verify the issued e-Certificates?",
+   "href": "https://edistrict.odisha.gov.in/#collapseFour"
+  },
+  {
+   "text": "How can I register my DSC?",
+   "href": "https://edistrict.odisha.gov.in/#collapseFive"
+  },
+  {
+   "text": "ServicePlus",
+   "href": "https://www.serviceonline.gov.in/"
+  },
+  {
+   "text": "Home",
+   "href": "https://edistrict.odisha.gov.in/#intro"
+  },
+  {
+   "text": "Services",
+   "href": "https://edistrict.odisha.gov.in/#services"
+  },
+  {
+   "text": "FAQ",
+   "href": "https://edistrict.odisha.gov.in/#team"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://edistrict.odisha.gov.in/#contact"
+  }
+ ],
+ "attempt": 1
+}

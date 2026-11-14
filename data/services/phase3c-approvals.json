@@ -1,0 +1,280 @@
+{
+  "version": 13,
+  "organizations": [
+    {
+      "id": "org-7077af4eaac38e33",
+      "name": "National Scholarship Portal",
+      "websiteIds": [
+        "national-scholarship-portal"
+      ]
+    },
+    {
+      "id": "org-05a96313c65f060b",
+      "name": "Tamil Nadu eSevai Portal, Tamil Nadu",
+      "websiteIds": [
+        "igod-2715637a8f399700"
+      ]
+    },
+    {
+      "id": "org-7ed359018f05059a",
+      "name": "Ministry of Labour & Employment",
+      "websiteIds": [
+        "national-career-service"
+      ]
+    },
+    {
+      "id": "org-e999f31ac201d555",
+      "name": "Unique Identification Authority of India",
+      "websiteIds": [
+        "uidai"
+      ]
+    },
+    {
+      "id": "org-afff511c4bead63d",
+      "name": "Department of Administrative Reforms & Public Grievances",
+      "websiteIds": [
+        "cpgrams"
+      ]
+    },
+    {
+      "id": "org-7f72318d5949adac",
+      "name": "Department of Personnel and Training",
+      "websiteIds": [
+        "rti-online"
+      ]
+    },
+    {
+      "id": "org-caf4f9732b6768f4",
+      "name": "Ministry of Micro, Small and Medium Enterprises",
+      "websiteIds": [
+        "udyam-registration"
+      ]
+    },
+    {
+      "id": "org-5763d05f09e5a8be",
+      "name": "Ministry of Micro, Small & Medium Enterprises (MSME)",
+      "websiteIds": [
+        "igod-1d591544b1c2e25d"
+      ]
+    },
+    {
+      "id": "org-f766679368dbf7d4",
+      "name": "Online Citizen Services Portal, Delhi",
+      "websiteIds": [
+        "igod-9908672336cdd912"
+      ]
+    },
+    {
+      "id": "org-af215f9440cbcc78",
+      "name": "eDistrict - Services, Kerala",
+      "websiteIds": [
+        "igod-50b73c3937b8d29b"
+      ]
+    },
+    {
+      "id": "org-7f432ad3e33f5840",
+      "name": "eDistrict Portal, Odisha",
+      "websiteIds": [
+        "igod-5e885f0e333d5206"
+      ]
+    },
+    {
+      "id": "org-fdd5069647df76c9",
+      "name": "Revenue and Disaster Management Department, Puducherry",
+      "websiteIds": [
+        "igod-7c7865e8e6982bc1"
+      ]
+    },
+    {
+      "id": "org-35b358bf8f6aff0f",
+      "name": "Official Portal of Himachal Pradesh Government",
+      "websiteIds": [
+        "igod-ffa4189a2ac66991"
+      ]
+    },
+    {
+      "id": "org-13df6f9a70161c3e",
+      "name": "Income Tax Department, Ministry of Finance",
+      "websiteIds": [
+        "income-tax-efiling"
+      ]
+    },
+    {
+      "id": "org-e5d43c1e786f7b17",
+      "name": "Voters' Service Portal, Election Commission of India",
+      "websiteIds": [
+        "igod-85affa23dc47255b"
+      ]
+    }
+  ],
+  "approvals": {
+    "dl-income-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "244906e48d1bb92a27c3fbaa07766d95e8d1a0e0bb6a0ac223cb2a3d066bd97f",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "dl-domicile-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "a56a1e9f504187e959b4d47bf8bf1584b354d53f69cc83a806fd9b19dbc1af1f",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "dl-obc-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "44e729a3dc74887a1043bac14f2072e6b637f5ac564aabad24cd3bae2b4ee18e",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "dl-sc-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "34068d3040cdd42b4e8e0cf9b096806250aa7b23b9f211a105783dcb0ac8776f",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "dl-surviving-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "1f33237489870b29dfbec0ad6ab6af2337570fac31503a17583db4870d0d0546",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "kl-income-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "b8ebee960e80a40c18df56aecea92858465fbd33f54381eda26209a6e487951a",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "kl-nativity-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "22e5182644f17e63dae588fbf3fbef3e1f2d283ff0e02c5654679764240f8d77",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "kl-caste-obc-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "db62e3d5ba87da1f4ab298cdf3ba3c71e6571acc3ce454f5f811f522313c1af8",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "kl-community-sc-st-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "c7108514ba0143ae55216ed6654568d341b04beb4e4d684b12131599a8a47fde",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "kl-domicile-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "853ebcb23b88158b4089af313fa5c40c3c67376b839240d85993c1087cbb28b3",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "kl-family-membership-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "eecd54722dcf7c885356d80715e33a3de34391b574e2871a1d5e8f4b50a58006",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "kl-relationship-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "4c2770b0c22b210ee9c86de91914f318401b72018c824db6814aa11f8685d649",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "kl-legal-heir-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "c336305dc4a54cacc31b6facdad15347e9b6ffab3c5292ce758fb914e47fa1ee",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "od-resident-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "d22579eeee0c05a2b4815061f26a512ae395e8b83630917d68706093a5e0a42f",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "od-income-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "8a54442f16b5d0bfc9dedf6cfd8ff84efdd949565e7d72c1a32e3f931324258e",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "od-sc-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "fffa3a6c568c0d4c1d0488886557cc2a4c08e0c64391d5ecb9e0c1977d0abdc3",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "od-st-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "3d134049f339aa0ac1d92e1805bf3e18f973371572c634a675b44fd948b85a60",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "od-ews-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "ef1e9dc719baaa574eb55175259eec718b26b90683e07c838c97dde0793859b8",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "od-legal-heir-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "c53a56db08f1a4983960275f5128ecc85e96bb189bbd2b31b7342c4a5164ad65",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "od-obc-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "59fa2aea20398b52247317e952d9d84d0855b14751f7c22be977d612a1d88aad",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "od-sebc-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "2c7462e7afca1cea94a0c9a2cd04199460889dcc686584c18f7e4dfac6491001",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "py-income-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "0b6802981cca590a92e1f05d4e76552bcb105ddce4e67aabc115ef51f38f794e",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "py-residence-certificate": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "685a1fd9e8d75254c8a7d6fc03ee39d57608312e78dc575b830f9889e05e6ac9",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "instant-epan-new": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "af4657bbe2bc3fee9627ff03e462ea26a7641ae609f5ef3f84b86f5bf6487908",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "instant-epan-download": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "5220cf60319b56b353a88f51e62ed80910e3df2965a3d064f02df203ae788fda",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "eci-new-elector-form6": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "6b2a43ec7bd6f83db5833548017c0d8ef5d0486fc027340db0ddc73a413065db",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "eci-elector-form8": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "4e09ad24fb87997d0aab7d7e42f1c8760323824089ddb2d22e903b9d93429612",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    },
+    "pmegp-enterprise-support": {
+      "reviewedBy": "Codex",
+      "reviewedOn": "2026-10-16",
+      "candidateSha256": "08cc1a47b9a7b5ef7419051db60c20f854dd4088cef327a3ec41e72898519604",
+      "notes": "Reviewed retained official source text and linked public entry where confirmed. Selected facts only; unknown fields and route limitations retained. Local editorial approval, not government endorsement."
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "startedAt": "2026-10-16T21:12:54.319667+00:00",
+  "scope": "Phase 5 native UI redesign; tests run only in in.jansetu.app.qa",
+  "previewBefore": {
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "91c4897bb27a6f960465e3a186d3bcd23129f1b44a0c9f1815b4909490dc7bde",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "commands": {
+    "python": {
+      "exitCode": 0,
+      "seconds": 17.75
+    },
+    "node": {
+      "exitCode": 0,
+      "seconds": 0.64
+    },
+    "gradle": {
+      "exitCode": 0,
+      "seconds": 566.328
+    }
+  },
+  "pythonTests": 71,
+  "nodeTests": {
+    "tests": 7,
+    "pass": 7,
+    "fail": 0,
+    "skipped": 0
+  },
+  "jvm": {
+    "tests": 38,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "android": {
+    "tests": 34,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 23
+  },
+  "protectedData": {
+    "app/src/main/assets/catalog.json": "af25cfc31eed917c3d44dadf3d6c2db781e406bba54fb8aa549bc43bab93cd1a",
+    "data/review_queue.json": "5f5a69526379ca3d26f077b1c4ffe2d1f64b1bffc1d8668bd57ec5f489972c60",
+    "data/services/catalog.json": "dbbfac97529d43761b34ec542e2fdf98b3aaaf6f87892e3b16731fcc50a6b15a",
+    "data/services/review_queue.json": "ff5bdfbb87691edc7ea3ae067c25a6641aa7fa9c02254baf26d083110f3eaf1e",
+    "app/src/main/assets/catalog-update-public.der": "08b89c0df4afa20b187d827fa04942afaa9a74d4b5c3fa4bb8cb1157fa1884d7",
+    "extension/manifest.json": "12daac2513e721be5c63645bd77c05e9344d1380445816d3eafdeb90c6cf9b96",
+    "extension/readability.css": "729be501fff81ffdcafdf54d6ff8424eb78c0347e423c4a37cbc906c3afde4ef",
+    "extension/background.js": "b7445ecb259caebaa712e49ad7d59ab3ab2d5bd45a7f45f25c5cab1fcd97885a"
+  },
+  "previewAfter": {
+    "no_backup/tracker/applications.db": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "shared_prefs/jansetu_preferences.xml": "91c4897bb27a6f960465e3a186d3bcd23129f1b44a0c9f1815b4909490dc7bde",
+    "shared_prefs/tracker_alarm_ids.xml": "cb5a631ab4b4587a1d60e78f681345ffeb41e3ca7746f94e5112d676cfdb3cd4",
+    "files/catalog-update.jansetu": null
+  },
+  "artifacts": {
+    "debug": {
+      "bytes": 21005709,
+      "sha256": "145b16ed0b4bb0f54de3d8c95402d70fa4f1c6d9c6894fb6d824cad24c7827ea"
+    },
+    "qa": {
+      "bytes": 20167999,
+      "sha256": "c5ee8aef42fdcfb7bbe4e105e7dcbdb56fce0354494fad35fc326a6bcf6c717a"
+    }
+  },
+  "passed": true,
+  "finishedAt": "2026-10-16T21:22:39.724294+00:00"
+}

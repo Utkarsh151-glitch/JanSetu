@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-18649bde195e5a01",
+ "url": "https://cpwdsewa.gov.in/",
+ "checkedAt": "2026-10-17T19:17:25+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://cpwdsewa.gov.in/\nCall log:\n  - navigating to \"https://cpwdsewa.gov.in/\", waiting until ",
+ "attempt": 1
+}

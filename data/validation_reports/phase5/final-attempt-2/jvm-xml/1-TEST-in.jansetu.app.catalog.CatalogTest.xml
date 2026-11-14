@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.jansetu.app.catalog.CatalogTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-16T20:46:52.661Z" hostname="LAPTOP-FAIP099K" time="3.011">
+  <properties/>
+  <testcase name="searchUsesAllMeaningfulTermsAndSafeFilters" classname="in.jansetu.app.catalog.CatalogTest" time="1.033"/>
+  <testcase name="parserRejectsUnverifiedAndUnsafeRecords" classname="in.jansetu.app.catalog.CatalogTest" time="0.753"/>
+  <testcase name="searchFindsNeedAndCategory" classname="in.jansetu.app.catalog.CatalogTest" time="0.405"/>
+  <testcase name="guidesAreSourceBackedAndMissingGuidesAreAllowed" classname="in.jansetu.app.catalog.CatalogTest" time="0.58"/>
+  <testcase name="bundledCatalogHasOnlyAttributedVerifiedHttpsRecords" classname="in.jansetu.app.catalog.CatalogTest" time="0.24"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

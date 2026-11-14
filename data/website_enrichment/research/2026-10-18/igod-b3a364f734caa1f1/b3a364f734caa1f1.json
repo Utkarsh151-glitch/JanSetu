@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-b3a364f734caa1f1",
+ "url": "https://hpepass.cgg.gov.in/",
+ "checkedAt": "2026-10-17T19:18:31+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://hpepass.cgg.gov.in/\nCall log:\n  - navigating to \"https://hpepass.cgg.gov.in/\", waiting ",
+ "attempt": 1
+}

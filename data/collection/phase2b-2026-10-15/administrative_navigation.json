@@ -1,0 +1,284 @@
+{
+  "checkedAt": "2026-10-14T20:46:09+00:00",
+  "robots": {
+    "url": "https://lgdirectory.gov.in/robots.txt",
+    "checkedAt": "2026-10-14T20:46:05+00:00",
+    "status": "HTTP_ERROR",
+    "httpStatus": 404,
+    "transport": "curl normal TLS validation",
+    "exitCode": 0,
+    "error": "",
+    "location": null,
+    "elapsedMs": 889,
+    "snapshot": "data\\collection\\phase2b-2026-10-15\\administrative_snapshots\\f63be0e19c33a4563bdf1eee223c397789042f81fbb0737e8db246dbf7e7b512.json",
+    "method": "GET",
+    "wireSha256": "20c3c2a62bd5361e36a39e59ab2d9f14ae1759f8b3511a84ba89ee14a88a5330",
+    "bodyBytes": 28474,
+    "attempts": [
+      {
+        "checkedAt": "2026-10-14T20:46:05+00:00",
+        "status": "HTTP_ERROR",
+        "httpStatus": 404,
+        "exitCode": 0,
+        "error": ""
+      }
+    ],
+    "pageTitle": "Lable.badrequesterror",
+    "robotsText": "",
+    "bodyRetention": "discarded; title/status/size/hash only",
+    "text": "User-agent: *\nAllow: /\n",
+    "crawlDelay": null
+  },
+  "home": {
+    "url": "https://lgdirectory.gov.in/",
+    "checkedAt": "2026-10-14T20:46:09+00:00",
+    "status": "OK",
+    "httpStatus": 200,
+    "transport": "curl normal TLS validation",
+    "exitCode": 0,
+    "error": "",
+    "location": null,
+    "elapsedMs": 991,
+    "snapshot": "data\\collection\\phase2b-2026-10-15\\administrative_snapshots\\5b905d3a252deafc180df3466a15af9bc97f66529d0b2299dea71224694c2d9c.json",
+    "method": "GET",
+    "wireSha256": "5aef4b56141b81ec1ca5bad45298d04e61f78e0b6d5bf21a02e0a939d837ad45",
+    "bodyBytes": 230997,
+    "attempts": [
+      {
+        "checkedAt": "2026-10-14T20:46:09+00:00",
+        "status": "OK",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "error": ""
+      }
+    ],
+    "pageTitle": "LGD - Local Government Directory, Government of India",
+    "bodyRetention": "discarded; title/status/size/hash only"
+  },
+  "links": [
+    {
+      "name": "States/UTs",
+      "url": "https://lgdirectory.gov.in/globalviewstateforcitizen.do"
+    },
+    {
+      "name": "Districts",
+      "url": "https://lgdirectory.gov.in/globalviewdistrictforcitizen.do"
+    },
+    {
+      "name": "Sub-Districts",
+      "url": "https://lgdirectory.gov.in/globalviewsubdistrictforcitizen.do"
+    },
+    {
+      "name": "LGD Codes of State/UTs",
+      "url": "https://lgdirectory.gov.in/globalviewstateforcitizen.do"
+    },
+    {
+      "name": "LGD Codes of Districts",
+      "url": "https://lgdirectory.gov.in/globalviewdistrictforcitizen.do"
+    },
+    {
+      "name": "LGD Codes of Sub-Districts",
+      "url": "https://lgdirectory.gov.in/globalviewsubdistrictforcitizen.do"
+    },
+    {
+      "name": "LGD Codes of Local Bodies",
+      "url": "https://lgdirectory.gov.in/globalViewLocalBodyForCitizen.do"
+    },
+    {
+      "name": "GPs mapped to villages of multiple districts",
+      "url": "https://lgdirectory.gov.in/exceptionalReportsc.do"
+    },
+    {
+      "name": "Development Blocks mapped to villages of multiple districts",
+      "url": "https://lgdirectory.gov.in/exceptionalReportse.do"
+    },
+    {
+      "name": "Inhabitant villages not mapped to any local body",
+      "url": "https://lgdirectory.gov.in/exceptionalReportsf.do"
+    },
+    {
+      "name": "List of land region entity FULLY mapped under more than one local bodies",
+      "url": "https://lgdirectory.gov.in/exceptionReportForFullyMappedCover.do"
+    },
+    {
+      "name": "Villages which are mapped to development block but not mapped to Rural local bodies and vice versa",
+      "url": "https://lgdirectory.gov.in/exceptionalReportOnStateSelection.do"
+    },
+    {
+      "name": "List of All urban  local bodies with no Wards.",
+      "url": "https://lgdirectory.gov.in/exceptionalReportOnUrbanLbNoWard.do"
+    },
+    {
+      "name": "Consolidated Local Government Directory (LGD) Codes of Rural Local Bodies",
+      "url": "https://lgdirectory.gov.in/rptConsolidateforRuralLB.do"
+    },
+    {
+      "name": "Report on District wise Development Blocks and Mapped Gram Panchayats",
+      "url": "https://lgdirectory.gov.in/rptConsolidateBlockGramPanchayat.do"
+    },
+    {
+      "name": "Report on State Panchayat Set-up",
+      "url": "https://lgdirectory.gov.in/rptStatePanchayats.do"
+    },
+    {
+      "name": "Report on State wise Unmapped Villages (Villages not mapped to any village panchayats/equivalent local body)",
+      "url": "https://lgdirectory.gov.in/stateWiseUnmappedVillagesReport.do"
+    },
+    {
+      "name": "Report on Invalidated Local Bodies",
+      "url": "https://lgdirectory.gov.in/localBodyInvalidation.do"
+    },
+    {
+      "name": "Download Directory",
+      "url": "https://lgdirectory.gov.in/downloadDirectory.do"
+    },
+    {
+      "name": "CBT(Download Training File)",
+      "url": "https://lgdirectory.gov.in/downLoadCBT.do"
+    },
+    {
+      "name": "LGD Codes of States/UTs",
+      "url": "https://lgdirectory.gov.in/globalviewstateforcitizen.do"
+    },
+    {
+      "name": "LGD Codes of Districts",
+      "url": "https://lgdirectory.gov.in/globalviewdistrictforcitizen.do"
+    },
+    {
+      "name": "LGD Codes of Sub-Districts",
+      "url": "https://lgdirectory.gov.in/globalviewsubdistrictforcitizen.do"
+    },
+    {
+      "name": "Consolidated Local Government Directory (LGD) Codes of Rural Local Bodies",
+      "url": "https://lgdirectory.gov.in/rptConsolidateforRuralLB.do"
+    },
+    {
+      "name": "LGD Codes of District wise Villages and their mapped Gram Panchayats and Urban localbodies",
+      "url": "https://lgdirectory.gov.in/rptConsolidateVillageGramPanchayat.do"
+    },
+    {
+      "name": "LGD Codes of District wise Development Blocks and Mapped Gram Panchayats/TLB",
+      "url": "https://lgdirectory.gov.in/rptConsolidateBlockGramPanchayat.do"
+    },
+    {
+      "name": "Report on State Panchayat Set-up",
+      "url": "https://lgdirectory.gov.in/rptStatePanchayats.do"
+    },
+    {
+      "name": "Report on State wise Unmapped Villages (Villages not mapped to any village panchayats/equivalent local body)",
+      "url": "https://lgdirectory.gov.in/stateWiseUnmappedVillagesReport.do"
+    },
+    {
+      "name": "State wise Village to GP/ULB Mapping Status",
+      "url": "https://lgdirectory.gov.in/stateWiseGPtoVillageMappingReport.do"
+    },
+    {
+      "name": "State wise Village to GP Mapping Status",
+      "url": "https://lgdirectory.gov.in/stateWiseGPtoVillageMappingReportB.do"
+    },
+    {
+      "name": "State wise Gram Panchayat to Census village mapping Status Detailed",
+      "url": "https://lgdirectory.gov.in/stateWiseGramPanchayats.do"
+    },
+    {
+      "name": "Unmapped Landregion/Local Bodies/Ward for PC/AC",
+      "url": "https://lgdirectory.gov.in/unmapLBWardforPCAC.do"
+    },
+    {
+      "name": "Report on District Wise Local Bodies",
+      "url": "https://lgdirectory.gov.in/districtWiseLBReport.do"
+    },
+    {
+      "name": "Report of Summary on Wards",
+      "url": "https://lgdirectory.gov.in/lbWiseWardforCitizen.do"
+    },
+    {
+      "name": "Report on District Wise Invalidated Villages",
+      "url": "https://lgdirectory.gov.in/rptDistrictWiseInvalidatedVillage.do"
+    },
+    {
+      "name": "District Panchayat Ward/Constituency Wise village Panchayat",
+      "url": "https://lgdirectory.gov.in/dpwardConstituencyWiseVP.do"
+    },
+    {
+      "name": "District wise Detailed Report",
+      "url": "https://lgdirectory.gov.in/districtWiseDetailReport.do"
+    },
+    {
+      "name": "Ward to Halka Mapping Report (Jharkhand State)",
+      "url": "https://lgdirectory.gov.in/wardToHalkaMappingReport.do"
+    },
+    {
+      "name": "Halka to Village Mapping Report (Jharkhand State)",
+      "url": "https://lgdirectory.gov.in/halkaToVillageMappingReport.do"
+    },
+    {
+      "name": "StateWise GIS Mapped Local Body",
+      "url": "https://lgdirectory.gov.in/globalViewStatewiseLocalBody.do"
+    },
+    {
+      "name": "State Wise Population",
+      "url": "https://lgdirectory.gov.in/stateWisePopulation.do"
+    },
+    {
+      "name": "Report on State Wise Summary of ULBs & Wards",
+      "url": "https://lgdirectory.gov.in/getStateWiseUrbanLB.do"
+    },
+    {
+      "name": "Report on State wise Last Updation Date",
+      "url": "https://lgdirectory.gov.in/getStatewiseLastupdated.do"
+    },
+    {
+      "name": "Number of village Panchayats/Equivalent local bodies which are mapped with part of villages",
+      "url": "https://lgdirectory.gov.in/getStatewiseTotalGPNPartlyMappedGP.do"
+    },
+    {
+      "name": "State Wise Village Mapping Status",
+      "url": "https://lgdirectory.gov.in/getStatewiseVillageMappedCount.do"
+    },
+    {
+      "name": "State Wise Unmapped Vilages List",
+      "url": "https://lgdirectory.gov.in/stateWiseUnmappedVillages.do"
+    },
+    {
+      "name": "Report on Invalidated Local Bodies",
+      "url": "https://lgdirectory.gov.in/localBodyInvalidation.do"
+    },
+    {
+      "name": "Villages which are partially mapped with more than one village level rural local bodies",
+      "url": "https://lgdirectory.gov.in/exceptionReportBasedonYear.do"
+    },
+    {
+      "name": "Report on Local Bodies in Disturb State",
+      "url": "https://lgdirectory.gov.in/getLocalBodyInDisturbedState.do"
+    },
+    {
+      "name": "Report on Datewise Active Entities (Local Bodies/Land Region)",
+      "url": "https://lgdirectory.gov.in/localbodyhierarchy.do"
+    },
+    {
+      "name": "Aspirational District Wise Village Level Localbodies",
+      "url": "https://lgdirectory.gov.in/aspirationalDistrictWiseVillage.do"
+    },
+    {
+      "name": "State Wise PC/AC Covered Entity Count",
+      "url": "https://lgdirectory.gov.in/stateWiseEntityCount.do"
+    },
+    {
+      "name": "Report on State wise Administrative Units & Panchayati Raj Institutions",
+      "url": "https://lgdirectory.gov.in/reportonStatewiseEntityDetails.do"
+    },
+    {
+      "name": "Learn How to download reports",
+      "url": "https://lgdirectory.gov.in/"
+    },
+    {
+      "name": "Learn How to create a PRI Local Body",
+      "url": "https://lgdirectory.gov.in/"
+    },
+    {
+      "name": "Existing list of Sub-districts of Tripura have been replaced with 23 Sub-divisions of Revenue Department",
+      "url": "https://lgdirectory.gov.in/"
+    }
+  ]
+}

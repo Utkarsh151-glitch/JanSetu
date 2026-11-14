@@ -1,0 +1,26 @@
+{
+  "url": "https://lgdirectory.gov.in/globalViewLocalBodyForCitizen.do",
+  "checkedAt": "2026-10-14T20:46:42+00:00",
+  "status": "OK",
+  "httpStatus": 200,
+  "transport": "curl normal TLS validation",
+  "exitCode": 0,
+  "error": "",
+  "location": null,
+  "elapsedMs": 582,
+  "snapshot": "data\\collection\\phase2b-2026-10-15\\administrative_snapshots\\8e7c824815441724e6871a2d5e421b08ca2284556d3bf310c2f858a80b4a94f3.json",
+  "method": "GET",
+  "wireSha256": "0e432315ebf1141619522cef7f29f47e38440ff204ad99f71e5b59c6de28aafc",
+  "bodyBytes": 76292,
+  "attempts": [
+    {
+      "checkedAt": "2026-10-14T20:46:42+00:00",
+      "status": "OK",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "error": ""
+    }
+  ],
+  "pageTitle": "LGD - Local Government Directory, Government of India",
+  "bodyRetention": "discarded; title/status/size/hash only"
+}

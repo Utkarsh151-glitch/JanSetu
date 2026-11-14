@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-2bdd905020581df7",
+ "url": "https://telanganaepass.cgg.gov.in/",
+ "checkedAt": "2026-10-17T19:18:40+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://telanganaepass.cgg.gov.in/\nCall log:\n  - navigating to \"https://telanganaepass.cgg.gov.",
+ "attempt": 1
+}

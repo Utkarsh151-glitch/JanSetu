@@ -1,0 +1,5 @@
+{
+  "archive": ".local/phase4-baseline-source.zip",
+  "sha256": "e471be855aa3ad53830b830aafcc0a502ecaa6123bd3352ec4346e9114707c3c",
+  "note": "Core Phase 3C functional source plus isolated QA build configuration and Phase 4 measurement tooling. Extract only into a separate full local workspace copy; preserve the current project. Reuse hash-matching data files. No private signing key is included."
+}

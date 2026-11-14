@@ -1,0 +1,12 @@
+{
+ "websiteId": "uidai",
+ "url": "https://uidai.gov.in/en/my-aadhaar",
+ "checkedAt": "2026-10-17T11:02:09+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Single retry after HTTP 500 (server error) in the first capture; HTTP 403 responses are access decisions and are not retried",
+ "httpStatus": 500,
+ "finalUrl": "https://uidai.gov.in/en/my-aadhaar",
+ "result": "access_or_server_response; not a content observation",
+ "attempt": 2
+}

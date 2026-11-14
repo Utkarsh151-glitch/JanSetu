@@ -1,0 +1,134 @@
+{
+  "method": "single read-only Chrome 390x844 viewport",
+  "pages": [
+    {
+      "id": "india-portal-home",
+      "url": "https://www.india.gov.in/",
+      "checkedAt": "2026-10-13T21:21:36+00:00",
+      "elapsedMsSingleRun": 328,
+      "httpStatus": 403,
+      "finalUrl": "https://www.india.gov.in/",
+      "result": "access_or_server_response; no UI conclusion"
+    },
+    {
+      "id": "scholarship-home",
+      "url": "https://scholarships.gov.in/home",
+      "checkedAt": "2026-10-13T21:21:38+00:00",
+      "elapsedMsSingleRun": 3562,
+      "httpStatus": 200,
+      "finalUrl": "https://scholarships.gov.in/home",
+      "screening": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 402,
+        "horizontalOverflow": true,
+        "images": 58,
+        "imagesMissingAlt": 51,
+        "links": 72,
+        "buttons": 17,
+        "formControls": 8,
+        "smallParagraphs": 8,
+        "visibleParagraphs": 26
+      },
+      "screenshot": "docs/screenshots/audit-scholarship-home.png"
+    },
+    {
+      "id": "rti-home",
+      "url": "https://rtionline.gov.in/",
+      "checkedAt": "2026-10-13T21:21:46+00:00",
+      "elapsedMsSingleRun": 547,
+      "httpStatus": 200,
+      "finalUrl": "https://rtionline.gov.in/",
+      "screening": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 980,
+        "horizontalOverflow": true,
+        "images": 4,
+        "imagesMissingAlt": 0,
+        "links": 18,
+        "buttons": 2,
+        "formControls": 3,
+        "smallParagraphs": 5,
+        "visibleParagraphs": 5
+      },
+      "screenshot": "docs/screenshots/audit-rti-home.png"
+    },
+    {
+      "id": "digilocker-home",
+      "url": "https://www.digilocker.gov.in/",
+      "checkedAt": "2026-10-13T21:21:51+00:00",
+      "elapsedMsSingleRun": 343,
+      "httpStatus": 200,
+      "finalUrl": "https://www.digilocker.gov.in/",
+      "screening": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 390,
+        "horizontalOverflow": false,
+        "images": 85,
+        "imagesMissingAlt": 1,
+        "links": 97,
+        "buttons": 49,
+        "formControls": 2,
+        "smallParagraphs": 41,
+        "visibleParagraphs": 43
+      },
+      "screenshot": "docs/screenshots/audit-digilocker-home.png"
+    },
+    {
+      "id": "lakshadweep-home",
+      "url": "https://lakshadweep.gov.in/",
+      "checkedAt": "2026-10-13T21:21:55+00:00",
+      "elapsedMsSingleRun": 9000,
+      "httpStatus": 200,
+      "finalUrl": "https://lakshadweep.gov.in/",
+      "screening": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 390,
+        "horizontalOverflow": false,
+        "images": 57,
+        "imagesMissingAlt": 0,
+        "links": 190,
+        "buttons": 14,
+        "formControls": 1,
+        "smallParagraphs": 11,
+        "visibleParagraphs": 11
+      },
+      "screenshot": "docs/screenshots/audit-lakshadweep-home.png"
+    },
+    {
+      "id": "coimbatore-home",
+      "url": "https://www.ccmc.gov.in/",
+      "checkedAt": "2026-10-13T21:22:10+00:00",
+      "elapsedMsSingleRun": 1765,
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccmc.gov.in/",
+      "screening": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "documentWidth": 390,
+        "horizontalOverflow": false,
+        "images": 111,
+        "imagesMissingAlt": 46,
+        "links": 296,
+        "buttons": 3,
+        "formControls": 7,
+        "smallParagraphs": 5,
+        "visibleParagraphs": 20
+      },
+      "screenshot": "docs/screenshots/audit-coimbatore-home.png"
+    }
+  ]
+}

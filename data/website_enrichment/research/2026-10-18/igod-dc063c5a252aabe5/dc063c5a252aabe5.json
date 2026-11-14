@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-dc063c5a252aabe5",
+ "url": "https://scholarship.nagaland.gov.in/",
+ "checkedAt": "2026-10-17T19:17:17+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://scholarship.nagaland.gov.in/\nCall log:\n  - navigating to \"https://scholarship.nagaland.",
+ "attempt": 1
+}

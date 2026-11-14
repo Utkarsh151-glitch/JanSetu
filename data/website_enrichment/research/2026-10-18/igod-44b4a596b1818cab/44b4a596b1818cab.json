@@ -1,0 +1,9 @@
+{
+ "websiteId": "igod-44b4a596b1818cab",
+ "url": "https://dppf.gujarat.gov.in/",
+ "checkedAt": "2026-10-17T19:17:50+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://dppf.gujarat.gov.in/\nCall log:\n  - navigating to \"https://dppf.gujarat.gov.in/\", waitin",
+ "attempt": 1
+}

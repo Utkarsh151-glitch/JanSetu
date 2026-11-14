@@ -1,0 +1,252 @@
+[
+ {
+  "websiteId": "igod-ffa4189a2ac66991",
+  "url": "https://himachal.gov.in/",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://himachal.gov.in/",
+  "title": "Government of Himachal Pradesh, India",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-ffa4189a2ac66991",
+  "url": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB4QOC0eN%2F%2B6qQ%3D%3D",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB4QOC0eN%2F%2B6qQ%3D%3D",
+  "title": "Government of Himachal Pradesh, India",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-ffa4189a2ac66991",
+  "url": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB6vDHvsMAvpTw%3D%3D",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB6vDHvsMAvpTw%3D%3D",
+  "title": "Government of Himachal Pradesh, India",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-0eda9ab58f816d6f",
+  "url": "https://pension.hrmsodisha.gov.in/",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://pension.hrmsodisha.gov.in/",
+  "title": ":: Pension Grievance ::",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-6e1f53ab402e424c",
+  "url": "https://welfarepension.lsgkerala.gov.in/",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://welfarepension.lsgkerala.gov.in/",
+  "title": "Sevana Pension - Social Security System, Govt. of Kerala",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-ddb798b880079969",
+  "url": "https://dbt.lsgkerala.gov.in/",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://dbt.lsgkerala.gov.in/",
+  "title": "SevanaPension DBT Module - Social Security System Govt.of Kerala",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-ddb798b880079969",
+  "url": "https://dbt.lsgkerala.gov.in/Help_Faq.aspx",
+  "attempt": 1,
+  "httpStatus": 200,
+  "finalUrl": "https://dbt.lsgkerala.gov.in/Help_Faq.aspx",
+  "title": "SevanaPension DBT Module - Social Security System Govt.of Kerala",
+  "result": null,
+  "note": null
+ },
+ {
+  "websiteId": "igod-ddb798b880079969",
+  "url": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://dbt.lsgkerala.gov.in/Contactdetails.aspx\nCall log:\n  - navigating to \"https://dbt.lsgke",
+  "note": null
+ },
+ {
+  "websiteId": "igod-ddb798b880079969",
+  "url": "https://dbt.lsgkerala.gov.in/Forms/PensionHelp_Faq.pdf",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://dbt.lsgkerala.gov.in/Forms/PensionHelp_Faq.pdf\nCall log:\n  - navigating to \"https://dbt",
+  "note": null
+ },
+ {
+  "websiteId": "igod-781379c678ce1e21",
+  "url": "https://scholarship.odisha.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://scholarship.odisha.gov.in/\nCall log:\n  - navigating to \"https://scholarship.odisha.gov.",
+  "note": null
+ },
+ {
+  "websiteId": "igod-c01d8df9282d87de",
+  "url": "https://bhavishya.nic.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://bhavishya.nic.in/\nCall log:\n  - navigating to \"https://bhavishya.nic.in/\", waiting unti",
+  "note": null
+ },
+ {
+  "websiteId": "igod-7bb47a1cab5183f2",
+  "url": "https://new.broadcastseva.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://new.broadcastseva.gov.in/\nCall log:\n  - navigating to \"https://new.broadcastseva.gov.in",
+  "note": null
+ },
+ {
+  "websiteId": "igod-421dca3648f50c0b",
+  "url": "https://cpao.nic.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://cpao.nic.in/\nCall log:\n  - navigating to \"https://cpao.nic.in/\", waiting until \"domcont",
+  "note": null
+ },
+ {
+  "websiteId": "igod-e300869e279b9cd4",
+  "url": "https://scholarshipsdhte.jharkhand.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://scholarshipsdhte.jharkhand.gov.in/\nCall log:\n  - navigating to \"https://scholarshipsdht",
+  "note": null
+ },
+ {
+  "websiteId": "igod-dc063c5a252aabe5",
+  "url": "https://scholarship.nagaland.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://scholarship.nagaland.gov.in/\nCall log:\n  - navigating to \"https://scholarship.nagaland.",
+  "note": null
+ },
+ {
+  "websiteId": "igod-18649bde195e5a01",
+  "url": "https://cpwdsewa.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://cpwdsewa.gov.in/\nCall log:\n  - navigating to \"https://cpwdsewa.gov.in/\", waiting until ",
+  "note": null
+ },
+ {
+  "websiteId": "igod-5891bfd68a83ed15",
+  "url": "https://janasunani.odisha.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://janasunani.odisha.gov.in/\nCall log:\n  - navigating to \"https://janasunani.odisha.gov.in",
+  "note": null
+ },
+ {
+  "websiteId": "igod-9783d3afd73ca927",
+  "url": "https://www.doppw.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.doppw.gov.in/\nCall log:\n  - navigating to \"https://www.doppw.gov.in/\", waiting unti",
+  "note": null
+ },
+ {
+  "websiteId": "igod-44b4a596b1818cab",
+  "url": "https://dppf.gujarat.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://dppf.gujarat.gov.in/\nCall log:\n  - navigating to \"https://dppf.gujarat.gov.in/\", waitin",
+  "note": null
+ },
+ {
+  "websiteId": "igod-45553a3bd372fff9",
+  "url": "https://www.pension.mp.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.pension.mp.gov.in/\nCall log:\n  - navigating to \"https://www.pension.mp.gov.in/\", wa",
+  "note": null
+ },
+ {
+  "websiteId": "igod-ef54536511a6523b",
+  "url": "https://ekosh.uk.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://ekosh.uk.gov.in/\nCall log:\n  - navigating to \"https://ekosh.uk.gov.in/\", waiting until ",
+  "note": null
+ },
+ {
+  "websiteId": "igod-c33cb8549415ad34",
+  "url": "https://ekalyan.cgg.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://ekalyan.cgg.gov.in/\nCall log:\n  - navigating to \"https://ekalyan.cgg.gov.in/\", waiting ",
+  "note": null
+ },
+ {
+  "websiteId": "igod-af6bdd4b418c67a8",
+  "url": "https://odishamsme.nic.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://odishamsme.nic.in/\nCall log:\n  - navigating to \"https://odishamsme.nic.in/\", waiting un",
+  "note": null
+ },
+ {
+  "websiteId": "igod-b3a364f734caa1f1",
+  "url": "https://hpepass.cgg.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://hpepass.cgg.gov.in/\nCall log:\n  - navigating to \"https://hpepass.cgg.gov.in/\", waiting ",
+  "note": null
+ },
+ {
+  "websiteId": "igod-2bdd905020581df7",
+  "url": "https://telanganaepass.cgg.gov.in/",
+  "attempt": 1,
+  "httpStatus": null,
+  "finalUrl": null,
+  "title": null,
+  "result": "inconclusive:Error:Page.goto: net::ERR_INTERNET_DISCONNECTED at https://telanganaepass.cgg.gov.in/\nCall log:\n  - navigating to \"https://telanganaepass.cgg.gov.",
+  "note": null
+ }
+]

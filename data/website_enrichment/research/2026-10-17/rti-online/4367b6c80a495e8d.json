@@ -1,0 +1,72 @@
+{
+ "websiteId": "rti-online",
+ "url": "https://rtionline.gov.in/Contactus.php",
+ "checkedAt": "2026-10-17T10:52:14+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "httpStatus": 200,
+ "finalUrl": "https://rtionline.gov.in/Contactus.php",
+ "title": "RTI Online :: Online RTI Information System",
+ "lang": "en",
+ "metaDescription": "Online RTI Information Systems, Government of India RTI Request & Appeal Management Information System (RTI-MIS) (Based on Right to Information Act 2005) RTI Online Request ,RTI Online First Appeal, Online View Status.",
+ "text": " \nA+     A     A-\nSelect Language:\nEnglish\nHindi\nPublic Authorities Available\nRTI Online\nVersion 2.0\nAn Initiative of Department of Personnel & Training, Government of India\nHomeSubmit RequestSubmit First AppealView StatusView HistoryLoginUser ManualContact UsFAQPayment Reconciliation\n\n\nContact Us\n\n\n\nIf the applicant's query doesn't get resolved through, helprtionline-dopt[at]nic[dot]in or 011-24010690/691 ,\nthen they may contact below mentioned officials.\n\n\n\n\nUnder Secretary(IR-1)\n\nW/H 31049\n\nKartvya Bhavan 3\n\nNew Delhi-110001\n\nEmail: usir-dopt[at]nic[dot]in\n\nHome | National Portal of India | Complaint & Second Appeal to CIC | FAQ | Policy\n\nCopyright © 2026. All rights reserved | Website designed, developed, and hosted by National Informatics Centre, New Delhi | Content owned and managed by DOP&T\n\n\n",
+ "textSha256": "9115eabf11813c4ff87aaaf98e69046c09f9821042d8844e3c421fc98d9164b5",
+ "links": [
+  {
+   "text": "Public Authorities Available",
+   "href": "https://rtionline.gov.in/request/allpa.php?pageid="
+  },
+  {
+   "text": "Home",
+   "href": "https://rtionline.gov.in/index.php"
+  },
+  {
+   "text": "Submit Request",
+   "href": "https://rtionline.gov.in/guidelines.php?request&&pageid="
+  },
+  {
+   "text": "Submit First Appeal",
+   "href": "https://rtionline.gov.in/guidelines.php?appeal&&pageid="
+  },
+  {
+   "text": "View Status",
+   "href": "https://rtionline.gov.in/request/status.php"
+  },
+  {
+   "text": "View History",
+   "href": "https://rtionline.gov.in/request/status_history.php"
+  },
+  {
+   "text": "Login",
+   "href": "https://rtionline.gov.in/login.php"
+  },
+  {
+   "text": "User Manual",
+   "href": "https://rtionline.gov.in/viewPDF.php?file=um_citizen.pdf"
+  },
+  {
+   "text": "Contact Us",
+   "href": "https://rtionline.gov.in/Contactus.php"
+  },
+  {
+   "text": "FAQ",
+   "href": "https://rtionline.gov.in/faq.php?pageid="
+  },
+  {
+   "text": "Payment Reconciliation",
+   "href": "https://rtionline.gov.in/request/status_pendingPayment.php?pageid="
+  },
+  {
+   "text": "Home",
+   "href": "https://rtionline.gov.in/"
+  },
+  {
+   "text": "FAQ",
+   "href": "https://rtionline.gov.in/faq.php?pageid="
+  },
+  {
+   "text": "Policy",
+   "href": "https://rtionline.gov.in/Policies.php"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "websiteId": "igod-44b4a596b1818cab",
+ "url": "https://dppf.gujarat.gov.in/",
+ "checkedAt": "2026-10-17T19:27:48+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response).",
+ "httpStatus": 200,
+ "finalUrl": "https://dppf.gujarat.gov.in/",
+ "title": "Firewall Captcha Authentication",
+ "lang": null,
+ "metaDescription": null,
+ "text": "Security check\nPlease enter the above result to continue\nCaptcha Result:\t",
+ "textSha256": "56a17f0e371c1ed80a8f055c9c396f4a76a26d78e4c4d1f4fd6f7a932b0cf526",
+ "links": [],
+ "attempt": 2
+}

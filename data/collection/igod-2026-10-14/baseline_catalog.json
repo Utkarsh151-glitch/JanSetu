@@ -1,0 +1,294 @@
+{
+  "version": 2,
+  "categories": [
+    {
+      "id": "documents",
+      "title": "Documents & identity",
+      "titleHi": "दस्तावेज़ और पहचान",
+      "symbol": "▣"
+    },
+    {
+      "id": "grievances",
+      "title": "Complaints & grievances",
+      "titleHi": "शिकायतें",
+      "symbol": "◎"
+    },
+    {
+      "id": "jobs",
+      "title": "Jobs & careers",
+      "titleHi": "नौकरी और करियर",
+      "symbol": "◈"
+    },
+    {
+      "id": "information",
+      "title": "Government information",
+      "titleHi": "सरकारी जानकारी",
+      "symbol": "◇"
+    },
+    {
+      "id": "education",
+      "title": "Education & scholarships",
+      "titleHi": "शिक्षा और छात्रवृत्ति",
+      "symbol": "✦"
+    },
+    {
+      "id": "business",
+      "title": "Business & registration",
+      "titleHi": "व्यवसाय और पंजीकरण",
+      "symbol": "▤"
+    },
+    {
+      "id": "taxation",
+      "title": "Taxes & finance",
+      "titleHi": "कर और वित्त",
+      "symbol": "₹"
+    },
+    {
+      "id": "transparency",
+      "title": "Information requests",
+      "titleHi": "सूचना अनुरोध",
+      "symbol": "◉"
+    },
+    {
+      "id": "agriculture",
+      "title": "Agriculture & farmers",
+      "titleHi": "कृषि और किसान",
+      "symbol": "❀"
+    },
+    {
+      "id": "transport",
+      "title": "Transport & licences",
+      "titleHi": "परिवहन और लाइसेंस",
+      "symbol": "↗"
+    },
+    {
+      "id": "courts",
+      "title": "Courts & legal services",
+      "titleHi": "न्यायालय और कानूनी सेवाएँ",
+      "symbol": "⚖"
+    }
+  ],
+  "websites": [
+    {
+      "id": "india-portal",
+      "title": "National Portal of India",
+      "description": "Explore government information, services, schemes and official directories in one place.",
+      "url": "https://www.india.gov.in/",
+      "organization": "National Informatics Centre, Ministry of Electronics & Information Technology",
+      "level": "Central",
+      "categories": [
+        "information"
+      ],
+      "keywords": [
+        "government services",
+        "schemes",
+        "directory",
+        "India portal"
+      ],
+      "sourceUrl": "https://www.india.gov.in/",
+      "sourceType": "Official portal ownership statement",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-12",
+      "browserSupport": "in_app",
+      "browserJavaScript": true
+    },
+    {
+      "id": "digilocker",
+      "title": "DigiLocker",
+      "description": "Access and share digital documents through the Government of India's document wallet.",
+      "url": "https://www.digilocker.gov.in/",
+      "organization": "National eGovernance Division, Ministry of Electronics & Information Technology",
+      "level": "Central",
+      "categories": [
+        "documents"
+      ],
+      "keywords": [
+        "digital documents",
+        "certificates",
+        "document wallet",
+        "identity"
+      ],
+      "sourceUrl": "https://www.digilocker.gov.in/",
+      "sourceType": "Official portal about and footer ownership statement",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "id": "cpgrams",
+      "title": "CPGRAMS",
+      "description": "Lodge and track public service grievances with central and state authorities.",
+      "url": "https://pgportal.gov.in/",
+      "organization": "Department of Administrative Reforms & Public Grievances",
+      "level": "Central",
+      "categories": [
+        "grievances"
+      ],
+      "keywords": [
+        "complaint",
+        "grievance",
+        "public grievance",
+        "track complaint"
+      ],
+      "sourceUrl": "https://pgportal.gov.in/",
+      "sourceType": "Official portal ownership statement",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "id": "national-career-service",
+      "title": "National Career Service",
+      "description": "Explore jobs, career guidance and employment services for job seekers and employers.",
+      "url": "https://ncs.gov.in/",
+      "organization": "Ministry of Labour & Employment",
+      "level": "Central",
+      "categories": [
+        "jobs"
+      ],
+      "keywords": [
+        "government jobs",
+        "employment",
+        "careers",
+        "job seeker"
+      ],
+      "sourceUrl": "https://ncs.gov.in/about-us",
+      "sourceType": "Official portal about page",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-12"
+    },
+    {
+      "id": "national-scholarship-portal",
+      "title": "National Scholarship Portal",
+      "description": "Find scholarship schemes and application resources for students.",
+      "url": "https://scholarships.gov.in/",
+      "organization": "National Scholarship Portal",
+      "level": "Central",
+      "categories": [
+        "education"
+      ],
+      "keywords": [
+        "scholarship",
+        "scholarships",
+        "student",
+        "education"
+      ],
+      "sourceUrl": "https://scholarships.gov.in/aboutUs",
+      "sourceType": "Official portal about page",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-13"
+    },
+    {
+      "id": "udyam-registration",
+      "title": "Udyam Registration",
+      "description": "Access the official MSME registration portal and its registration information.",
+      "url": "https://udyamregistration.gov.in/",
+      "organization": "Ministry of Micro, Small and Medium Enterprises",
+      "level": "Central",
+      "categories": [
+        "business"
+      ],
+      "keywords": [
+        "MSME",
+        "small business",
+        "enterprise registration",
+        "Udyam"
+      ],
+      "sourceUrl": "https://udyamregistration.gov.in/",
+      "sourceType": "Official portal ownership statement",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-13"
+    },
+    {
+      "id": "income-tax-efiling",
+      "title": "Income Tax e-Filing",
+      "description": "Find official income-tax e-filing, forms, help, and return services.",
+      "url": "https://www.incometax.gov.in/iec/foportal/",
+      "organization": "Income Tax Department, Ministry of Finance",
+      "level": "Central",
+      "categories": [
+        "taxation"
+      ],
+      "keywords": [
+        "income tax",
+        "ITR",
+        "tax return",
+        "e filing"
+      ],
+      "sourceUrl": "https://www.incometax.gov.in/iec/foportal/",
+      "sourceType": "Official portal ownership statement",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-13"
+    },
+    {
+      "id": "rti-online",
+      "title": "RTI Online",
+      "description": "Submit and track Right to Information requests and first appeals for central public authorities.",
+      "url": "https://rtionline.gov.in/",
+      "organization": "Department of Personnel and Training",
+      "level": "Central",
+      "categories": [
+        "transparency",
+        "information"
+      ],
+      "keywords": [
+        "RTI",
+        "right to information",
+        "information request",
+        "first appeal"
+      ],
+      "sourceUrl": "https://rtionline.gov.in/",
+      "sourceType": "Official portal ownership and scope statement",
+      "knownLimitations": "The official portal says not to use it for State Government public authorities.",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-13"
+    },
+    {
+      "id": "uidai",
+      "title": "UIDAI Aadhaar Services",
+      "description": "Find official Aadhaar information and routes to enrollment, updates, downloads, and security tools.",
+      "url": "https://uidai.gov.in/en/my-aadhaar",
+      "organization": "Unique Identification Authority of India",
+      "level": "Central",
+      "categories": [
+        "documents"
+      ],
+      "keywords": [
+        "Aadhaar",
+        "identity",
+        "enrolment",
+        "address update",
+        "download Aadhaar"
+      ],
+      "sourceUrl": "https://uidai.gov.in/en/my-aadhaar",
+      "sourceType": "Official authority portal service page",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-13"
+    }
+  ],
+  "services": [],
+  "guides": [
+    {
+      "websiteId": "digilocker",
+      "title": "Find an issued document",
+      "steps": [
+        "Open DigiLocker and sign in or register on the official site.",
+        "Use the official document search to find the issuing organization and document you need.",
+        "Follow DigiLocker's prompts to fetch the document. Check Issued Documents in your account."
+      ],
+      "sourceUrl": "https://wb.digilocker.gov.in/web/about/faq",
+      "reviewedOn": "2026-10-13",
+      "note": "Available issuers and identity checks vary. The official site controls your account and documents."
+    },
+    {
+      "websiteId": "cpgrams",
+      "title": "Lodge or track a public grievance",
+      "steps": [
+        "Open CPGRAMS. Register or sign in on the official portal; lodging a grievance currently requires a registered user.",
+        "Choose Lodge Public Grievance and follow the portal's instructions.",
+        "Use View Status on CPGRAMS to check a submitted grievance."
+      ],
+      "sourceUrl": "https://pgportal.gov.in/Home/LodgeGrievance",
+      "reviewedOn": "2026-10-13",
+      "note": "JanSetu does not submit grievances or know their status. Check CPGRAMS for current requirements."
+    }
+  ]
+}

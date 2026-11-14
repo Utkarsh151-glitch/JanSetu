@@ -1,0 +1,18 @@
+[
+  {
+    "view": "states",
+    "checkedAt": "2026-10-13T22:20:04+00:00",
+    "method": "Normal public homepage link click; no challenge bypass or form input",
+    "failure": "TimeoutError"
+  },
+  {
+    "view": "districts",
+    "checkedAt": "2026-10-13T22:20:17+00:00",
+    "method": "Normal public homepage link click; no challenge bypass or form input",
+    "url": "https://lgdirectory.gov.in/globalviewdistrictforcitizen.do?OWASP_CSRFTOKEN=[redacted]",
+    "title": "LGD - Local Government Directory, Government of India",
+    "visibleTextSample": "Government of India\n | \nMinistry of Panchayati Raj\nLocal Government Directory\n\nFacilitating Data Standardization, Data Sharing & Interoperability Among eGov Applications\n\nAccessibility options by UX4G\nText To Speech\nBigger Text\nSmall Text\nLine Height\nHighlight Links\nText Spacing\nDyslexia Friendly\nHide Images\nCursor\nLight-Dark\nInvert Colors\nReset Button\ncopyright accessibility bar\nReset All Settings\nCreated by\nAccessibility Options",
+    "requiresCaptcha": false,
+    "tableRows": 0
+  }
+]

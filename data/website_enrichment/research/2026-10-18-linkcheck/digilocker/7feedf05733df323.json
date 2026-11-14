@@ -1,0 +1,26 @@
+{
+ "websiteId": "digilocker",
+ "url": "https://www.digilocker.gov.in/web/about/contact-us",
+ "checkedAt": "2026-10-17T20:28:56+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Link check (read-only): AI pre-review held this link; target was only seen as a link",
+ "httpStatus": 200,
+ "finalUrl": "https://www.digilocker.gov.in/web/about/contact-us",
+ "title": "Contact Us",
+ "lang": "en",
+ "metaDescription": "Contact us for inquiries, feedback, or assistance. Our customer support is here to help.",
+ "text": "Government of India \nSkip to main content\nA+\nA\nA-\nExplore DigiLocker\nBecome a Partner\nLogin / Register\nContact Us\nNational eGovernance Division (NeGD),\nDigital India Corporation,\nMinistry of Electronics & Information Technology (MeitY),\n4th Floor, 6, CGO Complex,\nElectronics Niketan, Lodhi Road\nNew Delhi - 110003 INDIA\n\nPlease read the FAQ if you need any assistance. You will find solutions to most of the common questions.\n\n\nIf your problem is still unresolved, please raise a query. Our support team will get back to you.\n\n\nWe value your input! Please share your Feedback with us. Your thoughts and suggestions help us improve our services.\nDigiLocker aims at ‘Digital Empowerment’ of the citizen by providing access to authentic digital documents to the citizen’s digital document wallet.\nFOLLOW US\nHome\nAbout Us\nFAQ\nStatistics\nResources\nCirculars\nExplore DigiLocker\nSupport/Feedback\nTerms & Condition of Use\nInformational Videos\nCredits\nPartners\nMeriPehchaan\nPartner FAQ\nPowered by\nNational e-Governance Division (NeGD)\nDigital India Corporation\nMinistry of Electronics & IT (MeitY)\nGovernment of India\nDOWNLOAD APP\nLast Updated: Oct 12, 2026\nCopyright © 2026, Website maintained by National eGovernance Division (NeGD)\nDigiLocker Policy\nContact Us\n \n ",
+ "textSha256": "8ed9163ba840259365a35b147d3a5ddbf0a6127cb521b62673edda95aa8d4486",
+ "links": [
+  {
+   "text": "Home",
+   "href": "https://www.digilocker.gov.in/"
+  },
+  {
+   "text": "National e-Governance Division (NeGD)",
+   "href": "https://negd.gov.in/"
+  }
+ ],
+ "attempt": 1
+}

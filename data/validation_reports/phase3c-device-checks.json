@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-16",
+  "device": "emulator-5554 / Medium_Phone_API_37.0",
+  "screen": "1080x2400 / 420 dpi",
+  "fontScale": 1.0,
+  "language": "English",
+  "theme": "light",
+  "app": "0.4.1/code5",
+  "signedImport": 14,
+  "restartVersion": 14,
+  "restoredVersion": 13,
+  "services": 52,
+  "websites": 7347,
+  "previewProfile": "Fresh synthetic Tracker demo, created after default AGP cleanup removed the previous demo. Original demo not recovered.",
+  "profileChecks": {
+    "beforeCleanupRegression": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "afterCleanupRegression": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "afterSignedImport": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37",
+    "afterRestoreAndReopen": "d359193618972893f868f6b28c6c1be112b843594ad2621071d0eee0d5cdca37"
+  },
+  "previewReminder": "off",
+  "catalogBoundaryRegression": "Isolated real signed install/restore preserves reference, submission/deadline dates, enabled reminder preference/key, service snapshot and two history events.",
+  "observed": "Fresh demo title/status/deadline/note/history visible before and after; imported v14 persists after force-stop; confirmed restore shows bundled v13.",
+  "finalScreen": "Search: Kerala income certificate",
+  "release": "Local preview only; no authenticated government transactions, upload or deployment."
+}

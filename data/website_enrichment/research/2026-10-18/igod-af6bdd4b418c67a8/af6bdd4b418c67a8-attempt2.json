@@ -1,0 +1,54 @@
+{
+ "websiteId": "igod-af6bdd4b418c67a8",
+ "url": "https://odishamsme.nic.in/",
+ "checkedAt": "2026-10-17T19:28:44+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Single retry: the first capture failed with ERR_INTERNET_DISCONNECTED because this machine's internet connection dropped (local outage, not a site response).",
+ "httpStatus": 200,
+ "finalUrl": "https://odishamsme.nic.in/",
+ "title": "MSME | Micro, Small & Medium Enterprises Department | Government of Odisha",
+ "lang": null,
+ "metaDescription": null,
+ "text": "e-MSME Seva\n\nAll your e-Applications are here.\n\nAdministration of Incentives for MSMEs & Large Industries\n( AIM 2.0)\nDirectorate of Industries, Odisha (DI)\nBusiness Reforms Action Plan\n( BRAP )\nDirectorate of Industries, Odisha (DI)\nDirectorate of Export Promotion & Marketing - Online Services\n( DEPMOS )\nDirectorate of Export Promotion & Marketing, Odisha (DEPM)\nOnline Rebate Management System\n( ORMS )\nDirectorate of Industries, Odisha (DI)\nRecommendation for Registration of New Khadi Institution\n( RRNKI )\nOdisha Khadi & Village Industries Board (OKVIB)\nOnline Consortium Marketing Information System\n( OCMIS )\nThe Odisha Small Industries Corporation Ltd.(OSIC)\nOnline Loan Information System\n( OLIS )\nOdisha State Financial Corporation (OSFC)\nStartup Odisha\n( SO )\nDepartment of MSME, Government of Odisha\nExport Incentive Reimbursement Portal\n( EIRP )\nDepartment of MSME, Government of Odisha\n\n© 2020 e-MSME Seva. All Rights Reserved.\n\nDesigned & Developed by NIC, Odisha State Centre.\n\nAsk Me",
+ "textSha256": "2e74c8bc5f41369cc036f6a1b1cceb7b9495b9913dfdc859113736a43e3d6c2a",
+ "links": [
+  {
+   "text": "Administration of Incentives for MSMEs & Large Industries ( AIM 2.0) Directorate of Industries, Odisha (DI)",
+   "href": "https://odishamsme.nic.in/user/MSME_Entrepreneur_Login.aspx"
+  },
+  {
+   "text": "Business Reforms Action Plan ( BRAP ) Directorate of Industries, Odisha (DI)",
+   "href": "https://odishamsme.nic.in/BRAP_Dashboard/BRAP/brap_index.aspx"
+  },
+  {
+   "text": "Directorate of Export Promotion & Marketing - Online Services ( DEPMOS ) Directorate of Export Promotion & Marketing, Od",
+   "href": "https://depmodisha.nic.in/user/login"
+  },
+  {
+   "text": "Online Rebate Management System ( ORMS ) Directorate of Industries, Odisha (DI)",
+   "href": "https://kvi.odisha.gov.in/"
+  },
+  {
+   "text": "Recommendation for Registration of New Khadi Institution ( RRNKI ) Odisha Khadi & Village Industries Board (OKVIB)",
+   "href": "https://okvib.odisha.gov.in/"
+  },
+  {
+   "text": "Online Consortium Marketing Information System ( OCMIS ) The Odisha Small Industries Corporation Ltd.(OSIC)",
+   "href": "https://osic.odisha.gov.in/"
+  },
+  {
+   "text": "Online Loan Information System ( OLIS ) Odisha State Financial Corporation (OSFC)",
+   "href": "https://osfc.odisha.gov.in/"
+  },
+  {
+   "text": "Startup Odisha ( SO ) Department of MSME, Government of Odisha",
+   "href": "https://startupodisha.gov.in/"
+  },
+  {
+   "text": "Export Incentive Reimbursement Portal ( EIRP ) Department of MSME, Government of Odisha",
+   "href": "https://eirp-depm.odisha.gov.in/"
+  }
+ ],
+ "attempt": 2
+}

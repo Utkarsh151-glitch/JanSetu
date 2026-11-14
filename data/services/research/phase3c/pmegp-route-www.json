@@ -1,0 +1,12 @@
+{
+  "url": "https://www.common-pmegp.msme.gov.in/Home/HomePage/",
+  "retrievedAt": "2026-10-15T23:05:12.809741+00:00",
+  "httpStatus": 0,
+  "finalUrl": "https://www.common-pmegp.msme.gov.in/Home/HomePage/",
+  "redirects": 0,
+  "success": false,
+  "tlsVerified": false,
+  "curlExit": 60,
+  "error": "curl: (60) schannel: SNI or certificate check failed: SEC_E_WRONG_PRINCIPAL (0x80090322) - The target principal name is incorrect.\r\nMore details here: https://curl.se/docs/sslcerts.html\r\n\r\ncurl failed to verify the legitimacy of the server and therefore could not\r\nestablish a secure connection to it. To learn more about this situation and\r\nhow to fix it, please visit the webpage mentioned above.\r\n",
+  "review": "Failed normal retrieval; not evidence of service retirement or a confirmed route"
+}

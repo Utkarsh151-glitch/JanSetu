@@ -1,0 +1,1233 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-17",
+  "method": "Each fact below was written by JanSetu from a dated, read-only snapshot of the named official page (data/website_enrichment/research/2026-10-17). Every evidence item keeps the exact page text it relies on; tools/website_enrichment.py validate refuses a quote that is not in the saved snapshot. The app receives the short JanSetu wording, source links and dates only, never the quotes.",
+  "reviewPolicy": "source_checked = an automated agent compared each fact with the quoted official text; it is not a human review. Human review is never written in this file: it is derived from named, dated decisions in reviews.json (tools/editorial_review.py). Drafts (proposed), held profiles and held fields are never packaged into the app.",
+  "reuseNote": "Quotes are retained here only as review evidence. Permission to reproduce official website text, and NIC permission for IGOD-derived data, are unresolved release blockers (docs/PHASE6B_ENRICHMENT_REPORT.md).",
+  "websites": [
+    {
+      "websiteId": "igod-2715637a8f399700",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "tn-about", "url": "https://www.tnesevai.tn.gov.in/Pages/AboutUs.aspx", "checkedOn": "2026-10-17", "claim": "TNeGA is the State Nodal Agency for the Government of Tamil Nadu's e-Governance initiatives.", "quote": "Tamil Nadu e-Governance Agency (TNeGA), as a State Nodal Agency has been formed to support and drive all e-Governance initiatives of the Government of Tamil Nadu."},
+        {"id": "tn-header", "url": "https://www.tnesevai.tn.gov.in/Pages/AboutUs.aspx", "checkedOn": "2026-10-17", "claim": "The site header names TNeGA, the Information Technology and Digital Services Department and the Government of Tamil Nadu.", "quote": "Directorate of e-Governance Tamil Nadu e-Governance Agency Information Technology and Digital Services Department Government of Tamil Nadu"},
+        {"id": "tn-home-services", "url": "https://www.tnesevai.tn.gov.in/", "checkedOn": "2026-10-17", "claim": "The Tamil home page says services including certificates and licences are offered.", "quote": "சான்றிதழ்கள் மற்றும் உரிமம் உட்பட 119 சேவைகள் உள்ளன", "quoteLanguage": "ta"},
+        {"id": "tn-service-list", "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx", "checkedOn": "2026-10-17", "claim": "The Services Offered page is a table of services by department.", "quote": "S.No Department Service name User manual Stipulated Timeline Fee List of Document Required link to apply"},
+        {"id": "tn-faq", "url": "https://www.tnesevai.tn.gov.in/Pages/FAQ.aspx", "checkedOn": "2026-10-17", "claim": "An English FAQ page is published.", "quote": "Frequently Asked Questions (FAQs)"},
+        {"id": "tn-contact", "url": "https://www.tnesevai.tn.gov.in/Pages/ContactUs.aspx", "checkedOn": "2026-10-17", "claim": "An English contact page lists TNeGA contacts and a helpdesk.", "quote": "Contacts Director/ Chief Executive Officer Directorate of e-Governance / Tamil Nadu e-Governance Agency"},
+        {"id": "tn-tracking", "url": "https://www.tnesevai.tn.gov.in/Pages/FAQ.aspx", "checkedOn": "2026-10-17", "claim": "The site menu links to application tracking.", "quote": "Application Tracking"}
+      ],
+      "fields": {
+        "purpose": {"value": "Tamil Nadu Government's e-Sevai portal for certificates, licences and other government services, with a published list of the services offered.", "evidenceIds": ["tn-home-services", "tn-service-list", "tn-about"]},
+        "operator": {"value": "Government of Tamil Nadu. Tamil Nadu e-Governance Agency (TNeGA) is the State Nodal Agency for its e-governance initiatives.", "evidenceIds": ["tn-about", "tn-header"]},
+        "jurisdiction": {"value": "Tamil Nadu", "evidenceIds": ["tn-about"]},
+        "languages": {"value": "Tamil (home page) and English (About, Contact, FAQ and service-list pages); no language switch was found", "evidenceIds": ["tn-home-services", "tn-faq"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://www.tnesevai.tn.gov.in/Pages/FAQ.aspx", "kind": "faq", "evidenceIds": ["tn-faq"]},
+          {"label": "Contact TNeGA", "url": "https://www.tnesevai.tn.gov.in/Pages/ContactUs.aspx", "kind": "contact", "evidenceIds": ["tn-contact"]}
+        ],
+        "tasks": [
+          {"label": "List of services offered", "url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx", "kind": "task", "evidenceIds": ["tn-service-list"]},
+          {"label": "Track an application", "url": "https://tnedistrict.tn.gov.in/tneda/", "kind": "task", "evidenceIds": ["tn-tracking"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "audience", "reason": "The pages seen do not say who may use the portal directly and who must use an e-Sevai centre; not inferred."}
+      ],
+      "uncertainty": [
+        "The service list publishes a timeline, fee and document list for each service. JanSetu does not copy these into the website record; they belong to individual service records.",
+        "The application-tracking link opens the Tamil Nadu e-District site (tnedistrict.tn.gov.in), which has a Status link; loaded in the 18 October link check."
+      ],
+      "reviewFlags": {"languages": ["Languages were inferred from which pages were served in Tamil and which in English; no language switch was found."]},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "4a2baa4a7a4cb48830f27c0ec8fd82606240181db1edaa4ebada406e6e871f92", "change": "operator: separate the government from TNeGA's role (AI: REVISE); languages: describe what each page showed instead of implying site-wide languages (AI: REVISE)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "igod-50b73c3937b8d29b",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "kl-purpose", "url": "https://edistrict.kerala.gov.in/", "checkedOn": "2026-10-17", "claim": "The eDistrict project provides Government services to citizens, including through Common Service Centres.", "quote": "Kerala E-District project intend to provide Government services to citizens through Common Service Centers(CSC) which are easily accessible."},
+        {"id": "kl-operator", "url": "https://edistrict.kerala.gov.in/", "checkedOn": "2026-10-17", "claim": "The footer says Kerala State IT Mission implements and manages the portal.", "quote": "Implemented & Managed by Kerala State IT Mission."},
+        {"id": "kl-lang", "url": "https://edistrict.kerala.gov.in/", "checkedOn": "2026-10-17", "claim": "The English page shows a Malayalam language switch.", "quote": "മലയാളം"},
+        {"id": "kl-faq", "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq", "checkedOn": "2026-10-17", "claim": "The FAQ page loads at an address without a session token.", "quote": "Frequently Asked Questions Back to Home. General Questions"},
+        {"id": "kl-track", "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq", "checkedOn": "2026-10-17", "claim": "The site menu links to application tracking.", "quote": "Track Application"}
+      ],
+      "fields": {
+        "purpose": {"value": "Kerala's eDistrict portal for government certificates and services, also delivered through Common Service Centres.", "evidenceIds": ["kl-purpose"]},
+        "operator": {"value": "Kerala State IT Mission (implements and manages the portal)", "evidenceIds": ["kl-operator"]},
+        "audience": {"value": "Citizens; services are also available through Common Service Centres (CSCs)", "evidenceIds": ["kl-purpose"]},
+        "jurisdiction": {"value": "Kerala", "evidenceIds": ["kl-purpose"]},
+        "languages": {"value": "English and Malayalam (language switch observed)", "evidenceIds": ["kl-lang"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://edistrict.kerala.gov.in/generalService.htm?event=faq", "kind": "faq", "evidenceIds": ["kl-faq"]}
+        ],
+        "tasks": [
+          {"label": "Track an application", "url": "https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch&lang=en", "kind": "task", "evidenceIds": ["kl-track"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "help", "reason": "The home page's services, features and contact links carry a session token, so only the token-free FAQ address is published."}
+      ],
+      "uncertainty": [
+        "The tracking page was observed as a link and was not loaded."
+      ]
+    },
+    {
+      "websiteId": "igod-5e885f0e333d5206",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "od-purpose", "url": "https://edistrict.odisha.gov.in/", "checkedOn": "2026-10-17", "claim": "The portal delivers citizen services through district administration.", "quote": "The e-District portal involves integrated and seamless delivery of citizen services by district administration through automation of workflow"},
+        {"id": "od-platform", "url": "https://edistrict.odisha.gov.in/", "checkedOn": "2026-10-17", "claim": "The Government of Odisha runs the services on NIC's ServicePlus platform.", "quote": "Government of Odisha has implemented the ServicePlus platform of NIC to provide services to citizens."},
+        {"id": "od-certificates", "url": "https://edistrict.odisha.gov.in/", "checkedOn": "2026-10-17", "claim": "e-Certificates are listed under the Revenue & Disaster Management Department.", "quote": "e-Certificates Revenue & Disaster Management Department Resident Certificate Income Certificate"},
+        {"id": "od-faq", "url": "https://edistrict.odisha.gov.in/", "checkedOn": "2026-10-17", "claim": "The home page menu has an FAQ section.", "quote": "FAQ"},
+        {"id": "od-contact", "url": "https://edistrict.odisha.gov.in/", "checkedOn": "2026-10-17", "claim": "The home page menu has a Contact Us section.", "quote": "Contact Us"},
+        {"id": "od-faq-section", "url": "https://edistrict.odisha.gov.in/#team", "checkedOn": "2026-10-18", "claim": "The #team link lands on the FAQ section.", "quote": "Frequently Asked Questions How citizen can apply for a Service?"},
+        {"id": "od-contact-section", "url": "https://edistrict.odisha.gov.in/#contact", "checkedOn": "2026-10-18", "claim": "The #contact link lands on the contact section.", "quote": "In case of any queries related to e-Certificates of Revenue & Disaster Management Department"}
+      ],
+      "fields": {
+        "purpose": {"value": "Odisha's eDistrict portal for citizen services delivered by district administrations, including e-certificates from the Revenue & Disaster Management Department.", "evidenceIds": ["od-purpose", "od-certificates"]},
+        "operator": {"value": "Government of Odisha (it implemented NIC's ServicePlus platform for these services); the operating department is not named", "evidenceIds": ["od-platform"]},
+        "audience": {"value": "Citizens", "evidenceIds": ["od-platform"]},
+        "jurisdiction": {"value": "Odisha", "evidenceIds": ["od-platform"]},
+        "help": [
+          {"label": "FAQ section (home page)", "url": "https://edistrict.odisha.gov.in/#team", "kind": "faq", "evidenceIds": ["od-faq", "od-faq-section"]},
+          {"label": "Contact section (home page)", "url": "https://edistrict.odisha.gov.in/#contact", "kind": "contact", "evidenceIds": ["od-contact", "od-contact-section"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "tasks", "reason": "The individual service links open the ServicePlus sign-in, so JanSetu does not link to them."},
+        {"field": "languages", "reason": "No language switch was identified in the saved page; not inferred."}
+      ],
+      "uncertainty": [
+        "The FAQ (#team) and contact (#contact) links are sections of the home page; both sections were confirmed on 18 October."
+      ],
+      "reviewFlags": {"operator": ["The Government of Odisha is named as implementer of ServicePlus; the department running the portal is not named."]},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "5b3b0d511d6d35b9ec8a2864d372436046fb0a1b4127c7275cc429ec1341d9f3", "change": "operator: do not present an implementer as a named operating department (AI: REVISE); help: cite the 18 October check that both page sections exist (AI: HOLD until checked)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "igod-9908672336cdd912",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "dl-purpose", "url": "https://edistrict.delhigovt.nic.in/in/en/Public/AboutUs.html", "checkedOn": "2026-10-17", "claim": "E-District is a web portal through which citizens access government services.", "quote": "E-District is a comprehensive and web-enabled service portal through which citizens can access various services provided by the Government."},
+        {"id": "dl-services", "url": "https://edistrict.delhigovt.nic.in/", "checkedOn": "2026-10-17", "claim": "The home page offers application tracking, certificate verification and certificate printing.", "quote": "Our Services Track your Application Verify your Certificate Print/Download Certificate"},
+        {"id": "dl-operator", "url": "https://edistrict.delhigovt.nic.in/in/en/Public/AboutUs.html", "checkedOn": "2026-10-17", "claim": "The footer names the Government of NCT of Delhi, Department of Information Technology.", "quote": "Government of National Capital Territory of Delhi / Department of Information Technology"},
+        {"id": "dl-hindi", "url": "https://edistrict.delhigovt.nic.in/", "checkedOn": "2026-10-17", "claim": "A Hindi language switch is shown.", "quote": "Hindi"},
+        {"id": "dl-english", "url": "https://edistrict.delhigovt.nic.in/", "checkedOn": "2026-10-17", "claim": "An English language switch is shown.", "quote": "English"},
+        {"id": "dl-contact", "url": "https://edistrict.delhigovt.nic.in/", "checkedOn": "2026-10-17", "claim": "The site links to a Contact Us page.", "quote": "Contact Us"},
+        {"id": "dl-faq", "url": "https://edistrict.delhigovt.nic.in/", "checkedOn": "2026-10-17", "claim": "The site links to an FAQ page.", "quote": "FAQs"},
+        {"id": "dl-help", "url": "https://edistrict.delhigovt.nic.in/", "checkedOn": "2026-10-17", "claim": "The site links to a Help page.", "quote": "Help"},
+        {"id": "dl-track", "url": "https://edistrict.delhigovt.nic.in/", "checkedOn": "2026-10-17", "claim": "The site links to application tracking.", "quote": "Track your Application"}
+      ],
+      "fields": {
+        "purpose": {"value": "Delhi Government's eDistrict portal where citizens access government services, track applications and verify or print certificates.", "evidenceIds": ["dl-purpose", "dl-services"]},
+        "operator": {"value": "Department of Information Technology, Government of National Capital Territory of Delhi", "evidenceIds": ["dl-operator"]},
+        "audience": {"value": "Citizens", "evidenceIds": ["dl-purpose"]},
+        "jurisdiction": {"value": "National Capital Territory of Delhi", "evidenceIds": ["dl-operator"]},
+        "languages": {"value": "English and Hindi (language switch observed)", "evidenceIds": ["dl-hindi", "dl-english"]},
+        "help": [
+          {"label": "Contact details", "url": "https://edistrict.delhigovt.nic.in/in/en/Public/ContactDetails.html", "kind": "contact", "evidenceIds": ["dl-contact"]},
+          {"label": "Frequently asked questions", "url": "https://edistrict.delhigovt.nic.in/in/en/Public/Faq.html", "kind": "faq", "evidenceIds": ["dl-faq"]}
+        ],
+        "tasks": [
+          {"label": "Track an application", "url": "https://edistrict.delhigovt.nic.in/Public/TrackApplication", "kind": "task", "evidenceIds": ["dl-track"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "help", "reason": "The site's Help page covers only accessibility options, so it is not linked as service help."}
+      ],
+      "uncertainty": [
+        "Applying for a service starts with sign-in (Login & Apply); JanSetu does not link to it.",
+        "The tracking page was loaded on 18 October (link check)."
+      ],
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "0a0f0fbad46988bbf41cb777fe823d7d712d538c6051c909bdd0e44a07a2457e", "change": "help link removed (https://edistrict.delhigovt.nic.in/in/en/Public/Help.html): the page is accessibility help only (link check; AI: HOLD)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "national-scholarship-portal",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "nsp-apply", "url": "https://scholarships.gov.in/", "checkedOn": "2026-10-17", "claim": "Scholarships are applied for on the National Scholarship Portal (after One Time Registration).", "quote": "OTR is required to apply for the scholarships on National Scholarship Portal from AY 2024-25."},
+        {"id": "nsp-header", "url": "https://scholarships.gov.in/", "checkedOn": "2026-10-17", "claim": "The site header names the Ministry of Electronics & Information Technology, Government of India.", "quote": "Government of India Ministry of Electronics & Information Technology"},
+        {"id": "nsp-sections", "url": "https://scholarships.gov.in/", "checkedOn": "2026-10-17", "claim": "The home page has sections for students, institutions, officers and the public.", "quote": "Students Institutions Officers Public"},
+        {"id": "nsp-lang", "url": "https://scholarships.gov.in/", "checkedOn": "2026-10-17", "claim": "The original text is English; other languages are machine translations through Bhashini.", "quote": "The original text is in English. Translation into other languages is powered by the Bhashini service."},
+        {"id": "nsp-helpdesk", "url": "https://scholarships.gov.in/", "checkedOn": "2026-10-17", "claim": "The site links to an NSP helpdesk page.", "quote": "NSP Helpdesk."},
+        {"id": "nsp-pfms", "url": "https://scholarships.gov.in/", "checkedOn": "2026-10-17", "claim": "The site links to a PFMS helpdesk page.", "quote": "PFMS Helpdesk"}
+      ],
+      "fields": {
+        "purpose": {"value": "National portal for applying for the scholarship schemes listed on NSP.", "evidenceIds": ["nsp-apply"]},
+        "operator": {"value": "Government of India; the site header names the Ministry of Electronics & Information Technology", "evidenceIds": ["nsp-header"]},
+        "audience": {"value": "Students, institutions, officers and the public each have a section", "evidenceIds": ["nsp-sections"]},
+        "jurisdiction": {"value": "India (national)", "evidenceIds": ["nsp-header"]},
+        "languages": {"value": "English original; other languages are machine translations (Bhashini)", "evidenceIds": ["nsp-lang"]},
+        "help": [
+          {"label": "NSP helpdesk", "url": "https://scholarships.gov.in/nsphelpdesk", "kind": "help", "evidenceIds": ["nsp-helpdesk"]},
+          {"label": "PFMS helpdesk", "url": "https://scholarships.gov.in/pfmshelpdesk", "kind": "help", "evidenceIds": ["nsp-pfms"]}
+        ]
+      },
+      "heldFields": [],
+      "uncertainty": [
+        "Each scholarship scheme belongs to its own ministry or body; scheme owners are shown on the individual service records, not here.",
+        "Applying needs a One Time Registration sign-in, which JanSetu does not link to directly."
+      ],
+      "reviewFlags": {"operator": ["Operator is taken from the site header (MeitY); scholarship schemes belong to different ministries."]},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "a6a218486a7d02b1b40deb523b065dd9957344017d79262bbf77194d64015f2e", "change": "operator: keep the header fact apart from scheme ownership (AI: REVISE)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"},
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "1eb93cc9006bcbf2b383aaed23e9ac2de105d552d0c11998e6750c1ec72d6fcb", "change": "operator: removed the sentence 'Each scholarship scheme belongs to its own ministry or body.', which the cited evidence (site header) does not state; the point remains in the notes, which refer to the individual service records", "reason": "Phase 6D reconciliation found that the 18 October revision added wording not supported by the cited source. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json"}
+      ]
+    },
+    {
+      "websiteId": "national-career-service",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "ncs-purpose", "url": "https://ncs.gov.in/", "checkedOn": "2026-10-17", "claim": "NCS offers employment and career services to citizens of India.", "quote": "The National Career Service (NCS) is a one-stop solution offering a wide range of employment and career-related services to the citizens of India, including job search, job matching, career content, counselling, and job fair information."},
+        {"id": "ncs-operator", "url": "https://ncs.gov.in/", "checkedOn": "2026-10-17", "claim": "NCS is an initiative of the Ministry of Labour & Employment.", "quote": "It is an initiative of the Ministry of Labour & Employment, Government of India."},
+        {"id": "ncs-audience", "url": "https://ncs.gov.in/", "checkedOn": "2026-10-17", "claim": "The FAQ lists who can register.", "quote": "Job Seekers, Employers, Skill Providers, Career Counsellors, Local Service Providers, Career Centers, Placement Organisations, Households, and Government Departments."},
+        {"id": "ncs-faq", "url": "https://ncs.gov.in/faq", "checkedOn": "2026-10-17", "claim": "An FAQ page is published.", "quote": "Who can register on the portal?"}
+      ],
+      "fields": {
+        "purpose": {"value": "Employment and career services: job search and matching, career information, counselling and job fairs.", "evidenceIds": ["ncs-purpose"]},
+        "operator": {"value": "Ministry of Labour & Employment, Government of India", "evidenceIds": ["ncs-operator"]},
+        "audience": {"value": "Job seekers, employers, skill providers, career counsellors, local service providers, career centres, placement organisations, households and government departments", "evidenceIds": ["ncs-audience"]},
+        "jurisdiction": {"value": "India (national)", "evidenceIds": ["ncs-purpose"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://ncs.gov.in/faq", "kind": "faq", "evidenceIds": ["ncs-faq"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "languages", "reason": "No language switch was identified in the saved pages; not inferred."}
+      ],
+      "uncertainty": [
+        "The site's Contact Us link points to a map service, not an official page, so JanSetu does not link to it.",
+        "The page's meta description refers to unrelated engineering services; JanSetu ignores it.",
+        "Job listings are posted by employers and are not checked by JanSetu."
+      ],
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "a227f1b01839f300a145d70e409dbe3b15871f04d3f6825cb4e875156dd327f1", "change": "audience: list every group the source names (AI: REVISE)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "cpgrams",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "cp-purpose", "url": "https://pgportal.gov.in/", "checkedOn": "2026-10-17", "claim": "CPGRAMS is an online platform where citizens lodge grievances about service delivery at any time.", "quote": "is an online platform available to the citizens 24x7 to lodge their grievances to the public authorities on any subject related to service delivery."},
+        {"id": "cp-scope", "url": "https://pgportal.gov.in/", "checkedOn": "2026-10-17", "claim": "The portal is connected to all central ministries and departments and to States.", "quote": "It is a single portal connected to all the Ministries/Departments of Government of India and States."},
+        {"id": "cp-email", "url": "https://pgportal.gov.in/", "checkedOn": "2026-10-17", "claim": "Grievances sent by email are not attended to.", "quote": "Any Grievance sent by email will not be attended to / entertained."},
+        {"id": "cp-ministry", "url": "https://pgportal.gov.in/Home/ContactUs", "checkedOn": "2026-10-17", "claim": "The site header names the Ministry of Personnel, Public Grievances & Pensions.", "quote": "Ministry of Personnel, Public Grievances & Pensions"},
+        {"id": "cp-content", "url": "https://pgportal.gov.in/Home/ContactUs", "checkedOn": "2026-10-17", "claim": "Content is owned by the Department of Administrative Reforms & Public Grievances.", "quote": "Content owned by Department of Administrative Reforms & Public Grievances."},
+        {"id": "cp-english", "url": "https://pgportal.gov.in/Home/AboutUs", "checkedOn": "2026-10-17", "claim": "The language selector lists English.", "quote": "English"},
+        {"id": "cp-hindi", "url": "https://pgportal.gov.in/Home/AboutUs", "checkedOn": "2026-10-17", "claim": "The language selector lists Hindi.", "quote": "हिंदी (Hindi)"},
+        {"id": "cp-tamil", "url": "https://pgportal.gov.in/Home/AboutUs", "checkedOn": "2026-10-17", "claim": "The language selector lists Tamil.", "quote": "தமிழ் (Tamil)"},
+        {"id": "cp-faq", "url": "https://pgportal.gov.in/Home/AboutUs", "checkedOn": "2026-10-17", "claim": "The site links to an FAQ and help page.", "quote": "FAQs/Help"},
+        {"id": "cp-contact", "url": "https://pgportal.gov.in/Home/AboutUs", "checkedOn": "2026-10-17", "claim": "The site links to a Contact Us page.", "quote": "Contact Us"},
+        {"id": "cp-status", "url": "https://pgportal.gov.in/Home/AboutUs", "checkedOn": "2026-10-17", "claim": "The site links to grievance status.", "quote": "Grievance Status"}
+      ],
+      "fields": {
+        "purpose": {"value": "Lodge public grievances about government service delivery online, at any time, and follow their status.", "evidenceIds": ["cp-purpose", "cp-status"]},
+        "operator": {"value": "Department of Administrative Reforms & Public Grievances, Ministry of Personnel, Public Grievances & Pensions", "evidenceIds": ["cp-content", "cp-ministry"]},
+        "audience": {"value": "Citizens", "evidenceIds": ["cp-purpose"]},
+        "jurisdiction": {"value": "Ministries and departments of the Government of India, and States", "evidenceIds": ["cp-scope"]},
+        "languages": {"value": "English, Hindi, Tamil and other Indian languages (language selector observed)", "evidenceIds": ["cp-english", "cp-hindi", "cp-tamil"]},
+        "help": [
+          {"label": "FAQs and help", "url": "https://pgportal.gov.in/Home/Faq", "kind": "faq", "evidenceIds": ["cp-faq"]},
+          {"label": "Contact us", "url": "https://pgportal.gov.in/Home/ContactUs", "kind": "contact", "evidenceIds": ["cp-contact"]}
+        ],
+        "tasks": [
+          {"label": "Check grievance status", "url": "https://pgportal.gov.in/Status", "kind": "task", "evidenceIds": ["cp-status"]}
+        ]
+      },
+      "heldFields": [],
+      "uncertainty": [
+        "The portal says grievances sent by email are not attended to; they must be lodged on the portal.",
+        "Lodging a grievance needs sign-in; JanSetu links to information and status pages only.",
+        "The completeness of each language version was not checked."
+      ]
+    },
+    {
+      "websiteId": "rti-online",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "rti-operator", "url": "https://rtionline.gov.in/", "checkedOn": "2026-10-17", "claim": "RTI Online is an initiative of the Department of Personnel & Training.", "quote": "An Initiative of Department of Personnel & Training, Government of India"},
+        {"id": "rti-menu", "url": "https://rtionline.gov.in/", "checkedOn": "2026-10-17", "claim": "The menu offers request submission, first appeal and status.", "quote": "Submit RequestSubmit First AppealView Status"},
+        {"id": "rti-scope", "url": "https://rtionline.gov.in/", "checkedOn": "2026-10-17", "claim": "The portal must not be used for State Government public authorities, including the Government of NCT of Delhi.", "quote": "Please do not file RTI applications through this portal for the public authorities under the State Governments, including Government of NCT Delhi."},
+        {"id": "rti-lang", "url": "https://rtionline.gov.in/", "checkedOn": "2026-10-17", "claim": "English and Hindi are offered.", "quote": "Select Language: English Hindi"},
+        {"id": "rti-faq", "url": "https://rtionline.gov.in/", "checkedOn": "2026-10-17", "claim": "The site links to an FAQ page.", "quote": "FAQ"},
+        {"id": "rti-contact", "url": "https://rtionline.gov.in/", "checkedOn": "2026-10-17", "claim": "The site links to a Contact Us page.", "quote": "Contact Us"}
+      ],
+      "fields": {
+        "purpose": {"value": "Submit RTI requests and first appeals online to central public authorities, and check their status.", "evidenceIds": ["rti-menu", "rti-scope"]},
+        "operator": {"value": "Department of Personnel & Training, Government of India", "evidenceIds": ["rti-operator"]},
+        "jurisdiction": {"value": "Central Government public authorities only; not State Government authorities, including the Government of NCT of Delhi", "evidenceIds": ["rti-scope"]},
+        "languages": {"value": "English and Hindi", "evidenceIds": ["rti-lang"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://rtionline.gov.in/faq.php?pageid=1679091c5a880faf6fb5e6087eb1b2dc", "kind": "faq", "evidenceIds": ["rti-faq"]},
+          {"label": "Contact us", "url": "https://rtionline.gov.in/Contactus.php", "kind": "contact", "evidenceIds": ["rti-contact"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "audience", "reason": "The pages seen do not state who may file; the RTI Act's applicant rules are not inferred from the website."}
+      ],
+      "uncertainty": [
+        "The portal says applications for State Government authorities filed here would be returned."
+      ]
+    },
+    {
+      "websiteId": "udyam-registration",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "ud-purpose", "url": "https://udyamregistration.gov.in/", "checkedOn": "2026-10-17", "claim": "This is the only government portal for MSME (Udyam) registration.", "quote": "THIS IS THE ONLY GOVERNMENT PORTAL FOR MSME (UDYAM) REGISTRATION"},
+        {"id": "ud-operator", "url": "https://udyamregistration.gov.in/", "checkedOn": "2026-10-17", "claim": "The page title says this is the official website of the Ministry of MSME.", "quote": "This is official website of Govt. of India, Ministry of MSME."},
+        {"id": "ud-audience", "url": "https://udyamregistration.gov.in/", "checkedOn": "2026-10-17", "claim": "New registration is for entrepreneurs not yet registered as an MSME.", "quote": "For New Entrepreneurs who are not Registered yet as Micro, Small & Medium"},
+        {"id": "ud-warning", "url": "https://udyamregistration.gov.in/", "checkedOn": "2026-10-17", "claim": "No private agency is authorised to do MSME registration.", "quote": "Except this portal of Government of India and Government's Single Window Systems, no other private online or offline system, service, agency or person is authorized to do MSME Registration or undertake any related activity."},
+        {"id": "ud-grievance", "url": "https://udyamregistration.gov.in/", "checkedOn": "2026-10-17", "claim": "The site links to a grievance page.", "quote": "For Grievances"}
+      ],
+      "fields": {
+        "purpose": {"value": "The Government of India's official portal for Udyam (MSME) registration.", "evidenceIds": ["ud-purpose", "ud-warning"]},
+        "operator": {"value": "Ministry of Micro, Small and Medium Enterprises, Government of India", "evidenceIds": ["ud-operator"]},
+        "audience": {"value": "Micro, small and medium enterprises, including entrepreneurs registering for the first time", "evidenceIds": ["ud-audience"]},
+        "jurisdiction": {"value": "India (national)", "evidenceIds": ["ud-operator"]},
+        "help": [
+          {"label": "Grievances (MSME Champions portal)", "url": "https://champions.gov.in/", "kind": "grievance", "evidenceIds": ["ud-grievance"]}
+        ]
+      },
+      "heldFields": [],
+      "uncertainty": [
+        "The portal warns that no private agency is authorised to do MSME registration; JanSetu links only to the official portal.",
+        "The grievance link opens the separate MSME Champions portal (champions.gov.in), which was not loaded."
+      ]
+    },
+    {
+      "websiteId": "igod-7c7865e8e6982bc1",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "pyr-meta", "url": "https://revenue.py.gov.in/", "checkedOn": "2026-10-17", "claim": "The page describes itself as the Department of Revenue and Disaster Management's official website.", "quote": "Official website of Department of Revenue and Disaster Management, Puducherry"},
+        {"id": "pyr-title", "url": "https://revenue.py.gov.in/", "checkedOn": "2026-10-17", "claim": "The page title names the Government of Puducherry.", "quote": "Government of Puducherry, Department of Revenue and Disaster Management"},
+        {"id": "pyr-menu", "url": "https://revenue.py.gov.in/", "checkedOn": "2026-10-17", "claim": "The menu covers services and schemes and disaster management.", "quote": "Services & Scheme Disaster Management"},
+        {"id": "pyr-services", "url": "https://revenue.py.gov.in/", "checkedOn": "2026-10-17", "claim": "The site links to its services and schemes page.", "quote": "Services & Scheme"},
+        {"id": "pyr-charter", "url": "https://revenue.py.gov.in/", "checkedOn": "2026-10-17", "claim": "The site links to a citizen charter.", "quote": "Citizen Charter"},
+        {"id": "pyr-contacts", "url": "https://revenue.py.gov.in/", "checkedOn": "2026-10-17", "claim": "The site links to a contacts page.", "quote": "Contacts"}
+      ],
+      "fields": {
+        "purpose": {"value": "Official website of Puducherry's Department of Revenue and Disaster Management, with its services and schemes, citizen charter and disaster-management information.", "evidenceIds": ["pyr-meta", "pyr-menu", "pyr-charter"]},
+        "operator": {"value": "Department of Revenue and Disaster Management, Government of Puducherry", "evidenceIds": ["pyr-title"]},
+        "jurisdiction": {"value": "Puducherry", "evidenceIds": ["pyr-title"]},
+        "help": [
+          {"label": "Contacts", "url": "https://revenue.py.gov.in/contact_us.html", "kind": "contact", "evidenceIds": ["pyr-contacts"]},
+          {"label": "Citizen charter", "url": "https://revenue.py.gov.in/citizen_charter.html", "kind": "help", "evidenceIds": ["pyr-charter"]}
+        ],
+        "tasks": [
+          {"label": "Services and schemes", "url": "https://revenue.py.gov.in/services_and_scheme.html", "kind": "task", "evidenceIds": ["pyr-services"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "audience", "reason": "Not stated on the saved page; not inferred."}
+      ],
+      "uncertainty": [
+        "The first capture failed with a DNS error; one retry the same day loaded the page.",
+        "Emergency helpline numbers appear on the page; JanSetu does not copy contact numbers.",
+        "The contacts, citizen charter and services pages were loaded on 18 October (link check). The citizen charter page says a revision is in progress and offers the previous version."
+      ],
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "97ba6746b1bff89861770c3b395d15cbdf0f65b7cc68bbf0e01f03924fbe96c0", "change": "notes updated after the 18 October link check (content unchanged)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "income-tax-efiling",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "it-official", "url": "https://www.incometax.gov.in/iec/foportal/about-portal", "checkedOn": "2026-10-17", "claim": "This is the official portal of the Income Tax Department, Ministry of Finance.", "quote": "This is the official portal of Income Tax Department, Ministry of Finance, Government of India."},
+        {"id": "it-purpose", "url": "https://www.incometax.gov.in/iec/foportal/about-portal", "checkedOn": "2026-10-17", "claim": "The portal gives taxpayers and other stakeholders single-window access to income tax services.", "quote": "The objective of this portal is to provide a single window access to the income tax related services for taxpayers and other stakeholders."},
+        {"id": "it-help", "url": "https://www.incometax.gov.in/iec/foportal/help", "checkedOn": "2026-10-17", "claim": "A help and support centre is published.", "quote": "Help & Support Center"},
+        {"id": "it-contact", "url": "https://www.incometax.gov.in/iec/foportal/contact-us", "checkedOn": "2026-10-17", "claim": "A contact page lists help desk details.", "quote": "Help Desk Contact Details"}
+      ],
+      "fields": {
+        "purpose": {"value": "Official single-window portal for income tax e-filing and related services.", "evidenceIds": ["it-purpose", "it-official"]},
+        "operator": {"value": "Income Tax Department, Ministry of Finance, Government of India", "evidenceIds": ["it-official"]},
+        "audience": {"value": "Taxpayers and other stakeholders", "evidenceIds": ["it-purpose"]},
+        "jurisdiction": {"value": "India (national)", "evidenceIds": ["it-official"]},
+        "help": [
+          {"label": "Help and support centre", "url": "https://www.incometax.gov.in/iec/foportal/help", "kind": "help", "evidenceIds": ["it-help"]},
+          {"label": "Contact us", "url": "https://www.incometax.gov.in/iec/foportal/contact-us", "kind": "contact", "evidenceIds": ["it-contact"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "languages", "reason": "Only an English label was seen; whether other languages are offered was not confirmed."}
+      ],
+      "uncertainty": [
+        "The first capture failed with a DNS error; one retry the same day loaded the pages.",
+        "Filing, payment and profile services need sign-in; JanSetu does not link to sign-in pages."
+      ]
+    },
+    {
+      "websiteId": "igod-85affa23dc47255b",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "eci-operator", "url": "https://electoralsearch.eci.gov.in/", "checkedOn": "2026-10-17", "claim": "The page is published by the Election Commission of India.", "quote": "भारत निर्वाचन आयोग Election Commission of India"},
+        {"id": "eci-search", "url": "https://electoralsearch.eci.gov.in/", "checkedOn": "2026-10-17", "claim": "The page searches the electoral roll.", "quote": "Search in Electoral Roll"},
+        {"id": "eci-modes", "url": "https://electoralsearch.eci.gov.in/", "checkedOn": "2026-10-17", "claim": "The search works by EPIC number, by details or by mobile number.", "quote": "Search by EPIC विवरण द्वारा खोजें/ Search by Details मोबाइल द्वारा खोजें / Search by Mobile"},
+        {"id": "eci-states", "url": "https://electoralsearch.eci.gov.in/", "checkedOn": "2026-10-17", "claim": "A state is selected for the search; the list covers states and union territories.", "quote": "Select Your State Andaman & Nicobar Islands Andhra Pradesh"},
+        {"id": "eci-hindi", "url": "https://electoralsearch.eci.gov.in/", "checkedOn": "2026-10-17", "claim": "The language selector lists Hindi.", "quote": "Hindi/हिंदी"},
+        {"id": "eci-tamil", "url": "https://electoralsearch.eci.gov.in/", "checkedOn": "2026-10-17", "claim": "The language selector lists Tamil.", "quote": "Tamil/தமிழ்"},
+        {"id": "eci-selector", "url": "https://electoralsearch.eci.gov.in/", "checkedOn": "2026-10-18", "claim": "The full language selector as shown on the page.", "quote": "Hindi/हिंदी Assamese/অসমীয়া Bengali/বাংলা Konkani/कोंकणी Gujarati/ગુજરાતી Malayalam/മലയാളം Odia/ଓଡିଆ Punjabi/ਪੰਜਾਬੀ Tamil/தமிழ் Telugu/తెలుగు Marathi/मराठी Kannada/ಕನ್ನಡ Urdu/اردو"}
+      ],
+      "fields": {
+        "purpose": {"value": "Search for an entry in the electoral roll by EPIC number, by personal details or by mobile number.", "evidenceIds": ["eci-search", "eci-modes"]},
+        "operator": {"value": "Election Commission of India", "evidenceIds": ["eci-operator"]},
+        "languages": {"value": "English page with a language selector listing Hindi, Assamese, Bengali, Konkani, Gujarati, Malayalam, Odia, Punjabi, Tamil, Telugu, Marathi, Kannada and Urdu", "evidenceIds": ["eci-selector"]}
+      },
+      "heldFields": [
+        {"field": "help", "reason": "No help, FAQ or contact link was found among the saved page's links (the page is a single-page app); not inferred."},
+        {"field": "audience", "reason": "Not stated on the saved page; not inferred."},
+        {"field": "jurisdiction", "reason": "The search page has a state selector, but it does not state that every State and Union Territory is covered."}
+      ],
+      "uncertainty": [
+        "The search needs a captcha; JanSetu does not interact with it.",
+        "The first capture failed with a DNS error; one retry the same day loaded the page.",
+        "Voter registration (Form 6) and record changes (Form 8) are separate service records."
+      ],
+      "reviewFlags": {"jurisdiction": ["Jurisdiction is read from the state selector, not from a statement on the page."]},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "95e7bce7d25a8023b6c6e55d4037b9da39a45bb88402683054ce44b05ab46081", "change": "jurisdiction withheld: a selector is not a coverage statement (AI: REVISE; held instead of hedged wording); languages: cite the full selector instead of 'other Indian languages' (AI: REVISE)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "digilocker",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "dg-initiative", "url": "https://www.digilocker.gov.in/web/about/about-digilocker", "checkedOn": "2026-10-17", "claim": "DigiLocker is a Ministry of Electronics and Information Technology initiative under Digital India.", "quote": "DigiLocker is a flagship initiative of the Ministry of Electronics and Information Technology under the Digital India programme."},
+        {"id": "dg-operator", "url": "https://www.digilocker.gov.in/web/about/about-digilocker", "checkedOn": "2026-10-17", "claim": "It is operated by the National e-Governance Division and gives citizens access to authentic documents from registered issuers.", "quote": "Operated by the National e-Governance Division, it lets citizens access authentic documents made available by registered government departments, educational institutions and other authorised organisations"},
+        {"id": "dg-partner", "url": "https://www.digilocker.gov.in/", "checkedOn": "2026-10-17", "claim": "The site has a section for partner organisations.", "quote": "Become a Partner"},
+        {"id": "dg-faq", "url": "https://www.digilocker.gov.in/web/about/faq", "checkedOn": "2026-10-17", "claim": "An FAQ page is published.", "quote": "Frequently Asked Questions About DigiLocker"},
+        {"id": "dg-contact", "url": "https://www.digilocker.gov.in/", "checkedOn": "2026-10-17", "claim": "The site links to a Contact Us page.", "quote": "Contact Us"}
+      ],
+      "fields": {
+        "purpose": {"value": "Access authentic digital documents issued by registered government departments, educational institutions and other authorised organisations.", "evidenceIds": ["dg-operator"]},
+        "operator": {"value": "National e-Governance Division, Ministry of Electronics and Information Technology", "evidenceIds": ["dg-operator", "dg-initiative"]},
+        "audience": {"value": "Citizens who want to access authentic digital documents", "evidenceIds": ["dg-operator"]},
+        "jurisdiction": {"value": "India (national)", "evidenceIds": ["dg-initiative"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://www.digilocker.gov.in/web/about/faq", "kind": "faq", "evidenceIds": ["dg-faq"]},
+          {"label": "Contact us", "url": "https://www.digilocker.gov.in/web/about/contact-us", "kind": "contact", "evidenceIds": ["dg-contact"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "languages", "reason": "Only an English label was seen; other languages were not confirmed."}
+      ],
+      "uncertainty": [
+        "The About page cites Rule 9A of the Digital Locker Rules, 2016 on the status of issued documents; JanSetu does not restate legal status.",
+        "Using an account needs sign-in; JanSetu does not link to sign-up or sign-in pages. The contact page was loaded on 18 October.",
+        "The site also has a 'Become a Partner' section for organisations; it is not described here."
+      ],
+      "reviewFlags": {"audience": ["The partner-organisation part of the audience rests on a 'Become a Partner' link label."]},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "8e8a1aa7ada5b1ffa4b604810fb65a486892ef83da54686c4fa3e9648bb7d437", "change": "audience: drop the partner half, which rested on a link label (AI: REVISE)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "igod-ec86b21083980772",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "tnp-objective", "url": "https://www.tn.gov.in/faq.php", "checkedOn": "2026-10-17", "claim": "The portal gives single-window access to State Government information and services.", "quote": "The objective of the Portal is to provide a single window ‘Any Time, Any Where’ access to the information and services of the State Government."},
+        {"id": "tnp-documents", "url": "https://www.tn.gov.in/faq.php", "checkedOn": "2026-10-17", "claim": "Announcements, press releases and government orders are published on the portal.", "quote": "All the Announcements, Press Releases and Government Orders can be accessed from this single Portal."},
+        {"id": "tnp-developer", "url": "https://www.tn.gov.in/faq.php", "checkedOn": "2026-10-17", "claim": "The portal was developed by NIC's Tamil Nadu State Centre.", "quote": "State Portal is a Mission Mode Project under the National E-Governance Plan developed by National Informatics Center, Tamil Nadu State Centre and was launched in 2013."},
+        {"id": "tnp-header", "url": "https://www.tn.gov.in/", "checkedOn": "2026-10-17", "claim": "The header names the Government of Tamil Nadu in Tamil and English.", "quote": "தமிழ்நாடு அரசு Government Of Tamil Nadu"},
+        {"id": "tnp-helpdesk", "url": "https://www.tn.gov.in/help_desk.php", "checkedOn": "2026-10-17", "claim": "A call centre and help desk page is published.", "quote": "Call Centre and Help Desk – Government of Tamil Nadu"},
+        {"id": "tnp-directory", "url": "https://www.tn.gov.in/contact_directory.php", "checkedOn": "2026-10-17", "claim": "A contact directory of offices is published.", "quote": "Contact Directory Governor Chief Minister"},
+        {"id": "tnp-faq", "url": "https://www.tn.gov.in/faq.php", "checkedOn": "2026-10-17", "claim": "An FAQ page is published.", "quote": "Frequently Asked Questions 1. What is this Web Portal about?"},
+        {"id": "tnp-grievances", "url": "https://www.tn.gov.in/", "checkedOn": "2026-10-17", "claim": "The menu links to grievances.", "quote": "Grievances"},
+        {"id": "tnp-online", "url": "https://www.tn.gov.in/", "checkedOn": "2026-10-17", "claim": "The menu links to online services.", "quote": "Online Services"},
+        {"id": "tnp-footer", "url": "https://www.tn.gov.in/faq.php", "checkedOn": "2026-10-18", "claim": "The footer separates content ownership from site development.", "quote": "Content owned and Maintained by: Government of Tamil Nadu. Site Designed and Developed by: National Informatics Centre."}
+      ],
+      "fields": {
+        "purpose": {"value": "Official portal of the Government of Tamil Nadu: single-window access to state government information and services, including announcements, press releases and government orders.", "evidenceIds": ["tnp-objective", "tnp-documents"]},
+        "operator": {"value": "Government of Tamil Nadu (owns and maintains the content); site designed and developed by National Informatics Centre", "evidenceIds": ["tnp-footer", "tnp-header"]},
+        "jurisdiction": {"value": "Tamil Nadu", "evidenceIds": ["tnp-header"]},
+        "help": [
+          {"label": "Help desk and helpline numbers", "url": "https://www.tn.gov.in/help_desk.php", "kind": "help", "evidenceIds": ["tnp-helpdesk"]},
+          {"label": "Contact directory", "url": "https://www.tn.gov.in/contact_directory.php", "kind": "contact", "evidenceIds": ["tnp-directory"]},
+          {"label": "Frequently asked questions", "url": "https://www.tn.gov.in/faq.php", "kind": "faq", "evidenceIds": ["tnp-faq"]},
+          {"label": "Grievances", "url": "https://www.tn.gov.in/grievances.php", "kind": "grievance", "evidenceIds": ["tnp-grievances"]}
+        ],
+        "tasks": [
+          {"label": "Online services", "url": "https://www.tn.gov.in/services.php", "kind": "task", "evidenceIds": ["tnp-online"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "languages", "reason": "The header is bilingual, but no language switch was identified; not inferred."},
+        {"field": "audience", "reason": "Not stated on the saved pages; not inferred."}
+      ],
+      "uncertainty": [
+        "The grievances, online-services and contact-directory pages were loaded on 18 October (link check)."
+      ],
+      "reviewFlags": {"operator": ["Combines the government named in the header with the developer named in the FAQ (NIC); confirm this is the right operator wording."]},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "a9ade250fe626febfa21e282eb5f09d3f7cba023cef4d6a21e48794849cd1f12", "change": "operator: state owner and developer roles separately, from the footer (AI: REVISE)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "igod-fd26b3c2335b6081",
+      "batchId": "2026-10-17",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "evidence": [
+        {"id": "pyp-title", "url": "https://www.py.gov.in/", "checkedOn": "2026-10-17", "claim": "The page title says this is the official website of the Government of Puducherry.", "quote": "Official Website of Government of Puducherry, India"},
+        {"id": "pyp-citizens", "url": "https://www.py.gov.in/", "checkedOn": "2026-10-17", "claim": "The citizens menu covers the citizen's charter, online services and e-District.", "quote": "Citizens Citizen's Charter Online Services E-District"},
+        {"id": "pyp-ut", "url": "https://www.py.gov.in/about-puducherry", "checkedOn": "2026-10-17", "claim": "The Union Territory comprises Puducherry, Karaikal, Mahe and Yanam.", "quote": "The Union Territory of Puducherry comprises the former French establishments of Puducherry, Karaikal, Mahe and Yanam"},
+        {"id": "pyp-webmaster", "url": "https://www.py.gov.in/contact-us", "checkedOn": "2026-10-17", "claim": "The web master is the Department of Information Technology.", "quote": "Web Master Department Department of Information Technology"},
+        {"id": "pyp-helpdesk", "url": "https://www.py.gov.in/help-desk", "checkedOn": "2026-10-17", "claim": "A help desk page names the Department of Information Technology.", "quote": "Help Desk Department Department of Information Technology"},
+        {"id": "pyp-faq", "url": "https://www.py.gov.in/", "checkedOn": "2026-10-17", "claim": "The site links to an FAQ page.", "quote": "FAQ"},
+        {"id": "pyp-grievance", "url": "https://www.py.gov.in/", "checkedOn": "2026-10-17", "claim": "The Public Grievance link goes to CPGRAMS (pgportal.gov.in).", "quote": "Public Grievance"},
+        {"id": "pyp-online", "url": "https://www.py.gov.in/", "checkedOn": "2026-10-17", "claim": "The site links to online services.", "quote": "Online Services"},
+        {"id": "pyp-faq-content", "url": "https://www.py.gov.in/frequently-asked-questions", "checkedOn": "2026-10-18", "claim": "Directorate of Information Technology officials manage the portal content.", "quote": "A team of Officials in the Directorate of Information Technology, Puducherry is managing the content update works in the State Portal of Government of Puducherry."},
+        {"id": "pyp-faq-nodal", "url": "https://www.py.gov.in/frequently-asked-questions", "checkedOn": "2026-10-18", "claim": "Puducherry e-Governance Society is the nodal agency for the State Portal project.", "quote": "Puducherry e-Governance Society – An Undertaking of Government of Puducherry under the Directorate of Information Technology is the Nodal Agency for State Portal project."}
+      ],
+      "fields": {
+        "purpose": {"value": "Official website of the Government of Puducherry, with links to departments, the citizen's charter, online services, e-District and public grievances.", "evidenceIds": ["pyp-title", "pyp-citizens"]},
+        "operator": {"value": "Government of Puducherry. Officials of the Directorate of Information Technology manage the portal's content; Puducherry e-Governance Society is the nodal agency for the State Portal project.", "evidenceIds": ["pyp-title", "pyp-faq-content", "pyp-faq-nodal"]},
+        "jurisdiction": {"value": "Union Territory of Puducherry: Puducherry, Karaikal, Mahe and Yanam", "evidenceIds": ["pyp-ut"]},
+        "help": [
+          {"label": "Help desk", "url": "https://www.py.gov.in/help-desk", "kind": "help", "evidenceIds": ["pyp-helpdesk"]},
+          {"label": "Contact us", "url": "https://www.py.gov.in/contact-us", "kind": "contact", "evidenceIds": ["pyp-webmaster"]},
+          {"label": "Frequently asked questions", "url": "https://www.py.gov.in/frequently-asked-questions", "kind": "faq", "evidenceIds": ["pyp-faq"]},
+          {"label": "Public grievance (CPGRAMS)", "url": "https://pgportal.gov.in/", "kind": "grievance", "evidenceIds": ["pyp-grievance"]}
+        ],
+        "tasks": [
+          {"label": "Online services", "url": "https://www.py.gov.in/onlineservices", "kind": "task", "evidenceIds": ["pyp-online"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "languages", "reason": "No language switch was identified in the saved pages; not inferred."},
+        {"field": "audience", "reason": "Not stated on the saved pages; not inferred."}
+      ],
+      "uncertainty": [
+        "The FAQ and online-services pages were loaded on 18 October (link check)."
+      ],
+      "reviewFlags": {},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "1b9a240a421044951043176f8bdf0e450dac7ead8bb942bf6daf6c28ca3c456d", "change": "operator: use the portal FAQ instead of the web-master entry (AI: REVISE)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "uidai",
+      "batchId": "2026-10-17",
+      "status": "held",
+      "reviewStatus": "not_reviewed",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "heldReason": "https://uidai.gov.in/en/my-aadhaar returned HTTP 500 on the first capture and on the single retry the same day, so there is no content observation. The existing verified website record (reviewed 2026-10-12) is unchanged.",
+      "evidence": [],
+      "fields": {},
+      "heldFields": [],
+      "uncertainty": []
+    },
+    {
+      "websiteId": "india-portal",
+      "batchId": "2026-10-17",
+      "status": "held",
+      "reviewStatus": "not_reviewed",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "heldReason": "https://www.india.gov.in/ returned HTTP 403 to headless Chrome. This is treated as an access decision and was not retried or worked around. A person should check the site in a normal browser. The existing verified record is unchanged.",
+      "evidence": [],
+      "fields": {},
+      "heldFields": [],
+      "uncertainty": []
+    },
+    {
+      "websiteId": "igod-1d591544b1c2e25d",
+      "batchId": "2026-10-17",
+      "status": "held",
+      "reviewStatus": "not_reviewed",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-17",
+      "heldReason": "https://msme.gov.in/ returned HTTP 403 to headless Chrome. This is treated as an access decision and was not retried or worked around. A person should check the site in a normal browser.",
+      "evidence": [],
+      "fields": {},
+      "heldFields": [],
+      "uncertainty": []
+    },
+    {
+      "websiteId": "igod-ffa4189a2ac66991",
+      "batchId": "2026-10-18",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "hp-about", "url": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB4QOC0eN%2F%2B6qQ%3D%3D", "checkedOn": "2026-10-18", "claim": "The portal is the official web portal of the Government of Himachal Pradesh, built and hosted by NIC's Himachal Pradesh State Centre.", "quote": "This is the Official Web-Portal of the Government of Himachal Pradesh, India, designed, developed and hosted by National Informatics Centre (NIC), Himachal Pradesh State Centre."},
+        {"id": "hp-purpose", "url": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB4QOC0eN%2F%2B6qQ%3D%3D", "checkedOn": "2026-10-18", "claim": "The portal gives single-window access to state government information and services for citizens and other stakeholders.", "quote": "The objective behind the Portal is to provide a single window access to the information and services being provided by the Himachal Pradesh Government for the citizens and other stakeholders."},
+        {"id": "hp-faq", "url": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB6vDHvsMAvpTw%3D%3D", "checkedOn": "2026-10-18", "claim": "An FAQ page is published.", "quote": "Frequently Asked Questions"},
+        {"id": "hp-helpline", "url": "https://himachal.gov.in/", "checkedOn": "2026-10-18", "claim": "The site links to a Helpline page.", "quote": "Helpline"},
+        {"id": "hp-services", "url": "https://himachal.gov.in/", "checkedOn": "2026-10-18", "claim": "The site links to departmental citizen services.", "quote": "Departmental Citizen Services"}
+      ],
+      "fields": {
+        "purpose": {"value": "Official portal of the Government of Himachal Pradesh: single-window access to state government information and services.", "evidenceIds": ["hp-purpose", "hp-about"]},
+        "operator": {"value": "Government of Himachal Pradesh (portal owner); designed, developed and hosted by National Informatics Centre, Himachal Pradesh State Centre", "evidenceIds": ["hp-about"]},
+        "audience": {"value": "Citizens and other stakeholders", "evidenceIds": ["hp-purpose"]},
+        "jurisdiction": {"value": "Himachal Pradesh", "evidenceIds": ["hp-about"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB6vDHvsMAvpTw%3D%3D", "kind": "faq", "evidenceIds": ["hp-faq"]}
+        ],
+        "tasks": [
+          {"label": "Departmental citizen services", "url": "https://services.hp.gov.in/", "kind": "task", "evidenceIds": ["hp-services"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "languages", "reason": "Only an English label was seen; a Hindi version was not confirmed."},
+        {"field": "help", "reason": "The Helpline page is a form asking for name, email, phone and postal address, not a list of helplines; JanSetu does not link to personal-data forms."}
+      ],
+      "uncertainty": [
+        "The FAQ answers are collapsed on the page; only the questions were captured.",
+        "services.hp.gov.in (departmental e-services) was loaded on 18 October (link check).",
+        "Seven service candidates awaiting review link to this portal; they are reviewed as service records, not here."
+      ],
+      "reviewFlags": {"operator": ["Combines the government named as owner with NIC named as developer and host; confirm the operator wording."]},
+      "publicationDecision": {"decision": "publish", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Purpose and owner are stated on the portal's own About page; quotes verified."},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "1de076bd3fed5b278f653f228f83bea33b37bd083b7bf93bd3d0ba34c82a7679", "change": "operator: state owner and developer/host roles separately (AI: REVISE); help link removed (https://himachal.gov.in/Content/HtmlPage?qs=LdEF%2BAuYkB7rMRolWuVbNg%3D%3D): the target is a personal-data form (link check; AI: HOLD)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "igod-0eda9ab58f816d6f",
+      "batchId": "2026-10-18",
+      "status": "proposed",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "pg-title", "url": "https://pension.hrmsodisha.gov.in/", "checkedOn": "2026-10-18", "claim": "The page is titled Pension Grievance.", "quote": "Pension Grievance"},
+        {"id": "pg-logins", "url": "https://pension.hrmsodisha.gov.in/", "checkedOn": "2026-10-18", "claim": "The public page offers only Department/PSA and DDO sign-in.", "quote": "Department/PSA Login CLICK HERE to Login DDO Login CLICK HERE to Login"},
+        {"id": "pg-owner", "url": "https://pension.hrmsodisha.gov.in/", "checkedOn": "2026-10-18", "claim": "The footer names the General Administration & Public Grievance Department, Government of Odisha.", "quote": "General Administration & Public Grievance Department, Government of Odisha"}
+      ],
+      "fields": {
+        "purpose": {"value": "Pension grievance system of the Government of Odisha. Its public page has only sign-in links for departments/PSAs and DDOs.", "evidenceIds": ["pg-title", "pg-logins"]},
+        "operator": {"value": "General Administration & Public Grievance Department, Government of Odisha", "evidenceIds": ["pg-owner"]},
+        "audience": {"value": "Department/PSA and DDO users (sign-in only)", "evidenceIds": ["pg-logins"]},
+        "jurisdiction": {"value": "Odisha", "evidenceIds": ["pg-owner"]}
+      },
+      "heldFields": [
+        {"field": "help", "reason": "No help or contact page is linked."},
+        {"field": "languages", "reason": "Not stated."}
+      ],
+      "uncertainty": [
+        "The page has no description; it is a staff sign-in gateway."
+      ],
+      "reviewFlags": {"purpose": ["Purpose rests on the page title only."]},
+      "publicationDecision": {"decision": "draft", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Draft: the purpose rests on the page title and the page is a staff sign-in gateway. A reviewer should confirm how pensioners raise grievances before anything is shown."}
+    },
+    {
+      "websiteId": "igod-6e1f53ab402e424c",
+      "batchId": "2026-10-18",
+      "status": "proposed",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "sp-title", "url": "https://welfarepension.lsgkerala.gov.in/", "checkedOn": "2026-10-18", "claim": "The page is titled Sevana Pension - Social Security System, Govt. of Kerala.", "quote": "Sevana Pension - Social Security System, Govt. of Kerala"},
+        {"id": "sp-footer", "url": "https://welfarepension.lsgkerala.gov.in/", "checkedOn": "2026-10-18", "claim": "Content is owned by local government institutions; the system is maintained by Information Kerala Mission.", "quote": "Content owned and updated by: Respective Local Government Instistutions. Designed, developed and maintained by:Information Kerala Mission"},
+        {"id": "sp-search", "url": "https://welfarepension.lsgkerala.gov.in/", "checkedOn": "2026-10-18", "claim": "The menu links to a pension search (Malayalam label).", "quote": "പെന്‍ഷന്‍ തിരച്ചില്‍", "quoteLanguage": "ml"},
+        {"id": "sp-schemes", "url": "https://welfarepension.lsgkerala.gov.in/", "checkedOn": "2026-10-18", "claim": "The menu links to schemes (Malayalam label).", "quote": "സ്കീമുകള്‍", "quoteLanguage": "ml"}
+      ],
+      "fields": {
+        "purpose": {"value": "Kerala's social security pension system (Sevana Pension), with scheme information and a pension search.", "evidenceIds": ["sp-title", "sp-schemes", "sp-search"]},
+        "operator": {"value": "Content owned and updated by local government institutions; designed, developed and maintained by Information Kerala Mission", "evidenceIds": ["sp-footer"]},
+        "jurisdiction": {"value": "Kerala", "evidenceIds": ["sp-title"]},
+        "tasks": [
+          {"label": "Pension search", "url": "https://welfarepension.lsgkerala.gov.in/DBTPensionersSearch.aspx", "kind": "task", "evidenceIds": ["sp-search"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "languages", "reason": "The page was served in Malayalam; no language switch was confirmed."},
+        {"field": "help", "reason": "No help or contact page was identified."}
+      ],
+      "uncertainty": [
+        "The page text is in Malayalam with no descriptive paragraph."
+      ],
+      "reviewFlags": {"purpose": ["The source text is not in English; the English wording is the automated agent's translation and must be confirmed by a reader of the language.", "Purpose rests on the page title and menu labels."], "tasks:https://welfarepension.lsgkerala.gov.in/DBTPensionersSearch.aspx": ["The source text is not in English; the English wording is the automated agent's translation and must be confirmed by a reader of the language."]},
+      "publicationDecision": {"decision": "draft", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Draft: purpose rests on the title and Malayalam menu labels translated by the automated agent; needs a Malayalam-reading reviewer."}
+    },
+    {
+      "websiteId": "igod-ddb798b880079969",
+      "batchId": "2026-10-18",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "dbt-purpose", "url": "https://dbt.lsgkerala.gov.in/", "checkedOn": "2026-10-18", "claim": "The module is software for distributing social security pensions through co-operative banks in Kerala.", "quote": "is the application software deployed for the distribution of Social Security Pensions through Co-Operative Banks within the Kerala state"},
+        {"id": "dbt-audience", "url": "https://dbt.lsgkerala.gov.in/", "checkedOn": "2026-10-18", "claim": "Co-operative banks use the application to disburse pensions.", "quote": "This application is being used by the Co-Operative Banks to disburse Social welfare pensions in a time bound manner."},
+        {"id": "dbt-faq", "url": "https://dbt.lsgkerala.gov.in/Help_Faq.aspx", "checkedOn": "2026-10-18", "claim": "A help and FAQ page is published.", "quote": "Help & Faq - SevanaPension Direct To Home Module"},
+        {"id": "dbt-contact", "url": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx", "checkedOn": "2026-10-18", "claim": "A contact page is published.", "quote": "Contact Details - SevanaPension Direct To Home Module."}
+      ],
+      "fields": {
+        "purpose": {"value": "Software that co-operative banks in Kerala use to disburse social security pensions (Sevana Pension Direct To Home module).", "evidenceIds": ["dbt-purpose", "dbt-audience"]},
+        "audience": {"value": "Co-operative banks that disburse social security pensions", "evidenceIds": ["dbt-audience"]},
+        "jurisdiction": {"value": "Kerala", "evidenceIds": ["dbt-purpose"]},
+        "help": [
+          {"label": "Help and FAQ", "url": "https://dbt.lsgkerala.gov.in/Help_Faq.aspx", "kind": "faq", "evidenceIds": ["dbt-faq"]},
+          {"label": "Contact details", "url": "https://dbt.lsgkerala.gov.in/Contactdetails.aspx", "kind": "contact", "evidenceIds": ["dbt-contact"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "operator", "reason": "The contact page lists Kerala Social Security Pension Limited, a DBT cell and Information Kerala Mission (technical help); which body runs the module is not stated."},
+        {"field": "languages", "reason": "The home page is in English and the FAQ answers in Malayalam; no language switch was found."}
+      ],
+      "uncertainty": [
+        "This is a tool for banks; pensioners are not its users.",
+        "The FAQ PDF linked from the page was not captured."
+      ],
+      "publicationDecision": {"decision": "publish", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Purpose and users are stated on the site's home page; quotes verified."}
+    },
+    {
+      "websiteId": "igod-781379c678ce1e21",
+      "batchId": "2026-10-18",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "os-purpose", "url": "https://scholarship.odisha.gov.in/content/about-us", "checkedOn": "2026-10-18", "claim": "The portal connects scholarship providers and scholarship seekers.", "quote": "Odisha State Scholarship Portal envisioned to bridge the gap between the scholarship providers and scholarship seekers thus, encouraging more students to be in the system."},
+        {"id": "os-departments", "url": "https://scholarship.odisha.gov.in/content/about-us", "checkedOn": "2026-10-18", "claim": "Six state departments use the portal as a common platform.", "quote": "Six major department of the state have on boarded onto this common platform for duplication and leakage free scholarship disbursal."},
+        {"id": "os-header", "url": "https://scholarship.odisha.gov.in/content/about-us", "checkedOn": "2026-10-18", "claim": "The header names the Government of Odisha.", "quote": "Odisha State Scholarship Portal Government of Odisha"},
+        {"id": "os-odia", "url": "https://scholarship.odisha.gov.in/content/about-us", "checkedOn": "2026-10-18", "claim": "An Odia language label is shown.", "quote": "ଓଡ଼ିଆ", "quoteLanguage": "or"},
+        {"id": "os-faq", "url": "https://scholarship.odisha.gov.in/faqs", "checkedOn": "2026-10-18", "claim": "An FAQ page is published.", "quote": "FREQUENTLY ASKED QUESTIONS"},
+        {"id": "os-contact", "url": "https://scholarship.odisha.gov.in/content/contact-us", "checkedOn": "2026-10-18", "claim": "A contact page lists department contacts.", "quote": "CONTACT US"},
+        {"id": "os-status", "url": "https://scholarship.odisha.gov.in/content/about-us", "checkedOn": "2026-10-18", "claim": "The site links to an application status page.", "quote": "Know Your Status"}
+      ],
+      "fields": {
+        "purpose": {"value": "Odisha's common scholarship portal, linking students with scholarships offered by state departments.", "evidenceIds": ["os-purpose", "os-departments"]},
+        "operator": {"value": "Government of Odisha; a common platform used by several state departments, with no single operating department named", "evidenceIds": ["os-header", "os-departments"]},
+        "audience": {"value": "Students seeking scholarships", "evidenceIds": ["os-purpose"]},
+        "jurisdiction": {"value": "Odisha", "evidenceIds": ["os-header"]},
+        "languages": {"value": "English and Odia (language label observed)", "evidenceIds": ["os-odia"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://scholarship.odisha.gov.in/faqs", "kind": "faq", "evidenceIds": ["os-faq"]},
+          {"label": "Contact us", "url": "https://scholarship.odisha.gov.in/content/contact-us", "kind": "contact", "evidenceIds": ["os-contact"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "tasks", "reason": "The status page asks for an Aadhaar number and a one-time password, so JanSetu does not link to it."}
+      ],
+      "uncertainty": [
+        "Scheme rules, eligibility and dates belong to individual scholarship records, not to this website record.",
+        "The contact page was loaded on 18 October (link check)."
+      ],
+      "reviewFlags": {"operator": ["No single department is named as running the portal."]},
+      "publicationDecision": {"decision": "publish", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Purpose stated on the portal's About page; quotes verified."},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "96709a93ad80fb96de9a7be4faa5f55e73e7fde1c17784b93fcfdb037e58fcb5", "change": "operator: say plainly that no single department is named (AI: REVISE); tasks link removed (https://scholarship.odisha.gov.in/know-your-status): the target is an Aadhaar and OTP journey (link check; AI: HOLD)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "igod-c01d8df9282d87de",
+      "batchId": "2026-10-18",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "bh-launch", "url": "https://bhavishya.nic.in/AboutUs.aspx", "checkedOn": "2026-10-18", "claim": "The department launched the online Pension Sanction & Payment Tracking System called Bhavishya.", "quote": "Towards this goal, the department has launched an online Pension Sanction & Payment Tracking System called 'BHAVISHYA'."},
+        {"id": "bh-tracking", "url": "https://bhavishya.nic.in/AboutUs.aspx", "checkedOn": "2026-10-18", "claim": "It tracks pension sanction and payment for individuals and administrative authorities.", "quote": "The system provides online tracking of pension sanction and payment process by the individual as well as the administrative authorities."},
+        {"id": "bh-goal", "url": "https://bhavishya.nic.in/AboutUs.aspx", "checkedOn": "2026-10-18", "claim": "Its goal is that retiring employees get retirement dues and their PPO on the day of retirement.", "quote": "The goal is to ensure payment of all retirement dues and delivery of Pension Payment Order (PPO) to retiring employees on the day of retirement itself."},
+        {"id": "bh-header", "url": "https://bhavishya.nic.in/AboutUs.aspx", "checkedOn": "2026-10-18", "claim": "The header names the Department of Pension & Pensioners' Welfare under the Ministry of Personnel, Public Grievances & Pensions.", "quote": "Government of India Ministry of Personnel, Public Grievances & Pensions Department of Pension & Pensioners' Welfare"},
+        {"id": "bh-faq", "url": "https://bhavishya.nic.in/FAQs.aspx?pid=faq", "checkedOn": "2026-10-18", "claim": "An FAQ page is published.", "quote": "What is Bhavishya ?"},
+        {"id": "bh-contact", "url": "https://bhavishya.nic.in/ContactUs.aspx", "checkedOn": "2026-10-18", "claim": "A contact page is published.", "quote": "Get In Touch With Us"},
+        {"id": "bh-avail", "url": "https://bhavishya.nic.in/AboutUs.aspx", "checkedOn": "2026-10-18", "claim": "The site links to a How to Avail Service page.", "quote": "How to Avail Service"}
+      ],
+      "fields": {
+        "purpose": {"value": "Online system from the Department of Pension & Pensioners' Welfare for tracking pension sanction and payment for retiring employees.", "evidenceIds": ["bh-launch", "bh-tracking"]},
+        "operator": {"value": "Department of Pension & Pensioners' Welfare, Ministry of Personnel, Public Grievances & Pensions, Government of India", "evidenceIds": ["bh-header"]},
+        "audience": {"value": "Retiring employees and the administrative authorities involved in processing their pensions; which employees are covered is not stated on the checked pages", "evidenceIds": ["bh-goal", "bh-tracking"]},
+        "jurisdiction": {"value": "India (Government of India)", "evidenceIds": ["bh-header"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://bhavishya.nic.in/FAQs.aspx?pid=faq", "kind": "faq", "evidenceIds": ["bh-faq"]},
+          {"label": "Contact us", "url": "https://bhavishya.nic.in/ContactUs.aspx", "kind": "contact", "evidenceIds": ["bh-contact"]}
+        ],
+        "tasks": [
+          {"label": "How to avail the service", "url": "https://bhavishya.nic.in/availservice.aspx", "kind": "task", "evidenceIds": ["bh-avail"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "languages", "reason": "Not stated on the saved pages."}
+      ],
+      "uncertainty": [
+        "Which employees may register is described on a 'Who Can Register Online' page that was not captured.",
+        "Pension rules and forms are on pensionersportal.gov.in and belong to service records."
+      ],
+      "reviewFlags": {"audience": ["Whether the system covers only central government employees is not stated on the captured pages."]},
+      "publicationDecision": {"decision": "publish", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Purpose and owner stated on the site's About page; quotes verified."},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "240721ac4cb5a8b25cb9d429ee6ffe3153c450ae555fb2c992f235a154b29046", "change": "audience: do not imply coverage beyond the source (AI: REVISE)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "igod-7bb47a1cab5183f2",
+      "batchId": "2026-10-18",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "bs-purpose", "url": "https://new.broadcastseva.gov.in/digigov-portal-web-app/", "checkedOn": "2026-10-18", "claim": "Broadcast Seva is a Ministry of Information & Broadcasting single point facility for broadcast-related activities.", "quote": "Broadcast Seva, an initiative by Ministry of Information & Broadcasting, provides a single point facility for broadcast related activities."},
+        {"id": "bs-vision", "url": "https://new.broadcastseva.gov.in/digigov-portal-web-app/", "checkedOn": "2026-10-18", "claim": "The Ministry describes BroadcastSeva as its effort towards a transparent regime for the broadcast sector.", "quote": "the Ministry of Information and Broadcasting is committed to provide efficient and transparent regime for the growth and management of the Broadcast Sector. BroadcastSeva is our effort in that direction."}
+      ],
+      "fields": {
+        "purpose": {"value": "Single-point online facility for broadcast-related activities with the Ministry of Information and Broadcasting.", "evidenceIds": ["bs-purpose"]},
+        "operator": {"value": "Ministry of Information and Broadcasting, Government of India", "evidenceIds": ["bs-purpose", "bs-vision"]},
+        "jurisdiction": {"value": "India (national)", "evidenceIds": ["bs-purpose"]}
+      },
+      "heldFields": [
+        {"field": "audience", "reason": "Not stated; the site does not say directly who its users are."},
+        {"field": "help", "reason": "The Contact link has no target and the Help link opens a page titled Login; neither is linked."}
+      ],
+      "uncertainty": [
+        "The page also shows helpdesk numbers; JanSetu does not copy contact numbers."
+      ],
+      "publicationDecision": {"decision": "publish", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Purpose and owner stated in the site's own description; quotes verified."}
+    },
+    {
+      "websiteId": "igod-e300869e279b9cd4",
+      "batchId": "2026-10-18",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "jh-meta", "url": "https://scholarshipsdhte.jharkhand.gov.in/", "checkedOn": "2026-10-18", "claim": "The site is for applying to CM Fellowship schemes of the Government of Jharkhand.", "quote": "Apply for various CM Fellowship Schemes. Government of Jharkhand."},
+        {"id": "jh-scheme", "url": "https://scholarshipsdhte.jharkhand.gov.in/faq", "checkedOn": "2026-10-18", "claim": "The CM Fellowship Scheme supports research and higher education with financial assistance and foreign education fellowships.", "quote": "It promotes research and higher education by providing opportunities, financial assistance, and foreign education fellowships through its various components of the scheme."},
+        {"id": "jh-operator", "url": "https://scholarshipsdhte.jharkhand.gov.in/", "checkedOn": "2026-10-18", "claim": "The header names the Department of Higher and Technical Education, Government of Jharkhand.", "quote": "CM Fellowship for Academic Excellence Department of Higher and Technical Education Government of Jharkhand"},
+        {"id": "jh-audience", "url": "https://scholarshipsdhte.jharkhand.gov.in/", "checkedOn": "2026-10-18", "claim": "The home page addresses talented students of Jharkhand.", "quote": "Empowering talented students of Jharkhand with opportunities to pursue academic excellence."},
+        {"id": "jh-lang", "url": "https://scholarshipsdhte.jharkhand.gov.in/", "checkedOn": "2026-10-18", "claim": "English and Hindi labels are shown.", "quote": "EN | हिंदी"},
+        {"id": "jh-faq", "url": "https://scholarshipsdhte.jharkhand.gov.in/faq", "checkedOn": "2026-10-18", "claim": "An FAQ page is published.", "quote": "Find answers to common questions about the CM Fellowship Scheme, eligibility, applications, documents and application status."},
+        {"id": "jh-contact", "url": "https://scholarshipsdhte.jharkhand.gov.in/contact", "checkedOn": "2026-10-18", "claim": "A contact page is published.", "quote": "Connect with the Department of Higher and Technical Education for general information and technical assistance related to the portal."},
+        {"id": "jh-grievance", "url": "https://scholarshipsdhte.jharkhand.gov.in/", "checkedOn": "2026-10-18", "claim": "The site links to a grievances page.", "quote": "Grievances"}
+      ],
+      "fields": {
+        "purpose": {"value": "Jharkhand portal for applying to the CM Fellowship schemes, which support research and higher education with financial assistance and foreign education fellowships.", "evidenceIds": ["jh-meta", "jh-scheme"]},
+        "operator": {"value": "Department of Higher and Technical Education, Government of Jharkhand", "evidenceIds": ["jh-operator", "jh-contact"]},
+        "audience": {"value": "Students of Jharkhand", "evidenceIds": ["jh-audience"]},
+        "jurisdiction": {"value": "Jharkhand", "evidenceIds": ["jh-meta"]},
+        "languages": {"value": "English and Hindi (language switch observed)", "evidenceIds": ["jh-lang"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://scholarshipsdhte.jharkhand.gov.in/faq", "kind": "faq", "evidenceIds": ["jh-faq"]},
+          {"label": "Contact us", "url": "https://scholarshipsdhte.jharkhand.gov.in/contact", "kind": "contact", "evidenceIds": ["jh-contact"]},
+          {"label": "Grievances", "url": "https://scholarshipsdhte.jharkhand.gov.in/grievances", "kind": "grievance", "evidenceIds": ["jh-grievance"]}
+        ]
+      },
+      "heldFields": [],
+      "uncertainty": [
+        "Eligibility for each fellowship belongs to scheme records; it is not copied here.",
+        "The grievances page was seen as a link and was not loaded."
+      ],
+      "publicationDecision": {"decision": "publish", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Purpose and department stated on the site; quotes verified."}
+    },
+    {
+      "websiteId": "igod-dc063c5a252aabe5",
+      "batchId": "2026-10-18",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "ng-purpose", "url": "https://scholarship.nagaland.gov.in/", "checkedOn": "2026-10-18", "claim": "The portal is a single window for students to find Government of Nagaland scholarship schemes.", "quote": "A single-window platform for students to discover scholarship schemes provided by the Government of Nagaland."},
+        {"id": "ng-official", "url": "https://scholarship.nagaland.gov.in/", "checkedOn": "2026-10-18", "claim": "The site says it is an official portal of the Government of Nagaland.", "quote": "An official portal of the Government of Nagaland"},
+        {"id": "ng-apply", "url": "https://scholarship.nagaland.gov.in/", "checkedOn": "2026-10-18", "claim": "The site has an Apply for Scholarship link.", "quote": "Apply for Scholarship"},
+        {"id": "ng-contact", "url": "https://scholarship.nagaland.gov.in/", "checkedOn": "2026-10-18", "claim": "The menu links to a contact section.", "quote": "Contact us"},
+        {"id": "ng-contact-section", "url": "https://scholarship.nagaland.gov.in/#contact", "checkedOn": "2026-10-18", "claim": "The #contact link lands on the help desk and contact section.", "quote": "Help desk & Contact Reach the support team"}
+      ],
+      "fields": {
+        "purpose": {"value": "Nagaland's single-window portal where students find and apply for state government scholarship schemes.", "evidenceIds": ["ng-purpose", "ng-apply"]},
+        "operator": {"value": "Government of Nagaland (official portal); the responsible department is not named on the home page", "evidenceIds": ["ng-official"]},
+        "audience": {"value": "Students", "evidenceIds": ["ng-purpose"]},
+        "jurisdiction": {"value": "Nagaland", "evidenceIds": ["ng-official"]},
+        "help": [
+          {"label": "Contact section (home page)", "url": "https://scholarship.nagaland.gov.in/#contact", "kind": "contact", "evidenceIds": ["ng-contact", "ng-contact-section"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "languages", "reason": "Not stated on the saved page."},
+        {"field": "tasks", "reason": "The How to Apply page is excluded by the rule that keeps application journeys out of website links."}
+      ],
+      "uncertainty": [
+        "Scheme dates and guidelines on the page belong to scheme records."
+      ],
+      "reviewFlags": {"operator": ["The responsible department is not named."]},
+      "publicationDecision": {"decision": "publish", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Purpose stated on the portal home page; quotes verified."},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "60186c377ac04e85182dcd6828fe358de103c4733ac5ebac5ed17e9069ffb5f5", "change": "operator: keep the missing department explicit (AI: REVISE); help: cite the 18 October check that the contact section exists (AI: HOLD until checked)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "igod-18649bde195e5a01",
+      "batchId": "2026-10-18",
+      "status": "proposed",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "cw-header", "url": "https://cpwdsewa.gov.in/", "checkedOn": "2026-10-18", "claim": "The header names the Central Public Works Department and the Ministry of Housing and Urban Affairs.", "quote": "CENTRAL PUBLIC WORKS DEPARTMENT CPWDSewa Ministry of Housing and Urban Affairs"},
+        {"id": "cw-labels", "url": "https://cpwdsewa.gov.in/", "checkedOn": "2026-10-18", "claim": "The page shows complaint counts and service centres.", "quote": "Residential Service Centres"},
+        {"id": "cw-complaints", "url": "https://cpwdsewa.gov.in/", "checkedOn": "2026-10-18", "claim": "The page counts complaints lodged today.", "quote": "Complaints Lodged Today"},
+        {"id": "cw-status", "url": "https://cpwdsewa.gov.in/", "checkedOn": "2026-10-18", "claim": "The page links to complaint status.", "quote": "Complaint Status"}
+      ],
+      "fields": {
+        "purpose": {"value": "CPWD's complaint service for the buildings it maintains, with a complaint status lookup.", "evidenceIds": ["cw-labels", "cw-complaints", "cw-status"]},
+        "operator": {"value": "Central Public Works Department, Ministry of Housing and Urban Affairs", "evidenceIds": ["cw-header"]},
+        "jurisdiction": {"value": "India (central government buildings)", "evidenceIds": ["cw-header"]},
+        "tasks": [
+          {"label": "Complaint status", "url": "https://cpwdsewa.gov.in/Public_Portal/PP_ComplaintSearch.aspx", "kind": "task", "evidenceIds": ["cw-status"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "help", "reason": "The Contact Us link redirected to an error page during capture."}
+      ],
+      "uncertainty": [
+        "No sentence on the page says what the service is for."
+      ],
+      "reviewFlags": {"purpose": ["Purpose is inferred from menu labels and counters."], "jurisdiction": ["Scope (central government buildings) is inferred, not stated."]},
+      "publicationDecision": {"decision": "draft", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Draft: purpose and scope are inferred from labels; needs human review."}
+    },
+    {
+      "websiteId": "igod-5891bfd68a83ed15",
+      "batchId": "2026-10-18",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "js-title", "url": "https://janasunani.odisha.gov.in/", "checkedOn": "2026-10-18", "claim": "The page is titled Public Grievance Redressal Portal.", "quote": "Public Grievance Redressal Portal"},
+        {"id": "js-purpose", "url": "https://janasunani.odisha.gov.in/", "checkedOn": "2026-10-18", "claim": "The page says (in Odia) that the platform helps register grievances and resolve them.", "quote": "ଆପଣଙ୍କ ଅଭିଯୋଗର ପଞ୍ଜିକରଣ ଓ ଏହାର ସମାଧାନ ଦିଗରେ ଏହି ମଞ୍ଚ ଆପଣଙ୍କୁ ସହଯୋଗ କରିଥାଏ", "quoteLanguage": "or"},
+        {"id": "js-dept", "url": "https://janasunani.odisha.gov.in/", "checkedOn": "2026-10-18", "claim": "The header (in Odia) names the General Administration and Public Grievance Department, Government of Odisha.", "quote": "ସାଧାରଣ ପ୍ରଶାସନ ଓ ସାଧାରଣ ଅଭିଯୋଗ ବିଭାଗ ଓଡ଼ିଶା ସରକାର", "quoteLanguage": "or"},
+        {"id": "js-status", "url": "https://janasunani.odisha.gov.in/", "checkedOn": "2026-10-18", "claim": "The menu links to grievance status tracking (Odia label).", "quote": "ଅଭିଯୋଗ ସ୍ଥିତି ଅନୁଧ୍ୟାନ", "quoteLanguage": "or"},
+        {"id": "js-faq", "url": "https://janasunani.odisha.gov.in/", "checkedOn": "2026-10-18", "claim": "The menu links to FAQs (Odia label).", "quote": "ବାରମ୍ବାର ପଚାରଯାଉଥିବା ପ୍ରଶ୍ନ", "quoteLanguage": "or"},
+        {"id": "js-contact", "url": "https://janasunani.odisha.gov.in/", "checkedOn": "2026-10-18", "claim": "The menu links to contact (Odia label).", "quote": "ଯୋଗାଯୋଗ", "quoteLanguage": "or"},
+        {"id": "js-contact-en", "url": "https://janasunani.odisha.gov.in/contact", "checkedOn": "2026-10-18", "claim": "The contact page names the department in English, in Bhubaneswar, Odisha.", "quote": "Department of General Administration and Public Grievance, Lokseva Bhawan, Bhubaneswar-751001, Odisha"}
+      ],
+      "fields": {
+        "purpose": {"value": "Odisha's public grievance redressal portal for registering grievances and following their resolution.", "evidenceIds": ["js-title", "js-purpose"]},
+        "operator": {"value": "Department of General Administration and Public Grievance, Government of Odisha", "evidenceIds": ["js-dept", "js-contact-en"]},
+        "jurisdiction": {"value": "Odisha", "evidenceIds": ["js-dept", "js-contact-en"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://janasunani.odisha.gov.in/faq", "kind": "faq", "evidenceIds": ["js-faq"]},
+          {"label": "Contact", "url": "https://janasunani.odisha.gov.in/contact", "kind": "contact", "evidenceIds": ["js-contact"]}
+        ],
+        "tasks": [
+          {"label": "Grievance status", "url": "https://janasunani.odisha.gov.in/complaint-status", "kind": "task", "evidenceIds": ["js-status"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "audience", "reason": "The page separates registration for government employees; who else may use it is not stated in English."},
+        {"field": "languages", "reason": "The page was served in Odia with an English title; a language switch was not confirmed."}
+      ],
+      "uncertainty": [
+        "The FAQ, contact and grievance-status pages were loaded on 18 October (link check).",
+        "Registering a grievance needs sign-in; JanSetu does not link to it."
+      ],
+      "reviewFlags": {"purpose": ["The source text is not in English; the English wording is the automated agent's translation and must be confirmed by a reader of the language."]},
+      "publicationDecision": {"decision": "publish", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Purpose and department are stated on the site (in Odia); published with translation flags for review."},
+      "revisionHistory": [
+        {"date": "2026-10-18", "by": "Claude Code (automated agent)", "previousDigest": "c53f73c6cf5338abdbd67d0c8b8c5bf88cf8e713e35b82d4d8b1f61b99e7733e", "change": "operator: use the English department name from the contact page (AI: HOLD for translation); jurisdiction: add English evidence (AI: HOLD for translation)", "reason": "Advisory AI pre-review of the published profiles plus a read-only link check on 18 October. Advisory only; no human review is implied.", "advice": "data/website_enrichment/review/ai-prereview-2026-10-18.json", "linkCheck": "data/website_enrichment/research/2026-10-18-linkcheck"}
+      ]
+    },
+    {
+      "websiteId": "igod-9783d3afd73ca927",
+      "batchId": "2026-10-18",
+      "status": "held",
+      "reviewStatus": "not_reviewed",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "heldReason": "https://www.doppw.gov.in/ returned HTTP 403 to headless Chrome on the retry after the network outage (the first attempt failed because this machine was offline). Treated as an access decision; not retried further or worked around.",
+      "evidence": [],
+      "fields": {},
+      "heldFields": [],
+      "uncertainty": [],
+      "publicationDecision": {"decision": "hold", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "No content observation: HTTP 403."}
+    },
+    {
+      "websiteId": "igod-44b4a596b1818cab",
+      "batchId": "2026-10-18",
+      "status": "held",
+      "reviewStatus": "not_reviewed",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "heldReason": "https://dppf.gujarat.gov.in/ served a 'Firewall Captcha Authentication' security check instead of content. JanSetu does not solve or bypass captchas; a person should check the site in a normal browser.",
+      "evidence": [],
+      "fields": {},
+      "heldFields": [],
+      "uncertainty": [],
+      "publicationDecision": {"decision": "hold", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "No content observation: captcha wall."}
+    },
+    {
+      "websiteId": "igod-45553a3bd372fff9",
+      "batchId": "2026-10-18",
+      "status": "proposed",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "mp-header", "url": "https://www.pension.mp.gov.in/", "checkedOn": "2026-10-18", "claim": "The header names the Directorate of Pension Provident Fund and Insurance, Department of Finance, Government of Madhya Pradesh.", "quote": "Directorate of Pension Provident Fund and Insurance(DoPPFI) Department of Finance, Government of Madhya Pradesh"},
+        {"id": "mp-menu", "url": "https://www.pension.mp.gov.in/", "checkedOn": "2026-10-18", "claim": "The menu covers pension (OPS), NPS and pension welfare.", "quote": "PENSION(OPS)"},
+        {"id": "mp-nps", "url": "https://www.pension.mp.gov.in/", "checkedOn": "2026-10-18", "claim": "The menu has an NPS section.", "quote": "NPS : At a Glance"},
+        {"id": "mp-hindi", "url": "https://www.pension.mp.gov.in/", "checkedOn": "2026-10-18", "claim": "A Hindi language switch is shown.", "quote": "हिंदी"}
+      ],
+      "fields": {
+        "purpose": {"value": "Website of Madhya Pradesh's Directorate of Pension, Provident Fund and Insurance, with pension (OPS) and NPS information.", "evidenceIds": ["mp-header", "mp-menu", "mp-nps"]},
+        "operator": {"value": "Directorate of Pension Provident Fund and Insurance, Department of Finance, Government of Madhya Pradesh", "evidenceIds": ["mp-header"]},
+        "jurisdiction": {"value": "Madhya Pradesh", "evidenceIds": ["mp-header"]},
+        "languages": {"value": "English and Hindi (language switch observed)", "evidenceIds": ["mp-hindi"]}
+      },
+      "heldFields": [
+        {"field": "help", "reason": "No help or contact page was captured."}
+      ],
+      "uncertainty": [
+        "The site publishes pension eligibility and calculation pages; those belong to service records and are not copied."
+      ],
+      "reviewFlags": {"purpose": ["Purpose is inferred from the header and menu; the page titled About Us has no about text in the capture."]},
+      "publicationDecision": {"decision": "draft", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Draft: no statement of purpose was captured; needs human review."}
+    },
+    {
+      "websiteId": "igod-ef54536511a6523b",
+      "batchId": "2026-10-18",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "uk-title", "url": "https://ekosh.uk.gov.in/about-department/", "checkedOn": "2026-10-18", "claim": "The site is the Directorate of Treasuries, Pension and Entitlements, Uttarakhand.", "quote": "Directorate of Treasuries, Pension and Entitlements, Uttarakhand"},
+        {"id": "uk-gov", "url": "https://ekosh.uk.gov.in/about-department/", "checkedOn": "2026-10-18", "claim": "The header names the Government of Uttarakhand.", "quote": "GOVERNMENT OF UTTARAKHAND"},
+        {"id": "uk-owner", "url": "https://ekosh.uk.gov.in/about-department/", "checkedOn": "2026-10-18", "claim": "Content is owned by Treasuries, Pension and Entitlements, Uttarakhand.", "quote": "Content Owned by : Treasuries, Pension and Entitlements, Uttarakhand"},
+        {"id": "uk-nic", "url": "https://ekosh.uk.gov.in/about-department/", "checkedOn": "2026-10-18", "claim": "The site is developed and hosted by NIC.", "quote": "Developed and hosted by National Informatics Centre, Ministry of Electronics & Information Technology, Government of India"},
+        {"id": "uk-hindi", "url": "https://ekosh.uk.gov.in/about-department/", "checkedOn": "2026-10-18", "claim": "A Hindi language switch is shown.", "quote": "हिन्दी"},
+        {"id": "uk-faq", "url": "https://ekosh.uk.gov.in/frequently-asked-questionsfaqs/", "checkedOn": "2026-10-18", "claim": "An FAQ page is published.", "quote": "Frequently Asked Questions(FAQs)"},
+        {"id": "uk-charter", "url": "https://ekosh.uk.gov.in/about-department/", "checkedOn": "2026-10-18", "claim": "The site links to a citizen charter.", "quote": "Citizen Charter"}
+      ],
+      "fields": {
+        "purpose": {"value": "Official website of the Directorate of Treasuries, Pension and Entitlements, Government of Uttarakhand.", "evidenceIds": ["uk-title", "uk-owner", "uk-gov"]},
+        "operator": {"value": "Directorate of Treasuries, Pension and Entitlements, Government of Uttarakhand (developed and hosted by NIC)", "evidenceIds": ["uk-owner", "uk-nic"]},
+        "jurisdiction": {"value": "Uttarakhand", "evidenceIds": ["uk-gov"]},
+        "languages": {"value": "English and Hindi (language switch observed)", "evidenceIds": ["uk-hindi"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://ekosh.uk.gov.in/frequently-asked-questionsfaqs/", "kind": "faq", "evidenceIds": ["uk-faq"]},
+          {"label": "Citizen charter", "url": "https://ekosh.uk.gov.in/citizen-charter/", "kind": "help", "evidenceIds": ["uk-charter"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "audience", "reason": "Not stated on the saved pages."}
+      ],
+      "uncertainty": [
+        "The FAQ page covers digital signatures and e-Sign.",
+        "The site's Grievance Redressal page lists only the e-Procurement complaint mechanism, so it is not offered as a grievance route."
+      ],
+      "publicationDecision": {"decision": "publish", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Owner and site identity stated on the site; purpose limited to what the site states."}
+    },
+    {
+      "websiteId": "igod-c33cb8549415ad34",
+      "batchId": "2026-10-18",
+      "status": "proposed",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "ek-dept", "url": "https://ekalyan.cgg.gov.in/", "checkedOn": "2026-10-18", "claim": "The header (in Hindi) names the ST, SC, Minority and Backward Class Welfare department, Government of Jharkhand.", "quote": "अनुसूचित जनजाति, अनुसूचित जाति, अल्पसंख्यक और पिछड़ा वर्ग कल्याण, झारखंड सरकार", "quoteLanguage": "hi"},
+        {"id": "ek-secretary", "url": "https://ekalyan.cgg.gov.in/", "checkedOn": "2026-10-18", "claim": "The page names the Secretary, Department of ST, SC, Minority and Backward Class Welfare.", "quote": "Secretary, Department of ST, SC, Minority and Backward Class Welfare"},
+        {"id": "ek-reg", "url": "https://ekalyan.cgg.gov.in/", "checkedOn": "2026-10-18", "claim": "A notice (in Hindi) says post-matric registrations have started.", "quote": "पोस्ट-मैट्रिक पंजीकरण (2025-26) & (2026-27) शुरू हो गए हैं", "quoteLanguage": "hi"},
+        {"id": "ek-attention", "url": "https://ekalyan.cgg.gov.in/", "checkedOn": "2026-10-18", "claim": "The page tells applicants to read How to Apply and the FAQ.", "quote": "Before applying, please carefully read How to Apply & FAQ Section."},
+        {"id": "ek-english", "url": "https://ekalyan.cgg.gov.in/", "checkedOn": "2026-10-18", "claim": "An English language switch is shown.", "quote": "English"},
+        {"id": "ek-faq", "url": "https://ekalyan.cgg.gov.in/", "checkedOn": "2026-10-18", "claim": "The menu links to FAQs (Hindi label).", "quote": "सामान्य प्रश्न", "quoteLanguage": "hi"}
+      ],
+      "fields": {
+        "purpose": {"value": "Jharkhand welfare department's e-Kalyan portal for pre-matric and post-matric scholarship registration.", "evidenceIds": ["ek-reg", "ek-attention"]},
+        "operator": {"value": "Department of ST, SC, Minority and Backward Class Welfare, Government of Jharkhand", "evidenceIds": ["ek-dept", "ek-secretary"]},
+        "jurisdiction": {"value": "Jharkhand", "evidenceIds": ["ek-dept"]},
+        "languages": {"value": "Hindi and English (language switch observed)", "evidenceIds": ["ek-english"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://ekalyan.cgg.gov.in/Faqs.do", "kind": "faq", "evidenceIds": ["ek-faq"]}
+        ]
+      },
+      "heldFields": [],
+      "uncertainty": [
+        "The page was served in Hindi; the FAQ page was seen as a link and was not loaded."
+      ],
+      "reviewFlags": {"purpose": ["The source text is not in English; the English wording is the automated agent's translation and must be confirmed by a reader of the language.", "Purpose rests on notices and menu labels."]},
+      "publicationDecision": {"decision": "draft", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Draft: purpose rests on Hindi notices and menu labels translated by the automated agent."}
+    },
+    {
+      "websiteId": "igod-af6bdd4b418c67a8",
+      "batchId": "2026-10-18",
+      "status": "published",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "ms-purpose", "url": "https://odishamsme.nic.in/", "checkedOn": "2026-10-18", "claim": "The page says all e-applications are here.", "quote": "e-MSME Seva All your e-Applications are here."},
+        {"id": "ms-title", "url": "https://odishamsme.nic.in/", "checkedOn": "2026-10-18", "claim": "The page title names the Micro, Small & Medium Enterprises Department, Government of Odisha.", "quote": "MSME | Micro, Small & Medium Enterprises Department | Government of Odisha"},
+        {"id": "ms-systems", "url": "https://odishamsme.nic.in/", "checkedOn": "2026-10-18", "claim": "The page lists application systems of directorates and boards, for example industry incentives.", "quote": "Administration of Incentives for MSMEs & Large Industries ( AIM 2.0) Directorate of Industries, Odisha (DI)"}
+      ],
+      "fields": {
+        "purpose": {"value": "Gateway (e-MSME Seva) to the online application systems of Odisha's MSME Department and its directorates and boards.", "evidenceIds": ["ms-purpose", "ms-systems"]},
+        "operator": {"value": "Micro, Small & Medium Enterprises Department, Government of Odisha", "evidenceIds": ["ms-title"]},
+        "jurisdiction": {"value": "Odisha", "evidenceIds": ["ms-title"]}
+      },
+      "heldFields": [
+        {"field": "audience", "reason": "Not stated."},
+        {"field": "help", "reason": "No help or contact link was found on the page."},
+        {"field": "tasks", "reason": "The listed systems open sign-in pages or separate portals, so none is linked."}
+      ],
+      "uncertainty": [],
+      "publicationDecision": {"decision": "publish", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "The site states what it is in its own words; owner named in the page title."}
+    },
+    {
+      "websiteId": "igod-b3a364f734caa1f1",
+      "batchId": "2026-10-18",
+      "status": "proposed",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "he-schemes", "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=faqs", "checkedOn": "2026-10-18", "claim": "The FAQ refers to scholarship schemes implemented by the Department of Higher Education, Himachal Pradesh.", "quote": "Who are eligible to apply under various State & Centrally Sponsored Scholarship Schemes, being implemented by the Department of Higher Education, Himachal Pradesh?"},
+        {"id": "he-online", "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=faqs", "checkedOn": "2026-10-18", "claim": "The FAQ asks where students apply online.", "quote": "Where can a student apply online under these scholarship schemes?"},
+        {"id": "he-flash", "url": "https://hpepass.cgg.gov.in/", "checkedOn": "2026-10-18", "claim": "The latest flash news is dated March 2019.", "quote": "FROM 05-03-2019 TO 20-03-2019"},
+        {"id": "he-faq", "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=faqs", "checkedOn": "2026-10-18", "claim": "An FAQ page is published.", "quote": "Schemes Offered"},
+        {"id": "he-contact", "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=contactUs", "checkedOn": "2026-10-18", "claim": "A contact page is published.", "quote": "The queries, if any regarding the NSP and ePass Portal will preferablly be sent through E-mail"}
+      ],
+      "fields": {
+        "purpose": {"value": "Himachal Pradesh's ePASS portal for online scholarship applications under schemes implemented by the Department of Higher Education.", "evidenceIds": ["he-schemes", "he-online"]},
+        "operator": {"value": "Department of Higher Education, Himachal Pradesh", "evidenceIds": ["he-schemes"]},
+        "jurisdiction": {"value": "Himachal Pradesh", "evidenceIds": ["he-schemes"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=faqs", "kind": "faq", "evidenceIds": ["he-faq"]},
+          {"label": "Contact us", "url": "https://hpepass.cgg.gov.in/NewHomePage.do?actionParameter=contactUs", "kind": "contact", "evidenceIds": ["he-contact"]}
+        ]
+      },
+      "heldFields": [
+        {"field": "languages", "reason": "Not stated."}
+      ],
+      "uncertainty": [
+        "The newest flash news on the home page is from March 2019; the portal may be out of date."
+      ],
+      "reviewFlags": {"purpose": ["Purpose rests on FAQ questions, not a statement.", "The portal may be out of date (latest news 2019)."]},
+      "publicationDecision": {"decision": "draft", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Draft: purpose rests on FAQ questions and the site appears out of date; needs human review."}
+    },
+    {
+      "websiteId": "igod-2bdd905020581df7",
+      "batchId": "2026-10-18",
+      "status": "proposed",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "te-post", "url": "https://telanganaepass.cgg.gov.in/", "checkedOn": "2026-10-18", "claim": "The page links to post-matric scholarship services.", "quote": "Post Matric Scholarship Services"},
+        {"id": "te-pre", "url": "https://telanganaepass.cgg.gov.in/", "checkedOn": "2026-10-18", "claim": "The page links to pre-matric scholarship services.", "quote": "Pre Matric Scholarship Services"},
+        {"id": "te-overseas", "url": "https://telanganaepass.cgg.gov.in/", "checkedOn": "2026-10-18", "claim": "The page links to overseas scholarship services.", "quote": "Overseas Scholarship Services"},
+        {"id": "te-grievance", "url": "https://telanganaepass.cgg.gov.in/", "checkedOn": "2026-10-18", "claim": "The flash news invites BC and EBC students to register grievances online.", "quote": "For BC and EBC Students, Register Your Grievances Online."}
+      ],
+      "fields": {
+        "purpose": {"value": "Telangana's ePASS scholarship portal, with post-matric, pre-matric and overseas scholarship services.", "evidenceIds": ["te-post", "te-pre", "te-overseas"]}
+      },
+      "heldFields": [
+        {"field": "operator", "reason": "The responsible department is not named on the saved page."},
+        {"field": "jurisdiction", "reason": "Telangana is named only in a slogan on the saved page."},
+        {"field": "help", "reason": "The About, Contact and FAQ pages failed to load (HTTP error)."}
+      ],
+      "uncertainty": [
+        "Only the home page loaded."
+      ],
+      "reviewFlags": {"purpose": ["Purpose rests on menu labels."]},
+      "publicationDecision": {"decision": "draft", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Draft: only the home page loaded and the purpose rests on menu labels."}
+    },
+    {
+      "websiteId": "igod-421dca3648f50c0b",
+      "batchId": "2026-10-18",
+      "status": "proposed",
+      "reviewStatus": "source_checked",
+      "reviewer": "Claude Code (automated agent); human review pending",
+      "checkedOn": "2026-10-18",
+      "evidence": [
+        {"id": "ca-header", "url": "https://cpao.nic.in/Contact-Us.php", "checkedOn": "2026-10-18", "claim": "The contact page names the Central Pension Accounting Office, Department of Expenditure, Ministry of Finance.", "quote": "CENTRAL PENSION ACCOUNTING OFFICE Ministry of Finance:Department of Expenditure"},
+        {"id": "ca-pensioners", "url": "https://cpao.nic.in/", "checkedOn": "2026-10-18", "claim": "The menu has a section for pensioners.", "quote": "For Pensioners"},
+        {"id": "ca-fraud", "url": "https://cpao.nic.in/", "checkedOn": "2026-10-18", "claim": "The site warns that CPAO and banks do not call pensioners about life certificates.", "quote": "Please Note that CPAO, Banks or any other Govt. Agency does not call for submission of Annual Life Certificate"},
+        {"id": "ca-hindi", "url": "https://cpao.nic.in/", "checkedOn": "2026-10-18", "claim": "A Hindi language switch is shown.", "quote": "हिन्दी"},
+        {"id": "ca-faq", "url": "https://cpao.nic.in/Publications/FAQ.php", "checkedOn": "2026-10-18", "claim": "An FAQ page on pension processing is published.", "quote": "FAQ on Pension Processing"},
+        {"id": "ca-contact", "url": "https://cpao.nic.in/Contact-Us.php", "checkedOn": "2026-10-18", "claim": "A contact page is published.", "quote": "WHOM TO CONTACT IN CPAO FOR AUTHORIZATION QUERY BASED ON TYPE OF PENSIONERS"}
+      ],
+      "fields": {
+        "purpose": {"value": "Website of the Central Pension Accounting Office, with information and services for central government pensioners.", "evidenceIds": ["ca-header", "ca-pensioners"]},
+        "operator": {"value": "Central Pension Accounting Office, Department of Expenditure, Ministry of Finance", "evidenceIds": ["ca-header"]},
+        "jurisdiction": {"value": "India (central government)", "evidenceIds": ["ca-header"]},
+        "languages": {"value": "English and Hindi (language switch observed)", "evidenceIds": ["ca-hindi"]},
+        "help": [
+          {"label": "Frequently asked questions", "url": "https://cpao.nic.in/Publications/FAQ.php", "kind": "faq", "evidenceIds": ["ca-faq"]},
+          {"label": "Contact us", "url": "https://cpao.nic.in/Contact-Us.php", "kind": "contact", "evidenceIds": ["ca-contact"]}
+        ]
+      },
+      "heldFields": [],
+      "uncertainty": [
+        "The site warns about fraudsters calling pensioners about life certificates and asking for OTPs.",
+        "The Profile page that may describe the office was not captured."
+      ],
+      "reviewFlags": {"purpose": ["Purpose is inferred from headings; 'central government pensioners' is not stated in a sentence."]},
+      "publicationDecision": {"decision": "draft", "by": "Claude Code (automated agent)", "decidedOn": "2026-10-18", "basis": "Draft: no statement of purpose was captured; needs human review."}
+    }
+  ]
+}

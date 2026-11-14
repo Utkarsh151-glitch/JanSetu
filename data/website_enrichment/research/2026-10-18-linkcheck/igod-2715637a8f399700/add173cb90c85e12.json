@@ -1,0 +1,110 @@
+{
+ "websiteId": "igod-2715637a8f399700",
+ "url": "https://tnedistrict.tn.gov.in/tneda/",
+ "checkedAt": "2026-10-17T20:27:21+00:00",
+ "browser": "Chrome 155.0.8059.41 (headless)",
+ "method": "single read-only load; no interaction",
+ "note": "Link check (read-only): target was only seen as a link",
+ "httpStatus": 200,
+ "finalUrl": "https://tnedistrict.tn.gov.in/tneda/",
+ "title": "Tamil Nadu e-District",
+ "lang": null,
+ "metaDescription": null,
+ "text": "\t\n\t\n\n\nHome\nAbout\ne-RCCMS Status\nVerify Certificate\nLogin \nContact\nAnnouncements\nLaunch of Digital India Week by Honourable Prime Minister on 1st July, 2015\nLaunch of Digital India Week by Honourable Prime Minister on 1st July, 2015\nLaunch of Digital India Week by Honourable Prime Minister on 1st July, 2015\nLaunch of Digital India Week by Honourable Prime Minister on 1st July, 2015\nLaunch of Digital India Week by Honourable Prime Minister on 1st July, 2015\nLaunch of Digital India Week by Honourable Prime Minister on 1st July, 2015\nLaunch of Digital India Week by Honourable Prime Minister on 1st July, 2015\nLaunch of Digital India Week by Honourable Prime Minister on 1st July, 2015\nLaunch of Digital India Week by Honourable Prime Minister on 1st July, 2015\n\nHome | About | Contact\n\nCopyright 2015. Government of Tamil Nadu Version 1.4.0.0",
+ "textSha256": "8b3ca4d109f241d29c3e619f36dfd9328eeae031c905c5e069f37e3f851b9204",
+ "links": [
+  {
+   "text": "Home",
+   "href": "https://tnedistrict.tn.gov.in/tneda/home.xhtml"
+  },
+  {
+   "text": "About",
+   "href": "https://tnedistrict.tn.gov.in/tneda/about.xhtml"
+  },
+  {
+   "text": "e-RCCMS Status",
+   "href": "https://tnedistrict.tn.gov.in/tneda/PattaAppealStatus.xhtml"
+  },
+  {
+   "text": "Verify Certificate",
+   "href": "https://tnedistrict.tn.gov.in/tneda/VerifyCerti.xhtml"
+  },
+  {
+   "text": "Login",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  },
+  {
+   "text": "Department Login",
+   "href": "https://tnedistrict.tn.gov.in/tneda/DepartLogin.xhtml"
+  },
+  {
+   "text": "CSC Login",
+   "href": "https://tnedistrict.tn.gov.in/tneda/cscLogin.xhtml"
+  },
+  {
+   "text": "Report Login",
+   "href": "https://tnedistrict.tn.gov.in/tneda/reportLogin.xhtml"
+  },
+  {
+   "text": "Contact",
+   "href": "https://tnedistrict.tn.gov.in/tneda/contactChennai.xhtml"
+  },
+  {
+   "text": "Launch of Digital India Week by Honourable Prime Minister on 1st July, 2015",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  },
+  {
+   "text": "Launch of Digital India Week by Honourable Prime Minister on 1st July, 2015",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  },
+  {
+   "text": "Launch of Digital India Week by Honourable Prime Minister on 1st July, 2015",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  },
+  {
+   "text": "Launch of Digital India Week by Honourable Prime Minister on 1st July, 2015",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  },
+  {
+   "text": "Launch of Digital India Week by Honourable Prime Minister on 1st July, 2015",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  },
+  {
+   "text": "Launch of Digital India Week by Honourable Prime Minister on 1st July, 2015",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  },
+  {
+   "text": "Launch of Digital India Week by Honourable Prime Minister on 1st July, 2015",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  },
+  {
+   "text": "Launch of Digital India Week by Honourable Prime Minister on 1st July, 2015",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  },
+  {
+   "text": "Launch of Digital India Week by Honourable Prime Minister on 1st July, 2015",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  },
+  {
+   "text": "Home",
+   "href": "https://tnedistrict.tn.gov.in/tneda/home.xhtml"
+  },
+  {
+   "text": "About",
+   "href": "https://tnedistrict.tn.gov.in/tneda/about.xhtml"
+  },
+  {
+   "text": "Contact",
+   "href": "https://tnedistrict.tn.gov.in/tneda/contactChennai.xhtml"
+  },
+  {
+   "text": "Government of Tamil Nadu",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  },
+  {
+   "text": "Version 1.4.0.0",
+   "href": "https://tnedistrict.tn.gov.in/tneda/#"
+  }
+ ],
+ "attempt": 1
+}
