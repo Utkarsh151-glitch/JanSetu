@@ -64,3 +64,6 @@ desktop.ini
 *.tar.gz
 *.7z
 *.rar
+
+# Local Netlify folder
+.netlify

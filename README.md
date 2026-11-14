@@ -10,6 +10,12 @@
 </p>
 
 <p align="center">
+  <a href="https://jansetu-portal.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Web_Portal-jansetu--portal.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo" />
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Platform-Android_8.0+_(API_26--36)-brightgreen.svg" alt="Platform" />
   <img src="https://img.shields.io/badge/UI-Jetpack_Compose_%7C_Material_3-blue.svg" alt="UI" />
   <img src="https://img.shields.io/badge/Language-Kotlin_2.0_%7C_Python_3.11-orange.svg" alt="Languages" />
@@ -25,6 +31,21 @@
 > **Legal & Civic Disclaimer**: JanSetu is an independent civic software project and is **not** an official application of the Government of India or the National Informatics Centre (NIC). It serves as an independent, transparent discovery index and citizen companion. Official portal listings are attributed to their respective statutory departments, and directory listings draw from publicly available India Government Open Data (IGOD) records. Formal reproduction licensing remains ongoing prior to public distribution.
 
 ---
+
+---
+
+## 🌐 Live Web Portal & Cloud Deployment
+
+JanSetu is live as an interactive citizen discovery web portal accessible from any mobile or desktop browser without installing the APK:
+
+- **Live Production URL**: [https://jansetu-portal.netlify.app](https://jansetu-portal.netlify.app)
+- **Features**: Real-time service search, interactive document readiness checklists, bilingual English/Hindi toggle, and verified official government portal pathways.
+
+### Deploy Your Own Instance (1-Click)
+
+| Vercel Deployment | Netlify Deployment |
+| :---: | :---: |
+| [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Utkarsh151-glitch/JanSetu) | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Utkarsh151-glitch/JanSetu) |
 
 ## 🏛️ Executive Overview
 
