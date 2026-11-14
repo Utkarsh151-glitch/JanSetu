@@ -462,7 +462,7 @@ function toggleLanguage() {
   } else {
     document.getElementById('heroTitle').innerHTML = 'Access Indian Public Services with <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 via-brand-600 to-ashoka-600">Clarity &amp; Ease</span>';
     document.getElementById('heroSubtitle').innerText = 'Find official government portals by what you need to do. Plain-language summaries, verified checklists, required documents, and direct safe routes to government portals.';
-    document.getElementById('searchInput').placeholder = 'Search service, e.g. 'Scholarship', 'PAN card', 'RTI', 'Passport', 'Voter ID'...';
+    document.getElementById('searchInput').placeholder = "Search service, e.g. 'Scholarship', 'PAN card', 'RTI', 'Passport', 'Voter ID'...";
     document.getElementById('tabServicesLabel').innerText = 'Citizen Services (52)';
     document.getElementById('tabPortalsLabel').innerText = 'Official Portals Directory';
   }
