@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launch window for Android 8-11. Android 12+ uses the system splash attributes in values-v31. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/window_background" />
+    <item android:drawable="@drawable/jansetu_mark" android:gravity="center" android:width="96dp" android:height="96dp" />
+</layer-list>
