@@ -1,0 +1,22 @@
+{
+ "package": "in.jansetu.app.qa",
+ "apk": "app-qa.apk",
+ "screens": [
+  "search-checked-label",
+  "detail-checked-top",
+  "detail-checked-1",
+  "detail-checked-2",
+  "detail-checked-3",
+  "detail-directory-top",
+  "detail-directory-missing",
+  "detail-directory-sources",
+  "detail-not-stated",
+  "search-checked-filter"
+ ],
+ "packagesBefore": [
+  "package:in.jansetu.app",
+  "package:in.jansetu.app.qa.test",
+  "package:in.jansetu.app.qa",
+  "package:in.jansetu.app.test"
+ ]
+}

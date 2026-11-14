@@ -1,0 +1,12 @@
+# Phase 4 implementation plan
+
+Request: [PHASE4_REQUEST.md](PHASE4_REQUEST.md). Initial audit confirms app 0.4.1/code 5, 7,347 websites, 52 services, runtime v13, 31 pending service cases and 3,823 pending website cases. Protected source/data hashes are retained before edits in `data/validation_reports/phase4-source-baseline.json`.
+
+1. Reproduce the 35-JVM/28-Android Phase 3C suite using the same functional sources in an isolated `.qa` application ID. Keep the preview package, preferences, encrypted database and Keystore untouched. Capture real child exit codes, separate stdout/stderr, fresh XML and profile hashes. Baseline precedes functional changes.
+2. Audit and reproduce privacy/recovery, browser destination/lifecycle, complete search/service/tracker journeys, reminders and accessibility defects. Prioritize demonstrated data/destination/usability failures; no data expansion or design overhaul.
+3. Use synthetic QA records/keys and local fixture pages for repeatable checks. Future real-alarm observation must use a separate QA record/receiver and a documented short-time test, never the retained preview demo. Keep live authentication/payment testing out of test fixtures; report untested external conditions.
+4. Capture repeatable emulator cold-launch/readiness/search/service/tracker/catalog timings before and after any proven performance fix, separately from JVM timings. Exercise 1.3x/2x text, narrow/landscape, dark/Hindi controls, focus and available TalkBack; restore device settings.
+5. Add targeted regressions for reproduced defects. Freeze app/test changes for the final complete Python/Node/JVM/lint/debug/QA-connected run. Verify source/data preservation, APK contents/signature/installed version and real preview profile hashes.
+6. Deliver a manual journey checklist, quality/accessibility/privacy/performance findings, screenshots, explicit passing/failing/skipped/not-run results and remaining release risks. Update QA, README and project progress. Local-only work; no publication or government credential/OTP collection.
+
+Initial concrete risks to investigate: prior host-wrapper exit ambiguity; tests currently reset preview preferences; browser policy checks auth/payment paths but not query/fragment routes; HTTP error UI and WebView recreation; narrow/large-text controls; tracker key-loss and form process recreation. These are hypotheses until reproduced, not claimed fixes or completed tests.

@@ -1,0 +1,53 @@
+{
+  "set": "before",
+  "package": "in.jansetu.app.qa",
+  "versionName": "0.4.1-qa",
+  "lastUpdateTime": "2026-10-17 03:31:41",
+  "deviceBefore": {
+    "night": "Night mode: no",
+    "font_scale": "1.0",
+    "density": "Physical density: 420",
+    "size": "Physical size: 1080x2400",
+    "accelerometer_rotation": "1",
+    "user_rotation": "0",
+    "animator_duration_scale": "null",
+    "transition_animation_scale": "1.0",
+    "wifi": "1",
+    "mobile_data": "1",
+    "sdk": "37"
+  },
+  "deviceAfter": {
+    "night": "Night mode: no",
+    "font_scale": "1.0",
+    "density": "Physical density: 420",
+    "size": "Physical size: 1080x2400",
+    "accelerometer_rotation": "1",
+    "user_rotation": "0",
+    "animator_duration_scale": "null",
+    "transition_animation_scale": "1.0",
+    "wifi": "1",
+    "mobile_data": "1",
+    "sdk": "37"
+  },
+  "captured": [
+    "settings",
+    "settings-more",
+    "catalog",
+    "browser-controls",
+    "home-dark",
+    "search-dark",
+    "applications-list-dark",
+    "settings-dark",
+    "home-large-narrow",
+    "home-large-narrow-scrolled",
+    "applications-large-narrow",
+    "home-landscape",
+    "home-hindi",
+    "settings-hindi"
+  ],
+  "failedSteps": [
+    "browser_offline: QA label unavailable: could not load",
+    "large_narrow: QA label unavailable: Application title"
+  ],
+  "seconds": 548.5
+}

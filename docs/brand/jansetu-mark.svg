@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="192" height="192" role="img" aria-label="JanSetu">
+<!-- JanSetu bridge mark. Original artwork created for this project; see docs/PHASE5_ASSET_CREDITS.md. Not a government emblem. -->
+  <rect width="48" height="48" rx="12" fill="#0B5D66"/>
+  <path d="M11,30 Q24,4 37,30" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M17.5,21.9 V30 M24,18.8 V30 M30.5,21.9 V30" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M7,30 H41" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+  <circle cx="7" cy="30" r="3.6" fill="#F2C46D"/>
+  <circle cx="41" cy="30" r="3.6" fill="#F2C46D"/>
+</svg>

@@ -1,0 +1,45 @@
+# Privacy policy draft
+
+This is the exact current bundled English policy. The Hindi version is `app/src/main/assets/privacy-hi.txt`. Host the approved policy at a stable public URL before publication; reconcile final store declarations with actual behavior.
+
+JanSetu Privacy Policy
+Last updated: 18 October 2026
+
+JanSetu is an independent guide to selected Indian government websites. It is developed by Utkarsh and is not a government service or an official government app. For privacy questions, email utkarshvaibhav268@gmail.com.
+
+Information stored on your device
+The Android app stores your language and state preference, favorites, recently viewed portal IDs, recent search queries, and onboarding choice in app-private storage. JanSetu has no account or analytics service and does not send these preferences to a JanSetu server. Clear the app's storage or uninstall it to remove them.
+
+Local catalog updates
+You may choose a signed JanSetu catalog file from this device. The app validates its signature, version and content before storing a copy in app-private storage. There are no automatic downloads or update servers. Restoring the bundled catalog removes the imported package while preserving favorites and preferences. The update signature authenticates the JanSetu editor; it does not establish government endorsement or independently reviewed ownership. Settings can clear searches and viewing history without removing favorites.
+
+My Applications: optional local profile
+You choose whether to save an application. The tracker stores your title, department label, optional submission date, reference number, deadline, notes, status and progress history, creation/update timestamps and reminder preferences. For a linked service, it also retains the service name, identity, jurisdiction, catalog version and captured official links. Statuses and dates are maintained by you and are not verified government status. Opening a portal does not submit or record an application.
+
+Tracker records and history are encrypted in app-private SQLite storage using an Android Keystore key. The database is in Android's no-backup directory; cloud backup and device transfer are excluded. There is no cloud account or synchronization. Only if you ask, "Export my applications" saves a readable, unencrypted copy of your applications, history, notes and reference numbers wherever you choose; that file is outside JanSetu's control. Clearing app storage, uninstalling or losing the device/key can permanently lose these records. Encryption does not protect information displayed on an unlocked or compromised device. Reference numbers are masked until you reveal them. Do not enter passwords, OTPs or Aadhaar numbers in tracker fields; save document files in My Documents instead. Private tracker fields are not added to analytics, logs, notifications or support drafts.
+
+You can edit an application, delete one with confirmation, or deliberately remove all tracker data from My Applications. Deletion cancels corresponding local reminders and removes active records/history; it does not delete another application, the catalog or saved portals. No remote copy is kept by JanSetu. Filesystem-level forensic erasure is not guaranteed.
+
+My Documents: optional encrypted files on this device
+You choose whether to save a document. You pick a PDF, JPEG or PNG file (up to 15 MB) with Android's file picker. JanSetu checks that its contents are really that type of file, then keeps an encrypted copy; the original file is not changed or deleted. JanSetu stores the name and category you give the document, its file type, size, the date it was added and a fingerprint (hash) used to notice duplicates. It does not store the original file name's folder path or where the file came from. If you use Prepare documents on a service page, JanSetu also records which saved document you chose for each listed requirement. That records your own choice only: JanSetu does not check whether a document meets a requirement.
+
+Each document is encrypted with its own key, which is protected by a separate Android Keystore key used only for My Documents (not the key used by My Applications). Names, categories and your choices are encrypted too. Files are kept in Android's no-backup directory and are excluded from cloud backup and device transfer. There is no account, cloud copy or synchronization. Previews are decrypted in memory only; My Documents screens are hidden from screenshots, screen recording and the recent-apps preview. Anyone who can use your unlocked phone can open JanSetu, so keep a screen lock. Uninstalling JanSetu, clearing its storage, or losing the Keystore key (for example after a reset of security credentials) can make documents permanently unavailable. If the key is lost, JanSetu keeps the encrypted files and does not delete them unless you choose to remove them.
+
+JanSetu never uploads, sends or submits your documents. Two optional ways let you use one on an official website, and both start with you. "Export a copy" saves an unencrypted copy wherever you choose; that copy is outside JanSetu's control. If you turn on "Show My Documents in Android's file picker" (off by default), JanSetu: My Documents appears in the system file picker that browsers and other apps open for uploads. Only Android's picker can list your documents; an app or website receives only the one file you choose, read-only. That app can read the chosen file for up to one hour, or until you turn the option off, tap "Stop all file-picker access now" or delete the document. A copy already uploaded to a website is then held by that website under its own policy.
+
+You can rename, recategorize or delete a document, or remove all documents. Deleting removes the encrypted file and your preparation choices that used it. "Remove all documents" also deletes the My Documents key, so any fragments left on flash storage can no longer be decrypted. Filesystem-level forensic erasure of individual files is not guaranteed. Document contents, names and choices are not added to logs, notifications or support drafts.
+
+Optional deadline reminders
+Only if you opt in, JanSetu schedules an inexact local reminder around 09:00 in the device timezone, on your chosen day before the deadline. Android 13 and later also require notification permission. If notifications or the channel are disabled, the preference stays saved but no reminder is scheduled. Android may delay or prevent notification delivery, including battery restrictions or force-stop; scheduling does not confirm delivery. Reminders use generic text without application titles, reference numbers, notes or recorded statuses. They require no internet. Editing/removing a deadline or record changes/cancels its reminder; boot, clock/timezone changes and reopening the app reconcile future reminders.
+
+Official websites
+Most portal links open in your device browser. The National Portal of India can also open in JanSetu's limited in-app browser. An official site may receive your network request, use cookies, and collect information you choose to enter there under its own privacy policy. JanSetu does not read, log, or transmit the site's page contents, passwords, OTPs, or form values. WebView cookies and cache may remain in the app's storage until you clear app data or uninstall it. The official site controls its own processing and decisions.
+
+Browser extension
+The optional JanSetu Companion extension keeps its catalog locally. When you select its icon, it may read the active tab URL temporarily to match a listed official host. The extension cannot change how any website looks: it has no permission to insert styles or scripts into pages. An earlier optional "Readable text" style for one National Scholarship Portal page was withdrawn on 18 October 2026 because it showed no measured benefit, and has been removed from the extension. Reloading a page clears any style applied by an earlier version. The extension does not store browsing history, run content scripts, read forms or page contents, or send the URL to a JanSetu server. Opening an official link sends a normal request to that website.
+
+Support messages
+If you choose Report a problem or Contact support, your email app opens a draft addressed to utkarshvaibhav268@gmail.com. Nothing is sent until you send it. The draft may include the portal title and URL. Information you include in a sent message is used to respond and investigate the issue. Contact the same email to request deletion of a support message, subject to applicable retention obligations.
+
+Changes
+This policy will be updated if JanSetu adds a backend, analytics, accounts, or new data handling. Check the date above for the current version.
